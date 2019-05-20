@@ -3,9 +3,9 @@
 		<title>tmpTest</title>
 		<script type="text/javascript" src="calendar.js"></script>
 		<style>
-			a{font-family:Microsoft Yahei,Heiti,arial,helvetica,sans-serif,SimHei;}
-			.mctner a{position:relative;float:left;width:30px;text-align:center;margin-left:15px;margin-top:5px;display:block;border:1px dashed #cdcdcd;}
-			.mctner a:hover{position:relative;float:left;margin-left:15px;margin-top:5px;font-weight:bold;border:1px dashed green;}
+			.mctner .seriesTitle{position:relative;float:left;width:auto;padding:4px 14px;text-align:center;margin-left:15px;margin-top:5px;display:block;border:1px dashed #cdcdcd;font-family:Microsoft Yahei,Heiti,arial,helvetica,sans-serif,SimHei;}
+			.mctner .seriesItem{position:relative;float:left;width:auto;padding:4px 14px;text-align:center;margin-left:15px;margin-top:5px;display:block;border:1px dashed #cdcdcd;font-family:Microsoft Yahei,Heiti,arial,helvetica,sans-serif,SimHei;}
+			.mctner .seriesItem:hover{font-weight:bold;border:1px dashed green;}
 		</style>
 		<script type="text/javascript">
 			
@@ -14,25 +14,23 @@
 		</script>
 	</head>
 	<body>
+	
 		<div class="mctner" style="position:relative;width:60%;left:20%;top:100px;float:left;">
 		
-		<br/><br/><p style="width:100%;"><a title="工具" style="width:120px;display:table-row;border:1px solid #cdcdcd;">工具</a></p><br/><br/>
-		<div class="series" style="display: block;">
-			<a class="" href="http://tv.sohu.com/20140820/n403626737.shtml" target="_blank" title="1" style="text-decoration:none;">1</a>
-			<a class="" href="http://tv.sohu.com/20140820/n403626737.shtml" target="_blank" title="1" style="text-decoration:none;">2</a>
-		</div>
-		
-		<br/><br/><p style="width:100%;"><a title="测试" style="width:120px;display:table-row;border:1px solid #cdcdcd;">测试</a></p><br/><br/>
-		<div class="series" style="display: block;">
-			<a class="" href="#" target="_blank" title="1" style="text-decoration:none;">1</a>
-			<a class="" href="#" target="_blank" title="1" style="text-decoration:none;">2</a>
-			<a class="" href="#" target="_blank" title="1" style="text-decoration:none;">3</a>
-		</div>
+			<br/><br/><p style="width:100%;"><a class="seriesTitle" title="工具" style="display:table-row;border:1px solid #cdcdcd;">工具</a></p><br/><br/>
+			<div class="series" style="display: block;">
+				<a class="seriesItem" href="https://fxqy.github.io/tmpTest/adblockplusRules/easylistchina+easylist.txt" target="_blank" title="easylistchina+easylist.txt" style="text-decoration:none;">easylistchina+easylist.txt</a>
+				<a class="seriesItem" href="https://fxqy.github.io/tmpTest/adblockplusRules/easyprivacy.txt" target="_blank" title="easyprivacy.txt" style="text-decoration:none;">easyprivacy.txt</a>
+			</div>
+			
+			<br/><br/><p style="width:100%;"><a class="seriesTitle" title="测试" style="display:table-row;border:1px solid #cdcdcd;">测试</a></p><br/><br/>
+			<div class="series" style="display: block;">
+				<a class="seriesItem" href="#" target="_blank" title="1" style="text-decoration:none;">1</a>
+				<a class="seriesItem" href="#" target="_blank" title="2" style="text-decoration:none;">2</a>
+				<a class="seriesItem" href="#" target="_blank" title="3" style="text-decoration:none;">3</a>
+			</div>
 
-										
+		</div>							
 							
-		
-
-
 	</body>
 </html>
