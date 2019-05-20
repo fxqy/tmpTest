@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hello, Bootstrap Table!</title>
+	<link rel="stylesheet" href="./bootstrap.css">
+	<link rel="stylesheet" href="./bootstrap-table.min.css">
+	<link rel="stylesheet" href="./zTreeStyle.css">
+	<style type="text/css">
+		input{
+			height:30px;
+			border: 1px solid #ddd;
+			border-radius: 3px;
+		}
+		.btn {
+			text-decoration: none;
+			display: inline-block;
+			padding: 4px 12px;
+			margin-bottom: 0;
+			font-size: 14px;
+			line-height: 20px;
+			color: #555;
+			text-align: center;
+			text-decoration:none;
+			float:none;
+			text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+			vertical-align: middle;
+			cursor: pointer;
+			background-color: #f5f5f5;
+			background-image: -moz-linear-gradient(top,#fff,#e6e6e6);
+			background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));
+			background-image: -webkit-linear-gradient(top,#fff,#e6e6e6);
+			background-image: -o-linear-gradient(top,#fff,#e6e6e6);
+			background-image: linear-gradient(to bottom,#fff,#e6e6e6);
+			background-repeat: repeat-x;
+			border: 1px solid #bbb;
+			border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+			border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+			border-bottom-color: #a2a2a2;
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			border-radius: 4px;
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);
+			filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+			-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+			-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+			box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+			font-family:Microsoft Yahei,Heiti,arial,helvetica,sans-serif,SimHei;
+		}
+		.btn:hover {
+		  filter:alpha(opacity=80);
+		  -moz-opacity:0.8;
+		  -khtml-opacity:0.8;
+		  opacity:0.8;
+		}
+		.btn-large {
+			padding: 11px 19px;
+			font-size: 17.5px;
+			-webkit-border-radius: 6px;
+			-moz-border-radius: 6px;
+			border-radius: 6px;
+		}
+		.btn-mini {
+			padding: 1px 6px;
+			font-size: 10.5px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+		}
+		.btn-green {
+			color: #fff;
+			text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+			background-color: #5bb75b;
+			background-image: -moz-linear-gradient(top,#62c462,#51a351);
+			background-image: -webkit-gradient(linear,0 0,0 100%,from(#62c462),to(#51a351));
+			background-image: -webkit-linear-gradient(top,#62c462,#51a351);
+			background-image: -o-linear-gradient(top,#62c462,#51a351);
+			background-image: linear-gradient(to bottom,#62c462,#51a351);
+			background-repeat: repeat-x;
+			border-color: #51a351 #51a351 #387038;
+			border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462',endColorstr='#ff51a351',GradientType=0);
+			filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+		}
+		.btn-blue {
+			color: #fff;
+			text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+			background-color: #006dcc;
+			background-image: -moz-linear-gradient(top,#08c,#04c);
+			background-image: -webkit-gradient(linear,0 0,0 100%,from(#08c),to(#04c));
+			background-image: -webkit-linear-gradient(top,#08c,#04c);
+			background-image: -o-linear-gradient(top,#08c,#04c);
+			background-image: linear-gradient(to bottom,#08c,#04c);
+			background-repeat: repeat-x;
+			border-color: #04c #04c #002a80;
+			border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0044cc',GradientType=0);
+			filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+		}
+		.btn-lblue {
+			color: #fff;
+			text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+			background-color: #49afcd;
+			background-image: -moz-linear-gradient(top,#5bc0de,#2f96b4);
+			background-image: -webkit-gradient(linear,0 0,0 100%,from(#5bc0de),to(#2f96b4));
+			background-image: -webkit-linear-gradient(top,#5bc0de,#2f96b4);
+			background-image: -o-linear-gradient(top,#5bc0de,#2f96b4);
+			background-image: linear-gradient(to bottom,#5bc0de,#2f96b4);
+			background-repeat: repeat-x;
+			border-color: #2f96b4 #2f96b4 #1f6377;
+			border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de',endColorstr='#ff2f96b4',GradientType=0);
+			filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+		}
+	</style>
+	<script src="./jquery-1.11.1.min.js"></script>
+	<script src="./bootstrap-table.min.js"></script>
+	<script src="./jquery.ztree.core.min.js"></script>
+	<script src="./jquery.ztree.exhide.min.js"></script>
+	<script src="./fuzzysearch.js"></script>
+	<script src="./common.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		
+			initPageTable();
+			
+		});
+		var tableColumns = [
+			{
+				title: '序号',
+				align: 'center',
+				valign: 'middle',
+				sortable: false,
+				formatter: function(a,b,c){
+					return c+1;
+				}
+			},
+			{
+				field: 'typeaShow',
+				title: '类型A',
+				align: 'center',
+				valign: 'middle',
+				sortable: false,
+				formatter: function(a,b,c){
+					return '<input id="typeaShow_'+c+'" type="text" readonly/><input id="typea_'+c+'" type="hidden" value="'+b.typea+'"/>';
+				}
+			},
+			{
+				field: 'typebShow',
+				title: '类型B',
+				align: 'center',
+				valign: 'middle',
+				formatter: function(a,b,c){
+					return '<input id="typebShow_'+c+'" type="text" readonly/><input id="typeb_'+c+'" type="hidden" value="'+b.typeb+'"/>';
+				}
+			},
+			{
+				field: 'code',
+				title: '编号',
+				align: 'center',
+				valign: 'middle',
+				sortable: true,
+				width: '80px',
+				formatter: function(a,b,c){
+					return '<input id="code_'+c+'" type="text" value="'+a+'" />';
+				}
+			},
+			{
+				field: 'title',
+				title: '标题',
+				align: 'center',
+				valign: 'middle',
+				sortable: false,
+				formatter: function(a,b,c){
+					return '<input id="title_'+c+'" type="text" value="'+a+'" />';
+				}
+			},
+			{
+				title: '操作',
+				align: 'center',
+				valign: 'middle',
+				formatter: actionFormatter,
+				width: '100px'
+			}
+		];
+		var oldData = [{
+					id:"1",
+					typeaShow:"",
+					typea:"5",
+					typebShow:"",
+					typeb:"15",
+					code:"1111",
+					title:"11111111"
+				},{
+					id:"2",
+					typeaShow:"",
+					typea:"4",
+					typebShow:"",
+					typeb:"11",
+					code:"2222",
+					title:"22222222"
+				}];//模拟从数据库查到的老数据
+		var newGenId="newGenId";
+		function initPageTable() {
+			$PageTable = $("#pageListTable");
+			$PageTable.bootstrapTable({
+				uniqueId: "id",
+				columns: tableColumns,
+				data:oldData,
+				onSort:function(){
+					dealTableForm();
+				},
+				onPostBody:function(data){
+					initTableSelect(data);
+				}
+			});
+		}
+		function actionFormatter(value, row, index) {
+			return '<button class="btn btn-mini" onclick="deleteTableRow(\'' + row.id  + '\');">删除</button>';
+		}
+		function deleteTableRow(a){
+			dealTableForm();
+			if(a.indexOf(newGenId)>-1){
+				$PageTable.bootstrapTable('removeByUniqueId', a);
+			}else{
+				//后台删除成功后，$PageTable.bootstrapTable('removeByUniqueId', a);
+				console.log("后台删除...");
+			}
+			
+		}
+		function addTableRow(){
+			var em={
+				typeaShow:"",
+				typea:"",
+				typebShow:"",
+				typeb:"",
+				code:"",
+				title:""
+			};
+			dealTableForm(em);
+		}
+		
+		/**操作表格之前处理*/
+		function dealTableForm(em){
+			var list = $PageTable.bootstrapTable('getData');
+			var oarr =[];
+			var i,len=list.length;
+			for(i=0;i<len;i++){
+				var itm = list[i];
+				var itn={
+					id:itm.id,
+					typeaShow:$("#typeaShow_"+i).val(),
+					typea:$("#typea_"+i).val(),
+					typebShow:$("#typebShow_"+i).val(),
+					typeb:$("#typeb_"+i).val(),
+					code:$("#code_"+i).val(),
+					title:$("#title_"+i).val(),
+				};
+				oarr.push(itn);
+			}
+			$PageTable.bootstrapTable("removeAll");
+			len=oarr.length;
+			if(em){
+				em.id=newGenId+len;
+				oarr.push(em);
+				len++;
+			}
+			for(i=0;i<len;i++){
+				var itm = oarr[i];
+				$PageTable.bootstrapTable("append",itm);
+			}
+		}
+		function initTableSelect(list){
+			if(!list)list = $PageTable.bootstrapTable('getData');
+			for(var i=0,len=list.length;i<len;i++){
+				var itm = list[i];
+				initAllPageSelect([
+					{target:'typeaShow_'+i,type: "",value:itm.typea,query:1,clear:1},
+					{target:'typebShow_'+i,type: "",value:itm.typeb,clear:1}
+				]);
+			}
+		}
+		/**获取表格中表单数据*/
+		function getTableForm(){
+			var addList=[];//需要新增的数据
+			var updateList=[];//需要更新的数据
+			dealTableForm();
+			var list = $PageTable.bootstrapTable('getData');
+			for(var i=0;i<list.length;i++){
+				var itm = list[i];
+				var itn={};
+				for(it in itm){
+					itn[it]=itm[it];
+				}
+				if((itn.id+"").indexOf(newGenId)>-1){
+					itn.id="";
+					addList.push(itn);
+				}else{
+					updateList.push(itn);
+				}
+			}
+			
+			console.log("addList--------------------");
+			console.log(addList);
+			console.log("updateList--------------------");
+			console.log(updateList);
+		}
+	
+	</script>
+  </head>
+  <body>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+    <table id="pageListTable"></table>
+	<br/>
+	<button class="btn btn-green" onclick="addTableRow()">添加</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-lblue" onclick="getTableForm()">获取表单数据</button><br/>
+	<button class="btn" onclick="testJqueryExtend()">TEST</button>
+	
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+  </body>
+</html>
