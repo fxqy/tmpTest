@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: H6XGDOueP5VGA1+iNolyzA
-! Version: 201905281232
+! Checksum: OcGcql817f5HtBjmTepQXA
+! Version: 201905300541
 ! Title: EasyPrivacy
-! Last modified: 28 May 2019 12:32 UTC
+! Last modified: 30 May 2019 05:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1311,6 +1311,7 @@
 /csi?v=3&s=
 /csm/analytics;
 /csp_log?
+/csp_report.gne?
 /ctr_tracking.
 /ctrack?
 /ctrl.gif?ref=
@@ -15564,7 +15565,6 @@ $csp=worker-src 'none',domain=300mbfilms.co|akvideo.stream|alltube.pl|alltube.tv
 @@/wp-content/mu-plugins/google-analytics-dashboard-for-wp/*$script,stylesheet,~third-party
 @@/wp-content/mu-plugins/google-analytics-for-wordpress/*$script,stylesheet,~third-party
 @@/wp-content/mu-plugins/google-analytics-premium/*$script,stylesheet,~third-party
-@@/wp-content/plugins/google-analytics-dashboard-for-wp/*$script,stylesheet,~third-party
 @@/wp-content/plugins/google-analytics-for-wordpress/*$script,stylesheet,~third-party
 @@/wp-content/plugins/google-analytics-premium/*$script,stylesheet,~third-party
 @@||1dmp.io/pixel.gif$image,domain=overclockers.co.uk
