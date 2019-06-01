@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: OcGcql817f5HtBjmTepQXA
-! Version: 201905300541
+! Checksum: QYPjI+55rVxycUUnYwjeJQ
+! Version: 201906010241
 ! Title: EasyPrivacy
-! Last modified: 30 May 2019 05:41 UTC
+! Last modified: 01 Jun 2019 02:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -15382,7 +15382,6 @@ $csp=worker-src 'none',domain=300mbfilms.co|akvideo.stream|alltube.pl|alltube.tv
 ||mytoys.ru/ka_z.jpg?
 ||ngs.ru/s/
 ||ok.ru/dk?cmd=videoStatNew
-||ok.ru/gwtlog
 ||ozon.ru/tracker/
 ||radar.imgsmail.ru^
 ||rbc.ru/click?
