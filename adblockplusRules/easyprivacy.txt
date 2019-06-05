@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: XavlIRmDHl+uSufgL/QsYA
-! Version: 201906041311
+! Checksum: WG3rGsNj60fPeu275ls59g
+! Version: 201906050621
 ! Title: EasyPrivacy
-! Last modified: 04 Jun 2019 13:11 UTC
+! Last modified: 05 Jun 2019 06:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3603,6 +3603,8 @@
 /tracciamento.php?
 /tracdelight.js
 /trace-Update.php?
+/trace/link/*$image
+/trace/mail/*$image
 /trace?sessionid=
 /traces.php?
 /tracing?aspect=
@@ -9664,6 +9666,7 @@ _mongo_stats/
 ||digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||directnews.co.uk/feedtrack/
 ||dirt.dennis.co.uk^
+||discovery.com^*/events
 ||disqus.com/api/ping?$third-party
 ||disqus.com/event.js?$script
 ||disqus.com/stats.html
@@ -15627,7 +15630,7 @@ $csp=worker-src 'none',domain=300mbfilms.co|akvideo.stream|alltube.pl|alltube.tv
 @@||api.branch.io^*/open$xmlhttprequest
 @@||api.chartbeat.com^$script,domain=betabeat.com|couriermail.com.au|financialpost.com|wcpo.com
 @@||api.cxense.com/public/widget/data?$script
-@@||api.perfops.net^$xmlhttprequest,domain=dnsperf.com
+@@||api.perfops.net^$script,xmlhttprequest,domain=dnsperf.com
 @@||api.vidaxl.com^*/trackingservice/customerportal/*?$xmlhttprequest,domain=tracking.vidaxl.com
 @@||app.focalmark.com/bower_components/angulartics-google-analytics/$script,~third-party
 @@||app.instapage.com/ajax/$xmlhttprequest
