@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: J9wZuNO74w2R6NeNEj86XA
-! Version: 201906061141
+! Checksum: 7OvWKTGeMsIvTAm+lgUp5g
+! Version: 201906071431
 ! Title: EasyPrivacy
-! Last modified: 06 Jun 2019 11:41 UTC
+! Last modified: 07 Jun 2019 14:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6409,6 +6409,7 @@ _mongo_stats/
 ||putags.com^$third-party
 ||pxf.io^$third-party
 ||pxi.pub^$third-party
+||pxlad.io^$third-party
 ||pymx5.com^$third-party
 ||pzkysq.pink^$third-party
 ||q-counter.com^$third-party
@@ -14458,6 +14459,7 @@ $csp=worker-src 'none',domain=300mbfilms.co|akvideo.stream|alltube.pl|alltube.tv
 ||demandware.edgesuite.net^*/omniture.js$domain=otterbox.com
 ||disneylandparis.fr^*/s_code.js
 ||eltiempo.com/js/produccion/s_code_*.js
+||event-analytics.yesware.com^
 ||expressen.se/static/scripts/s_code.js?
 ||ge.com/sites/all/themes/ge_2012/assets/js/bin/s_code.js
 ||hayneedle.com/js/s_code.min.*.js
@@ -15860,6 +15862,8 @@ $csp=worker-src 'none',domain=300mbfilms.co|akvideo.stream|alltube.pl|alltube.tv
 @@||gardenista.com/media/js/libs/ga_social_tracking.js
 @@||garmin.com/modern/main/js/properties/metrics/metrics$domain=garmin.com
 @@||gatheringmagic.com/wp-content/plugins/bwp-minify/min/*/google-analyticator/$script
+@@||gatsbyjs.org/packages/$xmlhttprequest
+@@||gatsbyjs.org/page-data/packages/$xmlhttprequest
 @@||geo.kaloo.ga/json/?$script,domain=telesurtv.net
 @@||geo.query.yahoo.com^$xmlhttprequest,domain=m.flickr.com
 @@||geoplugin.net/javascript.gp$script,domain=christianhouseshare.com.au|gamemazing.com|soundsonline.com|support.netgear.com|support.netgear.de|support.netgear.es|support.netgear.fr|support.netgear.it|support.netgear.ru
