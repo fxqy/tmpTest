@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: v7x3dxCOIK4ppRWoeHqVoA
-! Version: 201906091321
+! Checksum: dKdnJtZLt+VHehx/owFBZw
+! Version: 201906101241
 ! Title: EasyPrivacy
-! Last modified: 09 Jun 2019 13:21 UTC
+! Last modified: 10 Jun 2019 12:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2670,6 +2670,7 @@
 /page_analytics.
 /page_counter.
 /page_imp;
+/pageaction/trackEvent
 /pagead/conversion_
 /PageCount.php?
 /pageCounter.adp?
@@ -4953,6 +4954,7 @@ _mongo_stats/
 ||assoctrac.com^$third-party
 ||astro-way.com^$third-party
 ||atatus.com^$third-party
+||atgsvcs.com^$third-party
 ||athenainstitute.biz^$third-party
 ||atoshonetwork.com^$third-party
 ||atticwicket.com^$third-party
@@ -12554,6 +12556,7 @@ _mongo_stats/
 ||facebook.com/search/web/instrumentation.php?
 ||facebook.com/xti.php?
 ||facebook.com^*/impression_logging/
+||fanatical.com^*/fansp.js
 ||fanfiction.net/eye/
 ||fanhow.com/script/tracker.js
 ||fantasticfiction.co.uk/cgi-bin/checker.cgi
@@ -12847,7 +12850,7 @@ _mongo_stats/
 ||imonitor.dhgate.com^
 ||imp-media-lab.thenewslens.com^
 ||imx.comedycentral.com^
-||indeed.com/rpc/
+||indeed.com/rpc/$~xmlhttprequest
 ||independentmail.com/metrics/
 ||indiatimes.com/trackjs10.
 ||indiatimes.com^*/notify.htm
@@ -13255,6 +13258,7 @@ _mongo_stats/
 ||omni.nine.com.au^
 ||omniture.stuff.co.nz^
 ||omniture.theglobeandmail.com^
+||oms.expedia.com^
 ||onetravel.com/TrackOnetravelAds.js
 ||oodle.co.uk/event/track-first-view/
 ||oodle.com/js/suntracking.js
@@ -14174,6 +14178,7 @@ _mongo_stats/
 ||vg247.com/pv?
 ||viamichelin.co.uk^*/stats.js
 ||viamichelin.de^*/stats.js
+||viator.com/orion/perfMetric
 ||vice.com*/mb_tracker.html
 ||vice.com*/tracker.html
 ||victoriassecret.com/m/a.gif?
@@ -15774,6 +15779,7 @@ $csp=worker-src 'none',domain=300mbfilms.co|akvideo.stream|alltube.pl|alltube.tv
 @@||ctv.ca/players/mediaplayer/*/comscorebeacon.js
 @@||cxense.com/cx.js$domain=brandonsun.com|channelnewsasia.com|winnipegfreepress.com
 @@||d1l6p2sc9645hc.cloudfront.net/tracker.js|
+@@||d1z2jf7jlzjs58.cloudfront.net/p.js$script,domain=nfl.com
 @@||d2dq2ahtl5zl1z.cloudfront.net/analytics.js/*/analytics.min.js$domain=architizer.com
 @@||d2pe20ur0h0p8p.cloudfront.net/identity/*/wapo_identity_full.js$domain=washingtonpost.com
 @@||d2pe20ur0h0p8p.cloudfront.net/identity/*/wapo_jskit_addon.js$domain=washingtonpost.com
