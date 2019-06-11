@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: dKdnJtZLt+VHehx/owFBZw
-! Version: 201906101241
+! Checksum: uvYqDIF6CzdBoKGosD7Mtg
+! Version: 201906110401
 ! Title: EasyPrivacy
-! Last modified: 10 Jun 2019 12:41 UTC
+! Last modified: 11 Jun 2019 04:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6637,7 +6637,6 @@ _mongo_stats/
 ||silvergamed.com^$third-party
 ||silverpop.com^$third-party
 ||silverpush.co^$third-party
-||simility.com^$third-party
 ||simonsignal.com^$third-party
 ||simpleanalytics.io^$third-party
 ||simpleheatmaps.com^$third-party
@@ -8600,6 +8599,7 @@ _mongo_stats/
 ||marsflag.com^$third-party
 ||mobylog.jp^$third-party
 ||n8s.jp^$third-party
+||nex8.net^$third-party
 ||omiki.com^$third-party
 ||owldata.com^$third-party
 ||pagoda56.com^$third-party
@@ -11610,6 +11610,7 @@ _mongo_stats/
 ||clickanalyzer.jp^$third-party
 ||counter2.blog.livedoor.com^
 ||imgstat.ameba.jp^$third-party
+||ip2c.landscape.co.jp^
 ||l.popin.cc^
 ||lcs.livedoor.net^
 ||log.nordot.jp^
@@ -15256,6 +15257,7 @@ $csp=worker-src 'none',domain=300mbfilms.co|akvideo.stream|alltube.pl|alltube.tv
 ||volkswagen-italia.it^*/tracking/
 ||yachtingnetwork.it/stat/
 ! Japanese
+||amazonaws.com/ai-img/aia.js
 ||ameblo.jp/accesslog/
 ||analytics.cocolog-nifty.com^
 ||analyzer.fc2.com^
