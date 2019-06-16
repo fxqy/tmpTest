@@ -149,7 +149,11 @@ function downloadExl(){
 
 function headStyle(){
 	return {
-		font:{name:"Microsoft Yahei",color:{rgb:"FF000000"}/**,bold:true**/},
+		font:{
+			name:"Microsoft Yahei",
+			color:{rgb:"FF000000"}
+			/**,bold:true**/
+		},
 		border:{
 			top: {style:"thin"},
 			bottom: {style:"thin"},
@@ -184,7 +188,7 @@ function getCharCol(o) {
 	var c = String.fromCharCode(b + 65);
 	var r = "";
 	if (a > 0)
-		r = genBcStr(a-1);
+		r = getCharCol(a-1);
 	return r + c;
 }
 function s2ab(s) {

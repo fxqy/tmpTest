@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: yY0w3oMWGPmaAXaExU4fnA
-! Version: 201906150236
+! Checksum: 1gVJ3c9btv92YmrQwVYxhA
+! Version: 201906160141
 ! Title: EasyPrivacy
-! Last modified: 15 Jun 2019 02:36 UTC
+! Last modified: 16 Jun 2019 01:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -76,6 +76,7 @@
 -mediaplex_
 -optimost-
 -page-analytics.
+-pixel.*?uuid=
 -pixelfront-analytics.
 -rttracking.
 -sa-tracker-
@@ -600,6 +601,7 @@
 /analytics.v1.js
 /analytics/*.gif?t=
 /analytics/*satellitelib.js
+/analytics/?*&url=
 /analytics/?event
 /analytics/activity.
 /analytics/analytics.$~xmlhttprequest
@@ -4062,6 +4064,7 @@
 /vblntpagetag.
 /vecapture.js
 /vendemologserver-
+/vendor/xtcore.
 /vertical-stats.
 /vglnk.js
 /vgwort/*
@@ -4527,6 +4530,7 @@ _quantcast.swf
 _quantcast_tag.
 _resource/analytics.js
 _rpc/log?
+_saveUserEventLog.
 _sdctag1_
 _sdctag2.
 _semanticTag/
@@ -6676,6 +6680,7 @@ _mongo_stats/
 ||smarterhq.io^$third-party
 ||smarterremarketer.net^$third-party
 ||smartlook.com^$third-party
+||smartocto.com^$third-party
 ||smartology.co^$third-party
 ||smartracker.net^$third-party
 ||smartsuppchat.com^$third-party
@@ -8332,6 +8337,7 @@ _mongo_stats/
 ||ncdnprorogeraie.lol^$third-party
 ||netquattro.com/stats/
 ||netvigie.com^$third-party
+||organicfruitapps.com^$third-party
 ||phywi.org^$third-party
 ||reseau-pub.com^$third-party
 ||semiocast.com^$third-party
@@ -8782,6 +8788,7 @@ _mongo_stats/
 ||musiccounter.ru^$third-party
 ||mystat-in.net^$third-party
 ||personage.name^$third-party
+||pladform.ru^$third-party
 ||pmbox.biz^$third-party
 ||proext.com^$third-party
 ||quick-counter.net^$third-party
@@ -10667,6 +10674,7 @@ _mongo_stats/
 ||statt-collect.herokuapp.com^
 ||stg-data-collector.playbuzz.com^
 ||stileproject.com/vhtk/
+||storage.data-vp.com/vp/t.js
 ||streamads.com/view?
 ||stripe.com/?event=
 ||su.addthis.com^
@@ -10823,6 +10831,7 @@ _mongo_stats/
 ||track.yieldsoftware.com^
 ||tracker.affirm.com^
 ||tracker.beezup.com^
+||tracker.data-vp.com^
 ||tracker.downdetector.com^
 ||tracker.everestnutrition.com^
 ||tracker.financialcontent.com^
@@ -12014,6 +12023,7 @@ _mongo_stats/
 ||analytics.localytics.com^
 ||analytics.mindjolt.com^
 ||analytics.newsinc.com^
+||analytics.ngfiles.com^
 ||analytics.omgpop.com/log
 ||analytics.plex.tv^
 ||analytics.posttv.com^
@@ -16023,9 +16033,9 @@ $csp=worker-src 'none',domain=300mbfilms.co|akvideo.stream|alltube.pl|alltube.tv
 @@||marketo.com/js/forms2/js/$script,stylesheet
 @@||maserati.com^*/transparent1x1.png
 @@||maxmind.com/app/country.js$domain=lenovo.com|nationalgeographic.com|paypal.fr
-@@||maxmind.com/geoip/$xmlhttprequest,domain=elgato.com
+@@||maxmind.com/geoip/$xmlhttprequest,domain=elgato.com|filld.com
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
-@@||maxmind.com^*/geoip2.js$domain=boostedboards.com|elgato.com|fallout4.com|metronews.ca|mtv.com.lb|runningheroes.com|teslamotors.com
+@@||maxmind.com^*/geoip2.js$domain=boostedboards.com|elgato.com|fallout4.com|filld.com|metronews.ca|mtv.com.lb|runningheroes.com|teslamotors.com
 @@||mec.ca/media/javascript/resxclsx.js
 @@||media-imdb.com^*/clickstream.js
 @@||media.ft.com/j/optimost-$domain=ft.com
