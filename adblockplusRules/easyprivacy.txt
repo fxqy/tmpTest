@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 8I+68pakmkchPf1f95+/Lg
-! Version: 201906180251
+! Checksum: X3zivJqsCZ2iMScsH1zHHA
+! Version: 201906200541
 ! Title: EasyPrivacy
-! Last modified: 18 Jun 2019 02:51 UTC
+! Last modified: 20 Jun 2019 05:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1119,6 +1119,7 @@
 /clicky.js
 /client-event-logger.
 /client-event.axd?
+/client-metrics/?target
 /client_pathlog.asp?
 /clientdatacollector/*
 /clientlib-analytics-
@@ -4161,6 +4162,7 @@
 /wdg/tracking-
 /wdg_tracking-
 /web-analytics.
+/web-api/log/*
 /web/analytics.$script
 /web_analytics/*
 /web_answertip.
@@ -7112,6 +7114,7 @@ _mongo_stats/
 ||waust.at^$third-party
 ||wbdx.fr^$third-party
 ||wbtrk.net^$third-party
+||we-stats.com^$third-party
 ||web-boosting.net^$third-party
 ||web-counter.net^$third-party
 ||web-stat.com^$third-party
@@ -12290,6 +12293,7 @@ _mongo_stats/
 ||classic.comunio.*/external/ct/ct.js
 ||clc.stackoverflow.com^
 ||clck.yandex.com^
+||clck.yandex.ru^
 ||click.aliexpress.com^$image,script
 ||click.engage.xbox.com^
 ||click.jasmin.com^
