@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: l5Ue5oxxiIW+pp637QedmA
-! Version: 201906230911
+! Checksum: vZD3e6Xr6AW/EWrNIdyERA
+! Version: 201906241121
 ! Title: EasyPrivacy
-! Last modified: 23 Jun 2019 09:11 UTC
+! Last modified: 24 Jun 2019 11:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -16710,7 +16710,7 @@ $csp=worker-src 'none',domain=akvideo.stream|alltube.pl|alltube.tv|animeteatr.ru
 @@||googletagmanager.com/gtm.js?$domain=iphoneitalia.com|la7.it
 @@||ilsole24ore.com^*/fingerprint2.min.js?
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=la7.it|sky.it|video.corriere.it
-@@||imrworldwide.com/v60.js$domain=corriereadriatico.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|leggo.it|quotidianodipuglia.it
+@@||imrworldwide.com/v60.js$domain=corriereadriatico.it|fanpage.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|leggo.it|quotidianodipuglia.it
 @@||kataweb.it/wt/wt.js?http$domain=video.repubblica.it
 @@||lastampa.it/modulo/tracciatori/js/nielsen.js
 @@||maxmind.com^*/geoip.js$domain=sportube.tv
