@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 7wvCI1RfJ52i41+05VbCqg
-! Version: 201906251331
+! Checksum: RRaLVw04iU4fvXxK3fvTkw
+! Version: 201906270841
 ! Title: EasyPrivacy
-! Last modified: 25 Jun 2019 13:31 UTC
+! Last modified: 27 Jun 2019 08:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7919,11 +7919,13 @@ _mongo_stats/
 ||coordinatedcub.com^$third-party
 ||copycarpenter.com^$third-party
 ||delegatediscussion.com^$third-party
+||desiredirt.com^$third-party
 ||detectdiscovery.com^$third-party
 ||ejyymghi.com^$third-party
 ||familiarfloor.com^$third-party
 ||fearfulflag.com^$third-party
 ||flakyfeast.com^$third-party
+||forecasttiger.com^$third-party
 ||frailoffer.com^$third-party
 ||giddycoat.com^$third-party
 ||gorgeousground.com^$third-party
@@ -12349,6 +12351,7 @@ _mongo_stats/
 ||collect.sas.com^
 ||collect2.sas.com^
 ||collection.theaa.com^
+||collector*.xhamster.com^
 ||collector-cdn.github.com^
 ||collector-medium.lightstep.com^
 ||collector.githubapp.com^
@@ -12360,8 +12363,6 @@ _mongo_stats/
 ||collector.statowl.com^
 ||collector.tescocompare.com^
 ||collector.trendmd.com^
-||collector.xhamster.com^
-||collector1.xhamster.com^
 ||collegehumor.com/track.php?
 ||commentarymagazine.com^*/track.asp?
 ||commercialappeal.com/metrics/
@@ -14341,6 +14342,7 @@ _mongo_stats/
 ||xda-cdn.com/analytics.js
 ||xda-developers.com/ping.php
 ||xfinity.com/event/
+||xhamster.com/?log=
 ||xhamster.com/ajax.php?act=track_event
 ||xhamster.com/embed.log/
 ||xhcdn.com/js/track.
@@ -15362,6 +15364,7 @@ $csp=worker-src 'none',domain=akvideo.stream|alltube.pl|alltube.tv|animeteatr.ru
 ||mklik.gazeta.pl^
 ||nasza-klasa.pl^*/pp_gemius
 ||p.gazeta.pl^
+||pixel.wp.pl^
 ||rek.www.wp.pl^
 ||savecart.pl/d/
 ||squid.gazeta.pl/bdtrck/
@@ -15631,6 +15634,7 @@ $csp=worker-src 'none',domain=akvideo.stream|alltube.pl|alltube.tv|animeteatr.ru
 @@||adp.com^*/heatmap.js
 @@||adprotv.com^*/comscore.streaming.$script,domain=mundodeportivo.com
 @@||aflac.com/js/wt_capi.js
+@@||afs-prod.appspot.com^*/tag?tags=$xmlhttprequest,domain=apnews.com
 @@||airfordable.com^*/angulartics-google-analytics.min.js$domain=airfordable.com
 @@||akamai.net^*/omniture.jsp$script,domain=walmart.com
 @@||akamaihd.net/worldwide_analytics/$script,domain=ubi.com|ubisoft.com
@@ -15962,7 +15966,7 @@ $csp=worker-src 'none',domain=akvideo.stream|alltube.pl|alltube.tv|animeteatr.ru
 @@||images-iherb.com/js/ga-pro*.js$domain=iherb.com
 @@||img.en25.com/eloquaimages/clients/PentonMediaInc/$image,domain=windowsitpro.com
 @@||imrworldwide.com/crossdomain.xml$object-subrequest,domain=cc.com|sbs.com.au
-@@||imrworldwide.com/novms/*/ggcm*.js$domain=9now.com.au|europafm.com
+@@||imrworldwide.com/novms/*/gg*.js$domain=9now.com.au|europafm.com|news.com.au
 @@||imrworldwide.com/v60.js$domain=last.fm|musicfeeds.com.au|nzherald.co.nz|realestateview.com.au|sf.se|threenow.co.nz|weatherchannel.com.au
 @@||imrworldwide.com^*-mediaplayer&$domain=au.launch.yahoo.com
 @@||imrworldwide.com^*/flashdetect.js
@@ -16275,6 +16279,7 @@ $csp=worker-src 'none',domain=akvideo.stream|alltube.pl|alltube.tv|animeteatr.ru
 @@||tags.bkrtx.com/js/bk-coretag.js$domain=mlb.com
 @@||tags.bluekai.com/site/*?ret=$subdocument,domain=mlb.com|zillow.com
 @@||tags.crwdcntrl.net^$script,domain=indiatimes.com|weather.com
+@@||tags.news.com.au/prod/heartbeat/v2/VideoHeartbeat.min.js$domain=news.com.au
 @@||tags.news.com.au/prod/metrics/metrics.js$script,~third-party
 @@||tags.w55c.net/rs?*&t=marketing$image
 @@||tc.bankofamerica.com/c?
