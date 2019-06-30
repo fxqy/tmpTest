@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: +tAKNmRgoMXL9cK4FcsVJw
-! Version: 201906290141
+! Checksum: v0NFuRQQ5cHgLkBPaaz3Ig
+! Version: 201906300701
 ! Title: EasyPrivacy
-! Last modified: 29 Jun 2019 01:41 UTC
+! Last modified: 30 Jun 2019 07:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10266,6 +10266,7 @@ _mongo_stats/
 ||netscape.com/c.cgi?
 ||neulion.vo.llnwd.net^*/track.js
 ||news.banggood.com/mo/$image,third-party
+||news.co.uk^*/propensities?
 ||newsanalytics.com.au^$third-party
 ||newsletters.infoworld.com/db/$image,third-party
 ||newsletters.nationalgeographic.com^$image,third-party
@@ -16419,6 +16420,7 @@ $csp=worker-src 'none',domain=akvideo.stream|alltube.pl|alltube.tv|animeteatr.ru
 @@||yimg.com^*/ywa.js$domain=nydailynews.com|travelscream.com|yahoo.com
 @@||ynet.co.il/Common/App/Video/Gemius/gstream.js
 @@||ynetnews.com/Common/App/Video/Gemius/gstream.js
+@@||yottaa.net^*/scripts/eventtracking/$script,domain=containerstore.com
 @@||youbora.com/*/js/adapters/jwplayer$script
 @@||youtube.com/api/analytics/$~third-party
 @@||youtube.com/api/stats/playback?$image,object-subrequest
