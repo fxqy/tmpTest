@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: v0NFuRQQ5cHgLkBPaaz3Ig
-! Version: 201906300701
+! Checksum: HzaxQPsWzfYHGuVGsPIS5Q
+! Version: 201907011401
 ! Title: EasyPrivacy
-! Last modified: 30 Jun 2019 07:01 UTC
+! Last modified: 01 Jul 2019 14:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -722,6 +722,7 @@
 /api/pixel?
 /api/stat?
 /api/tracking/*
+/api/v1/collector
 /api/v1/metrics
 /api/v1/stat?
 /api/x.gif?
@@ -1639,6 +1640,7 @@
 /ft/hit/*
 /FTTrack2.js
 /g-track/*
+/g2insights.
 /g=analytics&
 /g_track.php?
 /ga*.js?PID=
@@ -3410,6 +3412,7 @@
 /stats.gif?
 /stats.hitbox.com/*
 /stats.php?*http
+/stats.php?format=
 /stats.php?type=
 /stats.php?uri=
 /stats/*?category=$image
@@ -7946,6 +7949,7 @@ _mongo_stats/
 ||jewelcheese.com^$third-party
 ||lizardslaugh.com^$third-party
 ||mowfruit.com^$third-party
+||nervoussummer.com^$third-party
 ||petiteumbrella.com^$third-party
 ||photographpan.com^$third-party
 ||pietexture.com^$third-party
@@ -8693,7 +8697,6 @@ _mongo_stats/
 ||nsaudience.pl^$third-party
 ||p071qmn.com^$third-party
 ||pushdom.co^$third-party
-||quartic.pl^$third-party
 ||rejestr.org^$third-party
 ||spolecznosci.net^$third-party
 ||stat.4u.pl^$third-party
@@ -9344,6 +9347,7 @@ _mongo_stats/
 ||bufferapp.com/wf/open?upn=$third-party
 ||bumpin.com^*/analytics.html
 ||business.sharedcount.com^$third-party
+||buybox.click/analytics.js
 ||buzzbox.buzzfeed.com^
 ||bzgint.com/CUNCollector/
 ||bzpics.com/jslib/st.js?
@@ -10394,6 +10398,7 @@ _mongo_stats/
 ||pixhosting.com/ct/jct.php?
 ||planet49.com/log/
 ||platform.communicatorcorp.com^$third-party
+||platform.iteratehq.com^$third-party
 ||platform.twitter.com/impressions.js$third-party
 ||player.ooyala.com/errors/report?
 ||playtomic.com/Tracker/
@@ -11698,6 +11703,7 @@ _mongo_stats/
 ||liczniki.org/hit.php
 ||pixel.homebook.pl^
 ||ppstatic.pl^*/track.js
+||rec.quartic.pl^
 ||scontent.services.tvn.pl^
 ||stats.asp24.pl^
 ||stats.media.onet.pl^
@@ -12148,6 +12154,7 @@ _mongo_stats/
 ||avstop.com^*/poll.gif?
 ||axa.com/elements/js/wreport.js
 ||azfamily.com/images/pixel.gif
+||azureedge.net/prod/1.0/fp.min.js$domain=mercurynews.com
 ||b-aws.techcrunch.com^
 ||b.huffingtonpost.com^
 ||b.imwx.com^
@@ -13761,6 +13768,7 @@ _mongo_stats/
 ||sp.press-citizen.com^
 ||sp.pressconnects.com^
 ||sp.publicopiniononline.com^
+||sp.pushsquare.com^
 ||sp.redding.com^
 ||sp.reporternews.com^
 ||sp.rgj.com^
