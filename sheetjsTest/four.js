@@ -28,7 +28,7 @@ function getExportJson(jarray){
 		var mgs = [];
 		var flds = [];
 		var tmpdata={};
-		var i = 5, j = 0, k = 5;
+		var i = 1, j = 0, k = 1;
 		var minR=i,minC=k;
 		var maxR=i,maxC=k;
 		for (var q=0,lenq=cols.length;q<lenq;q++) {
