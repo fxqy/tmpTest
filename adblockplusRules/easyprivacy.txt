@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: KGbSjCPSGyPoLFtSv3Vn9w
-! Version: 201907070301
+! Checksum: 8EiuzTZm0EVi4p9SxsYp4Q
+! Version: 201907081311
 ! Title: EasyPrivacy
-! Last modified: 07 Jul 2019 03:01 UTC
+! Last modified: 08 Jul 2019 13:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1191,6 +1191,7 @@
 /com_joomlawatch/*
 /common/tracker.js
 /competeTracking_test.html?
+/comscore-min.js
 /comscore.
 /comscore/pageview_
 /comscore/streamsense.
@@ -13571,7 +13572,6 @@ _mongo_stats/
 ||rs.mail.ru^
 ||rsscache.com/Section/Stats/
 ||rsys2.net/pub/as?
-||rt.com^*/pixel.gif
 ||rt.prnewswire.com^
 ||rt.rakuten.co.jp^$~xmlhttprequest
 ||rta.dailymail.co.uk^
@@ -14869,6 +14869,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||topnews.de^*/aws.cgi?
 ||tp.deawm.com^
 ||tr.werkenntwen.de^
+||track.bazonline.ch^
 ||track.bernerzeitung.ch^
 ||track.cinestar.de^
 ||track.derbund.ch^
