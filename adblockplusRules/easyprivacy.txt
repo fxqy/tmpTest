@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 2aiZQQ5pyOtrJ5P8EYWrZw
-! Version: 201907140911
+! Checksum: 0QI63pm4t7qs9oS06s/gJg
+! Version: 201907150501
 ! Title: EasyPrivacy
-! Last modified: 14 Jul 2019 09:11 UTC
+! Last modified: 15 Jul 2019 05:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -11935,7 +11935,7 @@ _mongo_stats/
 ||123rf.com/j/ga.js
 ||123rf.com/tk/
 ||123rf.com/tr/
-||1337x.to/ip.php
+||1337x.to/ip3.php
 ||192.com/log/
 ||198.105.253.2/lvl3/$image,domain=searchguide.level3.com
 ||1e400.net/tracking.js
