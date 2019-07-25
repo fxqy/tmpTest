@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 77GVYczt2DB+LpIFQ2HzJA
-! Version: 201907240301
+! Checksum: tnqWOwgwT24HPnSOK2BTjg
+! Version: 201907250751
 ! Title: EasyPrivacy
-! Last modified: 24 Jul 2019 03:01 UTC
+! Last modified: 25 Jul 2019 07:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -558,6 +558,7 @@
 /analysis-logger/*
 /analysis/ga_
 /analysis/gtm_
+/analytic-client.
 /analytic/count.
 /analytic?publisher
 /analytic_data_
@@ -7993,6 +7994,7 @@ _mongo_stats/
 ||balancebreath.com^$third-party
 ||bh8yx.xyz^$third-party
 ||broaddoor.com^$third-party
+||carscannon.com^$third-party
 ||consciouscabbage.com^$third-party
 ||consciouschairs.com^$third-party
 ||coordinatedcub.com^$third-party
@@ -13000,7 +13002,6 @@ _mongo_stats/
 ||iafrica.com/php-bin/iac/readcnt.php?
 ||ibeat.indiatimes.com^
 ||iberia.com^*/ga/ga.js
-||ibm.com/analytics/
 ||ibm.com/common/stats/
 ||ibm.com/gateway/?
 ||ibs.indiatimes.com^
