@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: tnqWOwgwT24HPnSOK2BTjg
-! Version: 201907250751
+! Checksum: BVf1EL3X1mAusJZ6GqHiQA
+! Version: 201907270431
 ! Title: EasyPrivacy
-! Last modified: 25 Jul 2019 07:51 UTC
+! Last modified: 27 Jul 2019 04:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5476,6 +5476,7 @@ _mongo_stats/
 ||dynatrace.com^$third-party
 ||dynatracesaas.com^$third-party
 ||dyntrk.com^$third-party
+||e-contenta.com^$third-party
 ||e-goi.com^$third-party,domain=~e-goi.com.br|~e-goi.pt
 ||e-pagerank.net^$third-party
 ||e-referrer.com^$third-party
@@ -5835,6 +5836,7 @@ _mongo_stats/
 ||hurterkranach.net^$third-party
 ||hwpub.com^$third-party
 ||hxtrack.com^$third-party
+||hybrid.ai^$third-party
 ||hyfntrak.com^$third-party
 ||hyperactivate.com^$third-party
 ||hypestat.com^$third-party
@@ -7258,11 +7260,11 @@ _mongo_stats/
 ||wildxtraffic.com^$third-party
 ||wiredminds.de^$third-party
 ||wisetrack.net^$third-party
-||wishabi.net^$third-party
 ||wishloop.com^$third-party
 ||womtp.com^$third-party
 ||woopra-ns.com^$third-party
 ||woopra.com^$third-party
+||wootric.com^$third-party
 ||worldflagcounter.com^$third-party
 ||worldlogger.com^$third-party
 ||wowanalytics.co.uk^$third-party
@@ -10671,6 +10673,7 @@ _mongo_stats/
 ||sharethis.com/pageviews?
 ||shopify.com/*/page?*&eventType=
 ||shoplocal.com/it.ashx?
+||shopnetic.com^$third-party
 ||shoprunner.com^*/record?
 ||sig.atdmt.com^
 ||sig.gamerdna.com^$third-party
@@ -11207,6 +11210,7 @@ _mongo_stats/
 ||wikinvest.com/plugin/*=metricpv
 ||wikinvest.com^*/errorlogger.php?
 ||win.staticstuff.net^
+||wishabi.net/attribution.js
 ||wn.com/count.js
 ||wondershare.es/jslibs/track.js
 ||woolik.com/__el.gif?
@@ -13321,6 +13325,7 @@ _mongo_stats/
 ||mozilla.org/includes/min/*=js_stats
 ||mp.twitch.tv^
 ||mp3lyrics.org^*/cnt.php?
+||mql5.com/tr?
 ||msecnd.net^*/wt.js?
 ||msn.com/ro.aspx?
 ||msn.com/script/tracking*.js
@@ -14456,6 +14461,7 @@ _mongo_stats/
 ||webmonkey.com/js/stats/
 ||webring.com/cgi-bin/logit?
 ||webstats.perfectworld.com^
+||webstats.thesoul-publishing.com^
 ||webyclip.com/WebyClipAnalytics.html
 ||weeklyblitz.net/tracker.js
 ||wego.com/farmer/
@@ -14647,7 +14653,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ! Preliminarily blocking Omniture s_code tracking scripts (versions H.25 - H.25.2) due to breakage (https://adblockplus.org/forum/viewtopic.php?f=10&t=11378)
 ||abc.com/service/gremlin/js/files/s_code.js?$domain=abc.go.com
 ||adobe.com^*/omniture_s_code.js
-||aeroplan.com/static/js/omniture/s_code_prod.js
 ||aexp-static.com/api/axpi/omniture/s_code_myca_context.js$domain=americanexpress.com
 ||aircanada.com/shared/common/sitecatalyst/s_code.js
 ||announcements.uk.com^*/s_code.js
@@ -16080,7 +16085,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||gaanacdn.com/*_social_tracking.js$domain=gaana.com
 @@||gameplayer.io^*/EventTracker.js
 @@||games.pch.com/js/analytics.js
-@@||gannettdigital.com^*/partner-comscore.html$xmlhttprequest,domain=usatoday.com
+@@||gannettdigital.com/universal-web-client/master/latest/elements/$xmlhttprequest
 @@||gardenista.com/media/js/libs/ga_social_tracking.js
 @@||garmin.com/modern/main/js/properties/metrics/metrics$domain=garmin.com
 @@||gatheringmagic.com/wp-content/plugins/bwp-minify/min/*/google-analyticator/$script
@@ -16638,6 +16643,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||smetrics.target.com/b/ss/$image
 @@||smetrics.ticketmaster.com/b/ss/$image
 @@||smetrics.walmartmoneycard.com/b/ss/$image
+@@||som.aeroplan.com/b/ss/$image
 @@||stat.safeway.com/b/ss/$image
 @@||walmart.com/b/ss/$image
 ! Whitelists to fix broken pages of tracking companies
