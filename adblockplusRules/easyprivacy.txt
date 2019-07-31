@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: hweI11i1M7oGP/V61J/yRA
-! Version: 201907300621
+! Checksum: 48z88HLc+l7u6uMPdly9mg
+! Version: 201907311121
 ! Title: EasyPrivacy
-! Last modified: 30 Jul 2019 06:21 UTC
+! Last modified: 31 Jul 2019 11:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7066,6 +7066,7 @@ _mongo_stats/
 ||truehits1.gits.net.th^$third-party
 ||truoptik.com^$third-party
 ||trustedform.com^$third-party
+||trysera.com^$third-party
 ||tscapeplay.com^$third-party
 ||tscounter.com^$third-party
 ||tsk4.com^$third-party
@@ -10385,6 +10386,7 @@ _mongo_stats/
 ||newsletters.infoworld.com/db/$image,third-party
 ||newsletters.nationalgeographic.com^$image,third-party
 ||newton.pm/events/track_bulk
+||ngpvan.com/v1/Track/
 ||nice264.com/data?$third-party
 ||ninja.onap.io^
 ||nitropay.com/nads/$third-party
@@ -12524,6 +12526,7 @@ _mongo_stats/
 ||computerarts.co.uk/*.php?cmd=site-stats
 ||computershopper.com/wsgac/
 ||computing.co.uk^*/webtrends.js
+||condenastdigital.com/track?
 ||confirm-referer.glrsales.com^
 ||consumerreports.org^*/js/conversion.js
 ||contadores.bolsamania.com^
