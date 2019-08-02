@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: y9F/8jFCfxkIY0ApMwydww
-! Version: 201908010351
+! Checksum: TelknF/qAWwqpL2tGg1KeQ
+! Version: 201908020421
 ! Title: EasyPrivacy
-! Last modified: 01 Aug 2019 03:51 UTC
+! Last modified: 02 Aug 2019 04:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -581,6 +581,7 @@
 /analytics-plugin/*
 /analytics-post-
 /analytics-savebt?
+/analytics-scripts.
 /analytics-social.
 /analytics-tag.
 /analytics-v1.
@@ -3602,7 +3603,9 @@
 /tealium-web/*
 /tealium.html?
 /tealium.js
+/tealiumAnalytics.
 /tealiumpixel.
+/tealiumTagsData.
 /tenping.cpa.
 /textlink.php?text
 /thbeacon/*
@@ -5090,6 +5093,7 @@ _mongo_stats/
 ||betarget.com^$third-party
 ||betarget.net^$third-party
 ||bettermetrics.co^$third-party
+||beusable.net^$third-party
 ||bfmio.com^$third-party
 ||bfoleyinteractive.com^$third-party
 ||bidr.io^$third-party
@@ -5620,6 +5624,7 @@ _mongo_stats/
 ||flash-stat.com^$third-party
 ||flashadengine.com^$third-party
 ||flashgamestats.com^$third-party
+||flashtalking.com^$third-party
 ||flcounter.com^$third-party
 ||flix360.com^$third-party
 ||flixfacts.co.uk^$third-party
@@ -5829,6 +5834,7 @@ _mongo_stats/
 ||hqhrt.com^$third-party
 ||hs-analytics.net^$third-party
 ||hsadspixel.net^$third-party
+||hscta.net^$third-party
 ||hubvisor.io^$third-party
 ||hudb.pl^$third-party
 ||humanclick.com^$third-party
@@ -9209,6 +9215,7 @@ _mongo_stats/
 ||analytics-cms.whitebeard.me^
 ||analytics-production.hapyak.com^
 ||analytics-rhwg.rhcloud.com^
+||analytics-scripts.cablelabs.com^
 ||analytics-static.ugc.bazaarvoice.com^
 ||analytics-v2.anvato.com^
 ||analytics.30m.com^
