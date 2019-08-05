@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: IQq21oxEvYfphTwHlecgPA
-! Version: 201908030751
+! Checksum: 62XBZEXehPtoyoseRJs5xg
+! Version: 201908050501
 ! Title: EasyPrivacy
-! Last modified: 03 Aug 2019 07:51 UTC
+! Last modified: 05 Aug 2019 05:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -384,6 +384,7 @@
 /acfp.js
 /acounter.php?
 /act_pagetrack.
+/actiontag/*
 /activetrackphp.php?
 /activities/logger/*
 /activity-track/?
@@ -3159,6 +3160,7 @@
 /s1.php?type=
 /s_trans.gif?
 /s_trans_nc.
+/sa-tracker-
 /sa.gif?
 /sage_tracker.
 /salog.js
@@ -3417,6 +3419,7 @@
 /statcountex/count.asp?
 /stateye/*
 /static-tracking/*$script
+/static/analytics.js
 /static/tracking/*
 /statics/analytics.js?
 /statistic/*&data=
@@ -8008,6 +8011,7 @@ _mongo_stats/
 ||balancebreath.com^$third-party
 ||bh8yx.xyz^$third-party
 ||broaddoor.com^$third-party
+||caringzinc.com^$third-party
 ||carscannon.com^$third-party
 ||consciouscabbage.com^$third-party
 ||consciouschairs.com^$third-party
@@ -8031,10 +8035,12 @@ _mongo_stats/
 ||jadeitite.com^$third-party
 ||jewelcheese.com^$third-party
 ||leaplunchroom.com^$third-party
+||levelbehavior.com^$third-party
 ||lizardslaugh.com^$third-party
 ||magnetairport.com^$third-party
 ||mowfruit.com^$third-party
 ||nervoussummer.com^$third-party
+||penspade.com^$third-party
 ||petiteumbrella.com^$third-party
 ||photographpan.com^$third-party
 ||pietexture.com^$third-party
@@ -8752,6 +8758,7 @@ _mongo_stats/
 ! Latvian
 ||cms.lv^$third-party
 ||erotop.lv^$third-party
+||mcloudglobal.com^$third-party
 ||on-line.lv^$third-party
 ||ppdb.pl^$third-party
 ||puls.lv^$third-party
@@ -9689,6 +9696,7 @@ _mongo_stats/
 ||d16fk4ms6rqz1v.cloudfront.net^
 ||d18p8z0ptb8qab.cloudfront.net^
 ||d191y0yd6d0jy4.cloudfront.net^
+||d1aqhv4sn5kxtx.cloudfront.net^
 ||d1cdnlzf6usiff.cloudfront.net^
 ||d1cerpgff739r9.cloudfront.net^
 ||d1clfvuu2240eh.cloudfront.net^
@@ -9985,6 +9993,7 @@ _mongo_stats/
 ||ftimg.net/js/log.js?
 ||fullstory.com/s/fs.js$third-party
 ||future-fie-assets.co.uk^
+||future-price.co.uk^
 ||futurecdn.net^*/abp.js
 ||fwix.com/ref.js
 ||fwix.com^*/trackclicks_
@@ -10458,6 +10467,7 @@ _mongo_stats/
 ||pageturnpro.com/tracker.aspx?
 ||pageview.goroost.com^
 ||pair.com/itero/tracker_ftc/
+||parsely.com/keys/$script,third-party
 ||partner.cynapse.com^
 ||partners.etoro.com^$script
 ||partners.thefilter.com^
@@ -11828,6 +11838,8 @@ _mongo_stats/
 ! Latvian
 ||counter.hackers.lv^
 ||hits.sys.lv^
+||pmo.ee/stats/
+||salidzini.lv^*/logo_button.gif?$third-party
 ! Lithuanian
 ||top.chebra.lt^$third-party
 ||top.dating.lt^$third-party
@@ -12753,6 +12765,7 @@ _mongo_stats/
 ||expedia.*/gc/
 ||experiandirect.com/javascripts/tracking.js
 ||experts-exchange.com/pageloaded.jsp?
+||extremetech.com/cszn/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
 ||extremetech.com/sac/mostclicked/$script
 ||extremetech.com^*/ga.js
 ||ez.no/statjs/
@@ -14252,6 +14265,7 @@ _mongo_stats/
 ||tracker.lolalytics.com^
 ||tracker.mattel.com^
 ||tracker.nbcuas.com^
+||tracker.pandora.com^
 ||tracker.pinnaclesports.com^
 ||tracker.realclearpolitics.com^
 ||tracker.redditmedia.com^
@@ -14603,8 +14617,10 @@ _mongo_stats/
 ||yourfilehost.com/counter.htm
 ||youronlinechoices.com/activity/
 ||yourtv.com.au/share/com/js/fb_google_intercept.js
-||youtube-nocookie.com/device_204?
-||youtube-nocookie.com/gen_204?
+||youtube-nocookie.com/*_204?$~xmlhttprequest
+||youtube-nocookie.com/api/stats/delayplay?
+||youtube-nocookie.com/api/stats/playback?
+||youtube-nocookie.com/api/stats/qoe?
 ||youtube-nocookie.com/ptracking?
 ||youtube-nocookie.com/robots.txt?
 ||youtube.com/*_204?$~xmlhttprequest
