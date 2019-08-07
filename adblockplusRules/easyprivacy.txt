@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 62XBZEXehPtoyoseRJs5xg
-! Version: 201908050501
+! Checksum: aHcXtOJjkhp+QqGUdwFL7A
+! Version: 201908071151
 ! Title: EasyPrivacy
-! Last modified: 05 Aug 2019 05:01 UTC
+! Last modified: 07 Aug 2019 11:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -194,6 +194,7 @@
 .com/z.gif?
 .composeTrack.htm
 .core.tracking-min-
+.d-engine.js
 .de/e.gif?
 .de/h.gif?
 .de/l.gif?
@@ -384,7 +385,6 @@
 /acfp.js
 /acounter.php?
 /act_pagetrack.
-/actiontag/*
 /activetrackphp.php?
 /activities/logger/*
 /activity-track/?
@@ -1774,8 +1774,6 @@
 /gemius1.js
 /gemius_
 /gemiusAudience.
-/gen_204?$image,script
-/generate_204$image
 /generictracking.
 /geo.php?
 /geoAnalysis.js
@@ -3211,6 +3209,7 @@
 /secure-stats.
 /securetracker.
 /seed.gif?
+/seedtag-detector.
 /segmentio.js
 /segmentIoTrackingProvider.js
 /SellathonCounterService.
@@ -4503,6 +4502,7 @@
 ?trackingCategory=
 ?triggertags=
 ?type=pageview&
+?type=ping&
 ?url=*&id=*&res=*&ref=
 ?utmad=*&utmac=
 ?viewsToCount=
@@ -4735,6 +4735,10 @@ cgi-bin/counter
 ?proxy=*?pools=
 ?proxy=ws://$script,websocket
 ?proxy=wss://$script,websocket
+! google tracking
+/client_204?$image,other,script
+/gen_204?$image,other,script
+/generate_204$image,other,script
 ! Adblock tracking
 -logabpstatus.
 /adb.policy.js
@@ -6501,6 +6505,7 @@ _mongo_stats/
 ||ptrk-wn.com^$third-party
 ||publicidees.com^$third-party
 ||publishflow.com^$third-party
+||pubplus.com^$third-party
 ||pubstack.io^$third-party
 ||pulleymarketing.com^$third-party
 ||pulselog.com^$third-party
@@ -9374,6 +9379,7 @@ _mongo_stats/
 ||audience.newscgp.com^
 ||audienceapi.newsdiscover.com.au^$third-party
 ||audienceinsights.net^$third-party
+||audioeye.com/frame/cookieStorage.html
 ||audit.303br.net^
 ||audit.median.hu^
 ||autoline-top.com/counter.php?
@@ -9696,7 +9702,6 @@ _mongo_stats/
 ||d16fk4ms6rqz1v.cloudfront.net^
 ||d18p8z0ptb8qab.cloudfront.net^
 ||d191y0yd6d0jy4.cloudfront.net^
-||d1aqhv4sn5kxtx.cloudfront.net^
 ||d1cdnlzf6usiff.cloudfront.net^
 ||d1cerpgff739r9.cloudfront.net^
 ||d1clfvuu2240eh.cloudfront.net^
@@ -12081,7 +12086,6 @@ _mongo_stats/
 ||37signals.com/ga.js
 ||3dcartstores.com/3droi/monstertrack.asp
 ||3dmark.com^*/ruxitbeacon
-||3rdeye.spankbang.com^
 ||4hds.com/js/camstats.js
 ||4info.com/alert/listeners/
 ||5.153.4.92^$domain=spreaker.com
@@ -12220,7 +12224,6 @@ _mongo_stats/
 ||analytics.skyscanner.net^
 ||analytics.slashdotmedia.com^
 ||analytics.socialblade.com^
-||analytics.spankbang.com^
 ||analytics.sportybet.com^
 ||analytics.teespring.com^
 ||analytics.thenest.com^
@@ -12407,7 +12410,6 @@ _mongo_stats/
 ||booking.com/navigation_times?
 ||booking.com/track_join_app_landing?
 ||boston.com/upixel/
-||box.com/gen204?
 ||brandrepublic.com/session-img/
 ||branica.com/counter.php?
 ||brazzerscontent.com/atlas/
@@ -12599,7 +12601,6 @@ _mongo_stats/
 ||current.com/tracking.htm?
 ||customerservicejobs.com/common/track/
 ||cyberlink.com/analytics/
-||d-engine.spankbang.com^
 ||d1.abtshield.com^
 ||da.virginmedia.com^
 ||dabs.com/AbacusTest/clientinfo_bk.gif
@@ -12942,9 +12943,6 @@ _mongo_stats/
 ||go.theregister.com^$image
 ||golfsmith.com/ci/
 ||google.*/api/sclk?
-||google.*/client_204?
-||google.*/gen204?
-||google.*/gen_204?$~xmlhttprequest
 ||google.*/gwt/x/ts?
 ||google.*/log204?
 ||google.*/logxhraction?
@@ -13991,6 +13989,8 @@ _mongo_stats/
 ||spanids.dictionary.com^
 ||spanids.reference.com^
 ||spanids.thesaurus.com^
+||spankbang.com/api?
+||spankbang.com/api|
 ||spankbang.com^*.ping.js
 ||speakertext.com/analytics/
 ||speed.wikia.net^
@@ -14617,13 +14617,11 @@ _mongo_stats/
 ||yourfilehost.com/counter.htm
 ||youronlinechoices.com/activity/
 ||yourtv.com.au/share/com/js/fb_google_intercept.js
-||youtube-nocookie.com/*_204?$~xmlhttprequest
 ||youtube-nocookie.com/api/stats/delayplay?
 ||youtube-nocookie.com/api/stats/playback?
 ||youtube-nocookie.com/api/stats/qoe?
 ||youtube-nocookie.com/ptracking?
 ||youtube-nocookie.com/robots.txt?
-||youtube.com/*_204?$~xmlhttprequest
 ||youtube.com/api/stats/ads?
 ||youtube.com/api/stats/delayplay?
 ||youtube.com/api/stats/playback?
@@ -15296,6 +15294,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||logs.51cto.com^
 ||logs.live.tudou.com^
 ||logstat.caixin.com^
+||logx.mtime.cn^
+||logx.mtime.com^
 ||luobo.tv/staticts.html
 ||mar.vip.com^
 ||narutom.com/stat.js
