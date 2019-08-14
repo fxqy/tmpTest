@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: OunLiqv8D0tNE4xG8V29JQ
-! Version: 201908131301
+! Checksum: PCwFEUJprGZ8t1fouAKAKA
+! Version: 201908140411
 ! Title: EasyPrivacy
-! Last modified: 13 Aug 2019 13:01 UTC
+! Last modified: 14 Aug 2019 04:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6706,7 +6706,6 @@ _mongo_stats/
 ||script.ag^$third-party
 ||scripts21.com^$third-party
 ||scriptshead.com^$third-party
-||scroll.com^$third-party
 ||sddan.com^$third-party
 ||sea-nov-1.com^$third-party
 ||searchfeed.com^$third-party
@@ -11308,7 +11307,6 @@ _mongo_stats/
 ||yimg.com^*/l?ig=$image
 ||ypcdn.com/*/webyp?
 ||ys.ddns.me^
-||ywxi.net/meter/
 ||z.opmnstr.com^$xmlhttprequest
 ||zapcdn.space/zapret.js
 ||zdlogs.sphereup.com^
