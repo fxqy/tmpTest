@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 3agWmPlOjOvAnB3RP3VMHQ
-! Version: 201908160522
+! Checksum: 86NyN3bEJey97jmHdYZiIQ
+! Version: 201908170231
 ! Title: EasyPrivacy
-! Last modified: 16 Aug 2019 05:22 UTC
+! Last modified: 17 Aug 2019 02:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2435,6 +2435,7 @@
 /meta-tracker/*
 /metatraffic/track.asp?
 /metricool.js
+/metrics-backend/*
 /metrics-ga.
 /metrics-UGA.
 /metrics-VarysMetrics.
@@ -3351,6 +3352,7 @@
 /sovrn_beacon_
 /sp-2.0.0.min.js
 /sp-analytics-
+/sp-analytics.
 /sp_logging.
 /sp_tracker.
 /space.gif?host=
@@ -13616,6 +13618,7 @@ _mongo_stats/
 ||pix.gfycat.com^
 ||pix.nbcuni.com^
 ||pixazza.com/track/
+||pixel-static.spotify.com^
 ||pixel.anyclip.com^
 ||pixel.archive.
 ||pixel.buzzfeed.com^
@@ -13631,6 +13634,7 @@ _mongo_stats/
 ||pixel.propublica.org^
 ||pixel.reddit.com^
 ||pixel.redditmedia.com^
+||pixel.spotify.com^
 ||pixel.staging.tree.com^
 ||pixel.tuko.co.ke^
 ||pixels.livingsocial.com^
