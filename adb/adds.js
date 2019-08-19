@@ -1,4 +1,5 @@
 var uls=[
+"baiduvip",
 "yunsennet",
 "alicdn",
 "winfisc",
@@ -60,7 +61,6 @@ var uls=[
 "xkhejx",
 "haoxiehui",
 "8000zq",
-"afp.alicdn.com",
 "uplusbrand",
 "yuyue",
 "wsf-gz",
