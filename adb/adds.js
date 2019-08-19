@@ -1,5 +1,6 @@
 var uls=[
 "yunsennet",
+"alicdn",
 "winfisc",
 "zao86789",
 "zxvsuw",
