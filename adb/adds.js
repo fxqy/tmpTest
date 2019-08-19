@@ -90,7 +90,7 @@ var uls=[
 var hostName = window.location.host;
 function $Q(e){return document.querySelectorAll(e);}
 function doFilter(){
-	var aps = $Q("div,a,img,iframe,script,brde");
+	var aps = $Q("div,a,img,iframe,script");
 	if(aps.length>0){
 		for(var i=0;i<aps.length;i++){
 			var itm = aps[i];
@@ -116,6 +116,12 @@ function doFilter(){
 				var atr=window.getComputedStyle(itm);
 				if(atr.backgroundImage&&atr.backgroundImage.indexOf(itn)>-1){
 					itm.style.backgroundImage="url(./null.jpg)";
+					itm.style.display="none";
+					parentHide(itm,ptm);
+					break;
+				}
+				if(atr.background&&atr.background.indexOf(itn)>-1){
+					itm.style.background="url(./null.jpg)";
 					itm.style.display="none";
 					parentHide(itm,ptm);
 					break;
