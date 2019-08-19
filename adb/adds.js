@@ -1,4 +1,5 @@
 var uls=[
+"img.alicdn",
 "winfisc",
 "zao86789",
 "zxvsuw",
