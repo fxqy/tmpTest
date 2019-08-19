@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 86NyN3bEJey97jmHdYZiIQ
-! Version: 201908170231
+! Checksum: h5FufEF3Xe+4CDpSmkaVUA
+! Version: 201908190302
 ! Title: EasyPrivacy
-! Last modified: 17 Aug 2019 02:31 UTC
+! Last modified: 19 Aug 2019 03:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -573,6 +573,7 @@
 /analytics-corp.js
 /analytics-dotcom/*
 /analytics-efukt.
+/analytics-endpoint.
 /analytics-event-
 /analytics-event.
 /analytics-gcp.
@@ -649,6 +650,7 @@
 /analytics/pageview
 /Analytics/Pdp/*
 /analytics/ping^
+/analytics/posts
 /analytics/pv.gif?
 /analytics/report/*
 /analytics/smarttag-
@@ -2193,6 +2195,7 @@
 /kaiseki/track.php?
 /kaizentrack/*
 /kalturaevent?
+/kameleoon-iframe.
 /kameleoon.js
 /kameleoon.min.js
 /KAStatsWriter/*
@@ -5097,6 +5100,7 @@ _mongo_stats/
 ||baynote.net^$third-party
 ||bdash-cloud.com^$third-party
 ||beacon.kmi-us.com^$third-party
+||beaconstreetservices.com^$third-party
 ||beampulse.com^$third-party
 ||beanstalkdata.com^$third-party
 ||beanstock.com^$third-party
@@ -6190,6 +6194,7 @@ _mongo_stats/
 ||mediego.com^$third-party
 ||mega-stats.com^$third-party
 ||memecounter.com^$third-party
+||memo.co^$third-party
 ||mercadoclics.com^$third-party
 ||mercent.com^$third-party
 ||metakeyproducer.com^$third-party
@@ -6528,6 +6533,7 @@ _mongo_stats/
 ||pto-slb-09.com^$third-party
 ||ptp123.com^$third-party
 ||ptrk-wn.com^$third-party
+||publicgood.com^$third-party
 ||publicidees.com^$third-party
 ||publishflow.com^$third-party
 ||pubplus.com^$third-party
@@ -6614,6 +6620,7 @@ _mongo_stats/
 ||remarketstats.com^$third-party
 ||rep0pkgr.com^$third-party
 ||repixel.co^$third-party
+||report-uri.com^$third-party
 ||report-uri.io^$third-party
 ||res-x.com^$third-party
 ||research-tool.com^$third-party
@@ -7199,6 +7206,7 @@ _mongo_stats/
 ||video.oms.eu^$third-party
 ||videos.oms.eu^$third-party
 ||videostat.com^$third-party
+||vilynx.com^$third-party
 ||vinlens.com^$third-party
 ||vinub.com^$third-party
 ||viralninjas.com^$third-party
@@ -8037,6 +8045,7 @@ _mongo_stats/
 ||zymerget.win
 ! Admiral
 ||6ldu6qa.com^$third-party
+||acridtwist.com^$third-party
 ||aheadday.com^$third-party
 ||anxiousapples.com^$third-party
 ||awzbijw.com^$third-party
@@ -8054,6 +8063,7 @@ _mongo_stats/
 ||desiredirt.com^$third-party
 ||detectdiscovery.com^$third-party
 ||ejyymghi.com^$third-party
+||endurablecrayon.com^third-party
 ||familiarfloor.com^$third-party
 ||fearfulflag.com^$third-party
 ||flakyfeast.com^$third-party
@@ -8066,6 +8076,7 @@ _mongo_stats/
 ||hilariouszinc.com^$third-party
 ||horsenectar.com^$third-party
 ||importedincrease.com^$third-party
+||intelligentscissors.com^$third-party
 ||jadeitite.com^$third-party
 ||jewelcheese.com^$third-party
 ||leaplunchroom.com^$third-party
@@ -8092,6 +8103,7 @@ _mongo_stats/
 ||shelterstraw.com^$third-party
 ||shermore.info^$third-party
 ||sicksmash.com^$third-party
+||sombersurprise.com^$third-party
 ||spiffymachine.com^$third-party
 ||spottysense.com^$third-party
 ||spurioussteam.com^$third-party
@@ -8103,6 +8115,7 @@ _mongo_stats/
 ||sugarcurtain.com^$third-party
 ||ticklesign.com^$third-party
 ||truthfulturn.com^$third-party
+||untidyrice.com^$third-party
 ||womanear.com^$third-party
 !-----------------International third-party tracking domains-----------------!
 ! *** easylist:easyprivacy/easyprivacy_trackingservers_international.txt ***
@@ -9537,6 +9550,7 @@ _mongo_stats/
 ||carl.pubsvs.com^
 ||caspionlog.appspot.com^
 ||cc.swiftype.com^
+||ccexperimentsstatic.oracleoutsourcing.com^
 ||cdn.trafficexchangelist.com^$third-party
 ||cdn3.net/pixe/
 ||cdnbigdata.azureedge.net^
@@ -9558,7 +9572,6 @@ _mongo_stats/
 ||circonus.com/hit?
 ||citygridmedia.com/tracker/
 ||citysearch.com/tracker/
-||clarium.global.ssl.fastly.net^
 ||clearspring.com/at/
 ||clearspring.com/t/
 ||click.appinthestore.com^
@@ -9703,6 +9716,7 @@ _mongo_stats/
 ||cr.loszona.com^$third-party
 ||creativecdn.com/pix/?
 ||creativecdn.com/tags?
+||creator.zmags.com^
 ||crm-vwg.com/tracker/
 ||crowdfactory.com/tracker/
 ||crowdskout.com/analytics.js
@@ -9997,9 +10011,6 @@ _mongo_stats/
 ||fast.appcues.com^
 ||fastcounter.bcentral.com^
 ||fastcounter.onlinehoster.net^
-||fastly.net/collect?
-||fastly.net/gpt/
-||fastly.net/i?
 ||fbpixel.network.exchange^
 ||feed.informer.com/fdstats
 ||feedblitz.com/imp?$third-party
@@ -10665,6 +10676,7 @@ _mongo_stats/
 ||readcube.com/tracking/
 ||realplayer.com^*/pixel?
 ||realtidbits.com^*/analytics.js
+||rebel.ai/track?
 ||recs.atgsvcs.com^$third-party
 ||redditstatic.com/ads/pixel.js
 ||redir.widdit.com^$third-party
@@ -11087,6 +11099,7 @@ _mongo_stats/
 ||tracking.interweave.com^$third-party
 ||tracking.jotform.com^
 ||tracking.keywee.co^
+||tracking.legacyoffers.com^
 ||tracking.lengow.com^
 ||tracking.listhub.net^
 ||tracking.livingsocial.com^
@@ -11145,6 +11158,7 @@ _mongo_stats/
 ||tritondigital.net^*/see.js
 ||trk*.vidible.tv^
 ||trk.bhs4.com^
+||trk.cloudsna.com^
 ||trk.email.dynect.net^
 ||trk.pswec.com^$third-party
 ||trk.sele.co^
@@ -11187,6 +11201,7 @@ _mongo_stats/
 ||userlog.synapseip.tv^
 ||usersegment.wpdigital.net^
 ||uservoice.com^*/track.js
+||userway.org/api/stats/
 ||userzoom.com/uz.js$third-party
 ||v.giantrealm.com/players/stats.swf?
 ||va.tawk.to/log
@@ -11296,6 +11311,7 @@ _mongo_stats/
 ||worldssl.net/reporting.js$third-party
 ||wpdigital.net/metrics/
 ||ws.amazon.com/widgets/*=gettrackingid|
+||ws.audioeye.com^
 ||wsb.aracert.com^
 ||wsf.com/tracking/$third-party
 ||wsj.net/MW5/content/analytics/hooks.js
@@ -11317,6 +11333,7 @@ _mongo_stats/
 ||ys.ddns.me^
 ||z.opmnstr.com^$xmlhttprequest
 ||zapcdn.space/zapret.js
+||zdcommerce.io/e2e.js
 ||zdlogs.sphereup.com^
 ||zemanta.com/reblog_*.png$image,third-party
 ||zemanta.com/usersync/outbrain/?
@@ -11326,6 +11343,13 @@ _mongo_stats/
 ||zoover.co.uk/tracking/
 ||zope.net^*/ghs_wa.js
 ||zvsuhljiha-a.akamaihd.net^
+! fastly
+||clarium.global.ssl.fastly.net^
+||fastly.net/collect?
+||fastly.net/gpt/
+||fastly.net/i?
+||fastly.net/plw.js
+||fastly.net/sp.js
 ! Suspect trackers (from privacy badger)
 ||connatix.com^$third-party
 ||jsrdn.com/s/cs.js
@@ -12832,7 +12856,6 @@ _mongo_stats/
 ||farsnews.com/stcs.js.aspx?
 ||fast.forbes.com^
 ||fastexercise.com/logging.js
-||fastly.net^*/sp-analytics.min.$domain=spotify.com
 ||favicon.co.uk/stat/
 ||fc2.com/ana/
 ||fc2.com/ana2/
@@ -13924,6 +13947,7 @@ _mongo_stats/
 ||sourceforge.net/images/mlopen_post.html?
 ||sourceforge.net/log/
 ||sovereignbank.com/utils/track.asp
+||sp-mms.weather.com^
 ||sp.app.com^
 ||sp.argusleader.com^
 ||sp.azcentral.com^
@@ -16652,7 +16676,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||washingtonpost.com/wp-stat/analytics/main.js$domain=subscribe.washingtonpost.com
 @@||washingtonpost.com^*/spacer.gif?$image
 @@||wbshop.com/fcgi-bin/iipsrv.fcgi?
-@@||wcnc.com/content/libs/comscore/comscore.min.js
 @@||websimages.com/JS/Tracker.js
 @@||webtrack.dhlglobalmail.com^
 @@||webtrends.com^*/events.svc$subdocument,domain=mycokerewards.com
@@ -16696,6 +16719,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||zillowstatic.com/c/*/linktrack.js$domain=zillow.com
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
+! Tegna news sites
+@@/comscore.min.js$script,domain=1007sandiego.com|10tv.com|11alive.com|12news.com|12newsnow.com|13wmaz.com|760kfmb.com|971thefan.com|9news.com|abc10.com|cbs19.tv|cbs8.com|firstcoastnews.com|fox15abilene.com|kagstv.com|kare11.com|kcentv.com|kens5.com|kgw.com|khou.com|kiiitv.com|king5.com|kold.com|krem.com|ksdk.com|ktvb.com|kvue.com|myatltv.com|myfoxzone.com|newscentermaine.com|newswest9.com|thv11.com|wbir.com|wcnc.com|wfaa.com|wfmynews2.com|wgrz.com|whas11.com|wkyc.com|wltx.com|wthr.com|wtol.com|wtsp.com|wusa9.com|wvec.com|wwltv.com|wzzm13.com
 ! Expedia search breakage
 @@||travel-assets.com/platform-analytics-prime/$script
 ! Mining-related whitelists
