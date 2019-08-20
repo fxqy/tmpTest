@@ -90,5 +90,5 @@ wanmancn
 guangyaoli
 apple.com
 micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc#?#:-abp-properties(/transform:.*;/)
-micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc#?#:-abp-properties(/animation:.*;/)
+micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc#?#:-abp-properties(animation: 10s ease 0s infinite normal none running circle;)
 ! End
