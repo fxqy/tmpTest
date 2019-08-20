@@ -89,6 +89,6 @@ dema1905
 wanmancn
 guangyaoli
 apple.com
-:-abp-properties(transform:*;)
-:-abp-properties(animation:*;)
-! End micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc#?#
+! micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc#?#:-abp-properties(/transform:.*;/)
+40yb.com#?#:-abp-properties(/animation:[^:;]*;/)
+! End micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc
