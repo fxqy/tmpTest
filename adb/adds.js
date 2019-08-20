@@ -103,7 +103,8 @@ var uls=[
 var hostName = window.location.host;
 function $Q(e){return document.querySelectorAll(e);}
 function doFilter(){
-	var aps = $Q("div,a,img,iframe,script");
+	//var aps = $Q("div,a,img,iframe,script,canvas");
+	var aps = $Q("*");
 	if(aps.length>0){
 		for(var i=0;i<aps.length;i++){
 			var itm = aps[i];
@@ -130,7 +131,6 @@ function doFilter(){
 				if(atr.backgroundImage&&atr.backgroundImage.indexOf(itn)>-1){
 					itm.style.backgroundImage="url(./null.jpg)";
 					itm.style.display="none";
-					parentHide(itm,ptm);
 					break;
 				}
 				var tsfm0=atr["transform"];
@@ -138,7 +138,6 @@ function doFilter(){
 					itm.style.backgroundImage="url(./null.jpg)";
 					itm.src=" ";
 					itm.style.display="none";
-					parentHide(itm,ptm);
 					break;
 				}
 				var tsfm1=atr["-webkit-transform"];
@@ -146,7 +145,6 @@ function doFilter(){
 					itm.style.backgroundImage="url(./null.jpg)";
 					itm.src=" ";
 					itm.style.display="none";
-					parentHide(itm,ptm);
 					break;
 				}
 				var tsfm2=atr["animation"];
@@ -154,7 +152,6 @@ function doFilter(){
 					itm.style.backgroundImage="url(./null.jpg)";
 					itm.src=" ";
 					itm.style.display="none";
-					parentHide(itm,ptm);
 					break;
 				}
 				var tsfm3=atr["-webkit-animation"];
@@ -162,7 +159,6 @@ function doFilter(){
 					itm.style.backgroundImage="url(./null.jpg)";
 					itm.src=" ";
 					itm.style.display="none";
-					parentHide(itm,ptm);
 					break;
 				}
 			}
