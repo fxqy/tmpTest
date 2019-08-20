@@ -120,12 +120,6 @@ function doFilter(){
 					parentHide(itm,ptm);
 					break;
 				}
-				if(atr.background&&atr.background.indexOf(itn)>-1){
-					itm.style.background="url(./null.jpg)";
-					itm.style.display="none";
-					parentHide(itm,ptm);
-					break;
-				}
 				var tsfm0=atr["transform"];
 				if(tsfm0&&(tsfm0.indexOf("matrix")>-1||tsfm0.indexOf("rotate")>-1)){
 					itm.style.backgroundImage="url(./null.jpg)";
