@@ -89,5 +89,8 @@ dema1905
 wanmancn
 guangyaoli
 apple.com
-micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc#?#:-abp-properties(/(\-webkit\-)*transform:.*;(\-webkit\-)animation:.*;/)
-micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc#?#:-abp-properties(/background-image:.*\.gif;/)
+micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc#?#:-abp-properties(/(\-webkit\-)*transform:.*;/)
+micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc#?#:-abp-properties(/(\-webkit\-)*animation:.*;/)
+micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc#?#:-abp-properties(/border-right-color:.*;/)
+micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc#?#:-abp-properties(/position:fixed;bottom:.*;/)
+! End
