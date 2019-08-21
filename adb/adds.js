@@ -1,4 +1,6 @@
 var uls=[
+"mmstat",
+"koudaiy",
 "tkshyp",
 "duoketuan",
 "ghosttty",
