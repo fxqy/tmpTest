@@ -112,6 +112,7 @@ function doFilter(){
 	var aps = $Q("div,a,img,iframe,script,canvas");
 	//var aps = $Q("*");
 	if(aps.length>0){
+		alert(aps.length);
 		for(var i=0;i<aps.length;i++){
 			var itm = aps[i];
 			var ptm = itm.parentNode;
