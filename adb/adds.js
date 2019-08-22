@@ -120,7 +120,7 @@ function doFilter(){
 			var tsfm1=atr["-webkit-transform"];
 			var tsfm2=atr["animation"];
 			var tsfm3=atr["-webkit-animation"];
-			for(var j=0;j<uls.length&&bol;j++){
+			for(var j=0;j<uls.length;j++){
 				var itn =  uls[j];
 				if(itm.href&&itm.href.indexOf(itn)>-1){
 					itm.href=" ";
@@ -169,10 +169,7 @@ if(hostName.indexOf("tv6")>-1||hostName.indexOf("9zdm")>-1||hostName.indexOf("74
 		try{
 			doFilter();
 		}catch(e){
-			alert(e.message); 
-			alert(e.description) 
-			alert(e.number) 
-			alert(e.name) 
+			alert(e.message);  
 		}
 	},1000);
 }
