@@ -114,6 +114,12 @@ function doFilter(){
 			var itm = aps[i];
 			var ptm = itm.parentNode;
 			var dsrc = itm.getAttribute("data-src");
+			var atr=window.getComputedStyle(itm);
+			var bkg = atr.backgroundImage;
+			var tsfm0=atr["transform"];
+			var tsfm1=atr["-webkit-transform"];
+			var tsfm2=atr["animation"];
+			var tsfm3=atr["-webkit-animation"];
 			for(var j=0;j<uls.length&&bol;j++){
 				var itn =  uls[j];
 				if(itm.href&&itm.href.indexOf(itn)>-1){
@@ -131,16 +137,11 @@ function doFilter(){
 					itm.style.display="none";
 					break;
 				}
-				var atr=window.getComputedStyle(itm);
-				if(atr.backgroundImage&&atr.backgroundImage.indexOf(itn)>-1){
+				if(bkg&&bkg.indexOf(itn)>-1){
 					itm.style.backgroundImage="url(./null.jpg)";
 					itm.style.display="none";
 					break;
 				}
-				var tsfm0=atr["transform"];
-				var tsfm1=atr["-webkit-transform"];
-				var tsfm2=atr["animation"];
-				var tsfm3=atr["-webkit-animation"];
 				if(tsfm0||tsfm1||tsfm2||tsfm3){
 					itm.style.backgroundImage="url(./null.jpg)";
 					itm.src=" ";
