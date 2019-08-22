@@ -117,7 +117,11 @@ function doFilter(){
 			var ptm = itm.parentNode;
 			var dsrc = itm.getAttribute("data-src");
 			var atr=window.getComputedStyle(itm)||{};
+			var atr1=window.getComputedStyle(itm,":before")||{};
+			var atr2=window.getComputedStyle(itm,":after")||{};
 			var bkg = atr.backgroundImage+"";
+			var bkg1 = atr1.backgroundImage+"";
+			var bkg2 = atr2.backgroundImage+"";
 			var tsfm0=atr["transform"]+"";
 			var tsfm1=atr["-webkit-transform"]+"";
 			var tsfm2=atr["animation"]+"";
@@ -125,13 +129,11 @@ function doFilter(){
 			for(var j=0;j<uls.length;j++){
 				var itn =  uls[j];
 				if(itm.href&&itm.href.indexOf(itn)>-1){
-					alert("href: "+itm.href);
 					itm.href=" ";
 					itm.style.display="none";
 					break;
 				}
 				if(itm.src&&itm.src.indexOf(itn)>-1){
-					alert("src: "+itm.src);
 					itm.src=" ";
 					itm.style.display="none";
 					break;
@@ -142,13 +144,19 @@ function doFilter(){
 					break;
 				}
 				if(bkg.indexOf(itn)>-1){
-					alert("bkg: "+bkg);
 					itm.style.backgroundImage="url(./null.jpg)";
 					itm.style.display="none";
 					break;
 				}
+				if(bkg1.indexOf(itn)>-1){
+					itm.style.display="none";
+					break;
+				}
+				if(bkg2.indexOf(itn)>-1){
+					itm.style.display="none";
+					break;
+				}
 				if(tsfm0.indexOf("infinite")>-1||tsfm1.indexOf("infinite")>-1||tsfm2.indexOf("infinite")>-1||tsfm3.indexOf("infinite")>-1){
-					alert("tsfm: "+tsfm0+", "+tsfm1+", "+tsfm2+", "+tsfm3);
 					itm.style.backgroundImage="url(./null.jpg)";
 					itm.src=" ";
 					itm.style.display="none";
