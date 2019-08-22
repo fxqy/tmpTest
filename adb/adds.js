@@ -157,7 +157,7 @@ function doFilter(){
 					break;
 				}
 				if(tsfm0.indexOf("infinite")>-1||tsfm1.indexOf("infinite")>-1||tsfm2.indexOf("infinite")>-1||tsfm3.indexOf("infinite")>-1){
-					alert("transform: "+tsfm0+", -webkit-transform: "+tsfm1+", animation: "+tsfm2+", -webkit-animation: "+tsfm3);
+					//alert("transform: "+tsfm0+", -webkit-transform: "+tsfm1+", animation: "+tsfm2+", -webkit-animation: "+tsfm3);
 					itm.style.backgroundImage="url(./null.jpg)";
 					itm.src=" ";
 					itm.style.display="none";
