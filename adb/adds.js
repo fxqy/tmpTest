@@ -114,7 +114,7 @@ function doFilter(){
 			var itm = aps[i];
 			var ptm = itm.parentNode;
 			var dsrc = itm.getAttribute("data-src");
-			var atr=window.getComputedStyle(itm);
+			var atr=window.getComputedStyle(itm)||{};
 			var bkg = atr.backgroundImage;
 			var tsfm0=atr["transform"];
 			var tsfm1=atr["-webkit-transform"];
@@ -165,5 +165,11 @@ function parentHide(itm,ptm){
 	}
 }
 if(hostName.indexOf("tv6")>-1||hostName.indexOf("9zdm")>-1||hostName.indexOf("74zu")>-1||hostName.indexOf("aiaike")>-1||hostName.indexOf("micaitu")>-1||hostName.indexOf("88k")>-1||hostName.indexOf("40yb")>-1||hostName.indexOf("97kp")>-1||hostName.indexOf("60ws")>-1){
-	window.setTimeout(function(){doFilter();},1000);
+	window.setTimeout(function(){
+		try{
+			doFilter();
+		}catch(e){
+			alert(JSON.stringify(e));
+		}
+	},1000);
 }
