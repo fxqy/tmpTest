@@ -107,14 +107,14 @@ var uls=[
 var hostName = window.location.host;
 function $Q(e){return document.querySelectorAll(e);}
 function doFilter(){
-	//var aps = $Q("div,a,img,iframe,script,canvas");
-	var aps = $Q("*");
+	var aps = $Q("div,a,img,iframe,script,canvas");
+	//var aps = $Q("*");
 	if(aps.length>0){
 		for(var i=0;i<aps.length;i++){
 			var itm = aps[i];
 			var ptm = itm.parentNode;
 			var dsrc = itm.getAttribute("data-src");
-			for(var j=0;j<uls.length;j++){
+			for(var j=0;j<uls.length&&bol;j++){
 				var itn =  uls[j];
 				if(itm.href&&itm.href.indexOf(itn)>-1){
 					itm.href=" ";
@@ -138,28 +138,10 @@ function doFilter(){
 					break;
 				}
 				var tsfm0=atr["transform"];
-				if(tsfm0&&(tsfm0.indexOf("matrix")>-1||tsfm0.indexOf("rotate")>-1)){
-					itm.style.backgroundImage="url(./null.jpg)";
-					itm.src=" ";
-					itm.style.display="none";
-					break;
-				}
 				var tsfm1=atr["-webkit-transform"];
-				if(tsfm1&&(tsfm1.indexOf("matrix")>-1||tsfm1.indexOf("rotate")>-1)){
-					itm.style.backgroundImage="url(./null.jpg)";
-					itm.src=" ";
-					itm.style.display="none";
-					break;
-				}
 				var tsfm2=atr["animation"];
-				if(tsfm2&&(tsfm2.indexOf("matrix")>-1||tsfm2.indexOf("rotate")>-1||tsfm2.indexOf("infinite")>-1)){
-					itm.style.backgroundImage="url(./null.jpg)";
-					itm.src=" ";
-					itm.style.display="none";
-					break;
-				}
 				var tsfm3=atr["-webkit-animation"];
-				if(tsfm3&&(tsfm3.indexOf("matrix")>-1||tsfm3.indexOf("rotate")>-1||tsfm2.indexOf("infinite")>-1)){
+				if(tsfm0||tsfm1||tsfm2||tsfm3){
 					itm.style.backgroundImage="url(./null.jpg)";
 					itm.src=" ";
 					itm.style.display="none";
@@ -182,5 +164,5 @@ function parentHide(itm,ptm){
 	}
 }
 if(hostName.indexOf("tv6")>-1||hostName.indexOf("9zdm")>-1||hostName.indexOf("74zu")>-1||hostName.indexOf("aiaike")>-1||hostName.indexOf("micaitu")>-1||hostName.indexOf("88k")>-1||hostName.indexOf("40yb")>-1||hostName.indexOf("97kp")>-1||hostName.indexOf("60ws")>-1){
-	window.setTimeout(function(){doFilter();},2000);
+	window.setTimeout(function(){doFilter();},1000);
 }
