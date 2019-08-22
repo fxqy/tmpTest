@@ -169,7 +169,10 @@ if(hostName.indexOf("tv6")>-1||hostName.indexOf("9zdm")>-1||hostName.indexOf("74
 		try{
 			doFilter();
 		}catch(e){
-			alert(JSON.stringify(e));
+			alert(e.message); 
+			alert(e.description) 
+			alert(e.number) 
+			alert(e.name) 
 		}
 	},1000);
 }
