@@ -125,15 +125,16 @@ function doFilter(){
 			for(var j=0;j<uls.length;j++){
 				var itn =  uls[j];
 				if(itm.href&&itm.href.indexOf(itn)>-1){
+					//alert("href: "+itm.href);
 					itm.href=" ";
 					itm.style.display="none";
-					alert("href: "+itm.href);
 					break;
 				}
 				if(itm.src&&itm.src.indexOf(itn)>-1){
+					//alert("src: "+itm.src);
 					itm.src=" ";
 					itm.style.display="none";
-					alert("src: "+itm.src);
+					
 					break;
 				}				
 				if(dsrc){
@@ -142,16 +143,17 @@ function doFilter(){
 					break;
 				}
 				if(bkg.indexOf(itn)>-1){
+					//alert("bkg: "+bkg);
 					itm.style.backgroundImage="url(./null.jpg)";
 					itm.style.display="none";
-					//alert("bkg: "+bkg);
+					
 					break;
 				}
 				if(tsfm0.length>1||tsfm1.length>1||tsfm2.length>1||tsfm3.length>1){
+					//alert("tsfm: "+tsfm0+", "+tsfm1+", "+tsfm2+", "+tsfm3);
 					itm.style.backgroundImage="url(./null.jpg)";
 					itm.src=" ";
 					itm.style.display="none";
-					alert("bkg: "+tsfm0+", "+tsfm1+", "+tsfm2+", "+tsfm3);
 					break;
 				}
 			}
