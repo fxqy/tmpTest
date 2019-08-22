@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 8lpav2CofZZvtwy2HvKw6w
-! Version: 201908210751
+! Checksum: ZoDaCHNvL8nrwIjC/lf01A
+! Version: 201908221211
 ! Title: EasyPrivacy
-! Last modified: 21 Aug 2019 07:51 UTC
+! Last modified: 22 Aug 2019 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9741,6 +9741,7 @@ _mongo_stats/
 ||curate.nestedmedia.com^
 ||custom.search.yahoo.co.jp/images/window/*.gif
 ||customerlobby.com/ctrack-
+||cws.conviva.com^
 ||cx.atdmt.com^
 ||d.rcmd.jp^$image
 ||d.shareaholic.com^
@@ -15590,7 +15591,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||cgi.tbs.co.jp^
 ||count.upc.rakuten.co.jp^
 ||dmm.com/analytics/
-||dmm.com^*/dmm.tracking.
 ||goo.ne.jp^*/vltracedmd.js
 ||i2i.jp/bin/
 ||ln.ameba.jp^
