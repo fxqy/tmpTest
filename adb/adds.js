@@ -1,4 +1,5 @@
 var uls=[
+"erqimall",
 "mmstat",
 "koudaiy",
 "tkshyp",

@@ -1,6 +1,7 @@
 [Adblock Plus 1.1]
 ! Version: 20190820001
 ! Title: mylist
+erqimall
 mmstat
 koudaiy
 tkshyp
@@ -103,8 +104,8 @@ dema1905
 wanmancn
 guangyaoli
 apple.com
-micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc#?#:-abp-properties(transform)
-micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc#?#:-abp-properties(animation)
+micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com#?#:-abp-properties(transform)
+micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com#?#:-abp-properties(animation)
 ! micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc#?#:-abp-properties(/border-right-color:.*;/)
 ! micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc#?#:-abp-properties(/position:fixed;bottom:.*;/)
 ! End
