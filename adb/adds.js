@@ -125,16 +125,15 @@ function doFilter(){
 			for(var j=0;j<uls.length;j++){
 				var itn =  uls[j];
 				if(itm.href&&itm.href.indexOf(itn)>-1){
-					//alert("href: "+itm.href);
+					alert("href: "+itm.href);
 					itm.href=" ";
 					itm.style.display="none";
 					break;
 				}
 				if(itm.src&&itm.src.indexOf(itn)>-1){
-					//alert("src: "+itm.src);
+					alert("src: "+itm.src);
 					itm.src=" ";
 					itm.style.display="none";
-					
 					break;
 				}				
 				if(dsrc){
@@ -143,14 +142,13 @@ function doFilter(){
 					break;
 				}
 				if(bkg.indexOf(itn)>-1){
-					//alert("bkg: "+bkg);
+					alert("bkg: "+bkg);
 					itm.style.backgroundImage="url(./null.jpg)";
 					itm.style.display="none";
-					
 					break;
 				}
 				if(tsfm0.indexOf("infinite")>-1||tsfm1.indexOf("infinite")>-1||tsfm2.indexOf("infinite")>-1||tsfm3.indexOf("infinite")>-1){
-					//alert("tsfm: "+tsfm0+", "+tsfm1+", "+tsfm2+", "+tsfm3);
+					alert("tsfm: "+tsfm0+", "+tsfm1+", "+tsfm2+", "+tsfm3);
 					itm.style.backgroundImage="url(./null.jpg)";
 					itm.src=" ";
 					itm.style.display="none";
