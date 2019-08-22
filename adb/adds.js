@@ -149,7 +149,7 @@ function doFilter(){
 					
 					break;
 				}
-				if(tsfm0.length>1||tsfm1.length>1||tsfm2.length>1||tsfm3.length>1){
+				if(tsfm0.indexOf("infinite")>-1||tsfm1.indexOf("infinite")>-1||tsfm2.indexOf("infinite")>-1||tsfm3.indexOf("infinite")>-1){
 					//alert("tsfm: "+tsfm0+", "+tsfm1+", "+tsfm2+", "+tsfm3);
 					itm.style.backgroundImage="url(./null.jpg)";
 					itm.src=" ";
