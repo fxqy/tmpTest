@@ -129,44 +129,31 @@ function doFilter(){
 			for(var j=0;j<uls.length;j++){
 				var itn =  uls[j];
 				if(itm.href&&itm.href.indexOf(itn)>-1){
-					//itm.href=" ";
-					//itm.style.display="none";
 					itm.parentNode.removeChild(itm);
 					break;
 				}
 				if(itm.src&&itm.src.indexOf(itn)>-1){
-					//itm.src=" ";
-					//itm.style.display="none";
 					itm.parentNode.removeChild(itm);
 					break;
 				}				
 				if(dsrc){
-					//itm.setAttribute("data-src","0");
-					//itm.style.display="none";
 					itm.parentNode.removeChild(itm);
 					break;
 				}
 				if(bkg.indexOf(itn)>-1){
-					//itm.style.backgroundImage="url(./null.jpg)";
-					//itm.style.display="none";
 					itm.parentNode.removeChild(itm);
 					break;
 				}
 				if(bkg1.indexOf(itn)>-1){
-					//itm.style.display="none";
 					itm.parentNode.removeChild(itm);
 					break;
 				}
 				if(bkg2.indexOf(itn)>-1){
-					//itm.style.display="none";
 					itm.parentNode.removeChild(itm);
 					break;
 				}
 				if(tsfm0.indexOf("infinite")>-1||tsfm1.indexOf("infinite")>-1||tsfm2.indexOf("infinite")>-1||tsfm3.indexOf("infinite")>-1){
 					//alert("transform: "+tsfm0+", -webkit-transform: "+tsfm1+", animation: "+tsfm2+", -webkit-animation: "+tsfm3);
-					//itm.style.backgroundImage="url(./null.jpg)";
-					//itm.src=" ";
-					//itm.style.display="none";
 					itm.parentNode.removeChild(itm);
 					break;
 				}
@@ -187,6 +174,5 @@ function parentHide(itm,ptm){
 	}
 }
 if(hostName.indexOf("tv6")>-1||hostName.indexOf("9zdm")>-1||hostName.indexOf("74zu")>-1||hostName.indexOf("aiaike")>-1||hostName.indexOf("micaitu")>-1||hostName.indexOf("88k")>-1||hostName.indexOf("40yb")>-1||hostName.indexOf("97kp")>-1||hostName.indexOf("60ws")>-1){
-	try{doFilter();}catch(e){alert(e.message);}
 	window.setTimeout(function(){try{doFilter();}catch(e){alert(e.message);}},1000);
 }
