@@ -2,50 +2,98 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" /> 
 	<title></title>
 	<style type="text/css">
+		.ser-inpt{
+			width:100%;
+			height:42px;
+			text-indent:15px;
+			border:1px solid #ccc;
+			border-radius:25px;
+			color:#999;
+		}
+		.ser-inpt:focus{
+			outline: none;
+			border:1px solid #DFF0D8;
+		}
 		.nav-item{
-			width:165px;
+			width:58px;
 			display:inline-block;
 			text-decoration:none;
 			white-space:nowrap;
 			text-align:center;
 			border-radius:10px;
-			margin:10px;
-			padding:36px;
-			padding-left:0px;
-			padding-right:0px;
-			border:1px dashed #d7ecf1;;
+			margin:7px;
+			padding:10px 0;
 			color:#415065;
-			font-size: 30px;
+			font-size: 12px;
+			border: 1px solid #eee;
+			border-color: rgba(125,125,125,0.2) rgba(125,125,125,0.2) rgba(125,125,125,0.2);
 		}
 	</style>
 	<!--script src="./adds.js" type="text/javascript"></script-->
 	<script type="text/javascript">
+		var urls=[
+			{name:"搜狐",url:"http://m.sohu.com"},
+			{name:"环球",url:"http://m.huanqiu.com"},
+			{name:"凤凰",url:"http://i.ifeng.com"},
+			{name:"央视",url:"http://m.cctv.com"},
+			{name:"网易",url:"http://3g.163.com"},
+			{name:"人民",url:"http://m.people.cn"},
+			{name:"今日头条",url:"http://m.toutiao.com"},
+			{name:"一点资讯",url:"http://www.yidianzixun.com/#/"},
+			{name:"micaitu",url:"http://m.micaitu.net"},
+			{name:"40yb",url:"http://40yb.com"},
+			{name:"97kpb",url:"http://97kpb.com"},
+			{name:"kp980",url:"http://kp980.com"},
+			{name:"aiaike",url:"http://www.aiaike.com"},
+			{name:"meiju",url:"https://www.meiju.net/new"},
+			{name:"wanmei",url:"https://www.wanmeikk.me"},
+			{name:"xiguapu",url:"http://www.xiguapu.com"}
+		];
+		function $G(e){return document.getElementById(e);}
+		function $C(a) {return document.createElement(a);}
+		function $A(b,a) {a.appendChild(b);}
 		function openUrl(u){
-			//window.location.href=u;
 			window.open(u);
+		}
+		function getRenColor(ind){
+			var colors=["#DAEEFD","#F3F8F1","#E3F9FD","#E9F1F6","#FCEFE8","#DFF0D8","#FCF8E3","#D2DEFA","#FEEFFC"];
+			var color;
+			if(ind<colors.length) color=colors[ind];
+			else color=colors[ind%colors.length];
+			return color;
+		}
+		window.onload=function(){
+			var bdh=document.documentElement.clientHeight/2;
+			var ctn=$G("nav_ctn");
+			ctn.innerHTML="";
+			ctn.style.height=bdh-10+"px";
+			ctn.style.top=bdh+"px";
+			var ser=$G("ser_ctn");
+			ser.style.top=bdh-55+"px";
+			for(var i=0,len=urls.length;i<len;i++){
+				var it=urls[i];
+				var itm=$C("a");
+				itm.className="nav-item";
+				itm.innerHTML=it.name;
+				itm.setAttribute("onclick","openUrl('"+it.url+"')");
+				itm.style.backgroundColor=getRenColor(i);
+				$A(itm,ctn);
+			}
+
 		}
 	</script>
 </head>
 <body>
-	<div id="nav_ctn" style="padding:10%;padding-top:90%;">
-		<div onclick="openUrl('http://m.sohu.com/')" class="nav-item" style="background:#d7ecf1;">搜狐</div>
-		<div onclick="openUrl('http://m.huanqiu.com/')" class="nav-item" style="background:#f3f8f1;">环球</div>
-		<div onclick="openUrl('http://i.ifeng.com/')" class="nav-item" style="background:#E3F9FD;">凤凰</div>
-		<div onclick="openUrl('http://m.cctv.com/news/index.shtml')" class="nav-item" style="background:#E9F1F6;">央视</div>
-		<div onclick="openUrl('http://3g.163.com/')" class="nav-item" style="background:#FCEFE8;">网易</div>
-		<div onclick="openUrl('http://m.people.cn/')" class="nav-item" style="background:#f3f8f1;">人民</div>
-		<div onclick="openUrl('http://m.toutiao.com')" class="nav-item" style="background:#d7ecf1;">今日头条</div>
-		<div onclick="openUrl('http://www.yidianzixun.com/#/')" class="nav-item" style="background:#f3f8f1;">一点资讯</div>
-		<div onclick="openUrl('http://m.micaitu.net')" class="nav-item" style="background:#E3F9FD;">micaitu</div>
-		<div onclick="openUrl('http://40yb.com')" class="nav-item" style="background:#E9F1F6;">40yb</div>
-		<div onclick="openUrl('http://97kpb.com')" class="nav-item" style="background:#FCEFE8;">97kpb</div>
-		<div onclick="openUrl('http://kp980.com')" class="nav-item" style="background:#f3f8f1;">kp980</div>
-		<div onclick="openUrl('http://www.aiaike.com')" class="nav-item" style="background:#d7ecf1;">aiaike</div>
-		<div onclick="openUrl('https://www.meiju.net/new/')" class="nav-item" style="background:#f3f8f1;">meiju</div>
-		<div onclick="openUrl('https://www.wanmeikk.me/')" class="nav-item" style="background:#E3F9FD;">wanmeikk</div>
-		
+	
+	<div id="ser_ctn" style="position:absolute;width:75%;padding:0 10%;">
+		<form action="http://m.so.com/s" target="_blank" method="get">
+			<input name="ie" type="hidden" value="UTF-8"/>
+			<input name="q" type="text" class="ser-inpt">
+		</form>
 	</div>
+	<div id="nav_ctn" style="position:absolute;overflow-y:auto;padding:0 10%;"></div>
 </body>
 </html>
