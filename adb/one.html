@@ -18,13 +18,13 @@
 			border:1px solid #DFF0D8;
 		}
 		.nav-item{
-			width:58px;
+			width:58px;/*不同机型分辨率发生不对齐修改这里如：56px*/
 			display:inline-block;
 			text-decoration:none;
 			white-space:nowrap;
 			text-align:center;
-			border-radius:10px;
-			margin:7px;
+			border-radius:10px;/*修改这里改变圆角*/
+			margin:7px;/*不同机型分辨率发生不对齐修改这里如：5px*/
 			padding:10px 0;
 			color:#415065;
 			font-size: 12px;
@@ -43,6 +43,7 @@
 			{name:"人民",url:"http://m.people.cn"},
 			{name:"头条",url:"http://m.toutiao.com"},
 			{name:"一点",url:"http://www.yidianzixun.com/#/"},
+			//以下网站中的广告，手动添加adblockplus规则：https://fxqy.gitee.io/tmpTest/adblockplusRules/mylist.txt，会持续更新
 			{name:"micaitu",url:"http://m.micaitu.net"},
 			{name:"40yb",url:"http://40yb.com"},
 			{name:"97kpb",url:"http://97kpb.com"},
@@ -89,9 +90,9 @@
 <body>
 	
 	<div id="ser_ctn" style="position:absolute;width:75%;padding:0 10%;">
-		<form action="http://m.so.com/s" target="_blank" method="get">
+		<form action="http://m.so.com/s" target="_blank" method="get"><!--百度修改：https://baidu.com/s -->
 			<input name="ie" type="hidden" value="UTF-8"/>
-			<input name="q" type="text" class="ser-inpt">
+			<input name="q" type="text" class="ser-inpt"><!--百度修改：name="wd" -->
 		</form>
 	</div>
 	<div id="nav_ctn" style="position:absolute;overflow-y:auto;padding:0 10%;"></div>
