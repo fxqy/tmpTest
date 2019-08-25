@@ -9,7 +9,7 @@
 			width:100%;
 			height:42px;
 			text-indent:15px;
-			border:1px solid #ccc;
+			border:1px solid #DAEEFD;
 			border-radius:25px;
 			color:#999;
 		}
@@ -41,8 +41,8 @@
 			{name:"央视",url:"http://m.cctv.com"},
 			{name:"网易",url:"http://3g.163.com"},
 			{name:"人民",url:"http://m.people.cn"},
-			{name:"今日头条",url:"http://m.toutiao.com"},
-			{name:"一点资讯",url:"http://www.yidianzixun.com/#/"},
+			{name:"头条",url:"http://m.toutiao.com"},
+			{name:"一点",url:"http://www.yidianzixun.com/#/"},
 			{name:"micaitu",url:"http://m.micaitu.net"},
 			{name:"40yb",url:"http://40yb.com"},
 			{name:"97kpb",url:"http://97kpb.com"},
@@ -52,6 +52,7 @@
 			{name:"wanmei",url:"https://www.wanmeikk.me"},
 			{name:"xiguapu",url:"http://www.xiguapu.com"}
 		];
+		var colors=["#DAEEFD","#F3F8F1","#E3F9FD","#E9F1F6","#FCEFE8","#DFF0D8","#FCF8E3","#D2DEFA","#FEEFFC"];
 		function $G(e){return document.getElementById(e);}
 		function $C(a) {return document.createElement(a);}
 		function $A(b,a) {a.appendChild(b);}
@@ -59,11 +60,10 @@
 			window.open(u);
 		}
 		function getRenColor(ind){
-			var colors=["#DAEEFD","#F3F8F1","#E3F9FD","#E9F1F6","#FCEFE8","#DFF0D8","#FCF8E3","#D2DEFA","#FEEFFC"];
-			var color;
-			if(ind<colors.length) color=colors[ind];
-			else color=colors[ind%colors.length];
-			return color;
+			var c;
+			if(ind<colors.length) c=colors[ind];
+			else c=colors[ind%colors.length];
+			return c;
 		}
 		window.onload=function(){
 			var bdh=document.documentElement.clientHeight/2;
