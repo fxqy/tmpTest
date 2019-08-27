@@ -30,13 +30,13 @@
 			box-shadow: 0px 0px 1px 1px #DAEEFD inset;
 		}
 		.nav-item{
-			width:56px;/*不同机型分辨率发生不对齐修改这里如：58px*/
+			width:56px;
 			display:inline-block;
 			text-decoration:none;
 			white-space:nowrap;
 			text-align:center;
-			border-radius:5px;/*修改这里改变圆角*/
-			margin:6px;/*不同机型分辨率发生不对齐修改这里如：7px*/
+			border-radius:5px;
+			margin:6px;
 			padding:12px 0;
 			color:#415065;
 			font-size: 12px;
@@ -122,16 +122,7 @@
 			{name:"网易",url:"http://3g.163.com"},
 			{name:"人民",url:"http://m.people.cn"},
 			{name:"头条",url:"http://m.toutiao.com"},
-			{name:"一点",url:"http://www.yidianzixun.com/#/"},
-			//以下网站中的广告，手动添加adblockplus规则：https://fxqy.gitee.io/tmpTest/adblockplusRules/mylist.txt，会持续更新
-			{name:"micaitu",url:"http://m.micaitu.net"},
-			{name:"40yb",url:"http://40yb.com"},
-			{name:"97kpb",url:"http://97kpb.com"},
-			{name:"kp980",url:"http://kp980.com"},
-			{name:"aiaike",url:"http://www.aiaike.com"},
-			{name:"meiju",url:"https://www.meiju.net/new"},
-			{name:"wanmei",url:"https://www.wanmeikk.me"},
-			{name:"xiguapu",url:"http://www.xiguapu.com"}
+			{name:"一点资讯",url:"http://www.yidianzixun.com/#/"}
 		];
 		var colors=["#DAEEFD","#F3F8F1","#E3F9FD","#E9F1F6","#FCEFE8","#DFF0D8","#FCF8E3","#D2DEFA","#FEEFFC"];
 		var nals=["360搜索","bing搜索","头条搜索","百度搜索","google搜索"];
@@ -434,7 +425,7 @@
 						initLinks();
 					}
 				}catch(e){
-					alert('导入数据无效！格式：[{"name":"***","url":"***"},{"name":"***","url":"***"}...],详细错误：'+e.message);
+					alert('导入数据无效！格式：[{"name":"***","url":"***"},...],详细错误：'+e.message);
 				}
 			}
 		}
@@ -449,9 +440,9 @@
 </head>
 <body>
 	<div id="ser_ctn" style="position:absolute;width:100%;left:0px;margin:0px;padding:0px;">
-		<form action="http://m.so.com/s" target="_blank" method="get"><!-- SO: http://m.so.com/s bing搜索：http://cn.bing.com/search 百度：http://m.baidu.com/s -->
+		<form action="http://m.so.com/s" target="_blank" method="get">
 			<input name="ie" type="hidden" value="UTF-8"/>
-			<input id="ser-inpt" name="q" type="text" class="ser-inpt" placeholder=""><!-- SO: name="q" bing搜索：name="q" 百度：name="wd" -->
+			<input id="ser-inpt" name="q" type="text" class="ser-inpt" placeholder="">
 		</form>
 	</div>
 	<div id="nav_ctn" style="position:absolute;width:75%;padding:0px;left:0px;overflow-y:auto;margin:0 12.5%;"></div>
