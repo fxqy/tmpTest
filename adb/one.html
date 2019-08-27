@@ -184,6 +184,11 @@
 			var lnka1=getStorageInt("lnka");
 			if(lnka1)lnka=lnka1;
 			ctn.style.height=lnka+"px";
+			var lnkb1=getStorageInt("lnkb");
+			if(lnkb1){
+				lnkb=lnkb1;
+				setStyleVal("lnkb",lnkb,1);
+			}
 			lnkv=bdh;
 			var lnkv1=getStorageInt("lnkv");
 			if(lnkv1)lnkv=lnkv1;
@@ -372,18 +377,6 @@
 						it.style.margin=lnkm+"px";
 					}
 					break;
-				case "lnka":
-					if(flag){
-						lnka=val;
-					}else{
-						if(lnka<0)lnka=0;
-						else if(lnka>wht/2)lnka=wht/2;
-						else lnka+=val;
-						setStorage("lnka",lnka);
-					}
-					var ele=$G("nav_ctn");
-					ele.style.height=lnka+"px";
-					break;
 				case "lnkr":
 					if(flag){
 						lnkr=val;
@@ -398,6 +391,30 @@
 						var it=eles[i];
 						it.style.borderRadius=lnkr+"px";
 					}
+					break;
+				case "lnka":
+					if(flag){
+						lnka=val;
+					}else{
+						if(lnka<0)lnka=0;
+						else if(lnka>wht/2)lnka=wht/2;
+						else lnka+=val;
+						setStorage("lnka",lnka);
+					}
+					var ele=$G("nav_ctn");
+					ele.style.height=lnka+"px";
+					break;
+				case "lnkb":
+					if(flag){
+						lnkb=val;
+					}else{
+						if(lnkb<20)lnkb=20;
+						else if(lnkb>95)lnkb=95;
+						else lnkb+=val;
+						setStorage("lnkb",lnkb);
+					}
+					var ele=$G("nav_ctn");
+					ele.style.width=lnkb+"%";
 					break;
 			}
 		}
@@ -421,7 +438,7 @@
 				}
 			}
 		}
-		var serw=75,lnkw=56,lnkf=12,serp,lnkv,lnkh=12,lnkm=6,lnka,lnkr=8;
+		var serw=75,lnkw=56,lnkf=12,serp,lnkv,lnkh=12,lnkm=6,lnka,lnkb=75,lnkr=8;
 		var wht,wwt;
 		var xind=0;
 		window.onload=function(){
@@ -476,15 +493,21 @@
 			<a class="btn btn-combRight" href="javaScript:" onclick="onChangeStyle('lnkm',1)">大</a>
 		</div>
 		<div class="btn-comb" style="margin:10px;">
-			<a class="btn btn-combLeft" href="javaScript:" onclick="onChangeStyle('lnka',-1)">小</a>
-			<a class="btn btn-combMidd" href="javaScript:">链接区域</a>
-			<a class="btn btn-combRight" href="javaScript:" onclick="onChangeStyle('lnka',1)">大</a>
-		</div>		
-		<div class="btn-comb" style="margin:10px;">
 			<a class="btn btn-combLeft" href="javaScript:" onclick="onChangeStyle('lnkr',-1)">小</a>
 			<a class="btn btn-combMidd" href="javaScript:">链接圆角</a>
 			<a class="btn btn-combRight" href="javaScript:" onclick="onChangeStyle('lnkr',1)">大</a>
 		</div>
+		<div class="btn-comb" style="margin:10px;">
+			<a class="btn btn-combLeft" href="javaScript:" onclick="onChangeStyle('lnka',-1)">低</a>
+			<a class="btn btn-combMidd" href="javaScript:">链接区域</a>
+			<a class="btn btn-combRight" href="javaScript:" onclick="onChangeStyle('lnka',1)">高</a>
+		</div>		
+		<div class="btn-comb" style="margin:10px;">
+			<a class="btn btn-combLeft" href="javaScript:" onclick="onChangeStyle('lnkb',-1)">窄</a>
+			<a class="btn btn-combMidd" href="javaScript:">链接区域</a>
+			<a class="btn btn-combRight" href="javaScript:" onclick="onChangeStyle('lnkb',1)">宽</a>
+		</div>		
+
 		<textarea id="defpop_txts" class="exp-text" style="resize:none;width:96%;height:120px;"></textarea><br>
 		<a class="btn" href="javaScript:" style="margin-bottom:4px;" onclick="exportData()">导出</a>
 		<a id="importBtn" class="btn" href="javaScript:" style="margin-bottom:4px;" onclick="importData()">导入</a>	
