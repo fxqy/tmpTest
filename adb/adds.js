@@ -1,4 +1,9 @@
 var uls=[
+"shsb88",
+"bl686",
+"900788",
+"fafa004",
+"xintengai",
 "sqkcjg",
 "zsjiahe",
 "erqimall",
