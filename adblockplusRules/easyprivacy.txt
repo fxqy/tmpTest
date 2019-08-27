@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: dte4EDIYXv5+y6TR8jjkNA
-! Version: 201908260351
+! Checksum: UxVxWgxegM5zf1LZJeo/IQ
+! Version: 201908270351
 ! Title: EasyPrivacy
-! Last modified: 26 Aug 2019 03:51 UTC
+! Last modified: 27 Aug 2019 03:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6408,7 +6408,7 @@ _mongo_stats/
 ||online-right-now.net^$third-party
 ||onlinepbx.ru^$third-party
 ||onlysix.co.uk^$third-party
-||onthe.io^$script,third-party
+||onthe.io^$third-party
 ||opbandit.com^$third-party
 ||openclick.com^$third-party
 ||openhit.com^$third-party
@@ -9956,6 +9956,7 @@ _mongo_stats/
 ||edrone.me/trace?
 ||edrta.mol.im^
 ||edw.insideline.com^$third-party
+||egmontpublishing.dk/tracking/
 ||elb.amazonaws.com/?page=$image
 ||elb.amazonaws.com/g.aspx?surl=
 ||elb.amazonaws.com/partner.gif?
@@ -10039,6 +10040,7 @@ _mongo_stats/
 ||feedblitz.com^*.gif?$third-party
 ||feedcat.net/button/
 ||filament-stats.herokuapp.com^
+||files-hawk.co.uk/hl/hawklinks.js
 ||filesonic.com/referral/$third-party
 ||fitanalytics.com/metrics/
 ||flashi.tv/histats.php?
@@ -11195,7 +11197,6 @@ _mongo_stats/
 ||try.abtasty.com^$third-party
 ||ts.tradetracker.net^
 ||tsk5.com/17*?*=ex-
-||tt.onthe.io^
 ||ttdetect.staticimgfarm.com^
 ||ttwbs.channelintelligence.com^$third-party
 ||turner.com^*/1pixel.gif?
@@ -14425,6 +14426,7 @@ _mongo_stats/
 ||tripadvisor.com/uvpages/page_moniker.html
 ||trivago.com/check-session-state?
 ||trivago.com/tracking/
+||trk.flazio.com^
 ||trk.freepik.com^
 ||trove.com/identity/public/visitor/
 ||trovus.co.uk/tracker/
