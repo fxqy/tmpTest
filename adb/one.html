@@ -345,7 +345,7 @@
 						lnkh=val;
 					}else{
 						if(lnkh<0)lnkh=0;
-						else if(lnkh>20)lnkh=20;
+						else if(lnkh>50)lnkh=50;
 						else lnkh+=val;
 						setStorage("lnkh",lnkh);
 					}
@@ -399,8 +399,8 @@
 					if(flag){
 						lnkb=val;
 					}else{
-						if(lnkb<20)lnkb=20;
-						else if(lnkb>95)lnkb=95;
+						if(lnkb<2)lnkb=2;
+						else if(lnkb>99)lnkb=99;
 						else lnkb+=val;
 						setStorage("lnkb",lnkb);
 					}
@@ -414,7 +414,7 @@
 			$G("defpop_txts").value=JSON.stringify(urls);
 		}		
 		function importData(){
-			$("importBtn").focus();
+			$G("importBtn").focus();
 			var sts = $G("defpop_txts").value;
 			if(sts!=null){
 				try{
