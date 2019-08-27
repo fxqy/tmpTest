@@ -10,7 +10,7 @@
 			width:75%;
 			margin:10px 0px 10px 12.5%;
 			height:42px;
-			text-indent:20px;
+			text-indent:30px;
 			border:1px solid #DAEEFD;
 			border-radius:25px;
 			color:#999;
@@ -134,6 +134,9 @@
 			{name:"xiguapu",url:"http://www.xiguapu.com"}
 		];
 		var colors=["#DAEEFD","#F3F8F1","#E3F9FD","#E9F1F6","#FCEFE8","#DFF0D8","#FCF8E3","#D2DEFA","#FEEFFC"];
+		var nals=["360搜索","bing搜索","头条搜索","百度搜索","google搜索"];
+		var uals=["http://m.so.com/s","http://cn.bing.com/search","http://toutiao.eastday.com/search.html","http://m.baidu.com/s","https://www.google.com/search"];
+		var qals=["q","q","kw","wd","q"];
 		function $P(e){return document.querySelectorAll(e);}
 		function $G(e){return document.getElementById(e);}
 		function $C(a) {return document.createElement(a);}
@@ -224,7 +227,8 @@
 				$A(itm,ctn);
 			}
 		}
-		var lti=0;
+		var lti=0,pti=0;
+		var serzval="";
 		function initEvents(){
 			document.addEventListener('touchstart',function(){
 				lti=setTimeout(function(){
@@ -241,6 +245,32 @@
 			$G("ope_ctn").addEventListener('touchend',function(e){
 				e.stopPropagation();
 			}, false);
+			
+			var serin=$G("ser-inpt");
+			serin.onclick=function(e) {
+				if(e.offsetX<30){
+					if(this.value)serzval=this.value;
+					this.value="";
+					xind++;
+					if(xind>qals.length-1)xind=0;
+					this.setAttribute("name",qals[xind]);
+					this.setAttribute("placeholder",nals[xind]);
+					this.parentNode.setAttribute("action",uals[xind]);
+					setStorage("xind",xind);
+					e.preventDefault();
+					var thiz=this;
+					if(pti!=0)clearTimeout(pti);
+					pti = setTimeout(function(){pti=0;thiz.value=serzval;thiz.setAttribute("placeholder","");},1000);
+				}				
+			};
+			var xind1=getStorageInt("xind");
+			if(xind1){
+				xind=xind1;
+				serin.setAttribute("name",qals[xind]);
+				serin.setAttribute("placeholder","");
+				serin.parentNode.setAttribute("action",uals[xind]);
+			}
+			
 		}	
 		function onChangeStyle(type,val){
 			setStyleVal(type,val);
@@ -393,6 +423,7 @@
 		}
 		var serw=75,lnkw=56,lnkf=12,serp,lnkv,lnkh=12,lnkm=6,lnka,lnkr=8;
 		var wht,wwt;
+		var xind=0;
 		window.onload=function(){
 			initEvents();
 			initLinks();
@@ -403,7 +434,7 @@
 	<div id="ser_ctn" style="position:absolute;width:100%;left:0px;margin:0px;padding:0px;">
 		<form action="http://m.so.com/s" target="_blank" method="get"><!-- SO: http://m.so.com/s bing搜索：http://cn.bing.com/search 百度：http://m.baidu.com/s -->
 			<input name="ie" type="hidden" value="UTF-8"/>
-			<input id="ser-inpt" name="q" type="text" class="ser-inpt"><!-- SO: name="q" bing搜索：name="q" 百度：name="wd" -->
+			<input id="ser-inpt" name="q" type="text" class="ser-inpt" placeholder=""><!-- SO: name="q" bing搜索：name="q" 百度：name="wd" -->
 		</form>
 	</div>
 	<div id="nav_ctn" style="position:absolute;width:75%;padding:0px;left:0px;overflow-y:auto;margin:0 12.5%;"></div>
