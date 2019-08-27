@@ -17,7 +17,17 @@
 		}
 		.ser-inpt:focus{
 			outline: none;
-			border:1px solid #DFF0D8;
+			border:1px solid #DAEEFD;
+			box-shadow: 0px 0px 1px 1px #DAEEFD inset;
+		}
+		.exp-text{
+			border:1px solid #DAEEFD;
+			border-radius:4px;
+		}
+		.exp-text:focus{
+			outline: none;
+			border:1px solid #DAEEFD;
+			box-shadow: 0px 0px 1px 1px #DAEEFD inset;
 		}
 		.nav-item{
 			width:56px;/*不同机型分辨率发生不对齐修改这里如：58px*/
@@ -366,6 +376,7 @@
 			$G("defpop_txts").value=JSON.stringify(urls);
 		}		
 		function importData(){
+			$("importBtn").focus();
 			var sts = $G("defpop_txts").value;
 			if(sts!=null){
 				try{
@@ -389,8 +400,15 @@
 	</script>
 </head>
 <body>
+	<div id="ser_ctn" style="position:absolute;width:100%;left:0px;margin:0px;padding:0px;">
+		<form action="http://m.so.com/s" target="_blank" method="get"><!-- SO: http://m.so.com/s bing搜索：http://cn.bing.com/search 百度：http://m.baidu.com/s -->
+			<input name="ie" type="hidden" value="UTF-8"/>
+			<input id="ser-inpt" name="q" type="text" class="ser-inpt"><!-- SO: name="q" bing搜索：name="q" 百度：name="wd" -->
+		</form>
+	</div>
+	<div id="nav_ctn" style="position:absolute;width:75%;padding:0px;left:0px;overflow-y:auto;margin:0 12.5%;"></div>
 	<!-- 长按空白处可调出设置菜单 -->
-	<div id="ope_ctn" style="position:absolute;margin:0px;padding:0px;left:0px;top:0px;width:100%;height:160px;overflow:auto;background-color:#fafafa;display:none;box-shadow: 0px 0px 4px 3px #ddd;text-align:-webkit-center;text-align:center;">
+	<div id="ope_ctn" style="position:absolute;margin:0px;padding:0px;left:0px;top:0px;width:100%;height:220px;overflow:auto;background-color:#fafafa;display:none;box-shadow: 0px 0px 4px 3px #ddd;text-align:-webkit-center;text-align:center;">
 		<div class="btn-comb" style="margin:10px;">
 			<a class="btn btn-combLeft" href="javaScript:" onclick="onChangeStyle('serw',-1)">小</a>
 			<a class="btn btn-combMidd" href="javaScript:">搜索宽度</a>
@@ -436,16 +454,9 @@
 			<a class="btn btn-combMidd" href="javaScript:">链接圆角</a>
 			<a class="btn btn-combRight" href="javaScript:" onclick="onChangeStyle('lnkr',1)">大</a>
 		</div>
-		<textarea id="defpop_txts" style="resize:none;width:96%;height:120px;"></textarea><br>
-		<a class="btn" href="javaScript:" onclick="exportData()">导出</a>
-		<a class="btn" href="javaScript:" onclick="importData()">导入</a>	
+		<textarea id="defpop_txts" class="exp-text" style="resize:none;width:96%;height:120px;"></textarea><br>
+		<a class="btn" href="javaScript:" style="margin-bottom:4px;" onclick="exportData()">导出</a>
+		<a id="importBtn" class="btn" href="javaScript:" style="margin-bottom:4px;" onclick="importData()">导入</a>	
 	</div>
-	<div id="ser_ctn" style="position:absolute;width:100%;left:0px;margin:0px;padding:0px;">
-		<form action="http://m.so.com/s" target="_blank" method="get"><!-- SO: http://m.so.com/s bing搜索：http://cn.bing.com/search 百度：http://m.baidu.com/s -->
-			<input name="ie" type="hidden" value="UTF-8"/>
-			<input id="ser-inpt" name="q" type="text" class="ser-inpt"><!-- SO: name="q" bing搜索：name="q" 百度：name="wd" -->
-		</form>
-	</div>
-	<div id="nav_ctn" style="position:absolute;width:75%;padding:0px;left:0px;overflow-y:auto;margin:0 12.5%;"></div>
 </body>
 </html>
