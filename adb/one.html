@@ -514,7 +514,7 @@
 					if(flag){
 						serw=val;
 					}else{
-						if(serw<50)serw=50;
+						if(serw<10)serw=10;
 						else if(serw>90)serw=90;
 						else serw+=val;
 						setStorage("serw",serw);
@@ -595,7 +595,7 @@
 						lnkm=val;
 					}else{
 						if(lnkm<4)lnkm=4;
-						else if(lnkm>26)lnkm=26;
+						else if(lnkm>40)lnkm=40;
 						else lnkm+=val;
 						setStorage("lnkm",lnkm);
 					}
@@ -729,7 +729,7 @@
 	<div id="ser_ctn" style="position:absolute;width:100%;left:0px;margin:0px;padding:0px;">
 		<form action="http://m.so.com/s" target="_blank" method="get">
 			<input name="ie" type="hidden" value="UTF-8"/>
-			<input id="ser-inpt" name="q" type="text" class="ser-inpt" placeholder="">
+			<input id="ser-inpt" name="q" type="text" class="ser-inpt" autocomplete="off">
 		</form>
 	</div>
 	<div id="nav_ctn" style="position:absolute;width:75%;padding:0px;left:0px;overflow-y:auto;margin:0 12.5%;"></div>
