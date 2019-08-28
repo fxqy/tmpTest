@@ -166,6 +166,8 @@
 			$G("op_dlg").innerHTML="";
 		}
 		function posDlg(dlg,e,f){
+			wht=document.documentElement.clientHeight;
+			wwt=document.documentElement.clientWidth;
 			var dlght=parseInt(dlg.offsetHeight);
 			var dlgwd=parseInt(dlg.offsetWidth);
 			if(f){
@@ -717,6 +719,9 @@
 			initEvents();
 			initStyles();
 			initLinks();
+		}
+		window.onresize=function(){
+			posDlg($G("op_dlg"),0,1);
 		}
 	</script>
 </head>
