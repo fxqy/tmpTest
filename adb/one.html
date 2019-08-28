@@ -43,6 +43,23 @@
 			border: 1px solid #eee;
 			border-color: rgba(125,125,125,0.2) rgba(125,125,125,0.2) rgba(125,125,125,0.2);
 		}
+		.dlg-item{
+			display:block;
+			font-size:12px;
+			padding:10px 20px;
+			text-decoration:none;
+			color:#555;
+		
+		}
+		.dlg-inpt{
+			display:block;
+			font-size:12px;
+			padding:10px 5px;
+			color:#555;
+			border:0px;
+			margin:5px;
+			border-bottom:1px solid #DAEEFD;
+		}
 		.btn {
 			text-decoration: none;
 			display: inline-block;
@@ -135,6 +152,34 @@
 		function openUrl(u){
 			window.open(u);
 		}
+		function openDlg(){
+			var lay=$G("op_lay");
+			lay.style.display="block";
+			lay.style.height=wht;
+			lay.style.width="100%";
+			var dlg=$G("op_dlg");
+			dlg.innerHTML="";
+			return dlg;
+		}		
+		function closeDlg(){
+			$G("op_lay").style.display="none";
+			$G("op_dlg").innerHTML="";
+		}
+		function posDlg(dlg,e,f){
+			var dlght=parseInt(dlg.offsetHeight);
+			var dlgwd=parseInt(dlg.offsetWidth);
+			if(f){
+				dlg.style.top=wht/2-(dlght/2)+"px";
+				dlg.style.left=wwt/2-(dlgwd/2)+"px";
+			}else{
+				var px=e.clientX||e.touches[0].clientX
+				var py=e.clientY||e.touches[0].clientY;
+				if(px+dlgwd>wwt)px=px-dlgwd;
+				if(py+dlght>wht)py=py-dlght
+				dlg.style.top=py+"px";
+				dlg.style.left=px+"px";
+			}
+		}
 		function getRenColor(ind){
 			var c;
 			if(ind<colors.length) c=colors[ind];
@@ -155,7 +200,7 @@
 				localStorage.setItem(key,value);
 			}
 		}
-		function initLinks(){
+		function initStyles(){
 			wht=document.documentElement.clientHeight;
 			wwt=document.documentElement.clientWidth;
 			var bdh=wht/2;
@@ -170,7 +215,6 @@
 				setStyleVal("serw",serw1,1);
 			}
 			var ctn=$G("nav_ctn");
-			ctn.innerHTML="";
 			lnka=bdh-10;
 			var lnka1=getStorageInt("lnka");
 			if(lnka1)lnka=lnka1;
@@ -184,9 +228,16 @@
 			var lnkv1=getStorageInt("lnkv");
 			if(lnkv1)lnkv=lnkv1;
 			ctn.style.top=lnkv+"px";
+			
+			var lnkh1=getStorageInt("lnkh");
+			if(lnkh1){
+				lnkh=lnkh1;
+				ctn.style.margin="0 "+lnkh+"%";
+			}
+		}
+		function initLinks(){
 			var lnkw1=getStorageInt("lnkw");
 			var lnkf1=getStorageInt("lnkf");
-			var lnkh1=getStorageInt("lnkh");
 			var lnkm1=getStorageInt("lnkm");
 			var lnkr1=getStorageInt("lnkr");
 			if(lnkw1){
@@ -195,10 +246,7 @@
 			if(lnkf1){
 				lnkf=lnkf1;
 			}
-			if(lnkh1){
-				lnkh=lnkh1;
-				ctn.style.margin="0 "+lnkh+"%";
-			}
+
 			if(lnkm1){
 				lnkm=lnkm1;
 			}			
@@ -209,6 +257,8 @@
 			if(urls1){
 				urls=JSON.parse(urls1);
 			}
+			var ctn=$G("nav_ctn");
+			ctn.innerHTML="";
 			for(var i=0,len=urls.length;i<len;i++){
 				var it=urls[i];
 				var itm=$C("a");
@@ -218,30 +268,215 @@
 				itm.style.fontSize=lnkf+"px";
 				itm.style.margin=lnkm+"px";
 				itm.style.borderRadius=lnkr+"px";
+				itm.style.userSelect="none";
 				itm.setAttribute("onclick","openUrl('"+it.url+"')");
+				itm.setAttribute("dindex",i);
 				itm.style.backgroundColor=getRenColor(i);
+				itm.addEventListener('touchstart',onNavist, false);
+				itm.addEventListener('mousedown',onNavist, false);
+				itm.addEventListener('touchend',onNavied, false);
+				itm.addEventListener('mouseup',onNavied, false);
 				$A(itm,ctn);
 			}
+		}
+		var nti=0;
+		function onNavist(e){
+			var thiz=this;
+			var indxs=thiz.getAttribute("dindex");
+			var indx=parseInt(indxs);
+			nti=setTimeout(function(){
+				nti=0;
+				var dlg=openDlg();
+				var add=$C("a");
+				add.setAttribute("href","javaScript:");
+				add.innerHTML="添加网址...";
+				add.className="dlg-item";
+				add.onclick=function(){
+					var dlg1=openDlg();
+					var nme=$C("input");
+					nme.id="dlg_nvinm";
+					nme.type="text";
+					nme.className="dlg-inpt";
+					nme.setAttribute("placeholder","标题");
+					$A(nme,dlg1);
+					var ulr=$C("input");
+					ulr.id="dlg_nviur";
+					ulr.type="text";
+					ulr.className="dlg-inpt";
+					ulr.setAttribute("placeholder","url");
+					$A(ulr,dlg1);
+					var okb=$C("a");
+					okb.setAttribute("href","javaScript:");
+					okb.innerHTML="保存";
+					okb.className="dlg-item";
+					okb.style.textAlign="center";
+					okb.style.color="green";
+					okb.onclick=function(){
+						var nme1=$G("dlg_nvinm");
+						var ulr1=$G("dlg_nviur");
+						urls.push({name:nme1.value,url:ulr1.value});
+						setStorage("urls",JSON.stringify(urls));
+						initLinks();
+						closeDlg();
+					}
+					$A(okb,dlg);
+					posDlg(dlg,e,1);
+				}
+				$A(add,dlg);
+				if(indxs&&indx>=0&&indx<urls.length){
+					var upd=$C("a");
+					upd.setAttribute("href","javaScript:");
+					upd.innerHTML="修改...";
+					upd.className="dlg-item";
+					upd.onclick=function(){
+						var cit=urls[parseInt(indx)];
+						var dlg1=openDlg();
+						var nme=$C("input");
+						nme.id="dlg_nvinm";
+						nme.type="text";
+						nme.className="dlg-inpt";
+						nme.setAttribute("placeholder","标题");
+						nme.value=cit.name;
+						$A(nme,dlg1);
+						var ulr=$C("input");
+						ulr.id="dlg_nviur";
+						ulr.type="text";
+						ulr.className="dlg-inpt";
+						ulr.setAttribute("placeholder","url");
+						ulr.value=cit.url;
+						$A(ulr,dlg1);
+						var okb=$C("a");
+						okb.setAttribute("href","javaScript:");
+						okb.innerHTML="保存";
+						okb.className="dlg-item";
+						okb.style.textAlign="center";
+						okb.style.color="green";
+						okb.onclick=function(){
+							var nme1=$G("dlg_nvinm");
+							var ulr1=$G("dlg_nviur");
+							urls[indx]={name:nme1.value,url:ulr1.value};
+							setStorage("urls",JSON.stringify(urls));
+							initLinks();
+							closeDlg();
+						}
+						$A(okb,dlg);
+						posDlg(dlg,e,1);
+					}
+					$A(upd,dlg);
+					var del=$C("a");
+					del.setAttribute("href","javaScript:");
+					del.innerHTML="删除";
+					del.className="dlg-item";
+					del.onclick=function(){
+						urls.splice(indx,1);
+						setStorage("urls",JSON.stringify(urls));
+						initLinks();
+						closeDlg();
+					}
+					$A(del,dlg);
+					var upm=$C("a");
+					upm.setAttribute("href","javaScript:");
+					upm.innerHTML="向前移动";
+					upm.className="dlg-item";
+					upm.onclick=function(){
+						if(indx<=0)return;
+						var tpr=urls[indx];
+						urls[indx]=urls[indx-1];
+						urls[indx-1]=tpr;
+						setStorage("urls",JSON.stringify(urls));
+						initLinks();
+						closeDlg();
+					}
+					$A(upm,dlg);
+					var dnm=$C("a");
+					dnm.setAttribute("href","javaScript:");
+					dnm.innerHTML="向后移动";
+					dnm.className="dlg-item";
+					dnm.onclick=function(){
+						if(indx>=urls.length-1)return;
+						var tpr=urls[indx];
+						urls[indx]=urls[indx+1];
+						urls[indx+1]=tpr;
+						setStorage("urls",JSON.stringify(urls));
+						initLinks();
+						closeDlg();
+					}
+					$A(dnm,dlg);
+					var fnm=$C("a");
+					fnm.setAttribute("href","javaScript:");
+					fnm.innerHTML="移至最前";
+					fnm.className="dlg-item";
+					fnm.onclick=function(){
+						if(indx==0)return;
+						var tpr=urls[indx];
+						urls.splice(indx,1);
+						urls.unshift(tpr);
+						setStorage("urls",JSON.stringify(urls));
+						initLinks();
+						closeDlg();
+					}
+					$A(fnm,dlg);
+					var lnm=$C("a");
+					lnm.setAttribute("href","javaScript:");
+					lnm.innerHTML="移至最后";
+					lnm.className="dlg-item";
+					lnm.onclick=function(){
+						if(indx==urls.length-1)return;
+						var tpr=urls[indx];
+						urls.splice(indx,1);
+						urls.push(tpr);
+						setStorage("urls",JSON.stringify(urls));
+						initLinks();
+						closeDlg();
+					}
+					$A(lnm,dlg);
+				}
+				posDlg(dlg,e);
+			},800);
+			e.stopPropagation();
+		}
+		function onNavied(e){
+			if(nti!=0){
+				$G("op_lay").style.display="none";
+				clearTimeout(nti);
+			}
+			e.stopPropagation();
 		}
 		var lti=0,pti=0;
 		var serzval="";
 		function initEvents(){
-			document.addEventListener('touchstart',function(){
+			var tst=function(){
 				lti=setTimeout(function(){
 					lti=0;
 					$G("ope_ctn").style.display="block";
-				},1000);
-			}, false);
-			document.addEventListener('touchend',function(){
+				},800);
+			}
+			var ted=function(){
 				if(lti!=0){
 					$G("ope_ctn").style.display="none";
 					clearTimeout(lti);
 				}
-			}, false);
-			$G("ope_ctn").addEventListener('touchend',function(e){
-				e.stopPropagation();
-			}, false);
-			
+				closeDlg();
+			}
+			var spn=function(e){e.stopPropagation();}
+			document.addEventListener('touchstart',tst, false);
+			document.addEventListener('mousedown',tst, false);
+			document.addEventListener('touchend',ted, false);
+			document.addEventListener('mouseup',ted, false);
+			$G("ope_ctn").addEventListener('touchend',spn, false);
+			$G("ope_ctn").addEventListener('mouseup',spn, false);
+			//$G("nav_ctn").addEventListener('touchstart',spn, false);
+			//$G("nav_ctn").addEventListener('mousedown',spn, false);
+			$G("nav_ctn").addEventListener('touchstart',onNavist, false);
+			$G("nav_ctn").addEventListener('mousedown',onNavist, false);
+			$G("nav_ctn").addEventListener('touchend',onNavied, false);
+			$G("nav_ctn").addEventListener('mouseup',onNavied, false);
+			$G("op_lay").addEventListener('touchstart',spn, false);
+			$G("op_lay").addEventListener('mousedown',spn, false);			
+			$G("op_dlg").addEventListener('touchstart',spn, false);
+			$G("op_dlg").addEventListener('mousedown',spn, false);			
+			$G("op_dlg").addEventListener('touchend',spn, false);
+			$G("op_dlg").addEventListener('mouseup',spn, false);
 			var serin=$G("ser-inpt");
 			serin.onclick=function(e) {
 				if(e.offsetX<30){
@@ -411,18 +646,64 @@
 		}
 		/**添加导入、导出功能**/
 		function exportData(){
-			$G("defpop_txts").value=JSON.stringify(urls);
+			var epd={serw:serw,lnkw:lnkw,lnkf:lnkf,serp:serp,lnkv:lnkv,lnkh:lnkh,lnkm:lnkm,lnka:lnka,lnkb:lnkb,lnkr:lnkr,xind:xind,urls:urls};
+			$G("defpop_txts").value=JSON.stringify(epd);
 		}		
 		function importData(){
-			$G("importBtn").focus();
-			var sts = $G("defpop_txts").value;
-			if(sts!=null){
+			var txt = $G("defpop_txts").value;
+			if(txt){
 				try{
-					var uls=JSON.parse(sts);
-					if(uls&&uls.length>0){
-						urls=uls;
-						setStorage("urls",JSON.stringify(urls));
-						initLinks();
+					var epd=JSON.parse(txt);
+					if(epd){
+						if(epd.serw){
+							serw=epd.serw;
+							setStorage("serw",serw);
+						}
+						if(epd.lnkw){
+							lnkw=epd.lnkw;
+							setStorage("lnkw",lnkw);
+						}
+						if(epd.lnkf){
+							lnkf=epd.lnkf;
+							setStorage("lnkf",lnkf);
+						}
+						if(epd.serp){
+							serp=epd.serp;
+							setStorage("serp",serp);
+						}
+						if(epd.lnkv){
+							lnkv=epd.lnkv;
+							setStorage("lnkv",lnkv);
+						}
+						if(epd.lnkh){
+							lnkh=epd.lnkh;
+							setStorage("lnkh",lnkh);
+						}
+						if(epd.lnkm){
+							lnkm=epd.lnkm;
+							setStorage("lnkm",lnkm);
+						}
+						if(epd.lnka){
+							lnka=epd.lnka;
+							setStorage("lnka",lnka);
+						}
+						if(epd.lnkb){
+							lnkb=epd.lnkb;
+							setStorage("lnkb",lnkb);
+						}
+						if(epd.lnkr){
+							lnkr=epd.lnkr;
+							setStorage("lnkr",lnkr);
+						}
+						if(epd.xind){
+							xind=epd.xind;
+							setStorage("xind",xind);
+						}
+						if(epd.urls&&epd.urls.length>0){
+							urls=epd.urls;
+							setStorage("urls",JSON.stringify(urls));
+							initLinks();
+						}	
 					}
 				}catch(e){
 					alert('导入数据无效！格式：[{"name":"***","url":"***"},...],详细错误：'+e.message);
@@ -434,6 +715,7 @@
 		var xind=0;
 		window.onload=function(){
 			initEvents();
+			initStyles();
 			initLinks();
 		}
 	</script>
@@ -499,9 +781,11 @@
 			<a class="btn btn-combRight" href="javaScript:" onclick="onChangeStyle('lnkb',1)">宽</a>
 		</div>		
 
-		<textarea id="defpop_txts" class="exp-text" style="resize:none;width:96%;height:120px;"></textarea><br>
+		<textarea id="defpop_txts" class="exp-text" style="resize:none;width:96%;height:120px;"></textarea><br/>
 		<a class="btn" href="javaScript:" style="margin-bottom:4px;" onclick="exportData()">导出</a>
 		<a id="importBtn" class="btn" href="javaScript:" style="margin-bottom:4px;" onclick="importData()">导入</a>	
 	</div>
+	<div id="op_lay" style="position:fixed;width:100%;height:800px;left:0px;top:0px;background:rgba(0,0,0,0.1);display:none;"><div id="op_dlg" style="position:fixed;background:#fefefe;box-shadow:0px 0px 2px 2px rgba(0,0,0,0.1);border-radius:2px;"></div></div>
+	
 </body>
 </html>
