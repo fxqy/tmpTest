@@ -10,7 +10,7 @@
 			width:75%;
 			margin:10px 0px 10px 12.5%;
 			height:42px;
-			text-indent:30px;
+			text-indent:20px;
 			border:1px solid #DAEEFD;
 			border-radius:25px;
 			color:#999;
@@ -46,7 +46,7 @@
 		.dlg-item{
 			display:block;
 			font-size:12px;
-			padding:10px 20px;
+			padding:6px 20px;
 			text-decoration:none;
 			color:#555;
 		
@@ -54,7 +54,7 @@
 		.dlg-inpt{
 			display:block;
 			font-size:12px;
-			padding:10px 5px;
+			padding:10px 8px;
 			color:#555;
 			border:0px;
 			margin:5px;
@@ -171,15 +171,16 @@
 			var dlght=parseInt(dlg.offsetHeight);
 			var dlgwd=parseInt(dlg.offsetWidth);
 			if(f){
-				dlg.style.top=wht/2-(dlght/2)+"px";
 				dlg.style.left=wwt/2-(dlgwd/2)+"px";
+				dlg.style.top=wht/2-(dlght/2)+"px";
 			}else{
 				var px=e.clientX||e.touches[0].clientX
 				var py=e.clientY||e.touches[0].clientY;
 				if(px+dlgwd>wwt)px=px-dlgwd;
 				if(py+dlght>wht)py=py-dlght
-				dlg.style.top=py+"px";
 				dlg.style.left=px+"px";
+				dlg.style.top=py+"px";
+				
 			}
 		}
 		function getRenColor(ind){
@@ -481,7 +482,7 @@
 			$G("op_dlg").addEventListener('mouseup',spn, false);
 			var serin=$G("ser-inpt");
 			serin.onclick=function(e) {
-				if(e.offsetX<30){
+				if(e.offsetX<20){
 					if(this.value)serzval=this.value;
 					this.value="";
 					xind++;
@@ -493,7 +494,7 @@
 					e.preventDefault();
 					var thiz=this;
 					if(pti!=0)clearTimeout(pti);
-					pti = setTimeout(function(){pti=0;thiz.value=serzval;thiz.setAttribute("placeholder","");},1000);
+					pti = setTimeout(function(){pti=0;thiz.value=serzval;thiz.setAttribute("placeholder","");},600);
 				}				
 			};
 			var xind1=getStorageInt("xind");
