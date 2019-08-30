@@ -60,6 +60,11 @@
 			margin:5px;
 			border-bottom:1px solid #DAEEFD;
 		}
+		.dlg-inpt:focus{
+			outline: none;
+			border:0px;
+			border-bottom:1px solid orange;
+		}
 		.btn {
 			text-decoration: none;
 			display: inline-block;
@@ -177,17 +182,10 @@
 			}else{
 				var px=e.clientX||e.touches[0].clientX
 				var py=e.clientY||e.touches[0].clientY;
-				if(px+dlgwd>wwt){
-					px=px-dlgwd;
-					px=px<0?0:px;
-				}
-				if(py+dlght>wht){
-					py=py-dlght;
-					py=py<0?0:py;
-				}
+				if(px+dlgwd>wwt){px=px-dlgwd;px=px<0?0:px;}
+				if(py+dlght>wht){py=py-dlght;py=py<0?0:py;}
 				dlg.style.left=px+"px";
 				dlg.style.top=py+"px";
-				
 			}
 		}
 		function getRenColor(ind){
