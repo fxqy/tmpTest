@@ -165,19 +165,26 @@
 			$G("op_lay").style.display="none";
 			$G("op_dlg").innerHTML="";
 		}
-		function posDlg(dlg,e,f){
+		function posDlg(e,f){
 			wht=document.documentElement.clientHeight;
 			wwt=document.documentElement.clientWidth;
+			var dlg=$G("op_dlg");
 			var dlght=parseInt(dlg.offsetHeight);
 			var dlgwd=parseInt(dlg.offsetWidth);
 			if(f){
-				dlg.style.left=wwt/2-(dlgwd/2)+"px";
-				dlg.style.top=wht/2-(dlght/2)+"px";
+				dlg.style.left=(wwt-dlgwd)/2+"px";
+				dlg.style.top=(wht-dlght)/2+"px";
 			}else{
 				var px=e.clientX||e.touches[0].clientX
 				var py=e.clientY||e.touches[0].clientY;
-				if(px+dlgwd>wwt)px=px-dlgwd;
-				if(py+dlght>wht)py=py-dlght
+				if(px+dlgwd>wwt){
+					px=px-dlgwd;
+					px=px<0?0:px;
+				}
+				if(py+dlght>wht){
+					py=py-dlght;
+					py=py<0?0:py;
+				}
 				dlg.style.left=px+"px";
 				dlg.style.top=py+"px";
 				
@@ -323,7 +330,7 @@
 						closeDlg();
 					}
 					$A(okb,dlg);
-					posDlg(dlg,e,1);
+					posDlg(e,1);
 				}
 				$A(add,dlg);
 				if(indxs&&indx>=0&&indx<urls.length){
@@ -363,7 +370,7 @@
 							closeDlg();
 						}
 						$A(okb,dlg);
-						posDlg(dlg,e,1);
+						posDlg(e,1);
 					}
 					$A(upd,dlg);
 					var del=$C("a");
@@ -434,7 +441,7 @@
 					}
 					$A(lnm,dlg);
 				}
-				posDlg(dlg,e);
+				posDlg(e);
 			},800);
 			e.stopPropagation();
 		}
@@ -722,7 +729,7 @@
 			initLinks();
 		}
 		window.onresize=function(){
-			posDlg($G("op_dlg"),0,1);
+			posDlg(0,1);
 		}
 	</script>
 </head>
