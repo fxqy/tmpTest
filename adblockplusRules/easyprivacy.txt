@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: q6/xlitZSyrKfy+6RzbDgA
-! Version: 201908300341
+! Checksum: VbC4e5uh+LQpzr7HmMDBIg
+! Version: 201908310221
 ! Title: EasyPrivacy
-! Last modified: 30 Aug 2019 03:41 UTC
+! Last modified: 31 Aug 2019 02:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -660,6 +660,7 @@
 /analytics/tagx-
 /analytics/tealium-
 /analytics/timeme.
+/analytics/timing
 /analytics/tms_
 /analytics/tools_
 /analytics/track-
@@ -5439,6 +5440,7 @@ _mongo_stats/
 ||cya2.net^$third-party
 ||cybermonitor.com^$third-party
 ||cytoclause.com^$third-party
+||czx5eyk0exbhwp43ya.biz^$third-party
 ||d-1.co^$third-party
 ||d41.co^$third-party
 ||dable.io^$third-party
@@ -11108,6 +11110,7 @@ _mongo_stats/
 ||trackicollect.ibase.fr^$third-party
 ||tracking.*.miui.com^
 ||tracking.adalyser.com^
+||tracking.aegpresents.com^
 ||tracking.allposters.com^
 ||tracking.badgeville.com^$third-party
 ||tracking.bidmizer.com^$third-party
@@ -12295,6 +12298,7 @@ _mongo_stats/
 ||analytics.archive.org^
 ||analytics.bloomberg.com^
 ||analytics.brave.com^
+||analytics.chase.com^
 ||analytics.ecosia.org^
 ||analytics.eip.telegraph.co.uk^
 ||analytics.femalefirst.co.uk^
@@ -12569,6 +12573,7 @@ _mongo_stats/
 ||chanel.com/js/flashtrack.js
 ||channel4.com/foresee_c4/
 ||charter.com/static/scripts/mock/tracking.js
+||chase.com/activity$image
 ||cheapflights.com/ic/*.gif?
 ||cheapsalesconsulting.com/adaptive.php?
 ||cheezburger.com/api/visitor
@@ -14147,6 +14152,7 @@ _mongo_stats/
 ||stats.blogg.se^
 ||stats.break.com^
 ||stats.cardschat.com^
+||stats.cheddar.com^
 ||stats.christianpost.com^
 ||stats.clear-media.com^
 ||stats.dnaindia.com^
