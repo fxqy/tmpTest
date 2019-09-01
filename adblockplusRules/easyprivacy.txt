@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: VbC4e5uh+LQpzr7HmMDBIg
-! Version: 201908310221
+! Checksum: raOHn26OLuLMSrDRRqOenA
+! Version: 201909010201
 ! Title: EasyPrivacy
-! Last modified: 31 Aug 2019 02:21 UTC
+! Last modified: 01 Sep 2019 02:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -741,6 +741,7 @@
 /api/v1/metrics
 /api/v1/pixel?
 /api/v1/stat?
+/api/v2/collector
 /api/x.gif?
 /apilog?
 /apis/cpt.php?
@@ -6514,7 +6515,6 @@ _mongo_stats/
 ||plwosvr.net^$third-party
 ||pm0.net^$third-party
 ||pm14.com^$third-party
-||pmdstatic.net^$third-party
 ||pnstat.com^$third-party
 ||pntra.com^$third-party
 ||pntrac.com^$third-party
@@ -6751,6 +6751,7 @@ _mongo_stats/
 ||searchplow.com^$third-party
 ||secure-pixel.com^$third-party
 ||securepaths.com^$third-party
+||securitytrfx.com^$third-party
 ||sedotracker.com^$third-party
 ||seehits.com^$third-party
 ||seewhy.com^$third-party
@@ -11032,6 +11033,8 @@ _mongo_stats/
 ||tr.interlake.net^
 ||tr.webantenna.info^
 ||tr1.mailperformance.com^
+||tra.pmdstatic.net^
+||tra.scds.pmdstatic.net^
 ||trace.qq.com^$third-party
 ||track.99acres.com^
 ||track.addevent.com^
@@ -11634,7 +11637,6 @@ _mongo_stats/
 ||t.planvip.fr^$third-party
 ||tag.leadplace.fr^
 ||tmgr.ccmbg.com^
-||tra.pmdstatic.net^
 ||track.byzon.swelen.net^$third-party
 ||track.laredoute.fr^$image
 ||trackcustomer.laredoute.com^$image
@@ -15789,6 +15791,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||tracker.tiu.ru^
 ||vedomosti.ru/boom?
 ||vesti.ru/counter/
+||yandex.ru/clck/click
+||yandex.ru/clck/jclck/
 ||yast.rutube.ru^
 ! Serbian
 ||trak-analytics.blic.rs^
