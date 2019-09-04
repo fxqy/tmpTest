@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: op4DBdwXqmeFbbERpDxUuw
-! Version: 201909030341
+! Checksum: O8nNYKpAUoUAt0VEukX9MQ
+! Version: 201909040222
 ! Title: EasyPrivacy
-! Last modified: 03 Sep 2019 03:41 UTC
+! Last modified: 04 Sep 2019 02:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5969,6 +5969,7 @@ _mongo_stats/
 ||inspectlet.com^$third-party
 ||instadia.net^$third-party
 ||instana.io^$third-party
+||instant.page^$third-party
 ||instapage.com^$third-party,domain=~pagedemo.co
 ||instore.biz^$third-party
 ||integritystat.com^$third-party
@@ -16116,6 +16117,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||chartbeat.com/*/chartbeat/$~third-party
 @@||chartbeat.com/js/chartbeat.js$domain=indiatimes.com|m.tmz.com|salon.com|zap2it.com
 @@||chatzy.com/?jsonp:$script
+@@||chessfriends.com/js/live/GoogleAnalytics.js?$~third-party
 @@||chobani.com/js/tracking.js
 @@||cincinnatibell.net/images/track/track.gif?$xmlhttprequest
 @@||cio.com/js/demandbase.js?
