@@ -49,7 +49,6 @@
 			padding:8px 20px;
 			text-decoration:none;
 			color:#555;
-		
 		}
 		.dlg-inpt{
 			display:block;
@@ -653,12 +652,18 @@
 			}
 		}
 		/**添加导入、导出功能**/
-		function exportData(){
+		function getExpStr(){
 			var epd={serw:serw,lnkw:lnkw,lnkf:lnkf,serp:serp,lnkv:lnkv,lnkh:lnkh,lnkm:lnkm,lnka:lnka,lnkb:lnkb,lnkr:lnkr,xind:xind,urls:urls};
-			$G("defpop_txts").value=JSON.stringify(epd);
-		}		
+			return JSON.stringify(epd);
+		}
+		function exportData(){
+			$G("defpop_txts").value=getExpStr();
+		}
 		function importData(){
 			var txt = $G("defpop_txts").value;
+			importDataA(txt);
+		}		
+		function importDataA(txt){
 			if(txt){
 				try{
 					var epd=JSON.parse(txt);
@@ -718,6 +723,35 @@
 				}
 			}
 		}
+		/**文件导出、导入**/
+		function exportDataF(){
+			var exstr=getExpStr();
+			var b = new Blob([exstr],{type:'text/plain'});
+			var ta = $C("a");
+			ta.download = "homePageData.txt";
+			ta.href = URL.createObjectURL(b);
+			ta.click();
+			setTimeout(function () {
+				URL.revokeObjectURL(b);
+			}, 100);
+		}
+		function importDataF(){
+			var tf = $C("input");
+			tf.type = "file";
+			tf.style.display="none";
+			$A(tf,document.body);
+			tf.click();
+			tf.onchange=function(){
+				var rd = new FileReader();
+				var fl = this.files[0];
+				rd.readAsText(fl, 'utf-8');
+				rd.onload = function (e) {
+					importDataA(e.target.result);
+					document.body.removeChild(tf);
+				};
+			}
+		
+		}
 		var serw=75,lnkw=56,lnkf=12,serp,lnkv,lnkh=12,lnkm=6,lnka,lnkb=75,lnkr=8;
 		var wht,wwt;
 		var xind=0;
@@ -734,12 +768,12 @@
 <body>
 	<div id="ser_ctn" style="position:absolute;width:100%;left:0px;margin:0px;padding:0px;">
 		<form action="http://m.so.com/s" target="_blank" method="get">
-			<input name="ie" type="hidden" value="UTF-8"/>
+			<input name="ie" type="hidden" value="UTF-8"/><!-- 点击搜索框左圆弧区域切换搜索引擎 -->
 			<input id="ser-inpt" name="q" type="text" class="ser-inpt" autocomplete="off">
 		</form>
 	</div>
 	<div id="nav_ctn" style="position:absolute;width:75%;padding:0px;left:0px;overflow-y:auto;margin:0 12.5%;"></div>
-	<!-- 长按空白处可调出设置菜单 -->
+	<!-- 长按链接区域空白处或者链接可调出上下文菜单，长按其他空白处可调出设置菜单 -->
 	<div id="ope_ctn" style="position:absolute;margin:0px;padding:0px;left:0px;top:0px;width:100%;height:220px;overflow:auto;background-color:#fafafa;display:none;box-shadow: 0px 0px 4px 3px #ddd;text-align:-webkit-center;text-align:center;">
 		<div class="btn-comb" style="margin:10px;">
 			<a class="btn btn-combLeft" href="javaScript:" onclick="onChangeStyle('serw',-1)">小</a>
@@ -793,9 +827,10 @@
 		</div>
 		<textarea id="defpop_txts" class="exp-text" style="resize:none;width:96%;height:120px;"></textarea><br/>
 		<a class="btn" href="javaScript:" style="margin-bottom:4px;" onclick="exportData()">导出</a>
-		<a id="importBtn" class="btn" href="javaScript:" style="margin-bottom:4px;" onclick="importData()">导入</a>	
+		<a id="importBtn" class="btn" href="javaScript:" style="margin-bottom:4px;" onclick="importData()">导入</a>			
+		<a class="btn" href="javaScript:" style="margin-bottom:4px;" onclick="exportDataF()">导出文件</a>
+		<a id="importBtn" class="btn" href="javaScript:" style="margin-bottom:4px;" onclick="importDataF()">导入文件</a>	
 	</div>
 	<div id="op_lay" style="position:fixed;width:100%;height:800px;left:0px;top:0px;background:rgba(0,0,0,0.1);display:none;"><div id="op_dlg" style="position:fixed;background:#fefefe;box-shadow:0px 0px 2px 2px rgba(0,0,0,0.1);border-radius:2px;"></div></div>
-	
 </body>
 </html>
