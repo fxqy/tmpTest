@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 8JOlT5tkiVjw27uqUXBjaA
-! Version: 201909060141
+! Checksum: c1WhlNG1gea3f6Zyuo9xUA
+! Version: 201909070601
 ! Title: EasyPrivacy
-! Last modified: 06 Sep 2019 01:41 UTC
+! Last modified: 07 Sep 2019 06:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -445,8 +445,10 @@
 /admp-
 /adobe-analytics.
 /adobe-analytics/*
+/adobe/app-measurement.
 /adobe/AppMeasurement-
 /adobe/VideoHeartbeat-
+/adobe/visitor-
 /AdobeAnalyticsSDK.
 /AdobeCustomVideoMeasurement.swf
 /adonis_event/*
@@ -581,11 +583,13 @@
 /analytics-ingress-
 /analytics-js.
 /analytics-js/*
+/analytics-min.js
 /analytics-ping.
 /analytics-plugin/*
 /analytics-post-
 /analytics-savebt?
 /analytics-scripts.
+/analytics-sendEvent
 /analytics-social.
 /analytics-tag.
 /analytics-v1.
@@ -1188,6 +1192,7 @@
 /col2/*&sa=
 /col2/*&ss=
 /collect-*/jsEvent.js
+/collect.gif?
 /collect.php?data=
 /collect/kf?
 /collect/pageview?
@@ -6947,6 +6952,7 @@ _mongo_stats/
 ||statuncore.com^$third-party
 ||stcllctrs.com^$third-party
 ||stcounter.com^$third-party
+||steadfastsystem.com^$third-party
 ||steelhousemedia.com^$third-party
 ||stellaservice.com^$third-party
 ||stippleit.com^$third-party
@@ -9897,6 +9903,7 @@ _mongo_stats/
 ||dealer.com^*/tracking/
 ||dealerfire.com/analytics/
 ||deb.gs/track/
+||deepknow.egoid.me^
 ||delivra.com/tracking/$third-party
 ||dell.com/TAG/tag.aspx?$third-party
 ||delvenetworks.com/player/plugins/analytics/
@@ -12989,6 +12996,7 @@ _mongo_stats/
 ||gardenweb.com^*/iv_footer.js
 ||gardenweb.com^*/iv_header.js
 ||gateway.reddit.com|
+||gc.newsweek.com^
 ||gcpdata.telegraph.co.uk^
 ||geek.com/js/zdgurgle/
 ||geico.com/vs/track2.js?
@@ -13033,7 +13041,7 @@ _mongo_stats/
 ||glassmoni.researchgate.net^
 ||glean.pop6.com^
 ||global.canon^*/analytics.js
-||global.ssl.fastly.net^$script,domain=radiotimes.com|sainsburys.co.uk
+||global.ssl.fastly.net^$script,domain=jsonline.com|radiotimes.com|sainsburys.co.uk
 ||globes.co.il/ga.asp
 ||globes.co.il/shared/s.ashx?
 ||globester.com^*/track.js
@@ -13153,6 +13161,7 @@ _mongo_stats/
 ||ibm.com/common/stats/
 ||ibm.com/gateway/?
 ||ibs.indiatimes.com^
+||ibt.com/front/js/counter.js
 ||ibtimes.com/player/stats.swf$object-subrequest
 ||icq.com/search/js/stats.js
 ||id.allegisgroup.com^
@@ -13889,6 +13898,7 @@ _mongo_stats/
 ||satellite-tv-guides.com/stat/
 ||sayac.hurriyettv.com^
 ||sb.vevo.com^
+||sc.cc.com^
 ||scdn.co/build/js/tracking-
 ||sciencedaily.com/blank.htm
 ||sciencedaily.com/cache.php?
@@ -14325,6 +14335,7 @@ _mongo_stats/
 ||tkpi.delta.com^
 ||tmagazine.com/js/track_
 ||tnla.thenewslens.com^
+||tongji.meizu.com^
 ||tools.ranker.com^
 ||top.wn.com^
 ||topix.com/t6track/
