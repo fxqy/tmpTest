@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: wm4JNFxk6SS+Hj9Ukm76PA
-! Version: 201909121101
+! Checksum: MAelR0LAnAJsN2RMSS/DYA
+! Version: 201909130111
 ! Title: EasyPrivacy
-! Last modified: 12 Sep 2019 11:01 UTC
+! Last modified: 13 Sep 2019 01:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4819,7 +4819,6 @@ cgi-bin/counter
 /nano.wasm
 /noblock.js
 /obfus.min.js
-/processor.js
 /projectpoi.min.js
 /rum_analytics/*
 /safelinkconverter.js
