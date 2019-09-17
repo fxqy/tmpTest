@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: iW8Q6Ky0bFb785unW1uo5A
-! Version: 201909161121
+! Checksum: 62wWIr/A4L2ROK9+NMjtlg
+! Version: 201909171401
 ! Title: EasyPrivacy
-! Last modified: 16 Sep 2019 11:21 UTC
+! Last modified: 17 Sep 2019 14:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6047,6 +6047,7 @@ _mongo_stats/
 ||infoprodata.com^$third-party
 ||informz.net^$third-party
 ||inimbus.com.au^$third-party
+||inmoment.com^$third-party
 ||innomdc.com^$third-party
 ||innovateads.com^$third-party
 ||inphonic.com^$third-party
@@ -10481,6 +10482,7 @@ _mongo_stats/
 ||logging.prefixbox.com^
 ||loggingapi.spingo.com^
 ||loglady.skypicker.com^
+||logs-api.shoprunner.com^
 ||logs.spilgames.com^
 ||logs.thebloggernetwork.com^
 ||logs.vmixcore.com^
@@ -16998,6 +17000,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||scorecardresearch.com/r2?$image,domain=ancestry.com|billetnet.dk|billettservice.no|lippupalvelu.fi|pcworld.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se|wsj.com
 @@||scorecardresearch.com/r?$image,domain=ancestry.com|billetnet.dk|billettservice.no|lippupalvelu.fi|macworld.com|pcworld.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se|wsj.com
 @@||simyo.de/b/ss/$image
+@@||smetrics.foxnews.com/b/ss/$image
 @@||smetrics.target.com/b/ss/$image
 @@||smetrics.ticketmaster.com/b/ss/$image
 @@||som.aeroplan.com/b/ss/$image
