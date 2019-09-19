@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: roccvU6EtQFdNWpZ22SE8g
-! Version: 201909181051
+! Checksum: d6I0yUAGq6ixL6qN/RYj9g
+! Version: 201909191101
 ! Title: EasyPrivacy
-! Last modified: 18 Sep 2019 10:51 UTC
+! Last modified: 19 Sep 2019 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4830,6 +4830,7 @@ cgi-bin/counter
 /obfus.min.js
 /pageview/pixel?
 /projectpoi.min.js
+/rbcmetrika-
 /rum_analytics/*
 /safelinkconverter.js
 /scripts/analytics/*
@@ -15951,6 +15952,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||rambler.ru/metrics/
 ||rbc.ru/click?
 ||rbc.ru/count/
+||rbc.ru/redir/stat/
 ||rt.ru/proxy?
 ||rutube.ru/counters.html?
 ||rutube.ru/dbg/player_stat?
@@ -15960,6 +15962,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||stat.lenta.ru^
 ||stat.pravmir.ru^
 ||stat.russianfood.com^
+||stat.stars.ru^
 ||stat.woman-announce.ru^
 ||stats.lifenews.ru^
 ||stats.mos.ru^
