@@ -1,4 +1,7 @@
 var uls=[
+"apexlathe",
+"klsadm",
+"pstatp",
 "shsb88",
 "bl686",
 "900788",
