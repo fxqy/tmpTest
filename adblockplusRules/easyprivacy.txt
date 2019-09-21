@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: d6I0yUAGq6ixL6qN/RYj9g
-! Version: 201909191101
+! Checksum: ifL40WZ9oLBHVAg+23r6ww
+! Version: 201909210101
 ! Title: EasyPrivacy
-! Last modified: 19 Sep 2019 11:01 UTC
+! Last modified: 21 Sep 2019 01:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4829,11 +4829,13 @@ cgi-bin/counter
 /noblock.js
 /obfus.min.js
 /pageview/pixel?
+/pixel_identifier.
 /projectpoi.min.js
 /rbcmetrika-
 /rum_analytics/*
 /safelinkconverter.js
 /scripts/analytics/*
+/scroll-track.js
 /simple-miner-tweaks/*
 /simple-monero-$script
 /sparechange.js
@@ -4841,6 +4843,9 @@ cgi-bin/counter
 /streambeam-video.js
 /tenant.min.js
 /track/pageview?
+/tracker.bx/*
+/v1/events
+/v2/events
 /web_miner/*
 /webcoin.js
 /webcoin.min.js
@@ -5512,6 +5517,7 @@ _mongo_stats/
 ||crowdscience.com^$third-party
 ||crowdtwist.com^$third-party
 ||crsspxl.com^$third-party
+||crtx.info^$third-party
 ||crwdcntrl.net^$third-party
 ||csdata1.com^$third-party
 ||csi-tracking.com^$third-party
@@ -6104,6 +6110,7 @@ _mongo_stats/
 ||iproanalytics.com^$third-party
 ||iprotrk.com^$third-party
 ||ipstat.com^$third-party
+||ipstatp.com^$third-party
 ||ipv6monitoring.eu^$third-party
 ||iqdata.ai^$third-party
 ||iqfp1.com^$third-party
@@ -9107,6 +9114,7 @@ _mongo_stats/
 ||mokuz.ru^$third-party
 ||musiccounter.ru^$third-party
 ||mystat-in.net^$third-party
+||ngenix.net^$third-party
 ||personage.name^$third-party
 ||pladform.ru^$third-party
 ||pmbox.biz^$third-party
@@ -12205,6 +12213,7 @@ _mongo_stats/
 ||open.ua/stat/
 ||optimizavr.ru/counter.php?
 ||penza-online.ru^*/userstats.pl?
+||piper.amocrm.ru^
 ||pluso.ru/counter.php?
 ||pluso.ru/ping.php?
 ||prompages.ru/top/
@@ -15933,6 +15942,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||drom.ru/dummy.
 ||fb.ru/stat/
 ||fotostrana.ru/start/
+||hh.ru/analytics
+||hh.ru/stat
 ||irecommend.ru/collect/
 ||kiks.auto.ru^
 ||kommersant.ru/a.asp?p=
@@ -16999,6 +17010,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||metrics.ticketmaster.com/b/ss/$image
 @@||oms.dowjoneson.com/b/ss/$image,domain=wsj.com
 @@||omtrdc.net/b/ss/$image,domain=macworld.com|pcworld.com|techhive.com
+@@||omtrdc.net/rest/$xmlhttprequest
 @@||royalmail.com/b/ss/$image
 @@||scorecardresearch.com/r2?$image,domain=ancestry.com|billetnet.dk|billettservice.no|lippupalvelu.fi|pcworld.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se|wsj.com
 @@||scorecardresearch.com/r?$image,domain=ancestry.com|billetnet.dk|billettservice.no|lippupalvelu.fi|macworld.com|pcworld.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se|wsj.com
