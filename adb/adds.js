@@ -1,4 +1,8 @@
 var uls=[
+"fenniao",
+"shenzhouc",
+"yayjd",
+"jinpu5",
 "apexlathe",
 "klsadm",
 "pstatp",
