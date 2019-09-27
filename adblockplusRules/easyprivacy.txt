@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: O/DmwzIUZl5gqW7Wkza8Aw
-! Version: 201909261231
+! Checksum: YIllXAmrcWXB4bLp+IT/kw
+! Version: 201909271031
 ! Title: EasyPrivacy
-! Last modified: 26 Sep 2019 12:31 UTC
+! Last modified: 27 Sep 2019 10:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1581,6 +1581,8 @@
 /event?token=
 /event_logger
 /EventhubStats.js
+/eventing/v1/*/current|
+/eventing/v1/*/session|
 /EventLog.axd?
 /eventlog.js
 /eventLogServlet?
@@ -4854,8 +4856,6 @@ cgi-bin/counter
 /tenant.min.js
 /track/pageview?
 /tracker.bx/*
-/v1/events|$other,xmlhttprequest
-/v2/events|$other,xmlhttprequest
 /web_miner/*
 /webcoin.js
 /webcoin.min.js
