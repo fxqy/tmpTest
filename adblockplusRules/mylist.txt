@@ -1,6 +1,8 @@
 [Adblock Plus 1.1]
 ! Version: 20190820001
 ! Title: mylist
+menhyil
+cnql
 sxybjjz
 vh269
 smfsjx
@@ -124,8 +126,8 @@ guangyaoli
 apple.com
 kuaidi100.com##.download-nav,.open-mp
 40yb.com#?#:-abp-has(> canvas)
-micaitu.net,40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com#?#:-abp-properties(transform)
-micaitu.net,40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com#?#:-abp-properties(animation)
+micaitu.net,40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com,980kp.com#?#:-abp-properties(transform)
+micaitu.net,40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com,980kp.com#?#:-abp-properties(animation)
 ! micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc#?#:-abp-properties(/border-right-color:.*;/)
 ! micaitu.com,40yb.com,60ws.com,aiaike.com,tv6.cc#?#:-abp-properties(/position:fixed;bottom:.*;/)
 ! End
