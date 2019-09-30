@@ -194,6 +194,6 @@ function parentHide(itm,ptm){
 		}
 	}
 }
-if(hostName.indexOf("tv6")>-1||hostName.indexOf("9zdm")>-1||hostName.indexOf("74zu")>-1||hostName.indexOf("aiaike")>-1||hostName.indexOf("micaitu")>-1||hostName.indexOf("88k")>-1||hostName.indexOf("40yb")>-1||hostName.indexOf("97kp")>-1||hostName.indexOf("60ws")>-1){
+if(hostName.indexOf("tv6")>-1||hostName.indexOf("9zdm")>-1||hostName.indexOf("74zu")>-1||hostName.indexOf("aiaike")>-1||hostName.indexOf("micaitu")>-1||hostName.indexOf("88k")>-1||hostName.indexOf("40yb")>-1||hostName.indexOf("97kp")>-1||hostName.indexOf("980kp")>-1){
 	window.setTimeout(function(){try{doFilter();}catch(e){alert(e.message);}},600);
 }
