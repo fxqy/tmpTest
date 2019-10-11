@@ -1,6 +1,4 @@
-﻿var downParam={};
-var mailParam={};
-window.onload=function(){
+﻿window.onload=function(){
 	initTabs();
 	initEvents();
 };
