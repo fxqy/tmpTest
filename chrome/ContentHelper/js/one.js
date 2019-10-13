@@ -73,6 +73,8 @@ function initEvents(){
 				var popstk=$ContentStack.pop();
 				$LastCode=popstk.code;
 				sendResponse(popstk);
+			}else{
+				alertCase("Processing completed!");
 			}
 		}
 	});

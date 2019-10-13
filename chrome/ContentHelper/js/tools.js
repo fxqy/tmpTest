@@ -315,7 +315,12 @@ function panelCase(option){
 function panelCaseA(opt){
 	panelCase({code:opt.code,title:opt.title,content:opt.content,btn1:opt.btn1,fun1:opt.fun1,btn2:opt.btn2,fun2:opt.fun2,btn3:opt.btn3,fun3:opt.fun3,closed:opt.closed,width:opt.width,headColor:"#f5f5f5",claza:"btn btn-mini btn-green"});
 }
-
+function alertCase(msg){
+	panelCaseA({ title:'Message', content:msg, width:280, btn1:"确定"});
+}
+function confirmCase(msg,fun){
+	panelCaseA({ title:'Message', content:msg, width:280, btn1:"确定", btn2:"取消",fun1: fun});
+}
 function prefixInteger(i,l){
 	var f=i+"";
 	if(f.length<l){
