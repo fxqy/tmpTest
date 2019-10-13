@@ -48,7 +48,8 @@ for(var i=0;i<len;i++){
 
 var smsg={id:"content",data:marr};
 chrome.runtime.sendMessage(smsg, function(response){
+	if(_$Null(response))return;
    window.setTimeout(function(){
 	   window.location.href=response.href;
-   },10000);
+   },20000);
 });
