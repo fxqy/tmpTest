@@ -214,9 +214,9 @@ function panelCase(option){
 					'<p id="cfmboxMsg"></p>'+
 				'</div>'+
 				'<div class="cfmBox_footer">'+
-					'<a id="cfmBoxbtna" class="btn btn-mini btn-green">Confirm</a>'+
-					'<a id="cfmBoxbtnb" class="btn btn-mini">Cancel</a>'+
-					'<a id="cfmBoxbtnc" class="btn btn-mini">Ignore</a>'+
+					'<a id="cfmBoxbtnc" class="btn btn-mini"></a>'+
+					'<a id="cfmBoxbtnb" class="btn btn-mini"></a>'+
+					'<a id="cfmBoxbtna" class="btn btn-mini btn-green"></a>'+
 				'</div>'+
 			'</div>';
 		mhld = _$C("div");
