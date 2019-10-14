@@ -46,7 +46,7 @@ function initEvents(){
 				"dictName": itm.name,
 				"dictDisplayName": "",
 				"dictParentCode": itm.pcode,
-				"dictStandard": "国统字〔2009〕91号",
+				"dictStandard": "20191015NO.1",
 				"dictComment": "",
 				"dictLevel": itm.level,
 				"dictPinYin": zh2py(itm.name),
@@ -69,7 +69,7 @@ function initEvents(){
 			}
 		});
 	};
-	//listener
+	//listeners
 	chrome.runtime.onMessage.addListener(function(message, sender, sendResponse){
 		//console.log(message);
 		var mdata=message.data;
