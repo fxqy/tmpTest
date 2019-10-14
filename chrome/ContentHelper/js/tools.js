@@ -30,7 +30,9 @@ var _$P=function(g,p,s){
 };
 var _$Q=function(g,p){return _$P(g,p,1);}
 function _$Parent(a,b){
+	if(a==null)return null;
 	var c=a.parentNode;
+	if(c.tagName=="body")return null;
 	if(c.className.indexOf(b)>-1){
 		return c;
 	}
