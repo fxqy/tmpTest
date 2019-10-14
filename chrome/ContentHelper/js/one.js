@@ -6,20 +6,30 @@ window.onload=function(){
 	initEvents();
 };
 function initTabs(){
-	var mtabs = _$P(".mdlg_tit_tb .mtabb");
+	var mtabs = _$P(".mdlg_tab_head>.mdlg_tab");
 	for(var i=0;i<mtabs.length;i++){
 		var itm = mtabs[i];
 		itm.onclick=function(){
 			if(this.className.indexOf("mtab_titgry")>-1){
-				var mtbs = _$P(".mtabb");
+				var mtbs = this.parentNode.children;
+				var cindx=0;
 				for(var j=0;j<mtbs.length;j++){
-					var im = mtbs[j];
-					if(this!=im){
-						 im.className="mtabb mtab_titgry";
-						 _$G("tabctt_"+im.id).style.display="none";
+					var itn = mtbs[j];
+					if(this!=itn){
+						 itn.className="mdlg_tab mtab_titgry";
 					}else{
-						im.className="mtabb mtab_tit";
-						_$G("tabctt_"+im.id).style.display="block";
+						itn.className="mdlg_tab mtab_tit";
+						cindx=j;
+					}
+				}
+				var tbhd=_$Parent(this,"mdlg_tab_hd");
+				var ctts = _$Q(".mdlg_tab_ctt",tbhd).children;
+				for(var k=0;k<ctts.length;k++){
+					var itn = ctts[k];
+					if(k!=cindx){
+						 itn.style.display="none";
+					}else{
+						itn.style.display="block";
 					}
 				}
 			}

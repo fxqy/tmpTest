@@ -29,6 +29,13 @@ var _$P=function(g,p,s){
 	}
 };
 var _$Q=function(g,p){return _$P(g,p,1);}
+function _$Parent(a,b){
+	var c=a.parentNode;
+	if(c.className.indexOf(b)>-1){
+		return c;
+	}
+	return _$Parent(c,b);
+}
 function _$Ava(a) {
 	if ( null==a || typeof(a)=="undefined" || ""==a ) {
 		return false;
