@@ -37,7 +37,23 @@ function initEvents(){
 	};
 	_$G("taba_btn2").onclick=function(){
 		var txtarea = _$G("pgctt_txts");
-		txtarea.value=JSON.stringify($ContentDatas);
+		var newarr=[];
+		for(var i=0;i<$ContentDatas.length;i++){
+			var itm = $ContentDatas[i];
+			newarr.push({
+				"dictType": "1",
+				"dictCode": itm.code,
+				"dictName": itm.name,
+				"dictDisplayName": "",
+				"dictParentCode": itm.pcode,
+				"dictStandard": "国统字〔2009〕91号",
+				"dictComment": "",
+				"dictLevel": itm.level,
+				"dictPinYin": zh2py(itm.name),
+				"dictSimplePy": zh2py(itm.name,1)
+			});
+		}
+		txtarea.value=JSON.stringify(newarr);
 	};
 	//b
 	_$G("tabb_btn1").onclick=function(){
