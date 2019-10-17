@@ -46,7 +46,6 @@ function initEvents(){
 		tipCase({msg:"Done"});
 	};
 	_$G("taba_btn2").onclick=function(){
-		var txtarea = _$G("pgctt_txts");
         $ContentDatas.sort(function(a,b){
             if(a.code>b.code) return 1;
             return -1;
@@ -67,6 +66,7 @@ function initEvents(){
 				"dictSimplePy": zh2py(itm.name,1)
 			});
 		}
+        var txtarea = _$G("pgctt_txts");
 		txtarea.value=JSON.stringify(newarr);
 	};
 	//b
