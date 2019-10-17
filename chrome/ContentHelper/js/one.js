@@ -47,6 +47,10 @@ function initEvents(){
 	};
 	_$G("taba_btn2").onclick=function(){
 		var txtarea = _$G("pgctt_txts");
+        $ContentDatas.sort(function(a,b){
+            if(a.code>b.code) return 1;
+            return -1;
+        });
 		var newarr=[];
 		for(var i=0;i<$ContentDatas.length;i++){
 			var itm = $ContentDatas[i];
