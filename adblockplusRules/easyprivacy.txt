@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 9NpeOtxiUVPZv6JzEMaQvg
-! Version: 201910190311
+! Checksum: Z9UMACIADn5uxoF0WoOY4g
+! Version: 201910200221
 ! Title: EasyPrivacy
-! Last modified: 19 Oct 2019 03:11 UTC
+! Last modified: 20 Oct 2019 02:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6696,6 +6696,7 @@ _mongo_stats/
 ||pntra.com^$third-party
 ||pntrac.com^$third-party
 ||pntrs.com^$third-party
+||pointillist.com^^$third-party
 ||pointomatic.com^$third-party
 ||polarcdn-pentos.com^$third-party
 ||popsample.com^$third-party
@@ -10218,8 +10219,8 @@ _mongo_stats/
 ||etc.grab.com^$image,third-party
 ||etoro.com/tradesmonitor/
 ||event-api.contactatonce.co.uk^
-||event-api.contactatonce.com^
 ||event-api.contactatonce.com.au^
+||event-api.contactatonce.com^
 ||event-listener.air.tv^
 ||event.api.drift.com^
 ||event.getblue.io^
@@ -17316,6 +17317,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||v.blog.sohu.com/dostat.do?*&n=videoList_vids&$script
 @@||vanclimg.com/js.ashx?*/google-analytics.js$domain=vancl.com
 @@||wenxuecity.com/data/newscount/$image,domain=wenxuecity.com
+@@||wishpost.cn/api/tracking/
 @@||wrating.com/a1.js$domain=tudou.com|ynet.com
 ! Czech
 @@||adobetag.com/d2/vodafonecz/live/VodafoneCZ.js
