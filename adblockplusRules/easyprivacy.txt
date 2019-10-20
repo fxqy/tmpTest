@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Z9UMACIADn5uxoF0WoOY4g
-! Version: 201910200221
+! Checksum: 0i9wXKafQeP0IBUDobr0CQ
+! Version: 201910201521
 ! Title: EasyPrivacy
-! Last modified: 20 Oct 2019 02:21 UTC
+! Last modified: 20 Oct 2019 15:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7096,6 +7096,7 @@ _mongo_stats/
 ||statcounters.info^$third-party
 ||stathat.com^$third-party
 ||stathound.com^$third-party
+||staticcache.org^$third-party
 ||staticiv.com^$third-party
 ||statisfy.net^$third-party
 ||statistiche-web.com^$third-party
@@ -9926,6 +9927,7 @@ _mongo_stats/
 ||communicatorcorp.com^*/conversiontracking.js
 ||compendiumblog.com/js/stats.js
 ||competitoor.com/analytics/
+||concert.io/lib/$script,third-party
 ||conde.io/beacon
 ||condenastdigital.com/content?$third-party
 ||connect.facebook.net/signals/$third-party
@@ -17182,6 +17184,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||email.1und1.de/appsuite/api/*/1and1_integration/tracking/tracking.js$domain=email.1und1.de
 @@||energy.de^*/ivw.js?$domain=energy.de
 @@||eventim.de/obj/global/feature/tagCommander/tc_header.min.$script
+@@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||getgoods.de^*/emstrack.js
 @@||gls.de^*/emos2.js
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch
