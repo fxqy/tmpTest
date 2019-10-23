@@ -251,17 +251,13 @@
 			var lnkv1=getStorageInt("lnkv");
 			if(lnkv1)lnkv=lnkv1;
 			ctn.style.top=lnkv+"px";
-			
-			var lnkh1=getStorageInt("lnkh");
-			if(lnkh1){
-				lnkh=lnkh1;
-				ctn.style.margin="0 "+lnkh+"%";
-			}
+
 		}
 		function initLinks(){
 			var lnkw1=getStorageInt("lnkw");
 			var lnkf1=getStorageInt("lnkf");
 			var lnkm1=getStorageInt("lnkm");
+            var lnkh1=getStorageInt("lnkh");
 			var lnkr1=getStorageInt("lnkr");
 			if(lnkw1){
 				lnkw=lnkw1;
@@ -272,7 +268,10 @@
 
 			if(lnkm1){
 				lnkm=lnkm1;
-			}			
+			}
+            if(lnkh1){
+				lnkh=lnkh1;
+			}     
 			if(lnkr1){
 				lnkr=lnkr1;
 			}
@@ -289,7 +288,7 @@
 				itm.innerHTML=it.name;
 				itm.style.width=lnkw+"px";
 				itm.style.fontSize=lnkf+"px";
-				itm.style.margin=lnkm+"px";
+				itm.style.margin=lnkm+"px "+lnkh+"px";
 				itm.style.borderRadius=lnkr+"px";
 				itm.style.userSelect="none";
 				itm.setAttribute("onclick","openUrl('"+it.url+"')");
@@ -607,14 +606,17 @@
 					if(flag){
 						lnkh=val;
 					}else{
-						if(lnkh<0)lnkh=0;
-						else if(lnkh>50)lnkh=50;
+						if(lnkh<4)lnkh=4;
+						else if(lnkh>40)lnkh=40;
 						else lnkh+=val;
 						setStorage("lnkh",lnkh);
 					}
-					console.log(lnkh);
-					var ele=$G("nav_ctn");
-					ele.style.margin="0px 0px 0px "+lnkh+"%";
+                    var eles=$P("#nav_ctn .nav-item");
+					for(var i=0,len=eles.length;i<len;i++){
+						var it=eles[i];
+						it.style.marginLeft=lnkh+"px";
+                        it.style.marginRight=lnkh+"px";
+					}
 					break;
 				case "lnkm":
 					if(flag){
@@ -628,7 +630,8 @@
 					var eles=$P("#nav_ctn .nav-item");
 					for(var i=0,len=eles.length;i<len;i++){
 						var it=eles[i];
-						it.style.margin=lnkm+"px";
+						it.style.marginTop=lnkm+"px";
+						it.style.marginBottom=lnkm+"px";
 					}
 					break;
 				case "lnkr":
@@ -669,6 +672,7 @@
 					}
 					var ele=$G("nav_ctn");
 					ele.style.width=lnkb+"%";
+					ele.style.margin="0px "+((100-lnkb)/2)+"%";
 					break;
 			}
 		}
@@ -773,7 +777,7 @@
 			}
 		
 		}
-		var serw=75,lnkw=56,lnkf=12,serp,lnkv,lnkh=12,lnkm=6,lnka,lnkb=75,lnkr=8;
+		var serw=75,lnkw=56,lnkf=12,serp,lnkv,lnkh=6,lnkm=6,lnka,lnkb=75,lnkr=8;
 		var wht,wwt;
 		var xind=0;
 		window.onload=function(){
@@ -793,7 +797,7 @@
 			<input id="ser-inpt" name="q" type="text" class="ser-inpt" autocomplete="off">
 		</form>
 	</div>
-	<div id="nav_ctn" style="position:absolute;width:75%;padding:0px;left:0px;overflow-y:auto;margin:0 12.5%;"></div>
+	<div id="nav_ctn" style="position:absolute;width:75%;padding:0px;left:0px;overflow-y:auto;margin:0 12.5%;text-align:center;"></div>
 	<!-- 长按链接区域空白处或者链接可调出上下文菜单，长按其他空白处可调出设置菜单 -->
 	<div id="ope_ctn" style="position:absolute;margin:0px;padding:0px;left:0px;top:0px;width:100%;height:220px;overflow:auto;background-color:#fafafa;display:none;box-shadow: 0px 0px 4px 3px #ddd;text-align:-webkit-center;text-align:center;">
 		<div class="btn-comb" style="margin:10px;">
@@ -806,6 +810,16 @@
 			<a class="btn btn-combMidd" href="javaScript:">搜索位置</a>
 			<a class="btn btn-combRight" href="javaScript:" onclick="onChangeStyle('serp',1)">下</a>
 		</div>
+        		<div class="btn-comb" style="margin:10px;">
+			<a class="btn btn-combLeft" href="javaScript:" onclick="onChangeStyle('lnkv',-1)">上</a>
+			<a class="btn btn-combMidd" href="javaScript:">链接位置</a>
+			<a class="btn btn-combRight" href="javaScript:" onclick="onChangeStyle('lnkv',1)">下</a>
+		</div>
+        <div class="btn-comb" style="margin:10px;">
+			<a class="btn btn-combLeft" href="javaScript:" onclick="onChangeStyle('lnkr',-1)">小</a>
+			<a class="btn btn-combMidd" href="javaScript:">链接圆角</a>
+			<a class="btn btn-combRight" href="javaScript:" onclick="onChangeStyle('lnkr',1)">大</a>
+		</div>
 		<div class="btn-comb" style="margin:10px;">
 			<a class="btn btn-combLeft" href="javaScript:" onclick="onChangeStyle('lnkw',-1)">小</a>
 			<a class="btn btn-combMidd" href="javaScript:">链接宽度</a>
@@ -817,24 +831,14 @@
 			<a class="btn btn-combRight" href="javaScript:" onclick="onChangeStyle('lnkf',1)">大</a>
 		</div>
 		<div class="btn-comb" style="margin:10px;">
-			<a class="btn btn-combLeft" href="javaScript:" onclick="onChangeStyle('lnkv',-1)">上</a>
-			<a class="btn btn-combMidd" href="javaScript:">链接位置</a>
-			<a class="btn btn-combRight" href="javaScript:" onclick="onChangeStyle('lnkv',1)">下</a>
-		</div>
-		<div class="btn-comb" style="margin:10px;">
-			<a class="btn btn-combLeft" href="javaScript:" onclick="onChangeStyle('lnkh',-1)">左</a>
-			<a class="btn btn-combMidd" href="javaScript:">链接位置</a>
-			<a class="btn btn-combRight" href="javaScript:" onclick="onChangeStyle('lnkh',1)">右</a>
-		</div>
-		<div class="btn-comb" style="margin:10px;">
 			<a class="btn btn-combLeft" href="javaScript:" onclick="onChangeStyle('lnkm',-1)">小</a>
-			<a class="btn btn-combMidd" href="javaScript:">链接间距</a>
+			<a class="btn btn-combMidd" href="javaScript:">垂直间距</a>
 			<a class="btn btn-combRight" href="javaScript:" onclick="onChangeStyle('lnkm',1)">大</a>
 		</div>
-		<div class="btn-comb" style="margin:10px;">
-			<a class="btn btn-combLeft" href="javaScript:" onclick="onChangeStyle('lnkr',-1)">小</a>
-			<a class="btn btn-combMidd" href="javaScript:">链接圆角</a>
-			<a class="btn btn-combRight" href="javaScript:" onclick="onChangeStyle('lnkr',1)">大</a>
+        <div class="btn-comb" style="margin:10px;">
+			<a class="btn btn-combLeft" href="javaScript:" onclick="onChangeStyle('lnkh',-1)">小</a>
+			<a class="btn btn-combMidd" href="javaScript:">水平间距</a>
+			<a class="btn btn-combRight" href="javaScript:" onclick="onChangeStyle('lnkh',1)">大</a>
 		</div>
 		<div class="btn-comb" style="margin:10px;">
 			<a class="btn btn-combLeft" href="javaScript:" onclick="onChangeStyle('lnka',-1)">低</a>
