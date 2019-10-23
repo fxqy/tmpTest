@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: rmVpfS+9hMtp9JZzvLyAHA
-! Version: 201910221021
+! Checksum: fcN16I2CY+xtSU2xKD9EYg
+! Version: 201910230831
 ! Title: EasyPrivacy
-! Last modified: 22 Oct 2019 10:21 UTC
+! Last modified: 23 Oct 2019 08:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1317,6 +1317,7 @@
 /count_stats/*
 /countbk.
 /CountContent?
+/counter-js.php
 /Counter.ashx?
 /counter.asp?
 /counter.aspx?
@@ -14024,7 +14025,7 @@ _mongo_stats/
 ||priceline.com^*/beaconHandler?
 ||priceline.com^*/impression/
 ||primevideo.com/uedata/
-||primevideo.com^*/ref=
+||primevideo.com^*/ref=$~xmlhttprequest
 ||princetonreview.com/logging/
 ||prnewswire.com/rit.gif?
 ||prnewswire.com/rt.gif?
@@ -14453,6 +14454,7 @@ _mongo_stats/
 ||stats.cheddar.com^
 ||stats.christianpost.com^
 ||stats.clear-media.com^
+||stats.digg.com^
 ||stats.dnaindia.com^
 ||stats.ebay.com^
 ||stats.europe.newsweek.com^
