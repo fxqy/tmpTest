@@ -182,7 +182,7 @@ function tipCase(option){
 }
 /**
 *option{
-* code 编号, title 标题, content 内容, btn1 按钮1, fun1 回调1, btn2 按钮2, fun2 回调2, btn3 按钮3, fun3 回调3,closed 关闭回调
+* code 编号, title 标题, content 内容,cttInBody 内容加入cbody中, btn1 按钮1, fun1 回调1, btn2 按钮2, fun2 回调2, btn3 按钮3, fun3 回调3,closed 关闭回调
 * width 宽度, headColor 颜色, claza ClassA, clazb ClassB, clazc ClassC 
 *}
 */
@@ -230,9 +230,18 @@ function panelCase(option){
 	}
 	if(option.content){
 		if(typeof(option.content)=="string"){
-			mboxmsg.innerHTML=option.content;
+			if(option.cttInBody){
+				mboxbody.innerHTML=option.content;
+			}else{
+				mboxmsg.innerHTML=option.content;
+			}
 		}else if(typeof(option.content)=="object"&&option.content.tagName){
 			_$A(option.content,mboxmsg);
+			if(option.cttInBody){
+				_$A(option.content,mboxbody);
+			}else{
+				_$A(option.content,mboxmsg);
+			}
 		}
 	}
 	mboxclr.onclick=function(){
@@ -313,13 +322,13 @@ function panelCase(option){
 	
 }
 function panelCaseA(opt){
-	panelCase({code:opt.code,title:opt.title,content:opt.content,btn1:opt.btn1,fun1:opt.fun1,btn2:opt.btn2,fun2:opt.fun2,btn3:opt.btn3,fun3:opt.fun3,closed:opt.closed,width:opt.width,headColor:"#f5f5f5",claza:"btn btn-mini btn-green"});
+	panelCase({code:opt.code,title:opt.title,content:opt.content,cttInBody:opt.cttInBody,btn1:opt.btn1,fun1:opt.fun1,btn2:opt.btn2,fun2:opt.fun2,btn3:opt.btn3,fun3:opt.fun3,closed:opt.closed,width:opt.width,headColor:"#f5f5f5",claza:"btn btn-mini btn-green"});
 }
 function alertCase(msg){
-	panelCaseA({ title:'Message', content:msg, width:380, btn1:"确定"});
+	panelCaseA({ code:"alert",title:'Message', content:msg, width:380, btn1:"确定"});
 }
 function confirmCase(msg,fun){
-	panelCaseA({ title:'Message', content:msg, width:380, btn1:"确定", btn2:"取消",fun1: fun});
+	panelCaseA({ code:"confirm",title:'Message', content:msg, width:380, btn1:"确定", btn2:"取消",fun1: fun});
 }
 function prefixInteger(i,l){
 	var f=i+"";

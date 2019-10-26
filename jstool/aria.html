@@ -1,11 +1,12 @@
 <html>
 	<head>
-		<title>Aria2Mng</title>
-        <meta charset="UTF-8">
+		<title>aria</title>
+        <meta charset="utf-8">
         <style type="text/css">
             body{
                 padding:0xp;
                 margin:0px;
+				user-select: none;
             }
             table{
                 border-collapse:collapse;
@@ -99,13 +100,6 @@
               -khtml-opacity:0.8;
               opacity:0.8;
             }
-            .btn-mini {
-                padding: 1px 6px;
-                font-size: 10.5px;
-                -webkit-border-radius: 3px;
-                -moz-border-radius: 3px;
-                border-radius: 3px;
-            }
             .btn-green {
                 color: #fff;
                 text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
@@ -121,6 +115,21 @@
                 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff00C8C9',endColorstr='#ff20B8D4',GradientType=0);
                 filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
             }
+			.btn-blue {
+				color: #fff;
+				text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+				background-color: #73ADEF;
+				background-image: -moz-linear-gradient(top,#73ADEF,#63A1EF);
+				background-image: -webkit-gradient(linear,0 0,0 100%,from(#73ADEF),to(#63A1EF));
+				background-image: -webkit-linear-gradient(top,#73ADEF,#63A1EF);
+				background-image: -o-linear-gradient(top,#73ADEF,#63A1EF);
+				background-image: linear-gradient(to bottom,#73ADEF,#63A1EF);
+				background-repeat: repeat-x;
+				border-color: #2f96b4 #2f96b4 #1f6377;
+				border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff73ADEF',endColorstr='#ff63A1EF',GradientType=0);
+				filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+			}
             .cfmbackLayer {
                 display:none;
                 position:fixed;
@@ -227,36 +236,21 @@
             <tbody>
                 <tr>
                     <td>
-                        <div style="width:100%;text-align:left;">
-                            <a id="add_btn" class="btn btn-mini" style="margin:10px 10px;padding:5px 20px;">开始</a>
-                            <a id="stop_btn"  class="btn btn-mini" style="margin:10px 10px;padding:5px 20px;">暂停</a>
+                        <div style="position:fixed;width:100%;text-align:left;z-index:9;background:white;">
+                            <a id="add_btn" class="btn btn-blue" style="margin:8px 3px;margin-left:8px;padding:5px 10px;">添加任务</a>
+                            <a id="addorder_btn" class="btn btn-blue" style="margin:8px 3px;padding:5px 10px;">顺序任务</a>
+                            <a id="removeSel_btn"  class="btn" style="margin:8px 3px;padding:5px 10px;">删除</a>
+                            <a id="refresh_btn"  class="btn" style="margin:8px 3px;padding:5px 10px;">刷新</a>
+							<a id="filter_btn"  class="btn" style="margin:8px 3px;padding:5px 10px;">全部</a>
+							<a id="setting_btn"  class="btn" style="margin:8px 3px;padding:5px 10px;">设置</a>
+							<span id="aria2State" style="position:fixed;right:100px;top:14px;font-size:12px;"></span>
                         </td>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <span>111</span>
-                        <table align="center" style="margin-top:2px;width:100%;">
-                            <tbody id="activels">
-                            </tbody>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span>222</span>
-                        <table align="center" style="margin-top:2px;width:100%;">
-                            <tbody id="waitls">
-                            </tbody>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span>333</span>
-                        <table align="center" style="margin-top:2px;width:100%;">
-                            <tbody id="pausels">
-                            </tbody>
+                        <table align="center" style="margin-top:50px;width:100%;border-spacing:0;cell-spacing:0;">
+                            <tbody id="dnls"></tbody>
                         </table>
                     </td>
                 </tr>

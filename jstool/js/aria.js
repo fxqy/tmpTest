@@ -1,36 +1,85 @@
+$AriaParams={};
+$CurrentList=[];
+$MultiSelectMap=[];
+$LastSelected=-1;
+var $bnmr=["全部","进行","暂停","等待","完成","错误"];
 window.onload=function(){
-	initEvents();
+	initDatas();
     initWebSocket();
 };
+function initDatas(){
+	Date.prototype.toStr =dateFmt;
+    $AriaParams={
+		ariaUrl:_getStorage("ariaUrl"),
+		downFdir:_getStorage("downFdir"),
+		downFnme:_getStorage("downFnme"),
+		downHead:_getStorage("downHead"),
+		downSufx:_getStorage("downSufx"),
+		taskFilt:_getStorage("taskFilt")
+	};
+	_$G("filter_btn").innerHTML=$bnmr[$AriaParams.taskFilt];
+}
 function initEvents(){
 	_$G("add_btn").onclick=function(){
-		aria2Send(
-            "aria2.addUri",
-            [["http://pic37.nipic.com/20140106/7487939_080621297000_2.jpg"],{header:"Referer: ","out":"good_view.jpg" ,"dir":"d:/"}],
-            function(m){
-                alertCase(JSON.stringify(m));
-            }
-        );
+		aria2Add();
 	};
-	_$G("stop_btn").onclick=function(){
-        aria2Send(
-            "aria2.tellStopped",
-            [0,1000],
-            function(m){
-                    alertCase(JSON.stringify(m));
-            }
-        );
+	$AddOrderBtn=_$G("addorder_btn");
+	$AddOrderBtn.onclick=function(){
+		aria2AddOrder();
+	};
+	_$G("removeSel_btn").onclick=function(){
+		aria2RemoveMulti();
+	};
+	_$G("refresh_btn").onclick=function(){
+		var thiz=this;
+		if(window.refreshIndx){
+			clearInterval(window.refreshIndx);
+			window.refreshIndx=null;
+			thiz.className="btn";
+			tipCase({msg:"自动刷新已关闭！"});
+		}else{
+			window.refreshIndx=setInterval(function(){refreshLs();},1000);
+			thiz.className="btn btn-green";
+			tipCase({msg:"自动刷新已开启！"});
+		}
+		refreshLs();
+	};
+	_$G("filter_btn").onclick=function(){
+		
+		if(_$Null($AriaParams.taskFilt)){
+			$AriaParams.taskFilt=1;
+		}else if($AriaParams.taskFilt==$bnmr.length-1){
+			$AriaParams.taskFilt=0;
+		}else{
+			$AriaParams.taskFilt++;
+		}
+		this.innerHTML=$bnmr[$AriaParams.taskFilt];
+		_setStorage("taskFilt",$AriaParams.taskFilt);
+		generateGrid($CurrentList);
+	};
+	_$G("setting_btn").onclick=function(){
+		aria2Setting();
 	};
 }
 function initWebSocket(){
     window.aria2Cbk = {};
-    $Wskt=new WebSocket("ws://localhost:6800/jsonrpc");
+	var rpcUrl=_$Null($AriaParams.ariaUrl)?"ws://localhost:6800/jsonrpc":$AriaParams.ariaUrl;
+	$AriaParams.ariaUrl=rpcUrl;
+    $Wskt=new WebSocket(rpcUrl);
     $Wskt.onopen = function(){
-        tipCase({msg:"WebSocket open! "});
+		initEvents();
+		refreshLs();
+		var asta=_$G("aria2State");
+		asta.innerHTML="已连接";
+		asta.style.color="#00C8C9";
     };
     $Wskt.onclose = function(){
         $Wskt=null;
-        tipCase({msg:"WebSocket closed! "});
+		var msg="aria2 连接失败! "
+        tipCase({msg:msg});
+		var asta=_$G("aria2State");
+		asta.innerHTML=msg;
+		asta.style.color="#EC7600";
     };
     $Wskt.onmessage  = function(m){
         var r=JSON.parse(m.data);
@@ -50,6 +99,304 @@ function aria2Send(method,arr,cbk){
     $Wskt.send(JSON.stringify(obj));
 
 }
+function aria2Add(){
+	var stdownFnme=_$Ava($AriaParams.downFnme)?$AriaParams.downFnme:"";
+	var stdownFdir=_$Ava($AriaParams.downFdir)?$AriaParams.downFdir:"";
+	var stdownHead=_$Ava($AriaParams.downHead)?$AriaParams.downHead:"";
+	var ctt = '<textarea id="aaParamUrl" type="text" rows="4" placeholder="地址" style="width:490px;resize:none;margin:5px;"></textarea>'+
+		'<textarea id="aaParamFname" type="text" rows="1" placeholder="文件名" style="width:490px;resize:none;margin:5px;">'+stdownFnme+'</textarea>'+
+		'<textarea id="aaParamDpath" type="text" rows="1" placeholder="路径" style="width:490px;resize:none;margin:5px;">'+stdownFdir+'</textarea>'+
+		'<textarea id="aaParamHeader" type="text" rows="4" placeholder="请求头" style="width:490px;resize:none;margin:5px;">'+stdownHead+'</textarea>';
+	panelCaseA({ width:510,title: '添加任务', content:ctt, cttInBody: 1, btn1:"添加", btn2: "取消",
+		fun1: function(mbdy){
+			var aaurl=_$Q("#aaParamUrl",mbdy).value;
+			var aafnm=_$Q("#aaParamFname",mbdy).value;
+			var aapth=_$Q("#aaParamDpath",mbdy).value;
+			var aahed=_$Q("#aaParamHeader",mbdy).value;
+			var aaopt={};
+			if(_$Ava(aafnm)){
+				aaopt.out=aafnm;
+				$AriaParams.downFnme=aafnm;
+				_setStorage("downFnme",aafnm);
+			}
+			if(_$Ava(aapth)){
+				aaopt.dir=aapth;
+				$AriaParams.downFdir=aapth;
+				_setStorage("downFdir",aapth);
+			}			
+			if(_$Ava(aahed)){
+				aaopt.header=aahed;
+				$AriaParams.downHead=aahed;
+				_setStorage("downHead",aahed);
+			}	
+			
+			aria2Send(
+				"aria2.addUri",
+				[[aaurl],aaopt],
+				function(m){
+					tipCase({msg:"添加成功! "});
+					refreshLs();
+				}
+			);			
+			return true;
+		}
+	});
+
+}
+function aria2AddOrder(){
+	var stdownSufx=_$Ava($AriaParams.downSufx)?$AriaParams.downSufx:"";
+	var stdownFdir=_$Ava($AriaParams.downFdir)?$AriaParams.downFdir:"";
+	var stdownHead=_$Ava($AriaParams.downHead)?$AriaParams.downHead:"";
+	var ctt = '<textarea id="aaParamUrl" type="text" rows="4" placeholder="地址" style="width:490px;resize:none;margin:5px;"></textarea>'+
+		'<textarea id="aaParamSufx" type="text" rows="1" placeholder="后缀名" style="width:490px;resize:none;margin:5px;">'+stdownSufx+'</textarea>'+
+		'<textarea id="aaParamDpath" type="text" rows="1" placeholder="路径" style="width:490px;resize:none;margin:5px;">'+stdownFdir+'</textarea>'+
+		'<textarea id="aaParamHeader" type="text" rows="4" placeholder="请求头" style="width:490px;resize:none;margin:5px;">'+stdownHead+'</textarea>';
+	panelCaseA({ width:510,title: '添加顺序任务', content:ctt, cttInBody: 1, btn1:"添加", btn2: "取消",
+		fun1: function(mbdy){
+			var aaurl=_$Q("#aaParamUrl",mbdy).value;
+			var aasfx=_$Q("#aaParamSufx",mbdy).value;
+			var aapth=_$Q("#aaParamDpath",mbdy).value;
+			var aahed=_$Q("#aaParamHeader",mbdy).value;
+			var aaopt={};
+			if(_$Ava(aasfx)){
+				aaopt.suffix=aasfx;
+				$AriaParams.downSufx=aasfx;
+				_setStorage("downSufx",aasfx);
+			}
+			if(_$Ava(aapth)){
+				aaopt.dir=aapth;
+				$AriaParams.downFdir=aapth;
+				_setStorage("downFdir",aapth);
+			}			
+			if(_$Ava(aahed)){
+				aaopt.header=aahed;
+				$AriaParams.downHead=aahed;
+				_setStorage("downHead",aahed);
+			}	
+			
+			var reg = new RegExp("^((http)[s]*://.*)(\\[(\\d+)\-(\\d+)#(\\d)\\])(.*)$");
+			var group = reg.exec(aaurl);
+			if(!_$Ava(group)||group[2]!="http"){
+				tipCase({msg:"请输入url,通配符,如:[1-23#2]"});
+				return;
+			}
+			var lenInt=parseInt(group[6]);
+			var startInt=parseInt(group[4]);
+			var endInt=parseInt(group[5]);
+			if(endInt<startInt){
+				tipCase({msg:"通配符不正确，如：[1-23#2]"});
+				return;
+			}
+			var now = new Date();
+			aaopt.dwnFolder=now.toStr('yyyy-MM-dd');
+			aaopt.dwnSubFolder=now.toStr('hh_mm_ss');
+			orderDowner(group[1],group[7],startInt,endInt,lenInt,aaopt);
+			$AddOrderBtn.onclick=null;			
+			return true;
+		}
+	});
+
+}
+function orderDowner(urlpre,urlsuf,now,end,lenInt,opt){
+	if(now>end){
+		$AddOrderBtn.onclick=function(){
+			aria2AddOrder();
+		};
+		$AddOrderBtn.innerHTML="顺序任务";
+        alertCase("顺序任务添加完成！");
+		refreshLs();
+		return;
+	}
+	$AddOrderBtn.innerHTML=now+" / "+end;
+	var rindx=(lenInt>1)?prefixInteger(now, lenInt):now;
+	var dwnFname=rindx+urlsuf;
+	var dnurl=urlpre+dwnFname;
+	aria2Send(
+		"aria2.addUri",
+		[[dnurl],{
+			header:opt.header,
+			dir:opt.dir+"/"+opt.dwnFolder+"/"+opt.dwnSubFolder,
+			out:rindx+opt.suffix
+		}],
+		function(m){
+			window.setTimeout(function(){
+				orderDowner(urlpre,urlsuf,now+1,end,lenInt,opt);
+			},600);
+		}
+	);
+}
+function aria2RemoveMulti(){
+	var rmarr=[];
+	for(var gid in $MultiSelectMap){
+		var itm=$MultiSelectMap[gid];
+		rmarr.push({"methodName":itm.type==2?"aria2.removeDownloadResult":"aria2.remove","params":[gid]});
+		bol=false;
+	}
+	if(rmarr.length<1){
+		tipCase({msg:"请先使用 Shift/Ctrl+鼠标左键 选择要删除的任务！"});
+		return;
+	}
+	confirmCase("确认要删除选中的任务吗？",function(){
+		aria2Send(
+			"system.multicall",
+			[rmarr],
+			function(m){
+				tipCase({msg:"已删除! "});
+				$MultiSelectMap={};
+				refreshLs();
+			}
+		);
+		return true;
+	});
+}
+function aria2Start(gid,b){
+	aria2Send(
+		b?"aria2.unpause":"aria2.pause",
+		[gid],
+		function(m){
+			tipCase({msg:"已"+(b?"开始":"暂停")+"! "});
+			refreshLs();
+		}
+	);    
+}
+
+function generateGrid(arr){
+	var bstr=[null,"active","paused","waiting","complete","error"];
+	var dnbd=_$G('dnls');
+	var html='';
+    var len=arr.length;
+    for(var i=0;i<len;i++){
+        var itm=arr[i];
+		var stat=bstr[$AriaParams.taskFilt];
+		if(stat!=null&&stat!=itm.status)continue;
+		var bol=i%2==0;
+		var tbor=i==0?"1px":0;
+		var bkgcolor=itm.status=='complete'?'#00C8C9':(itm.status=='error'?'#EC7600':'#73ADEF');
+		var brdcolor=itm.status=='error'?'#E28D8D':'#ddd';
+		var trbkg=_$Ava($MultiSelectMap[itm.gid])?"#DEEBFA":(bol?'#fafafa':'');
+        html+='<tr onclick="multiSelect('+i+')" style="background:'+trbkg+';text-align:center;">'
+				+'<td style="margin:0;padding:0;border-color:#ccc;border-width:'+tbor+' 1px 1px 1px;border-style:dotted;width:40px;">'+(i+1)+'</td>'
+				+'<td style="margin:0;padding:0;border-color:#ccc;border-width:'+tbor+' 1px 1px 0px;border-style:dotted;width:50%;">'+itm.name+'</td>'
+				+'<td style="margin:0;padding:0;border-color:#ccc;border-width:'+tbor+' 1px 1px 0;border-style:dotted;width:140px;">'+itm.speed+'</td>'
+				+'<td style="margin:0;padding:0;border-color:#ccc;border-width:'+tbor+' 1px 1px 0;border-style:dotted;">'
+					+'<div style="position:relative;height:26px;line-height:26px;background:#eee;border-radius:14px;border:1px solid '+brdcolor+';">'
+						+'<div style="position:absolute;width:'+itm.percent+'%;height:26px;line-height:26px;background:'+bkgcolor+';border-radius:14px;"></div>'
+						+'<div style="position:absolute;width:100%;height:26px;line-height:26px;">'+itm.percent+'%</div>'
+					+'</div>'
+				+'</td>'
+				+'<td style="margin:0;padding:0;border-color:#ccc;border-width:'+tbor+' 1px 1px 0;border-style:dotted;width:60px;">';
+		if(itm.status=='active'){
+			html+='<a id="add_btn" class="btn btn-mini" style="margin:3px 3px;padding:3px 8px;" onclick="aria2Start(\''+itm.gid+'\',0)">暂停</a>';
+		}else if(itm.status=='paused'){
+			html+='<a id="add_btn" class="btn btn-mini" style="margin:3px 3px;padding:3px 8px;" onclick="aria2Start(\''+itm.gid+'\',1)">开始</a>';
+		}
+		html+='</td>'
+        html+="</tr>";
+		
+    }
+	dnbd.innerHTML=html;
+    
+}
+function refreshLs(){
+	aria2Send(
+		"system.multicall",
+		[[
+			{"methodName":"aria2.tellActive","params":[]},
+			{"methodName":"aria2.tellWaiting","params":[0,1000]},
+			{"methodName":"aria2.tellStopped","params":[0,1000]},
+			{"methodName":"aria2.getGlobalStat","params":[]}
+		]],
+		function(m){
+			var arr=[];
+			var result=m.result;
+			for(var i=0;i<3;i++){
+			    var itm=result[i][0];
+				itm.reverse();
+				var len1=itm.length;
+				for(var j=0;j<len1;j++){
+					var itn=itm[j];
+					var itp=itn.files[0];
+					var spd=Math.round(itn.downloadSpeed/1024);
+					if(spd>1024)spd=(itn.downloadSpeed/1048576).toFixed(3)+"Mbs";
+					else spd+="Kbs";
+					var pct=(itn.completedLength*100/itn.totalLength).toFixed(2);
+					arr.push({
+						gid:itn.gid,
+						name:itp.path.substr(itp.path.lastIndexOf("/")+1),
+						type:i,
+						status:itn.status,
+						speed:spd,
+						percent:isNum(pct+"")?pct:0
+					});
+					
+				}
+			}
+			generateGrid(arr);
+			$CurrentList=arr;
+			var asta=result[3][0];
+			var dspd=Math.round(asta.downloadSpeed/1024);
+			if(dspd>1024)dspd=(asta.downloadSpeed/1048576).toFixed(3)+"Mbs";
+			else dspd+="Kbs";
+			var uspd=Math.round(asta.uploadSpeed/1024);
+			if(uspd>1024)uspd=(asta.uploadSpeed/1048576).toFixed(3)+"Mbs";
+			else uspd+="Kbs";
+			var ast=_$G("aria2State");
+			ast.innerHTML=dspd;
+			ast.title="下载速度:"+dspd+"\n上传速度:"+uspd+"\n进行任务:"+asta.numActive+"个\n等待任务:"+asta.numWaiting+"个\n停止任务:"+asta.numStoppedTotal+"个";
+			document.title=dspd;
+			ast.style.color="#00C8C9";
+		}
+       );
+	
+}
+function aria2Setting(){
+	var ctt = '<textarea id="asParamUrl" type="text" rows="1" placeholder="Aria2 JsonRpc URL" style="width:475px;resize:none;margin:10px;">'+$AriaParams.ariaUrl+'</textarea>';
+	panelCaseA({ width:510,title: '设置', content:ctt, cttInBody: 1, btn1:"保存", btn2: "取消",
+		fun1: function(mbdy){
+			var asParamUrl=_$Q("#asParamUrl",mbdy);
+			$AriaParams.ariaUrl = asParamUrl.value;
+			_setStorage("ariaUrl",$AriaParams.ariaUrl);
+			initWebSocket();
+			return true;
+		}
+	});
+
+}
+function multiSelect(indx){
+	var e = this.event;
+	if(e.shiftKey){
+		if($LastSelected>-1){
+			var len=$CurrentList.length;
+			var a=indx>$LastSelected?$LastSelected:indx;
+			var b=indx>$LastSelected?indx:$LastSelected;
+			for(var i=a;i<=b;i++){
+			    var itm=$CurrentList[i];
+			    $MultiSelectMap[itm.gid]={type:itm.type,status:itm.status};
+			}
+			$LastSelected=-1;
+		}else{
+			$LastSelected=indx;
+			var itm=$CurrentList[indx];
+			if(_$Null($MultiSelectMap[itm.gid])){
+				$MultiSelectMap[itm.gid]={type:itm.type,status:itm.status};
+			}else{
+				delete $MultiSelectMap[itm.gid];
+			}
+		}
+	}else if(e.ctrlKey){
+		var itm=$CurrentList[indx];
+		if(_$Null($MultiSelectMap[itm.gid])){
+			$MultiSelectMap[itm.gid]={type:itm.type,status:itm.status};
+		}else{
+			delete $MultiSelectMap[itm.gid];
+		}
+	}else{
+		$MultiSelectMap={};
+		$LastSelected=-1;
+	}
+	generateGrid($CurrentList)
+}
+
 /*
  *aria2.addUri; aria2.addTorrent; aria2.pause; aria2.forcePause; aria2.pauseAll; aria2.forcePauseAll; aria2.remove; aria2.forceRemove; aria2.tellStatus; aria2.getFiles; aria2.getUris
  *aria2.unpauseAll; 

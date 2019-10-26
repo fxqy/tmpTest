@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 5X0OiOnUbCOh7ivH1AsRfA
-! Version: 201910251231
+! Checksum: OybT4oC2CcqsJhM6soJEPw
+! Version: 201910260921
 ! Title: EasyPrivacy
-! Last modified: 25 Oct 2019 12:31 UTC
+! Last modified: 26 Oct 2019 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4576,6 +4576,7 @@
 /zonapixel.
 /zone-log.
 /ztagtrackedevent/*
+/ztracker.js
 /zxc.gif?
 /~r/Slashdot/slashdot/*
 /~utm_gif?
@@ -4940,10 +4941,10 @@ _sdcTrackingCode.
 ?proxy=ws://$script,websocket
 ?proxy=wss://$script,websocket
 ! google tracking
-/client_204?$image,other,script
-/csi_204?$image,other,script
-/gen_204?$image,other,script
-/generate_204$image,other,script
+/client_204?$image,other,ping,script
+/csi_204?$image,other,ping,script
+/gen_204?$image,other,ping,script
+/generate_204$image,other,ping,script
 ! Adblock tracking
 -logabpstatus.
 /adb.policy.js
@@ -8355,6 +8356,7 @@ _mongo_stats/
 ||spottysense.com^$third-party
 ||spurioussteam.com^$third-party
 ||squeakzinc.com^$third-party
+||squirrelhands.com^$third-party
 ||steepsquirrel.com^$third-party
 ||stiffstem.com^$third-party
 ||storesurprise.com^$third-party
@@ -10010,6 +10012,7 @@ _mongo_stats/
 ||cumulus-cloud.com/trackers/
 ||curalate.com^*/events.jsonp$third-party
 ||curate.nestedmedia.com^
+||curated.fieldtest.cc^
 ||custom.search.yahoo.co.jp/images/window/*.gif
 ||customerlobby.com/ctrack-
 ||cws.conviva.com^
@@ -10529,6 +10532,7 @@ _mongo_stats/
 ||keyword.daumdn.com^
 ||kiwari.com^*/impressions.asp?
 ||kk-resources.com/ks.js
+||klarnaservices.com^$image,third-party
 ||klickly.com/track
 ||kmib.co.kr/ref/
 ||kununu.com^*/tracking/
@@ -13325,11 +13329,12 @@ _mongo_stats/
 ||github.com/_private/browser/stats
 ||github.com/_stats
 ||github.com/hydro_browser_events
+||giveitlove.com/stats/
 ||glamourmagazine.co.uk^*/LogPageView
 ||glassmoni.researchgate.net^
 ||glean.pop6.com^
 ||global.canon^*/analytics.js
-||global.ssl.fastly.net^$script,domain=desertsun.com|jsonline.com|lohud.com|mentalfloss.com|radiotimes.com|sainsburys.co.uk
+||global.ssl.fastly.net^$script,domain=argos.co.uk|desertsun.com|jsonline.com|lohud.com|mentalfloss.com|radiotimes.com|sainsburys.co.uk
 ||globes.co.il/ga.asp
 ||globes.co.il/shared/s.ashx?
 ||globester.com^*/track.js
