@@ -6,6 +6,9 @@ var $bnmr=["全部","进行","暂停","等待","完成","错误"];
 window.onload=function(){
 	initDatas();
     initWebSocket();
+	_$G("setting_btn").onclick=function(){
+		aria2Setting();
+	};
 };
 function initDatas(){
 	Date.prototype.toStr =dateFmt;
@@ -26,6 +29,9 @@ function initEvents(){
 	$AddOrderBtn=_$G("addorder_btn");
 	$AddOrderBtn.onclick=function(){
 		aria2AddOrder();
+	};
+	_$G("addredn_btn").onclick=function(){
+		aria2Redn();
 	};
 	_$G("removeSel_btn").onclick=function(){
 		aria2RemoveMulti();
@@ -57,9 +63,7 @@ function initEvents(){
 		_setStorage("taskFilt",$AriaParams.taskFilt);
 		generateGrid($CurrentList);
 	};
-	_$G("setting_btn").onclick=function(){
-		aria2Setting();
-	};
+
 }
 function initWebSocket(){
     window.aria2Cbk = {};
@@ -225,12 +229,47 @@ function orderDowner(urlpre,urlsuf,now,end,lenInt,opt){
 		}
 	);
 }
+function aria2Redn(){
+   	var rdarr=[];
+	for(var gid in $MultiSelectMap){
+		var itm=$MultiSelectMap[gid];
+		rdarr.push({gid:gid,status:itm.status});
+	}
+	if(rdarr.length<1){
+		tipCase({msg:"请先使用 Shift/Ctrl+鼠标左键 选择要重新下载的任务！"});
+		return;
+	}else if(rdarr.length>1){
+		tipCase({msg:"不支持重新下载多个任务！"});
+		return;
+	}
+	aria2Send(
+		"aria2.getFiles",
+		[rdarr[0].gid],
+		function(m){
+			var ret=m.result[0];
+			var rpath=ret.path;
+			var rurl=ret.uris[0].uri;
+			var lxi=rpath.lastIndexOf("/");
+			var rdir=rpath.substring(0,lxi)
+			var rout=rpath.substr(lxi+1);
+			aria2Send(
+				"aria2.addUri",
+				[[rurl],{dir:rdir,out:rout}],
+				function(m){
+					tipCase({msg:"已重新下载! "});
+					refreshLs();
+				}
+			);
+		}
+	);
+	
+}
+
 function aria2RemoveMulti(){
 	var rmarr=[];
 	for(var gid in $MultiSelectMap){
 		var itm=$MultiSelectMap[gid];
 		rmarr.push({"methodName":itm.type==2?"aria2.removeDownloadResult":"aria2.remove","params":[gid]});
-		bol=false;
 	}
 	if(rmarr.length<1){
 		tipCase({msg:"请先使用 Shift/Ctrl+鼠标左键 选择要删除的任务！"});
@@ -341,9 +380,9 @@ function refreshLs(){
 			if(uspd>1024)uspd=(asta.uploadSpeed/1048576).toFixed(3)+"Mbs";
 			else uspd+="Kbs";
 			var ast=_$G("aria2State");
-			ast.innerHTML=dspd;
+			ast.innerHTML="↓ "+dspd+"  ↑ "+uspd;
 			ast.title="下载速度:"+dspd+"\n上传速度:"+uspd+"\n进行任务:"+asta.numActive+"个\n等待任务:"+asta.numWaiting+"个\n停止任务:"+asta.numStoppedTotal+"个";
-			document.title=dspd;
+			document.title="↓ "+dspd+"  ↑ "+uspd;
 			ast.style.color="#00C8C9";
 		}
        );
