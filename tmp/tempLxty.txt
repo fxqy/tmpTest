@@ -21,5 +21,14 @@ tasklist|findstr "4984"
 
 @Column\([^()]+\)\r\n
 
+------------------------------aria2------------------------------
+
+https://easylist-downloads.adblockplus.org/easyprivacy.txt	
+ gid=d2bd244cd458acef
+ dir=c:/Users/Admin/Desktop
+https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt	
+ gid=c4ba30bd1484eafc
+ dir=c:/Users/Admin/Desktop
+
 ------------------------------end------------------------------
 
