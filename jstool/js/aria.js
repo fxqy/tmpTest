@@ -181,7 +181,7 @@ function aria2AddOrder(){
 			var reg = new RegExp("^((http)[s]*://.*)(\\[(\\d+)\-(\\d+)#(\\d)\\])(.*)$");
 			var group = reg.exec(aaurl);
 			if(!_$Ava(group)||group[2]!="http"){
-				tipCase({msg:"请输入url,通配符,如:[1-23#2]"});
+				tipCase({msg:"请输入包含通配符的url,如:http://imagescdn.com/1897/[1-23#2].jpg"});
 				return;
 			}
 			var lenInt=parseInt(group[6]);
@@ -304,12 +304,13 @@ function generateGrid(arr){
 	var dnbd=_$G('dnls');
 	var html='';
     var len=arr.length;
+	var j=0;
     for(var i=0;i<len;i++){
         var itm=arr[i];
 		var stat=bstr[$AriaParams.taskFilt];
 		if(stat!=null&&stat!=itm.status)continue;
 		var bol=i%2==0;
-		var tbor=i==0?"1px":0;
+		var tbor=j==0?"1px":0;
 		var bkgcolor=itm.status=='complete'?'#00C8C9':(itm.status=='error'?'#EC7600':'#73ADEF');
 		var brdcolor=itm.status=='error'?'#E28D8D':'#ddd';
 		var trbkg=_$Ava($MultiSelectMap[itm.gid])?"#DEEBFA":(bol?'#fafafa':'');
@@ -325,13 +326,13 @@ function generateGrid(arr){
 				+'</td>'
 				+'<td style="margin:0;padding:0;border-color:#ccc;border-width:'+tbor+' 1px 1px 0;border-style:dotted;width:60px;">';
 		if(itm.status=='active'){
-			html+='<a id="add_btn" class="btn btn-mini" style="margin:3px 3px;padding:3px 8px;" onclick="aria2Start(\''+itm.gid+'\',0)">暂停</a>';
+			html+='<a id="add_btn" class="btn btn-mini" style="margin:2px 3px;padding:2px 8px;" onclick="aria2Start(\''+itm.gid+'\',0)">暂停</a>';
 		}else if(itm.status=='paused'){
-			html+='<a id="add_btn" class="btn btn-mini" style="margin:3px 3px;padding:3px 8px;" onclick="aria2Start(\''+itm.gid+'\',1)">开始</a>';
+			html+='<a id="add_btn" class="btn btn-mini" style="margin:2px 3px;padding:2px 8px;" onclick="aria2Start(\''+itm.gid+'\',1)">开始</a>';
 		}
 		html+='</td>'
         html+="</tr>";
-		
+		j++;
     }
 	dnbd.innerHTML=html;
     
