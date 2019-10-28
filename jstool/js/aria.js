@@ -17,10 +17,12 @@ function initDatas(){
 		downFdir:_getStorage("downFdir"),
 		downFnme:_getStorage("downFnme"),
 		downHead:_getStorage("downHead"),
-		downSufx:_getStorage("downSufx"),
+		dnorSufx:_getStorage("dnorSufx"),
+        dnorFdir:_getStorage("dnorFdir"),
+		dnorHead:_getStorage("dnorHead"),
 		taskFilt:_getStorage("taskFilt")
 	};
-	_$G("filter_btn").innerHTML=$bnmr[$AriaParams.taskFilt];
+	_$G("filter_btn").innerHTML=$bnmr[_$Ava($AriaParams.taskFilt)?$AriaParams.taskFilt:0];
 }
 function initEvents(){
 	_$G("add_btn").onclick=function(){
@@ -51,7 +53,6 @@ function initEvents(){
 		refreshLs();
 	};
 	_$G("filter_btn").onclick=function(){
-		
 		if(_$Null($AriaParams.taskFilt)){
 			$AriaParams.taskFilt=1;
 		}else if($AriaParams.taskFilt==$bnmr.length-1){
@@ -148,13 +149,13 @@ function aria2Add(){
 
 }
 function aria2AddOrder(){
-	var stdownSufx=_$Ava($AriaParams.downSufx)?$AriaParams.downSufx:"";
-	var stdownFdir=_$Ava($AriaParams.downFdir)?$AriaParams.downFdir:"";
-	var stdownHead=_$Ava($AriaParams.downHead)?$AriaParams.downHead:"";
+	var stdnorSufx=_$Ava($AriaParams.dnorSufx)?$AriaParams.dnorSufx:"";
+	var stdnorFdir=_$Ava($AriaParams.dnorFdir)?$AriaParams.dnorFdir:"";
+	var stdnorHead=_$Ava($AriaParams.dnorHead)?$AriaParams.dnorHead:"";
 	var ctt = '<textarea id="aaParamUrl" type="text" rows="4" placeholder="地址" style="width:490px;resize:none;margin:5px;"></textarea>'+
-		'<textarea id="aaParamSufx" type="text" rows="1" placeholder="后缀名" style="width:490px;resize:none;margin:5px;">'+stdownSufx+'</textarea>'+
-		'<textarea id="aaParamDpath" type="text" rows="1" placeholder="路径" style="width:490px;resize:none;margin:5px;">'+stdownFdir+'</textarea>'+
-		'<textarea id="aaParamHeader" type="text" rows="4" placeholder="请求头" style="width:490px;resize:none;margin:5px;">'+stdownHead+'</textarea>';
+		'<textarea id="aaParamSufx" type="text" rows="1" placeholder="后缀名" style="width:490px;resize:none;margin:5px;">'+stdnorSufx+'</textarea>'+
+		'<textarea id="aaParamDpath" type="text" rows="1" placeholder="路径" style="width:490px;resize:none;margin:5px;">'+stdnorFdir+'</textarea>'+
+		'<textarea id="aaParamHeader" type="text" rows="4" placeholder="请求头" style="width:490px;resize:none;margin:5px;">'+stdnorHead+'</textarea>';
 	panelCaseA({ width:510,title: '添加顺序任务', content:ctt, cttInBody: 1, btn1:"添加", btn2: "取消",
 		fun1: function(mbdy){
 			var aaurl=_$Q("#aaParamUrl",mbdy).value;
@@ -164,18 +165,18 @@ function aria2AddOrder(){
 			var aaopt={};
 			if(_$Ava(aasfx)){
 				aaopt.suffix=aasfx;
-				$AriaParams.downSufx=aasfx;
-				_setStorage("downSufx",aasfx);
+				$AriaParams.dnorSufx=aasfx;
+				_setStorage("dnorSufx",aasfx);
 			}
 			if(_$Ava(aapth)){
 				aaopt.dir=aapth;
-				$AriaParams.downFdir=aapth;
-				_setStorage("downFdir",aapth);
+				$AriaParams.dnorFdir=aapth;
+				_setStorage("dnorFdir",aapth);
 			}			
 			if(_$Ava(aahed)){
 				aaopt.header=aahed;
-				$AriaParams.downHead=aahed;
-				_setStorage("downHead",aahed);
+				$AriaParams.dnorHead=aahed;
+				_setStorage("dnorHead",aahed);
 			}	
 			
 			var reg = new RegExp("^((http)[s]*://.*)(\\[(\\d+)\-(\\d+)#(\\d)\\])(.*)$");
