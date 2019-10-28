@@ -447,5 +447,6 @@ function multiSelect(indx){
  *  {"jsonrpc":"2.0","id":"Glutton","method":"system.multicall","params":[[{"methodName":"aria2.getGlobalStat","params":[]},{"methodName":"aria2.tellActive","params":[]},{"methodName":"aria2.tellWaiting","params":[0,1000]},{"methodName":"aria2.tellStopped","params":[0,1000]},{"methodName":"aria2.getGlobalOption","params":[]}]]}
  *单个请求:
  *  "aria2.tellActive",[]; "aria2.tellWaiting",[0,1000]; aria2.tellStopped,[0,1000]; 
- *
+ *BT tracker: https://stray.love/itshou-zha/wei-aria2-tian-jia-tracker-fu-wu-qi
+ *  {"jsonrpc":"2.0","method":"aria2.changeGlobalOption","id":"cron","params":["token:'$passwd'",{"bt-tracker":"'$tracker'"}]}
  **/
