@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CNl2C0Lb1ZUlWULFJqzlyw
-! Version: 201910290331
+! Checksum: 0L5VhS1990aLf57c9oggiw
+! Version: 201910290851
 ! Title: EasyList China+EasyList
-! Last modified: 29 Oct 2019 03:31 UTC
+! Last modified: 29 Oct 2019 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -13364,7 +13364,7 @@ btbt.tv#@#.google-ad
 apk.tw#@#.google_ad
 adbug.cn#@#.google_ads
 mobile01.com#@#.googlead
-58pic.com,v.baidu.com,yasehub.com,yasej9.com,yasek9.com,yaser9.com,yaseww1.com,yaseww2.com,yaseww3.com,yaseww4.com#@#.has-ad
+58pic.com,v.baidu.com,yasehub.com,yasej9.com,yasek9.com,yaser9.com,yaseww1.com,yaseww2.com,yaseww3.com,yaseww4.com,yaseww5.com#@#.has-ad
 wangzheli.com#@#.headad
 popo.tw#@#.header_ad
 hbee.edu.cn#@#.headerad
@@ -23765,6 +23765,7 @@ fqsousou.com,kengso.com#@#.user-share
 /spcjs_min.
 /special-ads/*
 /special_ad.
+/special_ads.
 /special_ads/*
 /SpecialAdCampaigns/*
 /specialads/*
@@ -25971,6 +25972,7 @@ _600x80.
 _600x90.
 _620x203_
 _638x200_
+_640x100.
 _650x350.
 _650x80_
 _672x120_
@@ -36993,6 +36995,7 @@ _popunder+$popup
 ##.ad_msg
 ##.ad_native
 ##.ad_native_xrail
+##.ad_network_content
 ##.ad_new_box01
 ##.ad_new_box02
 ##.ad_news
@@ -42197,6 +42200,8 @@ _popunder+$popup
 ##.js-ad-unit-bottom
 ##.js-ad-wrapper
 ##.js-adExternalPage
+##.js-ad_iframe
+##.js-ad_iframe_wrap
 ##.js-adfliction-iframe
 ##.js-adfliction-standard
 ##.js-ads
@@ -56779,6 +56784,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ejgxyfzciwyi.com^$third-party
 ||ejjgrmutgrdwxg.com^$third-party
 ||ejjrckrhigez.com^$third-party
+||ejkeshrzwoe.com^$third-party
 ||ejkoolhhepojeu.com^$third-party
 ||ejktviknfv.com^$third-party
 ||ejlsbfqqxoc.com^$third-party
@@ -61990,6 +61996,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||pnuymnyhbbuf.com^$third-party
 ||pnwhrmyit.com^$third-party
 ||pnzaduoelv.bid^$third-party
+||pnzamawzgw.com^$third-party
 ||pnzchguyctrsyb.com^$third-party
 ||poaxupoqbw.com^$third-party
 ||poazvacfzbed.com^$third-party
@@ -62617,6 +62624,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||qwgafzaujn.bid^$third-party
 ||qwhkndqqxxbq.com^$third-party
 ||qwittqgogiip.com^$third-party
+||qwkiafssml.com^$third-party
 ||qwlckbrwxizg.com^$third-party
 ||qwqqliynxufj.com^$third-party
 ||qwrkigqtgygc.com^$third-party
@@ -63436,6 +63444,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||srtvohoivnrahq.bid^$third-party
 ||srxgnzdkjucr.com^$third-party
 ||ssallqcu.bid^$third-party
+||ssdiwjkarblih.com^$third-party
 ||ssdphmfduwcl.com^$third-party
 ||ssdsylfzav.com^$third-party
 ||ssfpubkjjhftpy.com^$third-party
@@ -76874,7 +76883,7 @@ javascript:$popup,domain=cruzing.xyz|mirror.superproxy.biz|mypirate.cc|piratebay
 |http://$script,stylesheet,third-party,domain=mp3songfree.net
 |https://$script,stylesheet,third-party,domain=mp3songfree.net
 ! Yavli.com
-/wif*.$image,domain=100percentfedup.com|4chan.org|allthingsvegas.com|americasfreedomfighters.com|appleeats.com|askmefast.com|auntyacid.com|barbwire.com|bb4sp.com|bestfunnyjokes4u.com|bighealthreport.com|bigleaguepolitics.com|bizpacreview.com|boomsbeat.com|boredomtherapy.com|breakingfirst.com|breathecast.com|bulletsfirst.net|canadafreepress.com|celebrity-gossip.net|cheapism.com|cheatsheet.com|chicksonright.com|clashamerica.com|clashdaily.com|comicallyincorrect.com|conservativebyte.com|conservativefiringline.com|conservativeintel.com|conservativetribune.com|conservativevideos.com|constitution.com|coviral.com|craigjames.com|crossmap.com|dailyfeed.co.uk|dailyheadlines.com|dailyheadlines.net|dailyhealthpost.com|dailysurge.com|dcdirtylaundry.com|deneenborelli.com|designbump.com|digitaljournal.com|directexpose.com|eaglerising.com|earnthenecklace.com|enstarz.com|faithit.com|firstinfreedomdaily.com|fitnessconnoisseur.com|foreverymom.com|freedomforce.com|freedomoutpost.com|freewarefiles.com|funnyand.com|gamer4k.com|gamerant.com|gamersheroes.com|godfatherpolitics.com|gosocial.co|grammarist.com|greatamericanpolitics.com|greatamericanrepublic.com|gymflow100.com|hackspirit.com|hallels.com|hautereport.com|headcramp.com|healthstatus.com|hispolitica.com|hngn.com|honesttopaws.com|icepop.com|independentminute.com|infowars.com|intellectualconservative.com|ipatriot.com|itechpost.com|jobsnhire.com|joeforamerica.com|juicerhead.com|justdiy.com|kdramastars.com|keepandbear.com|knowledgedish.com|kpopstarz.com|lastresistance.com|latinpost.com|legalinsurrection.com|libertyunyielding.com|lidblog.com|lifebuzz.com|madworldnews.com|makeagif.com|menrec.com|mentalflare.com|minutemennews.com|moneyversed.com|myscienceacademy.org|naturalblaze.com|naturalsociety.com|natureworldnews.com|newser.com|newseveryday.com|newsthump.com|opednews.com|parentherald.com|patriotoutdoornews.com|patriottribune.com|pickthebrain.com|politicalcowboy.com|politicaloutcast.com|politichicks.com|practicallyviral.com|profitconfidential.com|quirlycues.com|readysethealth.com|realfarmacy.com|realmomsrealreviews.com|realtytoday.com|redmaryland.com|reverbpress.com|reviveusa.com|rightwingnews.com|rightwingtribune.com|rollingout.com|sciencetimes.com|shark-tank.com|shedthoselbs.com|sonsoflibertymedia.com|sportsworldnews.com|sportsworldreport.com|stevedeace.com|supercheats.com|survivalnation.com|sweepstakesfanatics.com|techconsumer.com|techtimes.com|telexplorer.com.ar|terezowens.com|theblacksphere.net|theboredmind.com|thedesigninspiration.com|thehayride.com|thelibertydaily.com|themattwalshblog.com|thepolitistick.com|therealside.com|theviralmob.com|thinkamericana.com|threepercenternation.com|tiebreaker.com|tinypic.com|tosavealife.com|traileraddict.com|truththeory.com|truthuncensored.net|universityherald.com|urbantabloid.com|valuewalk.com|vcpost.com|vgpie.com|victoriajackson.com|videogamesblogger.com|viralnova.com|viralthread.com|visiontoamerica.com|wakingtimes.com|whatfinger.com|youthhealthmag.com
+/elt*.$image,domain=100percentfedup.com|4chan.org|allthingsvegas.com|americasfreedomfighters.com|appleeats.com|askmefast.com|auntyacid.com|barbwire.com|bb4sp.com|bestfunnyjokes4u.com|bighealthreport.com|bigleaguepolitics.com|bizpacreview.com|boomsbeat.com|boredomtherapy.com|breakingfirst.com|breathecast.com|bulletsfirst.net|canadafreepress.com|celebrity-gossip.net|cheapism.com|cheatsheet.com|chicksonright.com|clashamerica.com|clashdaily.com|comicallyincorrect.com|conservativebyte.com|conservativefiringline.com|conservativeintel.com|conservativetribune.com|conservativevideos.com|constitution.com|coviral.com|craigjames.com|crossmap.com|dailyfeed.co.uk|dailyheadlines.com|dailyheadlines.net|dailyhealthpost.com|dailysurge.com|dcdirtylaundry.com|deneenborelli.com|designbump.com|digitaljournal.com|directexpose.com|eaglerising.com|earnthenecklace.com|enstarz.com|faithit.com|firstinfreedomdaily.com|fitnessconnoisseur.com|foreverymom.com|freedomforce.com|freedomoutpost.com|freewarefiles.com|funnyand.com|gamer4k.com|gamerant.com|gamersheroes.com|godfatherpolitics.com|gosocial.co|grammarist.com|greatamericanpolitics.com|greatamericanrepublic.com|gymflow100.com|hackspirit.com|hallels.com|hautereport.com|headcramp.com|healthstatus.com|hispolitica.com|hngn.com|honesttopaws.com|icepop.com|independentminute.com|infowars.com|intellectualconservative.com|ipatriot.com|itechpost.com|jobsnhire.com|joeforamerica.com|juicerhead.com|justdiy.com|kdramastars.com|keepandbear.com|knowledgedish.com|kpopstarz.com|lastresistance.com|latinpost.com|legalinsurrection.com|libertyunyielding.com|lidblog.com|lifebuzz.com|madworldnews.com|makeagif.com|menrec.com|mentalflare.com|minutemennews.com|moneyversed.com|myscienceacademy.org|naturalblaze.com|naturalsociety.com|natureworldnews.com|newser.com|newseveryday.com|newsthump.com|opednews.com|parentherald.com|patriotoutdoornews.com|patriottribune.com|pickthebrain.com|politicalcowboy.com|politicaloutcast.com|politichicks.com|practicallyviral.com|profitconfidential.com|quirlycues.com|readysethealth.com|realfarmacy.com|realmomsrealreviews.com|realtytoday.com|redmaryland.com|reverbpress.com|reviveusa.com|rightwingnews.com|rightwingtribune.com|rollingout.com|sciencetimes.com|shark-tank.com|shedthoselbs.com|sonsoflibertymedia.com|sportsworldnews.com|sportsworldreport.com|stevedeace.com|supercheats.com|survivalnation.com|sweepstakesfanatics.com|techconsumer.com|techtimes.com|telexplorer.com.ar|terezowens.com|theblacksphere.net|theboredmind.com|thedesigninspiration.com|thehayride.com|thelibertydaily.com|themattwalshblog.com|thepolitistick.com|therealside.com|theviralmob.com|thinkamericana.com|threepercenternation.com|tiebreaker.com|tinypic.com|tosavealife.com|traileraddict.com|truththeory.com|truthuncensored.net|universityherald.com|urbantabloid.com|valuewalk.com|vcpost.com|vgpie.com|victoriajackson.com|videogamesblogger.com|viralnova.com|viralthread.com|visiontoamerica.com|wakingtimes.com|whatfinger.com|youthhealthmag.com
 ! More Yavli
 /lxx*.$image,domain=100percentfedup.com|4chan.org|allthingsvegas.com|americasfreedomfighters.com|appleeats.com|askmefast.com|auntyacid.com|barbwire.com|bb4sp.com|bestfunnyjokes4u.com|bighealthreport.com|bigleaguepolitics.com|bizpacreview.com|boomsbeat.com|boredomtherapy.com|breakingfirst.com|breathecast.com|bulletsfirst.net|canadafreepress.com|celebrity-gossip.net|cheapism.com|cheatsheet.com|chicksonright.com|clashamerica.com|clashdaily.com|comicallyincorrect.com|conservativebyte.com|conservativefiringline.com|conservativeintel.com|conservativetribune.com|conservativevideos.com|constitution.com|coviral.com|craigjames.com|crossmap.com|dailyfeed.co.uk|dailyheadlines.com|dailyheadlines.net|dailyhealthpost.com|dailysurge.com|dcdirtylaundry.com|deneenborelli.com|designbump.com|digitaljournal.com|directexpose.com|eaglerising.com|earnthenecklace.com|enstarz.com|faithit.com|firstinfreedomdaily.com|fitnessconnoisseur.com|foreverymom.com|freedomforce.com|freedomoutpost.com|freewarefiles.com|funnyand.com|gamer4k.com|gamerant.com|gamersheroes.com|godfatherpolitics.com|gosocial.co|grammarist.com|greatamericanpolitics.com|greatamericanrepublic.com|gymflow100.com|hackspirit.com|hallels.com|hautereport.com|headcramp.com|healthstatus.com|hispolitica.com|hngn.com|honesttopaws.com|icepop.com|independentminute.com|infowars.com|intellectualconservative.com|ipatriot.com|itechpost.com|jobsnhire.com|joeforamerica.com|juicerhead.com|justdiy.com|kdramastars.com|keepandbear.com|knowledgedish.com|kpopstarz.com|lastresistance.com|latinpost.com|legalinsurrection.com|libertyunyielding.com|lidblog.com|lifebuzz.com|madworldnews.com|makeagif.com|menrec.com|mentalflare.com|minutemennews.com|moneyversed.com|myscienceacademy.org|naturalblaze.com|naturalsociety.com|natureworldnews.com|newser.com|newseveryday.com|newsthump.com|opednews.com|parentherald.com|patriotoutdoornews.com|patriottribune.com|pickthebrain.com|politicalcowboy.com|politicaloutcast.com|politichicks.com|practicallyviral.com|profitconfidential.com|quirlycues.com|readysethealth.com|realfarmacy.com|realmomsrealreviews.com|realtytoday.com|redmaryland.com|reverbpress.com|reviveusa.com|rightwingnews.com|rightwingtribune.com|rollingout.com|sciencetimes.com|shark-tank.com|shedthoselbs.com|sonsoflibertymedia.com|sportsworldnews.com|sportsworldreport.com|stevedeace.com|supercheats.com|survivalnation.com|sweepstakesfanatics.com|techconsumer.com|techtimes.com|telexplorer.com.ar|terezowens.com|theblacksphere.net|theboredmind.com|thedesigninspiration.com|thehayride.com|thelibertydaily.com|themattwalshblog.com|thepolitistick.com|therealside.com|theviralmob.com|thinkamericana.com|threepercenternation.com|tiebreaker.com|tinypic.com|tosavealife.com|traileraddict.com|truththeory.com|truthuncensored.net|universityherald.com|urbantabloid.com|valuewalk.com|vcpost.com|vgpie.com|victoriajackson.com|videogamesblogger.com|viralnova.com|viralthread.com|visiontoamerica.com|wakingtimes.com|whatfinger.com|youthhealthmag.com
 ! Yavli threepercenternation.com
