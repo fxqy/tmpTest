@@ -391,10 +391,8 @@ Ajax.post = function (url, data, callback) {
 };
 function randomCode(len,f){
 	if(len<1)return "";
-	var a=2;
-    if(!f)a=parseInt(Math.random() * 3);
+    var a=f?f-1:parseInt(Math.random() * 3);
     var b=[48,65,97,58,91,123];
-	var c=parseInt(Math.random() * (b[a]-b[a+3]));
-	var d=randomCode(len-1);
-	return String.fromCharCode(b[a]+d)+e;
+	var c=parseInt(Math.random()*(b[a+3]-b[a]));
+	return String.fromCharCode(b[a]+c)+randomCode(len-1);
 }

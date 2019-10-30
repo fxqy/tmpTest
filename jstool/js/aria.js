@@ -95,11 +95,12 @@ function initWebSocket(){
         if (typeof cbkfun === 'function') {
             cbkfun.call(null,r);
         }
+		delete aria2Cbk[r.id];
     };
 }
 function aria2Send(method,arr,cbk){
     if(!$Wskt)return;
-    var nid = randomCode(10,1);
+    var nid = randomCode(10,3);
     var obj={id:nid,jsonrpc:"2.0",params:arr,method:method};
     if (typeof cbk === 'function') {
         window.aria2Cbk[nid] = cbk;
@@ -437,7 +438,7 @@ function aria2Setting(){
                         {
                             "max-concurrent-downloads":$AriaParams.asParamCdm,
                             "max-resume-failure-tries":$AriaParams.asParamMtn,
-                            "bt-tracker":$AriaParams.asParamTrk.replace(/\n/g,",")
+                            "bt-tracker":$AriaParams.asParamTrk.replace(/[\n\r\s\t]/g,",").replace(/(,,)/g,",")
                         }
                     ],
                     function(m){
