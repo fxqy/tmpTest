@@ -20,7 +20,10 @@ function initDatas(){
 		dnorSufx:_getStorage("dnorSufx"),
         dnorFdir:_getStorage("dnorFdir"),
 		dnorHead:_getStorage("dnorHead"),
-		taskFilt:_getStorage("taskFilt")
+		taskFilt:_getStorage("taskFilt"),
+		asParamCdm:_getStorage("asParamCdm"),
+		asParamMtn:_getStorage("asParamMtn"),
+		asParamTrk:_getStorage("asParamTrk")
 	};
 	_$G("filter_btn").innerHTML=$bnmr[_$Ava($AriaParams.taskFilt)?$AriaParams.taskFilt:0];
 }
@@ -96,7 +99,7 @@ function initWebSocket(){
 }
 function aria2Send(method,arr,cbk){
     if(!$Wskt)return;
-    var nid = uuid();
+    var nid = randomCode(10,1);
     var obj={id:nid,jsonrpc:"2.0",params:arr,method:method};
     if (typeof cbk === 'function') {
         window.aria2Cbk[nid] = cbk;
@@ -391,13 +394,66 @@ function refreshLs(){
 	
 }
 function aria2Setting(){
-	var ctt = '<textarea id="asParamUrl" type="text" rows="1" placeholder="Aria2 JsonRpc URL" style="width:475px;resize:none;margin:10px;">'+$AriaParams.ariaUrl+'</textarea>';
+    var asParamUrl=_$Ava($AriaParams.ariaUrl)?$AriaParams.ariaUrl:"";
+	var asParamCdm=_$Ava($AriaParams.asParamCdm)?$AriaParams.asParamCdm:"";
+	var asParamMtn=_$Ava($AriaParams.asParamMtn)?$AriaParams.asParamMtn:"";
+	var asParamTrk=_$Ava($AriaParams.asParamTrk)?$AriaParams.asParamTrk:"";
+	var ctt = '<textarea id="asParamUrl" type="text" rows="1" placeholder="Aria2 JsonRpc URL" style="width:490px;resize:none;margin:5px;">'+asParamUrl+'</textarea>'+
+    		'<textarea id="asParamCdm" type="text" rows="1" placeholder="同时下载数量" style="width:490px;resize:none;margin:5px;">'+asParamCdm+'</textarea>'+
+    		'<textarea id="asParamMtn" type="text" rows="1" placeholder="最大重试次数" style="width:490px;resize:none;margin:5px;">'+asParamMtn+'</textarea>'+
+		'<textarea id="asParamTrk" type="text" rows="4" placeholder="bt tracker服务器" style="width:490px;resize:none;margin:5px;">'+asParamTrk+'</textarea>';
 	panelCaseA({ width:510,title: '设置', content:ctt, cttInBody: 1, btn1:"保存", btn2: "取消",
 		fun1: function(mbdy){
-			var asParamUrl=_$Q("#asParamUrl",mbdy);
-			$AriaParams.ariaUrl = asParamUrl.value;
-			_setStorage("ariaUrl",$AriaParams.ariaUrl);
-			initWebSocket();
+			var aspUrl=_$Q("#asParamUrl",mbdy).value;
+			var aspCdm=_$Q("#asParamCdm",mbdy).value;
+			var aspMtn=_$Q("#asParamMtn",mbdy).value;
+			var aspTrk=_$Q("#asParamTrk",mbdy).value;
+            if(_$Ava(aspUrl)&&$AriaParams.ariaUrl!=aspUrl){
+                $AriaParams.ariaUrl = aspUrl;
+                _setStorage("ariaUrl",aspUrl);
+                if($Wskt!=null)$Wskt.close();
+                initWebSocket();
+            }
+            var k=0;
+            if(isInt(aspCdm)&&$AriaParams.asParamCdm!=aspCdm){
+                $AriaParams.asParamCdm = aspCdm;
+                _setStorage("asParamCdm",aspCdm);
+                k++;
+            }            
+            if(isInt(aspMtn)&&$AriaParams.asParamMtn!=aspMtn){
+                $AriaParams.asParamMtn = aspMtn;
+                _setStorage("asParamMtn",aspMtn);
+                k++;
+            }
+            if(_$Ava(aspTrk)&&$AriaParams.asParamTrk!=aspTrk){
+                $AriaParams.asParamTrk = aspTrk;
+                _setStorage("asParamTrk",aspTrk);
+                k++;
+            }
+            if(k>0){
+                aria2Send(
+                    "aria2.changeGlobalOption",
+                    ["token:",
+                        {
+                            "max-concurrent-downloads":$AriaParams.asParamCdm,
+                            "max-resume-failure-tries":$AriaParams.asParamMtn,
+                            "bt-tracker":$AriaParams.asParamTrk.replace(/\n/g,",")
+                        }
+                    ],
+                    function(m){
+                        console.log(m);
+                        tipCase({msg:"设置成功! "});
+                        aria2Send(
+                            "aria2.getGlobalOption",
+                            [],
+                            function(m1){
+                                console.log(m1);
+                                console.log(JSON.stringify(m1));
+                            }
+                        );
+                    }
+                );
+            }
 			return true;
 		}
 	});

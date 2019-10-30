@@ -184,6 +184,7 @@ function tipCase(option){
 *option{
 * code 编号, title 标题, content 内容,cttInBody 内容加入cbody中, btn1 按钮1, fun1 回调1, btn2 按钮2, fun2 回调2, btn3 按钮3, fun3 回调3,closed 关闭回调
 * width 宽度, headColor 颜色, claza ClassA, clazb ClassB, clazc ClassC 
+* onshow 显示后回调
 *}
 */
 function panelCase(option){
@@ -318,11 +319,11 @@ function panelCase(option){
 	//_$MoveDu(mbox,20,mboxposy-50,mboxposy);
 	mbox.style.top=mboxposy+"px";
 	_$FadeIn({ele:clay,to:70});
-	_$FadeIn({ele:mbox});
+	_$FadeIn({ele:mbox,afun:function(){if(option.onshow)option.onshow.call(mbox,mboxbody)}});
 	
 }
 function panelCaseA(opt){
-	panelCase({code:opt.code,title:opt.title,content:opt.content,cttInBody:opt.cttInBody,btn1:opt.btn1,fun1:opt.fun1,btn2:opt.btn2,fun2:opt.fun2,btn3:opt.btn3,fun3:opt.fun3,closed:opt.closed,width:opt.width,headColor:"#f5f5f5",claza:"btn btn-mini btn-green"});
+	panelCase({code:opt.code,title:opt.title,content:opt.content,cttInBody:opt.cttInBody,btn1:opt.btn1,fun1:opt.fun1,btn2:opt.btn2,fun2:opt.fun2,btn3:opt.btn3,fun3:opt.fun3,closed:opt.closed,width:opt.width,onshow:opt.onshow,headColor:"#f5f5f5",claza:"btn btn-mini btn-green"});
 }
 function alertCase(msg){
 	panelCaseA({ code:"alert",title:'Message', content:msg, width:380, btn1:"确定"});
@@ -370,7 +371,7 @@ Ajax.getHttpRequest = function () {
 Ajax.get = function (url, callback) {
     var req = Ajax.getHttpRequest();
     req.open("GET", url, true);
-    req.onreadystatechange = function () {
+    req.onreadystatechange = function(){
         if (req.readyState == 4) {
             if (callback) callback(req.responseText);
         }
@@ -388,9 +389,12 @@ Ajax.post = function (url, data, callback) {
     };
     req.send(data);
 };
-function uuid() {
-    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
-        var r = Math.random() * 16 | 0, v = (c === 'x') ? r : (r & 0x3 | 0x8);
-        return v.toString(16);
-    });
+function randomCode(len,f){
+	if(len<1) return "";
+	var a=2;
+    if(!f)a=parseInt(Math.random() * 3);
+    var r=[48,65,97,58,91,123];
+	var d=parseInt(Math.random() * (r[a]-r[a+3]));
+	var e=randomCode(len-1);
+	return String.fromCharCode(b+d)+e;
 }
