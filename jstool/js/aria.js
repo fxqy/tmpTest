@@ -106,7 +106,6 @@ function aria2Send(method,arr,cbk){
         window.aria2Cbk[nid] = cbk;
     }
     $Wskt.send(JSON.stringify(obj));
-
 }
 function aria2Add(){
 	var stdownFnme=_$Ava($AriaParams.downFnme)?$AriaParams.downFnme:"";
@@ -402,7 +401,7 @@ function aria2Setting(){
 	var ctt = '<textarea id="asParamUrl" type="text" rows="1" placeholder="Aria2 JsonRpc URL" style="width:490px;resize:none;margin:5px;">'+asParamUrl+'</textarea>'+
     		'<textarea id="asParamCdm" type="text" rows="1" placeholder="同时下载数量" style="width:490px;resize:none;margin:5px;">'+asParamCdm+'</textarea>'+
     		'<textarea id="asParamMtn" type="text" rows="1" placeholder="最大重试次数" style="width:490px;resize:none;margin:5px;">'+asParamMtn+'</textarea>'+
-		'<textarea id="asParamTrk" type="text" rows="4" placeholder="bt tracker服务器" style="width:490px;resize:none;margin:5px;">'+asParamTrk+'</textarea>';
+            '<textarea id="asParamTrk" type="text" rows="4" placeholder="bt tracker服务器" style="width:490px;resize:none;margin:5px;">'+asParamTrk+'</textarea>';
 	panelCaseA({ width:510,title: '设置', content:ctt, cttInBody: 1, btn1:"保存", btn2: "取消",
 		fun1: function(mbdy){
 			var aspUrl=_$Q("#asParamUrl",mbdy).value;
@@ -438,7 +437,7 @@ function aria2Setting(){
                         {
                             "max-concurrent-downloads":$AriaParams.asParamCdm,
                             "max-resume-failure-tries":$AriaParams.asParamMtn,
-                            "bt-tracker":$AriaParams.asParamTrk.replace(/[\n\r\s\t]/g,",").replace(/(,,)/g,",")
+                            "bt-tracker":$AriaParams.asParamTrk.replace(/[\n\r\s\t]/g,",").replace(/,{2,}/g,",")
                         }
                     ],
                     function(m){
