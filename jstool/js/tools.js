@@ -12,8 +12,8 @@ var _$P=function(g,p,s){
 	try{
 		if(_$Ava(p)){
 			if(typeof p == "object"&&p.tagName){
-				var id = "TMPQUERYID"+new Date().getTime()+p.tagName;
-				oid = p?p.getAttribute("id"):null,nid = oid || id;
+				oid = p.getAttribute("id");
+                var nid = oid?oid:randomCode(10,3);
 				p.id=nid;
 				if(s) return document.querySelector("[id='"+nid+"'] "+g);
 				else return document.querySelectorAll("[id='"+nid+"'] "+g);
@@ -90,7 +90,7 @@ function _$FadeIn(option) {
 		_$SetOpacity(option.ele, val);
 		val += 10;
 		if (val <= option.to) {
-			setTimeout(arguments.callee, option.prd)
+			setTimeout(arguments.callee, option.prd);
 		}else{
 			if(option.afun)option.afun();
 		}
@@ -100,7 +100,7 @@ function _$FadeOut(option) {
 	option.prd = option.prd || 20;
 	option.to = option.to || 0;
 	var val = option.from||100;
-	( function() {
+	(function() {
 		_$SetOpacity(option.ele, val);
 		val -= 10;
 		if (val >= option.to) {
@@ -391,7 +391,7 @@ Ajax.post = function (url, data, callback) {
 };
 function randomCode(len,f){
 	if(len<1)return "";
-    var a=f?f-1:parseInt(Math.random() * 3);
+    var a=f?f-1:parseInt(Math.random()*3);
     var b=[48,65,97,58,91,123];
 	var c=parseInt(Math.random()*(b[a+3]-b[a]));
 	return String.fromCharCode(b[a]+c)+randomCode(len-1);
