@@ -8,15 +8,18 @@ function _$A(b, a) {
 	a.appendChild(b);
 }
 var _$P=function(g,p,s){
-	var oid;
+	var b=false;
 	try{
 		if(_$Ava(p)){
 			if(typeof p == "object"&&p.tagName){
-				oid = p.getAttribute("id");
-                var nid = oid?oid:randomCode(10,3);
-				p.id=nid;
-				if(s) return document.querySelector("[id='"+nid+"'] "+g);
-				else return document.querySelectorAll("[id='"+nid+"'] "+g);
+				var pid = p.getAttribute("id");
+                if(_$Null(pid)){
+                    pid=randomCode(10,3);
+                    p.id=pid;
+                    b=true;
+                }
+				if(s) return document.querySelector("[id='"+pid+"'] "+g);
+				else return document.querySelectorAll("[id='"+pid+"'] "+g);
 			}else{
 				return s?null:[];
 			}
@@ -25,7 +28,7 @@ var _$P=function(g,p,s){
 			else return document.querySelectorAll(g);
 		}
 	}catch(err){return s?null:[];}finally{
-		if(typeof p == "object"&&p.tagName&&!oid)p.removeAttribute("id");
+		if(b)p.removeAttribute("id");
 	}
 };
 var _$Q=function(g,p){return _$P(g,p,1);}

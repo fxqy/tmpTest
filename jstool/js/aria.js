@@ -491,7 +491,7 @@ function multiSelect(indx){
 		$MultiSelectMap={};
 		$LastSelected=-1;
 	}
-	generateGrid($CurrentList)
+	generateGrid($CurrentList);
 }
 
 /*

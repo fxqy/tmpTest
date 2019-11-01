@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XNkqMJrxz+nbPMAz2jCN+w
-! Version: 201911010531
+! Checksum: 2eEWcpwq2hYdG6h8Bon+EQ
+! Version: 201911010840
 ! Title: EasyList China+EasyList
-! Last modified: 01 Nov 2019 05:30 UTC
+! Last modified: 01 Nov 2019 08:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -54941,6 +54941,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ahuosyyqprt.com^$third-party
 ||ahvnvtxbk.bid^$third-party
 ||ahwjxktemuyz.com^$third-party
+||ahwzvnqc.com^$third-party
 ||ahyuzjgukqyd.com^$third-party
 ||ahzybvwdwrhi.com^$third-party
 ||aibcqjlvxxd.com^$third-party
@@ -61802,6 +61803,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||oxzffweyw.com^$third-party
 ||oyaqzikgjw.com^$third-party
 ||oybahnktadxjju.com^$third-party
+||oyfsdpmhncobvj.com^$third-party
 ||oyiqkjsjmmde.com^$third-party
 ||oyiqurfqulhuq.com^$third-party
 ||oylqnzunnw.com^$third-party
@@ -66342,6 +66344,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||yqxnmyydmcw.bid^$third-party
 ||yrbjfusd.com^$third-party
 ||yrcpupgqtn.com^$third-party
+||yrfeurfeacuul.com^$third-party
 ||yrfjqlpvrc.bid^$third-party
 ||yrfrvrbmipzb.com^$third-party
 ||yrgnouqinylg.com^$third-party

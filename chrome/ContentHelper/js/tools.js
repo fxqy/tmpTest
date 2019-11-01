@@ -8,15 +8,18 @@ function _$A(b, a) {
 	a.appendChild(b);
 }
 var _$P=function(g,p,s){
-	var oid;
+	var b=false;
 	try{
 		if(_$Ava(p)){
 			if(typeof p == "object"&&p.tagName){
-				var id = "TMPQUERYID"+new Date().getTime()+p.tagName;
-				oid = p?p.getAttribute("id"):null,nid = oid || id;
-				p.id=nid;
-				if(s) return document.querySelector("[id='"+nid+"'] "+g);
-				else return document.querySelectorAll("[id='"+nid+"'] "+g);
+				var pid = p.getAttribute("id");
+                if(_$Null(pid)){
+                    pid=randomCode(10,3);
+                    p.id=pid;
+                    b=true;
+                }
+				if(s) return document.querySelector("[id='"+pid+"'] "+g);
+				else return document.querySelectorAll("[id='"+pid+"'] "+g);
 			}else{
 				return s?null:[];
 			}
@@ -25,7 +28,7 @@ var _$P=function(g,p,s){
 			else return document.querySelectorAll(g);
 		}
 	}catch(err){return s?null:[];}finally{
-		if(typeof p == "object"&&p.tagName&&!oid)p.removeAttribute("id");
+		if(b)p.removeAttribute("id");
 	}
 };
 var _$Q=function(g,p){return _$P(g,p,1);}
@@ -388,3 +391,10 @@ Ajax.post = function (url, data, callback) {
     };
     req.send(data);
 };
+function randomCode(len,f){
+	if(len<1)return "";
+    var a=f?f-1:parseInt(Math.random()*3);
+    var b=[48,65,97,58,91,123];
+	var c=parseInt(Math.random()*(b[a+3]-b[a]));
+	return String.fromCharCode(b[a]+c)+randomCode(len-1);
+}
