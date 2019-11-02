@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Soj2tddaP1s3ock/w/TlGQ
-! Version: 201911010841
+! Checksum: KJidvaAyUDs9QhNE58wpfA
+! Version: 201911020131
 ! Title: EasyPrivacy
-! Last modified: 01 Nov 2019 08:41 UTC
+! Last modified: 02 Nov 2019 01:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1973,6 +1973,7 @@
 /gs-analytics.
 /gs.gif?
 /gscounters.
+/gtag.js
 /gtm-tracking-events.
 /gtm.js
 /gtm/gtm-
@@ -3495,6 +3496,7 @@
 /sstat_plugin.js
 /sstlm8.sst?
 /st.aspx?
+/standalone-analytics-
 /stat-analytics/*
 /stat.asmx
 /stat.aspx?
@@ -8378,6 +8380,7 @@ _mongo_stats/
 ||typicalteeth.com^$third-party
 ||ubiquitousyard.com^$third-party
 ||unarmedindustry.com^$third-party
+||unbecominghall.com^$third-party
 ||untidyrice.com^$third-party
 ||womanear.com^$third-party
 !-----------------International third-party tracking domains-----------------!
@@ -11043,6 +11046,7 @@ _mongo_stats/
 ||sana.newsinc.com^
 ||sawpf.com/1.0.js$third-party
 ||saymedia.com/latest/tetrapak.js
+||scdn.co/static/js/baba.js$script,domain=spotify.com
 ||schibsted.com/autoTracker
 ||scout.haymarketmedia.com^$third-party
 ||scribol.com/traffix/widget_tracker/
