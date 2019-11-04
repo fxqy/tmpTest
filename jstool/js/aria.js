@@ -319,16 +319,16 @@ function generateGrid(arr){
 		var brdcolor=itm.status=='error'?'#E28D8D':'#ddd';
 		var trbkg=_$Ava($MultiSelectMap[itm.gid])?"#DEEBFA":(bol?'#fafafa':'');
         html+='<tr onclick="multiSelect('+i+')" style="background:'+trbkg+';text-align:center;">'
-				+'<td style="margin:0;padding:0;border-color:#ccc;border-width:'+tbor+' 1px 1px 1px;border-style:dotted;width:40px;">'+(i+1)+'</td>'
-				+'<td style="margin:0;padding:0;border-color:#ccc;border-width:'+tbor+' 1px 1px 0px;border-style:dotted;width:50%;">'+itm.name+'</td>'
-				+'<td style="margin:0;padding:0;border-color:#ccc;border-width:'+tbor+' 1px 1px 0;border-style:dotted;width:140px;">'+itm.speed+'</td>'
-				+'<td style="margin:0;padding:0;border-color:#ccc;border-width:'+tbor+' 1px 1px 0;border-style:dotted;">'
+				+'<td style="margin:0;padding:0;border-color:#ddd;border-width:'+tbor+' 1px 1px 1px;border-style:dotted;width:40px;">'+(i+1)+'</td>'
+				+'<td style="margin:0;padding:0;border-color:#ddd;border-width:'+tbor+' 1px 1px 0px;border-style:dotted;width:50%;">'+itm.name+'</td>'
+				+'<td style="margin:0;padding:0;border-color:#ddd;border-width:'+tbor+' 1px 1px 0;border-style:dotted;width:140px;">'+itm.speed+'</td>'
+				+'<td style="margin:0;padding:0;border-color:#ddd;border-width:'+tbor+' 1px 1px 0;border-style:dotted;">'
 					+'<div style="position:relative;height:26px;line-height:26px;background:#eee;border-radius:4px;border:1px solid '+brdcolor+';">'
 						+'<div style="position:absolute;width:'+itm.percent+'%;height:26px;line-height:26px;background:'+bkgcolor+';border-radius:4px;"></div>'
 						+'<div style="position:absolute;width:100%;height:26px;line-height:26px;">'+itm.percent+'%</div>'
 					+'</div>'
 				+'</td>'
-				+'<td style="margin:0;padding:0;border-color:#ccc;border-width:'+tbor+' 1px 1px 0;border-style:dotted;width:60px;">';
+				+'<td style="margin:0;padding:0;border-color:#ddd;border-width:'+tbor+' 1px 1px 0;border-style:dotted;width:60px;">';
 		if(itm.status=='active'){
 			html+='<a id="add_btn" class="btn btn-mini" style="margin:2px 3px;padding:2px 8px;" onclick="aria2Start(\''+itm.gid+'\',0)">暂停</a>';
 		}else if(itm.status=='paused'){
