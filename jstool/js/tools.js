@@ -399,3 +399,15 @@ function randomCode(len,f){
 	var c=parseInt(Math.random()*(b[a+3]-b[a]));
 	return String.fromCharCode(b[a]+c)+randomCode(len-1);
 }
+function randomOrderCode(len,f){
+	return charVal(new Date().getTime())+randomCode(len,f);
+}
+function charVal(o) {
+	var a = Math.floor(o/52);
+	var b = o%52;
+	var c = String.fromCharCode(b>25?b+71:b+65);
+	var r = "";
+	if (a > 0)
+		r=charVal(a);
+	return r + c;
+}
