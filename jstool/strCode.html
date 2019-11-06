@@ -12,10 +12,10 @@
 	function myFunction(){
 		var d = new Date();
 		var x = document.getElementById("demo");
-		var cvl=charVal(1572939906266);
-		x.innerHTML=1572939906266+": "+cvl+","+numVal("000000RgvvY0A");
+		var cvl=charVal(d.getTime());
+		x.innerHTML=d.getTime()+", "+cvl+", "+numVal("000"+cvl);
         
-		var estr=ecpt("{{hello world!的方法士大夫%%发挥更好发挥。，“‘：https://www.ixigua.com/search/?logTag=-AV7fjuDSkR_dlL9D577i}}","password");
+		var estr=ecpt("{{hello world!的方法士大夫%%发挥更好发挥。，“‘}}","password");
 		console.log(estr);
 		console.log(dcpt(estr,"password"));
 	}
@@ -62,6 +62,35 @@
 		if(s.length<l)return pfxChar("0"+s,l);
 		return s;
 	}
+	/**
+public static String charVal(double o){
+    	double a = Math.floor(o/62);
+    	int b = (int)Math.floor(o%62);
+    	char ch=(char)(b<10?b+48:(b>35?b+61:b+55));
+    	char[] chs=new char[]{ch};
+    	String c = new String(chs);
+    	String r = "";
+    	if (a > 0)
+    		r=charVal(a);
+    	return r + c;
+    }
+    
+	public static double numVal(String s,int t){
+		if(t>s.length()-1)return 0;
+		int a=s.charAt(s.length()-t-1);
+		int b=a<65?a-48:(a<97?a-55:a-61);
+		return b*Math.pow(62,t)+numVal(s,t+1);
+	}
+    
+    public static void main(String[] args) {
+    	java.util.Date dt = new java.util.Date();
+    	System.out.println(dt.getTime());
+    	String s = charVal(dt.getTime());
+    	System.out.println(s);
+    	double n = numVal(s,0);
+    	System.out.println(new DecimalFormat("#").format(n));
+	}
+	**/
 </script>
 
 </body>

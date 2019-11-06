@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: akgZKqXXqthvwG+LaFllfw
-! Version: 201911050901
+! Checksum: EzZoSQCDo8Zg9oe3mbl5YA
+! Version: 201911060841
 ! Title: EasyPrivacy
-! Last modified: 05 Nov 2019 09:01 UTC
+! Last modified: 06 Nov 2019 08:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2329,6 +2329,7 @@
 /lead-tracking/*
 /leadgen/ga.js
 /leadgen_track
+/leads-tracker-
 /lftracker.
 /lftracker_
 /lib.tailtarget/*
@@ -16419,6 +16420,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||asendiausa.com/tracking/js/tracking/customertracking.js?
 @@||atl-paas.net/analytics/event
 @@||atptour.com/assets/atpwt/scripts/util/googleAnalytics.js
+@@||att.com/scripts/adobe/prod/$script
 @@||att.com/scripts/adobe/virtual/detm-container-hdr.js
 @@||att.com/ui/*/jsnlog.js
 @@||azureedge.net^*/eventtracking.js$domain=crimemapping.com
@@ -16503,6 +16505,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ibispaint.com/js/googleAnalytics.js
 @@||ibm.com/software/reports/compatibility/clarity-reports/js/$script,~third-party
 @@||imrworldwide.com/novms/*/gg*.js$domain=9now.com.au|adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|europafm.com|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|news-mail.com.au|news.com.au|noosanews.com.au|ntnews.com.au|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|townsvillebulletin.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
+@@||imrworldwide.com/novms/js/2/ggcmb400.js$script,domain=espn.com
 @@||imrworldwide.com/v60.js$domain=adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|last.fm|musicfeeds.com.au|news-mail.com.au|noosanews.com.au|ntnews.com.au|nzherald.co.nz|realestateview.com.au|sf.se|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|threenow.co.nz|townsvillebulletin.com.au|weatherchannel.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
 @@||infowars.com/videojs-event-tracking/dist/videojs-event-tracking.js
 @@||infra.lync.com/Scheduler/Scripts/aria-web-telemetry-$script,~third-party

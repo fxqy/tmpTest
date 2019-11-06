@@ -100,44 +100,44 @@ function initEvents(){
 }
 
 function ecpt(s,p){
-    var fxn=3;
-    var len=s.length;
-    var r="";
-    for(var i=0,j=0;i<len;i++,j++){
-        if(p&&j==p.length)j=0;
-        var itm=s.charCodeAt(i)+(p?p.charCodeAt(j):0);
-        r+=pfxChar(charVal(itm),fxn);
-    }
-    return r;
+	var fxn=3;
+	var len=s.length;
+	var r="";
+	for(var i=0,j=0;i<len;i++,j++){
+		if(p&&j==p.length)j=0;
+		var itm=s.charCodeAt(i)+(p?p.charCodeAt(j):0);
+		r+=pfxChar(charVal(itm),fxn);
+	}
+	return r;
 }
 function dcpt(s,p){
-    var fxn=3;
-    var len=s.length;
-    var r="";
-    for(var i=0,j=0;i<len;i+=fxn,j++){
-        if(p&&j==p.length)j=0;
-        var itm=s.substring(i,i+fxn);
-        r+=String.fromCharCode(numVal(itm)-(p?p.charCodeAt(j):0));
-    }
-    return r;
+	var fxn=3;
+	var len=s.length;
+	var r="";
+	for(var i=0,j=0;i<len;i+=fxn,j++){
+		if(p&&j==p.length)j=0;
+		var itm=s.substring(i,i+fxn);
+		r+=String.fromCharCode(numVal(itm)-(p?p.charCodeAt(j):0));
+	}
+	return r;
 }
 function charVal(o){
-    var a = Math.floor(o/62);
-    var b = o%62;
-    var c = String.fromCharCode(b<10?b+48:(b>35?b+61:b+55));
-    var r = "";
-    if (a > 0)
-        r=charVal(a);
-    return r + c;
+	var a = Math.floor(o/62);
+	var b = o%62;
+	var c = String.fromCharCode(b<10?b+48:(b>35?b+61:b+55));
+	var r = "";
+	if (a > 0)
+		r=charVal(a);
+	return r + c;
 }
 function numVal(s,t){
-    if(!t)t=0;
-    if(t>s.length-1)return 0;
-    var a=s.charCodeAt(s.length-t-1);
-    var b=a<65?a-48:(a<97?a-55:a-61);
-    return b*Math.pow(62,t)+numVal(s,t+1);
+	if(!t)t=0;
+	if(t>s.length-1)return 0;
+	var a=s.charCodeAt(s.length-t-1);
+	var b=a<65?a-48:(a<97?a-55:a-61);
+	return b*Math.pow(62,t)+numVal(s,t+1);
 }
 function pfxChar(s,l){
-    if(s.length<l)return pfxChar("0"+s,l);
-    return s;
+	if(s.length<l)return pfxChar("0"+s,l);
+	return s;
 }
