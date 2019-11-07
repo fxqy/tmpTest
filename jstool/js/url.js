@@ -144,7 +144,7 @@ function pfxChar(s,l){
 	return s;
 }
 function strCharact(s,i){
-	if(i<s.length)return (s.charCodeAt(i)+s.charCodeAt(s.length-i-1))*Math.pow(64,i)+strCharact(s,i+1);
+	if(i<s.length)return Math.abs(s.charCodeAt(i)*(i+1)-s.charCodeAt(s.length-i-1))*Math.pow(64,i)+strCharact(s,i+1);
 	return 0;
 }
 function strCharactCode(s){
