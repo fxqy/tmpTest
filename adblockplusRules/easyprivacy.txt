@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: EzZoSQCDo8Zg9oe3mbl5YA
-! Version: 201911060841
+! Checksum: fuVG3M3e085TPN7aS/PLsQ
+! Version: 201911070841
 ! Title: EasyPrivacy
-! Last modified: 06 Nov 2019 08:41 UTC
+! Last modified: 07 Nov 2019 08:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6742,7 +6742,6 @@ _mongo_stats/
 ||pixelinteractivemedia.com^$third-party
 ||pixelrevenue.com^$third-party
 ||pixelsnippet.com^$third-party
-||pixlee.com^$third-party
 ||pizzaandads.com^$third-party
 ||pjatr.com^$third-party
 ||pjtra.com^$third-party
@@ -10410,6 +10409,7 @@ _mongo_stats/
 ||ga.webdigi.co.uk^
 ||gamegecko.com/gametrack?
 ||gatehousemedia.com/wickedlocal/ip.js
+||gateway.foresee.com^
 ||gcion.com/gcion.ashx?
 ||geckofoot.com/gfcounterimg.aspx?
 ||geckofoot.com/gfvisitormap.aspx?
@@ -10957,6 +10957,7 @@ _mongo_stats/
 ||pixel.yola.com^
 ||pixels.youknowbest.com^$third-party
 ||pixhosting.com/ct/jct.php?
+||pixlee.com/assets/pixlee_events.js
 ||planet49.com/log/
 ||platform.communicatorcorp.com^$third-party
 ||platform.iteratehq.com^$third-party
@@ -12762,7 +12763,7 @@ _mongo_stats/
 ||atrack.allposters.com^
 ||atrack.art.com^
 ||atracktive.collegehumor.com^
-||att.com/csct.gif?
+||att.com/scripts/satellite/prod/
 ||attachmate.com*/pv.aspx?
 ||audible.com^*/uedata/
 ||audit.macworld.co.uk^
@@ -16475,6 +16476,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ensighten.com^*/scode/$script,domain=norton.com
 @@||ensighten.com^*/serverComponent.php?$script
 @@||eplayerhtml5.performgroup.com/js/tsEplayerHtml5/js/Eplayer/js/quantcast/$script
+@@||events-collector.spot.im/api/$domain=foxbusiness.com|foxnews.com
 @@||fastway.co.nz/Umbraco/Api/Tracking/
 @@||fccbrea.org^*/swfaddress.js
 @@||fifa.com^*/webanalytics.js?

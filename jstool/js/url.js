@@ -102,6 +102,7 @@ function initEvents(){
 function ecpt(s,p){
 	var fxn=3;
 	var len=s.length;
+	p=p?strCharactCode(p):p;
 	var r="";
 	for(var i=0,j=0;i<len;i++,j++){
 		if(p&&j==p.length)j=0;
@@ -113,6 +114,7 @@ function ecpt(s,p){
 function dcpt(s,p){
 	var fxn=3;
 	var len=s.length;
+	p=p?strCharactCode(p):p;
 	var r="";
 	for(var i=0,j=0;i<len;i+=fxn,j++){
 		if(p&&j==p.length)j=0;
@@ -140,4 +142,12 @@ function numVal(s,t){
 function pfxChar(s,l){
 	if(s.length<l)return pfxChar("0"+s,l);
 	return s;
+}
+function strCharact(s,i){
+	if(i<s.length)return (s.charCodeAt(i)+s.charCodeAt(s.length-i-1))*Math.pow(64,i)+strCharact(s,i+1);
+	return 0;
+}
+function strCharactCode(s){
+	var r=charVal(strCharact(s,0));
+	return r.split("").reverse().join("");
 }
