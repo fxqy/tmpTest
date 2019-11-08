@@ -9,15 +9,19 @@
 <p id="demo">点击按钮获取</p>
 <button onclick="myFunction()">点我</button>
 <script>
+	window.onload=function(){
+	    testA();
+	}
+	
 	function myFunction(){
 		var d = new Date();
 		var x = document.getElementById("demo");
 		var cvl=charVal(d.getTime());
 		x.innerHTML=d.getTime()+", "+cvl+", "+numVal("0000"+cvl);
         
-		var estr=ecpt("{{hello world!的方法士大夫%%发挥更好发挥。，“‘}}","password123");
+		var estr=ecpt("{{hello world!的方法士大夫%%发挥更好发挥。，“‘}}","testPassword");
 		console.log(estr);
-		console.log(dcpt(estr,"password123"));
+		console.log(dcpt(estr,"testPassword"));
 		
 		console.log(strCharactCode("Password123456111",0));
 		console.log(strCharactCode("Password123456122",0));
@@ -80,8 +84,18 @@
 	    var r=charVal(strCharact(s,0));
 		return r.split("").reverse().join("");
 	}
+	
+	function strCharactA(s,i){
+		var j=s.length-i-1;
+	    if(i<s.length)return (s.charCodeAt(i)+s.charCodeAt(j))*Math.pow(64,j)+strCharactA(s,i+1);
+		return 0;
+	}
+	//parseInt(i/10%2)==0?i+1:i-1
+	function testA(){
+		
+	}
 	/**
-public static String charVal(double o){
+	public static String charVal(double o){
     	double a = Math.floor(o/62);
     	int b = (int)Math.floor(o%62);
     	char ch=(char)(b<10?b+48:(b>35?b+61:b+55));

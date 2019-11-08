@@ -321,11 +321,12 @@ function generateGrid(arr){
         html+='<tr onclick="multiSelect('+i+')" style="background:'+trbkg+';text-align:center;">'
 				+'<td style="margin:0;padding:0;border-color:#ddd;border-width:'+tbor+' 1px 1px 1px;border-style:dotted;width:40px;">'+(i+1)+'</td>'
 				+'<td style="margin:0;padding:0;border-color:#ddd;border-width:'+tbor+' 1px 1px 0px;border-style:dotted;width:50%;">'+itm.name+'</td>'
-				+'<td style="margin:0;padding:0;border-color:#ddd;border-width:'+tbor+' 1px 1px 0;border-style:dotted;width:140px;">'+itm.speed+'</td>'
+				+'<td style="margin:0;padding:0;border-color:#ddd;border-width:'+tbor+' 1px 1px 0;border-style:dotted;width:120px;">'+itm.size+'</td>'
+				+'<td style="margin:0;padding:0;border-color:#ddd;border-width:'+tbor+' 1px 1px 0;border-style:dotted;width:120px;">'+itm.speed+'</td>'
 				+'<td style="margin:0;padding:0;border-color:#ddd;border-width:'+tbor+' 1px 1px 0;border-style:dotted;">'
 					+'<div style="position:relative;height:26px;line-height:26px;background:#eee;border-radius:4px;border:1px solid '+brdcolor+';">'
 						+'<div style="position:absolute;width:'+itm.percent+'%;height:26px;line-height:26px;background:'+bkgcolor+';border-radius:4px;"></div>'
-						+'<div style="position:absolute;width:100%;height:26px;line-height:26px;">'+itm.percent+'%</div>'
+						+'<div style="position:absolute;width:100%;height:26px;line-height:26px;">'+itm.percent+'</div>'
 					+'</div>'
 				+'</td>'
 				+'<td style="margin:0;padding:0;border-color:#ddd;border-width:'+tbor+' 1px 1px 0;border-style:dotted;width:60px;">';
@@ -361,16 +362,23 @@ function refreshLs(){
 					var itn=itm[j];
 					var itp=itn.files[0];
 					var spd=Math.round(itn.downloadSpeed/1024);
-					if(spd>1024)spd=(itn.downloadSpeed/1048576).toFixed(3)+"Mbs";
-					else spd+="Kbs";
+					if(spd>1024)spd=(itn.downloadSpeed/1048576).toFixed(3)+"M/s";
+					else spd+="K/s";
 					var pct=(itn.completedLength*100/itn.totalLength).toFixed(2);
+					var szt=Math.round(itn.totalLength/1024);
+					if(szt>1024)szt=(itn.totalLength/1048576).toFixed(2)+"M";
+					else szt+="K";
+					var szc=Math.round(itn.completedLength/1024);
+					if(szc>1024)szc=(itn.completedLength/1048576).toFixed(2)+"M";
+					else szc+="K";
 					arr.push({
 						gid:itn.gid,
 						name:itp.path.substr(itp.path.lastIndexOf("/")+1),
 						type:i,
 						status:itn.status,
 						speed:spd,
-						percent:isNum(pct+"")?pct:0
+						percent:(isNum(pct+"")?pct:0)+"%",
+						size:szc+"/"+szt
 					});
 					
 				}
@@ -379,11 +387,11 @@ function refreshLs(){
 			$CurrentList=arr;
 			var asta=result[3][0];
 			var dspd=Math.round(asta.downloadSpeed/1024);
-			if(dspd>1024)dspd=(asta.downloadSpeed/1048576).toFixed(3)+"Mbs";
-			else dspd+="Kbs";
+			if(dspd>1024)dspd=(asta.downloadSpeed/1048576).toFixed(3)+"M/s";
+			else dspd+="K/s";
 			var uspd=Math.round(asta.uploadSpeed/1024);
-			if(uspd>1024)uspd=(asta.uploadSpeed/1048576).toFixed(3)+"Mbs";
-			else uspd+="Kbs";
+			if(uspd>1024)uspd=(asta.uploadSpeed/1048576).toFixed(3)+"M/s";
+			else uspd+="K/s";
 			var ast=_$G("aria2State");
 			ast.innerHTML="↓ "+dspd+"  ↑ "+uspd;
 			ast.title="下载速度:"+dspd+"\n上传速度:"+uspd+"\n进行任务:"+asta.numActive+"个\n等待任务:"+asta.numWaiting+"个\n停止任务:"+asta.numStoppedTotal+"个";
