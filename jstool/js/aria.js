@@ -326,7 +326,7 @@ function generateGrid(arr){
 				+'<td style="margin:0;padding:0;border-color:#ddd;border-width:'+tbor+' 1px 1px 0;border-style:dotted;">'
 					+'<div style="position:relative;height:26px;line-height:26px;background:#eee;border-radius:4px;border:1px solid '+brdcolor+';">'
 						+'<div style="position:absolute;width:'+itm.percent+'%;height:26px;line-height:26px;background:'+bkgcolor+';border-radius:4px;"></div>'
-						+'<div style="position:absolute;width:100%;height:26px;line-height:26px;">'+itm.percent+'</div>'
+						+'<div style="position:absolute;width:100%;height:26px;line-height:26px;">'+itm.percent+'%</div>'
 					+'</div>'
 				+'</td>'
 				+'<td style="margin:0;padding:0;border-color:#ddd;border-width:'+tbor+' 1px 1px 0;border-style:dotted;width:60px;">';
@@ -377,7 +377,7 @@ function refreshLs(){
 						type:i,
 						status:itn.status,
 						speed:spd,
-						percent:(isNum(pct+"")?pct:0)+"%",
+						percent:isNum(pct+"")?pct:0,
 						size:szc+"/"+szt
 					});
 					

@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: DYuNFF5pe3UuiRA8A/bbiw
-! Version: 201911080821
+! Checksum: 0p+aTet3FUuqN4ZgN3RIvw
+! Version: 201911090121
 ! Title: EasyPrivacy
-! Last modified: 08 Nov 2019 08:21 UTC
+! Last modified: 09 Nov 2019 01:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -39,6 +39,7 @@
 -analitycs/fab.
 -analitycs/ga.
 -analitycs/metrica.
+-analytics-events.
 -analytics-state?
 -analytics-tagserver-
 -analytics-wi.
@@ -380,6 +381,7 @@
 /abp-analytics.
 /abp.gif?
 /abppx-*.gif?
+/abstat.
 /abtshield-snippet.js
 /aby.gif?
 /ac.fcgi?
@@ -3894,6 +3896,7 @@
 /track;adv
 /track?*&event=
 /track?*&ref=
+/track?*http$image
 /track?browserId
 /track?cb=
 /track?data=
@@ -3999,6 +4002,7 @@
 /trackimps?
 /tracking-active/*
 /tracking-ad/*
+/tracking-analytics-
 /tracking-aws.
 /tracking-cookie.
 /tracking-hits.
@@ -4638,6 +4642,7 @@
 ://b.*/vanity/?
 ://c.*/c.gif?
 ://c1.*/c.gif?
+://d.*/track.js
 ://email.*/blankpixel.gif
 ://eulerian.*/ea.js
 ://gdyn.*/1.gif?
@@ -6527,7 +6532,6 @@ _mongo_stats/
 ||myaffiliateprogram.com^$third-party
 ||myaudience.de^$third-party
 ||mybloglog.com^$third-party
-||mybluemix.net^$third-party
 ||myfastcounter.com^$third-party
 ||mynewcounter.com^$third-party
 ||mynsystems.com^$third-party
@@ -8344,18 +8348,21 @@ _mongo_stats/
 ||caringzinc.com^$third-party
 ||carscannon.com^$third-party
 ||cloisteredcord.com^$third-party
+||conditioncrush.com^$third-party
 ||consciouscabbage.com^$third-party
 ||consciouschairs.com^$third-party
 ||coordinatedcub.com^$third-party
 ||copycarpenter.com^$third-party
 ||cubchannel.com^$third-party
 ||culturedcrayon.com^$third-party
+||damdoor.com^$third-party
 ||delegatediscussion.com^$third-party
 ||desiredirt.com^$third-party
 ||detectdiscovery.com^$third-party
 ||diplomahawaii.com^$third-party
 ||ejyymghi.com^$third-party
 ||endurablecrayon.com^third-party
+||falseframe.com^$third-party
 ||familiarfloor.com^$third-party
 ||familiarrod.com^$third-party
 ||farmergoldfish.com^$third-party
@@ -8386,6 +8393,8 @@ _mongo_stats/
 ||mowfruit.com^$third-party
 ||mundanepollution.com^$third-party
 ||nervoussummer.com^$third-party
+||parcelcreature.com^$third-party
+||parsimoniouspolice.com^$third-party
 ||pedropanther.com^$third-party
 ||penspade.com^$third-party
 ||perceivequarter.com^$third-party
@@ -8411,10 +8420,12 @@ _mongo_stats/
 ||sombersurprise.com^$third-party
 ||sortsummer.com^$third-party
 ||spiffymachine.com^$third-party
+||spottednoise.com^$third-party
 ||spottysense.com^$third-party
 ||spurioussteam.com^$third-party
 ||squeakzinc.com^$third-party
 ||squirrelhands.com^$third-party
+||steadfastsound.com^$third-party
 ||steepsquirrel.com^$third-party
 ||stiffstem.com^$third-party
 ||storesurprise.com^$third-party
@@ -16392,6 +16403,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@/wp-content/mu-plugins/google-analytics-premium/*$script,stylesheet,~third-party
 @@/wp-content/plugins/google-analytics-for-wordpress/*$script,stylesheet,~third-party
 @@/wp-content/plugins/google-analytics-premium/*$script,stylesheet,~third-party
+@@||2700chess.com/js/analysis.js
 @@||ad.crwdcntrl.net^$script,domain=investopedia.com
 @@||adblockanalytics.com/ads.js|
 @@||addgene.org/headers/blat/js/analyze.js

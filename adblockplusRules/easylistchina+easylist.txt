@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uJt1erRDAghrz8OKdGdW4Q
-! Version: 201911080821
+! Checksum: 4++RvB38qb4nLlmfkp9QvA
+! Version: 201911090121
 ! Title: EasyList China+EasyList
-! Last modified: 08 Nov 2019 08:20 UTC
+! Last modified: 09 Nov 2019 01:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -507,7 +507,9 @@ _xiuno_com_ad/
 ###QQ_Full
 ###ZAML
 ###aafoot.top_box
+###aafoot[class^="top_box"]
 ###aatop.top_box
+###aatop[class^="top_box"]
 ###ad-SNSSplashAd
 ###ad08
 ###ad6cn
@@ -929,8 +931,6 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
-###aafoot[class^="top_box"]
-###aatop[class^="top_box"]
 ##span[title="neteasefooter"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
@@ -3638,6 +3638,7 @@ _yad_jsonp_
 ||122.228.236.165^
 ||123.sogou.com/discover/?
 ||1236226.com/html/
+||12580sky.com/gg/
 ||126.com/get.do?*=themeHandler.
 ||126.net/house/hrb/flash/*X
 ||126.net/ntesrich/*/suning-
@@ -7939,6 +7940,7 @@ _yad_jsonp_
 ||xlpu.cc/adv/
 ||xmcimg.com/js/m.js
 ||xmfish.com/chanel/www/cpm.html
+||xmrc.com.cn/net/info/html/
 ||xng02.com/api.php?mod=ad&
 ||xnnews.com.cn/adgl/
 ||xnnews.com.cn/Templets/image/zyyy.swf
@@ -8251,7 +8253,7 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||12580sky.com/gg/
+||alicdn.com/img/ibank/*_735370984.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -10435,6 +10437,7 @@ zhaolianmeng.com##.buttonBar
 zealer.com##.buy_container
 ithome.com##.bx-recom2
 hao.lenovo.com.cn,hi.lenovo.com.cn##.bxslider-wrap
+byxx.com##.byzwPC-banner-ADscroll
 mgtv.com##.c-95060-top
 baidu.com##.c-container.ec-container
 3987.com##.c-gg
@@ -10449,6 +10452,7 @@ duba.com##.car_ads
 btring.com##.card[target="_blank"]
 16888.com##.cardataclass
 htcui.com##.carousel
+byxx.com##.cataAD
 cnbeta.com##.cb-help
 baidu.com##.cbg-Ads
 cnbeta.com##.cbhelp
@@ -10580,7 +10584,7 @@ timedg.com##.crossAdvertise
 timedg.com##.crossAdvertise2
 sm.cn##.crumb-link + .other
 iplaysoft.com##.crumb_ad
-123.sogou.com,web.sogou.com,qq.com##.cs_right_hw
+123.sogou.com,qq.com,web.sogou.com##.cs_right_hw
 csdn.net##.csdn-tracking-statistics[style="height:250px;"]
 cnbeta.com##.ctcloud
 iqiyi.com##.cupid-panel + div
@@ -16277,6 +16281,7 @@ duanwenxue.com##.qgzdwx
 ||k859n.cn^
 ||k9wi2d.cn^
 ||kafka8.com^
+||kaihutai.cn^
 ||kakappp.com^
 ||kanjiaqun.cn^
 ||kbstyn.com^
@@ -50284,6 +50289,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||glodrips.com^$third-party
 ||gloolsee.net^$third-party
 ||gloorajo.com^$third-party
+||gloussuz.com^$third-party
 ||glowdot.com^$third-party
 ||glumtitu.net^$third-party
 ||gmads.net^$third-party
@@ -50378,6 +50384,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||hallucius.com^$third-party
 ||halogennetwork.com^$third-party
 ||halpeperglagedokkei.info^$third-party
+||hamtugin.com^$third-party
 ||hanaprop.com^$third-party
 ||hanlowu.info^$third-party
 ||hantinlethemsed.info^$third-party
@@ -51997,6 +52004,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||qaykb.com^$third-party
 ||qdmil.com^$third-party
 ||qertewrt.com^$third-party
+||qfdn3gyfbs.com^$third-party
 ||qksrv.net^$third-party
 ||qksz.net^$third-party
 ||qnrzmapdcc.com^$third-party
@@ -52037,6 +52045,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||raigluce.net^$third-party
 ||rainbowtgx.com^$third-party
 ||rainwealth.com^$third-party
+||raiphupi.com^$third-party
 ||rappenedstoric.info^$third-party
 ||rapt.com^$third-party
 ||rarelly.info^$third-party
@@ -55303,6 +55312,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||atkkkyhyxemut.bid^$third-party
 ||atrcoikdyagv.com^$third-party
 ||atryzvsn.com^$third-party
+||atzcmddc.com^$third-party
 ||atzrsfweb.bid^$third-party
 ||aubmolods.com^$third-party
 ||aubrythgmge.bid^$third-party
@@ -57763,6 +57773,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||fzgitqrqrsyyiv.com^$third-party
 ||fzhwvlpnqg.bid^$third-party
 ||fzmogmfqh.com^$third-party
+||fzorwhus.com^$third-party
 ||fzpseyhkanhopd.com^$third-party
 ||fzqxefkbjzwiqa.com^$third-party
 ||fzrcalpbcu.com^$third-party
@@ -58518,6 +58529,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||hpqxznpb.bid^$third-party
 ||hpsthxyqxqae.com^$third-party
 ||hpufwccrmiwz.com^$third-party
+||hpuknttzl.com^$third-party
 ||hpvxmmttf.bid^$third-party
 ||hpwdohgicpmi.com^$third-party
 ||hpwoowyxhrsatx.com^$third-party
@@ -60185,6 +60197,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||lbtcymxcocwh.bid^$third-party
 ||lbtifiprfzy.com^$third-party
 ||lburmovcjefv.com^$third-party
+||lbushibdda.com^$third-party
 ||lbwtrvpgvqkqc.com^$third-party
 ||lbypppwfvagq.com^$third-party
 ||lbytagcqxefsn.com^$third-party
@@ -65615,6 +65628,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||wpkcfajkeytrro.com^$third-party
 ||wpktjtwsidcz.com^$third-party
 ||wplqgfpj.com^$third-party
+||wpqvggsnc.com^$third-party
 ||wpswyoyev.com^$third-party
 ||wpsyjttctdnt.com^$third-party
 ||wptdfllszzpczp.com^$third-party
@@ -71512,6 +71526,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||liveresources.mensxp.com^$third-party
 ||liveshows.com^*/live.js$third-party
 ||llnwd.net/o28/assets/*-sponsored-
+||llnwd.net/tools/tags/interstitial/
 ||localdata.eu/images/banners/
 ||loopnet.com^*/searchwidget.htm$third-party
 ||loot.co.za/shop/product.jsp?$third-party
@@ -76296,7 +76311,7 @@ $webrtc,domain=ibit.to
 ! bit.ly
 /^https?:\/\/.*(bitly|bit)\.(com|ly)\/.*/$domain=123movies.com|123unblock.icu|123unblock.info|123unblock.xyz|1337x.st|1337x.to|1movies.is|adsrt.com|ancient-origins.net|c123movies.com|clicknupload.org|downloadpirate.com|estream.to|estream.xyz|eztv.io|eztv.tf|eztv.yt|ffmovies.ru|fmovies.taxi|fmovies.world|fullmatchesandshows.com|gifsis.com|gomovies.sc|gomovieshub.is|gostreams.net|hdmoza.com|hdonline.is|healthline.com|intoupload.net|kickass2.ch|kickass2.st|kimcartoon.to|limetorrents.info|masterkreatif.com|megaup.net|monova.org|monova.to|movies.is|movies123.xyz|moviescouch.co|moviewatcher.is|mrunlock.icu|mrunlock.pro|newser.com|nocensor.icu|nocensor.pro|nowwatchtvlive.ws|onhax.me|pirateiro.com|postimg.cc|prox4you.info|prox4you.pw|prox4you.xyz|seedpeer.me|sendit.cloud|skidrowcrack.com|swatchseries.to|tinypic.com|torlock.com|torrentdownload.ch|torrentdownloads.me|torrentfunk.com|torrentfunk2.com|torrentz2.eu|tubidy.io|uiz.io|unblockall.org|unblocked.app|unblocked.cx|unblocked.llc|unblocked.lol|unblocked.pet|unblocked.si|unblocked.win|unlockproject.icu|unlockproject.live|uptobox.com|userscloud.com|vcstream.to|vev.io|vidbull.tv|watchcartoononline.io|watchsomuch.info|x1337x.eu|x1337x.se|x1337x.ws|yesmovies.to|yify-movies.net|yifyddl.movie|ymovies.tv|yourbittorrent2.com|zippyshare.com
 ! Torrent/Pirate sites /sw.js
-/^https?:\/\/.*\/.*sw[0-9a-z(.|_)].*/$script,xmlhttprequest,domain=123movies.com|123unblock.info|123unblock.xyz|1337x.st|1337x.to|1movies.is|adsrt.com|ancient-origins.net|anitube.cz|aniwatcher.com|bayfiles.com|c123movies.com|clicknupload.org|cloudvideo.tv|downace.com|downloadpirate.com|estream.to|estream.xyz|eztv.io|eztv.tf|eztv.yt|ffmovies.ru|filmlinks4u.is|flvto.biz|fmovies.taxi|fmovies.world|fmovieson.com|fullmatchesandshows.com|getlink.pro|gifsis.com|gomovies.sc|gomovieshub.is|gostreams.net|hdmoza.com|hdonline.is|healthline.com|intoupload.net|kickass2.ch|kickass2.st|kimcartoon.to|kissasian.sh|latestsocial.com|limetorrents.info|masterkreatif.com|megaup.net|monova.org|monova.to|movies.is|movies123.xyz|moviescouch.co|moviewatcher.is|mrunlock.icu|mrunlock.pro|narutoget.io|newser.com|nocensor.icu|nocensor.pro|nowwatchtvlive.ws|nutritioninsight.com|onhax.me|openload.co|openload.pw|openloadmovies.bz|otakustream.tv|peggo.tv|piknu.com|pirateiro.com|postimg.cc|prox4you.info|prox4you.pw|prox4you.xyz|putlocker.fyi|putlocker.ninja|putlocker.style|putlockers.movie|queenfaucet.website|readcomiconline.to|seedpeer.me|sendit.cloud|sendspace.com|series9.to|skidrowcrack.com|stream2watch.ws|swatchseries.to|tinypic.com|torlock.com|torrentdownload.ch|torrentdownloads.me|torrentfunk.com|torrentfunk2.com|torrentz2.eu|tubidy.io|uiz.io|unblockall.org|unblocked.app|unblocked.cx|unblocked.is|unblocked.llc|unblocked.lol|unblocked.pet|unblocked.si|unlockproject.icu|unlockproject.live|up-load.io|upload.ac|uploadproper.net|uptobox.com|userscloud.com|ustreamix.com|ustreamyx.com|vidbull.tv|vidlox.me|vidoza.co|vidoza.net|vidtomp3.com|vidup.io|watchcartoononline.io|watchsomuch.info|x1337x.eu|x1337x.se|x1337x.ws|y2mate.com|yesmovies.to|yify-movies.net|yifyddl.movie|ymovies.tv|yourbittorrent2.com|zippyshare.com
+/^https?:\/\/.*\/.*sw[0-9a-z(.|_)].*/$script,xmlhttprequest,domain=123movies.com|123unblock.info|123unblock.xyz|1337x.st|1337x.to|1movies.is|adsrt.com|ancient-origins.net|anitube.cz|aniwatcher.com|bayfiles.com|c123movies.com|clicknupload.org|cloudvideo.tv|downace.com|downloadpirate.com|estream.to|estream.xyz|eztv.io|eztv.tf|eztv.yt|ffmovies.ru|filmlinks4u.is|flvto.biz|fmovies.taxi|fmovies.world|fmovieson.com|fullmatchesandshows.com|getlink.pro|gifsis.com|gomovies.sc|gomovieshub.is|gostreams.net|hdmoza.com|hdonline.is|healthline.com|indishare.org|intoupload.net|kickass2.ch|kickass2.st|kimcartoon.to|kissasian.sh|latestsocial.com|limetorrents.info|masterkreatif.com|megaup.net|monova.org|monova.to|movies.is|movies123.xyz|moviescouch.co|moviewatcher.is|mrunlock.icu|mrunlock.pro|narutoget.io|newser.com|nocensor.icu|nocensor.pro|nowwatchtvlive.ws|nutritioninsight.com|onhax.me|openload.co|openload.pw|openloadmovies.bz|otakustream.tv|peggo.tv|piknu.com|pirateiro.com|postimg.cc|prox4you.info|prox4you.pw|prox4you.xyz|putlocker.fyi|putlocker.ninja|putlocker.style|putlockers.movie|queenfaucet.website|readcomiconline.to|seedpeer.me|sendit.cloud|sendspace.com|series9.to|skidrowcrack.com|stream2watch.ws|swatchseries.to|tinypic.com|torlock.com|torrentdownload.ch|torrentdownloads.me|torrentfunk.com|torrentfunk2.com|torrentz2.eu|tubidy.io|uiz.io|unblockall.org|unblocked.app|unblocked.cx|unblocked.is|unblocked.llc|unblocked.lol|unblocked.pet|unblocked.si|unlockproject.icu|unlockproject.live|up-load.io|upload.ac|uploadproper.net|uptobox.com|userscloud.com|ustreamix.com|ustreamyx.com|vidbull.tv|vidlox.me|vidoza.co|vidoza.net|vidtomp3.com|vidup.io|watchcartoononline.io|watchsomuch.info|x1337x.eu|x1337x.se|x1337x.ws|y2mate.com|yesmovies.to|yify-movies.net|yifyddl.movie|ymovies.tv|yourbittorrent2.com|zippyshare.com
 ! Openload
 /^((?!(^https?):\/\/(ajax\.googleapis\.com|cdnjs\.cloudflare\.com|fonts\.googleapis\.com)\/).*)$/$script,third-party,domain=oladblock.me|oladblock.services|oladblock.xyz|oload.cc|oload.cloud|oload.club|oload.download|oload.fun|oload.info|oload.live|oload.press|oload.services|oload.site|oload.space|oload.stream|oload.tv|oload.win|olpair.com|openload.cc|openload.co|openload.fun|openload.pw|openloed.co
 ! yourdailypornstars.com
@@ -76307,10 +76322,11 @@ $webrtc,domain=ibit.to
 @@||disquscdn.com^$domain=otakustream.tv
 @@||fembed.com^$domain=otakustream.tv
 ! vidotodo
-@@||google.com/recaptcha/$script,subdocument,domain=playvidto.com|vidtodo.com|vidtoro.com
-@@||vidtodo.com^$image,script,domain=playvidto.com|vidotodo.com|vidtoro.com
-|http://$image,script,subdocument,third-party,domain=playvidto.com|vidotodo.com|vidtoro.com
-|https://$image,script,subdocument,third-party,domain=playvidto.com|vidotodo.com|vidtoro.com
+@@||fonts.googleapis.com^$stylesheet,domain=playedvid.com|playvidto.com|vidotodo.com|vidtoro.com
+@@||google.com/recaptcha/$script,subdocument,domain=playedvid.com|playvidto.com|vidtodo.com|vidtoro.com
+@@||vidtodo.com^$image,script,domain=playedvid.com|playvidto.com|vidotodo.com|vidtoro.com
+|http://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=playedvid.com|playvidto.com|vidotodo.com|vidtoro.com
+|https://$image,script,styleshet,subdocument,third-party,xmlhttprequest,domain=playedvid.com|playvidto.com|vidotodo.com|vidtoro.com
 ! tamilrockerss.ch
 @@||google.com/complete/search?$script,domain=tamilrockerss.ch
 @@||google.com/cse$script,domain=tamilrockerss.ch
@@ -91048,6 +91064,7 @@ pornhub.com,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width
 @@||freeride.se/img/admarket/$~third-party
 @@||fwmrm.net/ad/g/$script,domain=viafree.se
 @@||fwmrm.net^*/LinkTag2.js$domain=viafree.se
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=klix.ba
 @@||kanalfrederikshavn.dk^*/jquery.openx.js?
 @@||koshien-live.net/99/adtag.xml$domain=sportsbull.jp
 @@||krotoszyn.pl/uploads/pub/ads_files/$image,~third-party
