@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 0p+aTet3FUuqN4ZgN3RIvw
-! Version: 201911090121
+! Checksum: P0ZzYQDWRJGvU6UGZ6Mw+Q
+! Version: 201911100831
 ! Title: EasyPrivacy
-! Last modified: 09 Nov 2019 01:21 UTC
+! Last modified: 10 Nov 2019 08:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -579,7 +579,6 @@
 /analys/dep/*
 /analyse.js
 /analysis-logger/*
-/analysis.js
 /analysis/ga_
 /analysis/gtm_
 /analysis?t=
@@ -1337,6 +1336,7 @@
 /countbk.
 /CountContent?
 /counter-js.php
+/counter.*&referer=
 /Counter.ashx?
 /counter.asp?
 /counter.aspx?
@@ -6007,7 +6007,6 @@ _mongo_stats/
 ||getdrip.com^$third-party
 ||getetafun.info^$third-party
 ||getfreebl.com^$third-party
-||getrewardful.com^$third-party
 ||getrockerbox.com^$third-party
 ||getsmartcontent.com^$third-party
 ||getsmartlook.com^$third-party
@@ -8334,6 +8333,7 @@ _mongo_stats/
 ||absurdapple.com^$third-party
 ||acridtwist.com^$third-party
 ||aheadday.com^$third-party
+||allowmailbox.com^$third-party
 ||anxiousapples.com^$third-party
 ||automaticside.com^$third-party
 ||awzbijw.com^$third-party
@@ -8342,12 +8342,15 @@ _mongo_stats/
 ||bh8yx.xyz^$third-party
 ||broadcastbed.com^$third-party
 ||broaddoor.com^$third-party
+||burnbubble.com^$third-party
+||butterbulb.com^$third-party
 ||butterburst.com^$third-party
 ||cannontwin.com^$third-party
 ||capsquirrel.com^$third-party
 ||caringzinc.com^$third-party
 ||carscannon.com^$third-party
 ||cloisteredcord.com^$third-party
+||colorfulafterthought.com^$third-party
 ||conditioncrush.com^$third-party
 ||consciouscabbage.com^$third-party
 ||consciouschairs.com^$third-party
@@ -8376,6 +8379,7 @@ _mongo_stats/
 ||giraffepiano.com^$third-party
 ||gorgeousground.com^$third-party
 ||greyinstrument.com^$third-party
+||gulliblecamp.com^$third-party
 ||hammerhearing.com^$third-party
 ||hilariouszinc.com^$third-party
 ||horsenectar.com^$third-party
@@ -8383,6 +8387,7 @@ _mongo_stats/
 ||inquisitiveinvention.com^$third-party
 ||intelligentscissors.com^$third-party
 ||jadeitite.com^$third-party
+||jamexistence.com^$third-party
 ||jewelcheese.com^$third-party
 ||lamplow.com^$third-party
 ||leaplunchroom.com^$third-party
@@ -8403,11 +8408,14 @@ _mongo_stats/
 ||pietexture.com^$third-party
 ||profusesupport.com^$third-party
 ||puffyloss.com^$third-party
+||puffypull.com^$third-party
 ||quaintcan.com^$third-party
 ||quietknowledge.com^$third-party
 ||raresummer.com^$third-party
 ||richstring.com^$third-party
+||ringplayground.com^$third-party
 ||ritzykey.com^$third-party
+||roofrelation.com^$third-party
 ||scintillatingspace.com^$third-party
 ||scrubswim.com^$third-party
 ||selectivesummer.com^$third-party
@@ -8431,6 +8439,7 @@ _mongo_stats/
 ||storesurprise.com^$third-party
 ||stormyachiever.com^$third-party
 ||strivesidewalk.com^$third-party
+||stupendoussleet.com^$third-party
 ||suddensidewalk.com^$third-party
 ||sugarcurtain.com^$third-party
 ||tendertest.com^$third-party
@@ -11621,6 +11630,7 @@ _mongo_stats/
 ||video-cdn.net/event?
 ||video.google.com/api/stats/
 ||video.msn.com/report.aspx?
+||videoevents.outbrain.com^
 ||videoly.co^*/event/
 ||videopress.com/plugins/stats/
 ||viglink.com/api/ping$third-party
@@ -13004,6 +13014,7 @@ _mongo_stats/
 ||cmp.cmo.com.au^
 ||cmp.computerworld.com.au^
 ||cmp.cso.com.au^
+||cmp.csoonline.com^
 ||cmp.digitalartsonline.co.uk^
 ||cmp.greenbot.com^
 ||cmp.macworld.co.uk^
@@ -14882,6 +14893,8 @@ _mongo_stats/
 ||tscapeplay.com/msvp.php?
 ||tscapeplay.com/pvim?
 ||tsn.ua/svc/video/stat/
+||ttauri.tomsguide.com^
+||ttauri.tomshardware.com^
 ||ttxm.co.uk^*/log.js
 ||tubeplus.me/geoip.php?
 ||tubepornclassic.com/js/111.js
@@ -15170,7 +15183,6 @@ _mongo_stats/
 ||youtube-nocookie.com/robots.txt?
 ||youtube.com/api/stats/ads?
 ||youtube.com/api/stats/delayplay?
-||youtube.com/api/stats/playback?$image
 ||youtube.com/api/stats/qoe?
 ||youtube.com/get_video?
 ||youtube.com/ptracking?
@@ -16403,7 +16415,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@/wp-content/mu-plugins/google-analytics-premium/*$script,stylesheet,~third-party
 @@/wp-content/plugins/google-analytics-for-wordpress/*$script,stylesheet,~third-party
 @@/wp-content/plugins/google-analytics-premium/*$script,stylesheet,~third-party
-@@||2700chess.com/js/analysis.js
 @@||ad.crwdcntrl.net^$script,domain=investopedia.com
 @@||adblockanalytics.com/ads.js|
 @@||addgene.org/headers/blat/js/analyze.js
@@ -16489,6 +16500,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ensighten.com^*/serverComponent.php?$script
 @@||eplayerhtml5.performgroup.com/js/tsEplayerHtml5/js/Eplayer/js/quantcast/$script
 @@||events-collector.spot.im/api/$domain=foxbusiness.com|foxnews.com
+@@||evestment.com/api/analytics/$domain=evestment.com
 @@||fastway.co.nz/Umbraco/Api/Tracking/
 @@||fccbrea.org^*/swfaddress.js
 @@||fifa.com^*/webanalytics.js?
@@ -16639,6 +16651,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||validate.onecount.net/js/all.min.js$script,domain=foreignpolicy.com
 @@||validate.onecount.net/onecount/api/public/$script,domain=foreignpolicy.com
 @@||vast.com/vimpressions.js$domain=everycarlisted.com
+@@||vice.com^*/AdobeAnalyticsSDK.min.js
 @@||vidible.tv^*/ComScore.StreamSense.js
 @@||vidible.tv^*/ComScore.Viewability.js
 @@||vodafone.com.au/analytics/js/$script
@@ -16651,6 +16664,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||wp.com^*/google-analytics-for-wordpress/$domain=wordpress.org
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||yandex.ru/metrika/watch.js$domain=engwords.net
+@@||yimg.com/ss/rapid3.js$script,domain=techcrunch.com
 @@||yimg.com^*/ywa.js$domain=nydailynews.com|travelscream.com|yahoo.com
 @@||yottaa.net^*/scripts/eventtracking/$script,domain=containerstore.com
 @@||youbora.com/*/js/adapters/jwplayer$script
@@ -16877,6 +16891,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||fastwhitecat.com/wp-content/plugins/duracelltomi-google-tag-manager/$script,domain=fastwhitecat.com
 @@||gemius.pl/gstream.js
 @@||gminazamosc.pl/wp-content/plugins/wp-google-analytics-events/js/ga-scroll-events.js?
+@@||hdtvpolska.com/wp-content/plugins/wpdiscuz/assets/third-party/wpdcookiejs/customcookie.js
 @@||kropka.onet.pl^*/onet.js$domain=tvnwarszawa.pl
 @@||login.ingbank.pl^*/satelliteLib-$script
 @@||ninja.onap.io/ninja-cee.js$domain=olx.pl
@@ -16928,6 +16943,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||swa.mail.ru/cgi-bin/counters?$script
 @@||wargag.ru/public/js/counter.js?
 @@||widget.myrentacar.me^$script,subdocument
+@@||xtool.ru/js/analyze.js$script,domain=xtool.ru
 @@||yandex.ru/metrika/watch.js$domain=alean.ru|anoncer.net|nabortu.ru|tv.yandex.ru|tvrain.ru
 @@||yandex.ru/watch/$xmlhttprequest,domain=anoncer.net
 @@||yandex.ru/webvisor/$xmlhttprequest,domain=anoncer.net

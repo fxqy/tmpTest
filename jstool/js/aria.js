@@ -366,10 +366,10 @@ function refreshLs(){
 					else spd+="K/s";
 					var pct=(itn.completedLength*100/itn.totalLength).toFixed(2);
 					var szt=Math.round(itn.totalLength/1024);
-					if(szt>1024)szt=(itn.totalLength/1048576).toFixed(2)+"M";
+					if(szt>1024)szt=(itn.totalLength/1048576).toFixed(1)+"M";
 					else szt+="K";
 					var szc=Math.round(itn.completedLength/1024);
-					if(szc>1024)szc=(itn.completedLength/1048576).toFixed(2)+"M";
+					if(szc>1024)szc=(itn.completedLength/1048576).toFixed(1)+"M";
 					else szc+="K";
 					arr.push({
 						gid:itn.gid,

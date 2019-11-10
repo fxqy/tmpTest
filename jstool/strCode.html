@@ -28,7 +28,8 @@
 		console.log(strCharactCode("Password123456123",0));
 		console.log(strCharactCode("password123456123",0));
 	
-		console.log(new Date(numVal("Rh80hrO")).toLocaleString());
+		console.log(new Date(numVal("RhNnrnb")).toLocaleString());
+
 	}
 	
 	function ecpt(s,p){
@@ -77,23 +78,45 @@
 	}
 	
 	function strCharact(s,i){
-	    if(i<s.length)return Math.abs(s.charCodeAt(i)*(i+1)-s.charCodeAt(s.length-i-1))*Math.pow(64,i)+strCharact(s,i+1);
+	    if(i<s.length)return Math.abs(s.charCodeAt(i)*(i+1)-s.charCodeAt(s.length-i-1))*Math.pow(16,i)+strCharact(s,i+1);
 		return 0;
 	}
 	function strCharactCode(s){
-	    var r=charVal(strCharact(s,0));
+	    var r=charVal(strCharactA(s,0));
 		return r.split("").reverse().join("");
 	}
 	
 	function strCharactA(s,i){
 		var j=s.length-i-1;
-	    if(i<s.length)return (s.charCodeAt(i)+s.charCodeAt(j))*Math.pow(64,j)+strCharactA(s,i+1);
+	    if(i<s.length)return (s.charCodeAt(i)+s.charCodeAt(j))*Math.pow(16,j)+strCharactA(s,i+1);
 		return 0;
 	}
 	//parseInt(i/10%2)==0?i+1:i-1
 	function testA(){
-		
+        var str="";
+        for(var i=0;i<20;i++){
+            str+=(i>0?"\n":"")+getRdmMac();
+        }
+        console.log(str);
 	}
+    
+    function getRdmMac(sep){
+        var adrArray = [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F" ];
+        var adrStr = "";
+        for(var i=0;i<12;i++){
+           var indx;
+           if(i!=1){
+               indx=parseInt(Math.random()*16);
+           }else{
+               var sarr=[ 0, 2, 4, 6, 8, 10, 12, 14 ];
+               indx=sarr[parseInt(Math.random()*8)]; 
+           }
+           if(i>0&&i%2==0)adrStr+=sep?sep:"-";
+           adrStr+=adrArray[indx];
+        }
+        return adrStr
+    }
+
 	/**
 	public static String charVal(double o){
     	double a = Math.floor(o/62);
