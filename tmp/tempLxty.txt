@@ -17,7 +17,7 @@ tasklist|findstr "4984"
 
 ------------------------------Java 替换------------------------------
 
-(.*private String )|(.*private Integer )|(.*private TimeStamp )|(.*private Boolean )|(.*private Blob )
+(.*private String )|(.*private Integer )|(.*private Long )|(.*private TimeStamp )|(.*private Boolean )|(.*private Blob )
 
 @Column\([^()]+\)\r\n
 

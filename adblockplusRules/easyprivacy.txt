@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: WgFpLVw9UdZA3X8PGh+beQ
-! Version: 201911110951
+! Checksum: 3tSo/CJrWtM+Z9X8MUIOCw
+! Version: 201911130901
 ! Title: EasyPrivacy
-! Last modified: 11 Nov 2019 09:51 UTC
+! Last modified: 13 Nov 2019 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5495,7 +5495,6 @@ _mongo_stats/
 ||celebrus.com^$third-party
 ||center.io^$third-party
 ||centraltag.com^$third-party
-||ceros.com^$third-party
 ||cetrk.com^$third-party
 ||cformanalytics.com^$third-party
 ||cftrack.com^$third-party
@@ -5742,6 +5741,8 @@ _mongo_stats/
 ||dmtry.com^$third-party
 ||dmxleo.com^$third-party
 ||doclix.com^$third-party
+||dojomojo.com^$third-party
+||dojomojo.ninja^$third-party
 ||dominocounter.net^$third-party
 ||domodomain.com^$third-party
 ||dotomi.com^$third-party
@@ -5813,6 +5814,7 @@ _mongo_stats/
 ||enectoanalytics.com^$third-party
 ||engageclick.com^$third-party
 ||engagemaster.com^$third-party
+||engagetosell.com^$third-party
 ||engagio.com^$third-party
 ||engine212.com^$third-party
 ||engine64.com^$third-party
@@ -7638,6 +7640,7 @@ _mongo_stats/
 ||xxxcounter.com^$third-party
 ||xyztraffic.com^$third-party
 ||y-track.com^$third-party
+||ya-counter.ru^$third-party
 ||yamanoha.com^$third-party
 ||yandex-metrica.ru^$third-party
 ||yaudience.com^$third-party
@@ -10891,6 +10894,7 @@ _mongo_stats/
 ||optimera.elasticbeanstalk.com^
 ||optimizely.appspot.com^$third-party
 ||ora.tv/j/ora_evttracking.js
+||orb.ee/collect
 ||orts.wixawin.com^$third-party
 ||outbrain.com^*/widgetStatistics.js
 ||p.adbrn.com^
@@ -16533,7 +16537,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||hmhco.com/one/js/conf/trackjs.config.$script,~third-party,xmlhttprequest
 @@||ibispaint.com/js/googleAnalytics.js
 @@||ibm.com/software/reports/compatibility/clarity-reports/js/$script,~third-party
-@@||imrworldwide.com/novms/*/gg*.js$domain=9now.com.au|adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|espn.com|europafm.com|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|news-mail.com.au|news.com.au|noosanews.com.au|ntnews.com.au|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|townsvillebulletin.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
+@@||imrworldwide.com/novms/*/gg*.js$domain=9now.com.au|adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|espn.com|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|news-mail.com.au|news.com.au|noosanews.com.au|ntnews.com.au|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|townsvillebulletin.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
 @@||imrworldwide.com/v60.js$domain=adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|last.fm|musicfeeds.com.au|news-mail.com.au|noosanews.com.au|ntnews.com.au|nzherald.co.nz|realestateview.com.au|sf.se|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|threenow.co.nz|townsvillebulletin.com.au|weatherchannel.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
 @@||infowars.com/videojs-event-tracking/dist/videojs-event-tracking.js
 @@||infra.lync.com/Scheduler/Scripts/aria-web-telemetry-$script,~third-party
@@ -16552,6 +16556,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||legendstracking.com/js/legends-tracking.js
 @@||lexus.com/lexus-share/js/tracking_omn/$xmlhttprequest
 @@||lightningmaps.org^*/piwik.js
+@@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
 @@||logging.apache.org^$domain=apache.org
 @@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
@@ -16932,6 +16937,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||itv.1tv.ru/stat.php?
 @@||k12-company.ru^*/statistics.js$script
 @@||labrc.pw/advstats/$xmlhttprequest
+@@||leroymerlin.ru/config/analytics.js$script
 @@||matchid.adfox.yandex.ru/?url=$script,domain=ctc.ru
 @@||megafon.ru/static/?files=*/tealeaf.js
 @@||mts.ru/app/vendor/angular-google-analytics.min.js

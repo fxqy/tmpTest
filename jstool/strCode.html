@@ -23,8 +23,8 @@
 		console.log(estr);
 		console.log(dcpt(estr,"testPassword"));
 		
-		console.log(strCharactCode("Password123456111",0));
-		console.log(strCharactCode("Password123456122",0));
+		console.log(strCharactCode("Password123456111134561111111111111345611111345611111345611111111111134561113456111111113456111111134561111111111113456113456111111111111111113456111111111111111134561111345611111111111113456111111111111345611111345611111111111134561111111111111134561111111111113456111111111111111111345611111111111111111111111113456111111111111111111111345611111111111111111111111aaaaaaaaaaaaaaaaaa",0));
+		console.log(strCharactCode("Password12345612222222222222222222222222222222222222222222222222222222222222222222222222222222222222bbbbbbbbbbbbbbbbbbb",0));
 		console.log(strCharactCode("Password123456123",0));
 		console.log(strCharactCode("password123456123",0));
 	
@@ -76,20 +76,19 @@
 		if(s.length<l)return pfxChar("0"+s,l);
 		return s;
 	}
-	
 	function strCharact(s,i){
-	    if(i<s.length)return Math.abs(s.charCodeAt(i)*(i+1)-s.charCodeAt(s.length-i-1))*Math.pow(16,i)+strCharact(s,i+1);
+		var j=i%17;
+	    if(i<s.length)return (s.charCodeAt(i)+s.charCodeAt(s.length-i-1))*Math.pow(62,j>0?j:19)+strCharact(s,i+1);
 		return 0;
 	}
 	function strCharactCode(s){
 	    var r=charVal(strCharactA(s,0));
 		return r.split("").reverse().join("");
 	}
-	
 	function strCharactA(s,i){
-		var j=s.length-i-1;
-	    if(i<s.length)return (s.charCodeAt(i)+s.charCodeAt(j))*Math.pow(16,j)+strCharactA(s,i+1);
-		return 0;
+		var j=i%17;
+	    if(i<s.length)return s.charCodeAt(i)*Math.pow(62,j>0?j:19)+strCharactA(s,i+1)+i;
+		return s.length;
 	}
 	//parseInt(i/10%2)==0?i+1:i-1
 	function testA(){
@@ -97,7 +96,8 @@
         for(var i=0;i<20;i++){
             str+=(i>0?"\n":"")+getRdmMac();
         }
-        console.log(str);
+        //console.log(str);
+		
 	}
     
     function getRdmMac(sep){
@@ -116,7 +116,16 @@
         }
         return adrStr
     }
-
+	function randomCode(len,f){
+		if(len<1)return "";
+		var a=f?f-1:parseInt(Math.random()*3);
+		var b=[48,65,97,58,91,123];
+		var c=parseInt(Math.random()*(b[a+3]-b[a]));
+		return String.fromCharCode(b[a]+c)+randomCode(len-1);
+	}
+	function randomOrderCode(len,f){
+		return charVal(new Date().getTime())+randomCode(len,f);
+	}
 	/**
 	public static String charVal(double o){
     	double a = Math.floor(o/62);
