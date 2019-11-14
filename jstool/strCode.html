@@ -29,11 +29,11 @@
 			console.log(strCharactCode("Password12345612222222222222222222222222222222222222222222222222222222222222222222222222222222222222bbbbbbbbbbbbbbbbbbb",0));
 			console.log(strCharactCode("Password123456123",0));
 			console.log(strCharactCode("password123456123",0));
-			console.log(new Date(numVal("RhmZyE9")).toLocaleString());
+			console.log(new Date(numVal("RhnntWe")).toLocaleString());
 		}
 		
-		function ecpt(s,p){
-			var fxn=3;
+		function ecpt(s,p,n){
+            var fxn=n?n:3;
 			var len=s.length;
 			p=p?strCharactCode(p):p;
 			var r="";
@@ -44,8 +44,8 @@
 			}
 			return r;
 		}
-		function dcpt(s,p){
-			var fxn=3;
+		function dcpt(s,p,n){
+            var fxn=n?n:3;
 			var len=s.length;
 			p=p?strCharactCode(p):p;
 			var r="";
