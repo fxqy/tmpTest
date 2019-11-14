@@ -1,161 +1,161 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>test</title>
-</head>
-<body>
+	<head>
+		<meta charset="utf-8">
+		<title>test</title>
+		<script type="text/javascript" src="./js/sha256.js"></script>
+		<script type="text/javascript" src="./js/md5.js"></script>
+	</head>
+	<body>
 
-<p id="demo">点击按钮获取</p>
-<button onclick="myFunction()">点我</button>
-<script>
-	window.onload=function(){
-	    testA();
-	}
-	
-	function myFunction(){
-		var d = new Date();
-		var x = document.getElementById("demo");
-		var cvl=charVal(d.getTime());
-		x.innerHTML=d.getTime()+", "+cvl+", "+numVal("0000"+cvl);
-        
-		var estr=ecpt("{{hello world!的方法士大夫%%发挥更好发挥。，“‘}}","testPassword");
-		console.log(estr);
-		console.log(dcpt(estr,"testPassword"));
+	<p id="demo">点击按钮获取</p>
+	<button onclick="myFunction()">点我</button>
+	<script>
+		window.onload=function(){
+			testA();
+		}
 		
-		console.log(strCharactCode("Password123456111134561111111111111345611111345611111345611111111111134561113456111111113456111111134561111111111113456113456111111111111111113456111111111111111134561111345611111111111113456111111111111345611111345611111111111134561111111111111134561111111111113456111111111111111111345611111111111111111111111113456111111111111111111111345611111111111111111111111aaaaaaaaaaaaaaaaaa",0));
-		console.log(strCharactCode("Password12345612222222222222222222222222222222222222222222222222222222222222222222222222222222222222bbbbbbbbbbbbbbbbbbb",0));
-		console.log(strCharactCode("Password123456123",0));
-		console.log(strCharactCode("password123456123",0));
-	
-		console.log(new Date(numVal("RhNnrnb")).toLocaleString());
-
-	}
-	
-	function ecpt(s,p){
-		var fxn=3;
-	    var len=s.length;
-		p=p?strCharactCode(p):p;
-		var r="";
-	    for(var i=0,j=0;i<len;i++,j++){
-			if(p&&j==p.length)j=0;
-	        var itm=s.charCodeAt(i)+(p?p.charCodeAt(j):0);
-	        r+=pfxChar(charVal(itm),fxn);
-	    }
-		return r;
-	}
-	function dcpt(s,p){
-		var fxn=3;
-		var len=s.length;
-		p=p?strCharactCode(p):p;
-		var r="";
-	    for(var i=0,j=0;i<len;i+=fxn,j++){
-			if(p&&j==p.length)j=0;
-	        var itm=s.substring(i,i+fxn);
-	        r+=String.fromCharCode(numVal(itm)-(p?p.charCodeAt(j):0));
-	    }
-		return r;
-	}
-	function charVal(o){
-		var a = Math.floor(o/62);
-		var b = o%62;
-		var c = String.fromCharCode(b<10?b+48:(b>35?b+61:b+55));
-		var r = "";
-		if (a > 0)
-			r=charVal(a);
-		return r + c;
-	}
-	function numVal(s,t){
-		if(!t)t=0;
-		if(t>s.length-1)return 0;
-		var a=s.charCodeAt(s.length-t-1);
-		var b=a<65?a-48:(a<97?a-55:a-61);
-		return b*Math.pow(62,t)+numVal(s,t+1);
-	}
-	function pfxChar(s,l){
-		if(s.length<l)return pfxChar("0"+s,l);
-		return s;
-	}
-	function strCharact(s,i){
-		var j=i%17;
-	    if(i<s.length)return (s.charCodeAt(i)+s.charCodeAt(s.length-i-1))*Math.pow(62,j>0?j:19)+strCharact(s,i+1);
-		return 0;
-	}
-	function strCharactCode(s){
-	    var r=charVal(strCharactA(s,0));
-		return r.split("").reverse().join("");
-	}
-	function strCharactA(s,i){
-		var j=i%17;
-	    if(i<s.length)return s.charCodeAt(i)*Math.pow(62,j>0?j:19)+strCharactA(s,i+1)+i;
-		return s.length;
-	}
-	//parseInt(i/10%2)==0?i+1:i-1
-	function testA(){
-        var str="";
-        for(var i=0;i<20;i++){
-            str+=(i>0?"\n":"")+getRdmMac();
-        }
-        //console.log(str);
+		function myFunction(){
+			var d = new Date();
+			var x = document.getElementById("demo");
+			var cvl=charVal(d.getTime());
+			x.innerHTML=d.getTime()+", "+cvl+", "+numVal("0000"+cvl);
+			
+			var estr=ecpt("{{hello world!的方法士大夫%%发挥更好发挥。，“‘}}","testPassword");
+			console.log(estr);
+			console.log(dcpt(estr,"testPassword"));
+			
+			console.log(strCharactCode("Password123456111134561111111111111345611111345611111345611111111111134561113456111111113456111111134561111111111113456113456111111111111111113456111111111111111134561111345611111111111113456111111111111345611111345611111111111134561111111111111134561111111111113456111111111111111111345611111111111111111111111113456111111111111111111111345611111111111111111111111aaaaaaaaaaaaaaaaaa",0));
+			console.log(strCharactCode("Password12345612222222222222222222222222222222222222222222222222222222222222222222222222222222222222bbbbbbbbbbbbbbbbbbb",0));
+			console.log(strCharactCode("Password123456123",0));
+			console.log(strCharactCode("password123456123",0));
+			console.log(new Date(numVal("RhmZyE9")).toLocaleString());
+		}
 		
-	}
-    
-    function getRdmMac(sep){
-        var adrArray = [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F" ];
-        var adrStr = "";
-        for(var i=0;i<12;i++){
-           var indx;
-           if(i!=1){
-               indx=parseInt(Math.random()*16);
-           }else{
-               var sarr=[ 0, 2, 4, 6, 8, 10, 12, 14 ];
-               indx=sarr[parseInt(Math.random()*8)]; 
-           }
-           if(i>0&&i%2==0)adrStr+=sep?sep:"-";
-           adrStr+=adrArray[indx];
-        }
-        return adrStr
-    }
-	function randomCode(len,f){
-		if(len<1)return "";
-		var a=f?f-1:parseInt(Math.random()*3);
-		var b=[48,65,97,58,91,123];
-		var c=parseInt(Math.random()*(b[a+3]-b[a]));
-		return String.fromCharCode(b[a]+c)+randomCode(len-1);
-	}
-	function randomOrderCode(len,f){
-		return charVal(new Date().getTime())+randomCode(len,f);
-	}
-	/**
-	public static String charVal(double o){
-    	double a = Math.floor(o/62);
-    	int b = (int)Math.floor(o%62);
-    	char ch=(char)(b<10?b+48:(b>35?b+61:b+55));
-    	char[] chs=new char[]{ch};
-    	String c = new String(chs);
-    	String r = "";
-    	if (a > 0)
-    		r=charVal(a);
-    	return r + c;
-    }
-    
-	public static double numVal(String s,int t){
-		if(t>s.length()-1)return 0;
-		int a=s.charAt(s.length()-t-1);
-		int b=a<65?a-48:(a<97?a-55:a-61);
-		return b*Math.pow(62,t)+numVal(s,t+1);
-	}
-    
-    public static void main(String[] args) {
-    	java.util.Date dt = new java.util.Date();
-    	System.out.println(dt.getTime());
-    	String s = charVal(dt.getTime());
-    	System.out.println(s);
-    	double n = numVal(s,0);
-    	System.out.println(new DecimalFormat("#").format(n));
-	}
-	**/
-</script>
+		function ecpt(s,p){
+			var fxn=3;
+			var len=s.length;
+			p=p?strCharactCode(p):p;
+			var r="";
+			for(var i=0,j=0;i<len;i++,j++){
+				if(p&&j==p.length)j=0;
+				var itm=s.charCodeAt(i)+(p?p.charCodeAt(j):0);
+				r+=pfxChar(charVal(itm),fxn);
+			}
+			return r;
+		}
+		function dcpt(s,p){
+			var fxn=3;
+			var len=s.length;
+			p=p?strCharactCode(p):p;
+			var r="";
+			for(var i=0,j=0;i<len;i+=fxn,j++){
+				if(p&&j==p.length)j=0;
+				var itm=s.substring(i,i+fxn);
+				r+=String.fromCharCode(numVal(itm)-(p?p.charCodeAt(j):0));
+			}
+			return r;
+		}
+		function charVal(o){
+			var a = Math.floor(o/62);
+			var b = o%62;
+			var c = String.fromCharCode(b<10?b+48:(b>35?b+61:b+55));
+			var r = "";
+			if (a > 0)
+				r=charVal(a);
+			return r + c;
+		}
+		function numVal(s,t){
+			if(!t)t=0;
+			if(t>s.length-1)return 0;
+			var a=s.charCodeAt(s.length-t-1);
+			var b=a<65?a-48:(a<97?a-55:a-61);
+			return b*Math.pow(62,t)+numVal(s,t+1);
+		}
+		function pfxChar(s,l){
+			if(s.length<l)return pfxChar("0"+s,l);
+			return s;
+		}
+		function strCharact(s,i){
+			var j=i%17;
+			if(i<s.length)return s.charCodeAt(i)*Math.pow(62,j>0?j:19)+strCharact(s,i+1)+i;
+			return s.length;
+		}
+		function strCharactCode(s){
+			var r=charVal(strCharact(s,0));
+			return r.split("").reverse().join("");
+		}
+		function strCharactA(s,i){
+			var j=i%17;
+			if(i<s.length)return (s.charCodeAt(i)^s.charCodeAt(s.length-i-1))*Math.pow(62,j>0?j:19)+strCharactA(s,i+1)+i;
+			return s.length;
+		}
+		//parseInt(i/10%2)==0?i+1:i-1
+		function testA(){
+			var str="";
+			for(var i=0;i<20;i++){
+				str+=(i>0?"\n":"")+getRdmMac();
+			}
+			console.log(str);
+			
+		}
+		
+		function getRdmMac(sep){
+			var adrArray = [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F" ];
+			var adrStr = "";
+			for(var i=0;i<12;i++){
+			   var indx;
+			   if(i!=1){
+				   indx=parseInt(Math.random()*16);
+			   }else{
+				   var sarr=[ 0, 2, 4, 6, 8, 10, 12, 14 ];
+				   indx=sarr[parseInt(Math.random()*8)]; 
+			   }
+			   if(i>0&&i%2==0)adrStr+=sep?sep:"-";
+			   adrStr+=adrArray[indx];
+			}
+			return adrStr
+		}
+		function randomCode(len,f){
+			if(len<1)return "";
+			var a=f?f-1:parseInt(Math.random()*3);
+			var b=[48,65,97,58,91,123];
+			var c=parseInt(Math.random()*(b[a+3]-b[a]));
+			return String.fromCharCode(b[a]+c)+randomCode(len-1);
+		}
+		function randomOrderCode(len,f){
+			return charVal(new Date().getTime())+randomCode(len,f);
+		}
+		/**
+		public static String charVal(double o){
+			double a = Math.floor(o/62);
+			int b = (int)Math.floor(o%62);
+			char ch=(char)(b<10?b+48:(b>35?b+61:b+55));
+			char[] chs=new char[]{ch};
+			String c = new String(chs);
+			String r = "";
+			if (a > 0)
+				r=charVal(a);
+			return r + c;
+		}
+		
+		public static double numVal(String s,int t){
+			if(t>s.length()-1)return 0;
+			int a=s.charAt(s.length()-t-1);
+			int b=a<65?a-48:(a<97?a-55:a-61);
+			return b*Math.pow(62,t)+numVal(s,t+1);
+		}
+		
+		public static void main(String[] args) {
+			java.util.Date dt = new java.util.Date();
+			System.out.println(dt.getTime());
+			String s = charVal(dt.getTime());
+			System.out.println(s);
+			double n = numVal(s,0);
+			System.out.println(new DecimalFormat("#").format(n));
+		}
+		**/
+	</script>
 
-</body>
+	</body>
 </html>
