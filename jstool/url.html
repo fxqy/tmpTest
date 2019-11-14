@@ -275,6 +275,8 @@
 		opacity:0.8;
 	}
 	</style>
+	<script type="text/javascript" src="./js/md5.js"></script>
+	<script type="text/javascript" src="./js/sha256.js"></script>
 	<script type="text/javascript" src="./js/tools.js"></script>
 	<script type="text/javascript" src="./js/url.js"></script>
 </head>
@@ -286,8 +288,8 @@
 					<td>
 						<div id="tabtit1" class="mtabb mtab_tit">URL Escape/UnEscape</div>
 						<div id="tabtit2" class="mtabb mtab_titgry">str encrypt/decrypt</div>
-						<div id="tabtit3" class="mtabb mtab_titgry">测试</div>
-						<div id="tabtit4" class="mtabb mtab_titgry">网络请求</div>
+						<div id="tabtit3" class="mtabb mtab_titgry">Hash</div>
+						<div id="tabtit4" class="mtabb mtab_titgry">Request</div>
 					</td>
 				</tr>
 				<tr> 
@@ -322,12 +324,13 @@
 										</tr></tbody></table>
 									</div>									
 									<div id="tabctt_tabtit3" style="display:none;">
-										<textarea id="defpop_txts" style="resize:none;width:100%;height:600px;"></textarea><br>
+										<textarea id="tabc_txts" style="resize:none;width:100%;height:600px;"></textarea><br>
 										<table align="center" style="margin-top:2px;width:100%;"><tbody><tr>
 											<td align="center">
-												<a id="tabc_btn1" class="btn btn-mini btn-green" style="margin-right:2px;">按钮31</a>
-												<a id="tabc_btn2"  class="btn btn-mini btn-green" style="margin-left:2px;">按钮32</a>
-												<a id="tabc_btn3"  class="btn btn-mini btn-green" style="margin-left:2px;">Send</a>
+												<a id="tabc_btn1" class="btn btn-mini btn-green" style="margin-right:2px;">MD5</a>
+												<a id="tabc_btn2"  class="btn btn-mini btn-green" style="margin-left:2px;">MD564</a>
+												<a id="tabc_btn3"  class="btn btn-mini btn-green" style="margin-left:2px;">MD5Str</a>
+												<a id="tabc_btn4"  class="btn btn-mini btn-green" style="margin-left:2px;">SHA256</a>
 											</td>
 										</tr></tbody></table>
 									</div>
