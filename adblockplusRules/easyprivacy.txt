@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: K+n7k1V61hCCUeXacAXeiw
-! Version: 201911140852
+! Checksum: giYQZiVm4GVrfMSMxBGXcQ
+! Version: 201911150901
 ! Title: EasyPrivacy
-! Last modified: 14 Nov 2019 08:52 UTC
+! Last modified: 15 Nov 2019 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1403,6 +1403,7 @@
 /csm/analytics;
 /csp_log?
 /csp_report.gne?
+/ctd-sourcepoint.
 /ctr_tracking.
 /ctrack?
 /ctrl.gif?ref=
@@ -16594,6 +16595,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ourworld.com/ow/evercookie_
 @@||ourworld.com/ow/js/evercookie/$script
 @@||pbskids.org/js/ga-current.js
+@@||petsathome.com^*/Analytics.js
 @@||pixel.condenastdigital.com/sparrow.min.js$domain=video.epicurious.com|video.gq.com|video.wired.com
 @@||pixel.quantserve.com/api/segments.json?$domain=newsinc.com
 @@||pixel.quantserve.com/api/segments.xml?a=$domain=associatedcontent.com|cbs.com|cbsatlanta.com|centurylink.net|comedy.com|eurweb.com|fox5vegas.com|foxcarolina.com|grabnetworks.com|kctv5.com|kpho.com|kptv.com|theimproper.com|thenewsroom.com|tv.com|tvguide.com|wfsb.com|wnem.com|wsmv.com

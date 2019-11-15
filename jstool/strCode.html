@@ -30,6 +30,12 @@
 			console.log(strCharactCode("Password123456123",0));
 			console.log(strCharactCode("password123456123",0));
 			console.log(new Date(numVal("RhnntWe")).toLocaleString());
+			
+			var b64c=b64Str(d.getTime());
+			console.log(d.getTime()+": "+b64c+", "+b64Num("AAA"+b64c));
+			var b64e=b64Ecpt("{{hello world!的方法士大夫%%发挥更好发挥。，“‘}}","testPassword111")
+			console.log(b64e);
+			console.log(b64Dcpt(b64e,"testPassword111"));
 		}
 		
 		function ecpt(s,p,n){
@@ -72,8 +78,8 @@
 			var b=a<65?a-48:(a<97?a-55:a-61);
 			return b*Math.pow(62,t)+numVal(s,t+1);
 		}
-		function pfxChar(s,l){
-			if(s.length<l)return pfxChar("0"+s,l);
+		function pfxChar(s,l,n){
+			if(s.length<l)return pfxChar((n?n:"0")+s,l,n);
 			return s;
 		}
 		function strCharact(s,i){
@@ -125,6 +131,49 @@
 		}
 		function randomOrderCode(len,f){
 			return charVal(new Date().getTime())+randomCode(len,f);
+		}
+		
+		function b64Str(o){
+			var z="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+			var a = o>>6;
+			var b = o%64;
+			var c = z.charAt(b);
+			var r = "";
+			if (a > 0)
+				r=b64Str(a);
+			return r + c;
+		}
+		function b64Num(s,t){
+			var z="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+			if(!t)t=0;
+			if(t>s.length-1)return 0;
+			var a=s.charAt(s.length-t-1);
+			var b=z.indexOf(a);
+			return b*Math.pow(64,t)+b64Num(s,t+1);
+		}
+		function b64Ecpt(s,p,n){
+            var fxn=n?n:3;
+			var len=s.length;
+			p=p?strCharactCode(p):p;
+			var r="";
+			for(var i=0,j=0;i<len;i++,j++){
+				if(p&&j==p.length)j=0;
+				var itm=s.charCodeAt(i)+(p?p.charCodeAt(j):0);
+				r+=pfxChar(b64Str(itm),fxn,"A");
+			}
+			return r;
+		}
+		function b64Dcpt(s,p,n){
+            var fxn=n?n:3;
+			var len=s.length;
+			p=p?strCharactCode(p):p;
+			var r="";
+			for(var i=0,j=0;i<len;i+=fxn,j++){
+				if(p&&j==p.length)j=0;
+				var itm=s.substring(i,i+fxn);
+				r+=String.fromCharCode(b64Num(itm)-(p?p.charCodeAt(j):0));
+			}
+			return r;
 		}
 		/**
 		public static String charVal(double o){

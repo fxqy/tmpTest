@@ -24,55 +24,38 @@ function initTabs(){
 	}
 }
 function initEvents(){
-
-	var espBtn = _$G("taba_esp");
-	espBtn.onclick=function(){
-		var txta=_$G("texta_url");
-		var tt=escape(txta.value);
-		txta.value=tt;
-	};
-	var unespBtn = _$G("taba_unesp");
-	unespBtn.onclick=function(){
-		var txta=_$G("texta_url");
-		var tt=unescape(txta.value);
-		txta.value=tt;
-	};
-	var eurBtn = _$G("taba_encodeURI");
-	eurBtn.onclick=function(){
-		var txta=_$G("texta_url");
-		var tt=encodeURI(txta.value);
-		txta.value=tt;
-	};
-	var durBtn = _$G("taba_decodeURI");
-	durBtn.onclick=function(){
-		var txta=_$G("texta_url");
-		var tt=decodeURI(txta.value);
-		txta.value=tt;
-	};
-	var eucBtn = _$G("taba_encodeURIComponent");
-	eucBtn.onclick=function(){
-		var txta=_$G("texta_url");
-		var tt=encodeURIComponent(txta.value);
-		txta.value=tt;
-	};
-	var uucBtn = _$G("taba_decodeURIComponent");
-	uucBtn.onclick=function(){
-		var txta=_$G("texta_url");
-		var tt=decodeURIComponent(txta.value);
-		txta.value=tt;
-	};
-	//B
-	_$G("tabb_btn1").onclick=function(){
+	//A
+	_$G("taba_btn1").onclick=function(){
 		var edtxt=_$G("edcpt_txt");
 		var edpwd=_$G("edcpt_pwd").value;
         edtxt.value=ecpt(edtxt.value,edpwd);
 	};
-	_$G("tabb_btn2").onclick=function(){
+	_$G("taba_btn2").onclick=function(){
 		var edtxt=_$G("edcpt_txt");
 		var edpwd=_$G("edcpt_pwd").value;
         edtxt.value=dcpt(edtxt.value,edpwd);
 	};
-    _$G("tabb_btn3").onclick=function(){
+	_$G("taba_btn3").onclick=function(){
+		var edtxt=_$G("edcpt_txt");
+		var edpwd=_$G("edcpt_pwd").value;
+        edtxt.value=aesEcpt(edtxt.value,edpwd);
+	};
+	_$G("taba_btn4").onclick=function(){
+		var edtxt=_$G("edcpt_txt");
+		var edpwd=_$G("edcpt_pwd").value;
+        edtxt.value=aesDcpt(edtxt.value,edpwd);
+	};
+	_$G("taba_btn5").onclick=function(){
+		var edtxt=_$G("edcpt_txt");
+		var edpwd=_$G("edcpt_pwd").value;
+        edtxt.value=strEnc(edtxt.value,edpwd);
+	};
+	_$G("taba_btn6").onclick=function(){
+		var edtxt=_$G("edcpt_txt");
+		var edpwd=_$G("edcpt_pwd").value;
+        edtxt.value=strDec(edtxt.value,edpwd);
+	};
+	_$G("taba_btn7").onclick=function(){
         var ctt = '<div style="display:inline-block;width:50px;text-align:right;padding-right:5px;">密码: </div></div><input id="ecdcrptPwd" type="password" style="width:280px;"/>';
         panelCaseA({ width:360,title: '私有解密', content:ctt, btn1:"确定", btn2: "取消",
             fun1: function(mbdy){
@@ -82,6 +65,43 @@ function initEvents(){
                 return true;
             }
         });
+	};
+	//B
+	var espBtn = _$G("tabb_esp");
+	espBtn.onclick=function(){
+		var txtb=_$G("tabb_txts");
+		var tt=escape(txtb.value);
+		txtb.value=tt;
+	};
+	var unespBtn = _$G("tabb_unesp");
+	unespBtn.onclick=function(){
+		var txtb=_$G("tabb_txts");
+		var tt=unescape(txtb.value);
+		txtb.value=tt;
+	};
+	var eurBtn = _$G("tabb_encodeURI");
+	eurBtn.onclick=function(){
+		var txtb=_$G("tabb_txts");
+		var tt=encodeURI(txtb.value);
+		txtb.value=tt;
+	};
+	var durBtn = _$G("tabb_decodeURI");
+	durBtn.onclick=function(){
+		var txtb=_$G("tabb_txts");
+		var tt=decodeURI(txtb.value);
+		txtb.value=tt;
+	};
+	var eucBtn = _$G("tabb_encodeURIComponent");
+	eucBtn.onclick=function(){
+		var txtb=_$G("tabb_txts");
+		var tt=encodeURIComponent(txtb.value);
+		txtb.value=tt;
+	};
+	var uucBtn = _$G("tabb_decodeURIComponent");
+	uucBtn.onclick=function(){
+		var txtb=_$G("tabb_txts");
+		var tt=decodeURIComponent(txtb.value);
+		txtb.value=tt;
 	};
 	//testC...
 	_$G("tabc_btn1").onclick=function(){
@@ -169,4 +189,35 @@ function strCharact(s,i){
 function strCharactCode(s){
 	var r=charVal(strCharact(s,0));
 	return r.split("").reverse().join("");
+}
+
+function aesEcpt(text,pwd){
+	var shp=sha256_digest(pwd);
+	var key = [];
+	var iv = [];
+	for(var i=16;i<48;i++){
+	    var itm=shp.charCodeAt(i);
+	    if(i<32)key.push(itm);
+		else iv.push(itm);
+	}
+	var textBytes = aesjs.utils.utf8.toBytes(text);
+	var aesOfb = new aesjs.ModeOfOperation.ofb(key, iv);
+	var encryptedBytes = aesOfb.encrypt(textBytes);
+	var encryptedHex = aesjs.utils.hex.fromBytes(encryptedBytes);
+	return encryptedHex;
+}
+function aesDcpt(text,pwd){
+	var shp=sha256_digest(pwd);
+	var key = [];
+	var iv = [];
+	for(var i=16;i<48;i++){
+	    var itm=shp.charCodeAt(i);
+	    if(i<32)key.push(itm);
+		else iv.push(itm);
+	}
+	var encryptedBytes = aesjs.utils.hex.toBytes(text);
+	var aesOfb = new aesjs.ModeOfOperation.ofb(key, iv);
+	var decryptedBytes = aesOfb.decrypt(encryptedBytes);
+	var decryptedText = aesjs.utils.utf8.fromBytes(decryptedBytes);
+	return decryptedText;
 }

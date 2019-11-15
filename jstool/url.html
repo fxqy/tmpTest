@@ -277,6 +277,8 @@
 	</style>
 	<script type="text/javascript" src="./js/md5.js"></script>
 	<script type="text/javascript" src="./js/sha256.js"></script>
+	<script type="text/javascript" src="./js/des.js"></script>
+	<script type="text/javascript" src="./js/aes.js"></script>
 	<script type="text/javascript" src="./js/tools.js"></script>
 	<script type="text/javascript" src="./js/url.js"></script>
 </head>
@@ -286,8 +288,8 @@
 			<tbody>
 				<tr>
 					<td>
-						<div id="tabtit1" class="mtabb mtab_tit">URL Escape/UnEscape</div>
-						<div id="tabtit2" class="mtabb mtab_titgry">str encrypt/decrypt</div>
+						<div id="tabtit1" class="mtabb mtab_tit">String Encrypt/Decrypt</div>
+						<div id="tabtit2" class="mtabb mtab_titgry">URL Escape/UnEscape</div>
 						<div id="tabtit3" class="mtabb mtab_titgry">Hash</div>
 						<div id="tabtit4" class="mtabb mtab_titgry">Request</div>
 					</td>
@@ -300,26 +302,30 @@
 							<tr>
 								<td>									
 									<div id="tabctt_tabtit1">
-										<textarea id="texta_url" style="resize:none;width:100%;height:600px;" placeHolder="URL"></textarea><br>
-										<table align="center" style="margin-top:2px;width:100%;"><tbody><tr>
-											<td align="center">
-												<a id="taba_esp"  class="btn btn-mini btn-green" style="margin-left:2px;">Escape</a>
-												<a id="taba_unesp"  class="btn btn-mini btn-green" style="margin-left:2px;">UnEscape</a>
-												<a id="taba_encodeURI"  class="btn btn-mini btn-green" style="margin-left:2px;">EncodeURI</a>
-												<a id="taba_decodeURI"  class="btn btn-mini btn-green" style="margin-left:2px;">DecodeURI</a>
-												<a id="taba_encodeURIComponent"  class="btn btn-mini btn-green" style="margin-left:2px;">EncodeURIComponent</a>
-												<a id="taba_decodeURIComponent"  class="btn btn-mini btn-green" style="margin-left:2px;">DecodeURIComponent</a>
-											</td>
-										</tr></tbody></table>
-									</div>									
-									<div id="tabctt_tabtit2" style="display:none;">
 										<textarea id="edcpt_txt" style="resize:none;width:100%;height:490px;"  placeHolder="Text"></textarea><br>
 										<textarea id="edcpt_pwd" style="resize:none;width:100%;height:100px;margin-top:10px;" placeHolder="Password"></textarea>
 										<table align="center" style="margin-top:2px;width:100%;"><tbody><tr>
 											<td align="center">
-												<a id="tabb_btn1" class="btn btn-mini btn-green" style="margin-right:2px;">encrypt</a>
-												<a id="tabb_btn2" class="btn btn-mini btn-green" style="margin-right:2px;">decrypt</a>
-												<a id="tabb_btn3" class="btn btn-mini btn-green" style="margin-right:2px;">private</a>
+												<a id="taba_btn1" class="btn btn-mini btn-green" style="margin-right:2px;">encrypt</a>
+												<a id="taba_btn2" class="btn btn-mini btn-green" style="margin-right:2px;">decrypt</a>
+												<a id="taba_btn3" class="btn btn-mini btn-green" style="margin-right:2px;">Aes encrypt</a>
+												<a id="taba_btn4" class="btn btn-mini btn-green" style="margin-right:2px;">Aes decrypt</a>
+												<a id="taba_btn5" class="btn btn-mini btn-green" style="margin-right:2px;">Des encrypt</a>
+												<a id="taba_btn6" class="btn btn-mini btn-green" style="margin-right:2px;">Des decrypt</a>
+												<a id="taba_btn7" class="btn btn-mini btn-green" style="margin-right:2px;">private</a>
+											</td>
+										</tr></tbody></table>
+									</div>									
+									<div id="tabctt_tabtit2" style="display:none;">
+										<textarea id="tabb_txts" style="resize:none;width:100%;height:600px;" placeHolder="URL"></textarea><br>
+										<table align="center" style="margin-top:2px;width:100%;"><tbody><tr>
+											<td align="center">
+												<a id="tabb_esp"  class="btn btn-mini btn-green" style="margin-left:2px;">Escape</a>
+												<a id="tabb_unesp"  class="btn btn-mini btn-green" style="margin-left:2px;">UnEscape</a>
+												<a id="tabb_encodeURI"  class="btn btn-mini btn-green" style="margin-left:2px;">EncodeURI</a>
+												<a id="tabb_decodeURI"  class="btn btn-mini btn-green" style="margin-left:2px;">DecodeURI</a>
+												<a id="tabb_encodeURIComponent"  class="btn btn-mini btn-green" style="margin-left:2px;">EncodeURIComponent</a>
+												<a id="tabb_decodeURIComponent"  class="btn btn-mini btn-green" style="margin-left:2px;">DecodeURIComponent</a>
 											</td>
 										</tr></tbody></table>
 									</div>									
