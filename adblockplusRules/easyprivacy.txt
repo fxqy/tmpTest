@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: giYQZiVm4GVrfMSMxBGXcQ
-! Version: 201911150901
+! Checksum: Y/FmG6EcE0jo5DgWlEuapQ
+! Version: 201911160311
 ! Title: EasyPrivacy
-! Last modified: 15 Nov 2019 09:01 UTC
+! Last modified: 16 Nov 2019 03:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8339,6 +8339,7 @@ _mongo_stats/
 ||absurdapple.com^$third-party
 ||acridtwist.com^$third-party
 ||aheadday.com^$third-party
+||alleyarm.com^$third-party
 ||allowmailbox.com^$third-party
 ||anxiousapples.com^$third-party
 ||automaticside.com^$third-party
@@ -16492,6 +16493,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||darksky.net^*/analytics.js$script,~third-party
 @@||ddmcdn.com^*/comscore.streaming.$script,domain=animalplanet.com|discovery.com|investigationdiscovery.com|tlc.com
 @@||digitalgov.gov/Universal-Federated-Analytics-Min.js?$script,domain=travel.state.gov
+@@||disney-plus.net^*/analytics_script_bundle.js
 @@||docodoco.jp^*/docodoco?key=$script,domain=nidec-copal-electronics.com
 @@||dominos.com^*/assets/build/js/modules/dpz.tealium.js$script
 @@||dplay.com^*/comscore.streaming.min.js
