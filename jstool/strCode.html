@@ -134,9 +134,9 @@
 		}
 		
 		function b64Str(o){
-			var z="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
-			var a = o>>6;
-			var b = o%64;
+			var z="AzB0yCx1DwE2vFu3GtH4sIr5JqK6pLo7MnN8mOl9PkQjRiShTgUfVeWdXcYbZa+/#=><?@][)(}{";
+			var a = Math.floor(o/76);
+			var b = o%76;
 			var c = z.charAt(b);
 			var r = "";
 			if (a > 0)
@@ -144,12 +144,12 @@
 			return r + c;
 		}
 		function b64Num(s,t){
-			var z="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+			var z="AzB0yCx1DwE2vFu3GtH4sIr5JqK6pLo7MnN8mOl9PkQjRiShTgUfVeWdXcYbZa+/#=><?@][)(}{";
 			if(!t)t=0;
 			if(t>s.length-1)return 0;
 			var a=s.charAt(s.length-t-1);
 			var b=z.indexOf(a);
-			return b*Math.pow(64,t)+b64Num(s,t+1);
+			return b*Math.pow(76,t)+b64Num(s,t+1);
 		}
 		function b64Ecpt(s,p,n){
             var fxn=n?n:3;
