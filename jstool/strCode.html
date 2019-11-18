@@ -81,15 +81,14 @@
 			return b*Math.pow(z.length,t)+dcpt2Num(s,t+1,z);
 		}
 		function strCharactCode(s){
-			var z="mS2TAVsIhWzLx8ud10g9OtGDC5MqwivBJabRjQrpYlHkZ4PUfKEXcNy6oF3e7n".split("");
+			var z="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz".split("");
 			var len=z.length;
-			for(var i=0,k=0;i<s.length*3;i++,k++){
+            var mult=s.length/len<3?31:3;
+			for(var i=0,k=0;i<s.length*mult;i++,k++){
 				if(k==s.length)k=0;
-				var itm=Math.abs(s.charCodeAt(k)-s.charCodeAt(s.length-k-1));
+				var itm=s.charCodeAt(k);
 				var md=itm%len;
 				z.unshift(z.splice(md,1)[0]);
-				z.unshift(z.splice(md,1)[0]);
-                z.push(z.splice(md,1)[0]);
                 z.push(z.splice(md,1)[0]);
 			}
 			return z.join("");
