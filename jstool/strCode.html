@@ -22,7 +22,7 @@
 			var cvl=ecpt2Str(d.getTime(),zstr);
 			x.innerHTML=d.getTime()+", "+cvl+", "+dcpt2Num("000"+cvl,0,zstr);
 			
-			console.log(strCharactCode("Password123456111134561111111111111345611111345611111345611111111111134561113456111111113456111111134561111111111113456113456111111111111111113456111111111111111134561111345611111111111113456111111111111345611111345611111111111134561111111111111134561111111111113456111111111111111111345611111111111111111111111113456111111111111111111111345611111111111111111111111aaaaaaaaaaaaaaaaaa"));
+			console.log(strCharactCode("Password123456111134561111111111111345611111345611111345611111111111134561113456111111113456111111134561111111111113456113456111111111111111113456111111111111111134561111345611111111111113456111111111111345611111345611111111111134561111111111111134561111111111113456111111111111111111345611111111111111111111111113456111111111111111111111345611111111111111111111111aaaaaaaaaaaaaaaaab"));
 			console.log(strCharactCode("Password12345612222222222222222222222222222222222222222222222222222222222222222222222222222222222222bbbbbbbbbbbbbbbbbbb"));
 			console.log(strCharactCode("Password123456123"));
 			console.log(strCharactCode("password123456123"));
@@ -40,7 +40,7 @@
 			len=s.length;
 			p=p?p:"";
 			var z=strCharactCode(p);
-			p=z.substring(15,47);
+			p=z.substring(0,33);
 			var r="";
 			for(var i=0,j=0;i<len;i++,j++){
 				if(j==p.length)j=0;
@@ -81,15 +81,16 @@
 			return b*Math.pow(z.length,t)+dcpt2Num(s,t+1,z);
 		}
 		function strCharactCode(s){
-			var z="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz".split("");
+			var z="mS2TAVsIhWzLx8ud10g9OtGDC5MqwivBJabRjQrpYlHkZ4PUfKEXcNy6oF3e7n".split("");
 			var len=z.length;
-			for(var i=0,k=0;i<s.length*len;i++,k++){
+			for(var i=0,k=0;i<s.length*3;i++,k++){
 				if(k==s.length)k=0;
-				var itm=s.charCodeAt(k);
+				var itm=Math.abs(s.charCodeAt(k)-s.charCodeAt(s.length-k-1));
 				var md=itm%len;
 				z.unshift(z.splice(md,1)[0]);
-				z.push(z.splice(parseInt(md/2),1)[0]);
-				z.push(z.splice(len-md-1,1)[0]);
+				z.unshift(z.splice(md,1)[0]);
+                z.push(z.splice(md,1)[0]);
+                z.push(z.splice(md,1)[0]);
 			}
 			return z.join("");
 		}
