@@ -16,94 +16,86 @@
 		}
 		
 		function myFunction(){
+			var zstr="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 			var d = new Date();
 			var x = document.getElementById("demo");
-			var cvl=charVal(d.getTime());
-			x.innerHTML=d.getTime()+", "+cvl+", "+numVal("0000"+cvl);
+			var cvl=ecpt2Str(d.getTime(),zstr);
+			x.innerHTML=d.getTime()+", "+cvl+", "+dcpt2Num("000"+cvl,0,zstr);
 			
-			var estr=ecpt("{{hello world!的方法士大夫%%发挥更好发挥。，“‘}}","testPassword");
+			console.log(strCharactCode("Password123456111134561111111111111345611111345611111345611111111111134561113456111111113456111111134561111111111113456113456111111111111111113456111111111111111134561111345611111111111113456111111111111345611111345611111111111134561111111111111134561111111111113456111111111111111111345611111111111111111111111113456111111111111111111111345611111111111111111111111aaaaaaaaaaaaaaaaaa"));
+			console.log(strCharactCode("Password12345612222222222222222222222222222222222222222222222222222222222222222222222222222222222222bbbbbbbbbbbbbbbbbbb"));
+			console.log(strCharactCode("Password123456123"));
+			console.log(strCharactCode("password123456123"));
+			console.log(strCharactCode("password123456122"));
+			console.log(d.getTime());
+			
+			var estr=ecpt("{{hello world!的方法士大夫%%发挥更好发挥。，“‘}}","PasswordText111");
 			console.log(estr);
-			console.log(dcpt(estr,"testPassword"));
+			console.log(dcpt(estr,"PasswordText111"));
 			
-			console.log(strCharactCode("Password123456111134561111111111111345611111345611111345611111111111134561113456111111113456111111134561111111111113456113456111111111111111113456111111111111111134561111345611111111111113456111111111111345611111345611111111111134561111111111111134561111111111113456111111111111111111345611111111111111111111111113456111111111111111111111345611111111111111111111111aaaaaaaaaaaaaaaaaa",0));
-			console.log(strCharactCode("Password12345612222222222222222222222222222222222222222222222222222222222222222222222222222222222222bbbbbbbbbbbbbbbbbbb",0));
-			console.log(strCharactCode("Password123456123",0));
-			console.log(strCharactCode("password123456123",0));
-			console.log(new Date(numVal("RhnntWe")).toLocaleString());
-			
-			var b64c=b64Str(d.getTime());
-			console.log(d.getTime()+": "+b64c+", "+b64Num("AAA"+b64c));
-			var b64e=b64Ecpt("{{hello world!的方法士大夫%%发挥更好发挥。，“‘}}","testPassword111")
-			console.log(b64e);
-			console.log(b64Dcpt(b64e,"testPassword111"));
 		}
-		
+
 		function ecpt(s,p,n){
             var fxn=n?n:3;
-			var len=s.length;
-			p=p?strCharactCode(p):p;
+			len=s.length;
+			p=p?p:"";
+			var z=strCharactCode(p);
+			p=z.substring(15,47);
 			var r="";
 			for(var i=0,j=0;i<len;i++,j++){
-				if(p&&j==p.length)j=0;
-				var itm=s.charCodeAt(i)+(p?p.charCodeAt(j):0);
-				r+=pfxChar(charVal(itm),fxn);
+				if(j==p.length)j=0;
+				var itm=s.charCodeAt(i)+p.charCodeAt(j);
+				r+=pfxChar(ecpt2Str(itm,z),fxn,z.charAt(0));
 			}
 			return r;
 		}
 		function dcpt(s,p,n){
             var fxn=n?n:3;
-			var len=s.length;
-			p=p?strCharactCode(p):p;
+			len=s.length;
+			p=p?p:"";
+			var z=strCharactCode(p);
+			p=z.substring(0,33);
 			var r="";
 			for(var i=0,j=0;i<len;i+=fxn,j++){
-				if(p&&j==p.length)j=0;
+				if(j==p.length)j=0;
 				var itm=s.substring(i,i+fxn);
-				r+=String.fromCharCode(numVal(itm)-(p?p.charCodeAt(j):0));
+				r+=String.fromCharCode(dcpt2Num(itm,0,z)-p.charCodeAt(j));
 			}
 			return r;
 		}
-		function charVal(o){
-			var a = Math.floor(o/62);
-			var b = o%62;
-			var c = String.fromCharCode(b<10?b+48:(b>35?b+61:b+55));
+		
+		function ecpt2Str(o,z){
+			var a = Math.floor(o/z.length);
+			var b = o%z.length;
+			var c = z.charAt(b);
 			var r = "";
 			if (a > 0)
-				r=charVal(a);
+				r=ecpt2Str(a,z);
 			return r + c;
 		}
-		function numVal(s,t){
+		function dcpt2Num(s,t,z){
 			if(!t)t=0;
 			if(t>s.length-1)return 0;
-			var a=s.charCodeAt(s.length-t-1);
-			var b=a<65?a-48:(a<97?a-55:a-61);
-			return b*Math.pow(62,t)+numVal(s,t+1);
+			var a=s.charAt(s.length-t-1);
+			var b=z.indexOf(a);
+			return b*Math.pow(z.length,t)+dcpt2Num(s,t+1,z);
+		}
+		function strCharactCode(s){
+			var z="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz".split("");
+			var len=z.length;
+			for(var i=0,k=0;i<s.length*len;i++,k++){
+				if(k==s.length)k=0;
+				var itm=s.charCodeAt(k);
+				var md=itm%len;
+				z.unshift(z.splice(md,1)[0]);
+				z.push(z.splice(parseInt(md/2),1)[0]);
+				z.push(z.splice(len-md-1,1)[0]);
+			}
+			return z.join("");
 		}
 		function pfxChar(s,l,n){
 			if(s.length<l)return pfxChar((n?n:"0")+s,l,n);
 			return s;
-		}
-		function strCharact(s,i){
-			var j=i%17;
-			if(i<s.length)return s.charCodeAt(i)*Math.pow(62,j>0?j:19)+strCharact(s,i+1)+i;
-			return s.length;
-		}
-		function strCharactCode(s){
-			var r=charVal(strCharact(s,0));
-			return r.split("").reverse().join("");
-		}
-		function strCharactA(s,i){
-			var j=i%17;
-			if(i<s.length)return (s.charCodeAt(i)^s.charCodeAt(s.length-i-1))*Math.pow(62,j>0?j:19)+strCharactA(s,i+1)+i;
-			return s.length;
-		}
-		//parseInt(i/10%2)==0?i+1:i-1
-		function testA(){
-			var str="";
-			for(var i=0;i<20;i++){
-				str+=(i>0?"\n":"")+getRdmMac();
-			}
-			console.log(str);
-			
 		}
 		
 		function getRdmMac(sep){
@@ -129,51 +121,14 @@
 			var c=parseInt(Math.random()*(b[a+3]-b[a]));
 			return String.fromCharCode(b[a]+c)+randomCode(len-1);
 		}
-		function randomOrderCode(len,f){
-			return charVal(new Date().getTime())+randomCode(len,f);
-		}
 		
-		function b64Str(o){
-			var z="AzB0yCx1DwE2vFu3GtH4sIr5JqK6pLo7MnN8mOl9PkQjRiShTgUfVeWdXcYbZa+/#=><?@][)(}{";
-			var a = Math.floor(o/76);
-			var b = o%76;
-			var c = z.charAt(b);
-			var r = "";
-			if (a > 0)
-				r=b64Str(a);
-			return r + c;
-		}
-		function b64Num(s,t){
-			var z="AzB0yCx1DwE2vFu3GtH4sIr5JqK6pLo7MnN8mOl9PkQjRiShTgUfVeWdXcYbZa+/#=><?@][)(}{";
-			if(!t)t=0;
-			if(t>s.length-1)return 0;
-			var a=s.charAt(s.length-t-1);
-			var b=z.indexOf(a);
-			return b*Math.pow(76,t)+b64Num(s,t+1);
-		}
-		function b64Ecpt(s,p,n){
-            var fxn=n?n:3;
-			var len=s.length;
-			p=p?strCharactCode(p):p;
-			var r="";
-			for(var i=0,j=0;i<len;i++,j++){
-				if(p&&j==p.length)j=0;
-				var itm=s.charCodeAt(i)+(p?p.charCodeAt(j):0);
-				r+=pfxChar(b64Str(itm),fxn,"A");
+		function testA(){
+			var str="";
+			for(var i=0;i<10;i++){
+				str+=(i>0?"\n":"")+getRdmMac();
 			}
-			return r;
-		}
-		function b64Dcpt(s,p,n){
-            var fxn=n?n:3;
-			var len=s.length;
-			p=p?strCharactCode(p):p;
-			var r="";
-			for(var i=0,j=0;i<len;i+=fxn,j++){
-				if(p&&j==p.length)j=0;
-				var itm=s.substring(i,i+fxn);
-				r+=String.fromCharCode(b64Num(itm)-(p?p.charCodeAt(j):0));
-			}
-			return r;
+			console.log(str);
+			
 		}
 		/**
 		public static String charVal(double o){
