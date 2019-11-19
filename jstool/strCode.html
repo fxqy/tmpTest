@@ -19,16 +19,21 @@
 			var zstr="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 			var d = new Date();
 			var x = document.getElementById("demo");
-			var cvl=ecpt2Str(d.getTime(),zstr);
-			x.innerHTML=d.getTime()+", "+cvl+", "+dcpt2Num("000"+cvl,0,zstr);
+			var cvl=ecd2Str(d.getTime(),zstr);
+			x.innerHTML=d.getTime()+", "+cvl+", "+dcd2Num("000"+cvl,0,zstr);
 			
+			console.log(d.getTime());
+			console.log(strCharactCode("PasswordTextaaa",32));
+			
+			console.log(d.getTime());
+			console.log(strCharactCode("Password123456111134561111111111111345611111345611111345611111111111134561113456111111113456111111134561111111111113456113456111111111111111113456111111111111111134561111345611111111111113456111111111111345611111345611111111111134561111111111111134561111111111113456111111111111111111345611111111111111111111111113456111111111111111111111345611111111111111111111111aaaaaaaaaaaaaaaaaa"));
 			console.log(strCharactCode("Password123456111134561111111111111345611111345611111345611111111111134561113456111111113456111111134561111111111113456113456111111111111111113456111111111111111134561111345611111111111113456111111111111345611111345611111111111134561111111111111134561111111111113456111111111111111111345611111111111111111111111113456111111111111111111111345611111111111111111111111aaaaaaaaaaaaaaaaab"));
 			console.log(strCharactCode("Password12345612222222222222222222222222222222222222222222222222222222222222222222222222222222222222bbbbbbbbbbbbbbbbbbb"));
 			console.log(strCharactCode("Password123456123"));
 			console.log(strCharactCode("password123456123"));
 			console.log(strCharactCode("password123456122"));
-			console.log(d.getTime());
 			
+			console.log(d.getTime());
 			var estr=ecpt("{{hello world!的方法士大夫%%发挥更好发挥。，“‘}}","PasswordText111");
 			console.log(estr);
 			console.log(dcpt(estr,"PasswordText111"));
@@ -37,61 +42,65 @@
 
 		function ecpt(s,p,n){
             var fxn=n?n:3;
-			len=s.length;
 			p=p?p:"";
 			var z=strCharactCode(p);
-			p=z.substring(0,33);
 			var r="";
-			for(var i=0,j=0;i<len;i++,j++){
-				if(j==p.length)j=0;
-				var itm=s.charCodeAt(i)+p.charCodeAt(j);
-				r+=pfxChar(ecpt2Str(itm,z),fxn,z.charAt(0));
+			for(var i=0,j=0;i<s.length;i++,j++){
+				if(j==16)j=0;
+				var itm=s.charCodeAt(i)+z.charCodeAt(j);
+				r+=pfxChar(ecd2Str(itm,z),fxn,z.charAt(0));
 			}
 			return r;
 		}
 		function dcpt(s,p,n){
             var fxn=n?n:3;
-			len=s.length;
 			p=p?p:"";
 			var z=strCharactCode(p);
-			p=z.substring(0,33);
 			var r="";
-			for(var i=0,j=0;i<len;i+=fxn,j++){
-				if(j==p.length)j=0;
+			for(var i=0,j=0;i<s.length;i+=fxn,j++){
+				if(j==16)j=0;
 				var itm=s.substring(i,i+fxn);
-				r+=String.fromCharCode(dcpt2Num(itm,0,z)-p.charCodeAt(j));
+				r+=String.fromCharCode(dcd2Num(itm,0,z)-z.charCodeAt(j));
 			}
 			return r;
 		}
 		
-		function ecpt2Str(o,z){
+		function ecd2Str(o,z){
 			var a = Math.floor(o/z.length);
 			var b = o%z.length;
 			var c = z.charAt(b);
 			var r = "";
 			if (a > 0)
-				r=ecpt2Str(a,z);
+				r=ecd2Str(a,z);
 			return r + c;
 		}
-		function dcpt2Num(s,t,z){
+		function dcd2Num(s,t,z){
 			if(!t)t=0;
 			if(t>s.length-1)return 0;
 			var a=s.charAt(s.length-t-1);
 			var b=z.indexOf(a);
-			return b*Math.pow(z.length,t)+dcpt2Num(s,t+1,z);
+			return b*Math.pow(z.length,t)+dcd2Num(s,t+1,z);
 		}
-		function strCharactCode(s){
+		function strCharactCode(s,l){
 			var z="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz".split("");
 			var len=z.length;
-            var mult=s.length/len<3?31:3;
-			for(var i=0,k=0;i<s.length*mult;i++,k++){
+			var lpn=s.length+len*3;
+			for(var i=0,j=0,k=0;i<lpn;i++,j++,k++){
+				if(j==len)j=0;
 				if(k==s.length)k=0;
-				var itm=s.charCodeAt(k);
+				var itm;
+				if(i>s.length){//magnify the difference
+					z.unshift(z.pop());
+					itm=z[j].charCodeAt(0);
+				}else{//capture feature
+					itm=s.charCodeAt(k);
+				}
 				var md=itm%len;
 				z.unshift(z.splice(md,1)[0]);
-                z.push(z.splice(md,1)[0]);
+				z.push(z.splice(md,1)[0]);
 			}
-			return z.join("");
+			var r=z.join("");
+			return l?r.substr(0,l):r;
 		}
 		function pfxChar(s,l,n){
 			if(s.length<l)return pfxChar((n?n:"0")+s,l,n);

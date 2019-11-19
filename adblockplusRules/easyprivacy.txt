@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: TeNzxsI5tzA2KnCaX5un9Q
-! Version: 201911180841
+! Checksum: RtonDKwrp6VozzE0P1YpIw
+! Version: 201911190841
 ! Title: EasyPrivacy
-! Last modified: 18 Nov 2019 08:41 UTC
+! Last modified: 19 Nov 2019 08:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9811,6 +9811,8 @@ _mongo_stats/
 ||bab.frb.io^
 ||backstage.funnelenvy.com^
 ||baidu.com/pixel?
+||bamgrid.com/dust
+||bamgrid.com/telemetry
 ||bango.net/exid/*.gif?
 ||bango.net/id/*.gif?
 ||barium.cheezdev.com^
@@ -14860,7 +14862,6 @@ _mongo_stats/
 ||tracking.hsn.com^
 ||tracking.koego.com^
 ||tracking.military.com^
-||tracking.moneyam.com^
 ||tracking.mycapture.com^
 ||tracking.nextdoor.com^
 ||tracking.olx-st.com^
@@ -15713,6 +15714,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||azurewebsites.net^*/mnr-mediametrie-tracking-
 ||bigvoy.com/cft/view.php
 ||bloguez.com/manager/compteurs/
+||buf.lemonde.fr^
 ||c0011.boursorama.com^
 ||cfcn.allocine.net^
 ||clubic.com/editorial/publier_count.php?

@@ -1,7 +1,6 @@
 var hexcase = 0;  /* hex output format. 0 - lowercase; 1 - uppercase        */
 var b64pad  = ""; /* base-64 pad character. "=" for strict RFC compliance   */
 var chrsz   = 8;  /* bits per input character. 8 - ASCII; 16 - Unicode      */
-
 /*
  * These are the functions you'll usually want to call
  * They take string arguments and return either hex or base-64 encoded strings
@@ -15,8 +14,7 @@ function str_hmac_md5(key, data) { return binl2str(core_hmac_md5(key, data)); }
 /*
  * Calculate the MD5 of an array of little-endian words, and a bit length
  */
-function core_md5(x, len)
-{
+function core_md5(x, len){
   /* append padding */
   x[len >> 5] |= 0x80 << ((len) % 32);
   x[(((len + 64) >>> 9) << 4) + 14] = len;
@@ -26,8 +24,7 @@ function core_md5(x, len)
   var c = -1732584194;
   var d =  271733878;
 
-  for(var i = 0; i < x.length; i += 16)
-  {
+  for(var i = 0; i < x.length; i += 16){
     var olda = a;
     var oldb = b;
     var oldc = c;
@@ -113,32 +110,26 @@ function core_md5(x, len)
 /*
  * These functions implement the four basic operations the algorithm uses.
  */
-function md5_cmn(q, a, b, x, s, t)
-{
+function md5_cmn(q, a, b, x, s, t){
   return safe_add(bit_rol(safe_add(safe_add(a, q), safe_add(x, t)), s),b);
 }
-function md5_ff(a, b, c, d, x, s, t)
-{
+function md5_ff(a, b, c, d, x, s, t){
   return md5_cmn((b & c) | ((~b) & d), a, b, x, s, t);
 }
-function md5_gg(a, b, c, d, x, s, t)
-{
+function md5_gg(a, b, c, d, x, s, t){
   return md5_cmn((b & d) | (c & (~d)), a, b, x, s, t);
 }
-function md5_hh(a, b, c, d, x, s, t)
-{
+function md5_hh(a, b, c, d, x, s, t){
   return md5_cmn(b ^ c ^ d, a, b, x, s, t);
 }
-function md5_ii(a, b, c, d, x, s, t)
-{
+function md5_ii(a, b, c, d, x, s, t){
   return md5_cmn(c ^ (b | (~d)), a, b, x, s, t);
 }
 
 /*
  * Calculate the HMAC-MD5, of a key and some data
  */
-function core_hmac_md5(key, data)
-{
+function core_hmac_md5(key, data){
   var bkey = str2binl(key);
   if(bkey.length > 16) bkey = core_md5(bkey, key.length * chrsz);
 
@@ -157,8 +148,7 @@ function core_hmac_md5(key, data)
  * Add integers, wrapping at 2^32. This uses 16-bit operations internally
  * to work around bugs in some JS interpreters.
  */
-function safe_add(x, y)
-{
+function safe_add(x, y){
   var lsw = (x & 0xFFFF) + (y & 0xFFFF);
   var msw = (x >> 16) + (y >> 16) + (lsw >> 16);
   return (msw << 16) | (lsw & 0xFFFF);
@@ -167,8 +157,7 @@ function safe_add(x, y)
 /*
  * Bitwise rotate a 32-bit number to the left.
  */
-function bit_rol(num, cnt)
-{
+function bit_rol(num, cnt){
   return (num << cnt) | (num >>> (32 - cnt));
 }
 
@@ -176,8 +165,7 @@ function bit_rol(num, cnt)
  * Convert a string to an array of little-endian words
  * If chrsz is ASCII, characters >255 have their hi-byte silently ignored.
  */
-function str2binl(str)
-{
+function str2binl(str){
   var bin = Array();
   var mask = (1 << chrsz) - 1;
   for(var i = 0; i < str.length * chrsz; i += chrsz)
@@ -188,8 +176,7 @@ function str2binl(str)
 /*
  * Convert an array of little-endian words to a string
  */
-function binl2str(bin)
-{
+function binl2str(bin){
   var str = "";
   var mask = (1 << chrsz) - 1;
   for(var i = 0; i < bin.length * 32; i += chrsz)
@@ -200,12 +187,10 @@ function binl2str(bin)
 /*
  * Convert an array of little-endian words to a hex string.
  */
-function binl2hex(binarray)
-{
+function binl2hex(binarray){
   var hex_tab = hexcase ? "0123456789ABCDEF" : "0123456789abcdef";
   var str = "";
-  for(var i = 0; i < binarray.length * 4; i++)
-  {
+  for(var i = 0; i < binarray.length * 4; i++){
     str += hex_tab.charAt((binarray[i>>2] >> ((i%4)*8+4)) & 0xF) +
            hex_tab.charAt((binarray[i>>2] >> ((i%4)*8  )) & 0xF);
   }
@@ -215,17 +200,14 @@ function binl2hex(binarray)
 /*
  * Convert an array of little-endian words to a base-64 string
  */
-function binl2b64(binarray)
-{
+function binl2b64(binarray){
   var tab = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
   var str = "";
-  for(var i = 0; i < binarray.length * 4; i += 3)
-  {
+  for(var i = 0; i < binarray.length * 4; i += 3){
     var triplet = (((binarray[i   >> 2] >> 8 * ( i   %4)) & 0xFF) << 16)
                 | (((binarray[i+1 >> 2] >> 8 * ((i+1)%4)) & 0xFF) << 8 )
                 |  ((binarray[i+2 >> 2] >> 8 * ((i+2)%4)) & 0xFF);
-    for(var j = 0; j < 4; j++)
-    {
+    for(var j = 0; j < 4; j++){
       if(i * 8 + j * 6 > binarray.length * 32) str += b64pad;
       else str += tab.charAt((triplet >> 6*(3-j)) & 0x3F);
     }
