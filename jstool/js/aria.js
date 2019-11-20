@@ -87,7 +87,7 @@ function initWebSocket(){
         tipCase({msg:msg});
 		var asta=_$G("aria2State");
 		asta.innerHTML=msg;
-		asta.style.color="#EC7600";
+		asta.style.color="#FF4500";
     };
     $Wskt.onmessage  = function(m){
         var r=JSON.parse(m.data);

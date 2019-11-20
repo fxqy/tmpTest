@@ -37,7 +37,7 @@
 			var estr=ecpt("{{hello world!的方法士大夫%%发挥更好发挥。，“‘}}","PasswordText111");
 			console.log(estr);
 			console.log(dcpt(estr,"PasswordText111"));
-			
+
 		}
 
 		function ecpt(s,p,n){
@@ -83,21 +83,30 @@
 		}
 		function strCharactCode(s,l){
 			var z="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz".split("");
-			var len=z.length;
-			var lpn=s.length+len*3;
+			var lnz=z.length;
+			var lns=s.length;
+			var lpn=lns+lnz*3;
+			var oth=Math.floor(lnz/3);
+			var tth=Math.floor(lnz*2/3);
 			for(var i=0,j=0,k=0;i<lpn;i++,j++,k++){
-				if(j==len)j=0;
-				if(k==s.length)k=0;
+				if(j==lnz)j=0;
+				if(k==lns)k=0;
 				var itm;
-				if(i>s.length){//magnify the difference
+				if(i>lns){//magnify the difference
 					z.unshift(z.pop());
 					itm=z[j].charCodeAt(0);
 				}else{//capture feature
 					itm=s.charCodeAt(k);
 				}
-				var md=itm%len;
-				z.unshift(z.splice(md,1)[0]);
-				z.push(z.splice(md,1)[0]);
+				var md=itm%lnz;
+				if(md<oth){
+					z.push(z.splice(md,1)[0]);
+				}else if(md>tth){
+					z.unshift(z.splice(md,1)[0]);
+				}else{
+					z.unshift(z.splice(md,1)[0]);
+					z.push(z.splice(md,1)[0]);
+				}
 			}
 			var r=z.join("");
 			return l?r.substr(0,l):r;
@@ -139,6 +148,7 @@
 			console.log(str);
 			
 		}
+		
 		/**
 		public static String charVal(double o){
 			double a = Math.floor(o/62);

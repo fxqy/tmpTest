@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: RtonDKwrp6VozzE0P1YpIw
-! Version: 201911190841
+! Checksum: 9CL2S/Y4sppIWnMR3seYZQ
+! Version: 201911200901
 ! Title: EasyPrivacy
-! Last modified: 19 Nov 2019 08:41 UTC
+! Last modified: 20 Nov 2019 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -16464,6 +16464,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||api-track.delhivery.com/track?waybillId=$~third-party,xmlhttprequest
 @@||api.academia.edu^*/stats?callback$script,~third-party
 @@||api.perfops.net^$script,xmlhttprequest,domain=dnsperf.com
+@@||api.segment.io/v1/$xmlhttprequest,domain=instacart.com
 @@||api.vidaxl.com^*/trackingservice/customerportal/*?$xmlhttprequest,domain=tracking.vidaxl.com
 @@||arcgis.com^*/heatmap.js
 @@||archive.softwareheritage.org^*/stat/counters/$xmlhttprequest
