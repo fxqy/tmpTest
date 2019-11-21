@@ -104,6 +104,10 @@ function initEvents(){
 		txtb.value=tt;
 	};
 	//testC...
+	_$G("tabc_btn0").onclick=function(){
+		var txtv=_$G("tabc_txts");
+        txtv.value=strCharactCode(txtv.value);
+	};
 	_$G("tabc_btn1").onclick=function(){
 		var txtv=_$G("tabc_txts");
         txtv.value=hex_md5(txtv.value);
