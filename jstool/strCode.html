@@ -3,8 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>test</title>
-		<script type="text/javascript" src="./js/sha256.js"></script>
-		<script type="text/javascript" src="./js/md5.js"></script>
+		<!-- <script type="text/javascript" src="./js/**.js"></script> -->
 	</head>
 	<body>
 
@@ -20,7 +19,8 @@
 			var d = new Date();
 			var x = document.getElementById("demo");
 			var cvl=ecd2Str(d.getTime(),zstr);
-			x.innerHTML=d.getTime()+", "+cvl+", "+dcd2Num("000"+cvl,0,zstr);
+			var prefixStr=zstr.charAt(0)+zstr.charAt(0)+zstr.charAt(0);
+			x.innerHTML=d.getTime()+", "+cvl+", "+dcd2Num(prefixStr+cvl,0,zstr);
 			
 			console.log(d.getTime());
 			console.log(strCharactCode("PasswordTextaaa",32));
@@ -37,34 +37,49 @@
 			var estr=ecpt("{{hello world!的方法士大夫%%发挥更好发挥。，“‘}}","PasswordText111");
 			console.log(estr);
 			console.log(dcpt(estr,"PasswordText111"));
-
+			
 		}
-
+		/**
+		*Encryption
+		* s string
+		* p password
+		* n number of encryption chars
+		*/
 		function ecpt(s,p,n){
             var fxn=n?n:3;
 			p=p?p:"";
 			var z=strCharactCode(p);
 			var r="";
 			for(var i=0,j=0;i<s.length;i++,j++){
-				if(j==16)j=0;
+				if(j==17)j=0;
 				var itm=s.charCodeAt(i)+z.charCodeAt(j);
 				r+=pfxChar(ecd2Str(itm,z),fxn,z.charAt(0));
 			}
 			return r;
 		}
+		/**
+		*Decryption
+		* s encrypted string
+		* p password
+		* n number of encryption chars
+		*/
 		function dcpt(s,p,n){
             var fxn=n?n:3;
 			p=p?p:"";
 			var z=strCharactCode(p);
 			var r="";
 			for(var i=0,j=0;i<s.length;i+=fxn,j++){
-				if(j==16)j=0;
+				if(j==17)j=0;
 				var itm=s.substring(i,i+fxn);
 				r+=String.fromCharCode(dcd2Num(itm,0,z)-z.charCodeAt(j));
 			}
 			return r;
 		}
-		
+		/**
+		*Encode number to string
+		* o number will be encode
+		* list of encode char
+		*/
 		function ecd2Str(o,z){
 			var a = Math.floor(o/z.length);
 			var b = o%z.length;
@@ -74,6 +89,11 @@
 				r=ecd2Str(a,z);
 			return r + c;
 		}
+		/**
+		*Decode string to number
+		* o number will be encode
+		* list of encode char
+		*/
 		function dcd2Num(s,t,z){
 			if(!t)t=0;
 			if(t>s.length-1)return 0;
@@ -81,13 +101,14 @@
 			var b=z.indexOf(a);
 			return b*Math.pow(z.length,t)+dcd2Num(s,t+1,z);
 		}
+		/**
+		*String eigenvalue
+		*/
 		function strCharactCode(s,l){
 			var z="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz".split("");
 			var lnz=z.length;
 			var lns=s.length;
 			var lpn=lns+lnz*3;
-			var oth=Math.floor(lnz/3);
-			var tth=Math.floor(lnz*2/3);
 			for(var i=0,j=0,k=0;i<lpn;i++,j++,k++){
 				if(j==lnz)j=0;
 				if(k==lns)k=0;
@@ -99,18 +120,19 @@
 					itm=s.charCodeAt(k);
 				}
 				var md=itm%lnz;
-				if(md<oth){
-					z.push(z.splice(md,1)[0]);
-				}else if(md>tth){
+				if(md%2==0){
 					z.unshift(z.splice(md,1)[0]);
+					z.push(z.splice(md,1)[0]);
 				}else{
 					z.unshift(z.splice(md,1)[0]);
-					z.push(z.splice(md,1)[0]);
 				}
 			}
 			var r=z.join("");
 			return l?r.substr(0,l):r;
 		}
+		/**
+		* prefix CHar
+		*/
 		function pfxChar(s,l,n){
 			if(s.length<l)return pfxChar((n?n:"0")+s,l,n);
 			return s;
