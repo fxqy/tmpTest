@@ -19,8 +19,9 @@
 			var d = new Date();
 			var x = document.getElementById("demo");
 			var cvl=ecd2Str(d.getTime(),zstr);
-			var prefixStr=zstr.charAt(0)+zstr.charAt(0)+zstr.charAt(0);
-			x.innerHTML=d.getTime()+", "+cvl+", "+dcd2Num(prefixStr+cvl,0,zstr);
+			var ftc=zstr.charAt(0);
+			var prx=ftc+ftc+ftc;
+			x.innerHTML=d.getTime()+", "+cvl+", "+dcd2Num(prx+cvl,0,zstr);
 			
 			console.log(d.getTime());
 			console.log(strCharactCode("PasswordTextaaa",32));
@@ -118,14 +119,12 @@
 					itm=z[j].charCodeAt(0);
 				}else{//capture feature
 					itm=s.charCodeAt(k);
+					var me=itm>>3%lnz;
+					z.unshift(z.splice(me,1)[0]);
 				}
 				var md=itm%lnz;
-				if(md%2==0){
-					z.unshift(z.splice(md,1)[0]);
-					z.push(z.splice(md,1)[0]);
-				}else{
-					z.unshift(z.splice(md,1)[0]);
-				}
+				z.unshift(z.splice(md,1)[0]);
+				z.push(z.splice(md,1)[0]);
 			}
 			var r=z.join("");
 			return l?r.substr(0,l):r;
