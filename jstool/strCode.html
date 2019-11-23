@@ -38,7 +38,7 @@
 			var estr=ecpt("{{hello world!的方法士大夫%%发挥更好发挥。，“‘}}","PasswordText111");
 			console.log(estr);
 			console.log(dcpt(estr,"PasswordText111"));
-			
+
 		}
 		/**
 		*Encryption
@@ -105,30 +105,26 @@
 		/**
 		*String eigenvalue
 		*/
-		function strCharactCode(s,l){
-			var z="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz".split("");
-			var lnz=z.length;
-			var lns=s.length;
-			var lpn=lns+lnz*3;
-			for(var i=0,j=0,k=0;i<lpn;i++,j++,k++){
-				if(j==lnz)j=0;
-				if(k==lns)k=0;
-				var itm;
-				if(i>lns){//magnify the difference
-					z.unshift(z.pop());
-					itm=z[j].charCodeAt(0);
-				}else{//capture feature
-					itm=s.charCodeAt(k);
-					var me=itm>>3%lnz;
-					z.unshift(z.splice(me,1)[0]);
-				}
-				var md=itm%lnz;
-				z.unshift(z.splice(md,1)[0]);
-				z.push(z.splice(md,1)[0]);
-			}
-			var r=z.join("");
-			return l?r.substr(0,l):r;
-		}
+        function strCharactCode(s,l){
+            var z="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+            var lnz=z.length;
+            var lns=s.length;
+            var lpn=lns+lnz;
+            for(var i=0,j=0,k=0;i<lpn;i++){
+                var it;
+                if(i>lns-1){
+                    it=z.charCodeAt(j);
+                    j++;
+                }else{
+                    it=s.charCodeAt(k);
+                    k++;
+                }
+                var m=it*3%lnz;
+                var g=z.charAt(m);
+                z=z.substring(m+1,lnz)+g+z.substring(0,m);
+            }
+            return l?z.substring(0,l):z;
+        }
 		/**
 		* prefix CHar
 		*/
@@ -170,7 +166,8 @@
 			
 		}
 		
-		/**
+		/**backup
+        //java
 		public static String charVal(double o){
 			double a = Math.floor(o/62);
 			int b = (int)Math.floor(o%62);
@@ -198,6 +195,32 @@
 			double n = numVal(s,0);
 			System.out.println(new DecimalFormat("#").format(n));
 		}
+        //js
+        function strCharactCode(s,l){
+            var z="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+            var lnz=z.length;
+            var lns=s.length;
+            var lpn=lns+lnz*0;
+            for(var i=0,j=0,k=0;i<lpn;i++,k++){
+                 if(k==lns)k=0;
+                var it;
+                if(i>lns){
+                    if(j==lnz)j=0;
+                    it=z.charCodeAt(j);
+                    //z=z.substring(23,lnz)+z.substring(0,23);
+                    //j++;
+                }else{
+                    it=s.charCodeAt(k);
+                    //var n=it%lnz;
+                    //var h=z.charAt(n);
+                    //z=z.substring(n+1,lnz)+h+z.substring(0,n);
+                } 
+                var m=it*3%lnz;
+                var g=z.charAt(m);
+                z=z.substring(m+1,lnz)+g+z.substring(0,m);
+            }
+            return l?z.substring(0,l):z;
+        }
 		**/
 	</script>
 
