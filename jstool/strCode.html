@@ -112,14 +112,14 @@
             var lpn=lns+lnz;
             for(var i=0,j=0,k=0;i<lpn;i++){
                 var it;
-                if(i>lns-1){
+                if(i>lns-1){//Magnify the difference
                     it=z.charCodeAt(j);
                     j++;
-                }else{
+                }else{//Capture feature
                     it=s.charCodeAt(k);
                     k++;
                 }
-                var m=it*3%lnz;
+                var m=it*7%lnz;
                 var g=z.charAt(m);
                 z=z.substring(m+1,lnz)+g+z.substring(0,m);
             }
