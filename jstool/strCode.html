@@ -24,7 +24,7 @@
 			x.innerHTML=d.getTime()+", "+cvl+", "+dcd2Num(prx+cvl,0,zstr);
 			
 			console.log(d.getTime());
-			console.log(strCharactCode("PasswordTextaaa",32));
+			console.log(strCharactCode("passwordTextaaa",32));
 			
 			console.log(d.getTime());
 			console.log(strCharactCode("Password123456111134561111111111111345611111345611111345611111111111134561113456111111113456111111134561111111111113456113456111111111111111113456111111111111111134561111345611111111111113456111111111111345611111345611111111111134561111111111111134561111111111113456111111111111111111345611111111111111111111111113456111111111111111111111345611111111111111111111111aaaaaaaaaaaaaaaaaa"));
@@ -119,9 +119,8 @@
                     it=s.charCodeAt(k);
                     k++;
                 }
-                var m=it*7%lnz;
-                var g=z.charAt(m);
-                z=z.substring(m+1,lnz)+g+z.substring(0,m);
+                var m=(it*(it>>3))%lnz;
+                z=z.substring(m+1,lnz)+z.charAt(m)+z.substring(0,m);
             }
             return l?z.substring(0,l):z;
         }
