@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 4i61q4lMsc7JcndwuwsGnw
-! Version: 201911250901
+! Checksum: i22kYRvRUrob2LGXUD6wfA
+! Version: 201911260911
 ! Title: EasyPrivacy
-! Last modified: 25 Nov 2019 09:01 UTC
+! Last modified: 26 Nov 2019 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -417,6 +417,7 @@
 /ad/statistic
 /ad_1_trans.
 /ad_imp.
+/ad_tracking.
 /adam.js
 /AdAppSettings/*
 /adb/track.php?
@@ -1705,6 +1706,8 @@
 /fbpixel.
 /fbpixel/*
 /fcp.gif?
+/fdlogger.
+/fdlogger/*
 /fe/track/*
 /federated-analytics.
 /figanalytics.
@@ -3074,6 +3077,7 @@
 /prime-email-metrics/*$image
 /printpixel.js
 /printtracker.js
+/prismPixel/*
 /prn.google.analytics.
 /prnx_track.
 /pro-ping.php?
@@ -3606,6 +3610,7 @@
 /statistics/metrica.
 /statistics/ping.
 /statistics/set?
+/statistics/statistics.php
 /statistics?counter=
 /statistics?eventType=
 /StatisticService.m?
@@ -3854,6 +3859,7 @@
 /track-compiled.js
 /track-cookies.
 /track-event.
+/track-imp?
 /track-internal-links.
 /track-opening/*
 /track-page-view.
@@ -5708,6 +5714,7 @@ _mongo_stats/
 ||declaredthoughtfulness.co^$third-party
 ||deep.bi^$third-party
 ||deepattention.com^$third-party
+||deepchannel.com^$third-party
 ||dejavu.mlapps.com^$third-party
 ||demandbase.com^$third-party
 ||demdex.net^$third-party
@@ -7094,6 +7101,7 @@ _mongo_stats/
 ||sitereport.org^$third-party
 ||sitestat.com^$third-party
 ||sitestats.live^$third-party
+||siteswithcontent.com^$third-party
 ||sitetag.us^$third-party
 ||sitetagger.co.uk^$third-party
 ||sitetracker.com^$third-party
@@ -10129,6 +10137,7 @@ _mongo_stats/
 ||cx.atdmt.com^
 ||d.rcmd.jp^$image
 ||d.shareaholic.com^
+||d10gj7yjsfriaj.cloudfront.net^
 ||d10lpsik1i8c69.cloudfront.net^
 ||d11a2fzhgzqe7i.cloudfront.net^
 ||d169bbxks24g2u.cloudfront.net^
@@ -12348,6 +12357,8 @@ _mongo_stats/
 ||cafe24.com/weblog.js
 ||log.cizion.com^
 ||log2.adop.cc^
+||mtag.mman.kr^
+||performanceplay.co.kr^
 ||recobell.io/rest/logs?
 ||teralog.techhub.co.kr^
 ||tracking.adweb.co.kr^$third-party
@@ -13197,6 +13208,7 @@ _mongo_stats/
 ||domaintools.com/buffer.pgif?
 ||domaintools.com/tracker.php
 ||dominos.co.uk^*/universal.html?
+||dragonstatic.com/parking/js/track.js
 ||dropbox.com/alternate_
 ||dropbox.com/el/?b=open:
 ||dropbox.com/log/
@@ -13789,6 +13801,7 @@ _mongo_stats/
 ||logs.dashlane.com^
 ||logs.gaana.com^
 ||lolbin.net/stats.php
+||lolwot.com/B5xaqzSGvMTM.js
 ||lovefilm.com/api/ioko/log/
 ||lovefilm.com/lovefilm/images/dot.gif
 ||lovefilm.com^*/lf-perf-beacon.png
@@ -14828,7 +14841,7 @@ _mongo_stats/
 ||track.netzero.net^
 ||track.ning.com^
 ||track.pushbullet.com^
-||track.rediff.com^
+||track.rediff.com^$script
 ||track.searchiq.co^
 ||track.slideshare.net^
 ||track.thesaurus.com^
@@ -14930,6 +14943,7 @@ _mongo_stats/
 ||tscapeplay.com/msvp.php?
 ||tscapeplay.com/pvim?
 ||tsn.ua/svc/video/stat/
+||ttauri.laptopmag.com^
 ||ttauri.tomsguide.com^
 ||ttauri.tomshardware.com^
 ||ttxm.co.uk^*/log.js
@@ -16229,6 +16243,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||naver.com/PostView.nhn?$image
 ||nil.naver.com^
 ||pb.m.naver.com^
+||prism.pandora.tv^
 ||seoul.co.kr/weblog/
 ||sp.naver.com^
 ||track.tiara.daum.net^
@@ -16858,6 +16873,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
 @@||googletagmanager.com/gtm.js?$domain=bunte.de|finanzen.net|saturn.at
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
+@@||ksta.de/cre-1.0/tracking/call.js?$domain=ksta.de
 @@||ksta.de^*/api/tracking/service/ksta/templateclient.js$domain=ksta.de
 @@||ksta.de^*/tracking/tracking.js$domain=ksta.de
 @@||spatialbuzz.com/piwik/piwik.js$domain=spatialbuzz.com
@@ -16975,6 +16991,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 ! Korean
 @@||naver.net/wcslog.js$domain=m.tv.naver.com
+@@||vod.midas-i.com^$media,domain=pandora.tv
 ! Latvian
 @@/webtracking/*$domain=pasts.lv
 @@||eveselibaspunkts.lv/js/global/fingerprint2.min.js?
