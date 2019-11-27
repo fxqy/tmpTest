@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: i22kYRvRUrob2LGXUD6wfA
-! Version: 201911260911
+! Checksum: VDsbqhrmSc3CB07BIXIpiw
+! Version: 201911270901
 ! Title: EasyPrivacy
-! Last modified: 26 Nov 2019 09:11 UTC
+! Last modified: 27 Nov 2019 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1876,6 +1876,7 @@
 /gemius_
 /gemiusAudience.
 /generictracking.
+/geo-ip-detect?
 /geo.php?
 /geoAnalysis.js
 /geocc.
@@ -1883,6 +1884,7 @@
 /geocompteur.
 /geocounter.
 /geoip.html
+/geoip/detect?
 /geoip?
 /geoip_cc
 /geoip_script?
@@ -2133,6 +2135,7 @@
 /imp?*&impId=
 /imp?imgid=
 /imp?sid=
+/imp_check.php
 /imp_cnt.gif?
 /imp_img.php?
 /imppix/*
@@ -2573,6 +2576,7 @@
 /metricsISCS.
 /metrika/*&ident=
 /metrika/*?ident=
+/metrika/tag.js
 /metrika/watch.
 /metrika/watch_
 /metriks/watch.
@@ -4431,6 +4435,7 @@
 /vztrack.gif?
 /vzTracker/*
 /wa01.gif?log=
+/wa?ctag
 /wa_tracker.
 /wa_tracker_
 /wadsAdsLoaded/*
@@ -10103,6 +10108,7 @@ _mongo_stats/
 ||counter.yadro.ru^
 ||counters.freewebs.com^
 ||counters.gigya.com^
+||country.yepshare.com^
 ||cr.loszona.com^$third-party
 ||creativecdn.com/pix/?
 ||creativecdn.com/tags?
@@ -11585,7 +11591,6 @@ _mongo_stats/
 ||traffic.prod.cobaltgroup.com^
 ||traffic.shareaholic.com^
 ||trafficfuelpixel.s3-us-west-2.amazonaws.com^
-||trafficmanager.anyclip.com^
 ||trakksocial.googlecode.com^$third-party
 ||traq.li/tracker/
 ||travel-assets.com/datacapture/
@@ -13332,6 +13337,7 @@ _mongo_stats/
 ||fanatical.com^*/fansp.js
 ||fanfiction.net/eye/
 ||fanhow.com/script/tracker.js
+||fansshare.com/t.gif
 ||fantasticfiction.co.uk/cgi-bin/checker.cgi
 ||fantom-xp.org^*/toprefs.php?
 ||farecompare.com/resources/ga/ga.js

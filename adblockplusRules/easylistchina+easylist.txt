@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0Calw8+E9T9j/lm51bnosg
-! Version: 201911260911
+! Checksum: 5rXujroD0L0vszq9g0s0AA
+! Version: 201911270901
 ! Title: EasyList China+EasyList
-! Last modified: 26 Nov 2019 09:11 UTC
+! Last modified: 27 Nov 2019 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -938,10 +938,13 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+###googleAD3
 ##span[title="neteasefooter"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||xu7b.com^
+||lflucky.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -1028,6 +1031,7 @@ _xiuno_com_ad/
 /V.aspx?Bln=$script,third-party
 /v.php?z=$script,third-party
 /vs.php?id=$third-party,xmlhttprequest
+/vtdd/*.js
 ://*:*/s.php?id=$script,third-party
 :8080/js/v1.js$third-party
 :8080/js/v2.1.js$third-party
@@ -1182,6 +1186,7 @@ ubmcmm.baidustatic.com
 ||23.89.50.180^
 ||23456dj.com^
 ||235123.net^$third-party
+||23dsf.top^
 ||23kmm.com^$third-party
 ||2529.com^$third-party
 ||258pcf.com^
@@ -3597,6 +3602,7 @@ _yad_jsonp_
 ||005.tv:60000/ad.js
 ||007.mx/flv/
 ||007ds.com/js/js/
+||02wq.com/script/down.js
 ||0379home.com/public/js/ad_pic.js
 ||0379home.com/public/js/beside.js
 ||0439.com/wtj/homepage/handler/guangg.ashx?ut=classify
@@ -6464,7 +6470,7 @@ _yad_jsonp_
 ||liangchan.net/aaddaadd/
 ||liangchan.net/adf/
 ||liangjan.com/js/show_
-||lianmeng.la/fgh/
+||lianmeng.la/ghi/
 ||lianmeng.la/layui/layui.js
 ||liantu.cn/script/index.asp
 ||lianyexiuchang.cc/img/2f2372e9bf205df0.png
@@ -6557,6 +6563,7 @@ _yad_jsonp_
 ||m.mianbao99.com/js/detail.js
 ||m.tiebaimg.com/timg?wapp^*imgtype=0$image
 ||m.xigua110.com/js/
+||m.ybstwl.com/public/tpl/m2/js/
 ||m1905.cn/afp/mdsfw.js
 ||m1905.cn/data/suspension_
 ||m1905.cn/images/vod/vod*-90.jpg
@@ -8318,16 +8325,11 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||m.ybstwl.com/public/tpl/m2/js/
-||02wq.com/script/down.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-taobao.com###mainsrp-shopstar
-e0838.com###float-bot
-e0838.com##.ad-txt + A
-onlinedown.net##a.qrcode_show
-onlinedown.net##.gaosu
-eastmoney.com###zwbtextlink
+oschina.net##.index-ad-wrap
+oschina.net##div[name^="index_banner_"]
+ddooo.com##.c_down[onclick*="soft.ddooo."]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -8928,6 +8930,7 @@ comic.qq.com###fixed_right > div
 duba.com###fixedad
 torrentkitty.tv###fixedbanner
 qqread.com###flash310ad
+e0838.com###float-bot
 hahamx.cn###float-left-ad
 speedpan.com###float-window
 fun48.com###float2016
@@ -9238,6 +9241,7 @@ hkgolden.com###mainTopicTable > tbody > tr[id] + tr:not([id])
 zhuwang.cc###main_newad
 mail.pchome.com.tw###main_top_frame
 yimuhe.com###maincontent3 > div[style^="height"]
+taobao.com###mainsrp-shopstar
 map.baidu.com###mapBanner
 wenxuecity.com###marquee
 xmfish.com###marry_laping
@@ -9773,6 +9777,7 @@ gzmama.com###zone_index_fullcolumn_2
 gzmama.com###zone_left_couplet
 gzmama.com###zone_right_couplet
 gzmama.com###zone_top_fullcolumn
+eastmoney.com###zwbtextlink
 jyacht.com###zy_topgg2
 jyacht.com###zyc1r_03
 jyacht.com###zyc1r_05
@@ -9987,6 +9992,7 @@ qq.com##.ad-text-box
 ithome.com.tw##.ad-text-in-middle
 39.net##.ad-tl
 yahoo.com##.ad-tl2b
+e0838.com##.ad-txt + a
 baidu.com##.ad-vip-close
 baidu.com##.ad-vip-close-bottom
 cocomy.net##.ad-well
@@ -10739,6 +10745,8 @@ pctowap.com##.dowap_ads
 3d66.com##.down-adver
 xiaopi.com##.down-list
 mianbao99.com##.downApp
+xiazaiba.com##.downBtn1
+xiazaiba.com##.downBtn2
 fx110.com##.down_Hx
 52pk.com##.down_adv
 gz0668.com##.down_fixed
@@ -10944,6 +10952,7 @@ tvhome.com##.game_Ad
 sina.com.cn##.gamead1
 timeon.cn##.gameads
 qidian.com##.games-op-wrap
+onlinedown.net##.gaosu
 so.com##.garllery_ad
 115.com##.gb-advs
 qzone.qq.com##.gb-bill-area
@@ -11389,7 +11398,6 @@ linux.cn##.linuxcnad
 i.qq.com##.linwei-logo
 i.qq.com##.linwei-txt
 igxe.cn##.lion-flexd
-ddooo.com##.list > li:nth-child(-n+5)
 iciba.com##.list-item > a[href^="http"]:not([href*=".iciba."])
 iciba.com##.list-item > a[href^="http"]:not([href*=".iciba."]) + .list-title
 news.ifeng.com##.list022
@@ -11401,7 +11409,6 @@ nick18.com,niko18.com##.list_ads
 en8848.com.cn##.list_adv
 rsdown.cn##.list_lg
 qunar.com##.list_promotion_bar
-ddooo.com##.listaddr > li:nth-child(-n+5)
 uimaker.com##.listads
 58.com##.listpage_detail
 huaren.tv##.live-client_left
@@ -12572,6 +12579,7 @@ ruanyifeng.com##a > img[src*="wangbase.com/blogimg/asset/"]
 acgnx.se##a > img[src^="/images/"]
 ainuody.com##a > img[src^="http://wx"]
 tieba.baidu.com,wapp.baidu.com##a.fixed_bar
+onlinedown.net##a.qrcode_show
 maiche.com##a.some-img
 chexun.com##a[attr-outside-ad]
 wenku.baidu.com##a[class*="tiger-"][class*="-dialog"]
@@ -17363,18 +17371,18 @@ rvlev.com,t66y.com#?#div:-abp-has(> script + table) h4
 !#webrtc-ads
 $webrtc,domain=195.43.95.234|50.7.31.226|50.7.31.227|50.7.31.228|50.7.31.229|50.7.31.230|cntvboxnow.com|tvboxnow.com
 !#wuhaozhan.net
-baike567.com,wuhaozhan.net##.pure-u-md-8-24 iframe
-baike567.com,wuhaozhan.net##[onclick*="open"]
-baike567.com,wuhaozhan.net##[onclick*=".tb.cn"]
-baike567.com,wuhaozhan.net##a[href*="otb."]
-baike567.com,wuhaozhan.net##DIV[class^="hongbao"]
-baike567.com,wuhaozhan.net##div[id$="eBox"]
-baike567.com,wuhaozhan.net##a[href*=".click"]
-baike567.com,wuhaozhan.net##a[onclick*=".tmall.com"]
 baike567.com,wuhaozhan.net##.aaaaa
-||39.100.192.200/zzz0.png
+baike567.com,wuhaozhan.net##.pure-u-md-8-24 iframe
+baike567.com,wuhaozhan.net##[onclick*=".tb.cn"]
+baike567.com,wuhaozhan.net##[onclick*="open"]
+baike567.com,wuhaozhan.net##a[href*=".click"]
+baike567.com,wuhaozhan.net##a[href*="otb."]
+baike567.com,wuhaozhan.net##a[onclick*=".tmall.com"]
 baike567.com,wuhaozhan.net#?#.l-box:-abp-has(a:-abp-contains(/支付|天猫/))
 baike567.com,wuhaozhan.net#?#:-abp-has(> .ad_top_close)
+baike567.com,wuhaozhan.net##div[class^="hongbao"]
+baike567.com,wuhaozhan.net##div[id$="eBox"]
+||39.100.192.200/zzz0.png
 ||jd.com^$popup,domain=baike567.com|wuhaozhan.net
 ||taobao.com^$popup,domain=baike567.com|wuhaozhan.net
 ||tmall.com^$popup,domain=baike567.com|wuhaozhan.net
@@ -17424,7 +17432,6 @@ thz999.com##style + div[style="margin-bottom:5px"]
 ||withad.cn^
 !----------------------Fixed Fanboy's Social Blocking List--------------------!
 dota2.com.cn#@##bdshare
-ali213.net#@#.subscribe-container
 eastday.com#@##leftShare
 gfan.com,gfan.net.cn#@##shareBox
 sogou.com#@##shareContent
@@ -17457,6 +17464,7 @@ baidusu.com#@#.share-wrapper
 wantgoo.com#@#.shareBtns
 dj92cc.com,djkk.com,tingqq.com#@#.share_list
 laosiji.com#@#.sns-wrapper
+ali213.net#@#.subscribe-container
 5dm.tv#@#.tm-share-this
 fqsousou.com,kengso.com#@#.user-share
 @@-social-bar.$domain=mobi.yahoo.com
@@ -18492,6 +18500,7 @@ fqsousou.com,kengso.com#@#.user-share
 /_scripts/_oas/*
 /_svc/ad/*
 /a-ads.$third-party
+/a/?ad=
 /a/ads/*
 /a/display.php?
 /a1/*?sub=$third-party
@@ -23937,6 +23946,7 @@ fqsousou.com,kengso.com#@#.user-share
 /securepubads.
 /seo-ads.
 /serv.ads.
+/servads.
 /serve.ads.
 /servead.
 /servead/*
@@ -27672,6 +27682,7 @@ _popunder+$popup
 ###ad-sla-sidebar300x250
 ###ad-slideshow
 ###ad-slideshow2
+###ad-slot--leaderboard-bottom
 ###ad-slot-1
 ###ad-slot-2
 ###ad-slot-4
@@ -28996,6 +29007,7 @@ _popunder+$popup
 ###addiv-top
 ###addspaceleft
 ###addspaceright
+###addvertise_area
 ###adfactor-label
 ###adfloat
 ###adfooter
@@ -40804,6 +40816,7 @@ _popunder+$popup
 ##.cmTeaseAdSponsoredLinks
 ##.cm_ads
 ##.cmam_responsive_ad_widget_class
+##.cmc-sidebar-ad
 ##.cmg-ads
 ##.cmi-content-3ads-horizontal
 ##.cms-Advert
@@ -46905,6 +46918,7 @@ _popunder+$popup
 ##a[href^="https://zononi.com/"]
 ##a[onclick*="//m.economictimes.com/etmack/click.htm"]
 ##a[onmousedown^="this.href='/wp-content/embed-ad-content/"]
+##ad-slot--header-banner
 ##aside[id^="adrotate_widgets-"]
 ##aside[id^="advads_ad_widget-"]
 ##aside[id^="div-gpt-ad"]
@@ -48960,6 +48974,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ailanibah.com^$third-party
 ||ailtumty.net^$third-party
 ||aim4media.com^$third-party
+||aimaptair.club^$third-party
 ||aimatch.com^$third-party
 ||aio.media^$third-party
 ||airdauks.net^$third-party
@@ -49036,6 +49051,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||anonymousads.com^$third-party
 ||anrdoezrs.net/image-$third-party
 ||anrdoezrs.net/placeholder-$third-party
+||antdivisitlodg.info^$third-party
 ||antivirustoolext.com^$third-party
 ||anwufkjjja.com^$third-party
 ||anyclip-media.com^$third-party
@@ -49085,6 +49101,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||arecio.work^$third-party
 ||arrassley.info^$third-party
 ||arrowbucket.co^
+||artcamcat.site^$third-party
 ||arti-mediagroup.com^$third-party
 ||articulty.com^$third-party
 ||as-farm.com^$third-party
@@ -50257,6 +50274,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||eroterest.net^$third-party
 ||erovation.com^$third-party
 ||erovinmo.com^$third-party
+||erssamplet.pro^$third-party
 ||erxalim.xyz^$third-party
 ||escalatenetwork.com^$third-party
 ||escale.to^$third-party
@@ -50290,6 +50308,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||evolvenation.com^$third-party
 ||exactdrive.com^$third-party
 ||excellenceads.com^$third-party
+||exchancetaur.info^$third-party
 ||exchange4media.com^$third-party
 ||exdynsrv.com^$third-party
 ||exerciale.com^$third-party
@@ -50645,6 +50664,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||granodiorite.com^$third-party
 ||grapeshot.co.uk^$third-party
 ||gratisnetwork.com^$third-party
+||greatdexchange.com^$third-party
 ||greatedr.com^$third-party
 ||greatusenetoffer.agency^$third-party
 ||greedseed.world^$third-party
@@ -51127,6 +51147,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||klkus.xyz^$third-party
 ||kloapers.com^$third-party
 ||klonedaset.org^$third-party
+||klsdee.com^$third-party
 ||klubityd.online^$third-party
 ||kmnjdcrcfhu.com^$third-party
 ||knorex.asia^$third-party
@@ -51207,6 +51228,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||less-css.site^$third-party
 ||lessonis.com^$third-party
 ||letadnew.com^$third-party
+||letansinevengthat.pro^$third-party
 ||letilyadothejob.com^$third-party
 ||letsgoshopping.tk^$third-party
 ||letuchiycorabl.com^$third-party
@@ -51611,6 +51633,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mylinkbox.com^$third-party
 ||mynativeads.com^$third-party
 ||mynewcarquote.us^$third-party
+||mynunu.net^$third-party
 ||myornamenti.com^$third-party
 ||myplayerhd.net^$third-party
 ||myregeneaf.com^$third-party
@@ -51862,6 +51885,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||onwsys.net^$third-party
 ||oodode.com^$third-party
 ||oodraune.com^$third-party
+||oodsotso.com^$third-party
 ||ooecyaauiz.com^$third-party
 ||oofte.com^$third-party
 ||oopt.fr^$third-party
@@ -52746,6 +52770,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||slimspots.com^$third-party
 ||slimtrade.com^$third-party
 ||slinse.com^$third-party
+||sloansagnersro.com^$third-party
 ||slopeaota.com^$third-party
 ||smac-ssp.com^$third-party
 ||smaclick.com^$third-party
@@ -53123,6 +53148,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||totalprofitplan.com^$third-party
 ||totdorancaltert.club^$third-party
 ||totemcash.com^$third-party
+||totogetica.com^$third-party
 ||towardstelephone.com^$third-party
 ||tower-colocation.de^$third-party
 ||tower-colocation.info^$third-party
@@ -53227,6 +53253,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||trymynewspirit.com^$third-party
 ||trzi30ic.com^$third-party
 ||tsitraty.ru^$third-party
+||tslomhfys.com^$third-party
 ||tsyndicate.com^$third-party
 ||ttzmedia.com^$third-party
 ||tubberlo.com^$third-party
@@ -53381,6 +53408,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||verata.xyz^$third-party
 ||verblife-2.co^$third-party
 ||verblife-3.co^$third-party
+||vernmentbasily.com^$third-party
 ||versahq.com^$third-party
 ||versetime.com^$third-party
 ||vertamedia.com^$third-party
@@ -53572,6 +53600,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||widgetwidget.mobi^$third-party
 ||wigetmedia.com^$third-party
 ||wigetstudios.com^$third-party
+||wilwasharrabred.pro^$third-party
 ||winbuyer.com^$third-party
 ||windowne.info^$third-party
 ||wingads.com^$third-party
@@ -53635,6 +53664,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||xjfjx8hw.com^$third-party
 ||xmasdom.com^$third-party
 ||xmaswrite.com^$third-party
+||xmlads.bid^$third-party
 ||xmlconfig.ltassrv.com^$third-party
 ||xmlmonetize.com^$third-party
 ||xmlwizard.com^$third-party
@@ -60392,6 +60422,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||kmvupiadkzdn.com^$third-party
 ||kmyelzmlkl.bid^$third-party
 ||kmypiwpbastt.com^$third-party
+||knbnejxqn.com^$third-party
 ||knepsiwviviwed.com^$third-party
 ||knimmqli.com^$third-party
 ||knjkdsrw.com^$third-party
@@ -67004,6 +67035,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||yjlocznmvvvtp.com^$third-party
 ||yjlyvrdpnuef.bid^$third-party
 ||yjmpzvoe.bid^$third-party
+||yjnqrbfnocy.com^$third-party
 ||yjoldnbcw.com^$third-party
 ||yjseeodbma.com^$third-party
 ||yjsshralziws.com^$third-party
@@ -68771,6 +68803,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||avalopaly.com^$popup,third-party
 ||awempire.com^$popup,third-party
 ||awsclic.com^$popup,third-party
+||b3z29k1uxb.com^$popup
 ||b54m4qbmt0b9.com^$popup
 ||bargetbook.com^$popup,third-party
 ||baypops.com^$popup,third-party
@@ -68881,6 +68914,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cloudtracked.com^$popup,third-party
 ||clpremdo.com^$popup,third-party
 ||cm.g.doubleclick.net^$popup,third-party
+||cml5egriskie.xyz^$popup
 ||cmllk2.info^$popup,third-party
 ||codeonclick.com^$popup
 ||colleable.info^$popup
@@ -73078,6 +73112,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||urmediazone.com/play?ref=$popup,third-party
 ||virtuagirl.com/landing/$popup,third-party
 ||vkpass.com/*.php?*=$popup,third-party
+||vpnfortorrents.best^$popup
 ||vpnfortorrents.org/?id=$popup,third-party
 ||wealth-at-home-millions.com^$popup,third-party
 ||weeklyprizewinner.com-net.info^$popup
@@ -73829,6 +73864,8 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||davidwalsh.name/demo/tjs
 ||dbs.autolatest.ro^
 ||deshvidesh.com/banner/
+||designtaxi.com/i-combine.php
+||designtaxi.com/small-dt.php$subdocument
 ||diglloyd.com/js2/pub-wide2-ck.js
 ||distrowatch.com/images/k/globbity
 ||dkm6b5q0h53z4.cloudfront.net^
@@ -73905,6 +73942,8 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||hawaiireporter.com^*-300x250.jpg
 ||hawk.pcgamer.com^
 ||herzeleid.com/files/images/banners/
+||hitomi.la/MenTSweep71/
+||hitomi.la/TIoNchommo74.js
 ||holyfamilyradio.org/banners/
 ||homeschoolmath.net/a/
 ||horizonsunlimited.com/alogos/
@@ -73978,6 +74017,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||lens101.com/images/banner.jpg
 ||lespagesjaunesafrique.com/bandeaux/
 ||libertyblitzkrieg.com/wp-content/uploads/2012/09/cc200x300.gif
+||limesurvey.org/images/banners/
 ||linuxinsider.com/images/sda/
 ||linuxtracker.org/images/dw.png
 ||loadingz.com/jflex.js
@@ -74144,7 +74184,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||thewindowsclub.com/detroitchicago/
 ||thewindowsclub.com/porpoiseant/
 ||thisgengaming.com/Scripts/widget2.aspx?id=
-||tilt.heavenmedia.com^$domain=hardwareheaven.com
+||tilt.heavenmedia.com^$domain=esportsheaven.com|hardwareheaven.com
 ||time.com/tgx/mm.min.js
 ||time.com^*/dianomi-
 ||timeout.com/dist/js/adverts-
@@ -75015,13 +75055,13 @@ $media,domain=damimage.com|imagedecode.com|imageteam.org
 ||streamp1ay.me/jquery-1.8.2.min.js$script
 ||streamplay.to^$script,domain=streamplay.to
 ! Powvideo
-$websocket,domain=povvideo.net|powvideo.net|powvldeo.net
-@@||ajax.googleapis.com^$script,third-party,domain=povvideo.net|powvideo.net|powvldeo.net
-@@||code.jquery.com^$script,domain=povvideo.net|powvideo.net|powvldeo.net
-@@||codeorigin.jquery.com^$domain=povvideo.net|powvideo.net|powvldeo.net
-@@||img.powvideo.net/scap/$image,domain=povvideo.net|powvldeo.net
-|http://$image,script,subdocument,third-party,xmlhttprequest,domain=povvideo.net|powvideo.net|powvldeo.net
-|https://$image,script,subdocument,third-party,xmlhttprequest,domain=povvideo.net|powvideo.net|powvldeo.net
+$websocket,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.net
+@@||ajax.googleapis.com^$script,third-party,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.net
+@@||code.jquery.com^$script,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.net
+@@||codeorigin.jquery.com^$domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.net
+@@||img.powvideo.net/scap/$image,domain=povvideo.net|powv1deo.net|powvldeo.net
+|http://$image,script,subdocument,third-party,xmlhttprequest,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.net
+|https://$image,script,subdocument,third-party,xmlhttprequest,domain=povvideo.net|powv1deo.net|powvideo.net|powvldeo.net
 ! cinenews.be/en/
 @@||ajax.googleapis.com^$script,third-party,domain=cinenews.be
 @@||connect.facebook.net^$script,third-party,domain=cinenews.be
@@ -75720,8 +75760,7 @@ bento.de##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][t
 ||f-picture.net/Misc/JumpClick?$popup
 ||fashionsaga.com^$popup,domain=putlocker.is
 ||fidget.twitch.tv^$popup,domain=twitch.tv
-||filecrypt.cc/p.$popup
-||filecrypt.cc/pa.html$popup
+||filecrypt.cc/pax/$popup
 ||filepost.com/default_popup.html$popup
 ||filmon.com^*&adn=$popup
 ||findgrid.com^$popup,domain=amaderforum.com
@@ -75749,6 +75788,7 @@ bento.de##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][t
 ||jizz.best^$popup,domain=vivo.sx
 ||jokertraffic.com^$popup,domain=4fuckr.com
 ||kalemaro.com^$popup,domain=filatak.com
+||kat.vc/*?$popup
 ||kat2.biz/*?$popup
 ||kickass2.biz/*?$popup
 ||leaderdownload.com^$popup,domain=fiberupload.net
@@ -77026,9 +77066,15 @@ infoplease.com###block-ipleaderboardad
 wordreference.com###botSupp
 streamty.com###close-teaser
 lifenews.com###cta
+designtaxi.com###div-center-wrapper
+designtaxi.com###dt-small-sub-2
+designtaxi.com###dt-small-sub-3
 idlebrain.com###footer
 cd1025.com###hp-leader
+designtaxi.com###in-news-link-1
+designtaxi.com###in-news-link-2
 ceoexpress.com###kalamazooDiv
+designtaxi.com###large-screen-notices
 inoreader.com###sinner_container
 compleatgolfer.com###slidein
 washingtonpost.com###slug_leaderboard
@@ -77048,6 +77094,7 @@ novinite.com##.banner300x250
 mamul.am##.bannerb
 teachingchannel.org##.bg-medium-gray
 androidpolice.com##.big-sponsor
+ucas.com##.brick__wrapper
 yahoo.com##.caas-da
 yahoo.com##.caas-sidekick-item.item-beacon
 101greatgoals.com##.cj_expvpn
@@ -77060,6 +77107,7 @@ pcgamer.com##.hawk-widget
 androidcentral.com##.header-top-alert-bar--link
 vg247.com##.leaderboards
 vg247.com##.low-leader-container
+designtaxi.com##.masonry-brick.dynamic-width
 videocelts.com##.mpu
 mashable.com##.mpucnt
 cd1025.com##.partner
@@ -77070,6 +77118,7 @@ indiatimes.com##.primeHookBanner
 ancient.eu##.pub
 thecarconnection.com##.review-continue-text
 coincodex.com##.right-sidebar
+designtaxi.com##.row.displayboard
 howwebiz.ug##.skyscrapper-left
 howwebiz.ug##.skyscrappers-right
 dnsleaktest.com##.sponsor
@@ -77093,6 +77142,7 @@ geekzone.co.nz##a[href="https://gkz1.co/2FgZ9qm"]
 wapinda.in##a[href^="https://c.union.ucweb.com/"]
 mamul.am##a[href^="https://mamul.am/banner/"]
 mirrorace.com##a[href^="https://speedtest.apkelite.com/"]
+esportsheaven.com##a[href^="https://tilt.heavenmedia.com/"]
 thinkmobiles.com##a[href^="https://track.wg-aff.com/"]
 powerlineblog.com##a[href^="https://www.amazon."][href*="tag="]
 yahoo.com##div[class*="js-sponsored-"]
