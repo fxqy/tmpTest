@@ -194,7 +194,7 @@ function strCharactCode(s,l){
 			it=s.charCodeAt(k);
 			k++;
 		}
-		var m=(it*(it>>3))%lnz;
+		var m=it*(it>>3)%lnz;
 		z=z.substring(m+1,lnz)+z.charAt(m)+z.substring(0,m);
 	}
 	return l?z.substring(0,l):z;

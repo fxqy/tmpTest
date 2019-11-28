@@ -8,17 +8,32 @@ var testEles={
 window.onload=function(){
 	var fvw=div({style:'background:#eee;height:100px;'},
 		[
-			p({html:'AAA'},
+			p(
+                {html:'AAA'},
 				[
 					a({html:'A111',onclick:function(){},title:'A111',style:'margin:0 10px;'}),
 					input({type:'text',style:'margin:0  5px;',watch:'testObj.textA'}),
 					input({type:'text',style:'margin:0  5px;',watch:{val:'testObj.textB',fun:function(v){testEles.a222.innerHTML=v}}}),
-                    input({value:888,style:'margin:0  5px;'}),
-					a({html:'A222',onclick:function(){tipCase({msg:'A222 clicked!',flag:1})},title:'A222',style:'margin:0 10px;',init:function(e){testEles.a222=e}})
+					input({value:888,style:'margin:0  5px;'}),br(),
+					input({value:999,style:'margin:0  5px;'}),
+					a({html:'A222',onclick:function(){tipCase({msg:'A222 clicked!',flag:1})},style:'margin:0 10px;',init:'testEles.a222'})
 				]
 			),
-			a({html:'SO',href:'http://so.com'}),
-			span({html:'BBB'})
+            p(
+                {html:'BBB'},
+                [
+                   a({html:'B111',onclick:function(){},style:'margin:0 10px;'}),
+                   a({html:'B222',onclick:function(){},style:'margin:0 10px;',
+                        onclick:function(){
+                            pnlCase({width:300, height:80, title:'消息', content:'message2', btns:['确定','取消']});
+                        }
+                   }),
+                   btn({html:'Btn1',onclick:function(){pnlCase({width:300, height:80, title:'消息', content:'message1', btns:['确定'], fun1:function(){alert('b111');return 1}})}}),
+                   btn({html:'Btn2',onclick:function(){tipCase({msg:'A222 clicked!',flag:1})}})
+                ]
+            ),
+			a({html:'SO',href:'http://so.com'}),br(),
+			span({html:'DDD'})
 		]
 	);
 	document.body.appendChild(fvw);
@@ -36,7 +51,7 @@ function tag(tagName,prop,children){
 		}else if(i.indexOf('on')==0){
 			e[i]=it;
 		}else if(i=='init'){
-			it.call(e,e);
+			eleInit(e,it);
 		}else if(i=='watch'){
 			valWatch(e,it);
 		}else{
@@ -50,6 +65,21 @@ function tag(tagName,prop,children){
 	}
 	return e;
 }
+function eleInit(e,it){
+    if(typeof it=='function'){
+        it.call(e,e.value);
+        return;     
+    }
+    var s=(typeof it=='string')?it:it.val;
+    var m,n;
+    var indx=s.lastIndexOf('.');
+    if(indx>0){m=s.substring(0,indx);n=s.substring(indx+1,s.length)}
+    else{m='window';n=s}
+    var obj=eval('('+m+')');
+    obj[n]=e;
+    if(it.fun)it.fun.call(e,e.value);
+}
+
 function valWatch(e,it){
 	var s=(typeof it=='string')?it:it.val;
     var m,n;
@@ -116,9 +146,18 @@ function input(prop,children){
 function textarea(prop,children){
 	return tag('textarea',prop,children);
 }
-
+function btn(prop,children){
+    prop.style='display:inline-block;cursor:pointer;text-decoration:none;padding:2px 6px;margin:0 3px;'+
+                'text-align:center;text-shadow:0 1px 1px rgba(150,150,150,0.5);color:#555;'+
+                'background-color:#f5f5f5;background-image:linear-gradient(to bottom,#fff,#e6e6e6);'+
+                'border:1px solid #bbb;border-color:#e6e6e6 #e6e6e6 #bfbfbf;border-bottom-color:#a2a2a2;border-radius:3px;'+
+                'box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);';
+    prop.onmouseover=function(){this.style.opacity=0.5}
+    prop.onmouseout=function(){this.style.opacity=1}
+   return tag('a',prop,children); 
+}
 /**test**/
-function tipView(opt){
+function tipCase(opt){
 	var vw=div(
 		{
 			clazz:'tip_holder',style:'position:fixed;background:#000;border-radius:3px;text-align:center;',
@@ -135,17 +174,80 @@ function tipView(opt){
 			})
 		]
 	);
-	return vw;
-}
-function tipCase(opt){
-	var vw=tipView(opt);
 	document.body.appendChild(vw);
 	var psz=pgsz();
 	vw.style.left=(psz[0]-vw.offsetWidth)/2+"px";
 	vw.style.top=(psz[1]-vw.offsetHeight)/2+"px";
 	if(!opt.flag)setTimeout(function(){vw.outerHTML=""},1500);
 }
-
+function pnlCase(opt){
+	var psz=pgsz();
+	var w=psz[0];
+	var h=psz[1];
+	var btns=[];
+	var vw,pbox;
+	if(opt.btns){
+		for(var i=0;i<opt.btns.length;i++){
+			btns.push(btn({ html:opt.btns[i],indx:i+1,
+                onclick:function(){
+                    var f=opt['fun'+this.getAttribute('indx')];
+                    if(f){
+                        if(f.call(this))vw.outerHTML='';
+                    }else{
+                        vw.outerHTML='';
+                    }
+                } 
+            }));
+		}
+	}
+	vw=div(
+            {clazz:'pnl_holder',style:'font-family:Microsoft Yahei,Heiti,arial,helvetica,sans-serif,SimHei;font-size:12px;'},
+            [
+                div({
+                    clazz:'pnl_clay',style:'position:fixed;left:0;top:0;width:'+w+'px;height:'+h+'px;background:#fafafa;opacity:0.7;'
+                }),
+                div({
+                        clazz:'pnl_box',style:'position:fixed;border-radius:4px;background:#fff;border:1px solid #cdcdcd;',
+                        init:function(){pbox=this}
+                    },
+                    [
+                        div({
+                                clazz:'pnl_hed',style:'height:16px;padding:5px;background:#efefef;border-bottom:1px solid #cdcdcd;border-radius:4px 4px 0 0;',
+                            },
+                            [
+                                span({
+                                    clazz:'pnl_tit',style:'margin:0;line-height:15px;text-shadow:0 1px 1px rgba(150,150,150,0.5);',html:opt.title
+                                }),
+                                a({
+                                    clazz:'pnl_x',style:'display:inline-block;cursor:pointer;float:right;text-decoration:none;color:red;opacity:0.5;',html:'×',
+                                    onclick:function(){vw.outerHTML=''},
+                                    onmouseover:function(){this.style.opacity=1},
+                                    onmouseout:function(){this.style.opacity=0.5}
+                                })
+                            ]
+                        ),
+                        div({
+                            clazz:'pnl_bod',
+                            style:'padding:5px;overflow:auto;height:'+opt.height+'px;width:'+opt.width+'px;',
+                            html:(typeof opt.content =='string')?opt.content:''
+                        },(typeof opt.content =='object')?[opt.content]:[]),
+                        div({
+                            clazz:'pnl_fot',style:'padding:3px 5px;text-align:right;background:#f5f5f5;border-top:1px solid #ddd;border-radius: 0 0 4px 4px;box-shadow:inset 0 1px 0 #fff;'
+                        },btns)
+                    ]
+                )
+            ]
+        );
+    document.body.appendChild(vw);
+	pbox.style.left=(psz[0]-pbox.offsetWidth)/2+"px";
+	pbox.style.top=(psz[1]-pbox.offsetHeight)/2+"px";
+}
+function alertCase(msg){
+	return pnlCase({width:300, height:80, title:'消息', content:msg, btns:['确定']});
+}
+function confirmCase(msg,f){
+	return pnlCase({width:300, height:80, title:'消息', content:msg, btns:['确定'], fun1:f});
+}
 function pgsz(){
 	var dmd=document.compatMode=="CSS1Compat";
 	var r=new Array();
