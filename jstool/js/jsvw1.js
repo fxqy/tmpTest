@@ -1,6 +1,7 @@
 ﻿var testObj={
 	textA:'',
-    textB:''
+    textB:'',
+    svalC:''
 };
 var testEles={
     a222:null
@@ -12,10 +13,18 @@ window.onload=function(){
                 {html:'AAA'},
 				[
 					a({html:'A111',onclick:function(){},title:'A111',style:'margin:0 10px;'}),
-					input({type:'text',style:'margin:0  5px;',watch:'testObj.textA'}),
-					input({type:'text',style:'margin:0  5px;',watch:{val:'testObj.textB',fun:function(v){testEles.a222.innerHTML=v}}}),
-					input({value:888,style:'margin:0  5px;'}),br(),
-					input({value:999,style:'margin:0  5px;'}),
+					input({style:'margin:0  5px;',watch:'testObj.textA'}),
+					input({style:'margin:0  5px;',watch:{val:'testObj.textB',fun:function(v){testEles.a222.innerHTML=v}}}),
+					input({style:'margin:0  5px;'}),br(),
+					input({style:'margin:0  5px;'}),
+                    select(
+                        {watch:{val:'testObj.svalC',fun:function(v){testEles.a222.innerHTML=v}}},
+                        [
+                            option({value:1,html:'AAA'}),
+                            option({value:2,html:'BBB'}),
+                            option({value:3,html:'CCC'})
+                        ]
+                    ),
 					a({html:'A222',onclick:function(){tipCase({msg:'A222 clicked!',flag:1})},style:'margin:0 10px;',init:'testEles.a222'})
 				]
 			),
@@ -58,6 +67,7 @@ function tag(tagName,prop,children){
 			e.setAttribute(i,it);
 		}
 	}
+    e.children=children;
 	for(var i in children){
 		var it=children[i];
 		if(!it)continue;
@@ -71,34 +81,38 @@ function eleInit(e,it){
         return;     
     }
     var s=(typeof it=='string')?it:it.val;
-    var m,n;
-    var indx=s.lastIndexOf('.');
-    if(indx>0){m=s.substring(0,indx);n=s.substring(indx+1,s.length)}
-    else{m='window';n=s}
-    var obj=eval('('+m+')');
-    obj[n]=e;
+     if(s){
+        var m,n;
+        var indx=s.lastIndexOf('.');
+        if(indx>0){m=s.substring(0,indx);n=s.substring(indx+1,s.length)}
+        else{m='window';n=s}
+        var obj=eval('('+m+')');
+        obj[n]=e;
+     }
     if(it.fun)it.fun.call(e,e.value);
 }
 
 function valWatch(e,it){
 	var s=(typeof it=='string')?it:it.val;
-    var m,n;
-    var indx=s.lastIndexOf('.');
-    if(indx>0){m=s.substring(0,indx);n=s.substring(indx+1,s.length)}
-    else{m='window';n=s}
-    var obj=eval('('+m+')');
-	Object.defineProperty(obj, n, {
-		set:function(v){
-            e.value=v;
-            if(it.fun)it.fun.call(e,v);
-		},
-        get:function(){
-            return e.value;
-        }
-	});
+    if(s){
+        var m,n;
+        var indx=s.lastIndexOf('.');
+        if(indx>0){m=s.substring(0,indx);n=s.substring(indx+1,s.length)}
+        else{m='window';n=s}
+        var obj=eval('('+m+')');
+        Object.defineProperty(obj, n, {
+            set:function(v){
+                e.value=v;
+                if(it.fun)it.fun.call(e,v,1);
+            },
+            get:function(){
+                return e.value;
+            }
+        });
+    }
     if(it.fun){
-        e.onchange=function(){it.fun.call(this,e.value)}
-        e.onkeyup=function(){it.fun.call(this,e.value)}
+        e.onchange=function(){it.fun.call(this,e.value,2)}
+        e.onkeyup=function(){it.fun.call(this,e.value,2)}
     }
 }
 /**
@@ -145,6 +159,12 @@ function input(prop,children){
 }
 function textarea(prop,children){
 	return tag('textarea',prop,children);
+}
+function select(prop,children){
+	return tag('select',prop,children);
+}
+function option(prop,children){
+	return tag('option',prop,children);
 }
 function btn(prop,children){
     prop.style='display:inline-block;cursor:pointer;text-decoration:none;padding:2px 6px;margin:0 3px;'+
