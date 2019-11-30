@@ -16,9 +16,9 @@ window.onload=function(){
 					input({style:'margin:0  5px;',watch:'testObj.textA'}),
 					input({style:'margin:0  5px;',watch:{val:'testObj.textB',fun:function(v){testEles.a222.innerHTML=v}}}),
 					input({style:'margin:0  5px;'}),br(),
-					input({style:'margin:0  5px;'}),
+					input({style:'margin:0  5px;width:200px;height:25px;padding:0px;'}),
                     select(
-                        {watch:{val:'testObj.svalC',fun:function(v){testEles.a222.innerHTML=v}}},
+                        {watch:{val:'testObj.svalC',fun:function(v){testEles.a222.innerHTML=v}}, style:'width:200px;height:25px;margin:0px;padding:0px;'},
                         [
                             option({value:1,html:'AAA'}),
                             option({value:2,html:'BBB'}),
@@ -37,7 +37,13 @@ window.onload=function(){
                             pnlCase({width:300, height:80, title:'消息', content:'message2', btns:['确定','取消']});
                         }
                    }),
-                   btn({html:'Btn1',onclick:function(){pnlCase({width:300, height:80, title:'消息', content:'message1', btns:['确定'], fun1:function(){alert('b111');return 1}})}}),
+                   btn({html:'Btn1',
+                       onclick:function(){
+                           pnlCase({width:300, height:80, title:'消息', content:'message1', btns:['确定'],
+                                fun1:function(){tipCase({msg:'A222 clicked!',flag:1})}
+                           })
+                       }
+                   }),
                    btn({html:'Btn2',onclick:function(){tipCase({msg:'A222 clicked!',flag:1})}})
                 ]
             ),
@@ -197,7 +203,8 @@ function tipCase(opt){
 	document.body.appendChild(vw);
 	var psz=pgsz();
 	vw.style.left=(psz[0]-vw.offsetWidth)/2+"px";
-	vw.style.top=(psz[1]-vw.offsetHeight)/2+"px";
+    var top=0.8*psz[1]-vw.offsetHeight;
+	vw.style.top=(top>0?top:1)/2+"px";
 	if(!opt.flag)setTimeout(function(){vw.outerHTML=""},1500);
 }
 function pnlCase(opt){
@@ -260,7 +267,8 @@ function pnlCase(opt){
         );
     document.body.appendChild(vw);
 	pbox.style.left=(psz[0]-pbox.offsetWidth)/2+"px";
-	pbox.style.top=(psz[1]-pbox.offsetHeight)/2+"px";
+	var top=0.8*psz[1]-pbox.offsetHeight;
+	pbox.style.top=(top>0?top:1)/2+"px";
 }
 function alertCase(msg){
 	return pnlCase({width:300, height:80, title:'消息', content:msg, btns:['确定']});

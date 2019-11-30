@@ -174,7 +174,8 @@ function tipCase(option){
 	var mcttw=parseInt(mctt.offsetWidth);
 	var mctth=parseInt(mctt.offsetHeight);
 	mctt.style.left=(pgw/2-(mcttw/2))+"px";
-	mctt.style.top=(pgh/2-(mctth/2))+"px";
+    var mtop=0.8*pgh-mctth;
+	mctt.style.top=(mtop>0?mtop:1)/2+"px";
 	if(mcov)_$FadeIn({ele:mcov,to:70});
 	_$FadeIn({ele:mctt});
 	if(_$Null(option.period))option.period=1500;
@@ -312,15 +313,15 @@ function panelCase(option){
 
 	clay.style.width=pgw+"px";
 	clay.style.height=pgh+"px";
-	mbox.style.left=(pgw/2-(mboxw/2))+"px";
+	mbox.style.left=(pgw-mboxw)/2+"px";
 	mbox.style.top=-10000+"px";
 	_$Q("#cfmBox_body",mbox).style.maxHeight=pgh-5+"px";
 	mbox.style.display="block";
 	clay.style.display="block";
 	var mboxht=parseInt(mbox.offsetHeight);
-	var mboxposy=(pgh/2-(mboxht/2));
-	//_$MoveDu(mbox,20,mboxposy-50,mboxposy);
-	mbox.style.top=mboxposy+"px";
+	var mtop=0.8*pgh-mboxht;
+	//_$MoveDu(mbox,20,mtop-50,mtop);
+	mbox.style.top=(mtop>0?mtop:1)/2+"px";
 	_$FadeIn({ele:clay,to:70});
 	_$FadeIn({ele:mbox,afun:function(){if(option.onshow)option.onshow.call(mbox,mboxbody)}});
 	
