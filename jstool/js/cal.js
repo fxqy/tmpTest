@@ -31,39 +31,60 @@ var nldt = [
 window.onload=function(){
 	var vw=div();
 	document.body.appendChild(vw);
-    console.log(getNYMInfo(2019,12));
+    console.log(getNYInfo(2020));
+    var ndt=getNYMDInfo(2017,7,28);
+    console.log(ndt);
+    var fd=parseInt(ndt.ndy/10);
+    var xd=ndt.ndy%10;
+    console.log(ndt.f+"-"+ndt.mh+"-"+ndt.dy+": "+(ndt.g?'闰':'')+NY[ndt.nmh]+"月"+NR[fd]+XQ[xd+1]);
 
 }
-function getNYMInfo(yr,mh){
+function getNYMDInfo(yr,mh,dy){
+    if(!dy)dy=1;
     var r={};
     var yi=getNYInfo(yr);
-    if(mh*100+1<yi.d){
-       yi=getNYInfo(yr-1);    
+    if(mh*100+dy<yi.d){
+        yr=yr-1;
+       yi=getNYInfo(yr);    
     }
+    r.a=yi.a;
+    r.b=yi.b;
+    r.c=yi.c;
+    r.d=yi.d;
+    r.e=yi.e;
     var dte=new Date();
     dte.setYear(yr);
     dte.setMonth(yi.d/100-1);
     dte.setDate(yi.d%100);
-    console.log(dte.toLocaleString());
-    console.log("-------------------");
-    var i=dte.getDate();
-    var nmh=0,ndy=0;
-    var k=0;
-    do{
+    dte.setHours(13,0,0,0);
+    var i=dte.getTime();
+    var nmh=0,ndy=0,rbl=0;
+    while(1){
        var bl=yi.a.charAt(nmh)==1?29:28;
-       if(ndy>bl){
-           ndy=0;
-           nmh++;
+       if(yi.c>0&&nmh+1==yi.c&&rbl==0){
+           bl=yi.b?29:28;
        }
-       dte.setDate(i);
-       i++;
+       if(ndy>bl){
+           if(yi.c>0&&nmh+1==yi.c&&rbl==0){
+                r.g=1;
+                rbl++;
+           }else{
+                r.g=0;
+                nmh++;
+           }
+           ndy=0;
+       }
+       dte.setTime(i);
+       console.log((nmh+1)+"-"+(ndy+1));
+       if(dte.getMonth()+1==mh&&dte.getDate()==dy)break;
+       i+=86400000;
        ndy++;
-       k++;
-       console.log(dte.toLocaleString());
-       if(dte.getMonth()+1==mh&&dte.getDate()==1)break;
-    }while(true);
-    console.log(k);
-    console.log(nmh+"-"+ndy);
+    }
+    r.f=yr;
+    r.mh=mh;
+    r.dy=dy;
+    r.nmh=nmh;
+    r.ndy=ndy;
     return r;
 }
 function getNYInfo(yr){
@@ -74,6 +95,7 @@ function getNYInfo(yr){
     r.b=a>>12&0x0F;
     r.c=a>>8&0x0F;
     r.d=a&0xFF;
+    r.e=yr;
     return r;
 }
 function pfxChar(s,l,n){
