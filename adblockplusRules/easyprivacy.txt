@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: W17FP1e2KJR6SxOlDnBdCw
-! Version: 201912020901
+! Checksum: 0zRkgssaBf2rUHc4BGy/kQ
+! Version: 201912030851
 ! Title: EasyPrivacy
-! Last modified: 02 Dec 2019 09:01 UTC
+! Last modified: 03 Dec 2019 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3827,6 +3827,7 @@
 /tide_stat.js
 /timeslog.
 /timestrend_
+/timingcg.
 /tiwik.
 /tjp_beacon.
 /tmpstats.gif?
@@ -11117,6 +11118,7 @@ _mongo_stats/
 ||radiotime.com/Report.ashx?
 ||radiotime.com/reports/
 ||ramp.purch.com^
+||rapidspike.com/rum/
 ||raygun.io/events?
 ||rbl.ms/res/users/tracking/
 ||rc.rlcdn.com^
@@ -16275,7 +16277,9 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||prism.pandora.tv^
 ||seoul.co.kr/weblog/
 ||sp.naver.com^
+||stat.tiara.kakao.com^
 ||track.tiara.daum.net^
+||track.tiara.kakao.com^
 ||tracker.cauly.co.kr^
 ||veta.naver.com^
 ||wcs.naver.com^
@@ -16640,6 +16644,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||dw.cbsi.com/anonc.js$domain=gamespot.com|giantbomb.com
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|gamespot.com|tv.com
 @@||e2e-comms.pearson.com/osbrowserchecker/prd/thirdPartyCookie.html?$subdocument,domain=pearsonmylabandmastering.com
+@@||ec.europa.eu^*/piwik.js
 @@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|capitalone.com|caranddriver.com|cart.autodesk.com|citizensbank.com|dell.com|france24.com|homedepot.com|hp.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|zales.com
 @@||ensighten.com^*/code/$script
 @@||ensighten.com^*/scode/$script,domain=norton.com
@@ -16996,6 +17001,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=la7.it|sky.it|video.corriere.it
 @@||imrworldwide.com/v60.js$domain=corriereadriatico.it|fanpage.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|leggo.it|quotidianodipuglia.it
 @@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it
+@@||mediaworld.it^*/GoogleTagManager.js?
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=vodafone.it
 @@||paginegialle.it/js/shinystat.js
 @@||panorama.it/wp-content/themes/panorama/js/google-nielsen-analytics.js?
@@ -17022,6 +17028,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 ! Korean
+@@||daumcdn.net/tiara/js/v1/tiara.min.js$domain=tv.kakao.com
 @@||naver.net/wcslog.js$domain=m.tv.naver.com
 @@||vod.midas-i.com^$media,domain=pandora.tv
 ! Latvian
