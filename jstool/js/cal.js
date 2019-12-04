@@ -32,14 +32,15 @@ window.onload=function(){
 	var vw=div();
 	document.body.appendChild(vw);
     console.log(getNYInfo(2020));
-    var ndt=getNYMDInfo(2017,7,28);
+    var ndt=getNYMDInfo(2020,12,17);
     console.log(ndt);
-    var fd=parseInt(ndt.ndy/10);
+    var fd=parseInt((ndt.ndy+1)/10);
     var xd=ndt.ndy%10;
+    console.log(ndt.ndy+", "+fd);
     console.log(ndt.f+"-"+ndt.mh+"-"+ndt.dy+": "+(ndt.g?'闰':'')+NY[ndt.nmh]+"月"+NR[fd]+XQ[xd+1]);
 
 }
-function getNYMDInfo(yr,mh,dy){
+function getNYMDInfo(yr,mh,dy,fun){
     if(!dy)dy=1;
     var r={};
     var yi=getNYInfo(yr);
@@ -61,7 +62,7 @@ function getNYMDInfo(yr,mh,dy){
     var nmh=0,ndy=0,rbl=0;
     while(1){
        var bl=yi.a.charAt(nmh)==1?29:28;
-       if(yi.c>0&&nmh+1==yi.c&&rbl==0){
+       if(yi.c>0&&nmh+1==yi.c&&rbl>0){
            bl=yi.b?29:28;
        }
        if(ndy>bl){
@@ -75,16 +76,17 @@ function getNYMDInfo(yr,mh,dy){
            ndy=0;
        }
        dte.setTime(i);
-       console.log((nmh+1)+"-"+(ndy+1));
+       //console.log((nmh+1)+"-"+(ndy+1));
+       r.f=yr;
+       r.mh=mh;
+       r.dy=dy;
+       r.nmh=nmh;
+       r.ndy=ndy;
+       if(fun)fun.call(null,r);
        if(dte.getMonth()+1==mh&&dte.getDate()==dy)break;
        i+=86400000;
        ndy++;
     }
-    r.f=yr;
-    r.mh=mh;
-    r.dy=dy;
-    r.nmh=nmh;
-    r.ndy=ndy;
     return r;
 }
 function getNYInfo(yr){
