@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 0zRkgssaBf2rUHc4BGy/kQ
-! Version: 201912030851
+! Checksum: ZJu/DpgNm6tIVfpEgJ/Aew
+! Version: 201912040851
 ! Title: EasyPrivacy
-! Last modified: 03 Dec 2019 08:51 UTC
+! Last modified: 04 Dec 2019 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1781,6 +1781,7 @@
 /ga-se-async.js
 /ga-socialtracker.
 /ga-targets.js
+/ga-track-
 /ga-track.
 /ga-tracker.
 /ga-tracking-
@@ -3504,6 +3505,7 @@
 /socialButtonTracker.
 /SocialSharingTracking.
 /SocialTrack_
+/socialTracking.js
 /socialtracking.min.js
 /softclick.js
 /softpage/stats_registerhit.asp?
@@ -4088,6 +4090,8 @@
 /tracking/index.
 /tracking/json2.
 /tracking/log.php?
+/tracking/log?
+/tracking/logFinish?
 /tracking/open?
 /tracking/pageview.
 /tracking/partner_
@@ -4663,6 +4667,7 @@
 ://adclear.*/acc?
 ://adclear.*/acv?
 ://analytics.*/collect?
+://analytics.*/page_entry
 ://analytics.*/tracker.
 ://anx.*/anx.gif?
 ://apex.*/apexTarget?
@@ -5456,6 +5461,7 @@ _mongo_stats/
 ||brilig.com^$third-party
 ||bronto.com^$third-party
 ||browser-statistik.de^$third-party
+||browser-update.org^$third-party
 ||brsrvr.com^$third-party
 ||bstk.co^$third-party
 ||bstn-14-ma.com^$third-party
@@ -6161,6 +6167,7 @@ _mongo_stats/
 ||hoststats.info^$third-party
 ||hotdogsandads.com^$third-party
 ||hotjar.com^$third-party
+||hotjar.io^$third-party
 ||hotlog.ru^$third-party
 ||hqhrt.com^$third-party
 ||hs-analytics.net^$third-party
@@ -6912,6 +6919,7 @@ _mongo_stats/
 ||realtracking.ninja^$third-party
 ||realytics.io^$third-party
 ||realzeit.io^$third-party
+||reciteme.com^$third-party
 ||recoset.com^$third-party
 ||recruitics.com^$third-party
 ||redcounter.net^$third-party
@@ -7112,6 +7120,7 @@ _mongo_stats/
 ||sitecompass.com^$third-party
 ||siteimprove.com^$third-party
 ||siteimproveanalytics.com^$third-party
+||siteimproveanalytics.io^$third-party
 ||sitelabweb.com^$third-party
 ||sitelinktrack.com^$third-party
 ||sitemeter.com^$third-party
@@ -7160,6 +7169,7 @@ _mongo_stats/
 ||sociaplus.com^$third-party
 ||socketanalytics.com^$third-party
 ||socketviking.net^$third-party
+||socsi.in^$third-party
 ||sodoit.com^$third-party
 ||soflopxl.com^$third-party
 ||softonic-analytics.net^$third-party
@@ -7709,6 +7719,7 @@ _mongo_stats/
 ||zdtag.com^$third-party
 ||zedwhyex.com^$third-party
 ||zeerat.com^$third-party
+||zengenti.com^$third-party
 ||zenlivestats.com^$third-party
 ||zeotap.com^$third-party
 ||zesep.com^$third-party
@@ -12763,6 +12774,7 @@ _mongo_stats/
 ||analytics.jabong.com^
 ||analytics.kaggle.io^
 ||analytics.localytics.com^
+||analytics.meaww.com^
 ||analytics.mindjolt.com^
 ||analytics.newsinc.com^
 ||analytics.ngfiles.com^
