@@ -4,7 +4,7 @@ var DZ = "子丑寅卯辰巳午未申酉戌亥";
 var SX = "鼠牛虎兔龙蛇马羊猴鸡狗猪";
 var JQ = ["小寒", "大寒", "立春", "雨水", "惊蛰", "春分", "清明", "谷雨", "立夏", "小满", "芒种", "夏至", "小暑", "大暑", "立秋", "处暑", "白露", "秋分", "寒露", "霜降", "立冬", "小雪", "大雪", "冬至"];
 var XQ = "日一二三四五六七八九十";
-var NY = ["正", "二", "三", "四", "五", "六", "七", "八", "九", "十", "十一", "腊"];
+var NY = ["正", "二", "三", "四", "五", "六", "七", "八", "九", "十", "冬", "腊"];
 var NR = "初十廿卅";
 var nldt = [
     0xAB500D2,0x4BD0883,0x4AE00DB,0xA5700D0,0x54D0581,0xD2600D8,0xD9500CC,0x655147D,0x56A00D5,0x9AD00CA,
@@ -28,17 +28,87 @@ var nldt = [
     0x52B00CA,0xB27037A,0x69300D1,0x7330781,0x6AA00D9,0xAD500CE,0x4B5157E,0x4B600D6,0xA5700CB,0x54E047C,
     0xD1600D2,0xE960882,0xD5200DA,0xDAA00CF,0x6AA167F,0x56D00D7,0x4AE00CD,0xA9D047D,0xA2D00D4,0xD1500C9,
     0xF250279,0xD5200D1];
+var calVwo={
+    csty:null,
+    cstm:null,
+    ctbl:null
+} 
 window.onload=function(){
-	var vw=div();
+    var now=new Date();
+	var vw=div({},[
+        div({clazz:'head'},[
+            select({init:'calVwo.csty'},(function(){
+                var yarr=[];
+                for(var i=1900;i<2101;i++){
+                    yarr.push(option({html:i+'年',value:i,selected:i==now.getFullYear()?1:0}));
+                }
+                return yarr;
+            })()),
+            select({init:'calVwo.cstm',
+                onchange:function(){
+                    calVwo.ctbl.innerHTML='';
+                    calVwo.ctbl.appendChild(tbody({},genCalTrs()));
+                }},(function(){
+                    var marr=[];
+                    for(var i=1;i<13;i++){
+                        marr.push(option({html:i+'月',value:i,selected:i==(now.getMonth()+1)?1:0}));
+                    }
+                    return marr;
+                })()
+            )
+        ]),
+        div({},[
+            table({init:'calVwo.ctbl'},[
+                tbody({},genCalTrs())
+            ])
+        ])
+    ]);
 	document.body.appendChild(vw);
+
     console.log(getNYInfo(2020));
-    var ndt=getNYMDInfo(2020,12,17);
+    var ndt=getNYMDInfo(1988,7,28);
     console.log(ndt);
     var fd=parseInt((ndt.ndy+1)/10);
     var xd=ndt.ndy%10;
     console.log(ndt.ndy+", "+fd);
     console.log(ndt.f+"-"+ndt.mh+"-"+ndt.dy+": "+(ndt.g?'闰':'')+NY[ndt.nmh]+"月"+NR[fd]+XQ[xd+1]);
 
+}
+function genCalTrs(){
+    var cyr=calVwo.csty.value;
+    var cmh=calVwo.cstm.value;
+    var r=[];
+    var dte=new Date();
+    dte.setFullYear(cyr);
+    dte.setMonth(cmh-1);
+    dte.setDate(1);
+    var fwk=dte.getDay();
+    fwk=fwk==0?6:fwk-1;
+    if(fwk!=0)dte.setTime(dte.getTime()-fwk*86400000);
+    console.log(dte.toLocaleString()+"<---");
+    var i=0;
+    var trar=[];
+    while(true){
+       fwk=dte.getDay();
+       fwk=fwk==0?6:fwk-1;
+       if(fwk==0&&i>0){
+           r.push(tr({},trar));
+           trar=[];
+       }
+       if(dte.getMonth()+1!=cmh&&fwk==0&&i>0){break;}
+       var tdcor=cmh-1==dte.getMonth()?'green':'#aaa';
+       var tdsty='width:50px;height:50px;text-align:center;border:2px solid '+tdcor+';color:'+tdcor+';';
+       var ndt=getNYMDInfo(dte.getFullYear(),dte.getMonth()+1,dte.getDate());
+       var fd=parseInt((ndt.ndy+1)/10);
+       var xd=ndt.ndy%10;
+       var nstr=ndt.ndy==0?((ndt.g?'闰':'')+NY[ndt.nmh]+"月"):(NR[fd]+XQ[xd+1]);
+       trar.push(td({html:dte.getDate()+'<br/>'+nstr,style:tdsty}));
+       console.log(dte.toLocaleString());
+       dte.setTime(dte.getTime()+86400000);
+       i++;
+    }
+    console.log(r);
+    return r;
 }
 function getNYMDInfo(yr,mh,dy,fun){
     if(!dy)dy=1;
@@ -57,10 +127,9 @@ function getNYMDInfo(yr,mh,dy,fun){
     dte.setYear(yr);
     dte.setMonth(yi.d/100-1);
     dte.setDate(yi.d%100);
-    dte.setHours(13,0,0,0);
     var i=dte.getTime();
     var nmh=0,ndy=0,rbl=0;
-    while(1){
+    while(true){
        var bl=yi.a.charAt(nmh)==1?29:28;
        if(yi.c>0&&nmh+1==yi.c&&rbl>0){
            bl=yi.b?29:28;
