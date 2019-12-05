@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ZJu/DpgNm6tIVfpEgJ/Aew
-! Version: 201912040851
+! Checksum: IyOMnITea+DD3N3gD1ks8w
+! Version: 201912050851
 ! Title: EasyPrivacy
-! Last modified: 04 Dec 2019 08:51 UTC
+! Last modified: 05 Dec 2019 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2287,6 +2287,7 @@
 /js_tracker.
 /js_tracking?
 /jscounter.
+/jscript/dwac-
 /jserrLog?
 /jslogger.php?ref=
 /jsnlog.js
@@ -4399,6 +4400,7 @@
 /VisitCounter.
 /VisitLog.asmx
 /visitor-event?
+/visitor-js/?
 /Visitor.aspx?
 /visitor.cgi?aff
 /visitor.gif?ts=
@@ -6547,6 +6549,7 @@ _mongo_stats/
 ||monstat.com^$third-party
 ||monu.delivery^$third-party
 ||mooseway.com^$third-party
+||mopinion.com^$third-party
 ||motrixi.com^$third-party
 ||mouse3k.com^$third-party
 ||mouseflow.com^$third-party
@@ -7272,7 +7275,9 @@ _mongo_stats/
 ||successfultogether.co.uk^$third-party
 ||summerhamster.com^$third-party
 ||summitemarketinganalytics.com^$third-party
+||sumo.com^$third-party
 ||sumologic.com^$third-party,domain=~sumologic.net
+||sumome.com^$third-party
 ||supercounters.com^$third-party
 ||superstats.com^$third-party
 ||supert.ag^$third-party
@@ -9640,6 +9645,7 @@ _mongo_stats/
 ||aklamio.com/ovlbtntrk?
 ||aksb-a.akamaihd.net^
 ||alenty.com/trk/
+||alex.leonard.ie/misc-images/transparent.png
 ||alexa.com/minisiteinfo/$third-party
 ||alexa.com/traffic/
 ||alexandria.marfeelcdn.com^
@@ -11361,10 +11367,6 @@ _mongo_stats/
 ||su.pr/hosted_js$third-party
 ||sugarops.com/w?action=impression$third-party
 ||sulia.com/papi/sulia_partner.js/$third-party
-||sumo.com/api/event/
-||sumo.com/apps/heatmaps/
-||sumome.com/api/event/?
-||sumome.com/apps/heatmaps/
 ||sundaysky.com/sst.gif?
 ||sundaysky.com/vop/$third-party
 ||survey.interquest.com^
@@ -16715,6 +16717,10 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||lightningmaps.org^*/piwik.js
 @@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
 @@||logging.apache.org^$domain=apache.org
+@@||marketo.com/index.php/form/$subdocument
+@@||marketo.com/js/forms2/$stylesheet
+@@||marketo.com/jsloader/*/loader.php.js$script
+@@||marketo.com^$script,stylesheet,subdocument,domain=awscloud.com
 @@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
 @@||maxmind.com^*/geoip2.js$domain=boostedboards.com|elgato.com|fallout4.com|filld.com|metronews.ca|mtv.com.lb|runningheroes.com|teslamotors.com
