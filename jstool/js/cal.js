@@ -5,7 +5,16 @@ var SX = "鼠牛虎兔龙蛇马羊猴鸡狗猪";
 var JQ = ["小寒", "大寒", "立春", "雨水", "惊蛰", "春分", "清明", "谷雨", "立夏", "小满", "芒种", "夏至", "小暑", "大暑", "立秋", "处暑", "白露", "秋分", "寒露", "霜降", "立冬", "小雪", "大雪", "冬至"];
 var XQ = "日一二三四五六七八九十";
 var NY = ["正", "二", "三", "四", "五", "六", "七", "八", "九", "十", "冬", "腊"];
-var NR = "初十廿卅";
+var NR = "初十廿三";
+var CALHOLI={
+    "1-1":"元旦","3-8":"妇女节","4-1":"愚人节","5-1":"劳动节","5-4":"青年节",
+    "6-1":"儿童节","9-10":"教师节","10-1":"国庆节","12-25":"圣诞节"
+};
+var LUNHOLI={
+    "1-1":"春节","1-15":"元宵节","2-2":"龙抬头","5-5":"端午节","7-7":"七夕节",
+    "7-15":"中元节","8-15":"中秋节","9-9":"重阳节","12-8":"腊八节","12-24":"小年"
+};
+var TF = [0,21208,42467,63836,85337,107014,128867,150921,173149,195551,218072,240693,263343,285989,308563,331033,353350,375494,397447,419210,440795,462224,483532,504758];
 var nldt = [
     0xAB500D2,0x4BD0883,0x4AE00DB,0xA5700D0,0x54D0581,0xD2600D8,0xD9500CC,0x655147D,0x56A00D5,0x9AD00CA,
     0x55D027A,0x4AE00D2,0xA5B0682,0xA4D00DA,0xD2500CE,0xD25157E,0xB5500D6,0x56A00CC,0xADA027B,0x95B00D3,
@@ -35,19 +44,24 @@ var calVwo={
 } 
 window.onload=function(){
     var now=new Date();
-	var vw=div({},[
-        div({clazz:'head'},[
-            select({init:'calVwo.csty'},(function(){
-                var yarr=[];
-                for(var i=1900;i<2101;i++){
-                    yarr.push(option({html:i+'年',value:i,selected:i==now.getFullYear()?1:0}));
-                }
-                return yarr;
-            })()),
+ 	var vw=div({},[
+        div({clazz:'calhead'},[
+            select({init:'calVwo.csty',
+                onchange:function(){
+                    calVwo.ctbl.innerHTML='';
+                    calVwo.ctbl.appendChild(tbody({style:'background:rgba(250,250,250,0.3)'},genCalTrs()));
+                }},(function(){
+                    var yarr=[];
+                    for(var i=1900;i<2101;i++){
+                        yarr.push(option({html:i+'年',value:i,selected:i==now.getFullYear()?1:0}));
+                    }
+                    return yarr;
+                })()
+            ),
             select({init:'calVwo.cstm',
                 onchange:function(){
                     calVwo.ctbl.innerHTML='';
-                    calVwo.ctbl.appendChild(tbody({},genCalTrs()));
+                    calVwo.ctbl.appendChild(tbody({style:'background:rgba(250,250,250,0.3)'},genCalTrs()));
                 }},(function(){
                     var marr=[];
                     for(var i=1;i<13;i++){
@@ -56,28 +70,39 @@ window.onload=function(){
                     return marr;
                 })()
             )
-        ]),
-        div({},[
-            table({init:'calVwo.ctbl'},[
-                tbody({},genCalTrs())
+        ]),br(),
+        div({clazz:'calbody'},[
+            table({init:'calVwo.ctbl',style:'width:auto;border-radius:2px;box-shadow:0px 0px 2px 2px rgba(66,121,175,0.3);'},[
+                tbody({style:'background:rgba(240,245,250,0.2)'},genCalTrs())
             ])
         ])
     ]);
 	document.body.appendChild(vw);
-
-    console.log(getNYInfo(2020));
-    var ndt=getNYMDInfo(1988,7,28);
+    /**
+    var ndt=lunarKeep(2020,6,20);
     console.log(ndt);
     var fd=parseInt((ndt.ndy+1)/10);
     var xd=ndt.ndy%10;
-    console.log(ndt.ndy+", "+fd);
-    console.log(ndt.f+"-"+ndt.mh+"-"+ndt.dy+": "+(ndt.g?'闰':'')+NY[ndt.nmh]+"月"+NR[fd]+XQ[xd+1]);
+    console.log(ndt.yr+"-"+ndt.mh+"-"+ndt.dy+": "+(ndt.g?'闰':'')+NY[ndt.nmh]+"月"+NR[fd]+XQ[xd+1]);
+    
+    var ndt1=lunarKeep(2020,6,21,ndt);
+    console.log(ndt1);
+    var fd1=parseInt((ndt1.ndy+1)/10);
+    var xd1=ndt1.ndy%10;
+    console.log(ndt1.yr+"-"+ndt1.mh+"-"+ndt1.dy+": "+(ndt1.g?'闰':'')+NY[ndt1.nmh]+"月"+NR[fd1]+XQ[xd1+1]);
+    **/
 
 }
 function genCalTrs(){
     var cyr=calVwo.csty.value;
     var cmh=calVwo.cstm.value;
     var r=[];
+    var it=[];
+    for(var i=1;i<8;i++){
+        it.push(td({html:XQ[i<7?i:0],style:'height:30px;color:#4279AF;text-align:center;'}));
+    }
+    r.push(tr({},it));
+    var now=new Date();
     var dte=new Date();
     dte.setFullYear(cyr);
     dte.setMonth(cmh-1);
@@ -85,9 +110,9 @@ function genCalTrs(){
     var fwk=dte.getDay();
     fwk=fwk==0?6:fwk-1;
     if(fwk!=0)dte.setTime(dte.getTime()-fwk*86400000);
-    console.log(dte.toLocaleString()+"<---");
     var i=0;
     var trar=[];
+    var ndt;
     while(true){
        fwk=dte.getDay();
        fwk=fwk==0?6:fwk-1;
@@ -95,40 +120,75 @@ function genCalTrs(){
            r.push(tr({},trar));
            trar=[];
        }
-       if(dte.getMonth()+1!=cmh&&fwk==0&&i>0){break;}
-       var tdcor=cmh-1==dte.getMonth()?'green':'#aaa';
-       var tdsty='width:50px;height:50px;text-align:center;border:2px solid '+tdcor+';color:'+tdcor+';';
-       var ndt=getNYMDInfo(dte.getFullYear(),dte.getMonth()+1,dte.getDate());
-       var fd=parseInt((ndt.ndy+1)/10);
-       var xd=ndt.ndy%10;
-       var nstr=ndt.ndy==0?((ndt.g?'闰':'')+NY[ndt.nmh]+"月"):(NR[fd]+XQ[xd+1]);
+       if(dte.getMonth()+1!=cmh&&fwk==0&&i>0&&r.length>6){break;}
+       
+       ndt=lunarKeep(dte.getFullYear(),dte.getMonth()+1,dte.getDate(),ndt);
+       var nstr=getCalHoliday(dte,ndt);
+       if(!nstr){
+           var fd=parseInt((ndt.ndy+1)/10);
+           var xd=ndt.ndy%10;
+           if(fd==1&&xd==9)fd=0;
+           nstr=ndt.ndy==0?((ndt.g?'闰':'')+NY[ndt.nmh]+"月"):(NR[fd]+XQ[xd+1]);
+       }
+       
+       var tdcor=cmh-1==dte.getMonth()?'#4279AF':'#ccc';
+       var tdsty='width:80px;height:80px;border-radius:3px;text-align:center;border:'+(cmh-1==dte.getMonth()?'0':'0')+'px solid '+tdcor+';color:'+tdcor+';';
+       if(now.getFullYear()==dte.getFullYear()&&now.getMonth()==dte.getMonth()&&now.getDate()==dte.getDate())tdsty+='background:#E5F3FF;';
+       if(cmh-1==dte.getMonth()){
+           tdsty+='box-shadow:0px 0px 1px 1px rgba(188,188,188,0.3);';
+       }
        trar.push(td({html:dte.getDate()+'<br/>'+nstr,style:tdsty}));
-       console.log(dte.toLocaleString());
        dte.setTime(dte.getTime()+86400000);
        i++;
     }
-    console.log(r);
     return r;
 }
-function getNYMDInfo(yr,mh,dy,fun){
+function getCalHoliday(dte,ndt){
+    var tfd={};
+    for(var i=0;i<24;i++){
+        var tfday=getLunar24(dte.getFullYear(),i);    
+        if(tfday.getMonth()==dte.getMonth()&&tfday.getUTCDate()==dte.getDate()){
+            return JQ[i];
+        }
+    }
+    var lkey=(ndt.nmh+1)+'-'+(ndt.ndy+1);
+    var lstr=LUNHOLI[lkey];
+    if((ndt.h&&lkey=='12-30')||(ndt.h==0&&lkey=='12-29'))lstr='除夕';
+    if(lstr)return lstr;
+    var cstr=CALHOLI[(dte.getMonth()+1)+'-'+(dte.getDate())];
+    if(cstr)return cstr;
+    return null;
+}
+
+function lunarKeep(yr,mh,dy,rt){
     if(!dy)dy=1;
     var r={};
-    var yi=getNYInfo(yr);
+    var dte=new Date();
+    var nmh=0,ndy=0;
+    var rbl=0;
+    var yi=getLunarInfo(yr);
     if(mh*100+dy<yi.d){
-        yr=yr-1;
-       yi=getNYInfo(yr);    
+       yi=getLunarInfo(yr-1);    
+    }
+    if(rt&&yi.e==rt.e&&rt.d==yi.d){
+        dte.setYear(rt.yr);
+        dte.setMonth(rt.mh-1);
+        dte.setDate(rt.dy);
+        dte.setTime(dte.getTime()+86400000);
+        ndy=rt.ndy+1;
+        nmh=rt.nmh;
+        rbl=rt.rbl;
+    }else{
+        dte.setYear(yi.e);
+        dte.setMonth(yi.d/100-1);
+        dte.setDate(yi.d%100);
     }
     r.a=yi.a;
     r.b=yi.b;
     r.c=yi.c;
     r.d=yi.d;
     r.e=yi.e;
-    var dte=new Date();
-    dte.setYear(yr);
-    dte.setMonth(yi.d/100-1);
-    dte.setDate(yi.d%100);
     var i=dte.getTime();
-    var nmh=0,ndy=0,rbl=0;
     while(true){
        var bl=yi.a.charAt(nmh)==1?29:28;
        if(yi.c>0&&nmh+1==yi.c&&rbl>0){
@@ -142,23 +202,24 @@ function getNYMDInfo(yr,mh,dy,fun){
                 r.g=0;
                 nmh++;
            }
+           if(nmh>11)nmh=0;
            ndy=0;
        }
        dte.setTime(i);
-       //console.log((nmh+1)+"-"+(ndy+1));
-       r.f=yr;
-       r.mh=mh;
-       r.dy=dy;
+       r.yr=dte.getFullYear();
+       r.mh=dte.getMonth()+1;
+       r.dy=dte.getDate();
        r.nmh=nmh;
        r.ndy=ndy;
-       if(fun)fun.call(null,r);
+       r.rbl=rbl;
+       r.h=bl>28?1:0;
        if(dte.getMonth()+1==mh&&dte.getDate()==dy)break;
        i+=86400000;
        ndy++;
     }
-    return r;
+    return r;       
 }
-function getNYInfo(yr){
+function getLunarInfo(yr){
     var r={};
     var a=nldt[yr-1899];
     var b=(a>>16).toString(2);
@@ -168,6 +229,9 @@ function getNYInfo(yr){
     r.d=a&0xFF;
     r.e=yr;
     return r;
+}
+function getLunar24(y,n) {
+    return new Date((31556925974.7*(y-1900) + TF[n]*60000)+Date.UTC(1900,0,6,2,5));
 }
 function pfxChar(s,l,n){
     if(s.length<l)return pfxChar((n?n:"0")+s,l,n);
