@@ -1,4 +1,4 @@
-﻿//https://www.cnblogs.com/qintangtao/archive/2013/03/01/2938887.html
+//https://www.cnblogs.com/qintangtao/archive/2013/03/01/2938887.html
 var TG = "甲乙丙丁戊己庚辛壬癸";
 var DZ = "子丑寅卯辰巳午未申酉戌亥";
 var SX = "鼠牛虎兔龙蛇马羊猴鸡狗猪";
@@ -66,7 +66,7 @@ window.onload=function(){
                 }},(function(){
                     var marr=[];
                     for(var i=1;i<13;i++){
-                        marr.push(option({html:i+'月',value:i,selected:i==(now.getMonth()+1)?1:0}));
+                        marr.push(option({html:i+'月',value:i,selected:i==now.getMonth()+1?1:0}));
                     }
                     return marr;
                 })()
@@ -81,20 +81,32 @@ window.onload=function(){
 	document.body.appendChild(vw);
     
     /**
-    var ndt=lunarDate(2020,6,20);
+    var ndt=lunarKeep(2020,6,20);
     console.log(ndt);
     var fd=parseInt((ndt.ndy+1)/10);
     var xd=ndt.ndy%10;
     console.log(ndt.yr+"-"+ndt.mh+"-"+ndt.dy+": "+(ndt.g?'闰':'')+NY[ndt.nmh]+"月"+NR[fd]+XQ[xd+1]);
     
-    var ndt1=lunarDate(2020,6,21,ndt);
+    var ndt1=lunarKeep(2020,6,21,ndt);
     console.log(ndt1);
     var fd1=parseInt((ndt1.ndy+1)/10);
     var xd1=ndt1.ndy%10;
     console.log(ndt1.yr+"-"+ndt1.mh+"-"+ndt1.dy+": "+(ndt1.g?'闰':'')+NY[ndt1.nmh]+"月"+NR[fd1]+XQ[xd1+1]);
     **/
+    /**
+     var ndt2=getLunarDate(2020,12,8);
+    console.log(ndt2);
+    var fd2=parseInt((ndt2.nd+1)/10);
+    var xd2=ndt2.nd%10;
+    console.log((ndt2.g?'闰':'')+NY[ndt2.nm]+"月"+NR[fd2]+XQ[xd2+1]);
+    **/
+    
+    var dt1=new Date();dt1.setFullYear(1988);dt1.setMonth(1);dt1.setDate(17);dt1.setHours(0);
+    var dt2=new Date();dt2.setFullYear(1988);dt2.setMonth(3);dt2.setDate(11);dt2.setHours(0);
+    console.log((dt2.getTime()-dt1.getTime())/86400000);
     
 }
+/**获取日历行*/
 function genCalTrs(){
     var cyr=calVwo.csty.value;
     var cmh=calVwo.cstm.value;
@@ -123,16 +135,16 @@ function genCalTrs(){
            trar=[];
        }
        if(dte.getMonth()+1!=cmh&&fwk==0&&i>0&&r.length>6){break;}
-       
-       ndt=lunarDate(dte.getFullYear(),dte.getMonth()+1,dte.getDate(),ndt);
+
+       ndt=getLunarDate(dte.getFullYear(),dte.getMonth()+1,dte.getDate());
        var nstr=getCalHoliday(dte,ndt);
        if(!nstr){
-           var fd=parseInt((ndt.ndy+1)/10);
-           var xd=ndt.ndy%10;
+           var fd=parseInt((ndt.nd+1)/10);
+           var xd=ndt.nd%10;
            if(fd==1&&xd==9)fd=0;
-           nstr=ndt.ndy==0?((ndt.g?'闰':'')+NY[ndt.nmh]+"月"):(NR[fd]+XQ[xd+1]);
+           nstr=ndt.nd==0?((ndt.g?'闰':'')+NY[ndt.nm]+"月"):(NR[fd]+XQ[xd+1]);
        }
-       
+
        var tdcor=cmh-1==dte.getMonth()?'#4279AF':'#ccc';
        var tdsty='width:80px;height:80px;border-radius:3px;text-align:center;border:'+(cmh-1==dte.getMonth()?'0':'0')+'px solid '+tdcor+';color:'+tdcor+';';
        if(now.getFullYear()==dte.getFullYear()&&now.getMonth()==dte.getMonth()&&now.getDate()==dte.getDate())tdsty+='background:#E5F3FF;';
@@ -145,6 +157,7 @@ function genCalTrs(){
     }
     return r;
 }
+/**处理节假日显示*/
 function getCalHoliday(dte,ndt){
     for(var i=0;i<24;i++){
         var tfday=getLunar24(dte.getFullYear(),i);    
@@ -152,7 +165,7 @@ function getCalHoliday(dte,ndt){
             return JQ[i];
         }
     }
-    var lkey=(ndt.nmh+1)+'-'+(ndt.ndy+1);
+    var lkey=(ndt.nm+1)+'-'+(ndt.nd+1);
     var lstr=LUNHOLI[lkey];
     if((ndt.h&&lkey=='12-30')||(ndt.h==0&&lkey=='12-29'))lstr='除夕';
     if(lstr)return lstr;
@@ -160,67 +173,48 @@ function getCalHoliday(dte,ndt){
     if(cstr)return cstr;
     return null;
 }
-
-function lunarDate(yr,mh,dy,rt){
+/**给定公历日期计算农历日期**/
+function getLunarDate(yr,mh,dy){
     if(!dy)dy=1;
-    var r={};
-    var dte=new Date();
-    var nmh=0,ndy=0;
-    var rbl=0;
-    var yi=getLunarInfo(yr);
-    if(mh*100+dy<yi.d){
-       yi=getLunarInfo(yr-1);    
+    var lyi=getLunarInfo(yr);
+    if(mh*100+dy<lyi.d){
+       lyi=getLunarInfo(yr-1);    
     }
-    if(rt&&yi.e==rt.e&&rt.d==yi.d){
-        dte.setYear(rt.yr);
-        dte.setMonth(rt.mh-1);
-        dte.setDate(rt.dy);
-        dte.setTime(dte.getTime()+86400000);
-        ndy=rt.ndy+1;
-        nmh=rt.nmh;
-        rbl=rt.rbl?rt.rbl:0;
-    }else{
-        dte.setYear(yi.e);
-        dte.setMonth(yi.d/100-1);
-        dte.setDate(yi.d%100);
-    }
-    r.a=yi.a;
-    r.b=yi.b;
-    r.c=yi.c;
-    r.d=yi.d;
-    r.e=yi.e;
-    var i=dte.getTime();
-    while(true){
-       var bl=yi.a.charAt(nmh)==1?29:28;
-       if(yi.c>0&&nmh+1==yi.c&&rbl>0){
-           bl=yi.b?29:28;
-       }
-       if(ndy>bl){
-           if(yi.c>0&&nmh+1==yi.c&&rbl==0){
+    console.log(lyi);
+    /**计算相差天数**/
+    var x=lyi.e,y=parseInt(lyi.d/100),z=lyi.d%100;
+    var dt1=new Date();dt1.setFullYear(x);dt1.setMonth(y-1);dt1.setDate(z);dt1.setHours(0);dt1.setMinutes(0);dt1.setSeconds(0);dt1.setMilliseconds(0);
+    var dt2=new Date();dt2.setFullYear(yr);dt2.setMonth(mh-1);dt2.setDate(dy);dt2.setHours(0);dt2.setMinutes(0);dt2.setSeconds(0);dt2.setMilliseconds(0);
+    var dys=parseInt((dt2.getTime()-dt1.getTime())/86400000);
+    console.log(dys)
+    /**计算农历**/
+    var r={ny:x};
+    var nm=0,nd=0,lds,rbl=0;
+    while(dys>0){//(相差天数 - 各农历月份) 直到溢出
+        lds=geLunartMonthDays(nm+1,lyi.a,lyi.b,lyi.c,rbl);
+        if(nm+1==lyi.c){
+            if(rbl==1){
+                rbl=0;
+                nm++;
                 r.g=1;
-                rbl++;
-           }else{
-                r.g=0;
-                nmh++;
-           }
-           if(nmh>11)nmh=0;
-           ndy=0;
-       }
-       dte.setTime(i);
-       r.yr=dte.getFullYear();
-       r.mh=dte.getMonth()+1;
-       r.dy=dte.getDate();
-       r.nmh=nmh;
-       r.ndy=ndy;
-       r.rbl=rbl;
-       r.h=bl>28?1:0;
-       if(dte.getMonth()+1==mh&&dte.getDate()==dy)break;
-       i+=86400000;
-       ndy++;
+            }else{
+                rbl=1; 
+            } 
+        }else{
+           nm++; 
+        }
+        dys-=lds;
+        
     }
-    return r;       
+    if(dys<0){//处理溢出天数
+        nm--;
+        nd=lds+dys;  
+    }
+    r.nm=nm;
+    r.nd=nd;
+    r.h=lds>29?1:0;
+    return r;
 }
-
 /**查表获取农历基础信息**/
 function getLunarInfo(yr){
     var r={};
@@ -234,12 +228,12 @@ function getLunarInfo(yr){
     return r;
 }
 /**农历月份天数**/
-function geLunartMonthDays(m,a,b,c){
+function geLunartMonthDays(m,a,b,c,bol){
     var r=29;
-    if(a.charAt(m-1)>0)r==30;
-    if(c==m){
-        if(b>0)r==30;
-        else r==29;
+    if(a.charAt(m-1)>0)r=30;
+    if(c>0&&bol>0){
+        if(b>0)r=30;
+        else r=29;
     }
     return r;
 }
