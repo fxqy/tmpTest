@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: HJe280z5O8lgtU5lJSwTxw
-! Version: 201912081531
+! Checksum: f/bbENdCgkO6apJP70rO/A
+! Version: 201912090911
 ! Title: EasyPrivacy
-! Last modified: 08 Dec 2019 15:31 UTC
+! Last modified: 09 Dec 2019 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4426,6 +4426,7 @@
 /visitor/segment?*=
 /VisitorAPI.js
 /visitorCookie.
+/visitorcountry.svc/*
 /VisitorIdentification.js
 /visitortrack?
 /visitortracker.pl?
@@ -5627,6 +5628,7 @@ _mongo_stats/
 ||codata.ru^$third-party
 ||cogmatch.net^$third-party
 ||cognitivematch.com^$third-party
+||cohesionapps.com^$third-party
 ||collarity.com^$third-party
 ||collserve.com^$third-party
 ||colossusssp.com^$third-party
@@ -7034,6 +7036,7 @@ _mongo_stats/
 ||rztrkr.com^$third-party
 ||s-onetag.com^$third-party
 ||s3s-main.net^$third-party
+||s7target.ru^$third-party
 ||safe-click.net^$third-party
 ||sageanalyst.net^$third-party
 ||sajari.com^$third-party
@@ -8204,7 +8207,6 @@ _mongo_stats/
 ||mytestminer.xyz^
 ||nabaza.com^$third-party
 ||nablabee.com^$third-party
-||nahnoji.cz^$third-party
 ||najsiejfnc.win^
 ||nametraff.com^$third-party
 ||nathetsof.com^$third-party
@@ -8489,6 +8491,7 @@ _mongo_stats/
 ||petiteumbrella.com^$third-party
 ||photographpan.com^$third-party
 ||pietexture.com^$third-party
+||plantdigestion.com^$third-party
 ||profusesupport.com^$third-party
 ||puffyloss.com^$third-party
 ||puffypull.com^$third-party
@@ -11375,6 +11378,7 @@ _mongo_stats/
 ||stats.webstarts.com^$third-party
 ||stats.whicdn.com^$third-party
 ||stats.wp.com^
+||stats.wpmucdn.com^
 ||stats.yme.com^
 ||stats.yourminis.com^
 ||stats.zotabox.com^
@@ -13179,6 +13183,7 @@ _mongo_stats/
 ||coveritlive.com/1/sts/view?
 ||cpt.itv.com^
 ||cr-eec.etp-prod.com^$xmlhttprequest,domain=crunchyroll.com
+||cr.org^*/tracking.js
 ||cracked.com/tracking/
 ||crackle.com/tracking/
 ||creativecommons.org/elog/
@@ -13585,6 +13590,7 @@ _mongo_stats/
 ||hdzog.com/js/1308.js
 ||healthcarejobsite.com/Common/JavaScript/functions.tracking.js
 ||healthgrades.com/api/ComScorePageView
+||healthline.com/api/metrics
 ||heapanalytics.com/h?$image
 ||heartbeat.flickr.com^
 ||helium.com/javascripts/helium-beacons.js
@@ -14194,6 +14200,7 @@ _mongo_stats/
 ||pinterest.com/_/_/report/
 ||pipeline.realtime.active.com^
 ||pipl.com/rd/?
+||pistyll.bleacherreport.com^
 ||pix.eads.com^
 ||pix.gfycat.com^
 ||pix.nbcuni.com^
@@ -16284,6 +16291,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||videogame.it/a/logview/
 ||virgilio.it/clientinfo.gif?
 ||volkswagen-italia.it^*/tracking/
+||vvvvid.it^$ping
 ||yachtingnetwork.it/stat/
 ! Japanese
 ||amazonaws.com/ai-img/aia.js
@@ -16668,6 +16676,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||calpinesolutions.com/assets/gtm/gtm.js$script
 @@||cbc.ca/g/stats/js/cbc-stats-top.js$~third-party
 @@||cbsinteractive.com^*/lib/tracking/comscore/$script
+@@||cbsistatic.com^*/dw-tracking-1.0.js$domain=techrepublic.com
 @@||cdn-care.com/js/analytics/$script,domain=care.com
 @@||cdn-care.com/js/vendor/yarn_components/amplitude-js/amplitude.min.js$script,domain=care.com
 @@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com|imageshack.com
@@ -17198,6 +17207,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||google-analytics.com/analytics.js$domain=tradera.com|xxl.se
 @@||google-analytics.com/plugins/ua/ec.js$domain=xxl.se
 @@||googletagmanager.com/gtm.js?id=$domain=tradera.com|xxl.se
+@@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
 @@||picsearch.com/js/comscore.js$domain=dn.se
 @@||reseguiden.se^*.siteCatalyst.js
 ! Thai
