@@ -199,17 +199,14 @@ function getLunarDate(yr,mh,dy){
             if(rbl==1){
                 rbl=0;
                 nm++;
-                r.g=1;
             }else{
                 rbl=1;
-                r.g=0;
             } 
         }else{
            nm++;
-           r.g=0;
         }
         dys-=lds;
-        
+        r.g=rbl;
     }
     if(dys<0){//处理溢出天数
         nm--;
