@@ -79,20 +79,6 @@ window.onload=function(){
         ])
     ]);
 	document.body.appendChild(vw);
-    
-    /**
-    var ndt=lunarKeep(2020,6,20);
-    console.log(ndt);
-    var fd=parseInt((ndt.ndy+1)/10);
-    var xd=ndt.ndy%10;
-    console.log(ndt.yr+"-"+ndt.mh+"-"+ndt.dy+": "+(ndt.g?'闰':'')+NY[ndt.nmh]+"月"+NR[fd]+XQ[xd+1]);
-    
-    var ndt1=lunarKeep(2020,6,21,ndt);
-    console.log(ndt1);
-    var fd1=parseInt((ndt1.ndy+1)/10);
-    var xd1=ndt1.ndy%10;
-    console.log(ndt1.yr+"-"+ndt1.mh+"-"+ndt1.dy+": "+(ndt1.g?'闰':'')+NY[ndt1.nmh]+"月"+NR[fd1]+XQ[xd1+1]);
-    **/
     /**
      var ndt2=getLunarDate(2020,12,8);
     console.log(ndt2);
@@ -100,10 +86,11 @@ window.onload=function(){
     var xd2=ndt2.nd%10;
     console.log((ndt2.g?'闰':'')+NY[ndt2.nm]+"月"+NR[fd2]+XQ[xd2+1]);
     **/
-    
+    /**
     var dt1=new Date();dt1.setFullYear(1988);dt1.setMonth(1);dt1.setDate(17);dt1.setHours(0);
     var dt2=new Date();dt2.setFullYear(1988);dt2.setMonth(3);dt2.setDate(11);dt2.setHours(0);
     console.log((dt2.getTime()-dt1.getTime())/86400000);
+    **/
     
 }
 /**获取日历行*/
@@ -180,28 +167,46 @@ function getLunarDate(yr,mh,dy){
     if(mh*100+dy<lyi.d){
        lyi=getLunarInfo(yr-1);    
     }
-    console.log(lyi);
-    /**计算相差天数**/
     var x=lyi.e,y=parseInt(lyi.d/100),z=lyi.d%100;
+    /**计算相差天数**/
+    /**
+    console.log(yr+"-"+mh+"-"+dy);
+    console.log(x+"-"+y+"-"+z);
     var dt1=new Date();dt1.setFullYear(x);dt1.setMonth(y-1);dt1.setDate(z);dt1.setHours(0);dt1.setMinutes(0);dt1.setSeconds(0);dt1.setMilliseconds(0);
     var dt2=new Date();dt2.setFullYear(yr);dt2.setMonth(mh-1);dt2.setDate(dy);dt2.setHours(0);dt2.setMinutes(0);dt2.setSeconds(0);dt2.setMilliseconds(0);
     var dys=parseInt((dt2.getTime()-dt1.getTime())/86400000);
-    console.log(dys)
+    console.log(dys)//此计算值有问题，不知为何？
+    **/
+    var dys=0;
+    var i=x,j=y,k=z;
+    var cmds=getMonthDays(i,j);
+    while(i<yr||(i==yr&&j<=mh)){//开始月份到结束月份所有天数相加
+        cmds=getMonthDays(i,j);
+        dys+=cmds;
+        j++;
+        if(j>12){
+            i++;
+            j=1;
+        }
+    }
+    dys-=z+cmds-dy;//减去开始月份日期前面的天数，再减去结束月份后面的天数，即为相差天数
     /**计算农历**/
     var r={ny:x};
-    var nm=0,nd=0,lds,rbl=0;
+    var nm=0,nd=0,lds,rbl=0;//rbl当前月份是否为闰月
     while(dys>0){//(相差天数 - 各农历月份) 直到溢出
         lds=geLunartMonthDays(nm+1,lyi.a,lyi.b,lyi.c,rbl);
-        if(nm+1==lyi.c){
+        if(nm+1==lyi.c){//闰月处理
             if(rbl==1){
                 rbl=0;
                 nm++;
                 r.g=1;
             }else{
-                rbl=1; 
+                rbl=1;
+                r.g=0;
             } 
         }else{
-           nm++; 
+           nm++;
+           r.g=0;
         }
         dys-=lds;
         
@@ -220,10 +225,10 @@ function getLunarInfo(yr){
     var r={};
     var a=nldt[yr-1899];
     var b=(a>>16).toString(2);
-    r.a=pfxChar(b,12);
-    r.b=a>>12&0x0F;
-    r.c=a>>8&0x0F;
-    r.d=a&0xFF;
+    r.a=pfxChar(b,12);//每月份大小
+    r.b=a>>12&0x0F;//1：闰月大
+    r.c=a>>8&0x0F;//闰月月份，0：无闰月
+    r.d=a&0xFF;//正月初一对应公历日期
     r.e=yr;
     return r;
 }
@@ -259,7 +264,7 @@ function getMonthDays(y,m){
         return 31;
     }else return 30;
 }
-
+/**字符串前缀**/
 function pfxChar(s,l,n){
     if(s.length<l)return pfxChar((n?n:"0")+s,l,n);
     return s;
