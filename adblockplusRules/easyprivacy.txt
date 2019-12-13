@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: SNlrxKKUGP9OhpyfFB2f4g
-! Version: 201912120851
+! Checksum: EaB51u1Y4G+1GbgSRunIAg
+! Version: 201912130901
 ! Title: EasyPrivacy
-! Last modified: 12 Dec 2019 08:51 UTC
+! Last modified: 13 Dec 2019 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2422,6 +2422,7 @@
 /log/impression/*
 /log/init?
 /log/jserr.php
+/log/log-event-
 /log/log.php?
 /log/p.gif?
 /log/pageview
@@ -4108,6 +4109,7 @@
 /tracking/digitalData.
 /tracking/epixels.
 /tracking/events?
+/tracking/events|
 /tracking/fingerprint/*
 /tracking/hbx-
 /tracking/impression/*
@@ -4182,6 +4184,7 @@
 /TrackingHandler.
 /trackingheader.
 /trackingImpression/*
+/trackingOnload-
 /trackingp.gif
 /trackingPixel.
 /TrackingPixel/*
@@ -6794,6 +6797,7 @@ _mongo_stats/
 ||peep1alea.com^$third-party
 ||peerius.com^$third-party
 ||pega.com^$third-party
+||pepperjam.com^$third-party
 ||percentmobile.com^$third-party
 ||perfdrive.com^$third-party
 ||perfectaudience.com^$third-party
@@ -13469,7 +13473,6 @@ _mongo_stats/
 ||ford.com/ngtemplates/ngassets/com/forddirect/ng/newMetrics.js
 ||ford.com/ngtemplates/ngassets/ford/general/scripts/js/galleryMetrics.js
 ||forter.com/events
-||forter.com/sn/
 ||fotothing.com/space.gif?
 ||foursquare.com^*/logger?
 ||foursquare.com^*/wtrack?
@@ -15347,6 +15350,15 @@ _mongo_stats/
 ||zylom.com^*/global_tracking.jsp?
 ||zylom.com^*/tracking_spotlight.js
 ||zytpirwai.net/track/
+! PerimeterX
+||kiehls.com/IZ/G8ATFja1/
+||lancome-usa.com/IZ/q99AlOxk/
+||laroche-posay.us/IZ/9VyUvZ4f/
+||nyxcosmetics.com/IZ/LZNv2dn4/
+||ralphlauren.fr/IZ/fr_FR/jBdHNCWl/
+||seatgeek.com/aG6ZzoXU/
+||seekingalpha.com/xgCxM9By/
+||zillow.com/HYx10rg3/
 ! Consent/GDPR tracking
 ||bucksfreepress-gb.bucksfreepress.co.uk^
 ||cmp.arnnet.com.au^
@@ -16989,6 +17001,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||smetrics.aem.playstation.com/b/ss/$image
 @@||smetrics.farnell.com/b/ss/$image
 @@||smetrics.foxnews.com/b/ss/$image
+@@||smetrics.rtl.nl/b/ss/$image
 @@||smetrics.target.com/b/ss/$image
 @@||smetrics.ticketmaster.com/b/ss/$image
 @@||som.aeroplan.com/b/ss/$image

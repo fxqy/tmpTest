@@ -169,17 +169,9 @@ function getLunarDate(yr,mh,dy){
     }
     var x=lyi.e,y=parseInt(lyi.d/100),z=lyi.d%100;
     /**计算相差天数**/
-    /**
-    console.log(yr+"-"+mh+"-"+dy);
-    console.log(x+"-"+y+"-"+z);
-    var dt1=new Date();dt1.setFullYear(x);dt1.setMonth(y-1);dt1.setDate(z);dt1.setHours(0);dt1.setMinutes(0);dt1.setSeconds(0);dt1.setMilliseconds(0);
-    var dt2=new Date();dt2.setFullYear(yr);dt2.setMonth(mh-1);dt2.setDate(dy);dt2.setHours(0);dt2.setMinutes(0);dt2.setSeconds(0);dt2.setMilliseconds(0);
-    var dys=parseInt((dt2.getTime()-dt1.getTime())/86400000);
-    console.log(dys)//此计算值有问题，不知为何？
-    **/
     var dys=0;
     var i=x,j=y,k=z;
-    var cmds=getMonthDays(i,j);
+    var cmds;
     while(i<yr||(i==yr&&j<=mh)){//开始月份到结束月份所有天数相加
         cmds=getMonthDays(i,j);
         dys+=cmds;
@@ -206,7 +198,6 @@ function getLunarDate(yr,mh,dy){
            nm++;
         }
         dys-=lds;
-        r.g=rbl;
     }
     if(dys<0){//处理溢出天数
         nm--;
@@ -214,6 +205,7 @@ function getLunarDate(yr,mh,dy){
     }
     r.nm=nm;
     r.nd=nd;
+    r.g=rbl;
     r.h=lds>29?1:0;
     return r;
 }
