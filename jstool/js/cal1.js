@@ -73,7 +73,7 @@ window.onload=function(){
             )
         ]),br(),
         div({clazz:'calbody'},[
-            table({init:'calVwo.ctbl',style:'width:auto;border-radius:2px;box-shadow:0px 0px 2px 2px rgba(66,121,175,0.3);'},[
+            table({init:'calVwo.ctbl',style:'width:auto;border-radius:2px;box-shadow:0px 0px 2px 2px rgba(178,178,178,0.3);'},[
                 tbody({style:'background:rgba(240,245,250,0.2)'},genCalTrs())
             ])
         ])
@@ -133,10 +133,10 @@ function genCalTrs(){
        }
 
        var tdcor=cmh-1==dte.getMonth()?'#4279AF':'#ccc';
-       var tdsty='width:80px;height:80px;border-radius:3px;text-align:center;border:'+(cmh-1==dte.getMonth()?'0':'0')+'px solid '+tdcor+';color:'+tdcor+';';
+       var tdsty='width:80px;height:80px;border-radius:4px;text-align:center;border:'+(cmh-1==dte.getMonth()?'1':'0')+'px solid #e0e0e0;color:'+tdcor+';';
        if(now.getFullYear()==dte.getFullYear()&&now.getMonth()==dte.getMonth()&&now.getDate()==dte.getDate())tdsty+='background:#E5F3FF;';
        if(cmh-1==dte.getMonth()){
-           tdsty+='box-shadow:0px 0px 1px 1px rgba(188,188,188,0.3);';
+           tdsty+='box-shadow:0px 0px 1px 1px rgba(222,222,222,0.1);';
        }
        trar.push(td({html:dte.getDate()+'<br/>'+nstr,style:tdsty}));
        dte.setTime(dte.getTime()+86400000);
