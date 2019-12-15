@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: XdnVDjWoAQYFJtYPA0f6Fw
-! Version: 201912141021
+! Checksum: Dj5Yt72eLNsHcNMRD71sTg
+! Version: 201912150711
 ! Title: EasyPrivacy
-! Last modified: 14 Dec 2019 10:21 UTC
+! Last modified: 15 Dec 2019 07:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -661,6 +661,7 @@
 /analytics/engine/*
 /analytics/event
 /analytics/final.
+/analytics/frame.
 /analytics/ga.
 /analytics/ga/*
 /analytics/ga?
@@ -5477,6 +5478,7 @@ _mongo_stats/
 ||bm324.com^$third-party
 ||bmlmedia.com^$third-party
 ||bmmetrix.com^$third-party
+||bntech.io^$third-party
 ||bookforest.biz^$third-party
 ||boomerang.com.au^$third-party
 ||boomtrain.com^$third-party
@@ -11941,6 +11943,7 @@ _mongo_stats/
 ||ctr-opc.nmg.de^
 ||ctr.nmg.de^$third-party
 ||d.adrolays.de^
+||d.finative.eu^
 ||d.nativendo.de^
 ||d.omsnative.de^
 ||data.econa.com^
@@ -15877,6 +15880,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||tp.deawm.com^
 ||tr.werkenntwen.de^
 ||track.bazonline.ch^
+||track.berliner-kurier.de^
 ||track.bernerzeitung.ch^
 ||track.cinestar.de^
 ||track.derbund.ch^
@@ -16483,7 +16487,10 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||kommersant.uk/banner_stats
 ||lamoda.ru/z?
 ||link.subscribe.ru^
-||livelib.ru/service/
+||livelib.ru/service/pinger
+||livelib.ru/service/spv
+||livelib.ru/service/traffic
+||livelib.ru/service/visitlist/
 ||lmcdn.ru^*/statistics.js
 ||log.ren.tv^
 ||mail.ru/count/
