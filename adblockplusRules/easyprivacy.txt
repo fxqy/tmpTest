@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 1pd/2Qb0P66c3hqXbDQUmQ
-! Version: 201912170851
+! Checksum: nWjfQGRzZ12pKb7YVtUyfg
+! Version: 201912180611
 ! Title: EasyPrivacy
-! Last modified: 17 Dec 2019 08:51 UTC
+! Last modified: 18 Dec 2019 06:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -590,6 +590,7 @@
 /analysis?t=
 /analytic-client.
 /analytic/count.
+/analytic/pageview
 /analytic?publisher
 /analytic_data_
 /analyticReporting.
@@ -1052,6 +1053,7 @@
 /caulytracker2.
 /caulytracker_
 /cbanalytics.
+/CbAnalyticsAdapter.
 /CBM.Tracking.js?
 /cbs1x1.gif?
 /cbstats/*
@@ -1544,6 +1546,7 @@
 /dynimpression?rkey=
 /e.gif?data=
 /e086ec.aspx?q=l3mkwgak
+/e_stat?g_id=
 /ea-analytics/*
 /ea_ctrl?
 /eae-logger/*
@@ -2450,6 +2453,7 @@
 /log_beacon.
 /log_e.php?id=
 /log_event?
+/log_h.jsp
 /log_hit.
 /log_impression/*
 /log_impressions
@@ -2466,6 +2470,7 @@
 /logAdv.
 /logAdvertisements|
 /logaholictracker.
+/logAjaxErr_
 /LogAnalysisTracker/*
 /logAutoMicroConversion?
 /logclick.
@@ -3229,6 +3234,7 @@
 /record.do?
 /record_clicks.
 /record_visitor.
+/RecordAnalytic?
 /RecordClick.
 /RecordClickv2.
 /RecordHit?
@@ -3650,6 +3656,7 @@
 /statistics/statistics.php
 /statistics?counter=
 /statistics?eventType=
+/statistics_h.jsp
 /StatisticService.m?
 /statlogger.
 /stats-amp.
@@ -4723,9 +4730,11 @@
 ://ivwextern.
 ://mint.*/?js
 ://piwik.$third-party
+://reporting.*/blank.gif?
 ://sett.*/log.js
 ://sp.*/xyz?$image
 ://tracking.*/beacon/
+://tracking.*/tr.js
 ://utm.$domain=~utm.arc.nasa.gov|~utm.edu|~utm.io|~utm.md|~utoronto.ca
 ;1x1inv=
 ;manifest-analytics.js
@@ -9038,7 +9047,6 @@ _mongo_stats/
 ||logly.co.jp^$third-party
 ||mediav.com^$third-party
 ||miaozhen.com^$third-party
-||mmstat.com^$third-party
 ||oadz.com^$third-party
 ||p0y.cn^$third-party
 ||phpstat.com^$third-party
@@ -10579,6 +10587,7 @@ _mongo_stats/
 ||geo.kaloo.ga^$third-party
 ||geo.kontagent.net^
 ||geo.ltassrv.com^
+||geo.mezr.com^
 ||geo.q5media.net^
 ||geo.query.yahoo.com^$~xmlhttprequest,domain=~mail.yahoo.com
 ||geobar.ziffdavisinternational.com^
@@ -16171,6 +16180,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||pv.udn.com^
 ||pv.xcar.com.cn^
 ||pvx.xcar.com.cn^
+||qhimg.com/11.0.1.js$script
+||qihucdn.com/11.0.1.js$script
 ||qq.com/kvcollect?
 ||qq.com/p?
 ||qq.com/qqcom/
@@ -16385,6 +16396,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||ln.ameba.jp^
 ||log.suumo.jp^
 ||measure.ameblo.jp^
+||mmstat.com^$image
 ||mtc.nhk.or.jp^
 ||nhk.or.jp^*/bc.js
 ||ppf.rakuten.co.jp^$~script
@@ -16854,9 +16866,9 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||marketo.com/js/forms2/$stylesheet
 @@||marketo.com/jsloader/*/loader.php.js$script
 @@||marketo.com^$script,stylesheet,subdocument,domain=awscloud.com
-@@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com
+@@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com|ibanez.com
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
-@@||maxmind.com^*/geoip2.js$domain=boostedboards.com|elgato.com|fallout4.com|filld.com|metronews.ca|mtv.com.lb|runningheroes.com|teslamotors.com
+@@||maxmind.com^*/geoip2.js$domain=boostedboards.com|elgato.com|fallout4.com|filld.com|ibanez.com|metronews.ca|mtv.com.lb|runningheroes.com|teslamotors.com
 @@||medianetworkinternational.com/js/fingerprint2.js$script
 @@||medicare.gov/SharedResources/widgets/foresee/foresee-trigger.js
 @@||mercedes-benz-mobile.com/js/tracking/tracker.min.js?
@@ -17200,6 +17212,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||google-analytics.com/analytics.js$domain=tv3play.no
 @@||klpinteraktiv.klp.no^*/Tracking.js?
 ! Polish
+@@||addthisedge.com/live/$xmlhttprequest,domain=serialomaniak.pl
 @@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.pl
 @@||akamaized.net^*/tracking/ninja.js$domain=olx.pl
 @@||fastwhitecat.com/wp-content/plugins/duracelltomi-google-tag-manager/$script,domain=fastwhitecat.com
