@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: KwEkf5oW2Gii7VMGgWNGQg
-! Version: 201912191311
+! Checksum: MOmemCk3u/wGWrWoxo43zA
+! Version: 201912200841
 ! Title: EasyPrivacy
-! Last modified: 19 Dec 2019 13:11 UTC
+! Last modified: 20 Dec 2019 08:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -384,6 +384,7 @@
 /abp.gif?
 /abppx-*.gif?
 /abstat.
+/abtestInit-
 /abtshield-snippet.js
 /aby.gif?
 /ac.fcgi?
@@ -1700,6 +1701,7 @@
 /ezakus.js
 /ezoic/*.gif?
 /ezytrack.
+/facebook-retargeting-
 /facebook-tracking/*
 /facebook_fbevents.
 /facebookpixel.
@@ -2375,6 +2377,7 @@
 /lftracker_
 /lib.tailtarget/*
 /lib/analytics.
+/lib/ga.js
 /lib/tracking/*
 /library/svy/*/broker.js
 /library/svy/broker.js
@@ -2988,6 +2991,7 @@
 /pinger.cgi?
 /PingPixel.
 /pingServerAction?
+/pinterest-pixels.
 /pippio.
 /pistats/cgi-bin/*
 /piwik-$domain=~github.com|~matomo.org|~piwik.org
@@ -4940,8 +4944,10 @@ _zag_cookie.
 cgi-bin/counter
 ||meetrics.netbb-
 ! Eulerian
+&pagegroup=*&url=$script
 /https?:\/\/ea\..*\/[a-z0-9]{2,12}\.js/$script,~third-party
-/https?:\/\/eulerian..*\/[a-z0-9]{2,12}\.js/$script,~third-party
+/https?:\/\/eulerian..*\/[a-z0-9]{2,12}\.js/$script
+?euidlls=$script,~third-party
 ! clicktripz
 /r/ucb.js$script,~third-party
 ! Interim
@@ -8966,6 +8972,7 @@ _mongo_stats/
 ||compteur.org^$third-party
 ||count.fr^$third-party
 ||countus.fr^$third-party
+||d-bi.fr^$third-party
 ||datado.me^$third-party
 ||datadome.co^$third-party
 ||deliv.lexpress.fr^$third-party
@@ -8985,6 +8992,7 @@ _mongo_stats/
 ||graphinsider.com^$third-party
 ||hunkal.com^$third-party
 ||ivitrack.com^$third-party
+||kdata.fr^$third-party
 ||lead-analytics.biz^$third-party
 ||leadium.com^$third-party
 ||libstat.com^$third-party
@@ -10767,6 +10775,7 @@ _mongo_stats/
 ||ioam.de/?
 ||ioam.de/aid.io?
 ||ioam.de/tx.io?
+||ipapi.tmbi.com^
 ||ipstatp.com/growth/fe_sdk/reportsdk/$third-party
 ||ipstatp.com/static_magic/$third-party
 ||irqs.ioam.de^
@@ -15490,12 +15499,15 @@ _mongo_stats/
 ||ea.vente-unique.com^
 ||ea.warnerbros.fr^
 ||ef.futuroscope.com^
+||ek8.voyage-prive.com^
 ||et.unclejeans.com^
 ||eulerian.brandalley.fr^
+||eulerian.madeindesign.com^
 ||eulerian.mathon.fr^
 ||eulerian.sarenza.com^
 ||eulerian.splendia.com^
 ||eultech.fnac.com^
+||exd4.destinia.com.au^
 ||f7ds.liberation.fr^
 ||fs.com/js/analysis.js
 ||fsz1.francoisesaget.com^
@@ -15525,7 +15537,11 @@ _mongo_stats/
 ||vgo.vegaoo.es^
 ||vgo.vegaoo.nl^
 ||vgo.vegaooparty.com^
+||vnf4.belleetbio.com^
+||vnl1.voyage-prive.nl^
+||vpf4.euskaltelofertas.com^
 ||vry9.destinia.com^
+||vtf2f.banque-casino.fr^
 ||we.wecanimal.pt^
 ||xy33.smallable.com^
 ||yoc.younited-credit.com^
@@ -15572,15 +15588,10 @@ $xmlhttprequest,domain=alltube.pl|alltube.tv|auroravid.to|catrumahminimalis.me|d
 ||vidoza.net/app.js
 ||vidzi.tv/*bootstrap.
 ||wallpoper.com^*/c.js
-||worker.salon.com^
-! salon.com cpu mining
-@@||content.jwplatform.com^$script,domain=salon.com
-@@||platform.tout.com^$script,domain=salon.com
-|http*://$script,third-party,domain=salon.com
 ! CSP Mining
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=ddmix.net|extratorrent.cd|hq-porns.com|intactoffers.club|myfeed4u.net|skyback.ru|szukajka.tv|thepiratebay.cr|thepiratebay.org|thepiratebay.red|tvad.me|vidoza.net
-$csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.net|bigspeeds.com|biter.tv|bypassed.ws|byter.tv|centrum-dramy.pl|cinemafacil.com|clipwatching.com|coinfaucet.eu|coinhub.win|crictime.com|crictime.is|dekoder.ws|deltabit.co|descargas2020.com|estream.to|estream.xyz|filmonet.com|filmstreamvk.site|flashx.cc|flashx.co|flashx.sx|flashx.to|flashx.tv|flashx.ws|hdvid.life|hdvid.tv|hdvid.xyz|hentai-online.pl|hqq.watch|ianimes.co|kinokongo.cc|kinostuff.com|lewd.ninja|love-drama.pl|movie4k.is|pebx.pl|potomy.ru|povw1deo.com|powvideo.cc|powvideo.net|proxyportal.eu|reactor.cc|salon.com|severita-service.ru|sickrage.ca|sorteosrd.com|tomadivx.tv|unblockall.org|unblocked.gdn|vidtodo.com|vidtodo.me|vidtodo.pro|wallpoper.com|wearesaudis.net|ya3ale.com|yazilir.com|zenexplayer.com
+$csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.net|bigspeeds.com|biter.tv|bypassed.ws|byter.tv|centrum-dramy.pl|cinemafacil.com|clipwatching.com|coinfaucet.eu|coinhub.win|crictime.com|crictime.is|dekoder.ws|deltabit.co|descargas2020.com|estream.to|estream.xyz|filmonet.com|filmstreamvk.site|flashx.cc|flashx.co|flashx.sx|flashx.to|flashx.tv|flashx.ws|hdvid.life|hdvid.tv|hdvid.xyz|hentai-online.pl|hqq.watch|ianimes.co|kinokongo.cc|kinostuff.com|lewd.ninja|love-drama.pl|movie4k.is|pebx.pl|potomy.ru|povw1deo.com|powvideo.cc|powvideo.net|proxyportal.eu|reactor.cc|severita-service.ru|sickrage.ca|sorteosrd.com|tomadivx.tv|unblockall.org|unblocked.gdn|vidtodo.com|vidtodo.me|vidtodo.pro|wallpoper.com|wearesaudis.net|ya3ale.com|yazilir.com|zenexplayer.com
 ! Preliminarily blocking Omniture s_code tracking scripts (versions H.25 - H.25.2) due to breakage (https://adblockplus.org/forum/viewtopic.php?f=10&t=11378)
 ||abc.com/service/gremlin/js/files/s_code.js?$domain=abc.go.com
 ||adobe.com^*/omniture_s_code.js
@@ -17160,6 +17171,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ! Dutch
 @@||ad.crwdcntrl.net^$script,domain=rtl.nl
 @@||analytics.ooyala.com/static/analytics.js$script,domain=humo.be
+@@||centprod.com/nd/assets/js/analytics.js$script,domain=centprod.com
 @@||d2zv6vzmaqao5e.cloudfront.net/css/foodticket/*_google_analytics.js
 @@||googletagmanager.com/gtm.js?$script,domain=mediamarkt.nl
 ! Finnish
