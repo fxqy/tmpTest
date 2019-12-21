@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: MOmemCk3u/wGWrWoxo43zA
-! Version: 201912200841
+! Checksum: taRk70a9JYJEeMYxjz3VIw
+! Version: 201912210901
 ! Title: EasyPrivacy
-! Last modified: 20 Dec 2019 08:41 UTC
+! Last modified: 21 Dec 2019 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2025,6 +2025,7 @@
 /gs.gif?
 /gscounters.
 /gtag.js
+/gtag/js?
 /gtm-listeners.
 /gtm-tracking-events.
 /gtm.js
@@ -9976,7 +9977,6 @@ _mongo_stats/
 ||bazaarvoice.com/sid.gif
 ||bazaarvoice.com^*/magpie.js
 ||bc.geocities.
-||beacon-v2.helpscout.net^
 ||beacon.affil.walmart.com^
 ||beacon.aimtell.com^
 ||beacon.errorception.com^
@@ -10356,6 +10356,7 @@ _mongo_stats/
 ||d3cxv97fi8q177.cloudfront.net^
 ||d3ezl4ajpp2zy8.cloudfront.net^
 ||d3h1v5cflrhzi4.cloudfront.net^
+||d3hb14vkzrxvla.cloudfront.net/health-check
 ||d3hr5gm0wlxm5h.cloudfront.net^
 ||d3iouejux1os58.cloudfront.net^
 ||d3kyk5bao1crtw.cloudfront.net^
