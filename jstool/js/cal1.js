@@ -133,7 +133,7 @@ function genCalTrs(){
        }
 
        var tdcor=cmh-1==dte.getMonth()?'#4279AF':'#ccc';
-       var tdsty='width:80px;height:80px;border-radius:50px;text-align:center;border:'+(cmh-1==dte.getMonth()?'1':'0')+'px solid #e0e0e0;color:'+tdcor+';';
+       var tdsty='width:80px;height:80px;border-radius:5px;text-align:center;border:'+(cmh-1==dte.getMonth()?'1':'0')+'px solid #e0e0e0;color:'+tdcor+';';
        if(now.getFullYear()==dte.getFullYear()&&now.getMonth()==dte.getMonth()&&now.getDate()==dte.getDate())tdsty+='background:#E5F3FF;';
        if(cmh-1==dte.getMonth()){
            tdsty+='box-shadow:0px 0px 1px 1px rgba(222,222,222,0.1);';
