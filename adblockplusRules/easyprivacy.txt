@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: taRk70a9JYJEeMYxjz3VIw
-! Version: 201912210901
+! Checksum: wA+imKjb3pt2GVCE/szZKg
+! Version: 201912231131
 ! Title: EasyPrivacy
-! Last modified: 21 Dec 2019 09:01 UTC
+! Last modified: 23 Dec 2019 11:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -667,6 +667,7 @@
 /analytics/ga.
 /analytics/ga/*
 /analytics/ga?
+/analytics/geoip/*
 /Analytics/Google.
 /analytics/google/*
 /analytics/gw.
@@ -4946,8 +4947,8 @@ cgi-bin/counter
 ||meetrics.netbb-
 ! Eulerian
 &pagegroup=*&url=$script
-/https?:\/\/ea\..*\/[a-z0-9]{2,12}\.js/$script,~third-party
-/https?:\/\/eulerian..*\/[a-z0-9]{2,12}\.js/$script
+/^https?:\/\/ea\..*\/[a-z0-9]{2,12}\.js/$script,~third-party
+/^https?:\/\/eulerian..*\/[a-z0-9]{2,12}\.js/$script
 ?euidlls=$script,~third-party
 ! clicktripz
 /r/ucb.js$script,~third-party
@@ -9158,6 +9159,7 @@ _mongo_stats/
 ! Finnish
 ||frosmo.com^$third-party
 ||gallupnet.fi^$third-party
+||leiki.com^$third-party
 ||inpref.com^$third-party
 ||kavijaseuranta.fi^$third-party
 ||m-brain.fi^$third-party
@@ -13923,6 +13925,7 @@ _mongo_stats/
 ||local.ch/track/
 ||localads-statistics.maps.me^
 ||localmonero.co/static/ga.js
+||location.bloomberg.com^
 ||log.china.cn^
 ||log.data.disney.com^
 ||log.deutschegrammophon.com^
@@ -16890,6 +16893,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||highcharts.com^*/heatmap.js
 @@||hmhco.com/one/js/conf/trackjs.config.$script,~third-party,xmlhttprequest
+@@||hscta.net/cta/current.js$script,domain=aucfan.com
 @@||ibispaint.com/js/googleAnalytics.js
 @@||ibm.com/software/reports/compatibility/clarity-reports/js/$script,~third-party
 @@||imrworldwide.com/novms/*/gg*.js$domain=9now.com.au|adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|espn.com|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|news-mail.com.au|news.com.au|noosanews.com.au|ntnews.com.au|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|townsvillebulletin.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
@@ -17241,11 +17245,16 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||a8.net/svt/$image,domain=samplefan.com
 @@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.jp
 @@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.jp|radiko.jp
+@@||allabout.co.jp/mtx_cnt.js$script,~third-party
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
+@@||atwikiimg.com/common/_img/spacer.gif?$image,domain=atwiki.jp
 @@||chancro.jp/assets/lib/googleanalytics-$script
 @@||mediaweaver.jp^$image,domain=ismedia.jp
+@@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
+@@||uliza.jp/IF/RequestVideoTag.aspx$script,domain=kobe-np.co.jp
+@@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
 ! Korean
 @@||daumcdn.net/tiara/js/v1/tiara.min.js$domain=tv.kakao.com
 @@||naver.net/wcslog.js$domain=m.tv.naver.com
@@ -17310,6 +17319,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||googletagmanager.com/gtm.js?$domain=sportmaster.ru
 @@||itv.1tv.ru/stat.php?
 @@||k12-company.ru^*/statistics.js$script
+@@||krok8.com/wp-content/plugins/pageviews/pageviews.min.js$script,~third-party
 @@||labrc.pw/advstats/$xmlhttprequest
 @@||leroymerlin.ru/config/analytics.js$script
 @@||matchid.adfox.yandex.ru/?url=$script,domain=ctc.ru
