@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: wA+imKjb3pt2GVCE/szZKg
-! Version: 201912231131
+! Checksum: cjBdg9OQJ5p5EfWA/keDdg
+! Version: 201912240921
 ! Title: EasyPrivacy
-! Last modified: 23 Dec 2019 11:31 UTC
+! Last modified: 24 Dec 2019 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1293,6 +1293,7 @@
 /comscore/streamsense.
 /comscore?
 /comscore_beacon.
+/comscore_beacon/*
 /comscore_engine.
 /comscore_pageview
 /comscore_stats.
@@ -2454,6 +2455,7 @@
 /log?event=
 /log?id=
 /log?kc=
+/log?ref=
 /log?sLog=
 /log?tag=
 /log?type=
@@ -3907,6 +3909,7 @@
 /tr.gif?
 /tr/p.gif?
 /tracciamento.php?
+/traccoon.js
 /tracdelight.js
 /trace-Update.php?
 /trace/link/*$image
@@ -4319,6 +4322,7 @@
 /TwitterTracking.
 /tynt.js
 /tzr.fcgi?
+/ua-parser.js
 /uchkr.swf
 /ucount.php?
 /udctrack.
@@ -4352,6 +4356,7 @@
 /urchinstats.
 /URLSplitTrack?
 /us.gif?
+/user-agent-analyzer.
 /userdata_n?*&uid=
 /userfly.js
 /users/track?
@@ -9159,9 +9164,9 @@ _mongo_stats/
 ! Finnish
 ||frosmo.com^$third-party
 ||gallupnet.fi^$third-party
-||leiki.com^$third-party
 ||inpref.com^$third-party
 ||kavijaseuranta.fi^$third-party
+||leiki.com^$third-party
 ||m-brain.fi^$third-party
 ||netmonitor.fi^$third-party
 ||stat.www.fi^$third-party
@@ -11598,6 +11603,7 @@ _mongo_stats/
 ||tr1.mailperformance.com^
 ||tra.pmdstatic.net^
 ||tra.scds.pmdstatic.net^
+||traccoon.intellectsoft.net^
 ||trace.qq.com^$third-party
 ||track.99acres.com^
 ||track.addevent.com^
@@ -13968,6 +13974,7 @@ _mongo_stats/
 ||madthumbs.com/tlog.php
 ||mail.com/monitor/count?
 ||mail.ru/counter?
+||mail.yahoo.com/d/log
 ||mail.yahoo.com/dc/rs?log=
 ||mailings.gmx.net/action/view/$image
 ||malibubright.com/krtrk/
@@ -13991,6 +13998,7 @@ _mongo_stats/
 ||mcdp-sadc1.outbrain.com^
 ||mdmpix.com/js/connector.php?
 ||mealime.com/assets/mealytics.js
+||measure.office.com^
 ||media-imdb.com/images/*/imdbads/js/beacon-$script
 ||media-imdb.com^*/adblock.swf
 ||mediaplex.com^*/universal.html
@@ -15418,6 +15426,7 @@ _mongo_stats/
 ||zylom.com^*/tracking_spotlight.js
 ||zytpirwai.net/track/
 ! PerimeterX
+||bloomberg.com/8FCGYgk4/
 ||kiehls.com/IZ/G8ATFja1/
 ||lancome-usa.com/IZ/q99AlOxk/
 ||laroche-posay.us/IZ/9VyUvZ4f/
@@ -16114,6 +16123,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||al.autohome.com.cn^
 ||analy.qq.com^
 ||analyse.weather.com.cn^
+||analytics.126.net^
 ||analytics.163.com^
 ||analytics.nextmedia.com^
 ||analytics.shop.hisense.com^
@@ -16129,6 +16139,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||baidu.com/dalog/
 ||baidu.com/dv.gif?
 ||baidu.com/nocache/mp/b.jpg?cmd=
+||baidu.com/push.js
 ||baidu.com/tb/pms/img/st.gif?
 ||baidu.com^*/adlog?
 ||baidu.com^*/c.gif?
@@ -16309,7 +16320,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||tracker.live.tudou.com^
 ||tv.sohu.com/upload/trace/
 ||uestat.video.qiyi.com^
-||unstat.baidu.com^$~subdocument
 ||utrack.hexun.com^
 ||v.blog.sohu.com/dostat.do?
 ||vatrack.hinet.net^
@@ -16330,6 +16340,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||youku.com^*/click.php?
 ||yxdown.com/count.js
 ||zhihu-web-analytics.zhihu.com^
+||zz.bdstatic.com^
 ! Croatian
 ||jutarnji.hr/template/js/eph_analytics.js
 ! Czech
