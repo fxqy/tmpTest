@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: cjBdg9OQJ5p5EfWA/keDdg
-! Version: 201912240921
+! Checksum: gh8SQI7916roaNjeBLri1g
+! Version: 201912260911
 ! Title: EasyPrivacy
-! Last modified: 24 Dec 2019 09:21 UTC
+! Last modified: 26 Dec 2019 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -295,6 +295,7 @@
 .social_tracking.
 .statData-eup.
 .stats?action=
+.svc/?tracking_id=
 .tealium.
 .to/js/ga.js
 .to/vtrack|
@@ -636,6 +637,7 @@
 /analytics.html?
 /analytics.init.js
 /analytics.js/v1/*
+/analytics.js?
 /analytics.json?
 /analytics.min.
 /analytics.php.
@@ -1189,6 +1191,7 @@
 /clickstats.
 /clickstream.aspx?
 /clickstream.js
+/clicktag.
 /ClickTail.
 /clicktale-
 /clicktale.
@@ -1576,6 +1579,7 @@
 /edateAdTrack?
 /edgemesh.track.
 /EDigitalSurvey_
+/edmonds.js
 /ee-tagging.
 /effectivemeasure.
 /EfficientFrontier.$domain=~efficientfrontier.com
@@ -1769,6 +1773,7 @@
 /fp/clear.png?
 /fp/tags.js?
 /fpc.pl?a=
+/fpcookie?
 /fpcount.exe
 /fps/check.
 /freecgi/count.cgi?
@@ -2236,6 +2241,7 @@
 /iperceptions_
 /IperceptionsSurvey.
 /ipfx?eid=
+/ipinfo.json
 /ipixel?spacedesc
 /iplookup.php
 /iporganictrack.
@@ -2316,6 +2322,7 @@
 /js_tracking?
 /jscounter.
 /jscript/dwac-
+/jscripts/analytics.js
 /jserrLog?
 /jslogger.php?ref=
 /jsnlog.js
@@ -2516,7 +2523,8 @@
 /logging_save.
 /LoggingAgent?
 /loggingService.js
-/loggly.tracker.js
+/loggly.tracker-
+/loggly.tracker.
 /logHandler.
 /LogImpression.
 /LogImpression?
@@ -3326,6 +3334,7 @@
 /rollbar.js
 /rollbar.min.js
 /rolluptracker_
+/rook.tracking.
 /rot_in.php
 /rpc.gif?ac=
 /rpc/log?
@@ -3513,6 +3522,7 @@
 /siteAnalytics.
 /siteanalytics_
 /sitecatalist.js
+/sitecatalyst.js
 /sitecatalyst/tracking.
 /sitecounter/counter.
 /sitecrm.js
@@ -4159,6 +4169,7 @@
 /tracking/setTracker/*
 /tracking/simplified_
 /tracking/srv.
+/tracking/t.php?
 /tracking/t.srv?
 /tracking/tag_commander.php?
 /tracking/track.jsp?
@@ -4904,6 +4915,7 @@ _pix.gif?
 _pixel_db?
 _pixel_test/?
 _pixelmap.js
+_pop_tracking.
 _promo_id=
 _pv_init?
 _pv_log?
@@ -5110,6 +5122,7 @@ _sdcTrackingCode.
 ! Adblock tracking
 ,adb=*&referer=
 -logabpstatus.
+/ab_test/*
 /adb.policy.js
 /adblock?action=
 /adblocker/pixel.
@@ -9274,6 +9287,8 @@ _mongo_stats/
 ||ec-concier.com^$third-party
 ||ec-optimizer.com^$third-party
 ||eco-tag.jp^$third-party
+||f-counter.jp^$third-party
+||f-counter.net^$third-party
 ||genieedmp.com^$third-party
 ||genieessp.jp^$third-party
 ||gmodmp.jp^$third-party
@@ -9299,6 +9314,7 @@ _mongo_stats/
 ||pdmp.jp^$third-party
 ||polymorphicads.jp^$third-party
 ||r-ad.ne.jp^$third-party
+||rays-counter.com^$third-party
 ||rentracks.jp^$third-party
 ||research-artisan.com^$third-party
 ||rtoaster.jp^$third-party
@@ -10688,6 +10704,7 @@ _mongo_stats/
 ||gubagoo.com/modules/tracking/
 ||gubagoo.io/track/
 ||h2porn.com/new-hit/?
+||happen.spkt.io^
 ||harvester.ext.square-enix-europe.com^
 ||hasbro.com/includes/js/metrics/
 ||hawkeye-data-production.sciencemag.org.s3-website-us-east-1.amazonaws.com^
@@ -10761,6 +10778,7 @@ _mongo_stats/
 ||inq.com/tagserver/tracking/
 ||inq.com^*/onEvent?_
 ||insight.mintel.com^$third-party
+||insight.rapid7.com^
 ||insights.gravity.com^
 ||insights.plista.com^$third-party
 ||insitez.blob.core.windows.net^
@@ -12307,6 +12325,7 @@ _mongo_stats/
 ||n.yunshipei.com^
 ||netease.com/beacons/
 ||p.aty.sohu.com^
+||p.tencentmind.com^
 ||pos.baidu.com^
 ||pstatp.com^*/raven.js
 ||pstatp.com^*/ttstatistics.
@@ -12492,6 +12511,7 @@ _mongo_stats/
 ||beacon.itmedia.jp^
 ||clickanalyzer.jp^$third-party
 ||counter2.blog.livedoor.com^
+||future-shop.jp/rview.gif?
 ||imgstat.ameba.jp^$third-party
 ||ip2c.landscape.co.jp^
 ||kitchen.juicer.cc^
@@ -12508,11 +12528,13 @@ _mongo_stats/
 ||pia.jp/images/pt.gif$image
 ||rcm.shinobi.jp^
 ||rd.rakuten.co.jp^$script
+||s.yimg.jp/images/listing/tool/cv/ytag.js
 ||seesaa.jp/ot_square.pl?
 ||shinobi.jp/track?
 ||speee-ad.akamaized.net^
 ||sync.shinobi.jp^
 ||torimochi.line-apps.com^
+||track.thebase.in^
 ||trck.dlpo.jp^
 ||userdive.com^$third-party
 ||webtracker.jp^$third-party
@@ -13758,6 +13780,7 @@ _mongo_stats/
 ||hwscdn.com^*/brands_analytics.js
 ||i-am-bored.com/cad.asp
 ||i-am-bored.com/cah.asp
+||i.pokernews.com^
 ||i365.com^*/pv.aspx?
 ||iafrica.com/php-bin/iac/readcnt.php?
 ||ibeat.indiatimes.com^
@@ -14887,6 +14910,7 @@ _mongo_stats/
 ||t.dailymail.co.uk^
 ||t.delfi.
 ||t.eharmony.com^
+||t.freelancer.com^
 ||t.hulu.com/beacon/
 ||t.indeed.com^
 ||t.kck.st^
@@ -16250,6 +16274,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||qq.com/kvcollect?
 ||qq.com/p?
 ||qq.com/qqcom/
+||qq.com/stdlog
 ||ranking.ynet.com^
 ||rcgi.video.qq.com^
 ||rec.udn.com^
@@ -16452,6 +16477,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||analyzer.fc2.com^
 ||analyzer2.fc2.com^
 ||barks.jp/v1/stats
+||bookoffonline.co.jp/files/inc_js/ac/
+||bookoffonline.co.jp/files/tracking/
 ||carview.co.jp/include_api/log/
 ||cgi.tbs.co.jp^
 ||count.upc.rakuten.co.jp^
@@ -16469,12 +16496,15 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||pw.gigazine.net^
 ||rakuten.co.jp/gw.js
 ||rdsig.yahoo.co.jp^$image
+||retty.me/gen204.php
+||retty.me/javascripts/common/logging.js
 ||sankei.co.jp/js/analytics/
 ||scis.tbs.co.jp^
 ||seesaawiki.jp/img/rainman.gif?
 ||suumo.jp^*/tag/
 ||sy.amebame.com^
 ||sy.ameblo.jp^
+||tr.api.itmedia.jp^
 ||tsite.jp/static/analytics/
 ||visit.geocities.jp^
 ||wisteria-js.excite.co.jp^
@@ -17172,6 +17202,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.cn
 @@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.cn
 @@||aixifan.com^*/sensorsdata.min.js?$domain=acfun.cn
+@@||dynamicyield.com/api/$script,domain=zalora.com.hk|zalora.com.tw
 @@||google-analytics.com/analytics.js$domain=news.gamme.com.tw
 @@||imp.appledaily.com/js/nxm_tr_v20s.js
 @@||tianxun.com^*/js/tracker.js
