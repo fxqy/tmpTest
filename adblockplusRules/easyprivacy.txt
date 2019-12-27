@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: gh8SQI7916roaNjeBLri1g
-! Version: 201912260911
+! Checksum: fWW+WNS/EVGlP6WyEwnCgg
+! Version: 201912270911
 ! Title: EasyPrivacy
-! Last modified: 26 Dec 2019 09:11 UTC
+! Last modified: 27 Dec 2019 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2253,6 +2253,7 @@
 /ists.tag?
 /item/tracking/*
 /ItemStats.ajax?
+/itmdp_code.
 /itrack.php?
 /iva_analytics.
 /iva_thefilterjwanalytics.
@@ -3286,6 +3287,7 @@
 /RemoteTargetingService.
 /remoteTrackingManager.cfc?*trackPage&
 /render?trackingId=
+/renderTimingPixel.
 /repdata.*/b/ss/*
 /report-re.
 /report/click?
@@ -11835,6 +11837,7 @@ _mongo_stats/
 ||userway.org/api/stats/
 ||userzoom.com/uz.js$third-party
 ||v.giantrealm.com/players/stats.swf?
+||v.shopify.com^
 ||va.tawk.to/log
 ||vanilladev.com/analytics.
 ||vapedia.com^*/largebanner.
