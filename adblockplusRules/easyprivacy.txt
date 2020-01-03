@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 8LT55g4sW0B8VuvzyE/RCg
-! Version: 202001020851
+! Checksum: 2g2PwtvPSb2HaFMcaXQiEg
+! Version: 202001031121
 ! Title: EasyPrivacy
-! Last modified: 02 Jan 2020 08:51 UTC
+! Last modified: 03 Jan 2020 11:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10804,7 +10804,7 @@ _mongo_stats/
 ||inq.com/tagserver/tracking/
 ||inq.com^*/onEvent?_
 ||insight.mintel.com^$third-party
-||insight.rapid7.com^
+||insight.rapid7.com^$third-party
 ||insights.gravity.com^
 ||insights.plista.com^$third-party
 ||insitez.blob.core.windows.net^
@@ -13937,6 +13937,8 @@ _mongo_stats/
 ||klout.com/ka.js
 ||knoxnews.com/metrics/
 ||kodakgallery.com^*/analytics_
+||kohls.com/_bm/_data
+||kohls.com/test_rum?
 ||kosmix.com^*.txt?pvid=
 ||kyte.tv/flash/MarbachMetricsOmniture.swf
 ||kyte.tv/flash/MarbachMetricsProvider.swf
@@ -15512,6 +15514,7 @@ _mongo_stats/
 ||cmp.pcworld.idg.com.au^
 ||cmp.techadvisor.co.uk^
 ||cmp.techhive.com^
+||commsvc.stern.de^
 ||eurogamer-uk.eurogamer.net^
 ||gazette-news-gb.gazette-news.co.uk^
 ||h-bid.com^$third-party
@@ -16918,6 +16921,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||cloudfront.net/opentag-*.js$domain=telegraph.co.uk
 @@||cloudfront.net^*/comscore.$script,domain=my5.tv
 @@||cloudfront.net^*/VisitorAPI.js$domain=financialpost.com
+@@||connect.squareup.com/payments/analytics/frame.html$subdocument
+@@||connect.squareupsandbox.com/payments/analytics/frame.html$subdocument
 @@||constantcontact.com/js/WebTracking/
 @@||coral-talk.ext.nile.works/talk/static/embed.js$domain=washingtonpost.com
 @@||coremetrics.com*/eluminate.js
@@ -16996,6 +17001,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||juxtacommons.org^*/heatmap.js$domain=juxtacommons.org
 @@||kbb.com/static/js/global/app-measurement$script
 @@||kentucky.com/mistats/finalizestats.js
+@@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
 @@||legendstracking.com/js/legends-tracking.js
 @@||lexus.com/lexus-share/js/tracking_omn/$xmlhttprequest
 @@||lightningmaps.org^*/piwik.js
@@ -17303,6 +17309,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||codicefl.shinystat.com/cgi-bin/getserver.cgi?$script,domain=3bmeteo.com|quotidiano.net|radioitalia.it
 @@||ensighten.com^*/Bootstrap.js$domain=williamhill.it
 @@||google-analytics.com/analytics.js$domain=carnesvizzera.ch
+@@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
 @@||googletagmanager.com/gtm.js?$domain=iphoneitalia.com|la7.it
 @@||ilsole24ore.com^*/fingerprint2.min.js?
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=la7.it|sky.it|video.corriere.it
