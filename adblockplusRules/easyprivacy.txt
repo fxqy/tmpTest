@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 1XD+XwuCNHpFU0EkHiNrXw
-! Version: 202001040321
+! Checksum: dYSiLxPspWMrYl+0SGlZFg
+! Version: 202001041021
 ! Title: EasyPrivacy
-! Last modified: 04 Jan 2020 03:21 UTC
+! Last modified: 04 Jan 2020 10:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -13720,7 +13720,7 @@ _mongo_stats/
 ||glassmoni.researchgate.net^
 ||glean.pop6.com^
 ||global.canon^*/analytics.js
-||global.ssl.fastly.net^$script,domain=allmodern.com|argos.co.uk|birchlane.com|desertsun.com|jsonline.com|kurtgeiger.com|lenovo.com|lohud.com|mentalfloss.com|radiotimes.com|sainsburys.co.uk|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
+||global.ssl.fastly.net^$script,domain=allmodern.com|argos.co.uk|birchlane.com|desertsun.com|jsonline.com|kurtgeiger.com|lenovo.com|lohud.com|mentalfloss.com|radiotimes.com|sainsburys.co.uk|sanuk.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
 ||globes.co.il/ga.asp
 ||globes.co.il/shared/s.ashx?
 ||globester.com^*/track.js
@@ -15523,8 +15523,10 @@ _mongo_stats/
 ||creativemarket.com/OfRh1WNK/
 ||crunchbase.com/rw7M6iAV/
 ||drupal.org/VnPBBfwe/
+||foodpanda.bg/lJuB4eTB/
 ||foursquare.com/0UqK4c76/
 ||giphy.com/h52DW03a/
+||hotelhunter.com/QUkd4lO9/
 ||hotelscombined.com/QUkd4lO9/
 ||hotpads.com/xOR1K5b6/
 ||kiehls.com/IZ/G8ATFja1/
