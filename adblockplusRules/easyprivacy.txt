@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: dYSiLxPspWMrYl+0SGlZFg
-! Version: 202001041021
+! Checksum: APdSRrU9qztIgv3XTuZo3w
+! Version: 202001050212
 ! Title: EasyPrivacy
-! Last modified: 04 Jan 2020 10:21 UTC
+! Last modified: 05 Jan 2020 02:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1904,6 +1904,7 @@
 /gatrackingcampaigns/*
 /gatrackthis.
 /gatrackwww.
+/gb-tracker-
 /gciAnalytics.
 /gClickTracking.
 /gcount.pl?
@@ -3514,6 +3515,7 @@
 /sherlock.gif?
 /shinystat.
 /shinystat_
+/shopify-boomerang-
 /shopify_stats.js
 /showcounter.
 /showhits.php?
@@ -3971,6 +3973,7 @@
 /track.php?referrer=
 /track.png?
 /track.srv.
+/track.v2.js
 /track/*&CheckCookieId=
 /track/*&event=
 /track/*&siteurl=
@@ -4358,7 +4361,6 @@
 /TwitterTracking.
 /tynt.js
 /tzr.fcgi?
-/ua-parser.js
 /uchkr.swf
 /ucount.php?
 /udctrack.
@@ -5742,7 +5744,6 @@ _mongo_stats/
 ||confirmit.com^$third-party
 ||contactmonkey.com^$third-party
 ||contemporaryceremonies.ca^$third-party
-||contensis.com^$third-party
 ||content-square.net^$third-party
 ||content.ad^$third-party
 ||contentinsights.com^$third-party
@@ -6311,7 +6312,6 @@ _mongo_stats/
 ||hypestat.com^$third-party
 ||i-stats.com^$third-party
 ||i401xox.com^$third-party
-||iadvize.com^$third-party
 ||iaudienc.com^$third-party
 ||ib-ibi.com^$third-party
 ||ibpxl.com^$third-party
@@ -6495,6 +6495,7 @@ _mongo_stats/
 ||lead-tracking.biz^$third-party
 ||leadboxer.com^$third-party
 ||leadchampion.com^$third-party
+||leaddyno.com^$third-party
 ||leadfeeder.com^$third-party
 ||leadforce1.com^$third-party
 ||leadforensics.com^$third-party
@@ -10254,7 +10255,6 @@ _mongo_stats/
 ||collector.apester.com^
 ||collector.automote.co.nz^
 ||collector.contentexchange.me^$third-party
-||collector.leaddyno.com^
 ||collector.mazeberry.com^
 ||collector.nextguide.tv^
 ||collector.roistat.com^
@@ -11330,6 +11330,7 @@ _mongo_stats/
 ||realplayer.com^*/pixel?
 ||realtidbits.com^*/analytics.js
 ||rebel.ai/track?
+||recart.com/tracking/
 ||recs.atgsvcs.com^$third-party
 ||redditstatic.com/ads/pixel.js
 ||redir.widdit.com^$third-party
@@ -12934,7 +12935,7 @@ _mongo_stats/
 ||akamai.net^$script,domain=argos.co.uk|newscientist.com|upwork.com
 ||akamai.net^*/button.clickability.com/
 ||akamaihd.net/pixelkabam/
-||akamaihd.net^$script,domain=allmodern.com|birchlane.com|wayfair.co.uk|wayfair.com
+||akamaihd.net^$script,domain=allmodern.com|birchlane.com|perigold.com|wayfair.co.uk|wayfair.com
 ||alarabiya.net/track_content_
 ||alarabiya.net^*/googleid.js
 ||alb.reddit.com^
@@ -13720,7 +13721,7 @@ _mongo_stats/
 ||glassmoni.researchgate.net^
 ||glean.pop6.com^
 ||global.canon^*/analytics.js
-||global.ssl.fastly.net^$script,domain=allmodern.com|argos.co.uk|birchlane.com|desertsun.com|jsonline.com|kurtgeiger.com|lenovo.com|lohud.com|mentalfloss.com|radiotimes.com|sainsburys.co.uk|sanuk.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
+||global.ssl.fastly.net^$script,domain=allmodern.com|argos.co.uk|birchlane.com|desertsun.com|eddiebauer.com|jsonline.com|kurtgeiger.com|lenovo.com|lohud.com|mentalfloss.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
 ||globes.co.il/ga.asp
 ||globes.co.il/shared/s.ashx?
 ||globester.com^*/track.js
@@ -14980,6 +14981,7 @@ _mongo_stats/
 ||t.kck.st^
 ||t.my.jobs^
 ||t.paypal.com^
+||t.perigold.com^
 ||t.regionsjob.com^
 ||t.vimeo.com^
 ||t.wayfair.co.uk^
@@ -15518,25 +15520,32 @@ _mongo_stats/
 ||auctionzip.com/eKtvxkQ2/
 ||bloomberg.com/8FCGYgk4/
 ||booktopia.com.au/px_section_fetch/
+||carolsdaughter.com/IZ/
 ||cookpad.com^*/init.js
 ||couchsurfing.com/bEcn7fQX/
 ||creativemarket.com/OfRh1WNK/
 ||crunchbase.com/rw7M6iAV/
 ||drupal.org/VnPBBfwe/
+||foodora.se/lJuB4eTB/
 ||foodpanda.bg/lJuB4eTB/
+||foodpanda.ph/lJuB4eTB/
 ||foursquare.com/0UqK4c76/
 ||giphy.com/h52DW03a/
 ||hotelhunter.com/QUkd4lO9/
+||hotelpricecomparison.net/QUkd4lO9/
+||hotels-scanner.com/QUkd4lO9/
 ||hotelscombined.com/QUkd4lO9/
 ||hotpads.com/xOR1K5b6/
+||kerastase-usa.com/IZ/
 ||kiehls.com/IZ/G8ATFja1/
 ||kiva.org/r3pNVz1F/
-||lancome-usa.com/IZ/q99AlOxk/
-||laroche-posay.us/IZ/9VyUvZ4f/
+||lancome-usa.com/IZ/
+||laroche-posay.us/IZ/
 ||magiquiz.com/YeuWA5s0/
-||nyxcosmetics.com/IZ/LZNv2dn4/
+||nyxcosmetics.com/IZ/
 ||pier1.com/cqAfo9Jx/
-||ralphlauren.fr/IZ/fr_FR/jBdHNCWl/
+||ralphlauren.de/IZ/
+||ralphlauren.fr/IZ/
 ||seatgeek.com/aG6ZzoXU/
 ||seekingalpha.com/xgCxM9By/
 ||skechers.com/dL6GOSf9/
@@ -17005,7 +17014,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ensighten.com^*/scode/$script,domain=norton.com
 @@||ensighten.com^*/serverComponent.php?$script
 @@||eplayerhtml5.performgroup.com/js/tsEplayerHtml5/js/Eplayer/js/quantcast/$script
-@@||events-collector.spot.im/api/$domain=foxbusiness.com|foxnews.com
+@@||events-collector.spot.im/api/$xmlhttprequest
 @@||evestment.com/api/analytics/$domain=evestment.com
 @@||fastway.co.nz/Umbraco/Api/Tracking/
 @@||fccbrea.org^*/swfaddress.js
@@ -17138,6 +17147,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||segment.io/v1/$xmlhttprequest,domain=greentoe.com
 @@||smartclient.com/smartclient/isomorphic/system/modules/isc_analytics.js$xmlhttprequest
 @@||songza.com/static/*/songza/systems/$script
+@@||spot.im^*/ab_test/$xmlhttprequest
 @@||src.fedoraproject.org/static/issues_stats.js?
 @@||starbucksassets.com/weblx/static/optimizely.$domain=starbucks.com
 @@||statcounter.com/css/packed/statcounter-$stylesheet,~third-party
@@ -17464,6 +17474,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||googletagmanager.com/gtm.js?$domain=sportmaster.ru
 @@||itv.1tv.ru/stat.php?
 @@||k12-company.ru^*/statistics.js$script
+@@||komus.ru/_ui/shared/js/ga/googleTagManager.js$script,~third-party
 @@||krok8.com/wp-content/plugins/pageviews/pageviews.min.js$script,~third-party
 @@||labrc.pw/advstats/$xmlhttprequest
 @@||leroymerlin.ru/config/analytics.js$script
