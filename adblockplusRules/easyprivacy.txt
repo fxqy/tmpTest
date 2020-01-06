@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: APdSRrU9qztIgv3XTuZo3w
-! Version: 202001050212
+! Checksum: zJlZ73bDUDqkn/FdhhhEcw
+! Version: 202001060901
 ! Title: EasyPrivacy
-! Last modified: 05 Jan 2020 02:11 UTC
+! Last modified: 06 Jan 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -31,6 +31,7 @@
 -action/fingerprint?
 -action/ping?
 -ad-targeting?
+-adobe-analytics.
 -ads-tracking-
 -AdTracking.
 -analitycs//fab.
@@ -405,6 +406,7 @@
 /acfp.js
 /acounter.php?
 /act_pagetrack.
+/action/analytics
 /activetrackphp.php?
 /activities/logger/*
 /activity-track/?
@@ -1088,6 +1090,7 @@
 /cedexis/*
 /cedexisus.
 /CelebrusInsert.js
+/census/RecordHit
 /certifica-js14.js
 /certifica.js
 /certifica_2010.js
@@ -1733,6 +1736,7 @@
 /fb-ga-track-
 /fb-pixel-
 /fb-tracking.js
+/fb_pixel-
 /fbanalytics/*
 /fbcounter/*
 /fbevents-amd.js
@@ -2404,6 +2408,7 @@
 /lib.tailtarget/*
 /lib/analytics.
 /lib/ga.js
+/lib/ga.min.js
 /lib/tracking/*
 /library/svy/*/broker.js
 /library/svy/broker.js
@@ -2617,6 +2622,7 @@
 /meta-tracker/*
 /metaTag.min.js
 /metatraffic/track.asp?
+/metric/?mid=
 /metrica/sp.js
 /metricool.js
 /metrics-backend/*
@@ -3628,6 +3634,7 @@
 /sstlm8.sst?
 /st.aspx?
 /standalone-analytics-
+/stat-adobe-
 /stat-analytics/*
 /stat.asmx
 /stat.aspx?
@@ -4167,6 +4174,7 @@
 /tracking/call.
 /tracking/click?
 /tracking/clicks
+/tracking/common.
 /tracking/comscore/*
 /tracking/cookies/*
 /tracking/count
@@ -4261,6 +4269,7 @@
 /trackings/addview/*
 /trackingScript1.
 /trackingScript2.
+/trackingScriptLoader.
 /TrackingService.js
 /trackingService.min.js
 /trackingService/*
@@ -5152,6 +5161,7 @@ _sdcTrackingCode.
 ,adb=*&referer=
 -logabpstatus.
 /ab_test/*
+/abtesting,
 /adb.policy.js
 /adblock?action=
 /adblocker/pixel.
@@ -5742,6 +5752,7 @@ _mongo_stats/
 ||config.parsely.com^$third-party
 ||confirmational.com^$third-party
 ||confirmit.com^$third-party
+||connectif.cloud^$third-party
 ||contactmonkey.com^$third-party
 ||contemporaryceremonies.ca^$third-party
 ||content-square.net^$third-party
@@ -5864,6 +5875,7 @@ _mongo_stats/
 ||departapp.com^$third-party
 ||deqwas.net^$third-party
 ||devatics.com^$third-party
+||devatics.io^$third-party
 ||device9.com^$third-party
 ||dgmsearchlab.com^$third-party
 ||dhmtracking.co.za^$third-party
@@ -7355,7 +7367,6 @@ _mongo_stats/
 ||statcounters.info^$third-party
 ||stathat.com^$third-party
 ||stathound.com^$third-party
-||staticcache.org^$third-party
 ||staticiv.com^$third-party
 ||statisfy.net^$third-party
 ||statistiche-web.com^$third-party
@@ -9064,6 +9075,7 @@ _mongo_stats/
 ||netvigie.com^$third-party
 ||organicfruitapps.com^$third-party
 ||phywi.org^$third-party
+||pingclock.net^$third-party
 ||potterpetrey.com^$third-party
 ||reseau-pub.com^$third-party
 ||semiocast.com^$third-party
@@ -11392,6 +11404,7 @@ _mongo_stats/
 ||saymedia.com/latest/tetrapak.js
 ||scdn.co/static/js/baba.js$script,domain=spotify.com
 ||schibsted.com/autoTracker
+||sciencex.com/api/location/
 ||scout.haymarketmedia.com^$third-party
 ||scribol.com/traffix/widget_tracker/
 ||scripts.psyma.com^
@@ -14501,6 +14514,7 @@ _mongo_stats/
 ||razor.tv/site/servlet/tracker.jsp
 ||rd.meebo.com^
 ||reachlocal.com/js/tracklandingpage.js
+||readcube.com/assets/track_
 ||real.com^*/pixel?
 ||real.com^*/track.htm?
 ||realitytvworld.com/images/pixel.gif
@@ -15330,6 +15344,7 @@ _mongo_stats/
 ||wa.metro.co.uk^
 ||wa.ui-portal.de^
 ||wachovia.com^*/stats.js
+||wal.co/cdn-perf.min.js
 ||wal.wolfram.com^
 ||wallcannrewards.com^*/index.php?
 ||walletpop.com/track/
@@ -15516,6 +15531,8 @@ _mongo_stats/
 ||zylom.com^*/global_tracking.jsp?
 ||zylom.com^*/tracking_spotlight.js
 ||zytpirwai.net/track/
+! Airbnb facebook tracking
+||airbnb.*/facebook_advanced_matchings?
 ! PerimeterX
 ||auctionzip.com/eKtvxkQ2/
 ||bloomberg.com/8FCGYgk4/
@@ -15576,6 +15593,7 @@ _mongo_stats/
 ||eurogamer-uk.eurogamer.net^
 ||gazette-news-gb.gazette-news.co.uk^
 ||h-bid.com^$third-party
+||isgprivacy.cbsi.com^
 ||mdn.neowin.net^
 ||orionis.techradar.com^
 ||rps-p2.rockpapershotgun.com^
@@ -16182,6 +16200,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||events.guesttoguest.com^
 ||flake.formr.io/sp.js
 ||franceculture.fr/static/js/xtcore-
+||fsm.lapresse.ca^
 ||g.itespresso.fr^
 ||galerieslafayette.com/c/
 ||gstat.orange.fr^
@@ -16940,7 +16959,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||analytics.logsss.com/logsss*.min.js$script,domain=rosegal.com
 @@||analytics.snidigital.com^$script,domain=hgtv.com
 @@||analytics.twitter.com^$domain=analytics.twitter.com
-@@||ancestrycdn.com^*/tracking.js$domain=ancestry.com
+@@||ancestrycdn.com/ui-static/lib/tracking/$domain=ancestry.com
 @@||api-track.delhivery.com/track?waybillId=$~third-party,xmlhttprequest
 @@||api.academia.edu^*/stats?callback$script,~third-party
 @@||api.perfops.net^$script,xmlhttprequest,domain=dnsperf.com
@@ -17035,7 +17054,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ghstatic.com/images/site/zylom/scripts/google-analytics.js?$domain=zylom.com
 @@||github.com^*/heatmap.js$~third-party,xmlhttprequest
 @@||go.com/disneyid/responder$subdocument
-@@||google-analytics.com/analytics.js$domain=afternic.com|allmusic.com|amctv.com|bebo.com|bennysva.com|blastingnews.com|ch10.co.il|cliphunter.com|daemon-tools.cc|desigual.com|easyjet.com|firehousesubs.com|gamepix.com|greentoe.com|housing.wisc.edu|infogr.am|jackbox.tv|jobs.net|keygames.com|manowthaimordialloc.com.au|maxiclimber.com|orbitum.com|pluto.tv|pure.com|rebtel.com|sbnation.com|sci2.tv|seatgeek.com|stitcher.com|support.amd.com|tagheuer.com.au|theverge.com|tv10play.se|tv3play.se|tv6play.se|tv8play.se|video.pbs.org|vox.com|vpnster.com|weather.gov|westernunion.at|westernunion.be|westernunion.ca|westernunion.ch|westernunion.cl|westernunion.co.jp|westernunion.co.nz|westernunion.co.uk|westernunion.co.za|westernunion.com|westernunion.com.au|westernunion.com.co|westernunion.com.hk|westernunion.com.my|westernunion.com.pe|westernunion.de|westernunion.fr|westernunion.ie|westernunion.it|westernunion.nl|westernunion.ph|westernunion.pl|westernunion.se|westernunion.sg|www.google.com
+@@||google-analytics.com/analytics.js$domain=afternic.com|allmusic.com|amctv.com|bebo.com|bennysva.com|blastingnews.com|ch10.co.il|cliphunter.com|daemon-tools.cc|desigual.com|easyjet.com|firehousesubs.com|gamepix.com|greentoe.com|housing.wisc.edu|infogr.am|jackbox.tv|jobs.net|keygames.com|m.timesofindia.com|manowthaimordialloc.com.au|maxiclimber.com|orbitum.com|pluto.tv|pure.com|rebtel.com|sbnation.com|sci2.tv|seatgeek.com|stitcher.com|support.amd.com|tagheuer.com.au|theverge.com|tv10play.se|tv3play.se|tv6play.se|tv8play.se|video.pbs.org|vox.com|vpnster.com|weather.gov|westernunion.at|westernunion.be|westernunion.ca|westernunion.ch|westernunion.cl|westernunion.co.jp|westernunion.co.nz|westernunion.co.uk|westernunion.co.za|westernunion.com|westernunion.com.au|westernunion.com.co|westernunion.com.hk|westernunion.com.my|westernunion.com.pe|westernunion.de|westernunion.fr|westernunion.ie|westernunion.it|westernunion.nl|westernunion.ph|westernunion.pl|westernunion.se|westernunion.sg|www.google.com
 @@||google-analytics.com/gtm/js$script,domain=curbed.com|eater.com|funnyordie.com|gumtree.com|mmafighting.com|mmamania.com|nflgamepass.com|polygon.com|racked.com|riftherald.com|sbnation.com|theringer.com|theverge.com|vox.com
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=lovehoney.co.uk|maxiclimber.com|opendns.com|openshift.com|vimeo.com|westernunion.at|westernunion.be|westernunion.ca|westernunion.ch|westernunion.cl|westernunion.co.jp|westernunion.co.nz|westernunion.co.uk|westernunion.co.za|westernunion.com|westernunion.com.au|westernunion.com.co|westernunion.com.hk|westernunion.com.my|westernunion.com.pe|westernunion.de|westernunion.fr|westernunion.ie|westernunion.it|westernunion.nl|westernunion.ph|westernunion.pl|westernunion.se|westernunion.sg
 @@||google.com/js/gweb/analytics/autotrack.js$domain=gradleplease.appspot.com
