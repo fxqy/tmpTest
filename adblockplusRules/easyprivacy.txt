@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ar088XR/qHqpJ5+UMUl8Gw
-! Version: 202001131252
+! Checksum: 6PM0FAl8FLLwQG4t24jlJQ
+! Version: 202001140922
 ! Title: EasyPrivacy
-! Last modified: 13 Jan 2020 12:52 UTC
+! Last modified: 14 Jan 2020 09:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -373,6 +373,7 @@
 /_t.gif?url=
 /_topic_stats?
 /_tracking/*
+/_visitcount?
 /A-LogAnalyzer/*
 /a-stat.
 /a.gif?uuid
@@ -601,6 +602,7 @@
 /analytic_data_
 /analyticReporting.
 /analyticReportingAS3.$domain=~miniclip.com
+/analytics-2.
 /analytics-assets/*
 /analytics-beacon-
 /analytics-cdn.
@@ -1061,6 +1063,7 @@
 /c?siteID=$image,script
 /c_track.php?
 /cablog?
+/cache/analytics.
 /caixinlog.js
 /calameo-beacon.
 /call-tracking.js
@@ -1261,6 +1264,7 @@
 /cnt.php?rf=
 /cnt/cnt.php?
 /cnt/start.php?
+/cnt_js.php?
 /cntlog/*
 /cntpixel.
 /CntRpt.aspx?
@@ -1682,6 +1686,7 @@
 /event?t=view&
 /event?token=
 /event_logger
+/eventcnt.php?
 /EventhubStats.js
 /eventing/v1/*/current|
 /eventing/v1/*/session|
@@ -2606,6 +2611,8 @@
 /marketing-analytics.js
 /marketing/js/analytics/*
 /martypixel?
+/mat0m0.
+/mat0m0?
 /matomo.js
 /matomo/*$domain=~matomo.org
 /maxymiser.
@@ -3204,6 +3211,7 @@
 /pubtag.js?
 /pulsario.js
 /push/page-view/*
+/pusher/info?
 /pushlog.
 /pv.gif?1=
 /pv.gif?url
@@ -3228,6 +3236,7 @@
 /pvserver/pv.js
 /PvServlet?
 /pw.js?deskurl=
+/pwa/js/container_$script
 /px.gif?
 /px.js?ch=$script
 /px/*/blank.gif?
@@ -4223,6 +4232,7 @@
 /tracking/setTracker/*
 /tracking/simplified_
 /tracking/srv.
+/tracking/stat
 /tracking/t.php?
 /tracking/t.srv?
 /tracking/tag_commander.php?
@@ -4519,6 +4529,7 @@
 /visit-tracker.js
 /visit.gif?
 /visit/?*&ref=
+/visit/init?
 /visit/log.js?
 /visit/record.gif?
 /visit/record?
@@ -5735,6 +5746,7 @@ _mongo_stats/
 ||cognitivematch.com^$third-party
 ||cohesionapps.com^$third-party
 ||collarity.com^$third-party
+||collecting.click^$third-party
 ||collserve.com^$third-party
 ||colossusssp.com^$third-party
 ||commander1.com^$third-party
@@ -5918,6 +5930,7 @@ _mongo_stats/
 ||dtxngr.com^$third-party
 ||dwin1.com^$third-party
 ||dwin2.com^$third-party
+||dynameex.com^$third-party
 ||dynamicyield.com^$third-party
 ||dynatrace.com^$third-party
 ||dynatracesaas.com^$third-party
@@ -6645,6 +6658,7 @@ _mongo_stats/
 ||msgapp.com^$third-party
 ||msgtag.com^$third-party
 ||msparktrk.com^$third-party
+||mstat.ga^$third-party
 ||mstracker.net^$third-party
 ||mstrlytcs.com^$third-party
 ||mtracking.com^$third-party
@@ -8438,6 +8452,7 @@ _mongo_stats/
 ||leserservice-tracking.de^$third-party
 ||link-empfehlen24.de^$third-party
 ||losecounter.de^$third-party
+||lumitos.com^$third-party
 ||mairdumont.com^$third-party
 ||marketing-page.de^$third-party
 ||mateti.net^$third-party
@@ -9106,6 +9121,7 @@ _mongo_stats/
 ||mokuz.ru^$third-party
 ||musiccounter.ru^$third-party
 ||mystat-in.net^$third-party
+||opentracking.ru^$third-party
 ||personage.name^$third-party
 ||pladform.ru^$third-party
 ||pmbox.biz^$third-party
@@ -9575,6 +9591,7 @@ _mongo_stats/
 ||bazaarvoice.com/sid.gif
 ||bazaarvoice.com^*/magpie.js
 ||bc.geocities.
+||bc.marfeelcache.com^
 ||beacon.affil.walmart.com^
 ||beacon.aimtell.com^
 ||beacon.errorception.com^
@@ -11676,6 +11693,7 @@ _mongo_stats/
 ||pv.hd.sohu.com^
 ||pv.sohu.com^
 ||qbox.me/vds.js
+||qidian.qq.com/report/
 ||qtmojo.com/pixel?
 ||r.sax.sina.com.cn^
 ||report.meituan.com^
@@ -13904,6 +13922,7 @@ _mongo_stats/
 ||sp.desmoinesregister.com^
 ||sp.detroitnews.com^
 ||sp.dnj.com^
+||sp.fanatical.com^
 ||sp.fdlreporter.com^
 ||sp.floridatoday.com^
 ||sp.freep.com^
@@ -14132,6 +14151,7 @@ _mongo_stats/
 ||target.com/ci/$script
 ||targetspot.com/track/
 ||tarot.com/stats/
+||taskulu.com/mtc/event
 ||tck.bangbros.com^
 ||tcog.news.com.au^$~xmlhttprequest
 ||tcpalm.com/metrics/
@@ -15225,6 +15245,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||welt.de/t/js
 ||wer-weiss-was.de/indication/clue_*.gif?
 ||wienerzeitung.at/__webtrends/
+||wikipedia.de/tracking.js
 ||wirtschaftspresse.biz/pshb?
 ||wiwo.de/analytics/
 ||wlw.de^*/tracking/
@@ -15412,6 +15433,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||ku6.com/ku6.gif?
 ||le.com/op/
 ||letv.com/op?
+||lg.tr.pandora.tv^
 ||log*.ku6.com^
 ||log.51cto.com^
 ||log.bitauto.com^
