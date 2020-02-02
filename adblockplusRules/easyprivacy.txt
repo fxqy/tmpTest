@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: LiIu1kIUuWaaxvrc6g8pbA
-! Version: 202002010251
+! Checksum: LB9yGR0QMmmFEz04vrlUNQ
+! Version: 202002020411
 ! Title: EasyPrivacy
-! Last modified: 01 Feb 2020 02:51 UTC
+! Last modified: 02 Feb 2020 04:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -20,7 +20,7 @@
 &ctxId=*&pubId=*&objId=
 &event=view&
 &funnel_state=
-&http_referer=$script,xmlhttprequest
+&http_referer=$script,xmlhttprequest,domain=~facebook.com
 &idsite=*&send_image=$image
 &pageReferrer=
 &ref=*&tag=
@@ -4885,6 +4885,7 @@
 =getSideStats&
 =googleanalytics_
 =metrics_profile&
+=pageImpression&
 =stats&action=
 =stats&apiVersion=
 =track_view&
@@ -16590,6 +16591,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
 @@||atwikiimg.com/common/_img/spacer.gif?$image,domain=atwiki.jp
 @@||chancro.jp/assets/lib/googleanalytics-$script
+@@||googletagmanager.com/gtm.js$script,domain=sankei.com
 @@||mediaweaver.jp^$image,domain=ismedia.jp
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
