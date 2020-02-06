@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: KhqRSK23EkqsjG8JVBFNLA
-! Version: 202002050201
+! Checksum: XfWd1aF3Gs5wMUvBAnQadQ
+! Version: 202002060201
 ! Title: EasyPrivacy
-! Last modified: 05 Feb 2020 02:01 UTC
+! Last modified: 06 Feb 2020 02:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -209,6 +209,7 @@
 .de/h.gif?
 .de/l.gif?
 .de/o.gif?
+.de/z.gif?
 .do_tracking&
 .drive-analytics.
 .eloqua.js
@@ -1489,6 +1490,7 @@
 /datacapture/track
 /datacollectcode?
 /datadome/*
+/DavplusAnalytics.
 /dbdm-events.
 /dbdm-events/*
 /dc-storm-track.
@@ -2293,6 +2295,7 @@
 /intstatcheck.
 /iotechnologies.js
 /IPbeacon.
+/ipdvdc/*
 /iperceptions.
 /iperceptions/*
 /iperceptions_
@@ -3823,6 +3826,7 @@
 /stats/track.asp?
 /stats/tracker.js
 /stats/tracking.
+/stats/visitors
 /stats/welcome.php?
 /stats/xmsg_
 /stats/xtcore.
@@ -5575,7 +5579,6 @@ _mongo_stats/
 ||baynote.net^$third-party
 ||baztrack.com^$third-party
 ||bbthat.com^$script,third-party
-||bc0a.com^$third-party
 ||bdash-cloud.com^$third-party
 ||beacon.kmi-us.com^$third-party
 ||beaconstreetservices.com^$third-party
@@ -8323,6 +8326,7 @@ _mongo_stats/
 ||quietknowledge.com^$third-party
 ||raresummer.com^$third-party
 ||realizerecess.com^$third-party
+||realizevacation.com^$third-party
 ||richstring.com^$third-party
 ||ringplayground.com^$third-party
 ||ritzykey.com^$third-party
@@ -9200,8 +9204,10 @@ _mongo_stats/
 ||rnet.plus^$third-party
 ||ru.net^$third-party
 ||rutarget.ru^$third-party
+||sarimsol.com^$third-party
 ||sarov.ws^$third-party
 ||sas.com^$third-party
+||sblftg.com^$third-party
 ||semantiqo.com^$third-party
 ||sensor.org.ua^$third-party
 ||seo-master.net^$third-party
@@ -10177,6 +10183,7 @@ _mongo_stats/
 ||filament-stats.herokuapp.com^
 ||files-hawk.co.uk/hl/hawklinks.js
 ||filesonic.com/referral/$third-party
+||firecrux.com/track/$xmlhttprequest
 ||fitanalytics.com/metrics/
 ||flashstats.libsyn.com^
 ||flex.msn.com/mstag/
@@ -10575,6 +10582,7 @@ _mongo_stats/
 ||msecnd.net/script/raptor-
 ||msecnd.net/scripts/a/ai.
 ||msecnd.net/scripts/b/ai.
+||msecnd.net/scripts/jsll-
 ||mshcdn.com/assets/metrics-
 ||mts.mansion.com^$third-party
 ||mtvnservices.com/aria/uuid.html
@@ -11503,6 +11511,7 @@ _mongo_stats/
 ||onlex.de/_counter.php
 ||onlinepresse.info/counter.php?
 ||onlyfree.de^*/counterservice/
+||orbidder.otto.de^
 ||ottogroup.media/ogm.nitro.
 ||plista.com/getuid?
 ||plista.com/iframeShowItem.php
@@ -11540,7 +11549,9 @@ _mongo_stats/
 ||t.etraveli.com^
 ||t.nativendo.de^
 ||t.quisma.com^
+||tagm.tchibo.de^
 ||top50-solar.de/solarcount/
+||track2.cliplister.com^
 ||track2.dulingo.com^
 ||track2.mycliplister.com^
 ||tracker.euroweb.net^
@@ -14725,6 +14736,7 @@ _mongo_stats/
 ||cmp.pcworld.idg.com.au^
 ||cmp.techadvisor.co.uk^
 ||cmp.techhive.com^
+||commsvc.geo.de^
 ||commsvc.stern.de^
 ||eurogamer-uk.eurogamer.net^
 ||gazette-news-gb.gazette-news.co.uk^
@@ -15234,6 +15246,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||news.ch/newslogbug.asp?
 ||newsdeutschland.com/RPC
 ||nickles.de/ivw/
+||notebookinfo.de/p?
 ||nowonscreen.com/statistik_
 ||nox.to/files/frame.htm
 ||noz.de/tracking/
@@ -16001,6 +16014,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||c.gazetevatan.com^
 ||d.haberler.com^
 ||haberler.com/dinamik/
+||mark.isbank.com.tr^
 ||p.milliyet.com.tr^
 ||sahibinden.com/sbbi/
 ! Ukrainian
