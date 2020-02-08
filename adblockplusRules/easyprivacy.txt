@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: qQE8jUgGq6WZ7oMgh8wqiA
-! Version: 202002070251
+! Checksum: 21ciT+kTKxZZlgK0Dq1wdg
+! Version: 202002080531
 ! Title: EasyPrivacy
-! Last modified: 07 Feb 2020 02:51 UTC
+! Last modified: 08 Feb 2020 05:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -375,6 +375,7 @@
 /_lib/ga.js
 /_owa.gif?
 /_sess/script.js
+/_stat/log/*
 /_t.gif?*&u=
 /_t.gif?url=
 /_topic_stats?
@@ -8239,11 +8240,13 @@ _mongo_stats/
 ||absurdapple.com^$third-party
 ||acidpigs.com^$third-party
 ||acridtwist.com^$third-party
+||afraidlanguage.com^$third-party
 ||agreeabletouch.com^$third-party
 ||aheadday.com^$third-party
 ||alikeaddition.com^$third-party
 ||alleyarm.com^$third-party
 ||allowmailbox.com^$third-party
+||amazingairplane.com^$third-party
 ||anxiousapples.com^$third-party
 ||attractivecap.com^$third-party
 ||automaticside.com^$third-party
@@ -8263,12 +8266,14 @@ _mongo_stats/
 ||capsquirrel.com^$third-party
 ||caringzinc.com^$third-party
 ||carscannon.com^$third-party
+||cautiouscrate.com^$third-party
 ||cautiouscredit.com^$third-party
 ||cloisteredcord.com^$third-party
 ||colorfulafterthought.com^$third-party
 ||complextoad.com^$third-party
 ||conditioncrush.com^$third-party
 ||consciouschairs.com^$third-party
+||coordinatedcoat.com^$third-party
 ||coordinatedcub.com^$third-party
 ||copycarpenter.com^$third-party
 ||cosmosjackson.com^$third-party
@@ -8299,6 +8304,7 @@ _mongo_stats/
 ||futuristicfifth.com^$third-party
 ||giddycoat.com^$third-party
 ||giraffepiano.com^$third-party
+||gondolagnome.com^$third-party
 ||gorgeousground.com^$third-party
 ||greyinstrument.com^$third-party
 ||guiltlessbasketball.com^$third-party
@@ -8313,6 +8319,7 @@ _mongo_stats/
 ||innocentinvention.com^$third-party
 ||inquisitiveinvention.com^$third-party
 ||intelligentscissors.com^$third-party
+||j93557g.com^$third-party
 ||jadeitite.com^$third-party
 ||jamexistence.com^$third-party
 ||lamplow.com^$third-party
@@ -8329,6 +8336,7 @@ _mongo_stats/
 ||mundanepollution.com^$third-party
 ||neighborlywatch.com^$third-party
 ||nervoussummer.com^$third-party
+||niftyhospital.com^$third-party
 ||parcelcreature.com^$third-party
 ||parsimoniouspolice.com^$third-party
 ||partplanes.com^$third-party
@@ -8371,6 +8379,7 @@ _mongo_stats/
 ||sortsummer.com^$third-party
 ||spiffymachine.com^$third-party
 ||spottednoise.com^$third-party
+||spuriousbase.com^$third-party
 ||spurioussteam.com^$third-party
 ||squeakzinc.com^$third-party
 ||squirrelhands.com^$third-party
@@ -8388,7 +8397,9 @@ _mongo_stats/
 ||tawdryson.com^$third-party
 ||tendertest.com^$third-party
 ||thirdrespect.com^$third-party
+||thirstytwig.com^$third-party
 ||ticklesign.com^$third-party
+||tranquilside.com^$third-party
 ||typicalairplane.com^$third-party
 ||typicalteeth.com^$third-party
 ||ubiquitousyard.com^$third-party
@@ -10581,7 +10592,6 @@ _mongo_stats/
 ||metaffiliation.com^*^mclic=
 ||metering.pagesuite.com^$third-party
 ||metric.nwsource.com^
-||metrics-api.dimensions.ai^
 ||metrics-api.librato.com^
 ||metrics.api.drift.com^
 ||metrics.brightcove.com^
@@ -12488,6 +12498,7 @@ _mongo_stats/
 ||bi.medscape.com^
 ||bidz.com/contentarea/BidzHomePixel
 ||binaries4all.nl/misc/misc.php?*&url=http
+||bing.com*^/c.gif?$image
 ||bing.com/fd/ls/$~ping
 ||bing.com/partner/primedns
 ||bing.com/widget/metrics.js
@@ -14767,7 +14778,6 @@ _mongo_stats/
 ||cmp.pcworld.idg.com.au^
 ||cmp.techadvisor.co.uk^
 ||cmp.techhive.com^
-||commsvc.geo.de^
 ||commsvc.stern.de^
 ||eurogamer-uk.eurogamer.net^
 ||gazette-news-gb.gazette-news.co.uk^
@@ -15818,6 +15828,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||analyzer2.fc2.com^
 ||astat.nikkei.com^
 ||barks.jp/v1/stats
+||beacon.itmedia.jp^
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
 ||carview.co.jp/include_api/log/
@@ -16275,6 +16286,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||highcharts.com^*/heatmap.js
+@@||hitfile.net/platform/js/fdlogger/fdlogger.js$script,~third-party
 @@||hmhco.com/one/js/conf/trackjs.config.$script,~third-party,xmlhttprequest
 @@||hobbyking.com^*/gtm.js$script,third-party
 @@||hscta.net/cta/current.js$script,domain=aucfan.com
