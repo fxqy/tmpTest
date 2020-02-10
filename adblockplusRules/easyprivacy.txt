@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: MsAAw3D4zPx0EPT7tNL5Sw
-! Version: 202002090751
+! Checksum: EXphWVqe/dRdhuBmzqGETg
+! Version: 202002100611
 ! Title: EasyPrivacy
-! Last modified: 09 Feb 2020 07:51 UTC
+! Last modified: 10 Feb 2020 06:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1896,6 +1896,7 @@
 /ga_measure.
 /ga_no_cookie.
 /ga_no_cookie_
+/ga_optimize.
 /ga_outgoinglinks.
 /ga_setup.js
 /ga_sip.js
@@ -2619,6 +2620,7 @@
 /logstat?
 /logStatistic?
 /logStatistics?
+/logstats.php
 /logview.js
 /logview?referrer=
 /logview_new.js
@@ -3769,6 +3771,7 @@
 /statistics/get?
 /statistics/getcook.php?
 /statistics/imr.
+/Statistics/Log.svc/*
 /statistics/logging/*
 /statistics/metrica.
 /statistics/ping.
@@ -10956,6 +10959,7 @@ _mongo_stats/
 ||sightmaxondemand.com/wreal/sightmaxagentinterface/monitor.smjs
 ||sinajs.cn/open/analytics/
 ||sitebooster.com/sb/wix/p?$third-party
+||sitefinity.com/collect/
 ||skimresources.com/api/ref-banners.js
 ||skysa.com/tracker/
 ||sli-spark.com/b.png$third-party
