@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: EXphWVqe/dRdhuBmzqGETg
-! Version: 202002100611
+! Checksum: 49UyN8z6ZatKBM0+Gg8i+Q
+! Version: 202002110311
 ! Title: EasyPrivacy
-! Last modified: 10 Feb 2020 06:11 UTC
+! Last modified: 11 Feb 2020 03:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -694,6 +694,7 @@
 /analytics/hit
 /analytics/hmac-
 /analytics/idg_
+/analytics/init.
 /analytics/js$script
 /analytics/klaviyo_
 /analytics/liferay-
@@ -825,6 +826,7 @@
 /appier-track-
 /AppMeasurement.js
 /AppMeasurement2.js
+/AppMeasurementCustom.
 /apTracker.
 /aptrk.js
 /apw.js
@@ -1708,6 +1710,7 @@
 /event?t=view&
 /event?token=
 /event_logger
+/event_tracker?_
 /eventcnt.php?
 /EventhubStats.js
 /eventing/v1/*/current|
@@ -2539,6 +2542,7 @@
 /log?ref=
 /log?sLog=
 /log?tag=
+/log?track_
 /log?type=
 /log_agent.
 /log_beacon.
@@ -4443,6 +4447,8 @@
 /trovit-analytics.js
 /trpic.asp?
 /truehits.php?
+/trueTag-
+/truetag_landing_
 /trx?id=
 /tse/tracking.
 /tsrHitCounter.
@@ -6432,6 +6438,7 @@ _mongo_stats/
 ||intelli-tracker.com^$third-party
 ||intelligencefocus.com^$third-party
 ||intellimize.co^$third-party
+||interact-analytics.com^$third-party
 ||interceptum.com^$third-party
 ||intergient.com^$third-party
 ||intermundomedia.com^$third-party
@@ -6480,6 +6487,7 @@ _mongo_stats/
 ||itrackerpro.com^$third-party
 ||itracmediav4.com^$third-party
 ||ivcbrasil.org.br^$third-party
+||ivstracker.net^$third-party
 ||ivwbox.de^$third-party
 ||iwebtrack.com^$third-party
 ||iwstats.com^$third-party
@@ -8915,6 +8923,7 @@ _mongo_stats/
 ||netstats.dk^$third-party
 ||parameter.dk^$third-party
 ||peakcounter.dk^$third-party
+||telemetric.dk^$third-party
 ||tns-gallup.dk^$third-party
 ||zipstat.dk^$third-party
 ! Dutch
@@ -11709,6 +11718,7 @@ _mongo_stats/
 ||stats.ipmgroup.be^
 ||stats.tipser.com^
 ||tag.leadplace.fr^
+||testcddc.atclouddev.net^
 ||tmgr.ccmbg.com^
 ||track.byzon.swelen.net^$third-party
 ||track.kyoads.com^
@@ -12314,6 +12324,7 @@ _mongo_stats/
 ||airspacemag.com/g/g/button/
 ||akamai.net^$script,domain=argos.co.uk|newscientist.com|upwork.com
 ||akamai.net^*/button.clickability.com/
+||akamaihd.net/ok7rdanq.gif$image,domain=inquirer.net
 ||akamaihd.net/pixelkabam/
 ||akamaihd.net^$script,domain=allmodern.com|birchlane.com|perigold.com|wayfair.co.uk|wayfair.com
 ||alarabiya.net/track_content_
@@ -12996,6 +13007,7 @@ _mongo_stats/
 ||g2a-com.newsletter.com.pl^$image,third-party
 ||ga.canoe.ca^
 ||ga.nsimg.net^
+||gaana.com/track/
 ||gaiaonline.com/internal/mkt_t.php?
 ||gak.webtoons.com^
 ||galleries.bz/track/
@@ -14242,6 +14254,7 @@ _mongo_stats/
 ||t3.com/js/trackers.js
 ||tab.co.nz/track?
 ||tagcommander.laredoute.
+||taglocker.target.com^
 ||tags.aljazeera.
 ||tags.msnbc.com^
 ||tags.news.com.au^$script
