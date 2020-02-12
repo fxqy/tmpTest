@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: h8itzia7XYNgCU1iiJcEog
-! Version: 202002111001
+! Checksum: 2+t/LudWxoz9o76nuA/wug
+! Version: 202002120241
 ! Title: EasyPrivacy
-! Last modified: 11 Feb 2020 10:01 UTC
+! Last modified: 12 Feb 2020 02:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -622,6 +622,7 @@
 /analytics-event-
 /analytics-event.
 /analytics-gcp.
+/analytics-ingestion/*
 /analytics-ingress-
 /analytics-js.
 /analytics-js/*
@@ -8394,6 +8395,7 @@ _mongo_stats/
 ||separatesilver.com^$third-party
 ||sharppatch.com^$third-party
 ||shermore.info^$third-party
+||shesubscriptions.com^$third-party
 ||shockinggrass.com^$third-party
 ||shockingship.com^$third-party
 ||shyseed.com^$third-party
@@ -15500,7 +15502,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||p.pagesjaunes.fr^
 ||pagesjaunes.fr/bva/track.js
 ||pagesjaunes.fr/crmmetrix/
-||pam.nextinpact.com^
+||poum.nextinpact.com^
 ||pwa.telephoneannuaire.fr^
 ||rdtdlv.laredoute.fr^
 ||rtbf.be/log
@@ -15522,7 +15524,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||tc.hometogo.net^
 ||tdep.vacansoleil.fr^
 ||tesla.oscaro.com^
-||tim.nextinpact.com^
 ||track.24heures.ch^
 ||tracker-id.cdiscount.com^
 ||tracker.cds-tracking.com^
