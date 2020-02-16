@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 0O7sPBAfwHALmJbZ4gbB3Q
-! Version: 202002150821
+! Checksum: KqZeSdsz20jGu9L9lWOaOA
+! Version: 202002160231
 ! Title: EasyPrivacy
-! Last modified: 15 Feb 2020 08:21 UTC
+! Last modified: 16 Feb 2020 02:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -824,6 +824,7 @@
 /app/tracking_
 /appendOmnitureTracking.
 /appGoogleAnalytics-
+/appGoogleTagManager-
 /appier-track-
 /AppMeasurement.js
 /AppMeasurement2.js
@@ -1696,6 +1697,7 @@
 /event.php?campaign=
 /event/*/*?*&euidl=*&url=
 /event/?ra=
+/event/fingerprint
 /event/beacon|
 /event/impression/*
 /event/pageview/*
@@ -8323,9 +8325,11 @@ _mongo_stats/
 ||desiredirt.com^$third-party
 ||detectdiscovery.com^$third-party
 ||diplomahawaii.com^$third-party
+||dq95d35.com^$third-party
 ||drydrum.com^$third-party
 ||ejyymghi.com^$third-party
 ||endurablecrayon.com^third-party
+||enviousshape.com^$third-party
 ||fadedsnow.com^$third-party
 ||falseframe.com^$third-party
 ||familiarrod.com^$third-party
@@ -10056,6 +10060,7 @@ _mongo_stats/
 ||d25ezbwokoefx6.cloudfront.net^
 ||d27s92d8z1yatv.cloudfront.net/js/jquery.jw.analitycs.js
 ||d28g9g3vb08y70.cloudfront.net^
+||d2as12kgjg8gw5.cloudfront.net^
 ||d2cpw6kwpff7n5.cloudfront.net^
 ||d2ibu2ug0mt5qp.cloudfront.net^
 ||d2kdl5wcwrtj90.cloudfront.net^
@@ -11731,6 +11736,7 @@ _mongo_stats/
 ||stats.buzzea.com^
 ||stats.ipmgroup.be^
 ||stats.tipser.com^
+||t.ofsys.com^
 ||tag.leadplace.fr^
 ||testcddc.atclouddev.net^
 ||tmgr.ccmbg.com^
@@ -12869,6 +12875,7 @@ _mongo_stats/
 ||epinions.com/js/triggerParams.js
 ||eporner.com/stats/
 ||eproof.drudgereport.com^
+||equirodi.*/addstat.php
 ||es.puritan.com^
 ||espncdn.com^*.tracking.js
 ||et.nytimes.com^
