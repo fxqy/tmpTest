@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HbUF1Vur+g9tNetYE/hnxQ
-! Version: 202002160241
+! Checksum: JbxOjt1nhSumeUAmse1gYA
+! Version: 202002160951
 ! Title: EasyList China+EasyList
-! Last modified: 16 Feb 2020 02:41 UTC
+! Last modified: 16 Feb 2020 09:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -8547,6 +8547,10 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+jisuxz.com##.dl_gaosu
+jisuxz.com##.xiazaiqi
+xue51.com##.gsbtn
+qqtn.com##.u-gs-btn
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -62181,6 +62185,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||yxbzsdthw.com^$third-party
 ||yxdwsuppvt.com^$third-party
 ||yxfkdvkh.com^$third-party
+||yxfxhkbrwzww.com^$third-party
 ||yximgdpivguxke.com^$third-party
 ||yxlzwbahyn.com^$third-party
 ||yxsrshkmgiyn.com^$third-party
@@ -62399,6 +62404,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||zsrycovuxfgzyn.com^$third-party
 ||ztdfsxgcyprwvp.com^$third-party
 ||ztiqalyrbfsnl.com^$third-party
+||ztpqbrzjp.com^$third-party
 ||ztsletmncez.com^$third-party
 ||ztslmijniaoqip.com^$third-party
 ||ztstwgxjhkuwj.com^$third-party
@@ -83631,6 +83637,7 @@ www.google.com#@##videoads
 @@||pornhub.com/pornstar/$xmlhttprequest
 @@||pornhub.com/pornstars/$xmlhttprequest
 @@||pornhub.com/premium/$xmlhttprequest
+@@||pornhub.com/press/contact$xmlhttprequest,domain=pornhub.com
 @@||pornhub.com/recommended$xmlhttprequest,domain=pornhub.com|pornhubthbh7ap3u.onion
 @@||pornhub.com/sex/wp-content/uploads/$image,domain=pornhub.com|pornhubthbh7ap3u.onion
 @@||pornhub.com/stream/$xmlhttprequest
