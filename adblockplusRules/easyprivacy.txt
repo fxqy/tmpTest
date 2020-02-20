@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: JfVYRbG8RfYwVUnHx1KqCg
-! Version: 202002180401
+! Checksum: rbbuNi5CatjPtj660MJEzQ
+! Version: 202002200311
 ! Title: EasyPrivacy
-! Last modified: 18 Feb 2020 04:01 UTC
+! Last modified: 20 Feb 2020 03:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -758,6 +758,7 @@
 /analytics_min.
 /analytics_ping.
 /analytics_prod.
+/analytics_push.
 /analytics_tag.
 /analytics_tracker
 /analytics_v2.js
@@ -807,6 +808,7 @@
 /api/pixel?
 /api/stat?
 /api/statz
+/api/tracing?
 /api/tracking/*
 /api/v1/collector
 /api/v1/metrics
@@ -1755,6 +1757,7 @@
 /exittracker.
 /exittraffic.
 /expcount/*
+/experiment/impressions.js
 /expose.gif?
 /extBnr.gif?
 /extendedAnalytics.
@@ -2663,7 +2666,7 @@
 /mat0m0?
 /matomo-tracking.
 /matomo.js$domain=~github.com
-/matomo/*$domain=~github.com|~matomo.org
+/matomo/*$domain=~github.com|~matomo.org|~wordpress.org
 /maxymiser.
 /Maxymiser/*
 /mbcom.tracking.
@@ -5414,6 +5417,7 @@ _mongo_stats/
 ||acxiom-online.com^$third-party
 ||acxiomapac.com^$third-party
 ||ad-score.com^$third-party
+||ad-srv-track.com^$third-party
 ||ad.gt^$third-party
 ||adabra.com^$third-party
 ||adalyser.com^$third-party
@@ -11776,6 +11780,7 @@ _mongo_stats/
 ||3.cn/cesu/r?
 ||360.cn/mapping_service?
 ||4gtv.tv/js/ga_
+||adv-sv-stat.focus.cn^
 ||aixifan.com/acsdk/log.min.js?
 ||alicdn.com/tkapi/click.js
 ||alicdn.com^*/tracker/
@@ -11803,6 +11808,7 @@ _mongo_stats/
 ||cms.grandcloud.cn^$third-party
 ||cnzz.com/c.php?
 ||counter.pixplug.in^
+||cpro.baidustatic.com^$script,domain=sohu.com
 ||cri.cn/js/a1.js
 ||csbew.com^$third-party
 ||csdn.net^*/counter.js
@@ -11848,6 +11854,7 @@ _mongo_stats/
 ||soso.mymederback.com^
 ||stargame.com/g.js
 ||stat.ws.126.net^
+||statics.itc.cn^*/spm.js$script,domain=sohu.com
 ||sugs.m.sm.cn^
 ||t.hypers.com.cn^
 ||tanx.com/t/tanxclick.js
@@ -12747,7 +12754,6 @@ _mongo_stats/
 ||coursera.org/wf/open?
 ||coveritlive.com/1/sts/view?
 ||cpt.itv.com^
-||cr-eec.etp-prod.com^$xmlhttprequest,domain=crunchyroll.com
 ||cr.org^*/tracking.js
 ||cracked.com/tracking/
 ||crackle.com/tracking/
@@ -12758,9 +12764,6 @@ _mongo_stats/
 ||creditcards.com/sb.php?
 ||crowdignite.com/img/l.gif
 ||crunchsports.com/tracking_fetchinfo.aspx?
-||crunchyroll.com/ip
-||crunchyroll.com/tracker
-||crunchyroll.com^*/breadcrumb.js
 ||ct.cnet.com/opens?
 ||ctscdn.com/content/tracking-
 ||current.com/tracking.htm?
@@ -12860,6 +12863,7 @@ _mongo_stats/
 ||edvantage.com.sg/site/servlet/tracker.jsp
 ||edw.edmunds.com^
 ||edweek.org/js/sc.js
+||eec.crunchyroll.com^
 ||efukt.com^*?hub=
 ||egg.com/rum/data.gif?
 ||ehow.com/services/jslogging/log/?
@@ -12906,6 +12910,7 @@ _mongo_stats/
 ||events.secureserver.net^
 ||events.turbosquid.com^
 ||everythinggirl.com/assets/tracker/
+||evgnet.com/beacon/
 ||evisit.exeter.ac.uk^
 ||eweek.com/hqxapi/
 ||ex.ua/counter/
@@ -14821,6 +14826,7 @@ _mongo_stats/
 ||zazzle.com/a0o07ort/
 ||zillow.com/HYx10rg3/
 ! Consent/GDPR tracking
+||bournemouthecho-gb.bournemouthecho.co.uk^
 ||bucksfreepress-gb.bucksfreepress.co.uk^
 ||cdn-alliancegravity.s3.amazonaws.com^
 ||cmp.arnnet.com.au^
@@ -14841,7 +14847,10 @@ _mongo_stats/
 ||commsvc.stern.de^
 ||eurogamer-uk.eurogamer.net^
 ||gazette-news-gb.gazette-news.co.uk^
+||glasgowtimes-gb.glasgowtimes.co.uk^
+||greenocktelegraph-gb.greenocktelegraph.co.uk^
 ||h-bid.com^$third-party
+||heraldscotland-gb.heraldscotland.com^
 ||isgprivacy.cbsi.com^
 ||mdn.neowin.net^
 ||orionis.techradar.com^
@@ -14849,11 +14858,13 @@ _mongo_stats/
 ||rps-uk.rockpapershotgun.com^
 ||sourcepoint.vice.com^
 ||sthelensstar-gb.sthelensstar.co.uk^
+||swindonadvertiser-gb.swindonadvertiser.co.uk^
 ||thenational-gb.thenational.scot^
 ||ttauri.laptopmag.com^
 ||ttauri.tomsguide.com^
 ||ttauri.tomshardware.com^
 ||vg247.com/wp-content/themes/vg247/scripts/mvg247-fsm.js
+||wiltshiretimes-gb.wiltshiretimes.co.uk^
 ||worcesternews-gb.worcesternews.co.uk^
 ||yourlocalguardian-gb.yourlocalguardian.co.uk^
 ! Eulerian
@@ -15721,6 +15732,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||sohu.com/clk.gif?
 ||sohu.com/count/
 ||sohu.com/ctr.gif?
+||sohu.com/ip/$script
 ||sohu.com/pv.js
 ||sohu.com/pv?
 ||sohu.com/qfpc.gif?
@@ -16322,7 +16334,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||dynamicyield.com/st?$script,domain=computeruniverse.net|zalora.com.my|zalora.com.ph|zalora.sg
 @@||e2e-comms.pearson.com/osbrowserchecker/prd/thirdPartyCookie.html?$subdocument,domain=pearsonmylabandmastering.com
 @@||ec.europa.eu^*/piwik.js
-@@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|capitalone.com|caranddriver.com|cart.autodesk.com|citizensbank.com|dell.com|france24.com|homedepot.com|hp.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|zales.com
+@@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citizensbank.com|dell.com|france24.com|homedepot.com|hp.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|zales.com
 @@||ensighten.com^*/code/$script
 @@||ensighten.com^*/scode/$script,domain=norton.com
 @@||ensighten.com^*/serverComponent.php?$script
@@ -16577,7 +16589,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||mlb.com/b/ss/$image
 @@||nokia.com/b/ss/$image,domain=here.com
 @@||oms.dowjoneson.com/b/ss/$image,domain=wsj.com
-@@||omtrdc.net/b/ss/$image,domain=halifax-online.co.uk|logmein.com|macworld.com|msnbc.com|nbc.com|pcworld.com|techhive.com|usanetwork.com
+@@||omtrdc.net/b/ss/$image,domain=britishairways.com|halifax-online.co.uk|logmein.com|macworld.com|msnbc.com|nbc.com|pcworld.com|techhive.com|usanetwork.com
 @@||omtrdc.net/rest/$xmlhttprequest
 @@||royalmail.com/b/ss/$image
 @@||scorecardresearch.com/r2?$image,domain=ancestry.com|billetnet.dk|billettservice.no|lippupalvelu.fi|pcworld.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se|wsj.com
@@ -16671,7 +16683,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||googletagmanager.com/gtm.js?$domain=cdon.fi
 @@||inpref.s3.amazonaws.com/sites/$script,domain=kauppahalli24.fi
 @@||lekane.net/lekane/dialogue-tracking.js?$script
-@@||power.fi/Umbraco/Api/Tracking/$xmlhttprequest
 ! Greek
 ! Hebrew
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
@@ -16806,8 +16817,9 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||boxberry.ru/tracking.service/
 @@||criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
 @@||dict.rambler.ru/fcgi-bin/$xmlhttprequest,domain=rambler.ru
-@@||google-analytics.com/analytics.js$domain=nabortu.ru|poiskstroek.ru|rzd.ru
-@@||googletagmanager.com/gtm.js$domain=besplatka.ua|sportmaster.ru
+@@||google-analytics.com/analytics.js$domain=nabortu.ru|poiskstroek.ru|rzd.ru|teddyfood.com
+@@||google-analytics.com/plugins/ua/ec.js$domain=teddyfood.com
+@@||googletagmanager.com/gtm.js$domain=besplatka.ua|sportmaster.ru|teddyfood.com
 @@||itv.1tv.ru/stat.php?
 @@||k12-company.ru^*/statistics.js$script
 @@||komus.ru/_ui/shared/js/ga/googleTagManager.js$script,~third-party
@@ -16829,6 +16841,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||wargag.ru/public/js/counter.js?
 @@||widget.myrentacar.me^$script,subdocument
 @@||xtool.ru/js/analyze.js$script,domain=xtool.ru
+@@||yandex.ru/metrika/tag.js$script,domain=kuchenland.ru
 @@||yandex.ru/metrika/watch.js$domain=alean.ru|anoncer.net|nabortu.ru|tv.yandex.ru|tvrain.ru
 @@||yandex.ru/watch/$xmlhttprequest,domain=anoncer.net
 @@||yandex.ru/webvisor/$xmlhttprequest,domain=anoncer.net
