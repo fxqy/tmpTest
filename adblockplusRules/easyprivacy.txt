@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: rbbuNi5CatjPtj660MJEzQ
-! Version: 202002200311
+! Checksum: and5wcHZXPsmHiAr94jXzA
+! Version: 202002210241
 ! Title: EasyPrivacy
-! Last modified: 20 Feb 2020 03:11 UTC
+! Last modified: 21 Feb 2020 02:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3125,6 +3125,7 @@
 /pixel-events.
 /pixel-manager.js?
 /pixel-page.html
+/pixel-prometeo.
 /pixel-render/*
 /pixel-track.
 /pixel.*/track/*
@@ -3595,6 +3596,7 @@
 /setcookieADV.js
 /SetSabreAnalyticsCookie.
 /setTDUID.do?
+/sfCounter/*
 /share/analytics?
 /shareCounts.
 /shareTrackClient.
@@ -9362,7 +9364,6 @@ _mongo_stats/
 ||intrastats.com^$third-party
 ||mabaya.com^$third-party
 ||micodigo.com^$third-party
-||s3wfg.com^$third-party
 ||seedtag.com^$third-party
 ! Swedish
 ||adsettings.com^$third-party
@@ -10676,6 +10677,7 @@ _mongo_stats/
 ||msecnd.net/scripts/b/ai.
 ||msecnd.net/scripts/jsll-
 ||mshcdn.com/assets/metrics-
+||mtrcs.samba.tv^
 ||mts.mansion.com^$third-party
 ||mtvnservices.com/aria/uuid.html
 ||mtvnservices.com/metrics/
@@ -12035,6 +12037,7 @@ _mongo_stats/
 ||seesaa.jp/ot_square.pl?
 ||shinobi.jp/track?
 ||speee-ad.akamaized.net^
+||spnx.jp/spnx-logger.js
 ||sstats.mora.jp^
 ||sweet-candy.jp/c.php?$third-party
 ||sync.shinobi.jp^
@@ -12245,6 +12248,7 @@ _mongo_stats/
 ||leadzu.com^$third-party
 ||pixel.zumby.io^
 ||reachandrich.antevenio.com^
+||s3wfg.com/js/vortexloader.js
 ||stats.miarroba.info^
 ||tracker.thinkindot.com^
 ! Swedish
@@ -14861,6 +14865,7 @@ _mongo_stats/
 ||swindonadvertiser-gb.swindonadvertiser.co.uk^
 ||thenational-gb.thenational.scot^
 ||ttauri.laptopmag.com^
+||ttauri.livescience.com^
 ||ttauri.tomsguide.com^
 ||ttauri.tomshardware.com^
 ||vg247.com/wp-content/themes/vg247/scripts/mvg247-fsm.js
