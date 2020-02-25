@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: /yp6CPKr6m5ykvsTJM05Hg
-! Version: 202002240711
+! Checksum: YOZc8Z/wUd4Dt2dwxCMbpw
+! Version: 202002250802
 ! Title: EasyPrivacy
-! Last modified: 24 Feb 2020 07:11 UTC
+! Last modified: 25 Feb 2020 08:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6990,6 +6990,7 @@ _mongo_stats/
 ||pixel.watch^$third-party
 ||pixeleze.com^$third-party
 ||pixelinteractivemedia.com^$third-party
+||pixelpop.co^$third-party
 ||pixelrevenue.com^$third-party
 ||pizzaandads.com^$third-party
 ||pjatr.com^$third-party
@@ -7075,6 +7076,7 @@ _mongo_stats/
 ||quantserve.com/pixel/$third-party
 ||quantserve.com^$~third-party
 ||quantummetric.com^$third-party
+||quartic.pl^$third-party
 ||qubitproducts.com^$third-party
 ||questionpro.com^$third-party
 ||questradeaffiliates.com^$third-party
@@ -11755,6 +11757,7 @@ _mongo_stats/
 ||stats.ipmgroup.be^
 ||stats.tipser.com^
 ||t.ofsys.com^
+||tag.goldenbees.fr^
 ||tag.leadplace.fr^
 ||testcddc.atclouddev.net^
 ||tmgr.ccmbg.com^
@@ -16765,6 +16768,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
+@@||suumo.jp/sp/js/beacon.js$script,~third-party
 @@||uliza.jp/IF/RequestVideoTag.aspx$script,domain=kobe-np.co.jp
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
 ! Korean
