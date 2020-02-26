@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: YOZc8Z/wUd4Dt2dwxCMbpw
-! Version: 202002250802
+! Checksum: dV78e5MT3VEBv4SkBiAYhA
+! Version: 202002260951
 ! Title: EasyPrivacy
-! Last modified: 25 Feb 2020 08:02 UTC
+! Last modified: 26 Feb 2020 09:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10065,7 +10065,7 @@ _mongo_stats/
 ||d1t9uctetvi0tu.cloudfront.net^
 ||d1uanozc5el74n.cloudfront.net^
 ||d1xfq2052q7thw.cloudfront.net^
-||d1z2jf7jlzjs58.cloudfront.net^
+||d1z2jf7jlzjs58.cloudfront.net^$third-party
 ||d21o24qxwf7uku.cloudfront.net^
 ||d22v2nmahyeg2a.cloudfront.net^
 ||d23p9gffjvre9v.cloudfront.net^
@@ -11212,7 +11212,7 @@ _mongo_stats/
 ||tr.interlake.net^
 ||tr.webantenna.info^
 ||tr1.mailperformance.com^
-||tra.scds.pmdstatic.net^
+||tra.scds.pmdstatic.net/sourcepoint/
 ||traccoon.intellectsoft.net^
 ||trace.qq.com^$third-party
 ||track.99acres.com^
@@ -11384,6 +11384,7 @@ _mongo_stats/
 ||upt.graphiq.com^
 ||uptime.com/static/rum/$third-party
 ||urc.taboolasyndication.com^
+||usefathom.com/tracker.js
 ||usersegment.wpdigital.net^
 ||uservoice.com^*/track.js
 ||userway.org/api/stats/
@@ -11529,6 +11530,8 @@ _mongo_stats/
 ! Suspect trackers (from privacy badger)
 ||connatix.com^$third-party
 ||jsrdn.com/s/cs.js
+! Rewrite to internal resources filters for Adblock Plus
+||d1z2jf7jlzjs58.cloudfront.net^$rewrite=abp-resource:blank-js,domain=voici.fr
 !-----------------International third-party tracking services-----------------!
 ! *** easylist:easyprivacy/easyprivacy_thirdparty_international.txt ***
 ! German
@@ -13866,7 +13869,6 @@ _mongo_stats/
 ||reddit.com^*.gif?$third-party
 ||redditmedia.com/gtm/jail?
 ||redeye.williamhill.com^
-||redfin.com/rift
 ||rediff.com^*?rkey=
 ||redtube.com/_status/pix.php
 ||redtube.com/_status/pixa.php
