@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: HVzAQbOwbgowayEJpza/zQ
-! Version: 202003030911
+! Checksum: 2+ldO+oj7QlL4ukOF89rFA
+! Version: 202003040432
 ! Title: EasyPrivacy
-! Last modified: 03 Mar 2020 09:11 UTC
+! Last modified: 04 Mar 2020 04:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5642,6 +5642,7 @@ _mongo_stats/
 ||baynote.net^$third-party
 ||baztrack.com^$third-party
 ||bbthat.com^$script,third-party
+||bc0a.com^$third-party
 ||bdash-cloud.com^$third-party
 ||beacon.kmi-us.com^$third-party
 ||beaconstreetservices.com^$third-party
@@ -8437,6 +8438,7 @@ _mongo_stats/
 ||ringplayground.com^$third-party
 ||ritzykey.com^$third-party
 ||roofrelation.com^$third-party
+||savoryorange.com^$third-party
 ||scintillatingspace.com^$third-party
 ||scrubswim.com^$third-party
 ||selectivesummer.com^$third-party
@@ -11208,7 +11210,6 @@ _mongo_stats/
 ||thron.com/shared/plugins/tracking/
 ||thron.com^*/trackingLibrary.swf
 ||timeinc.net^*/peopleas2artracker_v1.swf
-||tinypass.com/checkout/offer/trackShow
 ||tinypass.com^*/track?
 ||tinyurl.com/pixel.gif/
 ||tk.storetail.io^
@@ -11808,7 +11809,6 @@ _mongo_stats/
 ||wrapper.lemde.fr^$third-party
 ||zebestof.com^$third-party
 ! Belarusian
-||ladesk.com/scripts/track.js
 ||minsk-in.net/counter.php?
 ! Croatian
 ||aff*.kolektiva.net^
