@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: YCBmQk3PBR9NEOoWASv1yw
-! Version: 202003091011
+! Checksum: rIu+WFv4n0j42/mvn7+LSg
+! Version: 202003100931
 ! Title: EasyPrivacy
-! Last modified: 09 Mar 2020 10:11 UTC
+! Last modified: 10 Mar 2020 09:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5641,7 +5641,6 @@ _mongo_stats/
 ||b2c.com^$third-party
 ||babator.com^$third-party
 ||bam-x.com^$third-party
-||bamgrid.com^$third-party
 ||baptisttop1000.com^$third-party
 ||baremetrics.com^$third-party
 ||barilliance.net^$third-party
@@ -16319,7 +16318,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||afs-prod.appspot.com^*/tag?tags=$xmlhttprequest,domain=apnews.com
 @@||akamaihd.net/worldwide_analytics/$script,domain=ubi.com|ubisoft.com
 @@||amplitude.com/libs/amplitude-$script,third-party
-@@||ampproject.org/v0/amp-geo-$script,domain=tasty.co
+@@||ampproject.org/v0/amp-geo-$script,domain=pantagraph.com|tasty.co
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=abcnews.go.com|foxbusiness.com|foxnews.com
 @@||analytics.edgekey.net/ma_library/html5/html5_malibrary.js$script,domain=mxplayer.in
 @@||analytics.edgesuite.net/config/beacon-*.xml$domain=foxnews.com
