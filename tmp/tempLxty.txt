@@ -4,6 +4,7 @@ C:\Windows\System32\drivers\etc
 查看端口占用
 netstat -ano|findstr "8080"
 tasklist|findstr "4984"
+ntpdate time.nist.gov
 
 ------------------------------JAR 运行------------------------------
 

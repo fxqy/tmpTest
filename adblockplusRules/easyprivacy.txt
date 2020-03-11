@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: rIu+WFv4n0j42/mvn7+LSg
-! Version: 202003100931
+! Checksum: HwTqmi51mWxhK6v8ha7POg
+! Version: 202003110901
 ! Title: EasyPrivacy
-! Last modified: 10 Mar 2020 09:31 UTC
+! Last modified: 11 Mar 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2929,6 +2929,7 @@
 /o_tealium.
 /oas_analytics.
 /object_stats.
+/obPixelFrame/*
 /observations/capture?
 /ocount.php
 /ocounter.
@@ -4251,6 +4252,7 @@
 /tracking-analytics-
 /tracking-aws.
 /tracking-cookie.
+/tracking-events.js
 /tracking-hits.
 /tracking-info.gif?
 /tracking-init.
@@ -10794,7 +10796,6 @@ _mongo_stats/
 ||orb.ee/collect
 ||orts.wixawin.com^$third-party
 ||outbrain.com/nanoWidget/externals/cookie/
-||outbrain.com/nanoWidget/externals/obPixelFrame/
 ||outbrain.com^*/widgetStatistics.js
 ||p.adbrn.com^
 ||p.delivery.net^$third-party
@@ -12379,7 +12380,6 @@ _mongo_stats/
 ||activity.homescape.com^
 ||ad2links.com/lpajax.php?
 ||adapd.com/addon/upixel/
-||adblockplus.org/js/tracking-events.js
 ||adc-js.nine.com.au^
 ||adc.9news.com.au^
 ||adc.api.nine.com.au^
@@ -15575,6 +15575,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||dm.journaldunet.com^
 ||dm.linternaute.com^
 ||editeurjavascript.com/hit-parade.php
+||edmi.nextinpact.com^
 ||elr.sfr.fr^
 ||eultech.fnac.com^
 ||events.guesttoguest.com^
