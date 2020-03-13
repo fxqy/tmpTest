@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: wxUsDg7OmBAZHyuUjosqyg
-! Version: 202003121131
+! Checksum: DiRTa4Pt6L3bdanQMBObUQ
+! Version: 202003130851
 ! Title: EasyPrivacy
-! Last modified: 12 Mar 2020 11:31 UTC
+! Last modified: 13 Mar 2020 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9671,6 +9671,7 @@ _mongo_stats/
 ||analytics.matchbin.com^
 ||analytics.midwesternmac.com^
 ||analytics.mlstatic.com^
+||analytics.myfidevs.io^
 ||analytics.myfinance.com^
 ||analytics.newscred.com^
 ||analytics.onlyonlinemarketing.com^
@@ -11570,8 +11571,8 @@ _mongo_stats/
 ||akamaized.net/?u=
 ||akamaized.net/js3/tracker.js
 ||aksb-a.akamaihd.net^
-||cnnios-f.akamaihd.net^$xmlhttprequest
 ||ds-aksb-a.akamaihd.net^
+||e77lmzbqou0n-a.akamaihd.net^
 ||ninja.akamaized.net^
 ||pxlgnpgecom-a.akamaihd.net^
 ||rndntpmgnj-a.akamaihd.net^
