@@ -28,5 +28,6 @@ ntpdate time.nist.gov
 
 ------------------------------GoolePlay------------------------------
     https://blog.csdn.net/ganggang4321/article/details/89952637
+    http://www.ddung.org/daili/
     
 ------------------------------end------------------------------
