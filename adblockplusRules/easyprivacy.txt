@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: hwYj7CnrhoGg2dxyeqZEQg
-! Version: 202003141251
+! Checksum: bD4jD5oOYtTbENInDiTFfQ
+! Version: 202003150811
 ! Title: EasyPrivacy
-! Last modified: 14 Mar 2020 12:51 UTC
+! Last modified: 15 Mar 2020 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6564,6 +6564,7 @@ _mongo_stats/
 ||jdoqocy.com^$third-party
 ||jirafe.com^$third-party
 ||jixie.io^$third-party
+||journity.com^$third-party
 ||jscounter.com^$third-party
 ||jsonip.com^$third-party
 ||jstracker.com^$third-party
@@ -8352,6 +8353,7 @@ _mongo_stats/
 ||bagbeam.com^$third-party
 ||balancebreath.com^$third-party
 ||bandborder.com^$third-party
+||basketballbelieve.com^$third-party
 ||baskettexture.com^$third-party
 ||breakfastboat.com^$third-party
 ||broadcastbed.com^$third-party
@@ -8456,19 +8458,25 @@ _mongo_stats/
 ||puffypurpose.com^$third-party
 ||quaintcan.com^$third-party
 ||quietknowledge.com^$third-party
+||quizzicalzephyr.com^$third-party
 ||raintwig.com^$third-party
 ||raresummer.com^$third-party
 ||readymoon.com^$third-party
 ||realizerecess.com^$third-party
 ||realizevacation.com^$third-party
+||repeatsweater.com^$third-party
 ||resonantbrush.com^$third-party
+||rhetoricalloss.com^$third-party
 ||richstring.com^$third-party
 ||ringplayground.com^$third-party
 ||ritzykey.com^$third-party
 ||roofrelation.com^$third-party
+||rusticprice.com^$third-party
 ||savoryorange.com^$third-party
+||scientificshirt.com^$third-party
 ||scintillatingspace.com^$third-party
 ||scrubswim.com^$third-party
+||secretturtle.com^$third-party
 ||selectivesummer.com^$third-party
 ||selfishsea.com^$third-party
 ||separatesilver.com^$third-party
@@ -8480,14 +8488,17 @@ _mongo_stats/
 ||shyseed.com^$third-party
 ||sicksmash.com^$third-party
 ||smashsurprise.com^$third-party
+||somberscarecrow.com^$third-party
 ||sombersurprise.com^$third-party
 ||sortsummer.com^$third-party
+||spellsalsa.com^$third-party
 ||spiffymachine.com^$third-party
 ||spottednoise.com^$third-party
 ||spuriousbase.com^$third-party
 ||spurioussteam.com^$third-party
 ||squeakzinc.com^$third-party
 ||squirrelhands.com^$third-party
+||staleshow.com^$third-party
 ||steadfastsound.com^$third-party
 ||steepsquirrel.com^$third-party
 ||stiffstem.com^$third-party
@@ -12198,6 +12209,7 @@ _mongo_stats/
 ||statig.com.br/pub/setCookie.js?
 ||terra.com.br/metrics/
 ||track.e7r.com.br^
+||track.noddus.com^
 ||trk.absuite.com.br^
 ||trrsf.com.br/metrics/
 ||webstats.sapo.pt^
@@ -14039,6 +14051,7 @@ _mongo_stats/
 ||sb-cd.com^*.d-aeon.js
 ||sc.cc.com^
 ||scdn.co/build/js/tracking-
+||scdn.co/cdn/js/gtag.$script,domain=spotify.com
 ||sciencedaily.com/blank.htm
 ||sciencedaily.com/cache.php?
 ||scluster3.cliphunter.com^
@@ -16950,6 +16963,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||alfadirect.ru/api/analytics/latest?$~third-party,xmlhttprequest
 @@||boxberry.ru/bitrix/templates/main.adaptive/js/tracking.js
 @@||boxberry.ru/tracking.service/
+@@||coronavirus-monitor.ru/scripts/statistics/statistics.$script,~third-party
 @@||criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
 @@||dict.rambler.ru/fcgi-bin/$xmlhttprequest,domain=rambler.ru
 @@||google-analytics.com/analytics.js$domain=nabortu.ru|poiskstroek.ru|rzd.ru|teddyfood.com
