@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fint/zzNcndcOFad6TLaXg
-! Version: 202003160931
+! Checksum: ndREP/FBxZ/Q0qTMOHYKiA
+! Version: 202003161051
 ! Title: EasyList China+EasyList
-! Last modified: 16 Mar 2020 09:31 UTC
+! Last modified: 16 Mar 2020 10:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -1066,6 +1066,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||zhongdoulicai.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -8683,6 +8684,7 @@ _yad_jsonp_
 ||520call.me/300x250.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+oopw.top##.aditem
 qmaile.com###bf[style*="background-color:red"]
 psdhtml.cn###myggnx
 520call.me###inplayer
