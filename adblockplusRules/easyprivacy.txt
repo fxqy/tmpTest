@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: PJJYwuigkqFHq3N/Ul58/g
-! Version: 202003180851
+! Checksum: 4sgCu2TCJKUZjp2MgWaNcg
+! Version: 202003181551
 ! Title: EasyPrivacy
-! Last modified: 18 Mar 2020 08:51 UTC
+! Last modified: 18 Mar 2020 15:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5490,7 +5490,7 @@ _mongo_stats/
 ||admetric.io^$third-party
 ||admitad.com^$third-party
 ||admother.com^$third-party
-||adobedtm.com^$third-party
+||adobedtm.com^$third-party,domain=~adobe.com
 ||adobetag.com^$third-party
 ||adoftheyear.com^$third-party
 ||adoric-om.com^$third-party
@@ -11889,7 +11889,6 @@ _mongo_stats/
 ||adv-sv-stat.focus.cn^
 ||aixifan.com/acsdk/log.min.js?
 ||alicdn.com/tkapi/click.js
-||alicdn.com^*/tracker/
 ||alimama.cn/inf.js
 ||alipay.com/common/um/lsa.swf
 ||analytics.21cn.com^
@@ -16690,7 +16689,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||yottaa.net^*/scripts/eventtracking/$script,domain=containerstore.com
 @@||youbora.com/*/js/adapters/jwplayer$script
 @@||youtube.com/api/analytics/$~third-party
-@@||youtube.com/api/stats/watchtime?$image,domain=youtube.com
+! @@||youtube.com/api/stats/watchtime?$image,domain=youtube.com
 @@||zappos.com/js/trackingPixel/mercentTracker.js
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
