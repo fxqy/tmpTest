@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: rqK1qjwHK6t1amtDrfDQhw
-! Version: 202003190141
+! Checksum: vRV+i4Njm3AD+gZC3zMZKg
+! Version: 202003191151
 ! Title: EasyPrivacy
-! Last modified: 19 Mar 2020 01:41 UTC
+! Last modified: 19 Mar 2020 11:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -72,6 +72,7 @@
 -google-tag-manager/$script
 -heatmaps-analytics/
 -imppix/
+-inview-tracker.
 -javascript_xiti_
 -kameleoon.js
 -kameleoon.min.js
@@ -16695,6 +16696,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||zappos.com/js/trackingPixel/mercentTracker.js
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
+! uBO-CNAME (Specific whitelists)
+@@||n8s.jp^$script,domain=nikkei.com
 ! facebook related (https://forums.lanik.us/viewtopic.php?f=64&t=43722)
 @@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
 @@||messenger.com/common/referer_frame.php$subdocument,domain=messenger.com
