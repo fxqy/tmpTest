@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 19z+Of1tVFORC88peGzpTw
-! Version: 202003250351
+! Checksum: slbWlO2gB4YKL4q/uV90Vg
+! Version: 202003251211
 ! Title: EasyPrivacy
-! Last modified: 25 Mar 2020 03:51 UTC
+! Last modified: 25 Mar 2020 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6758,7 +6758,6 @@ _mongo_stats/
 ||memo.co^$third-party
 ||mercadoclics.com^$third-party
 ||mercent.com^$third-party
-||meteor.com^$third-party,xmlhttprequest
 ||meteorsolutions.com^$third-party
 ||metricool.com^$third-party
 ||metricsdirect.com^$third-party
@@ -9751,6 +9750,7 @@ _mongo_stats/
 ||api.bit.ly/*/clicks?$third-party
 ||api.collarity.com/cws/*http
 ||api.wipmania.com^
+||apm-engine.meteor.com^$third-party,xmlhttprequest
 ||app.cdn-cs.com/__t.png?
 ||app.link^$third-party
 ||app.opmnstr.com/v2/geolocate/
