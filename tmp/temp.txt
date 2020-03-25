@@ -1,0 +1,75 @@
+notpad++ Run In Chrome: 
+    "C:\Program Files\Chrome\Application\chrome.exe" "$(FULL_CURRENT_PATH)"
+    $(CURRENT_DIRECTORY); $(NAME_PART);
+notepadqq:
+    deb http://ppa.launchpad.net/notepadqq-team/notepadqq/ubuntu xenial main 
+    deb-src http://ppa.launchpad.net/notepadqq-team/notepadqq/ubuntu xenial main
+    sudo apt-get install notepadqq
+    
+Linux:
+    压缩
+        tar –cvf jpg.tar *.jpg //将目录里所有jpg文件打包成jpg.tar
+        tar –czf jpg.tar.gz *.jpg   //将目录里所有jpg文件打包成jpg.tar后，并且将其用gzip压缩，生成一个gzip压缩过的包，命名为jpg.tar.gz
+        tar –cjf jpg.tar.bz2 *.jpg //将目录里所有jpg文件打包成jpg.tar后，并且将其用bzip2压缩，生成一个bzip2压缩过的包，命名为jpg.tar.bz2
+        tar –cZf jpg.tar.Z *.jpg   //将目录里所有jpg文件打包成jpg.tar后，并且将其用compress压缩，生成一个umcompress压缩过的包，命名为jpg.tar.Z
+        rar a jpg.rar *.jpg //rar格式的压缩，需要先下载rar for linux
+        zip jpg.zip *.jpg //zip格式的压缩，需要先下载zip for linux
+        zip -r xxx.zip ./* //－r表示递归压缩子目录下所有文件.
+
+    解压
+        tar –xvf file.tar //解压 tar包
+        tar -xzvf file.tar.gz //解压tar.gz
+        tar -xjvf file.tar.bz2   //解压 tar.bz2
+        tar –xZvf file.tar.Z   //解压tar.Z
+        unrar e file.rar //解压rar
+        unzip file.zip //解压zip 到当前目录
+        unzip -o -d /home/sunny myfile.zip
+    
+C:\Windows\System32\drivers\etc
+
+"C:\Program Files\Git\usr\bin\perl.exe" "$(FULL_CURRENT_PATH)"
+"D:\software\Python\python.exe" "$(FULL_CURRENT_PATH)"
+
+slmgr.vbs -xpr
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+
+chrome 64位离线安装包：https://liulanmi.com/chrome
+Stable正式版：https://www.google.com/chrome/browser/desktop/index.html?platform=win64&extra=stablechannel&standalone=1
+
+adblockPlus https://chrome.google.com/webstore/detail/cfhdojbkjhnklbpkdaibdccddilifddb
+https://chrome.google.com/webstore/detail/cfhdojbkjhnklbpkdaibdccddilifddb
+https://2wk.com/vip.php?url=
+
+设置shift+鼠标右键菜单：计算机\HKEY_CLASSES_ROOT\Directory\background\shell
+ctfRun：计算机\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run 字符串值 ctfmon：C:\WINDOWS\system32\ctfmon.exe
+
+SETMAC: CE-5C-E5-09-3C-2D EA-5A-30-B8-8B-3C
+rmMac: 94-04-9C-E0-84-B8 94-04-9C-E0-84-B8 94-04-9C-E0-84-B8
+        94-04-9c-e0-84-b8 94-04-9c-e0-84-b8 94-04-9c-e0-84-b8
+        94-04-9C-E0-84-B8 94-04-9C-E0-84-B8 94-04-9C-E0-84-B8
+        
+myMac: EA-5A-31-7C-8B-E1 FE-1C-C3-17-67-DD BE-CC-E4-2C-5F-B8
+        DA-BC-F1-FA-8B-08 FA-29-FB-4C-11-8D CA-C7-70-27-E4-3C
+        EA-5A-30-B8-8B-3C EC-30-DC-FE-8B-2B EC-30-DC-FE-8B-2B
+        
+http://localhost:9191/oauth/authorize?client_id=client&client_secret=secret&response_type=code&redirect_uri=http://www.baidu.com
+http://localhost:9191/oauth/token?code=l4aXQE&client_id=client&client_secret=secret&grant_type=authorization_code&redirect_uri=http://www.baidu.com
+http://localhost:9191/oauth/check_token?token=c087b4af-abd9-43c9-bf30-1e9fdb1ec3c9
+http://localhost:9191/product/1
+http://localhost:9191/order/2?access_token=c087b4af-abd9-43c9-bf30-1e9fdb1ec3c9s
+BDUSS=; STOKEN=
+
+-lcurl -lws2_32 -lwinmm -lwldap32 -lwsock32
+
+https://easylist-downloads.adblockplus.org/easyprivacy.txt?a=aa.ts
+https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt?b=bb.ts
+
+ 
+nohup aria2c --daemon=true --conf-path=/root/aria2/aria2c.conf 1>/root/aria2/aria2_info.log 2>/root/aria2/aria2_error.log &
+
+https://tieba.baidu.com/p/6233563750
+https://www.jianshu.com/p/5ddccd1cd474
+
+curl -O -# -H "Referer: http:" http:**/[1-50].jpg
+
+transform: rotate(90deg) scale(0.6);

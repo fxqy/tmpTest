@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: /KxOfKQ3VinZulwhlLSc1g
-! Version: 202003241301
+! Checksum: 19z+Of1tVFORC88peGzpTw
+! Version: 202003250351
 ! Title: EasyPrivacy
-! Last modified: 24 Mar 2020 13:01 UTC
+! Last modified: 25 Mar 2020 03:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -15019,6 +15019,7 @@ _mongo_stats/
 ||ttauri.tomsguide.com^
 ||ttauri.tomshardware.com^
 ||vg247.com/wp-content/themes/vg247/scripts/mvg247-fsm.js
+||weather.com/weather/*.sourcepoint
 ||wiltshiretimes-gb.wiltshiretimes.co.uk^
 ||worcesternews-gb.worcesternews.co.uk^
 ||yourlocalguardian-gb.yourlocalguardian.co.uk^
