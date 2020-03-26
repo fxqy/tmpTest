@@ -28,5 +28,13 @@
     接下来，我们以隐藏图片文件夹为例，双击打开{0ddd015d-b06c-45d5-8c4c-f59713854639}子项，然后找到其项下的PropertyBag子项，在其右侧页面中双击打开ThisPCPolicy键值。
     由于默认的键值为Show，如果我们想要将其隐藏的话，可以将其子键值更改为Hide，然后点击确定按钮，保存对注册表编辑器的更改。
     
+    3D 对象
+    定位 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\ 
+    删除 {0DB7E03F-FC29-4DC6-9020-FF41B59E513A}
+    
+
+------------------------------end------------------------------
+
+    
 
 
