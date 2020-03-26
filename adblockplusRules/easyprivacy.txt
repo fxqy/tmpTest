@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: slbWlO2gB4YKL4q/uV90Vg
-! Version: 202003251211
+! Checksum: CVbH8mAucDBBELF1bbE0Nw
+! Version: 202003261041
 ! Title: EasyPrivacy
-! Last modified: 25 Mar 2020 12:11 UTC
+! Last modified: 26 Mar 2020 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6988,6 +6988,7 @@ _mongo_stats/
 ||pa-oa.com^$third-party
 ||pagefair.com^$third-party
 ||pages05.net^$third-party
+||pagesense.io^$third-party
 ||paidstats.com^$third-party
 ||parklogic.com^$third-party
 ||parrable.com^$third-party
@@ -10034,6 +10035,7 @@ _mongo_stats/
 ||connect.facebook.net/signals/$third-party
 ||connect.facebook.net^*/fbds.js$third-party
 ||consensu.org/?log=
+||consensu.org/geoip
 ||contactatonce.com/GetAgentStatusImage.aspx?
 ||contactatonce.com/VisitorContext.aspx?
 ||content.cpcache.com^*/js/ga.js
@@ -10831,6 +10833,7 @@ _mongo_stats/
 ||p0.com/1x1
 ||paddle.com^*/analytics.js
 ||pages-stats.rbl.ms^
+||pagesense-collect.zoho.com^
 ||pagesocket.glam.com^
 ||pageturnpro.com/tracker.aspx?
 ||pair.com/itero/tracker_ftc/
@@ -12631,6 +12634,7 @@ _mongo_stats/
 ||baidu.com/ecom?
 ||baidu.com/js/log.js
 ||baidu.com/location/ip?
+||baidu.com^*/v.gif?
 ||baidu.com^*/wb.gif?
 ||bandstores.co.uk/tracking/scripts/
 ||banggood.com/?p=
@@ -14690,6 +14694,7 @@ _mongo_stats/
 ||video.msn.com/frauddetect.aspx?
 ||video.nbc.com^*/metrics_viral.xml
 ||video.syfy.com/lg.php
+||videobolt.net/api/log
 ||videoplaza.com/proxy/tracker?
 ||videopremium.tv/dev/tr.js
 ||videotracker.washingtonpost.com^

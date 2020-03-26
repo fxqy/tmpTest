@@ -1,3 +1,6 @@
+
+C:\Windows\System32\drivers\etc
+
 notpad++ Run In Chrome: 
     "C:\Program Files\Chrome\Application\chrome.exe" "$(FULL_CURRENT_PATH)"
     $(CURRENT_DIRECTORY); $(NAME_PART);
@@ -5,7 +8,7 @@ notepadqq:
     deb http://ppa.launchpad.net/notepadqq-team/notepadqq/ubuntu xenial main 
     deb-src http://ppa.launchpad.net/notepadqq-team/notepadqq/ubuntu xenial main
     sudo apt-get install notepadqq
-    
+
 Linux:
     压缩
         tar –cvf jpg.tar *.jpg //将目录里所有jpg文件打包成jpg.tar
@@ -25,13 +28,8 @@ Linux:
         unzip file.zip //解压zip 到当前目录
         unzip -o -d /home/sunny myfile.zip
     
-C:\Windows\System32\drivers\etc
-
 "C:\Program Files\Git\usr\bin\perl.exe" "$(FULL_CURRENT_PATH)"
 "D:\software\Python\python.exe" "$(FULL_CURRENT_PATH)"
-
-slmgr.vbs -xpr
-slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
 
 chrome 64位离线安装包：https://liulanmi.com/chrome
 Stable正式版：https://www.google.com/chrome/browser/desktop/index.html?platform=win64&extra=stablechannel&standalone=1
@@ -39,9 +37,6 @@ Stable正式版：https://www.google.com/chrome/browser/desktop/index.html?platf
 adblockPlus https://chrome.google.com/webstore/detail/cfhdojbkjhnklbpkdaibdccddilifddb
 https://chrome.google.com/webstore/detail/cfhdojbkjhnklbpkdaibdccddilifddb
 https://2wk.com/vip.php?url=
-
-设置shift+鼠标右键菜单：计算机\HKEY_CLASSES_ROOT\Directory\background\shell
-ctfRun：计算机\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run 字符串值 ctfmon：C:\WINDOWS\system32\ctfmon.exe
 
 SETMAC: CE-5C-E5-09-3C-2D EA-5A-30-B8-8B-3C
 rmMac: 94-04-9C-E0-84-B8 94-04-9C-E0-84-B8 94-04-9C-E0-84-B8
