@@ -136,6 +136,21 @@ function initEvents(){
 			}
 		});
 	};
+    //5
+    _$G("tabe_btn1").onclick=function(){
+        _$G("qrcode").innerHTML="";
+		var qrcode = new QRCode(document.getElementById("qrcode"), {
+            text: _$G("qrcode_txts").value,
+            width: 400,
+            height: 400,
+            colorDark : "#000000",
+            colorLight : "#ffffff",
+            correctLevel : QRCode.CorrectLevel.H
+        });
+	};
+    _$G("tabe_btn2").onclick=function(){
+		_$G("qrcode").innerHTML="";
+	};
 }
 
 function ecpt(s,p,n){

@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: +NK+pfftp47dBv6QYgUIfQ
-! Version: 202003281121
+! Checksum: Rwnte4+m7UamEbCn2QX+LA
+! Version: 202003281231
 ! Title: EasyPrivacy
-! Last modified: 28 Mar 2020 11:21 UTC
+! Last modified: 28 Mar 2020 12:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6817,6 +6817,7 @@ _mongo_stats/
 ||mouseflow.com^$third-party
 ||mousestats.com^$third-party
 ||mousetrace.com^$third-party
+||movable-ink-397.com^$third-party
 ||movable-ink-6710.com^$third-party
 ||mparticle.com^$third-party
 ||mpianalytics.com^$third-party
@@ -12920,10 +12921,12 @@ _mongo_stats/
 ||creditcards.com/actions/page_view.php?
 ||creditcards.com/sb.php?
 ||crowdignite.com/img/l.gif
+||crsend.com/stats/
 ||crunchsports.com/tracking_fetchinfo.aspx?
 ||ct.cnet.com/opens?
 ||ctscdn.com/content/tracking-
 ||current.com/tracking.htm?
+||customeriomail.codecademy.com^$image
 ||customerservicejobs.com/common/track/
 ||cyberlink.com/analytics/
 ||d1.abtshield.com^
@@ -13518,6 +13521,7 @@ _mongo_stats/
 ||likes.com/api/track_pv
 ||lilb2.shutterstock.com^
 ||linguee.com*/white_pixel.gif?
+||link2.strawberrynet.com^$image
 ||linkbucks.com/clean.aspx?task=record$image
 ||linkbucks.com/track/
 ||linkedin.com/analytics/
@@ -13581,6 +13585,7 @@ _mongo_stats/
 ||mail.ru/counter?
 ||mail.yahoo.com/d/log
 ||mail.yahoo.com/dc/rs?log=
+||mailing.enews.extremetech.com^$image
 ||mailings.gmx.net/action/view/$image
 ||malibubright.com/krtrk/
 ||mansion.com/collect.js?
@@ -14370,6 +14375,7 @@ _mongo_stats/
 ||stats.clear-media.com^
 ||stats.digg.com^
 ||stats.dnaindia.com^
+||stats.extremetech.com^
 ||stats.eyeviewdigital.com^
 ||stats.fs.com^
 ||stats.harpercollins.com^
