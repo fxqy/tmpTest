@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GFgOtP4diwRbGOUo/Lbwiw
-! Version: 202003281231
+! Checksum: VawVOefkWOxbySHfknJiag
+! Version: 202003281441
 ! Title: EasyList China+EasyList
-! Last modified: 28 Mar 2020 12:31 UTC
+! Last modified: 28 Mar 2020 14:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -58377,6 +58377,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||hlvzvisiwbtuwv.com^$third-party
 ||hlykwstrvxa.com^$third-party
 ||hmbgumjgey.com^$third-party
+||hmecfqhj.com^$third-party
 ||hmepgymo.com^$third-party
 ||hmgozryqbc.com^$third-party
 ||hmjtutipevtmg.com^$third-party
@@ -61266,6 +61267,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||qgkmjpgwg.com^$third-party
 ||qgmrchjuqro.bid^$third-party
 ||qgnakeddgtdw.com^$third-party
+||qgnlbjkxrzb.com^$third-party
 ||qgnneaeagxaypp.com^$third-party
 ||qgpmtdrm.com^$third-party
 ||qgraprebabxo.com^$third-party
