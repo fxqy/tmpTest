@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 3ClmNDCoKo5pvP4ZF2mnhw
-! Version: 202003281441
+! Checksum: WghX/maqmUEanpPzwt9BUQ
+! Version: 202003290141
 ! Title: EasyPrivacy
-! Last modified: 28 Mar 2020 14:41 UTC
+! Last modified: 29 Mar 2020 01:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5176,6 +5176,7 @@ cgi-bin/counter
 /cmp-hello.
 /cmp/messaging.js
 /sourcepoint.js
+/SourcePoint_JS_Files/*
 ! Eulerian
 &pagegroup=*&url=$script
 /ajax/eulerian/*
@@ -14797,6 +14798,7 @@ _mongo_stats/
 ||wblt.oui.sncf^
 ||wcnc.com/g/g/button/
 ||weather.com/pagelet/metrics/
+||weather.com^*/dprSdkScript.js
 ||weather.com^*/makeRequest-
 ||web-18.com/common/w18a26062012143253_min.js
 ||web-t.9gag.com^
@@ -15062,6 +15064,7 @@ _mongo_stats/
 ||sourcepoint.vice.com^
 ||sthelensstar-gb.sthelensstar.co.uk^
 ||swindonadvertiser-gb.swindonadvertiser.co.uk^
+||theargus-gb.theargus.co.uk^
 ||thenational-gb.thenational.scot^
 ||ttauri.laptopmag.com^
 ||ttauri.livescience.com^
