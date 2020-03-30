@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: o/2FR/UOCGTeE1H/DHwx0w
-! Version: 202003291451
+! Checksum: oB2hGs41BzG9V/T4iuiCaQ
+! Version: 202003301031
 ! Title: EasyPrivacy
-! Last modified: 29 Mar 2020 14:51 UTC
+! Last modified: 30 Mar 2020 10:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10283,6 +10283,7 @@ _mongo_stats/
 ||ebaystatic.com^*/pulsar.js
 ||ebaystatic.com^*/rover_$script
 ||ebaystatic.com^*/tracking_RaptorheaderJS.js
+||ecomm.events^
 ||ecommstats.s3.amazonaws.com^$third-party
 ||ecustomeropinions.com/survey/nojs.php?
 ||ecustomeropinions.com^*/i.php?
@@ -10298,6 +10299,7 @@ _mongo_stats/
 ||embedly.com/widgets/xcomm.html$third-party
 ||emihosting.com^*/tracking/
 ||endorsal.io/check/
+||engage.wixapps.net^
 ||ensighten.com/error/e.php?
 ||epl.paypal-communication.com^
 ||epromote.co.za/track/
@@ -11657,6 +11659,7 @@ _mongo_stats/
 ||fastly.net/sp.js
 ! Unnecessary third-party scripts
 ||nsg.symantec.com^$third-party
+||seal.godaddy.com^$third-party
 ||sealserver.trustwave.com^$third-party
 ||websecurity.norton.com^$third-party
 ||widgets.trustedshops.com^$third-party
