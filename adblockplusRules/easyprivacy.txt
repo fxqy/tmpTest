@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: KvfhjhTUWM7Op4gDN2xnig
-! Version: 202003311031
+! Checksum: 4YrKwq3SL0ShIaUJM1fuXg
+! Version: 202003311431
 ! Title: EasyPrivacy
-! Last modified: 31 Mar 2020 10:31 UTC
+! Last modified: 31 Mar 2020 14:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1108,7 +1108,7 @@
 /CBM.Tracking.js?
 /cbs1x1.gif?
 /cbstats/*
-/cc?a=
+/cc?a=$image
 /cclickTracking.
 /cclog?ck=
 /ccm_sj?
@@ -5010,6 +5010,7 @@
 ?eventType=*&url=
 ?eventtype=impression&pid=
 ?eventtype=request&pid=
+?ga=UA-$image
 ?googleTrack=
 ?hmtrackerjs=
 ?Id=*&cookies=*&Referer_
@@ -15892,6 +15893,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||js.sohu.com/track/
 ||js.soufunimg.com/count/
 ||jscss.kdslife.com/club/html/count/PChome_Count.js
+||kn007.net/snmp.php
 ||ku6.com/ku6.gif?
 ||le.com/op/
 ||letv.com/op?

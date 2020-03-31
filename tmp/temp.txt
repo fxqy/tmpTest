@@ -65,6 +65,8 @@ nohup aria2c --daemon=true --conf-path=/root/aria2/aria2c.conf 1>/root/aria2/ari
 https://tieba.baidu.com/p/6233563750
 https://www.jianshu.com/p/5ddccd1cd474
 
+http://109.195.3.148/viewforum.php?f=264
+
 curl -O -# -H "Referer: http:" http:**/[1-50].jpg
 
 transform: rotate(90deg) scale(0.6);
