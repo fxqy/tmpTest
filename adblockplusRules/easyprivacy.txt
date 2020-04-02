@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ryiEP3tdRTyjUbxtbLpJpg
-! Version: 202004011521
+! Checksum: 7E2uwPiz/C26XMthgVDsPA
+! Version: 202004021041
 ! Title: EasyPrivacy
-! Last modified: 01 Apr 2020 15:21 UTC
+! Last modified: 02 Apr 2020 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4736,7 +4736,7 @@
 /web_tracking_
 /web_traffic_capture.js
 /webabacus-$script
-/WebAnalytics.
+/WebAnalytics.$domain=~webanalytics.italia.it
 /webAnalytics/*
 /webanalytics3.
 /WebAnalyticsInclude.
@@ -10301,7 +10301,6 @@ _mongo_stats/
 ||embedly.com/widgets/xcomm.html$third-party
 ||emihosting.com^*/tracking/
 ||endorsal.io/check/
-||engage.wixapps.net^
 ||ensighten.com/error/e.php?
 ||epl.paypal-communication.com^
 ||epromote.co.za/track/
@@ -11630,7 +11629,9 @@ _mongo_stats/
 ||zoover.co.uk/tracking/
 ||zope.net^*/ghs_wa.js
 ! uBO-CNAME (Specific whitelists)
-||techtarget.com^$~image,third-party
+||go.techtarget.com^
+||trk.techtarget.com^
+||users.techtarget.com^
 ! akamai
 ||akamai.com/crs/lgsitewise.js
 ||akamai.net/*.babylon.com/trans_box/
