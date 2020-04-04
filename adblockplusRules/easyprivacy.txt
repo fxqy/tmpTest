@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: z8fQajchWKGkVmESrcsW8Q
-! Version: 202004031151
+! Checksum: I7d22kiHSJc8RUkoPXlJPw
+! Version: 202004040131
 ! Title: EasyPrivacy
-! Last modified: 03 Apr 2020 11:51 UTC
+! Last modified: 04 Apr 2020 01:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1197,6 +1197,7 @@
 /Clear.PNG?ctx=
 /clear/c.gif?
 /clicevent.php?
+/click-analytics.
 /click-count.
 /click-logger.
 /click-stat.js
@@ -3247,6 +3248,7 @@
 /pluck-tracking.
 /plugin/trackEvents.
 /plugins/catman/*
+/plugins/exactmetrics-
 /plugins/stat-dfp/*
 /plugins/status.gif?
 /plugins/userinfo.gif?
@@ -7378,6 +7380,7 @@ _mongo_stats/
 ||simplymeasured.com^$third-party
 ||singlefeed.com^$third-party
 ||site24x7rum.com^$third-party
+||siteanaliz.org^$third-party
 ||siteapps.com^$third-party
 ||sitebro.com^$third-party
 ||sitebro.net^$third-party
@@ -7822,6 +7825,7 @@ _mongo_stats/
 ||vivocha.com^$third-party
 ||vizisense.net^$third-party
 ||vizury.com^$third-party
+||vlitag.com^$third-party
 ||vmm-satellite1.com^$third-party
 ||vmm-satellite2.com^$third-party
 ||vmmpxl.com^$third-party
@@ -12588,6 +12592,7 @@ _mongo_stats/
 ||analytics.chase.com^
 ||analytics.ecosia.org^
 ||analytics.eip.telegraph.co.uk^
+||analytics.footballdb.com^
 ||analytics.getshogun.com^
 ||analytics.global.sky.com^
 ||analytics.gorillanation.com^
@@ -13645,6 +13650,7 @@ _mongo_stats/
 ||merchantcircle.com/static/track.js
 ||merck.com/js/mercktracker.js
 ||merlin.abc.go.com^
+||messari.io/js/wutangtrack.js
 ||met-art.com/visit.js
 ||metacafe.com/services/fplayer/report.php?
 ||metacafe.com^*/statsrecorder.php?
