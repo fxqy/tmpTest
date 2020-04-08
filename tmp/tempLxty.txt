@@ -29,5 +29,24 @@ ntpdate time.nist.gov
 ------------------------------GoolePlay------------------------------
     https://blog.csdn.net/ganggang4321/article/details/89952637
     http://www.ddung.org/daili/
-    
+
+
+------------------------------python------------------------------
+pip3 install -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com  wtforms_json,flask_compress,celery,flask_migrate,flask_talisman,flask_caching,sqlparse,bleach,markdown,numpy,pandas,parsedatetime,pathlib2,simplejson,humanize,geohash,polyline,geopy,cryptography,backoff,msgpack,pyarrow,contextlib2,croniter,retry,selenium,isodate
+pip install -i http://mirrors.aliyun.com/pypi/simple/ s3werkzeugcache
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple s3werkzeugcache
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple RBTools
+pip install -i http://mirrors.aliyun.com/pypi/simple/ superset
+
+1、cd /etc/ld.so.conf.d 2、vim python3.conf 3、添加 /usr/local/python3/lib（替换成你的路径）4、ldconfig
+
+
+------------------------------nexus3------------------------------
+https://www.sonatype.com/download-oss-sonatype
+https://sonatype-download.global.ssl.fastly.net/nexus/3/latest-unix.tar.gz
+链接：https://pan.baidu.com/s/14pJELodRvqY_XkSvwBHwjw 
+提取码：kkys 
+
+podman run -d --name nexus3 --restart=always -p 8088:8088 -p 8081:8081 -p 5000:5000 -v /home/nexusRepo:/nexus-data sonatype/nexus3
+
 ------------------------------end------------------------------
