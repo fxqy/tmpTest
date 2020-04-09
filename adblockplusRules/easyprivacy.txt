@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: wXBaCrfeNSA33vJ0uNCpaQ
-! Version: 202004081531
+! Checksum: fBqhgaG+gsUd32VU9/6A8g
+! Version: 202004091031
 ! Title: EasyPrivacy
-! Last modified: 08 Apr 2020 15:31 UTC
+! Last modified: 09 Apr 2020 10:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3104,6 +3104,7 @@
 /pcount.asp
 /Peermap/Log/*
 /perf-beacon-
+/perflog/*
 /perfmetrics.js
 /performance.fcgi?
 /performance_timing/*
@@ -3480,6 +3481,7 @@
 /rlvt-track/*
 /rm.gif?
 /RMAnalytics.
+/rmntracking.
 /roi_tracker.
 /roiengine.
 /roitrack.
@@ -4452,6 +4454,7 @@
 /trackpix.
 /trackpixel.
 /trackpush.min.js
+/trackpush/*
 /trackpxl?
 /trackr.swf
 /TrackShopAnalytics.
@@ -5922,6 +5925,7 @@ _mongo_stats/
 ||company-target.com^$third-party
 ||compteur.cc^$third-party
 ||conductrics.com^$third-party
+||conduze.com^$third-party
 ||config.parsely.com^$third-party
 ||confirmational.com^$third-party
 ||confirmit.com^$third-party
@@ -12609,6 +12613,7 @@ _mongo_stats/
 ||analytics.eip.telegraph.co.uk^
 ||analytics.footballdb.com^
 ||analytics.getshogun.com^
+||analytics.ghostery.com^$subdocument,domain=www.ghostery.com
 ||analytics.global.sky.com^
 ||analytics.gorillanation.com^
 ||analytics.hindustantimes.com^
@@ -12979,6 +12984,7 @@ _mongo_stats/
 ||customeriomail.codecademy.com^$image
 ||customerservicejobs.com/common/track/
 ||cyberlink.com/analytics/
+||d.ghostery.com^
 ||d1.abtshield.com^
 ||da.virginmedia.com^
 ||dabs.com/AbacusTest/clientinfo_bk.gif
@@ -17088,6 +17094,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||epub.ekh.no/*/static/analytics.js
 @@||google-analytics.com/analytics.js$domain=tv3play.no
 @@||klpinteraktiv.klp.no^*/Tracking.js?
+@@||postnord.no/api/tracking/$~third-party
 ! Polish
 @@||addthisedge.com/live/$xmlhttprequest,domain=serialomaniak.pl
 @@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.pl
