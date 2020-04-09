@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: fBqhgaG+gsUd32VU9/6A8g
-! Version: 202004091031
+! Checksum: 9ahfkCq4pCyNpNUEh1M+zw
+! Version: 202004091511
 ! Title: EasyPrivacy
-! Last modified: 09 Apr 2020 10:31 UTC
+! Last modified: 09 Apr 2020 15:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -204,6 +204,7 @@
 .com/x0.gif?
 .com/z.gif?
 .composeTrack.htm
+.content_tracking.
 .core.tracking-min-
 .d-engine.js
 .de/e.gif?
@@ -4640,6 +4641,7 @@
 /video_count.php?
 /videoanalytic/*
 /videoAnalytics.
+/VideoHeartbeat.
 /videojs.ga.
 /videolog?vid=
 /videotrack.js
@@ -5186,6 +5188,8 @@ _xiti_js-
 _zag_cookie.
 cgi-bin/counter
 ||meetrics.netbb-
+! Admiral
+_admiral.
 ! eventbrite tracking
 /search/log_requests/*
 ! Consent/GDPR tracking
@@ -13319,7 +13323,7 @@ _mongo_stats/
 ||glassmoni.researchgate.net^
 ||glean.pop6.com^
 ||global.canon^*/analytics.js
-||global.ssl.fastly.net^$script,domain=allmodern.com|argos.co.uk|birchlane.com|desertsun.com|eddiebauer.com|glassesusa.com|jsonline.com|kurtgeiger.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
+||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|desertsun.com|eddiebauer.com|glassesusa.com|jsonline.com|kurtgeiger.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
 ||globes.co.il/ga.asp
 ||globes.co.il/shared/s.ashx?
 ||globester.com^*/track.js
