@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: bzPiM3Ex5HqiRFP2Zy3nLQ
-! Version: 202004110101
+! Checksum: ktzFt9kfLpD7ltt7od8icw
+! Version: 202004111541
 ! Title: EasyPrivacy
-! Last modified: 11 Apr 2020 01:01 UTC
+! Last modified: 11 Apr 2020 15:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -857,6 +857,7 @@
 /article_hit.php?
 /ArticleCounterLogger.
 /ArticleLog.aspx?
+/articleOmnitureTracking.
 /ArticleViewTracking/*
 /asdf/tracking-
 /asknet_tracking.
@@ -1371,6 +1372,7 @@
 /contador.gif?
 /containerTag.js
 /containertag?
+/content-targeting-
 /content-targeting-staging.js
 /contentanalytics/*
 /contentiq.js
@@ -1556,6 +1558,7 @@
 /di-tealium.
 /Diagnostics?hit=
 /didna-pixel-
+/diffuser.js
 /digital-data-enrichment.
 /digitalice_tag.js
 /dil_v6.4.js
@@ -2106,6 +2109,7 @@
 /GoogleAnalytics|
 /googleanalyze1.
 /googleanalyze2.
+/googleasynctrack.
 /googleEventTracking.
 /googletag.js
 /googletagmanager.js
@@ -2527,6 +2531,7 @@
 /livestats.php?
 /livezilla/server.php?request=track&
 /llbmetrics.
+/llntrack.
 /load.gif?
 /load.js.gz?
 /load_analytics.
@@ -3400,6 +3405,7 @@
 /realtimetracking/*
 /realytics-
 /realytics.js
+/rec-impression?
 /recommendtrack?
 /record-impressions.
 /record-impressions?
@@ -6344,6 +6350,7 @@ _mongo_stats/
 ||geoplugin.net^$third-party
 ||georiot.com^$third-party
 ||geotargetly-1a441.appspot.com^$third-party
+||getambassador.com^$third-party
 ||getbackstory.com^$third-party
 ||getblueshift.com^$third-party
 ||getclicky.com^$third-party
@@ -11708,7 +11715,7 @@ _mongo_stats/
 ||fastly.net/plw.js
 ||fastly.net/sp.js
 ! Unnecessary third-party scripts
-||js.trendmd.com/trendmd.min.js$third-party
+||js.trendmd.com/trendmd.min.js
 ||nsg.symantec.com^$third-party
 ||seal.godaddy.com^$third-party
 ||sealserver.trustwave.com^$third-party
@@ -16558,7 +16565,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=abcnews.go.com|foxbusiness.com|foxnews.com
 @@||analytics.edgekey.net/ma_library/html5/html5_malibrary.js$script,domain=mxplayer.in
 @@||analytics.edgesuite.net/config/beacon-*.xml$domain=foxnews.com
-@@||analytics.edgesuite.net/html5/akamaihtml5-min.js$domain=abcnews.go.com|foxbusiness.com|foxnews.com|resignationbrewery.com|threenow.co.nz
+@@||analytics.edgesuite.net/html5/akamaihtml5-min.js$domain=abcnews.go.com|foxbusiness.com|foxnews.com|threenow.co.nz
 @@||analytics.logsss.com/logsss*.min.js$script,domain=rosegal.com
 @@||analytics.snidigital.com^$script,domain=hgtv.com
 @@||analytics.twitter.com^$domain=analytics.twitter.com
@@ -16654,7 +16661,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||flagshipmerchantservices.com/clickpathmedia.js
 @@||flippingbook.com^*/static/analytics.js$script,~third-party
 @@||flsenate.gov/Scripts/GoogleAnalytics.js$~third-party
-@@||flurry.com/js/flurry.js$domain=pocketdice.io|slantnews.com
 @@||fncstatic.com^*/visitorapi.js$script,domain=foxbusiness.com|foxnews.com
 @@||gannettdigital.com/universal-web-client/master/latest/elements/$xmlhttprequest
 @@||gatsbyjs.org/packages/$xmlhttprequest
@@ -16715,8 +16721,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||medianetworkinternational.com/js/fingerprint2.js$script
 @@||medicare.gov/SharedResources/widgets/foresee/foresee-trigger.js
 @@||mercedes-benz-mobile.com/js/tracking/tracker.min.js?
-@@||metric.gstatic.com/ip.js$domain=ipv6test.google.com
-@@||metric.gstatic.com/ipv6test/$image,domain=ipv6test.google.com
 @@||metrics.mozilla.com^$~third-party
 @@||metrics.torproject.org^$~third-party
 @@||mixpanel.com/track/?data=$xmlhttprequest,domain=greentoe.com
@@ -17078,6 +17082,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
 @@||chancro.jp/assets/lib/googleanalytics-$script
 @@||googletagmanager.com/gtm.js$script,domain=book.impress.co.jp|sankei.com
+@@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
 @@||mediaweaver.jp^$image,domain=ismedia.jp
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
@@ -17109,6 +17114,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||addthisedge.com/live/$xmlhttprequest,domain=serialomaniak.pl
 @@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.pl
 @@||akamaized.net^*/tracking/ninja.js$domain=olx.pl
+@@||applet.polfan.pl/vendor/fingerprint2.min.js$script,domain=applet.polfan.pl
 @@||fastwhitecat.com/wp-content/plugins/duracelltomi-google-tag-manager/$script,domain=fastwhitecat.com
 @@||gemius.pl/gstream.js
 @@||gminazamosc.pl/wp-content/plugins/wp-google-analytics-events/js/ga-scroll-events.js?
