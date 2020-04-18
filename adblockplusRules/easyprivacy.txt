@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: jexoRRA/rVhJpKIz1hSZGw
-! Version: 202004171021
+! Checksum: oOSSwEV5xbgqmnNVulFkmQ
+! Version: 202004180151
 ! Title: EasyPrivacy
-! Last modified: 17 Apr 2020 10:21 UTC
+! Last modified: 18 Apr 2020 01:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6400,6 +6400,7 @@ _mongo_stats/
 ||googleadservices.com^$third-party
 ||googlerank.info^$third-party
 ||googletagmanager.com/gtag/$third-party
+||googletagmanager.com/gtm/$third-party
 ||googletagmanager.com^$image,third-party
 ||gooo.al^$third-party
 ||gopjn.com^$third-party
@@ -6985,6 +6986,7 @@ _mongo_stats/
 ||ojrq.net^$third-party
 ||okt.to^$third-party
 ||oktopost.com^$third-party
+||omappapi.com^$third-party
 ||omarsys.com^$third-party
 ||omeda.com^$third-party
 ||ometria.com^$third-party
@@ -10979,6 +10981,7 @@ _mongo_stats/
 ||pixel.glimr.io^
 ||pixel.indieclicktv.com/annonymous/
 ||pixel.newscred.com^
+||pixel.parsely.com^
 ||pixel.roymorgan.com^
 ||pixel.s3xified.com^
 ||pixel.solvemedia.com^
@@ -16663,6 +16666,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||dynamicyield.com/api/$script,domain=zalora.com.my|zalora.com.ph|zalora.sg
 @@||dynamicyield.com/st?$script,domain=computeruniverse.net|zalora.com.my|zalora.com.ph|zalora.sg
 @@||e2e-comms.pearson.com/osbrowserchecker/prd/thirdPartyCookie.html?$subdocument,domain=pearsonmylabandmastering.com
+@@||easyship.com/api/v1/track/$xmlhttprequest,domain=trackmyshipment.co
 @@||ec.europa.eu^*/piwik.js
 @@||edgedatg.com/aws/apps/datg/web-player-unity/externals/comscore.$script,domain=abc.com
 @@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citizensbank.com|dell.com|fidelity.com|france24.com|homedepot.com|hp.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
