@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: oOSSwEV5xbgqmnNVulFkmQ
-! Version: 202004180151
+! Checksum: mjORj2ZTsZ+udUolZpZYoQ
+! Version: 202004190101
 ! Title: EasyPrivacy
-! Last modified: 18 Apr 2020 01:51 UTC
+! Last modified: 19 Apr 2020 01:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -747,7 +747,7 @@
 /analytics/track|
 /Analytics/UniqueEndUser?
 /analytics/urlTracker.
-/analytics/v1/*$domain=~my.leadpages.net
+/analytics/v1/*$domain=~my.leadpages.net|~userzoom.com
 /analytics/video_$domain=~twitch.tv
 /analytics/visit/*
 /Analytics/Visitor.
@@ -5659,6 +5659,7 @@ _mongo_stats/
 ||artfut.com^$third-party
 ||ascend.ai^$third-party
 ||assoctrac.com^$third-party
+||asteriresearch.com^$third-party
 ||astro-way.com^$third-party
 ||atatus.com^$third-party
 ||atgsvcs.com^$third-party
@@ -8509,7 +8510,9 @@ _mongo_stats/
 ||lumberamount.com^$third-party
 ||lumpylumber.com^$third-party
 ||magnetairport.com^$third-party
+||massivemark.com^$third-party
 ||meatydime.com^$third-party
+||movemeal.com^$third-party
 ||mowfruit.com^$third-party
 ||mundanepollution.com^$third-party
 ||neighborlywatch.com^$third-party
@@ -8839,6 +8842,7 @@ _mongo_stats/
 ||speedtracker.de^$third-party
 ||spelar.org^$third-party
 ||spider-mich.com^$third-party
+||spkrth.scw.systems^$third-party
 ||sponsorcounter.de^$third-party
 ||spring-tns.net^$third-party
 ||srvtrck.com^$third-party
@@ -10943,6 +10947,7 @@ _mongo_stats/
 ||passport.pfn.bz^
 ||payments-amazon.com^*/analytics.js
 ||payments.amazon.com/cs/uedata
+||paypal.com/webapps/mch/cmd/?
 ||paypal.com^*/pixel.gif$third-party
 ||paypalobjects.com^*/pixel.gif
 ||pcmag.com/tview/$image
@@ -14611,6 +14616,7 @@ _mongo_stats/
 ||tickco.com/track.js
 ||tidaltv.com/Ping.aspx
 ||timeslogtn.timesnow.tv^
+||timesofisrael.com/js/rgb_app.js
 ||timesrecordnews.com/metrics/
 ||timestrends.indiatimes.com^
 ||timestrends.timesnow.tv^
@@ -15155,6 +15161,7 @@ _mongo_stats/
 ||keighleynews-gb.keighleynews.co.uk^
 ||mdn.neowin.net^
 ||mmm.carbuyer.co.uk^
+||mms.blick.ch^
 ||mms.gocomics.com^
 ||orionis.techradar.com^
 ||rps-p2.rockpapershotgun.com^
@@ -17038,6 +17045,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ! Finnish
 @@||adobedtm.com^*/satelliteLib-$script,domain=gigantti.fi
 @@||cnetcontent.com/jsc/h.js$domain=atea.fi
+@@||d2wzl9lnvjz3bh.cloudfront.net/frosmo.easy.js$domain=lippu.fi
 @@||dynamicyield.com/api/$script,domain=gigantti.fi
 @@||frosmo.com^$xmlhttprequest,domain=kauppahalli24.fi
 @@||googletagmanager.com/gtm.js?$domain=cdon.fi
