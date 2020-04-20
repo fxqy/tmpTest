@@ -56,7 +56,7 @@ function initEvents(){
         edtxt.value=strDec(edtxt.value,edpwd);
 	};
 	_$G("taba_btn7").onclick=function(){
-        var ctt = '<div style="display:inline-block;width:50px;text-align:right;padding-right:5px;">密码: </div></div><input id="ecdcrptPwd" type="password" style="width:280px;"/>';
+        var ctt = '<div style="display:inline-block;width:50px;text-align:right;padding-right:5px;">密码: </div><input id="ecdcrptPwd" type="password" style="width:280px;"/>';
         panelCaseA({ width:360,title: '私有解密', content:ctt, btn1:"确定", btn2: "取消",
             fun1: function(mbdy){
                 var ecdpwd=_$Q("#ecdcrptPwd",mbdy).value;
@@ -150,6 +150,41 @@ function initEvents(){
 	};
     _$G("tabe_btn2").onclick=function(){
 		_$G("qrcode").innerHTML="";
+	};
+    //6
+    _$G("tabf_btn1").onclick=function(){
+        var ctt = '<div style="display:inline-block;width:60px;text-align:right;padding-right:5px;">起始ID: </div><input id="rowregbid" type="text" style="width:270px;"/>';
+        panelCaseA({ width:360,title: 'IP2R', content:ctt, btn1:"确定", btn2: "取消",
+            fun1: function(mbdy){
+                var bid=_$Q("#rowregbid",mbdy).value;
+                var txtv=_$G("rowreg_txts");
+                var str="[\n";
+                var reg = new RegExp("(.*\..*)","g");
+                var result =null;
+                var i=0;
+                do{
+                    result=reg.exec(txtv.value);
+                    if(result!=null){
+                        var gp1=result[1];
+                        var addr=gp1;
+                        var ts=gp1.split(".",4).length;
+                        if(ts==2)addr=gp1+'.1.1-'+gp1+'.255.255';
+                        else if(ts==3)addr=gp1+'.1-'+gp1+'.255';
+                        else if(ts==4)addr=gp1;
+                        else continue;
+                        if(i>0)str+=',\n';
+                        str+='    {\n        "id":"'+(parseInt(bid)+i)+'",\n        "memo":"禁wr",\n        "raddr":"'+addr+'"\n    }';
+                        i++;
+                    }
+                }while(result!=null)
+                str+="\n]"
+            
+                txtv.value=str;
+                
+                return true;
+            }
+        });
+        
 	};
 }
 
