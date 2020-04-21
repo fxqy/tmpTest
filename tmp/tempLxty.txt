@@ -6,6 +6,11 @@ netstat -ano|findstr "8080"
 tasklist|findstr "4984"
 ntpdate time.nist.gov
 
+------------------------------ maven ------------------------------
+
+mvn install:install-file -Dfile=ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=6 -Dpackaging=jar
+
+
 ------------------------------JAR 运行------------------------------
 
 在Linux下要使程序后台运行，可通过  java -jar Client.jar &  来实现
