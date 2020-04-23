@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: y0gK9CeYd+GFhKcYT4v6Aw
-! Version: 202004201151
+! Checksum: 0PppW/BrQmeIptQiWrSpeQ
+! Version: 202004230921
 ! Title: EasyPrivacy
-! Last modified: 20 Apr 2020 11:51 UTC
+! Last modified: 23 Apr 2020 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -28,6 +28,7 @@
 &refererPageDetail=
 &trackingserver=
 &visitor=*&referrer=
+&visitorUuid=
 -action/fingerprint?
 -action/ping?
 -ad-targeting?
@@ -3180,6 +3181,7 @@
 /pixel-prometeo.
 /pixel-render/*
 /pixel-track.
+/pixel-tracking.
 /pixel.*/track/*
 /pixel.ashx?
 /pixel.aspx?
@@ -4805,7 +4807,7 @@
 /webstats/track.php?
 /webstats_counter/*
 /webtag.js
-/webtrack.$domain=~webtrack.dhlglobalmail.com
+/webtrack.$domain=~webtrack.dhlecs.com|~webtrack.dhlglobalmail.com
 /webtracker.
 /webTracking.$domain=~webtracking.girard-agediss.com
 /webtracking/*$~subdocument
@@ -6594,6 +6596,7 @@ _mongo_stats/
 ||ipinfo.info^$third-party
 ||ipinfodb.com^$third-party
 ||ipinyou.com.cn^$third-party
+||iplist.cc^$third-party
 ||iplocationtools.com^$third-party
 ||ipro.com^$third-party
 ||iproanalytics.com^$third-party
@@ -7007,6 +7010,7 @@ _mongo_stats/
 ||onetag-sys.com^$third-party
 ||onetag.io^$third-party
 ||ongsono.com^$third-party
+||oniad.com^$third-party
 ||online-metrix.net^$third-party
 ||onlinepbx.ru^$third-party
 ||onlysix.co.uk^$third-party
@@ -8348,7 +8352,6 @@ _mongo_stats/
 ||stonecalcom.com^$third-party
 ||str1kee.com^
 ||streambeam.io^$third-party
-||streamplay.to^$third-party
 ||sumokoin.com^$third-party
 ||supportxmr.com^$third-party
 ||sushipool.com^$third-party
@@ -8829,6 +8832,7 @@ _mongo_stats/
 ||rightstats.com^$third-party
 ||royalcount.de^$third-party
 ||scriptil.com^$third-party
+||scw.systems^$third-party
 ||sedotracker.de^$third-party
 ||seitwert.de^$third-party
 ||selfcampaign.com^$third-party
@@ -8843,7 +8847,6 @@ _mongo_stats/
 ||speedtracker.de^$third-party
 ||spelar.org^$third-party
 ||spider-mich.com^$third-party
-||spkrth.scw.systems^$third-party
 ||sponsorcounter.de^$third-party
 ||spring-tns.net^$third-party
 ||srvtrck.com^$third-party
@@ -9262,6 +9265,7 @@ _mongo_stats/
 ||smartnews-ads.com^$third-party
 ||socdm.com^$third-party
 ||speee-ad.jp^$third-party
+||taxel.jp^$third-party
 ||team-rec.jp^$third-party
 ||tgknt.com^$third-party
 ||trackfeed.com^$third-party
@@ -11155,6 +11159,7 @@ _mongo_stats/
 ||searchmaestros.com/trackpoint/
 ||secure.ed4.net/GSI/$third-party
 ||secure.ifbyphone.com^$third-party
+||secure.merchantadvantage.com^
 ||secureprovide1.com/*=tracking$image
 ||seg.sharethis.com^
 ||segments.adap.tv^$third-party
@@ -11737,6 +11742,7 @@ _mongo_stats/
 ||fastly.net/plw.js
 ||fastly.net/sp.js
 ! Unnecessary third-party scripts
+||howsmyssl.com^$third-party
 ||js.trendmd.com/trendmd.min.js
 ||nsg.symantec.com^$third-party
 ||seal.godaddy.com^$third-party
@@ -11767,6 +11773,7 @@ _mongo_stats/
 ||andyhoppe.com/count/
 ||audimark.de/tracking/
 ||bcs-computersysteme.com/cgi-local/hiddencounter/
+||beagle.prod.tda.link^
 ||beenetworks.net/traffic
 ||blacktri-a.akamaihd.net^
 ||captcha-ad.com/stats/
@@ -11846,7 +11853,7 @@ _mongo_stats/
 ||plista.com/iframeShowItem.php
 ||px.staticfiles.at^
 ||pyroactive.de/counter/
-||quiz.stroeermediabrands.de^
+||quiz.stroeermediabrands.de/pub/$image
 ||rc.aol.de^*/getrcmd.js
 ||retrack.q-divisioncdn.de^
 ||retresco.de^*/stats/$third-party
@@ -11939,6 +11946,7 @@ _mongo_stats/
 ||bnpparibas.fr/JavascriptInsert.js
 ||btstats.devtribu.fr^
 ||c.woopic.com/tools/pdb.min.js
+||calcul-pagerank.fr/client/$third-party
 ||calotag.com^$third-party
 ||cdn-analytics.ladmedia.fr^
 ||cdn-files.prsmedia.fr^*/xiti/
@@ -11975,6 +11983,7 @@ _mongo_stats/
 ||scriptsgratuits.com/sg/stats/
 ||securite.01net.com^
 ||service-webmaster.fr/cpt-visites/$third-party
+||socialrank.fr/client/$third-party
 ||stat.prsmedia.fr^
 ||stats-dc1.frz.io^
 ||stats-factory.digitregroup.io^
@@ -12315,6 +12324,7 @@ _mongo_stats/
 ||analytics.greensender.pl^$third-party
 ||cafenews.pl/mpl/static/static.js?
 ||cmp.dreamlab.pl^
+||dsg.interia.pl^
 ||fab.interia.pl^
 ||hit.interia.pl^
 ||iwa.iplsc.com/plugins/$script
@@ -15187,6 +15197,7 @@ _mongo_stats/
 ||ttauri.tomsguide.com^
 ||ttauri.tomshardware.com^
 ||ttauri.whathifi.com^
+||twch.20min.ch^
 ||vg247.com/wp-content/themes/vg247/scripts/mvg247-fsm.js
 ||weather.com/weather/*.sourcepoint
 ||wiltshiretimes-gb.wiltshiretimes.co.uk^
@@ -15862,10 +15873,10 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||lem.nouvelobs.com^
 ||lemde.fr^*/metrics/
 ||lemde.fr^*/tracking/
+||leparking.fr/jsV038/tracker.js
 ||logs-qos.tf1.fr^
 ||ma-petite-recette.fr/visites
 ||neko-san.fr/stats
-||nextinpact.com/bundles/mtm
 ||nouvelobs.com/scripts/stats.php?
 ||nouvelobs.com/tools/csrum.php
 ||nouvelobs.com/trafiz-
@@ -15911,6 +15922,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ! nextinpact
 ||cdn5.nextinpact.com^
 ||edmi.nextinpact.com^
+||nextinpact.com/bundles/mtm
+||nextinpact.com/image/*=.jpg
 ||pam.nextinpact.com^
 ||poum.nextinpact.com^
 ||rel.nextinpact.com^
@@ -16680,7 +16693,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||easyship.com/api/v1/track/$xmlhttprequest,domain=trackmyshipment.co
 @@||ec.europa.eu^*/piwik.js
 @@||edgedatg.com/aws/apps/datg/web-player-unity/externals/comscore.$script,domain=abc.com
-@@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citizensbank.com|dell.com|fidelity.com|france24.com|homedepot.com|hp.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
+@@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citizensbank.com|dell.com|fidelity.com|france24.com|homedepot.com|hp.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
 @@||ensighten.com^*/code/$script
 @@||ensighten.com^*/scode/$script,domain=norton.com
 @@||ensighten.com^*/serverComponent.php?$script
@@ -16701,6 +16714,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||gatsbyjs.org/packages/$xmlhttprequest
 @@||gatsbyjs.org/page-data/packages/$xmlhttprequest
 @@||geni.us/snippet.min.js$script,domain=pcmonitors.info
+@@||geo-targetly.com/geolocation?id$script,third-party
 @@||geo.kaloo.ga/json/?$script,domain=telesurtv.net
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
 @@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
@@ -16765,6 +16779,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||monetate.net/img/$script,domain=newegg.com
 @@||monetate.net/js/$domain=newegg.com|nike.com
 @@||monetate.net/trk/$script,domain=newegg.com
+@@||mozu.com^*/analytics.js$script,domain=acehardware.com
 @@||mpsnare.iesnare.com/snare.js$domain=citi.com|citibank.com|enmasse.com|login.skype.com|vitacost.com
 @@||mpsnare.iesnare.com/wu/snare.js$domain=westernunion.com
 @@||msecnd.net/scripts/jsll-$script,domain=teams.microsoft.com
@@ -17183,6 +17198,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||siteapps.com^$script,domain=netcombo.com.br
 @@||stats.g.doubleclick.net/dc.js$domain=netcombo.com.br
 @@||tags.t.tailtarget.com/t3m.js?$domain=superesportes.com.br
+@@||tm.jsuol.com.br/uoltm.js$script,domain=uol.com.br
 ! Romanian
 @@||homebank.ro/public/HomeBankLogin/js/fingerprint/fingerprint.js
 ! Russian

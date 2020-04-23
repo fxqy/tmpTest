@@ -9,6 +9,7 @@ ntpdate time.nist.gov
 ------------------------------ maven ------------------------------
 
 mvn install:install-file -Dfile=ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=6 -Dpackaging=jar
+mvn install:install-file -Dfile=compare-number-1.0.jar -DgroupId=com.hbase.compare -DartifactId=compare-number -Dversion=6 -Dpackaging=jar
 
 
 ------------------------------JAR 运行------------------------------
