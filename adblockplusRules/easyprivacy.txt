@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 3Z1TG7lzrpsGZ3w5w3qLJw
-! Version: 202004221501
+! Checksum: pT8H3NB18ldFge35j4QYBg
+! Version: 202004231041
 ! Title: EasyPrivacy
-! Last modified: 22 Apr 2020 15:01 UTC
+! Last modified: 23 Apr 2020 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4807,7 +4807,7 @@
 /webstats/track.php?
 /webstats_counter/*
 /webtag.js
-/webtrack.$domain=~webtrack.dhlglobalmail.com
+/webtrack.$domain=~webtrack.dhlecs.com|~webtrack.dhlglobalmail.com
 /webtracker.
 /webTracking.$domain=~webtracking.girard-agediss.com
 /webtracking/*$~subdocument
@@ -17198,6 +17198,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||siteapps.com^$script,domain=netcombo.com.br
 @@||stats.g.doubleclick.net/dc.js$domain=netcombo.com.br
 @@||tags.t.tailtarget.com/t3m.js?$domain=superesportes.com.br
+@@||tm.jsuol.com.br/uoltm.js$script,domain=uol.com.br
 ! Romanian
 @@||homebank.ro/public/HomeBankLogin/js/fingerprint/fingerprint.js
 ! Russian
