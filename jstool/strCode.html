@@ -9,6 +9,7 @@
 
 	<p id="demo">点击按钮获取</p>
 	<button onclick="myFunction()">点我</button>
+	<p id="demo1"></p>
 	<script>
 		window.onload=function(){
 			testA();
@@ -158,10 +159,13 @@
 		
 		function testA(){
 			var str="";
-			for(var i=0;i<10;i++){
+			var str1="";
+			for(var i=0;i<20;i++){
 				str+=(i>0?"\n":"")+getRdmMac();
+				str1+="<br/>"+getRdmMac();
 			}
-			console.log(str);
+            document.getElementById("demo1").innerHTML=str1;
+			//console.log(str);
 			
 		}
 		
