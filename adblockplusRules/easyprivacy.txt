@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: iekRVg0rd5/23wFoLabo/Q
-! Version: 202004241051
+! Checksum: JICMy3LY6pLpvP/73S5F6A
+! Version: 202004251151
 ! Title: EasyPrivacy
-! Last modified: 24 Apr 2020 10:51 UTC
+! Last modified: 25 Apr 2020 11:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2152,6 +2152,7 @@
 /hc_pixel.gif?
 /headerpixel.gif?
 /headupstats.gif?
+/healthanalytics.js
 /heatmap_log.js
 /HeatmapSessionRecording/*
 /hg?hc=&hb=*&vjs=
@@ -2770,6 +2771,7 @@
 /metsol-
 /mh_metric.
 /mi/insite/*
+/mi9-tracking-
 /mianalytics.
 /micro.php?action=view&
 /microreporting.
@@ -4827,6 +4829,7 @@
 /wget?*&referer=
 /wh_tracking.
 /where-go-add.js
+/white_pixel.gif?
 /who/?js
 /wholinked.com/track
 /whos.amung.us.classic.
@@ -11958,6 +11961,7 @@ _mongo_stats/
 ||cloudfront.net^$script,domain=gentside.com
 ||collect.adback.co^
 ||compteur.websiteout.net^
+||core.unit-sense.net^
 ||da-kolkoz.com/da-top/track/
 ||devtribu.fr/t.php?
 ||e-pagerank.fr/bouton.gif?$third-party
@@ -11998,6 +12002,7 @@ _mongo_stats/
 ||tag.goldenbees.fr^
 ||tag.leadplace.fr^
 ||testcddc.atclouddev.net^
+||tim.nextinpact.com^
 ||tmgr.ccmbg.com^
 ||track.byzon.swelen.net^$third-party
 ||track.kyoads.com^
@@ -14211,6 +14216,7 @@ _mongo_stats/
 ||sa.bbc.co.uk^
 ||sa.squareup.com^
 ||sa135.macworld.co.uk^
+||sa135.wsbtv.com^
 ||sabah.com.tr/Statistic/
 ||sabah.com.tr/StatisticImage/
 ||sabc.co.za/SABC/analytics/
@@ -14609,6 +14615,7 @@ _mongo_stats/
 ||theage.com.au^*/behave.js
 ||theconversation.com/javascripts/lib/content_tracker_hook.js
 ||thecreatorsproject.com/tracker.html
+||thedailybeast.com/static/js/thirdparty.$script,~third-party
 ||thedeal.com/oas_
 ||thefashionspot.com^*/pb.track.js
 ||thefilter.com^*/CaptureRest.ashx?cmd=
@@ -15920,6 +15927,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||unblog.fr/cu.js
 ||wawacity.*/bypass
 ||wbdds.allocine.fr^
+||yandex.fr/clck/click
 ||zonecss.fr/images/stat_robocop.gif?
 ||zonecss.fr/images/statscreen.gif?
 ! nextinpact
