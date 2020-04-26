@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: RW7YCxiRe6kvWPnXEc/C7Q
-! Version: 202004251601
+! Checksum: 0LkKKePLExUHhYOMJUoXKQ
+! Version: 202004261341
 ! Title: EasyPrivacy
-! Last modified: 25 Apr 2020 16:01 UTC
+! Last modified: 26 Apr 2020 13:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -279,6 +279,7 @@
 .pageVisitCounter_
 .php?action=browse&
 .php?action_name=
+.php?hey_stat=
 .php?logRefer=
 .php?logType=
 .php?notrack=
@@ -4189,6 +4190,7 @@
 /track?cb=
 /track?data=
 /track?event=
+/track?eventKey=
 /track?events=
 /track?name=
 /track?page_view
@@ -4992,6 +4994,7 @@
 ://gdyn.*/1.gif?
 ://geoip.*/country.json
 ://ivwextern.
+://metrika.
 ://mint.*/?js
 ://piwik.$third-party
 ://reporting.*/blank.gif?
@@ -6151,6 +6154,7 @@ _mongo_stats/
 ||easycounter.com^$third-party
 ||easyhitcounters.com^$third-party
 ||easyresearch.se^$third-party
+||eb4us.com^$third-party
 ||ebtrk1.com^$third-party
 ||ec-track.com^$third-party
 ||eclampsialemontree.net^$third-party
@@ -6245,6 +6249,7 @@ _mongo_stats/
 ||eyein.com^$third-party
 ||eyereturn.com^$third-party
 ||ezec.co.uk^$third-party
+||ezodn.com^$third-party
 ||ezytrack.com^$third-party
 ||f92j5.com^$third-party
 ||fabricww.com^$third-party
@@ -9755,6 +9760,7 @@ _mongo_stats/
 ||analytics-scripts.cablelabs.com^
 ||analytics-static.ugc.bazaarvoice.com^
 ||analytics.30m.com^
+||analytics.agoda.com^
 ||analytics.amakings.com^
 ||analytics.anvato.net^
 ||analytics.apnewsregistry.com^
@@ -9944,6 +9950,7 @@ _mongo_stats/
 ||beacon2.indieclicktv.com^$third-party
 ||beacons.brandads.net^
 ||beacons.mediamelon.com^
+||bento.agoda.com^
 ||bestofmedia.com^*/beacons/$~image
 ||bfnsoftware.com^*/environment.cgi?
 ||bhphotovideo.com/imp/
@@ -12220,6 +12227,7 @@ _mongo_stats/
 ||fcstats.altervista.org^$third-party
 ||gazzettaobjects.it^*/tracking/
 ||glomera.com/stats
+||heymatic.com^$third-party
 ||httdev.it/e/c?
 ||iltrovatore.it/vp.htm
 ||instore.pagomeno.it^
