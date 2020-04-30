@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: kIQASVg3v+3S68K73Qzuhg
-! Version: 202004291041
+! Checksum: BwB4c1B60ONm7dxh7Q4cKw
+! Version: 202004301051
 ! Title: EasyPrivacy
-! Last modified: 29 Apr 2020 10:41 UTC
+! Last modified: 30 Apr 2020 10:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4661,7 +4661,6 @@
 /video_count.php?
 /videoanalytic/*
 /videoAnalytics.
-/VideoHeartbeat.
 /videojs.ga.
 /videolog?vid=
 /videotrack.js
@@ -9154,6 +9153,7 @@ _mongo_stats/
 ! Greek
 ||linkwi.se^$third-party
 ! Hebrew
+||analyti.io^$third-party
 ||enter-system.com^$third-party
 ||erate.co.il^$third-party
 ||fortvision.com^$third-party
@@ -12322,6 +12322,7 @@ _mongo_stats/
 ||sweet-candy.jp/c.php?$third-party
 ||sync.shinobi.jp^
 ||t.adlpo.com^
+||t.felmat.net^
 ||torimochi.line-apps.com^
 ||track.thebase.in^
 ||userdive.com^$third-party
@@ -17117,6 +17118,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||lekane.net/lekane/dialogue-tracking.js?$script
 ! Hebrew
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
+@@||bitsngo.net/widget-scripts/zoomd.widget.logger.min.js$domain=13news.co.il|13tv.co.il
 @@||cloudvideoplatform.com/scripts/WebAnalytics.js$script
 @@||googletagmanager.com/gtm.js?$domain=feex.co.il|reshet.tv
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
