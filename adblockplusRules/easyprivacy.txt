@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: BwB4c1B60ONm7dxh7Q4cKw
-! Version: 202004301051
+! Checksum: g5DZb4fQxFk8t/x+vF17rw
+! Version: 202005010901
 ! Title: EasyPrivacy
-! Last modified: 30 Apr 2020 10:51 UTC
+! Last modified: 01 May 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1315,6 +1315,7 @@
 /col2/*&sa=
 /col2/*&ss=
 /collect-*/jsEvent.js
+/collect-*/pageview|
 /collect.gif?
 /collect.php?data=
 /collect/?dp=
@@ -3434,6 +3435,7 @@
 /ref_analytics.
 /refer-tracking.
 /referadd?
+/referal-cookie.
 /referer.gif?
 /referer_frame.
 /refererRecord.
@@ -7374,6 +7376,7 @@ _mongo_stats/
 ||searchfeed.com^$third-party
 ||searchignite.com^$third-party
 ||searchplow.com^$third-party
+||secureanalytic.com^$third-party
 ||securepaths.com^$third-party
 ||securitytrfx.com^$third-party
 ||sedotracker.com^$third-party
@@ -8535,6 +8538,7 @@ _mongo_stats/
 ||lumberamount.com^$third-party
 ||lumpylumber.com^$third-party
 ||magnetairport.com^$third-party
+||markedmeasure.com^$third-party
 ||massivemark.com^$third-party
 ||meatydime.com^$third-party
 ||movemeal.com^$third-party
@@ -9377,6 +9381,7 @@ _mongo_stats/
 ||denakop.com^$third-party
 ||engageya.com^$third-party
 ||marktest.pt^$third-party
+||orquideassp.com^$third-party
 ||percycle.com^$third-party
 ||rdstation.com.br^$third-party
 ||sambaads.com^$third-party
@@ -9883,6 +9888,7 @@ _mongo_stats/
 ||apture.com/v3/?5=%7b%22stats%22$xmlhttprequest
 ||arclk.net/trax?
 ||areyouahuman.com/kitten?
+||argos.citruserve.com^
 ||ariane.abtasty.com^$third-party
 ||aserve.directorym.com^
 ||ask.com^*/i.gif?
@@ -12709,6 +12715,7 @@ _mongo_stats/
 ||analytics.mindjolt.com^
 ||analytics.mouthshut.com^
 ||analytics.ngfiles.com^
+||analytics.nike.com^
 ||analytics.plex.tv^
 ||analytics.posttv.com^
 ||analytics.productreview.com.au^
@@ -12887,6 +12894,7 @@ _mongo_stats/
 ||booking.com/logo?
 ||booking.com/navigation_times?
 ||booking.com/track_join_app_landing?
+||booking.com^*/ping
 ||boomerang.dell.com^
 ||boston.com/upixel/
 ||brandrepublic.com/session-img/
@@ -14923,6 +14931,7 @@ _mongo_stats/
 ||voyages-sncf.com^*/vsca.js
 ||voyeurhit.com/get_country.php
 ||voyeurhit.com/js/a2210.js
+||vrbo.com/pdp/logger?$xmlhttprequest
 ||vrv.co/ip
 ||vs.target.com^
 ||vs4food.com/ERA/era_rl.aspx
@@ -15182,12 +15191,16 @@ _mongo_stats/
 ||cdn-alliancegravity.s3.amazonaws.com^
 ||cmp.arnnet.com.au^
 ||cmp.cio.com.au^
+||cmp.cio.com^
 ||cmp.cmo.com.au^
 ||cmp.computerworld.com.au^
 ||cmp.cso.com.au^
 ||cmp.csoonline.com^
 ||cmp.digitalartsonline.co.uk^
 ||cmp.greenbot.com^
+||cmp.idginsiderpro.com^
+||cmp.infoworld.com^
+||cmp.javaworld.com^
 ||cmp.macworld.co.uk^
 ||cmp.macworld.com^
 ||cmp.osano.com^
@@ -15196,6 +15209,7 @@ _mongo_stats/
 ||cmp.pcworld.idg.com.au^
 ||cmp.tech426.com^
 ||cmp.techadvisor.co.uk^
+||cmp.techconnect.com^
 ||cmp.techhive.com^
 ||commsvc.stern.de^
 ||consent.api.osano.com^
