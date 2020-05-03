@@ -60,4 +60,9 @@ podman run -d --name nexus3 --restart=always -p 8088:8088 -p 8081:8081 -p 5000:5
 https://download.oracle.com/otn/nt/middleware/12c/122140/fmw_12.2.1.4.0_odi_Disk1_1of1.zip
 \\192.168.1.51\文件共享服务器\3.研发部\1.项目管理\LX734-北京经济管理职业学院-经管移动校园（经济管理职业学院数字化校园移动平台建设项目一期）\经管学院数据梳理
 
+
+------------------------------nodejs------------------------------
+
+npm --registry https://registry.npm.taobao.org install cluster
+
 ------------------------------end------------------------------

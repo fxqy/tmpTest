@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: g5DZb4fQxFk8t/x+vF17rw
-! Version: 202005010901
+! Checksum: yXVN2Bi7dwuv1ZR91dYBxQ
+! Version: 202005030641
 ! Title: EasyPrivacy
-! Last modified: 01 May 2020 09:01 UTC
+! Last modified: 03 May 2020 06:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -901,6 +901,7 @@
 /audiweb.js
 /audsci.js
 /autotag.
+/autotrack-with-autotrack-analytics.
 /autotrack.carbon.js
 /autotrack.custom.min.js
 /autotrack.js
@@ -2103,6 +2104,7 @@
 /googleAnalyticsBase_
 /GoogleAnalyticsBC3.
 /googleAnalyticsBottom.
+/googleAnalyticsDataLayer.
 /googleanalyticsevents?
 /googleanalyticsmanagement.swf
 /GoogleAnalyticsModule.
@@ -4972,7 +4974,6 @@
 /zig_c.min.js
 /zonapixel.
 /zone-log.
-/zoomd.widget.logger.
 /ztagtrackedevent/*
 /ztracker.js
 /zxc.gif?
@@ -8484,6 +8485,7 @@ _mongo_stats/
 ||cubchannel.com^$third-party
 ||culturedcrayon.com^$third-party
 ||damdoor.com^$third-party
+||dampdock.com^$third-party
 ||decisivedrawer.com^$third-party
 ||delegatediscussion.com^$third-party
 ||desiredirt.com^$third-party
@@ -8975,6 +8977,7 @@ _mongo_stats/
 ||fogl1onf.com^$third-party
 ||galaxiemedia.fr^$third-party
 ||geocompteur.com^$third-party
+||geovisite.ovh^$third-party
 ||goutee.top^$third-party
 ||graphinsider.com^$third-party
 ||hunkal.com^$third-party
@@ -8987,6 +8990,7 @@ _mongo_stats/
 ||mastertag.effiliation.com^$third-party
 ||mb-srv.com^$third-party
 ||megast.at^$third-party
+||megavisites.com^$third-party
 ||mmtro.com^$third-party
 ||netquattro.com/stats/
 ||netvigie.com^$third-party
@@ -9918,6 +9922,7 @@ _mongo_stats/
 ||az693360.vo.msecnd.net^
 ||azureedge.net/javascripts/Tracking.
 ||azureedge.net/track
+||azureedge.net^*/loader-config.json
 ||azurewebsites.net/TrackView/
 ||azurewebsites.net^*/telemetry.js
 ||b-aws.aol.com^
@@ -10296,6 +10301,7 @@ _mongo_stats/
 ||d3s7ggfq1s6jlj.cloudfront.net^
 ||d3sbxpiag177w8.cloudfront.net^
 ||d3tglifpd8whs6.cloudfront.net^
+||d3uvwl4wtkgzo1.cloudfront.net^
 ||d4ax0r5detcsu.cloudfront.net^
 ||d6jkenny8w8yo.cloudfront.net^
 ||d81mfvml8p5ml.cloudfront.net^
@@ -11737,6 +11743,7 @@ _mongo_stats/
 ||zdlogs.sphereup.com^
 ||zemanta.com/reblog_*.png$image,third-party
 ||zemanta.com/usersync/outbrain/?
+||ziffdavisb2b.com^*/tracker.js
 ||ziffprod.com^*/zdcse.min.js?referrer=
 ||zmags.com/a/p/p.js
 ||zoomtv.me^*?pixel=
@@ -12730,6 +12737,7 @@ _mongo_stats/
 ||analytics.teespring.com^
 ||analytics.thegedsection.com^
 ||analytics.thenest.com^
+||analytics.theneweuropean.co.uk^
 ||analytics.thenewslens.com^
 ||analytics.thetab.com^
 ||analytics.tradedoubler.com^
@@ -14691,6 +14699,7 @@ _mongo_stats/
 ||tms.eharmony.co.uk^
 ||tnla.thenewslens.com^
 ||tongji.meizu.com^
+||toolbox.com/DataLayerPixelServlet|
 ||tools.ranker.com^
 ||top.gg/api/auctions/impression
 ||top.wn.com^
@@ -14758,6 +14767,7 @@ _mongo_stats/
 ||tracking.battleon.com^
 ||tracking.carsales.com.au^
 ||tracking.chacha.com^
+||tracking.christianpost.com^
 ||tracking.conduit.com^
 ||tracking.epicgames.com^$image
 ||tracking.eurosport.com^
@@ -16656,6 +16666,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ad.crwdcntrl.net^$script,domain=investopedia.com
 @@||adblockanalytics.com/ads.js|
 @@||addgene.org/headers/blat/js/analyze.js
+@@||adobedtm.com/*-source.min.js$script,domain=kroger.com
+@@||adobedtm.com/*_source.min.js$script,domain=kroger.com
 @@||adobedtm.com/launch-$script
 @@||adobedtm.com^*/launch-$script
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|americanexpress.com|costco.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|lenovo.com|newyorker.com|nfl.com|oprah.com|pnc.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
@@ -17132,7 +17144,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||lekane.net/lekane/dialogue-tracking.js?$script
 ! Hebrew
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
-@@||bitsngo.net/widget-scripts/zoomd.widget.logger.min.js$domain=13news.co.il|13tv.co.il
 @@||cloudvideoplatform.com/scripts/WebAnalytics.js$script
 @@||googletagmanager.com/gtm.js?$domain=feex.co.il|reshet.tv
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
