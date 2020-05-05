@@ -70,3 +70,13 @@ http://109.195.3.148/viewforum.php?f=264
 curl -O -# -H "Referer: http:" http:**/[1-50].jpg
 
 transform: rotate(90deg) scale(0.6);
+
+
+------------------------------Font------------------------------
+https://icomoon.io/app/#/select
+http://fontello.com/
+
+
+------------------------------end------------------------------
+
+
