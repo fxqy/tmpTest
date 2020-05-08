@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gwgFbFiALDtc7MVqog9rPw
-! Version: 202005071121
+! Checksum: QEBei7ts7YcSkMEUVhIV5Q
+! Version: 202005081051
 ! Title: EasyList China+EasyList
-! Last modified: 07 May 2020 11:21 UTC
+! Last modified: 08 May 2020 10:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -1082,7 +1082,6 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||wa11ace.net^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -2335,6 +2334,7 @@ ubmcmm.baidustatic.com
 ||hauchi.com.tw^$third-party
 ||hbalx.cn^
 ||hbguohua.com^
+||hbguzhenyuan.com^
 ||hbhnwy.com^
 ||hbhtbn.com^
 ||hblinwei.com^
@@ -3459,6 +3459,7 @@ ubmcmm.baidustatic.com
 ||w3989.com^
 ||w4pma.cn^
 ||w65p.com^
+||wa11ace.net^
 ||wacc888.com^
 ||waihui518.com^
 ||walibao.com^$third-party
@@ -4218,6 +4219,7 @@ _yad_jsonp_
 ||141h.com/data/attachment/noblock/cf/
 ||145.239.6.59/g3/
 ||14bobo.com/js/
+||159i.com/nb/ls
 ||159i.com/p/hola/fozrjiqolpj.php
 ||159i.com/video/pop/
 ||159i.com/video/usr/uploads/1-
@@ -4563,6 +4565,7 @@ _yad_jsonp_
 ||54admin.net/images/ad_
 ||54new.com*/da/
 ||55.la/anonymous/banner/$domain=lxty66.com
+||5566.buzz/adtrue_
 ||5588.tv/js/piaofuImg.js
 ||55aaee.com/detail/
 ||55sky.com/js/diecuo/
@@ -6921,6 +6924,7 @@ _yad_jsonp_
 ||linecg.com/uploads/banner/
 ||lingdian98.com^
 ||lingdianshuwu.com/js/content
+||link114.cn/template/js/showpics_
 ||linkhelper.cn/mmshow
 ||links.cn/mmshow
 ||linkwan.com/gb/broadmeter/speed/cp.js
@@ -8169,6 +8173,7 @@ _yad_jsonp_
 ||twaifei.info^*.gif
 ||twavtv.com/js/jquery.colorbox
 ||twmeiju.com/images/axd.js
+||twproxy*.svc.litv.tv/cdi/v2/rpc
 ||twunbbs.com/images/
 ||txahz.com/static/image/tp/
 ||txtshu365.com/img/
@@ -8288,6 +8293,7 @@ _yad_jsonp_
 ||vpsmm.com/tu/
 ||vsimg.com/jd.gif
 ||vsuda.cn/data/upload/20
+||vtyyy.com/template/JOELEO/asset/js/jquery.leeleo.js
 ||vuejs.org/images/geekbang
 ||vuetifyjs.com/supporters.json
 ||vupload.duowan.com^
@@ -8371,6 +8377,7 @@ _yad_jsonp_
 ||winning11cn.com/temp/bifen/
 ||winvvv.com^$subdocument
 ||wishdown.com/img/
+||wkcdn.com/style_
 ||wlrjy.com/assets/images/*.gif
 ||wlrjy.com/assets/images/tuidc.png
 ||wm114.cn/0images/hlbxd3.jpg
@@ -8854,16 +8861,13 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||twproxy*.svc.litv.tv/cdi/v2/rpc
-||vtyyy.com/template/JOELEO/asset/js/jquery.leeleo.js
-||wkcdn.com/style_
-||5566.buzz/adtrue_
-||159i.com/nb/ls.php
-||link114.cn/template/js/showpics_
+||159i.com/p/hola/fc.php
+||yjcf360.com/ad.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-c4dsky.com##A[href*="ibaotu.com"]
-litv.tv##.internal_banner
+yjcf360.com##.side_box
+yjcf360.com##.side_box2
+bd-film.cc###fmtdiv
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -11732,6 +11736,7 @@ ylfx.com##.info_logrt
 riaway.com##.info_message_container
 autohome.com.cn##.information-adv
 chinabidding.com.cn##.innovate + .layer
+litv.tv##.internal_banner
 baidu.com##.intro-adv
 people.com.cn##.ipc_none
 iqiyi.com##.iqiyi-shangcheng
@@ -13160,6 +13165,7 @@ jiyingw.net##a[href*="fulibus.me"]
 tiexue.net##a[href*="game.tiexue."]
 i-part.com.tw##a[href*="goo.gl%2FW9SXr1&"]
 iqiyi.com,~mall.iqiyi.com,~so.iqiyi.com##a[href*="http://mall.iqiyi.com/item/"]
+c4dsky.com##a[href*="ibaotu.com"]
 jinti.com##a[href*="immobel.com"]
 v.sogou.com##a[href*="iwan.sogou.com/"]
 bejson.com##a[href*="layui.com"]
@@ -13175,6 +13181,7 @@ jd.com,~wan.jd.com##a[href*="wan.jd.com/"]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##a[href*="www.clinique."]
 jiyingw.net##a[href*="zhidmai.com"]
 fxykx.com##a[href*="zyttx.com/"]
+ddrk.me##a[href="###"] img:not(#trk_hcaptcha):not([src^="https://captcha.su.baidu.com"])
 csdn.net##a[href="//gitbook.cn/new/gitchat/activity?utm_source=csdnblog1"]
 kukudm.com##a[href="/exit/exit.htm"] > img[src="/images/d.gif"]
 ithome.com##a[href="/html/363216.htm"]
@@ -13490,7 +13497,7 @@ pixnet.net##div[id*="-AD-"]
 pixnet.net##div[id*="-Ad-"]
 yahoo.com##div[id*="-Stream-ad-"]
 pixnet.net##div[id*="-aD-"]
-mcdulll.com,pixnet.net##div[id*="-ad-"]
+ghpym.com,mcdulll.com,pixnet.net##div[id*="-ad-"]
 lalilali.com##div[id*="_"]
 feiwan.net,kcili.com##div[id*="_"][style]
 moneyweekly.com.tw##div[id*="_ScupioHomeAD"]
@@ -13603,7 +13610,6 @@ baidu.com##div[id^="toast"]
 my0511.com##div[id^="topad"]
 u17.com##div[id^="u17-advert"]
 lnd.com.cn##div[id^="wflash"]
-ghpym.com##DIV[id*="-ad-"]
 eyuyao.com##div[id^="x_ad_"]
 oschina.net##div[name="detail_show_footer"]
 oschina.net##div[name="floatAdbox"]
@@ -14064,9 +14070,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=ani.gamer.com.tw
-@@||pubads.g.doubleclick.net/gampad/ads?*&description_url=https%3A%2F%2Fani.gamer.com.tw$domain=imasdk.googleapis.com
-@@||wenxuecity.com/include/editor/*/media/ad/
+@@||annhe.net^$generichide
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -14424,6 +14428,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||googletagservices.com/tag/js/gpt.js$domain=tvb.com
 @@||gooogle.how^$generichide
 @@||gov.cn/scripts/Comm/AdRotator.js
+@@||gtimg.cn/images/nz/cp/*/adimg.png$domain=qq.com
 @@||gtimg.com/adplugin/swf/MediaPlugin.swf$domain=qq.com
 @@||guancha.cn/ad/m_
 @@||hanjubaike.com^$script,~third-party
@@ -14450,7 +14455,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
 @@||iis1.deliver.ifeng.com/showcode?$domain=v.ifeng.com
 @@||ikea.cn^*/img/ads/
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv|881903.com|appledaily.com|linetv.tw|mytvsuper.com|nextmedia.com|now.com|tvb.com|udn.com|xuite.net
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv|881903.com|ani.gamer.com.tw|appledaily.com|linetv.tw|mytvsuper.com|nextmedia.com|now.com|tvb.com|udn.com|xuite.net
 @@||img.ads.tvb.com^
 @@||inoreader.com^$genericblock,generichide
 @@||inpad.com.tw/data/adv/
@@ -14581,6 +14586,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||pro.gooooal.com/ad/ad_2.js
 @@||pttplay.com/js/momo/adsbygoogle.js
 @@||pub.alimama.com/common/adzone/
+@@||pubads.g.doubleclick.net/gampad/ads?*&description_url=https%3A%2F%2Fani.gamer.com.tw$domain=imasdk.googleapis.com
 @@||qiantucdn.com/static/images/adsbygoogle.js
 @@||qimingdao.com/Index/loadmore?tag_id=
 @@||qingcheng.com^*/ad
@@ -14702,6 +14708,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||websetnet.com^$generichide
 @@||weibo.com/api/weipan/getAds
 @@||weithenn.org^$generichide
+@@||wenxuecity.com/include/editor/*/media/ad/
 @@||wgun.net^$elemhide
 @@||wholehk.com^$generichide
 @@||worldssl.net/wp-content/themes/mts_ad_sense/js/ads.js
@@ -14915,8 +14922,10 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 !#BaiduUnion
 /\.(?:com|com\.cn|cn|cc|net|org|me|tv)\/[0-9a-z]{9,}\.js/$script,domain=023up.com|2345.com|388g.com|962.net|baixing.com|danzhou8.com|diyju.com|dopa.com|doutula.com|downxia.com|duanmeiwen.com|dxsbb.com|eastday.com|ecar168.cn|egouz.com|epinv.com|ershenghuo.com|fh21.com.cn|friok.com|ganji.com|gaokao.com|gaotie.cn|gexing.me|geyanw.com|glook.cn|guangyuanol.cn|gxscse.com|h4.com.cn|hc360.com|hunanweishi.cn|ichong123.com|ijq.tv|imdb.cn|iplaysoft.com|jb51.net|jiancai365.cn|jiankang.com|jianke.com|jing55.com|jsyst.cn|jucanw.com|juqingba.cn|juzimi.com|kj-cy.cn|kuaidiwo.cn|kukuw.com|laobanfa.com|lc123.net|lcdushi.com|lux88.com|lz13.cn|managershare.com|mfcad.com|mi168.com|mmyuer.com|mnw.cn|mobanwang.com|muchong.com|mumujita.com|nanrenwo.net|newxue.com|nipic.com|pai-hang-bang.com|pingguolv.com|qbaobei.com|qeo.cn|qianzhan.com|qinghua5.com|qqjay.com|rising.cn|sanwen8.cn|sbar.com.cn|sdsgwy.com|shangxueba.com|shouyihuo.com|shuaijiao.com|sj33.cn|southmoney.com|sumiaowang.com|szhk.com|techweb.com.cn|thn21.com|tom61.com|tongxiehui.net|tupian1.cn|tvsou.com|ubaike.cn|uc129.com|vccoo.com|vipyl.com|vodjk.com|vvvdj.com|wenku.baidu.com|wenzhangba.com|wiki8.com|wufangbo.com|xijucn.com|xilu.com|xiziwang.net|yac8.com|yangshengtang123.com|ybjk.com|yesky.com|yiluzouhao.com|yinhang123.net|yishuzi.com|ykit.cn|youth.cn|yxlady.com|yzmg.com|zbyw.cn|zdface.com|zhev.com.cn|zw3e.com
 /\.js\?[a-z]+=[a-z]+$/$script,domain=china.cn|eastday.com|fangdaijisuanqi.com|faxingsj.com|gouchezj.com|gushiwen.org|iask.sina.com.cn|jandan.net|jianbihua.org|jintang114.org|juqingba.cn|km.com|meishichina.com|mrcjcn.com|oh100.com|phb123.com|piaoliang.com|qqtn.com|t262.com|tianqi.com|unjs.com|wesiedu.com|ximizi.com|xinjunshicn.net|xinshipu.com|xuexila.com|yjbys.com|zaojv.com|zgjm.org|zhongyao1.com|zqnf.com
-?*=*=*=$subdocument,domain=00cha.com|01fy.cn|06ps.com|08160.cn|0s.net.cn|10000xing.cn|100how.com|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|120ask.com|16xx8.com|192ly.com|1ting.com|201980.com|21hubei.com|23yy.com|256.cc|263y.com|2hanju.com|2liang.net|315hyw.com|32r.com|32xp.com|360changshi.com|360doc.cn|360zuowen.com|39.net|4aqq.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|59wz.com|5djiaren.com|5h.com|5nd.com|5seestar.com|5tps.com|66law.cn|7k7k.com|7y7.com|800400.net|86huoche.com|8794.cn|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|babihu.com|baicaolu.net|baotang5.com|baoxianzx.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|csai.cn|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dayfund.cn|dgzj.com|diangon.com|diaoyur.com|ditiezu.com|diyifanwen.com|dugoogle.com|enterdesk.com|exam58.com|faxingzhan.com|fun48.com|game234.com|gaosan.com|gucheng.com|guidaye.com|gulongbbs.com|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|jeasyui.net|jf258.com|jianbihuadq.com|jinbaozy.com|jingdianlaoge.com|jy135.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|nanhuwang.com|pansoso.com|pctowap.com|pig66.com|pikacn.com|pingguolv.com|pingshu8.com|ppzuowen.com|qcrx.cn|qcwxjs.com|qm120.com|qqzhi.com|riji.cn|riji100zi.com|rr95.com|ruiwen.com|shadafang.com|shangc.net|shenchuang.com|souid.com|ssqzj.com|szdushi.com.cn|tvmao.com|vswang.com|weather.com.cn|wenkuxiazai.com|wenshenxiu.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|xzbu.com|yanyue.cn|yaozui.com|yellowurl.cn|yiqig.cn|yiyouliao.com|yuwenmi.com|yxad.com|zanyiba.com|zhifure.com|zhongyoo.com|zixuntop.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net|zuoyesou.com|zybus.com
+?*=*=*=$subdocument,domain=annhe.net|ziyuanm.com|00cha.com|01fy.cn|06ps.com|08160.cn|0s.net.cn|10000xing.cn|100how.com|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|120ask.com|16xx8.com|192ly.com|1ting.com|201980.com|21hubei.com|23yy.com|256.cc|263y.com|2hanju.com|2liang.net|315hyw.com|32r.com|32xp.com|360changshi.com|360doc.cn|360zuowen.com|39.net|4aqq.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|59wz.com|5djiaren.com|5h.com|5nd.com|5seestar.com|5tps.com|66law.cn|7k7k.com|7y7.com|800400.net|86huoche.com|8794.cn|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|babihu.com|baicaolu.net|baotang5.com|baoxianzx.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|csai.cn|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dayfund.cn|dgzj.com|diangon.com|diaoyur.com|ditiezu.com|diyifanwen.com|dugoogle.com|enterdesk.com|exam58.com|faxingzhan.com|fun48.com|game234.com|gaosan.com|gucheng.com|guidaye.com|gulongbbs.com|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|jeasyui.net|jf258.com|jianbihuadq.com|jinbaozy.com|jingdianlaoge.com|jy135.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|nanhuwang.com|pansoso.com|pctowap.com|pig66.com|pikacn.com|pingguolv.com|pingshu8.com|ppzuowen.com|qcrx.cn|qcwxjs.com|qm120.com|qqzhi.com|riji.cn|riji100zi.com|rr95.com|ruiwen.com|shadafang.com|shangc.net|shenchuang.com|souid.com|ssqzj.com|szdushi.com.cn|tvmao.com|vswang.com|weather.com.cn|wenkuxiazai.com|wenshenxiu.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|xzbu.com|yanyue.cn|yaozui.com|yellowurl.cn|yiqig.cn|yiyouliao.com|yuwenmi.com|yxad.com|zanyiba.com|zhifure.com|zhongyoo.com|zixuntop.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net|zuoyesou.com|zybus.com
 !
+||1.tecbbs.com^
+||d.ziyuanm.com^
 ###bd-hl-content
 ###container > #pic_container
 ###container > .item.title_normal
@@ -15888,7 +15897,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|00sy.c
 @@||gtimg.com/libs/$domain=18xs.org
 @@||libs.baidu.com^$domain=138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.com|23hh.com|23txt.com|23wxx.com|258zw.com|27xsw.com|2baob.com|30sy.com|33yq.com|365book.net|37zw.net|39shubao.com|3yt.com|52biquge.com|58xs.com|5ccc.tw|63xs.com|78zw.com|81zw.me|88106.com|8jzw.com|99mk.com|99shumeng.net|abiqugew.com|aikantxt.la|aixs.org|aoyuge.com|balingtxt.com|baoshuu.com|biduo.cc|biqiuge.com|biqubao.com|biqudu.tv|biquga.com|biquge.com.cn|biquge.info|biquge.lu|biquge.tv|biquge.tw|biquge11.com|biquge6.com|biquge98.com|biqugecd.com|biqugecom.com|biqugego.com|biqugeii.com|biqugemm.com|biqukan.com|biquku.la|biqusan.com|biqutxt.com|bixia.org|biyuwu.cc|bodekang.net|boluoxs.com|bookbao.org|bookbao9.net|booksky.cc|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|cits0871.com|clewx.com|dashenxiaoshuo.com|day66.com|ddxs.cc|ddxsku.com|dianjiangxin.com|dushuge.net|farpop.com|fhxiaoshuo.org|gdbzkz.com|guaili.org|hatxt.com|hbfie.org|hehuamei.com|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hybiquge.com|imiaobige.com|ishisetianxia.com|ixs.la|ixuanquge.com|jianlaixiaoshuo.com|jx.la|liewen.la|lindiankanshu.cc|liudatxt.com|lwtxt.net|lwxstxt.com|mianhuatang.cc|paoshu8.com|pfwx.com|piaotianxs.com|pingshuku.com|qbxs8.net|qianrenge.cc|qiqint.com|qishudu.com|qq717.com|quledu.net|qushuba.com|rmxs8.com|shenshu.info|shu008.com|shuhaige.com|shuhuangge.org|shuquge.com|siluke.tv|soxs.cc|tangsanshu.com|tpsxs.com|ttzw.tv|txshuku.com|tycqxs.com|u33.cc|vipzw.com|wanwenhui.com|wenxuem.com|wrltxt.com|x23us.me|x81zw.com|xbiquge.la|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbqge.net|xcmxsw.com|xdingdiann.com|xiaoshuosk.com|xieyixs.com|xinxs.la|xqishuta.com|xqiushu.com|xs222.co|xs5200.com|xs98.com|xsjtxt.com|xszww.com|xuehong.cc|xuehongxs.com|yanqing-888.net|yawenb.com|yikanxiaoshuo.com|yruan.com|yssm.tv|yunxs.com|zbzw.la|zhuaji.org|zwdu.com|zzs5.com
 !
-||deskt.cn^
+||dddyun.com^
+||ysxs8.com/js/play_db.js
+||kid9.info^
+||xn--i7qt52bvsr0u0a.cc^
+||sxhwscj.cn^
 ###downdiv > .downcode
 ##.readerListADbox
 ##a[href*="://mgzs.cdn.bcebos.com/"]
@@ -16007,6 +16020,7 @@ xuehongxs.com##DIV[id^="cs_DIV_cscpvrich"]
 ||2ktd0.cn^
 ||2l1f.cn^
 ||2p1ih.cn^
+||2q5p.cn^
 ||2r3485.cn^
 ||2scjbg.com^
 ||2shoushi.com^
@@ -16170,6 +16184,7 @@ xuehongxs.com##DIV[id^="cs_DIV_cscpvrich"]
 ||achig.com^
 ||actingidekex.cn^
 ||adaog.com^
+||adhdsb.cn^
 ||admddc.com^
 ||aduic.com^
 ||aercxy.com^
@@ -16471,6 +16486,7 @@ xuehongxs.com##DIV[id^="cs_DIV_cscpvrich"]
 ||de093o.cn^
 ||dengfenzhang.cn^
 ||dependablewood.com^
+||deskt.cn^
 ||deyidesign.com^
 ||dezfu.com^
 ||dgaoz.com^
@@ -17262,6 +17278,7 @@ xuehongxs.com##DIV[id^="cs_DIV_cscpvrich"]
 ||oiwjcsh010.top^
 ||oiwjcsh011.top^
 ||oiwjcsh012.top^
+||oiwjcsh013.top^
 ||ojues.com^
 ||okshishi.com^
 ||okuis.com^
@@ -17412,6 +17429,7 @@ xuehongxs.com##DIV[id^="cs_DIV_cscpvrich"]
 ||rishenglaw.cn^
 ||rjiau.com^
 ||rl972.cn^
+||rmqmxwb.cn^
 ||rmwdn.com^
 ||romgv.com^
 ||rongnews.com^
@@ -18271,7 +18289,6 @@ ali213.net#@#.subscribe-container
 5dm.tv#@#.tm-share-this
 laohu8.com#@#.tweet-article
 fqsousou.com,kengso.com#@#.user-share
-@@||anyknew.com^$generichide
 @@-social-bar.$domain=mobi.yahoo.com
 @@/image/share_$domain=pan.baidu.com
 @@/images/*_share.png$domain=service.weibo.com
@@ -18279,6 +18296,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@/share/js/*$domain=yunpanjingling.com
 @@/wp-content/*/social_$domain=servercat.me
 @@||126.net/163/frontend/share/js/
+@@||anyknew.com^$generichide
 @@||baidu.com/share/count?
 @@||bdimg.com/static/wenda-pc/widget/share/share_
 @@||bdstatic.com/po/??*,*,*,
@@ -47856,6 +47874,7 @@ _popunder+$popup
 ##a[href^="http://tracking.toroadvertising.com/"]
 ##a[href^="http://traffic.tc-clicks.com/"]
 ##a[href^="http://trk.mdrtrck.com/"]
+##a[href^="http://ucam.xxx/?utm_"]
 ##a[href^="http://ul.to/ref/"]
 ##a[href^="http://uploaded.net/ref/"]
 ##a[href^="http://us.marketgid.com"]
@@ -48023,6 +48042,7 @@ _popunder+$popup
 ##a[href^="https://djtcollectorclub.org/"][href*="?affiliate_id="]
 ##a[href^="https://dltags.com/"]
 ##a[href^="https://dynamicadx.com/"]
+##a[href^="https://easygamepromo.com/ef/custom_affiliate/"]
 ##a[href^="https://farm.plista.com/pets"]
 ##a[href^="https://fileboom.me/pr/"]
 ##a[href^="https://flirtaescopa.com/"]
@@ -48123,10 +48143,12 @@ _popunder+$popup
 ##a[href^="https://www.financeads.net/tc.php?"]
 ##a[href^="https://www.firstload.com/affiliate/"]
 ##a[href^="https://www.friendlyduck.com/AF_"]
+##a[href^="https://www.g4mz.com/"]
 ##a[href^="https://www.goldenfrog.com/vyprvpn?offer_id="][href*="&aff_id="]
 ##a[href^="https://www.googleadservices.com/pagead/aclk?"]
 ##a[href^="https://www.hotgirls4fuck.com/"]
 ##a[href^="https://www.iclwy.xyz/"]
+##a[href^="https://www.im88trk.com/"]
 ##a[href^="https://www.incredimail.com/?id"]
 ##a[href^="https://www.moscarossa.biz/"]
 ##a[href^="https://www.mrskin.com/tour"]
@@ -49464,6 +49486,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||b4215c8f2c1.com^
 ||b460e308b59.com^
 ||b4q982rbqdsw.com^
+||b56f9c50130def4d.com^
 ||ba138901a1dd4534b2d0.com^
 ||badgearsregra.site^
 ||badsbads.com^
@@ -49620,6 +49643,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||discoverapp.xyz^
 ||displayvertising.com^
 ||distinesseqe.site^
+||distrikerkvazar.site^
 ||ditookry.com^
 ||dlb1uotpjs6s.com^
 ||dlfvgndsdfsn.com^
@@ -50008,6 +50032,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mugpothop.com^
 ||munitedoploko.site^
 ||munroadaz.site^
+||n3x7.xyz^
 ||nacfuns.com^
 ||nadjustifygas.info^
 ||nailowhe.net^
@@ -50084,6 +50109,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||oratedencourse.info^
 ||oratorsresente.info^
 ||orcjagpox.com^
+||originedreting.site^
 ||ortantchangem.info^
 ||oselyprepartie.info^
 ||osmondards.pro^
@@ -50103,6 +50129,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||oweverycanvas.info^
 ||p6p2w3v92czo.com^
 ||pabhagivene.site^
+||padma-fed.com^
 ||padpitnon.site^
 ||padsabz.com^
 ||padsanz.com^
@@ -50201,6 +50228,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||reforeightolikm.site^
 ||refunsiy.net^
 ||refyewdye.com^
+||regardianpleast.site^
 ||releasurezesa.site^
 ||remainttalenty.site^
 ||remarypolike.site^
@@ -50312,6 +50340,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||styheremo.site^
 ||substandferex.site^
 ||successageq.site^
+||successarysazh.site^
 ||suggestvideos.xyz^
 ||suitarserviku.site^
 ||sultiyearsena.site^
@@ -50365,6 +50394,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||track360.pw
 ||trackingzen.com^
 ||trackspeeder.com^
+||traff6.com^
 ||trblocked.com^
 ||trikersuccessar.site^
 ||trkunited.com^
@@ -66708,8 +66738,10 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||asiafriendfinder.com^$third-party
 ||asiangfsex.com^$third-party
 ||augrenso.com^$third-party
+||awemwh.com^$third-party
 ||awentw.com^$third-party
 ||aweprotostatic.com^$third-party
+||aweprt.com^$third-party
 ||awept.com^$third-party
 ||awmpartners.com^$third-party
 ||awmserve.com^$third-party
@@ -67048,6 +67080,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||lizads.com^$third-party
 ||loa-traffic.com^$third-party
 ||loading-delivery1.com^$third-party
+||lofv.xyz^$third-party
 ||lostun.com^$third-party
 ||loveadverts.com^$third-party
 ||lovecam.com.br^$third-party
@@ -67230,6 +67263,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||protect-x.com^$third-party
 ||protizer.ru^$third-party
 ||prscripts.com^$third-party
+||prtawe.com^$third-party
 ||psma01.com^$third-party
 ||psma03.com^$third-party
 ||ptclassic.com^$third-party
@@ -67723,6 +67757,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||jsmjmp.com^$popup
 ||juicyads.com^$popup,third-party
 ||kaizentraffic.com^$popup,third-party
+||lofv.xyz^$popup
 ||loltrk.com^$popup,third-party
 ||moradu.com^$popup,third-party
 ||mptentry.com^$popup
@@ -72031,7 +72066,7 @@ javascript:$popup,domain=cruzing.xyz|mirror.superproxy.biz|mypirate.cc|piratebay
 |http://$script,stylesheet,third-party,domain=mp3songfree.net
 |https://$script,stylesheet,third-party,domain=mp3songfree.net
 ! Yavli.com
-/Ycj*.$image,script,domain=100percentfedup.com|4chan.org|allthingsvegas.com|americasfreedomfighters.com|appleeats.com|askmefast.com|aupetitparieur.com|bb4sp.com|bizpacreview.com|boomsbeat.com|boredomtherapy.com|breakingfirst.com|breathecast.com|bulletsfirst.net|canadafreepress.com|cheapism.com|cheatsheet.com|chicksonright.com|clashdaily.com|codefille.com|comicallyincorrect.com|concomber.com|conservativefiringline.com|constitution.com|craigjames.com|crossmap.com|dailyfeed.co.uk|dailyheadlines.com|dailyheadlines.net|dailyhealthpost.com|dailylol.com|dailysurge.com|dcdirtylaundry.com|deneenborelli.com|designbump.com|directexpose.com|earnthenecklace.com|enstarz.com|faithit.com|firstinfreedomdaily.com|foreverymom.com|freedomoutpost.com|freewarefiles.com|gamerant.com|gamersheroes.com|gosocial.co|grammarist.com|greatamericanpolitics.com|greatamericanrepublic.com|gymflow100.com|hackspirit.com|hallels.com|headcramp.com|healthstatus.com|hispolitica.com|hngn.com|honesttopaws.com|icepop.com|independentminute.com|infowars.com|intellectualconservative.com|ipatriot.com|itechpost.com|jobsnhire.com|joeforamerica.com|justdiy.com|kdramastars.com|kpopstarz.com|latinpost.com|legalinsurrection.com|letocard.fr|libertyunyielding.com|lidblog.com|lifebuzz.com|lovezin.fr|madworldnews.com|makeagif.com|mamieastuce.com|meilleurpronostic.fr|menrec.com|mentalflare.com|moneyversed.com|mpolitical.com|naturalblaze.com|naturalsociety.com|natureworldnews.com|newser.com|newseveryday.com|newsthump.com|opednews.com|parentherald.com|patriotnationpress.com|patriotoutdoornews.com|pickthebrain.com|politicalcowboy.com|politicalmayhem.news|politichicks.com|profitconfidential.com|publicservicealerts.com|realfarmacy.com|realmomsrealreviews.com|realtytoday.com|redmaryland.com|reviveusa.com|rightwing.news|rightwingnews.com|rightwingtribune.com|rollingout.com|sciencetimes.com|shark-tank.com|sonsoflibertymedia.com|sportsworldnews.com|sportsworldreport.com|supercheats.com|survivalnation.com|techtimes.com|telexplorer.com.ar|terezowens.com|theblacksphere.net|theboredmind.com|thehayride.com|thelibertydaily.com|themattwalshblog.com|thepolitistick.com|theviralmob.com|thewashingtonsentinel.com|thinkamericana.com|threepercenternation.com|tiebreaker.com|topminceur.fr|toptenz.net|tosavealife.com|truththeory.com|truthuncensored.net|universityherald.com|urbantabloid.com|vcpost.com|victoriajackson.com|videogamesblogger.com|viralnova.com|viralthread.com|vitamiiin.com|wakingtimes.com|weaponsmedia.com|whatfinger.com|yourdailypulse.com|youthhealthmag.com
+/PZg*.$image,script,domain=100percentfedup.com|4chan.org|allthingsvegas.com|americasfreedomfighters.com|appleeats.com|askmefast.com|aupetitparieur.com|bb4sp.com|bizpacreview.com|boomsbeat.com|boredomtherapy.com|breakingfirst.com|breathecast.com|bulletsfirst.net|canadafreepress.com|cheapism.com|cheatsheet.com|chicksonright.com|clashdaily.com|codefille.com|comicallyincorrect.com|concomber.com|conservativefiringline.com|constitution.com|craigjames.com|crossmap.com|dailyfeed.co.uk|dailyheadlines.com|dailyheadlines.net|dailyhealthpost.com|dailylol.com|dailysurge.com|dcdirtylaundry.com|deneenborelli.com|designbump.com|directexpose.com|earnthenecklace.com|enstarz.com|faithit.com|firstinfreedomdaily.com|foreverymom.com|freedomoutpost.com|freewarefiles.com|gamerant.com|gamersheroes.com|gosocial.co|grammarist.com|greatamericanpolitics.com|greatamericanrepublic.com|gymflow100.com|hackspirit.com|hallels.com|headcramp.com|healthstatus.com|hispolitica.com|hngn.com|honesttopaws.com|icepop.com|independentminute.com|infowars.com|intellectualconservative.com|ipatriot.com|itechpost.com|jobsnhire.com|joeforamerica.com|justdiy.com|kdramastars.com|kpopstarz.com|latinpost.com|legalinsurrection.com|letocard.fr|libertyunyielding.com|lidblog.com|lifebuzz.com|lovezin.fr|madworldnews.com|makeagif.com|mamieastuce.com|meilleurpronostic.fr|menrec.com|mentalflare.com|moneyversed.com|mpolitical.com|naturalblaze.com|naturalsociety.com|natureworldnews.com|newser.com|newseveryday.com|newsthump.com|opednews.com|parentherald.com|patriotnationpress.com|patriotoutdoornews.com|pickthebrain.com|politicalcowboy.com|politicalmayhem.news|politichicks.com|profitconfidential.com|publicservicealerts.com|realfarmacy.com|realmomsrealreviews.com|realtytoday.com|redmaryland.com|reviveusa.com|rightwing.news|rightwingnews.com|rightwingtribune.com|rollingout.com|sciencetimes.com|shark-tank.com|sonsoflibertymedia.com|sportsworldnews.com|sportsworldreport.com|supercheats.com|survivalnation.com|techtimes.com|telexplorer.com.ar|terezowens.com|theblacksphere.net|theboredmind.com|thehayride.com|thelibertydaily.com|themattwalshblog.com|thepolitistick.com|theviralmob.com|thewashingtonsentinel.com|thinkamericana.com|threepercenternation.com|tiebreaker.com|topminceur.fr|toptenz.net|tosavealife.com|truththeory.com|truthuncensored.net|universityherald.com|urbantabloid.com|vcpost.com|victoriajackson.com|videogamesblogger.com|viralnova.com|viralthread.com|vitamiiin.com|wakingtimes.com|weaponsmedia.com|whatfinger.com|yourdailypulse.com|youthhealthmag.com
 ! More Yavli
 -drag*.$image,domain=100percentfedup.com|4chan.org|allthingsvegas.com|americasfreedomfighters.com|appleeats.com|askmefast.com|aupetitparieur.com|bb4sp.com|bizpacreview.com|boomsbeat.com|boredomtherapy.com|breakingfirst.com|breathecast.com|bulletsfirst.net|canadafreepress.com|cheapism.com|cheatsheet.com|chicksonright.com|clashdaily.com|codefille.com|comicallyincorrect.com|concomber.com|conservativefiringline.com|constitution.com|craigjames.com|crossmap.com|dailyfeed.co.uk|dailyheadlines.com|dailyheadlines.net|dailyhealthpost.com|dailylol.com|dailysurge.com|dcdirtylaundry.com|deneenborelli.com|designbump.com|directexpose.com|earnthenecklace.com|enstarz.com|faithit.com|firstinfreedomdaily.com|foreverymom.com|freedomoutpost.com|freewarefiles.com|gamerant.com|gamersheroes.com|gosocial.co|grammarist.com|greatamericanpolitics.com|greatamericanrepublic.com|gymflow100.com|hackspirit.com|hallels.com|headcramp.com|healthstatus.com|hispolitica.com|hngn.com|honesttopaws.com|icepop.com|independentminute.com|infowars.com|intellectualconservative.com|ipatriot.com|itechpost.com|jobsnhire.com|joeforamerica.com|justdiy.com|kdramastars.com|kpopstarz.com|latinpost.com|legalinsurrection.com|letocard.fr|libertyunyielding.com|lidblog.com|lifebuzz.com|lovezin.fr|madworldnews.com|makeagif.com|mamieastuce.com|meilleurpronostic.fr|menrec.com|mentalflare.com|moneyversed.com|mpolitical.com|naturalblaze.com|naturalsociety.com|natureworldnews.com|newser.com|newseveryday.com|newsthump.com|opednews.com|parentherald.com|patriotnationpress.com|patriotoutdoornews.com|pickthebrain.com|politicalcowboy.com|politicalmayhem.news|politichicks.com|profitconfidential.com|publicservicealerts.com|realfarmacy.com|realmomsrealreviews.com|realtytoday.com|redmaryland.com|reviveusa.com|rightwing.news|rightwingnews.com|rightwingtribune.com|rollingout.com|sciencetimes.com|shark-tank.com|sonsoflibertymedia.com|sportsworldnews.com|sportsworldreport.com|supercheats.com|survivalnation.com|techtimes.com|telexplorer.com.ar|terezowens.com|theblacksphere.net|theboredmind.com|thehayride.com|thelibertydaily.com|themattwalshblog.com|thepolitistick.com|theviralmob.com|thewashingtonsentinel.com|thinkamericana.com|threepercenternation.com|tiebreaker.com|topminceur.fr|toptenz.net|tosavealife.com|truththeory.com|truthuncensored.net|universityherald.com|urbantabloid.com|vcpost.com|victoriajackson.com|videogamesblogger.com|viralnova.com|viralthread.com|vitamiiin.com|wakingtimes.com|weaponsmedia.com|whatfinger.com|yourdailypulse.com|youthhealthmag.com
 ! Yavli threepercenternation.com
@@ -72601,7 +72636,7 @@ wyciwyg:$popup,domain=jkanime.net
 .win^$other,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|xtube.com|youporn.com|youporngay.com
 /\/[0-9].*\-.*\-[a-z0-9]{4}/$script,xmlhttprequest,domain=gaytube.com|keezmovies.com|tube8.com|tube8.es|tube8.fr
 /^https?:\/\/.*\/.*[0-9a-z]{7,16}\.js/$script,domain=boobieblog.com|phun.org
-/^https?:\/\/.*\/[a-z0-9A-Z]{3,15}\.(php|jsx|1ph)/$image,script,subdocument,domain=3movs.com|4tube.com|alotporn.com|alrincon.com|anysex.com|aphroditeporntube.com|bigvideo.net|bobs-tube.com|cockmeter.com|dreamamateurs.com|dump.xxx|efukt.com|eroxia.com|extremetube.com|fantasti.cc|fap18.net|fuck55.net|gfsvideos.com|gottanut.com|hdpornpictures.net|home-made-videos.com|hotpornfile.org|imgadult.com|imgdrive.net|imgtaxi.com|imgtown.net|imgwallet.com|keezmovies.com|letmejerk.com|mofosex.com|monsoonx.top|mypornstarbook.net|myvidster.com|nuvid.com|orsm.net|porndaa.com|porndoe.com|pornoreino.com|pornozot.com|pornsexer.com|pussyspace.com|sexu.tv|shameless.com|spankwire.com|thenipslip.com|tryboobs.com|wiz69.com|xcafe.com|xnxx-sexfilme.com
+/^https?:\/\/.*\/[a-z0-9A-Z]{3,15}\.(php|jsx|1ph)/$image,script,subdocument,domain=3movs.com|4tube.com|alotporn.com|alrincon.com|anysex.com|aphroditeporntube.com|bigvideo.net|bobs-tube.com|cockmeter.com|dreamamateurs.com|dump.xxx|efukt.com|eroxia.com|extremetube.com|fantasti.cc|fap18.net|fuck55.net|gfsvideos.com|gottanut.com|hdpornpictures.net|home-made-videos.com|hotpornfile.org|imgadult.com|imgdrive.net|imgtaxi.com|imgtown.net|imgwallet.com|keezmovies.com|letmejerk.com|mofosex.com|monsoonx.top|mypornstarbook.net|myvidster.com|nuvid.com|openloadporn.co|orsm.net|porndaa.com|porndoe.com|pornoreino.com|pornozot.com|pornsexer.com|pussyspace.com|sexu.tv|shameless.com|spankwire.com|thenipslip.com|tryboobs.com|wiz69.com|xcafe.com|xnxx-sexfilme.com
 /http://[a-zA-Z0-9]+\.[a-z]+\/.*(?:[!"#$%&'()*+,:;<=>?@/\^_`{|}~-]).*[a-zA-Z0-9]+/$script,third-party,domain=keezmovies.com|redtube.com|tube8.com|tube8.es|tube8.fr|www.pornhub.com|www.pornhubthbh7ap3u.onion|youporn.com
 /json^$other,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|xtube.com|youporn.com|youporngay.com
 |blob:$script,domain=xhamster.com|youporn.com
@@ -84399,6 +84434,7 @@ katestube.com##.btn-offer
 xcum.com##.btn-ponsor
 4tube.com,tube8.com##.btnDownload
 adultfreex.com##.btnvideo
+openloadporn.co##.button-openload
 redtube.com##.bvq
 redtube.com##.bvq-caption
 gamesofdesire.com##.c_align
