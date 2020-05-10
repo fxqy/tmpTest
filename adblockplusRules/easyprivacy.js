@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Teotpe4ZlHovvxJGMtyU8g
-! Version: 202005091041
+! Checksum: zkujaMytYyPU66oxAc8ZOw
+! Version: 202005101541
 ! Title: EasyPrivacy
-! Last modified: 09 May 2020 10:41 UTC
+! Last modified: 10 May 2020 15:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1705,6 +1705,7 @@
 /entry_stats?
 /envoy.sb?sbaid
 /epf_v1_95.js
+/epvplytics.
 /error/*.gif?msg=
 /error/js/log?
 /est.pl?
@@ -3222,6 +3223,7 @@
 /pixel/stream/*
 /pixel/visit?
 /pixel1/impression.
+/pixel2.gif?
 /pixel?google_
 /pixel?id=
 /pixel?m=
@@ -13026,7 +13028,6 @@ _mongo_stats/
 ||cnt.nicemix.com^
 ||cnt.nuvid.com^
 ||cnt.vivatube.com^
-||co.hltv.org^
 ||codecguide.com/stats.js
 ||codeweblog.com/js/count.js
 ||coherentpath.com/tracker/
@@ -13390,7 +13391,6 @@ _mongo_stats/
 ||general-files.com/stat
 ||general-search.com/stat
 ||geo.battle.net^
-||geo.hltv.org^
 ||geo.homepage-web.com^
 ||geo.metronews.ca^
 ||geo.nbcsports.com^
@@ -14150,6 +14150,7 @@ _mongo_stats/
 ||ps.ecosia.org^
 ||pubarticles.com/_hits.php?
 ||pubarticles.com/add_hits_by_user_click.php
+||publish0x.com^*/analytics.js
 ||pulsar.ebay.$ping,script
 ||purevpn.com/api/setCookies
 ||puritan.com/images/pixels/
@@ -15072,8 +15073,10 @@ _mongo_stats/
 ||yahoo.com^*/pageview/
 ||yahoo.com^*/rt.gif?
 ||yahoo.com^*/ultLog?
+||yahoo.net/pixel.gif
 ||yahoo.net^*/hittail.js
 ||yahooapis.com/get/Valueclick/CapAnywhere.getAnnotationCallback?
+||yahoodns.net/pixel.gif
 ||yandex.*/clck/$~ping
 ||yandex.*/count/
 ||ybinst2.ec.yimg.com/ec/*&Type=Event.CPT&$domain=search.yahoo.com
@@ -16849,6 +16852,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||marketo.com/index.php/$script,subdocument,xmlhttprequest
 @@||marketo.com/js/forms2/$script,stylesheet
 @@||marketo.com/jsloader/*/loader.php.js$script
+@@||marketo.com/mkto/$script,stylesheet,subdocument,xmlhttprequest
 @@||marketo.com^$script,stylesheet,subdocument,domain=awscloud.com
 @@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com|ibanez.com
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
