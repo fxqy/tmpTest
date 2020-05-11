@@ -44,7 +44,7 @@ window.onload=function(){
                            })
                        }
                    }),
-                   btn({html:'Btn2',onclick:function(){tipCase({msg:'A222 clicked!',flag:1})}})
+                   btn({html:'Btn2',onclick:function(){tipCase({msg:'A222 clicked!'})}})
                 ]
             ),
 			a({html:'SO',href:'http://so.com'}),br(),
@@ -213,7 +213,7 @@ function tipCase(opt){
 	vw.style.left=(psz[0]-vw.offsetWidth)/2+"px";
     var top=0.8*psz[1]-vw.offsetHeight;
 	vw.style.top=(top>0?top:1)/2+"px";
-	if(!opt.flag)setTimeout(function(){vw.outerHTML=""},1500);
+	if(!opt.flag)setTimeout(function(){vw.outerHTML=""},1600);
 }
 function pnlCase(opt){
 	var psz=pgsz();
