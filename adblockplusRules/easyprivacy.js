@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: zkujaMytYyPU66oxAc8ZOw
-! Version: 202005101541
+! Checksum: xTggQqtPG3f/5fBpu+w/zQ
+! Version: 202005111101
 ! Title: EasyPrivacy
-! Last modified: 10 May 2020 15:41 UTC
+! Last modified: 11 May 2020 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8492,6 +8492,7 @@ _mongo_stats/
 ||culturedcrayon.com^$third-party
 ||damdoor.com^$third-party
 ||dampdock.com^$third-party
+||dapperdiscussion.com^$third-party
 ||decisivedrawer.com^$third-party
 ||delegatediscussion.com^$third-party
 ||desiredirt.com^$third-party
@@ -17056,6 +17057,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||metrics.ticketmaster.com/b/ss/$image
 @@||mlb.com/b/ss/$image
 @@||nokia.com/b/ss/$image,domain=here.com
+@@||omns.americanexpress.com/b/ss/
 @@||oms.dowjoneson.com/b/ss/$image,domain=wsj.com
 @@||omtrdc.net/b/ss/$image,domain=britishairways.com|costco.com|halifax-online.co.uk|logmein.com|macworld.com|msnbc.com|nbc.com|pcworld.com|techhive.com|usanetwork.com
 @@||omtrdc.net/rest/$xmlhttprequest
