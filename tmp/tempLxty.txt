@@ -11,6 +11,8 @@ ntpdate time.nist.gov
 mvn install:install-file -Dfile=ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=6 -Dpackaging=jar
 mvn install:install-file -Dfile=compare-number-1.0.jar -DgroupId=com.hbase.compare -DartifactId=compare-number -Dversion=6 -Dpackaging=jar
 
+mvn install:install-file -DgroupId=com.google.common -DartifactId=google-collect -Dversion=1.0-rc1 -Dpackaging=jar -Dfile=google-collect-1.0-rc1.jar
+
 
 ------------------------------JAR 运行------------------------------
 
@@ -61,8 +63,15 @@ https://download.oracle.com/otn/nt/middleware/12c/122140/fmw_12.2.1.4.0_odi_Disk
 \\192.168.1.51\文件共享服务器\3.研发部\1.项目管理\LX734-北京经济管理职业学院-经管移动校园（经济管理职业学院数字化校园移动平台建设项目一期）\经管学院数据梳理
 
 
-------------------------------nodejs------------------------------
+------------------------------zookeeper------------------------------
 
-npm --registry https://registry.npm.taobao.org install cluster
+org.apache.twill.zookeeper.ZKClient
+
+------------------------------phoenix------------------------------
+
+https://yq.aliyun.com/articles/680772/
+https://yq.aliyun.com/articles/85591?spm=a2c4e.11153940.0.0.7ec56073vxL3BH
+
+http://www.fontawesome.com.cn/faicons/
 
 ------------------------------end------------------------------
