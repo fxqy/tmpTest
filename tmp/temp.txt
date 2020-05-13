@@ -56,8 +56,14 @@ BDUSS=; STOKEN=
 
 -lcurl -lws2_32 -lwinmm -lwldap32 -lwsock32
 
-https://easylist-downloads.adblockplus.org/easyprivacy.txt?a=aa.ts
-https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt?b=bb.ts
+
+https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt?focdnm=easylistchina+easylist.js
+https://easylist-downloads.adblockplus.org/easylist.txt?focdnm=easylist.js
+https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt?focdnm=cjx-annoyance.js
+
+https://easylist-downloads.adblockplus.org/easyprivacy.txt?focdnm=easyprivacy.js
+https://easylist-downloads.adblockplus.org/easylistchina.txt?focdnm=easylistchina.js
+https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt?focdnm=cjxlist.js
 
  
 nohup aria2c --daemon=true --conf-path=/root/aria2/aria2c.conf 1>/root/aria2/aria2_info.log 2>/root/aria2/aria2_error.log &
