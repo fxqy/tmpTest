@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: zxuQH2Gz25upSljtDfx/Lg
-! Version: 202005120631
+! Checksum: u0TaqTBH8T5LQg9CerUQ5w
+! Version: 202005130311
 ! Title: EasyPrivacy
-! Last modified: 12 May 2020 06:31 UTC
+! Last modified: 13 May 2020 03:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12330,6 +12330,7 @@ _mongo_stats/
 ||log.nordot.jp^
 ||macromill.com/imp/
 ||mofa.go.jp^*/count.cgi?
+||moshimo.com^*/impression?
 ||omt.shinobi.jp^
 ||otoshiana.com/ufo/
 ||pia.jp/akam/$script
@@ -12351,6 +12352,7 @@ _mongo_stats/
 ||userdive.com^$third-party
 ||webtracker.jp^$third-party
 ||x9.shinobi.jp^
+||xr.shinobi.jp^
 ||yahoo.co.jp/js/retargeting.js
 ! Korean
 ||115.84.165.13/wlo/$domain=~seul-go.ip
@@ -16893,6 +16895,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||omtrdc.net^*/mbox/ajax?$script,domain=barclays.co.uk|swisscom.ch
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|argos.co.uk|att.com|barclays.co.uk|swisscom.ch|t-mobile.com
 @@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.co.uk|ancestry.com|ancestry.com.au|ancestry.it|barclays.co.uk|blogtalkradio.com|swisscom.ch
+@@||ondemand.sas.com^$subdocument
 @@||online-metrix.net/fp/tags.js$domain=donorschoose.org
 @@||ourworld.com/ow/evercookie_
 @@||ourworld.com/ow/js/evercookie/$script
