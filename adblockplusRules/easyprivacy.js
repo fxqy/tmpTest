@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 2wUlB2nwopSd2oSl7H2ZTQ
-! Version: 202005130511
+! Checksum: w5JfPV4lIOzmdctOalZPbA
+! Version: 202005131601
 ! Title: EasyPrivacy
-! Last modified: 13 May 2020 05:11 UTC
+! Last modified: 13 May 2020 16:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7025,7 +7025,6 @@ _mongo_stats/
 ||omtvxcle.com^$third-party
 ||onaudience.com^$third-party
 ||ondu.ru^$third-party
-||onecount.net^$third-party
 ||onefeed.co.uk^$third-party
 ||oneimpress.io^$third-party
 ||onelink-translations.com^$third-party
@@ -10960,6 +10959,7 @@ _mongo_stats/
 ||odnaknopka.ru/stat.js
 ||ohnorobot.com/verify.pl?
 ||om.rogersmedia.com^
+||onecount.net/onecount/oc_track/
 ||onescreen.net/os/static/pixels/
 ||onespot-tracking.herokuapp.com^
 ||onet.pl/eclk/
@@ -16980,8 +16980,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||unileversolutions.com^*/config/analytics.js
 @@||unisys.com^*/track.gif$image,~third-party
 @@||unpkg.com/@optimizely/$domain=nike.com
-@@||validate.onecount.net/js/all.min.js$script,domain=foreignpolicy.com
-@@||validate.onecount.net/onecount/api/public/$script,domain=foreignpolicy.com
 @@||varagesale.com/assets/analytics-$script,~third-party
 @@||vast.com/vimpressions.js$domain=everycarlisted.com
 @@||vice.com^*/AdobeAnalyticsSDK.min.js
