@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OSuwhbg45WdqTRKubcYI8A
-! Version: 202005131601
+! Checksum: CFZG+WcWWr6fqQGYeynpWA
+! Version: 202005141251
 ! Title: EasyList
-! Last modified: 13 May 2020 16:00 UTC
+! Last modified: 14 May 2020 12:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -30909,6 +30909,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||2g6gj3aojcrj.com^
 ||2sh8fouhk84h.com^
 ||2tpwcqot22mb.com^
+||30yo.xyz^
 ||3133a.xyz^
 ||341073be6e9db7d2.com^
 ||363f6edf73.com^
@@ -30992,6 +30993,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||aggravedgaree.info^
 ||agrammemarg.info^
 ||agreenikeru.site^
+||ahjdwb31.xyz^
 ||aickeeho.com^
 ||ailaskarc.club^
 ||ailpielei.com^
@@ -31038,6 +31040,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||arketscolourse.site^
 ||armashair.site^
 ||arnessaudie.site^
+||arpartments.site^
 ||arpromiserinte.site^
 ||artandand.online^
 ||artantash.club^
@@ -31244,6 +31247,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||distrikerkvazar.site^
 ||ditookry.com^
 ||dlb1uotpjs6s.com^
+||dlevisionexpr.site^
 ||dlfvgndsdfsn.com^
 ||dlnsjjyzvi1x.com^
 ||dmastescaugh.info^
@@ -31325,6 +31329,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||es54i9g7p7xh.com^
 ||esauwoan.com^
 ||esconcentleu.site^
+||esentdemol.site^
 ||estionexperime.info^
 ||eswaldderinao.site^
 ||etsmercisely.site^
@@ -31706,10 +31711,12 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||obefjbb4mykw.com^
 ||od0gddq27wkk.com^
 ||oevqxivhquovq.com^
+||offickiekizashi.site^
 ||officultpolicit.pro^
 ||ofgogoatan.com^
 ||ofhypnoer.com^
 ||ofphanpytor.com^
+||ogysevery.site^
 ||ohmchoicechi.online^
 ||ojwd63thskiz.com^
 ||olicyconsendsi.info^
@@ -31913,12 +31920,14 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||sculifinanthools.site^
 ||sdhfbvd.com^
 ||sdkfjxjertertry.com^
+||seaboblit.com^
 ||searchmulty.com^
 ||securecloud-dt.com^
 ||secured-iphone.club^
 ||secured-phone.club^
 ||seepsocu.net^
 ||setemoump.com^
+||seventual.site^
 ||sexagogal.site^
 ||sg2rgnza7k9t.com^
 ||sgftrrs.com^
@@ -31931,6 +31940,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||simpaignsen.info^
 ||sincernething.site^
 ||singthouthappi.info^
+||sinmufar.com^
 ||sionsrathet.info^
 ||sisewepod.com^
 ||sisterncoalitical.info^
@@ -52418,7 +52428,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||newasiantv.tv/files/a300x250.html
 ||newsreview.com/images/promo.gif
 ||newstrackindia.com/images/hairfallguru728x90.jpg
-||nicoad.nicovideo.jp^$~third-party
+||nicoad.nicovideo.jp^$domain=~nicoad.nicovideo.jp
 ||nigerianbulletin.com^*/Siropu/
 ||norwaypost.no/images/banners/
 ||notdoppler.com^*-promo-
@@ -55623,7 +55633,7 @@ steroid.com##.fancybox-wrap
 w3techs.com##.feat
 techjunkie.com##.fixed-sidebar-fire-tv
 protipster.com##.free-bet-wide
-bluntforcetruth.com,borneobulletin.com.bn,chicagodefender.com,dallasvoice.com,gematsu.com,hotnews.org.za,newsday.co.zw,nondoc.com,one.com.mt,radioinsight.com,theindependent.co.zw,thestandard.co.zw##.g
+bluntforcetruth.com,borneobulletin.com.bn,chicagodefender.com,dallasvoice.com,gematsu.com,hotnews.org.za,newsday.co.zw,nondoc.com,one.com.mt,radioinsight.com,thegolfnewsnet.com,theindependent.co.zw,thestandard.co.zw##.g
 businessofapps.com##.g-single
 ghacks.net##.ghacks-ad
 usatoday.com##.gnt_tb
@@ -55643,6 +55653,7 @@ theloadout.com##.inlinerail
 seedpeer.me##.is-success
 seedpeer.me##.is-warning
 itweb.co.za##.itw-content-zone
+demonslayermanga.com##.js-a-container
 beermoneyforum.com##.js-notices
 ettv.to##.kr_cr
 clinicaltrialsarena.com,cointelegraph.com##.leaderboard
@@ -60758,7 +60769,7 @@ chrisbrownworld.com,myplay.com##.fwas300x250
 masterworksbroadway.com##.fwas728x90_top
 thelakewoodscoop.com##.g-col > a
 nofilmschool.com##.g-leader
-cnx-software.com,thegolfnewsnet.com##.g-single
+cnx-software.com##.g-single
 prokerala.com##.gAS_468x60
 titantv.com##.gAd
 about.com##.gB
@@ -67538,7 +67549,7 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||gakushuin.ac.jp/ad/common/$~third-party
 @@||googlesyndication.com/simgad/$image,domain=pccomponentes.com
 @@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|pccomponentes.com|vlive.tv
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=bloomberg.co.jp|farfeshplus.com|klix.ba|nettavisen.no|news.tbs.co.jp|rtlnieuws.nl|tbs.co.jp|video.repubblica.it|vlive.tv
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=bloomberg.co.jp|farfeshplus.com|klix.ba|nettavisen.no|rtlnieuws.nl|tbs.co.jp|video.repubblica.it|vlive.tv
 @@||kanalfrederikshavn.dk^*/jquery.openx.js?
 @@||kataweb.it/adsetup.real.js$script,domain=video.repubblica.it
 @@||koshien-live.net/99/adtag.xml$domain=sportsbull.jp

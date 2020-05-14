@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: w5JfPV4lIOzmdctOalZPbA
-! Version: 202005131601
+! Checksum: 7FxHfHLMOF0kYMiwt+rXFw
+! Version: 202005141251
 ! Title: EasyPrivacy
-! Last modified: 13 May 2020 16:01 UTC
+! Last modified: 14 May 2020 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3681,7 +3681,7 @@
 /shinystat_
 /shopify-boomerang-
 /shopify_stats.js
-/showcounter.
+/showcounter.$domain=~showcounter.com
 /showhits.php?
 /si-tracking.
 /sidebarAnalytic?
