@@ -53,15 +53,12 @@ https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt?focdnm=eas
 
 nohup aria2c --daemon=true --conf-path=/root/aria2/aria2c.conf 1>/root/aria2/aria2_info.log 2>/root/aria2/aria2_error.log &
 
-
 ------------------------------Some link------------------------------
 
 https://tieba.baidu.com/p/6233563750
 https://www.jianshu.com/p/5ddccd1cd474
 
 http://109.195.3.148/viewforum.php?f=264
-
-
 
 ------------------------------css------------------------------
 
@@ -71,7 +68,6 @@ transform: rotate(90deg) scale(0.6);
 ------------------------------Font------------------------------
 https://icomoon.io/app/#/select
 http://fontello.com/
-
 
 ------------------------------Linux zip tar------------------------------
 Linux:
