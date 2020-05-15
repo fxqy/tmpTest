@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 7FxHfHLMOF0kYMiwt+rXFw
-! Version: 202005141251
+! Checksum: vC6xUrOJ2PVfHbqaarxNsA
+! Version: 202005150921
 ! Title: EasyPrivacy
-! Last modified: 14 May 2020 12:51 UTC
+! Last modified: 15 May 2020 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12619,7 +12619,6 @@ _mongo_stats/
 ||aax-us-iad.amazon.com^
 ||abc.net.au/counters/
 ||abc.net.au^*/stats/
-||abeagle-public.buzzfeed.com^
 ||abebooks.com/timer.gif?
 ||about.me/wf/open?
 ||abplive.in/analytics/
@@ -16382,6 +16381,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||yahoo.co.jp/s?s=
 ||yjtag.yahoo.co.jp^
 ! Korean
+||auction.co.kr/ad/log.js
+||auction.co.kr/montelena.js
 ||chosun.com/hitlog/
 ||count.munhwa.com^
 ||gmarket.co.kr/js/common/uuid.js
@@ -16398,6 +16399,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||track.tiara.daum.net^
 ||track.tiara.kakao.com^
 ||tracker.cauly.co.kr^
+||uts.auction.co.kr^
 ||veta.naver.com^
 ||wcs.naver.com^
 ||weblog.eseoul.go.kr^
@@ -16707,6 +16709,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||api-track.delhivery.com/track?waybillId=$~third-party,xmlhttprequest
 @@||api.academia.edu^*/stats?callback$script,~third-party
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
+@@||api.github.com^*/log?ref=$xmlhttprequest
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.segment.io/v1/$xmlhttprequest,domain=instacart.com
 @@||api.vidaxl.com^*/trackingservice/customerportal/*?$xmlhttprequest,domain=tracking.vidaxl.com
