@@ -42,10 +42,10 @@ curl -O -# -H "Referer: http:" http:**/[1-50].jpg
 ------------------------------Adblock plus------------------------------
 
 https://easylist-downloads.adblockplus.org/easylistchina.txt?focdnm=easylistchina.js
-https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt?focdnm=cjxlist.js
-
-https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt?focdnm=cjx-annoyance.js
 https://easylist-downloads.adblockplus.org/easyprivacy.txt?focdnm=easyprivacy.js
+
+https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt?focdnm=cjxlist.js
+https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt?focdnm=cjx-annoyance.js
 https://easylist-downloads.adblockplus.org/easylist.txt?focdnm=easylist.js
 https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt?focdnm=easylistchina+easylist.js
 
