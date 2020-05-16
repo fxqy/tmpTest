@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IRu7O84OJBiDhipc0lTEbw
-! Version: 202005150931
+! Checksum: eAbvt+3iVSm84UBR8p2OWA
+! Version: 202005160840
 ! Title: EasyList
-! Last modified: 15 May 2020 09:31 UTC
+! Last modified: 16 May 2020 08:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3515,7 +3515,7 @@
 /advertiserwidget.
 /advertises/*
 /advertisewithus_
-/advertising-$domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising.amazon.com|~microsoft.com|~outbrain.com|~yellowimages.com
+/advertising-$domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising.amazon.com|~deals-italy.com|~microsoft.com|~outbrain.com|~yellowimages.com
 /advertising.$~script,~xmlhttprequest,domain=~advertising.amazon.ae|~advertising.amazon.ca|~advertising.amazon.cn|~advertising.amazon.co.jp|~advertising.amazon.co.uk|~advertising.amazon.com|~advertising.amazon.com.au|~advertising.amazon.com.mx|~advertising.amazon.de|~advertising.amazon.es|~advertising.amazon.fr|~advertising.amazon.in|~advertising.amazon.it|~advertising.amazon.sa|~advertising.berlin-airport.de|~advertising.bulurum.com|~advertising.byhoxby.com|~advertising.dailymotion.com|~advertising.expedia.com|~advertising.hulu.com|~advertising.lavenir.net|~advertising.mobile.de|~advertising.nzme.co.nz|~advertising.org.il|~advertising.racingpost.com|~advertising.roku.com|~advertising.scoop.co.nz|~advertising.sevenwestmedia.com.au|~advertising.shpock.com|~advertising.theguardian.com|~advertising.utexas.edu|~advertising.vrisko.gr|~advision.co
 /advertising/*$~xmlhttprequest,domain=~advertising.org.il|~commercialplanet.eu|~kloterfarms.com|~temple.edu|~themarker.com
 /advertising/traffic-
@@ -30900,6 +30900,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||12cdee5830.com^
 ||14nuzznszbdp.com^
 ||1getbestf1le3.xyz^
+||1st2nd.xyz^
 ||2091995300d7.com^
 ||25348f89a3.com^
 ||273920d845b.com^
@@ -30961,6 +30962,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||8mb4qkd74cht.com^
 ||8tduqa3h42y5.com^
 ||8ue4.xyz^
+||8uhgc44hfdd4-87hvd4-jhggcg.easylist-to.xyz^
 ||8xkr.xyz^
 ||90ad550f42.com^
 ||91jsnzw.xyz^
@@ -31021,6 +31023,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||allycollegedstrie.info^
 ||alwsbnvialll.com^
 ||alzwa133.xyz^
+||amerallyluke.club^
 ||amesgraduatel.site^
 ||ammankeyan.com^
 ||ampallall.site^
@@ -31387,6 +31390,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||fingahvf.top^
 ||fishkekcamp.info^
 ||fixsirrod.site^
+||fkart.xyz^
 ||flowwiththetide.xyz^
 ||fnx2n3rqbuw7.com^
 ||fontainsuny.club^
@@ -31462,6 +31466,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||hadsoks.com^
 ||haftobso.net^
 ||hamadotax.site^
+||haviouseulom.club^
 ||hayfatduh.com^
 ||haypaydig.club^
 ||healthoutabol.site^
@@ -31520,6 +31525,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||jobhobfir.club^
 ||jqk72ugyl2pz.com^
 ||junmediadirect.com^
+||justickedukil.club^
 ||justookr.net^
 ||katerigordas.pro^
 ||kaukoany.net^
@@ -31552,6 +31558,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||lalaping.com^
 ||lassistslegisten.info^
 ||lationwordsi.club^
+||latviancedef.site^
 ||laygunwow.com^
 ||layshyjar.com^
 ||ldevillaechildren.info^
@@ -31892,6 +31899,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ribbumuse.com^
 ||ribtopmop.com^
 ||ridgelorridorsag.info^
+||rightiescolled.club^
 ||rinedcountilconsiden.info^
 ||rintellsfundrew.info^
 ||ripslifestassoci.info^
@@ -31945,6 +31953,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||shoawhom.com^
 ||shyama-jay.com^
 ||sightcoloniansy.site^
+||sikelypleaste.site^
 ||silsfrastinggove.info^
 ||simpaignsen.info^
 ||sincernething.site^
@@ -32125,6 +32134,8 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||waxpigbaa.com^
 ||waynagmay.com^
 ||waysinbeg.com^
+||weaponsort.club^
+||wedneckekij.club^
 ||weegebul.net^
 ||weethery.com^
 ||weinberinaz.site^
@@ -32138,6 +32149,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||whoshood.com^
 ||wi3brxwr2b3v.com^
 ||wimsocou.com^
+||windoorsew.club^
 ||winsistakesme.site^
 ||withoughstors.club^
 ||wityamdog.com^
@@ -53609,7 +53621,7 @@ $webrtc,domain=uptobox.com
 ||swatchseries.to/main.js
 ||www*.swatchseries.to^$script
 ! Fembed
-$script,third-party,xmlhttprequest,domain=core1player.com|exvcon.com|fembed.com|fsimg.info|gaobook.review|mavplay.com|mavplayer.xyz|novelplanet.me|secfilm.xyz|sonline.pro|svpri.xyz|vaplayer.xyz|vidplayer.cz|xstreamcdn.com
+$script,third-party,xmlhttprequest,domain=clickopen.club|core1player.com|exvcon.com|fembed.com|fsimg.info|gaobook.review|mavplay.com|mavplayer.xyz|novelplanet.me|secfilm.xyz|sonline.pro|svpri.xyz|vaplayer.xyz|vidplayer.cz|xstreamcdn.com
 ||fembed.com/revenue
 ! Fastplay
 |http://$script,stylesheet,third-party,domain=fastplay.to
@@ -54141,7 +54153,7 @@ bento.de##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][t
 ! Rewrite to internal resources rules for Adblock Plus
 ||slacker.com^*/getspot/?spotid=$media,rewrite=abp-resource:blank-mp3,domain=slacker.com
 ! sythe
-/^https:\/\/([a-z]+\.)?sythe\.org\/\$.*[\w\W]{20,}/$image
+/^https:\/\/([a-z]+\.)?sythe\.org\/\[=%#@$&!^].*[\w\W]{20,}/$image
 ! *** easylist:easylist/easylist_specific_block_popup.txt ***
 $popup,third-party,domain=prettyfast.to|senimovie.co
 %3D$popup,domain=nme.com
