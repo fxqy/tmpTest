@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: EZOpfOsarKQ90KwR4guxIg
-! Version: 202005160841
+! Checksum: gscmS0n1EoFwLpUtGIplXg
+! Version: 202005180921
 ! Title: EasyPrivacy
-! Last modified: 16 May 2020 08:41 UTC
+! Last modified: 18 May 2020 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -491,6 +491,7 @@
 /adobe/visitor-
 /adobe/VisitorAPI-
 /adobeAnalytics/*
+/AdobeAnalyticsAndTargetOverwrites.
 /AdobeAnalyticsEvent.
 /AdobeAnalyticsSDK.
 /AdobeCustomVideoMeasurement.swf
@@ -774,6 +775,7 @@
 /analytics_v2.js
 /analytics_wbc.
 /analytics_www.
+/AnalyticsDataLayer.
 /AnalyticsEvent.
 /analyticsfeed.ashx?
 /analyticsFooter.
@@ -1777,6 +1779,7 @@
 /evergage.js
 /evergage.min-
 /evergage.min.js
+/evt.gif?
 /evtrack-
 /ewtrack.
 /EWTRACK_
@@ -4049,6 +4052,7 @@
 /tc_targeting.
 /tc_throttle.js
 /TCMAnalytics_
+/td-pageviews.
 /tda.*/in.gif
 /teal-chartbeat-
 /tealeaf.cgi
@@ -9253,6 +9257,7 @@ _mongo_stats/
 ||blogranking.net^$third-party
 ||ca-mpr.jp^$third-party
 ||cetlog.jp^$third-party
+||cheqzone.com^$third-party
 ||cosmi.io^$third-party
 ||d-markets.net^$third-party
 ||d2-apps.net^$third-party
@@ -9292,6 +9297,7 @@ _mongo_stats/
 ||pagoda56.com^$third-party
 ||pdmp.jp^$third-party
 ||polymorphicads.jp^$third-party
+||quant.jp^$third-party
 ||r-ad.ne.jp^$third-party
 ||rays-counter.com^$third-party
 ||rentracks.jp^$third-party
@@ -10533,6 +10539,7 @@ _mongo_stats/
 ||geo.kaloo.ga^$third-party
 ||geo.kontagent.net^
 ||geo.mezr.com^
+||geo.ngtv.io^
 ||geo.q5media.net^
 ||geo.query.yahoo.com^$~xmlhttprequest,domain=~mail.yahoo.com
 ||geobar.ziffdavisinternational.com^
@@ -12315,7 +12322,9 @@ _mongo_stats/
 ||analytics.liveact.cri-mw.jp^
 ||analyzer51.fc2.com^
 ||asumi.shinobi.jp^
+||bidder.mediams.mb.softbank.jp^
 ||clickanalyzer.jp^$third-party
+||cnobi.jp^*/js/imp.
 ||counter2.blog.livedoor.com^
 ||future-shop.jp/rview.gif?
 ||imgstat.ameba.jp^$third-party
@@ -12327,6 +12336,7 @@ _mongo_stats/
 ||line-scdn.net^*/line_tag/
 ||line.me/tag.gif$image
 ||log.codemarketing.cloud^
+||log.f-tra.com^
 ||log.nordot.jp^
 ||macromill.com/imp/
 ||mofa.go.jp^*/count.cgi?
@@ -12335,11 +12345,13 @@ _mongo_stats/
 ||otoshiana.com/ufo/
 ||pia.jp/akam/$script
 ||pia.jp/images/pt.gif$image
+||quant.jp/track/
 ||rcm.shinobi.jp^
 ||rd.rakuten.co.jp^$script
 ||s.yimg.jp/images/listing/tool/cv/ytag.js
 ||seesaa.jp/ot_square.pl?
 ||shinobi.jp/track?
+||shinobi.jp/zen?
 ||speee-ad.akamaized.net^
 ||spnx.jp/spnx-logger.js
 ||sstats.mora.jp^
@@ -12350,6 +12362,7 @@ _mongo_stats/
 ||torimochi.line-apps.com^
 ||track.thebase.in^
 ||userdive.com^$third-party
+||webbc.fivecdm.com^
 ||webtracker.jp^$third-party
 ||x9.shinobi.jp^
 ||xr.shinobi.jp^
@@ -13138,7 +13151,6 @@ _mongo_stats/
 ||divxden.com^*/tracker.js
 ||djtunes.com^*&__utma=
 ||dl.meliacloud.com^
-||dmcdn.net/pxl/$domain=dailymotion.com
 ||dmcdn.net/track/$domain=dailymotion.com
 ||dmp.marketgid.com^
 ||dmtracking2.alibaba.com^
@@ -16809,6 +16821,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||geni.us/snippet.min.js$script,domain=pcmonitors.info
 @@||geo-targetly.com/geolocation?id$script,third-party
 @@||geo.kaloo.ga/json/?$script,domain=telesurtv.net
+@@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=ibanez.com
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
 @@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
 @@||ghstatic.com/images/site/zylom/scripts/google-analytics.js?$domain=zylom.com
@@ -17230,8 +17243,10 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||assets.adobedtm.com^*-librarycode_source.min.js$script,domain=mora.jp
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
+@@||cdn.treasuredata.com/sdk/$script,domain=retty.me
 @@||chancro.jp/assets/lib/googleanalytics-$script
 @@||googletagmanager.com/gtm.js$script,domain=book.impress.co.jp|sankei.com
+@@||in.treasuredata.com/js/*api_key$script,domain=retty.me
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
 @@||mediaweaver.jp^$image,domain=ismedia.jp
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
