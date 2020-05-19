@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0KOzDQkvrOQE8PPxCpr/sw
-! Version: 202005181610
+! Checksum: PIV4GnXHXgEwFOU3o8v01A
+! Version: 202005191041
 ! Title: EasyList
-! Last modified: 18 May 2020 16:10 UTC
+! Last modified: 19 May 2020 10:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -31052,6 +31052,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||anycadark.site^
 ||apearkcan.club^
 ||apologixopyr.site^
+||apparentsav.club^
 ||appropeanes.club^
 ||appropolyfunt.site^
 ||aptashant.club^
@@ -31153,6 +31154,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||butashasp.site^
 ||bwhjcwnbbwsd.com^
 ||byhz.xyz^
+||c0z.xyz^
 ||c26e9ccd4e063b.com^
 ||c3t-system-err.club^
 ||c50021876c67fd14.com^
@@ -31171,6 +31173,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cauthuny.net^
 ||cawsodpet.club^
 ||cconseent.info^
+||cdcz.xyz^
 ||cdn.rtclx.com^
 ||cdn4ads.com^
 ||cdnads.com^
@@ -31475,6 +31478,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||gr8y7z1xaq30.com^
 ||gragliapastri.info^
 ||grampouz.net^
+||granticaffodily.club^
 ||graunada.com^
 ||greatvideos.xyz^
 ||grementessenti.info^
@@ -31503,6 +31507,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||hesterinoc.info^
 ||hgdy-hffb-ihgd-8hgf.wrkl.xyz^
 ||himselvepostly.site^
+||himselveseg.club^
 ||himselvesobr.club^
 ||hincludingse.site^
 ||histlingklakson.site^
@@ -31743,6 +31748,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||noglolra.com^
 ||norakseemlyntr.info^
 ||normugtog.com^
+||northeregikgf.club^
 ||northyatters.site^
 ||notification-centar.com^
 ||notifysrv.com^
@@ -32120,10 +32126,12 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ukcomparends.pro^
 ||uluswozzel.info^
 ||ummerciseha.info^
+||undedfracted.club^
 ||undedsunbese.site^
 ||underwards.site^
 ||unlomblam.pro^
 ||unreshiramor.com^
+||untabilityde.site^
 ||untridrisa.cf^
 ||upush.co^
 ||urchrevening.info^
@@ -55900,6 +55908,7 @@ theweathernetwork.com##div[id*="gpt-ad-"]
 searchenginejournal.com##div[id^="SEJ_300x250_"]
 weather.com##div[id^="Taboola-main-"]
 kisshentai.net##div[id^="ad"]
+gamepedia.com##div[id^="siderail_"]
 indusladies.com##div[style="padding:5%;margin-left:30%;"]
 theweathernetwork.com##div[style="width:300px;height:600px; margin-bottom: 15px;"]
 dailywire.com##div[style^="max-width: 300px;"]
