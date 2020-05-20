@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: CRwjMnEaqOMh88C1N2KYDg
-! Version: 202005191041
+! Checksum: 34u+oZGqe0CUBM16D4J8sw
+! Version: 202005201211
 ! Title: EasyPrivacy
-! Last modified: 19 May 2020 10:41 UTC
+! Last modified: 20 May 2020 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2213,6 +2213,8 @@
 /homepage/analytics.
 /homepage_pixels.
 /homePixelTracking.
+/honeybadger.js$third-party
+/honeybadger.min.js$third-party
 /horizon-pageview?
 /horizon-track.
 /horizon.*/track?
@@ -6500,7 +6502,6 @@ _mongo_stats/
 ||hivps.xyz^$third-party
 ||hlserve.com^$third-party
 ||hmstats.com^$third-party
-||honeybadger.io^$third-party
 ||hoood.info^$third-party
 ||hopurl.org^$third-party
 ||hospitality-optimizer.com^$third-party
@@ -10469,8 +10470,10 @@ _mongo_stats/
 ||facebook.com*/impression.php
 ||facebook.com/*/plugins/send_to_messenger.php?app_id=$third-party
 ||facebook.com/ai.php?
+||facebook.com/ajax/bz?
 ||facebook.com/audience_network/$image
 ||facebook.com/brandlift.php
+||facebook.com/common/cavalry_endpoint.php?
 ||facebook.com/common/scribe_endpoint.php
 ||facebook.com/email_open_log_pic.php
 ||facebook.com/fr/u.php?
@@ -16965,6 +16968,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||smartclient.com/smartclient/isomorphic/system/modules/isc_analytics.js$xmlhttprequest
 @@||songza.com/static/*/songza/systems/$script
 @@||sophos.com^*/tracking/gainjectmin.js$script,domain=community.sophos.com
+@@||speakout7eleven.ca^*/Magento_GoogleTagManager/$~third-party
 @@||spot.im^*/ab_test/$xmlhttprequest
 @@||src.fedoraproject.org/static/issues_stats.js?
 @@||starbucksassets.com/weblx/static/optimizely.$domain=starbucks.com
