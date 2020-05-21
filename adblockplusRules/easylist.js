@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KqtT7PXjTcjVPq3UP9D1WA
-! Version: 202005201211
+! Checksum: ZhigirjBXtGtD9XoYyYIZg
+! Version: 202005211041
 ! Title: EasyList
-! Last modified: 20 May 2020 12:10 UTC
+! Last modified: 21 May 2020 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -14899,6 +14899,7 @@ _popunder+$popup
 ###home_ad_sub_spotlight
 ###home_ads_top_hold
 ###home_ads_vert
+###home_advertising_block
 ###home_bottom_ad
 ###home_contentad
 ###home_feature_ad
@@ -29743,7 +29744,6 @@ _popunder+$popup
 ##a[href^="https://www.iclwy.xyz/"]
 ##a[href^="https://www.im88trk.com/"]
 ##a[href^="https://www.incredimail.com/?id"]
-##a[href^="https://www.moscarossa.biz/"]
 ##a[href^="https://www.mrskin.com/tour"]
 ##a[href^="https://www.mypornstarcams.com/landing/click/"]
 ##a[href^="https://www.nudeidols.com/cams/"]
@@ -30831,7 +30831,6 @@ badoinkvr.com#@#a[href^="https://badoinkvr.com/"]
 healthmeans.com#@#a[href^="https://servedbyadbutler.com/"]
 trust.zone#@#a[href^="https://trust.zone/"]
 financeads.de#@#a[href^="https://www.financeads.net/tc.php?"]
-moscarossa.biz,theporndude.com#@#a[href^="https://www.moscarossa.biz/"]
 mrskin.com#@#a[href^="https://www.mrskin.com/tour"]
 privateinternetaccess.com#@#a[href^="https://www.privateinternetaccess.com/"]
 marketgid.com,mgid.com#@#a[id^="mg_add"]
@@ -31277,6 +31276,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||dingsincernett.info^
 ||dingviewjeep.info^
 ||disappenedy.site^
+||discountryvc.club^
 ||discoverapp.xyz^
 ||displayvertising.com^
 ||distinesseqe.site^
@@ -31514,12 +31514,14 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||himselveseg.club^
 ||himselvesobr.club^
 ||hincludingse.site^
+||hislationaler.club^
 ||histlingklakson.site^
 ||histormedengi.site^
 ||hk56947pjjq5.com^
 ||hoemasfat.site^
 ||hooify.com^
 ||hoosorie.com^
+||hospitecrew.club^
 ||hounicuy.com^
 ||housandady.site^
 ||housopsi.net^
@@ -31601,6 +31603,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||lamberserer.club^
 ||lassistslegisten.info^
 ||lationwordsi.club^
+||lattemptweh.club^
 ||latviancedef.site^
 ||laygunwow.com^
 ||layshyjar.com^
@@ -31773,6 +31776,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||oajujirg.net^
 ||obaukads.com^
 ||obefjbb4mykw.com^
+||obtainlylibuk.club^
 ||od0gddq27wkk.com^
 ||oevqxivhquovq.com^
 ||offickiekizashi.site^
@@ -31881,6 +31885,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||prographiciko.site^
 ||promiserkololla.site^
 ||propeanfanku.site^
+||propeanikob.site^
 ||properatery.club^
 ||protection-booster.club^
 ||protection-cleaner.club^
@@ -31998,9 +32003,11 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||secured-iphone.club^
 ||secured-phone.club^
 ||seepsocu.net^
+||seex.s4d.xyz^
 ||separenujilo.club^
 ||setemoump.com^
 ||seventual.site^
+||severymurden.site^
 ||sexagogal.site^
 ||sg2rgnza7k9t.com^
 ||sgftrrs.com^
@@ -32008,6 +32015,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||shenouth.com^
 ||shiptoud.com^
 ||shoawhom.com^
+||showeveresz.club^
 ||shyama-jay.com^
 ||sightcoloniansy.site^
 ||significbystal.club^
@@ -32254,6 +32262,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||zrnedsainsteady.info^
 ||zroundancez.site^
 ||zudrurta.com^
+||zuhs.s4d.xyz^
 ||zxxtkrkzfyy3.com^
 ||zzdb5p4upiug.com^
 ! Third-party
@@ -55863,6 +55872,7 @@ finance.yahoo.com##.ys-mobileFeaturedAd
 hltv.org##[class$="b-list"]
 hltv.org##[class*="geo"]
 hltv.org##[class*="widget"]
+indiatimes.com##[class] > div > div > [onclick]
 hltv.org##[href*="bbfun88.com"]
 carmag.co.za,clipwatching.com,mbauniverse.com,motachashma.com,senimovie.co,trancentral.tv##[href*="bit.ly/"]
 steroid.com##[href*="https://www.anabolics.com"]
@@ -67254,6 +67264,7 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||productioncars.com/pics/menu/
 @@||promo.com/shopify-backend/*/user-videos/$xmlhttprequest
 @@||promo.com/shopify/embedded/$subdocument
+@@||promo.zendesk.com^$xmlhttprequest,domain=promo.com
 @@||px.moatads.com/pixel.gif$image,domain=abcya.com
 @@||recaptcha.net/recaptcha/$script
 @@||reuters.com^$generichide
@@ -67643,6 +67654,7 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||anandabazar.com/js/anandabazar-bootstrap/$script
 @@||bancodevenezuela.com/imagenes/publicidad/$~third-party
 @@||banki.ru/bitrix/*/advertising.block/$stylesheet
+@@||borsen.dk/themes/borsen.dk/js/dfp.js$script
 @@||ced.sascdn.com/tag/*/smart.js$domain=dr.dk
 @@||cloudinary.com/portalbici/advertisements/$domain=portalbici.es
 @@||custojusto.pt/user/myads/$~third-party

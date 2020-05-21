@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 34u+oZGqe0CUBM16D4J8sw
-! Version: 202005201211
+! Checksum: i9Qahhf037XQxg1c8w1byg
+! Version: 202005211041
 ! Title: EasyPrivacy
-! Last modified: 20 May 2020 12:11 UTC
+! Last modified: 21 May 2020 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9011,6 +9011,7 @@ _mongo_stats/
 ||pingclock.net^$third-party
 ||potterpetrey.com^$third-party
 ||reseau-pub.com^$third-party
+||rossel.tech^$third-party
 ||semiocast.com^$third-party
 ||sitizy.network^$third-party
 ||sk1n.fr^$third-party
@@ -10728,6 +10729,7 @@ _mongo_stats/
 ||klaviyo.com/onsite/js/klaviyo.js$third-party
 ||klickly.com/track
 ||kmib.co.kr/ref/
+||kochava.com/track/$third-party
 ||kununu.com^*/tracking/
 ||kxcdn.com/actor/$third-party
 ||kxcdn.com/prj/
@@ -16694,7 +16696,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||digidip.net^$domain=gofeminin.de
 !-----------------------Whitelists to fix broken sites------------------------!
 ! *** easylist:easyprivacy/easyprivacy_whitelist.txt ***
-@@/build/js/analytics.$script,domain=nbcbayarea.com|nbcboston.com|nbcchicago.com|nbcconnecticut.com|nbcdfw.com|nbclosangeles.com|nbcmiami.com|nbcnewyork.com|nbcphiladelphia.com|nbcsandiego.com|nbcwashington.com|necn.com|telemundo40.com|telemundo48elpaso.com|telemundoarizona.com|telemundolasvegas.com|telemundopr.com
+@@/build/js/analytics.$script,domain=lx.com|nbcbayarea.com|nbcboston.com|nbcchicago.com|nbcconnecticut.com|nbcdfw.com|nbclosangeles.com|nbcmiami.com|nbcnewyork.com|nbcphiladelphia.com|nbcsandiego.com|nbcwashington.com|necn.com|telemundo40.com|telemundo48elpaso.com|telemundoarizona.com|telemundolasvegas.com|telemundopr.com
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
 @@||1001trackstats.com/api/$xmlhttprequest,domain=songstats.com
 @@||ad.crwdcntrl.net^$script,domain=investopedia.com
