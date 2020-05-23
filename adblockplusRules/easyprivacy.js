@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: LA5Jst9/V+R8tzngSox8kg
-! Version: 202005220911
+! Checksum: PualYZQ6fC9VJwLnwWc/gw
+! Version: 202005230131
 ! Title: EasyPrivacy
-! Last modified: 22 May 2020 09:11 UTC
+! Last modified: 23 May 2020 01:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8531,6 +8531,7 @@ _mongo_stats/
 ||hammerhearing.com^$third-party
 ||hilariouszinc.com^$third-party
 ||historicalbeam.com^$third-party
+||hocgeese.com^$third-party
 ||homelycrown.com^$third-party
 ||horsenectar.com^$third-party
 ||immensehoney.com^$third-party
@@ -11275,6 +11276,7 @@ _mongo_stats/
 ||speedtrap.shopdirect.com^
 ||spot.im/api/tracker/
 ||spot.im^*/pixel?
+||spot.im^*/pixels
 ||spread.ly^*/statistics.php
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
 ||srvmath.com^*/analytics.js
@@ -16826,6 +16828,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||geni.us/snippet.min.js$script,domain=pcmonitors.info
 @@||geo-targetly.com/geolocation?id$script,third-party
 @@||geo.kaloo.ga/json/?$script,domain=telesurtv.net
+@@||geo.ngtv.io/locate/$domain=hbo.com
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=ibanez.com
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
 @@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
