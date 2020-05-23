@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: PualYZQ6fC9VJwLnwWc/gw
-! Version: 202005230131
+! Checksum: qmaZS1wEaAsaK3W9YA2YMw
+! Version: 202005231612
 ! Title: EasyPrivacy
-! Last modified: 23 May 2020 01:31 UTC
+! Last modified: 23 May 2020 16:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4789,6 +4789,7 @@
 /webAnalytics/*
 /webanalytics3.
 /WebAnalyticsInclude.
+/webanalyticsssl.
 /webbug.png?
 /webbug/*
 /webbug_c.gif?
@@ -6168,7 +6169,6 @@ _mongo_stats/
 ||easycounter.com^$third-party
 ||easyhitcounters.com^$third-party
 ||easyresearch.se^$third-party
-||eb4us.com^$third-party
 ||ebtrk1.com^$third-party
 ||ec-track.com^$third-party
 ||eclampsialemontree.net^$third-party
@@ -9293,7 +9293,6 @@ _mongo_stats/
 ||marsflag.com^$third-party
 ||mobylog.jp^$third-party
 ||msgs.jp^$third-party
-||n8s.jp^$third-party
 ||nex8.net^$third-party
 ||omiki.com^$third-party
 ||owldata.com^$third-party
@@ -9925,6 +9924,7 @@ _mongo_stats/
 ||audience.newscgp.com^
 ||audienceapi.newsdiscover.com.au^$third-party
 ||audienceinsights.net^$third-party
+||audioeye.com/ae.js
 ||audioeye.com/frame/cookieStorage.html
 ||audit.303br.net^
 ||audit.median.hu^
@@ -10472,7 +10472,6 @@ _mongo_stats/
 ||facebook.com*/impression.php
 ||facebook.com/*/plugins/send_to_messenger.php?app_id=$third-party
 ||facebook.com/ai.php?
-||facebook.com/ajax/bz?
 ||facebook.com/audience_network/$image
 ||facebook.com/brandlift.php
 ||facebook.com/common/cavalry_endpoint.php?
@@ -10710,6 +10709,7 @@ _mongo_stats/
 ||jailbaitchan.com/tp/
 ||jangomail.com^*?UID$third-party
 ||javascriptcounter.appspot.com^
+||jelly.mdhv.io^
 ||jobvite.com/analytics.js
 ||jotform.io/getReferrer/$third-party
 ||js-agent.newrelic.com^
@@ -13053,6 +13053,7 @@ _mongo_stats/
 ||codecguide.com/stats.js
 ||codeweblog.com/js/count.js
 ||coherentpath.com/tracker/
+||coinmarketcap.com/static/cloud/js/le.min.js
 ||collarity.com/ucs/tracker.js
 ||collector*.xhamster.
 ||collector-cdn.github.com^
@@ -16374,6 +16375,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||i2i.jp/bin/
 ||ln.ameba.jp^
 ||log.suumo.jp^
+||logql.yahoo.co.jp^
 ||measure.ameblo.jp^
 ||mmstat.com^$image
 ||mtc.nhk.or.jp^
@@ -17248,7 +17250,9 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.jp
 @@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.jp|radiko.jp
 @@||allabout.co.jp/mtx_cnt.js$script,~third-party
+@@||analytics.edgekey.net/config/$xmlhttprequest,domain=nhk.or.jp
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
+@@||analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js$script,domain=nhk.or.jp
 @@||assets.adobedtm.com^*-librarycode_source.min.js$script,domain=mora.jp
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
