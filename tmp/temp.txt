@@ -5,6 +5,7 @@ C:\Windows\System32\drivers\etc
 "D:\software\Python\python.exe" "$(FULL_CURRENT_PATH)"
 
 ------------------------------Chrome------------------------------
+chrome://flags/#dns-over-https
 
 chrome 64位离线安装包：https://liulanmi.com/chrome
 Stable正式版：https://www.google.com/chrome/browser/desktop/index.html?platform=win64&extra=stablechannel&standalone=1
