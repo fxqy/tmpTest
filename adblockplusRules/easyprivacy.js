@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: g+7IyAgQSoAdDmfBmFtnOA
-! Version: 202005240341
+! Checksum: Ho/H6YxWMgrbwcKr+us+eQ
+! Version: 202005241611
 ! Title: EasyPrivacy
-! Last modified: 24 May 2020 03:41 UTC
+! Last modified: 24 May 2020 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -15168,6 +15168,9 @@ _mongo_stats/
 ||zylom.com^*/global_tracking.jsp?
 ||zylom.com^*/tracking_spotlight.js
 ||zytpirwai.net/track/
+! portscanning from ebay
+! https://nullsweep.com/why-is-this-website-port-scanning-me/
+||127.0.0.1^$third-party,domain=ebay.ca|ebay.co.uk|ebay.com|ebay.com.au|ebay.de|ebay.fr
 ! Forter
 /^https?:\/\/.*[a-f0-9]{6,}\.cdn.*\.forter\.com\//$script,third-party
 ||forter.com/events
@@ -17122,7 +17125,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
-@@||googletagmanager.com/gtm.js?$domain=bunte.de|finanzen.net|saturn.at
+@@||googletagmanager.com/gtm.js?$domain=bunte.de|finanzen.net|radiorur.de|saturn.at
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
 @@||ksta.de/cre-1.0/tracking/call.js?$domain=ksta.de
 @@||ksta.de^*/api/tracking/service/ksta/templateclient.js$domain=ksta.de

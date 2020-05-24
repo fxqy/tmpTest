@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7rVNdyElcRc0Y9lOx8NPeQ
-! Version: 202005240341
+! Checksum: iKXGNpSkFHFusrH6MZ009A
+! Version: 202005241611
 ! Title: EasyList China+EasyList
-! Last modified: 24 May 2020 03:41 UTC
+! Last modified: 24 May 2020 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -20806,7 +20806,7 @@ fqsousou.com,kengso.com#@#.user-share
 /adplan4.
 /adplay.
 /adplayer-
-/adplayer.$domain=~adplayer.media
+/adplayer.$domain=~adplayer.media|~adplayer.pro
 /adplayer/*
 /adplugin.
 /adplugin/*
@@ -48444,6 +48444,7 @@ _popunder+$popup
 ##ytd-promoted-sparkles-web-renderer
 ##ytd-video-masthead-ad-v3-renderer
 ##ytm-promoted-sparkles-text-search-renderer
+##ytm-promoted-sparkles-web-renderer
 ! internetradiouk.com  / jamaicaradio.net / onlineradios.in etc
 ##.add-box-side
 ##.add-box-top
@@ -49665,6 +49666,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||aukalerim.com^
 ||aurdeert.net^
 ||aurtooks.com^
+||authorneratu.club^
 ||authornernsa.pro^
 ||auxml.com^
 ||averaladmi.info^
@@ -50398,6 +50400,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||otentieschoo.site^
 ||otsurvedchange.info^
 ||oughgoalityabo.info^
+||oukreesy.net^
 ||ouncialliberte.site^
 ||ountapaveralle.info^
 ||ousseventi.info^
@@ -71816,6 +71819,7 @@ $script,stylesheet,third-party,xmlhttprequest,domain=up-4ever.com|up-4ever.org
 |http://$script,third-party,xmlhttprequest,domain=project-free-tv.ag
 |https://$script,third-party,xmlhttprequest,domain=project-free-tv.ag
 ! fmovies
+@@/subtitles/*.vtt$xmlhttprequest,domain=mcloud.to
 @@||ajax.googleapis.com/ajax/libs/$script,domain=01fmovies.com|ffmovies.ru|fmovies.mx|fmovies.taxi|fmovies.world|fmovies123.cc|fmovieson.com|thefmovies.me
 @@||akacdn.ru^$image,other,script,stylesheet,domain=01fmovies.com|ffmovies.ru|fmovies.mx|fmovies.taxi|fmovies.world|fmovies123.cc|fmovieson.com|thefmovies.me
 @@||cloudflare.com^$script,stylesheet,domain=01fmovies.com|ffmovies.ru|fmovies.mx|fmovies.taxi|fmovies.world|fmovies123.cc|fmovieson.com|thefmovies.me
@@ -72217,6 +72221,7 @@ $script,stylesheet,third-party,xmlhttprequest,domain=vidshare.tv
 @@||akacdn.ru/f/subtitle/$xmlhttprequest,domain=mcloud.to
 @@||fonts.googleapis.com^$stylesheet,domain=mcloud.to
 @@||gstatic.com^$script,domain=mcloud.to
+@@||mcloud.to/key$script
 @@||mcloud.to/resources/$stylesheet,domain=mcloud.to
 @@||mcloud.to/resources/js/player.js$script,domain=mcloud.to
 |http://$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=mcloud.to
@@ -74493,10 +74498,12 @@ steroid.com##[href^="/out.php"]
 ettv.to##[href^="/poc.php"]
 seedpeer.me##[href^="https://downloadsafer.com/"]
 landline.media##[href^="https://landline.media/linkout/"]
+unknowncheats.me##[href^="https://proxiware.com/"]
 wakingtimes.com##[href^="https://shiftnetwork.infusionsoft.com"]
 troypoint.com##[href^="https://troypoint.com/vpn-"]
 mmorpg.com##[href^="https://www.blackdesertonline.com/tryforfree"]
 myreadingmanga.info##[href^="https://www.gaming-adult.com/"]
+unknowncheats.me##[href^="https://www.iwantcheats.net/"]
 ettv.to##[href^="https://www.my-privacy-protection.com/"]
 provideocoalition.com##[href^="https://www.provideocoalition.com/linkout/"]
 vedbex.com##[onclick]
@@ -85755,6 +85762,7 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||fwmrm.net^*/AdManager.js$script
 @@||g.doubleclick.net/gampad/ads$xmlhttprequest,domain=gamespot.com
 @@||g.doubleclick.net/tag/js/gpt.js$script,domain=9gag.com|accuweather.com|gamespot.com|webmd.com|womenshealthmag.com
+@@||g2crowd.com/uploads/product/image/$image,domain=g2.com
 @@||glos.ac.uk/DataRepository/CourseDatabase/*/adv/$image,~third-party
 @@||google.*/s?*&q=$~third-party,xmlhttprequest,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 @@||google.*/search?sclient=*&q=$~third-party,xmlhttprequest,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
