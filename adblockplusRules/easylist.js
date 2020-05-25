@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /GR4oYqygszpfQc5lGMOgA
-! Version: 202005241611
+! Checksum: bH/3mCXgkq+r3zdqD2WbDg
+! Version: 202005250851
 ! Title: EasyList
-! Last modified: 24 May 2020 16:11 UTC
+! Last modified: 25 May 2020 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -52824,6 +52824,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 /^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,domain=9xmovies.app|9xupload.xyz|mixdrop.co|mixdrop.to|ovagames.com
 ! In-page video advertising
 ||player.anyclip.com/anyclip-widget/$script,third-party
+||vidazoo.com/basev/widgets/widget.js$script,third-party
 ! mimecast proxying
 ||mimecast.com^$domain=motorcycleshows.com
 ! united.com endless adserver loading
