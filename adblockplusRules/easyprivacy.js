@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: OZlJbA86WB263F+Vc8sQrQ
-! Version: 202005251351
+! Checksum: CB42zt8eS6nHXWJ3Gv0hHw
+! Version: 202005260901
 ! Title: EasyPrivacy
-! Last modified: 25 May 2020 13:51 UTC
+! Last modified: 26 May 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9424,6 +9424,7 @@ _mongo_stats/
 ||1dmp.io^$third-party
 ||24log.ru^$third-party
 ||24smi.info^$third-party
+||24smi.net^$third-party
 ||2ip.ua^$third-party
 ||3wnp9.ru^$third-party
 ||a-counter.com.ua^$third-party
@@ -10617,6 +10618,7 @@ _mongo_stats/
 ||heroku.com/?callback=getip$third-party
 ||hgcdn.net/?$third-party
 ||hi.hellobar.com^
+||highwebmedia.com/CACHE/js/output.92c98302d256.js
 ||hit-pool.upscore.io^
 ||hits-*.iubenda.com^
 ||hits.dealer.com^
@@ -15170,7 +15172,7 @@ _mongo_stats/
 ||zytpirwai.net/track/
 ! portscanning from ebay
 ! https://nullsweep.com/why-is-this-website-port-scanning-me/
-||127.0.0.1^$third-party,domain=ebay.ca|ebay.co.uk|ebay.com|ebay.com.au|ebay.de|ebay.fr
+||127.0.0.1^$third-party,domain=ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl
 ! Forter
 /^https?:\/\/.*[a-f0-9]{6,}\.cdn.*\.forter\.com\//$script,third-party
 ||forter.com/events
