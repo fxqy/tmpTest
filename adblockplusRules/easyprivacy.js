@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: /Hg/UHjragGVp30qD/mXKQ
-! Version: 202005270251
+! Checksum: H923sGNjmOEqL5/YCt+WZg
+! Version: 202005271442
 ! Title: EasyPrivacy
-! Last modified: 27 May 2020 02:51 UTC
+! Last modified: 27 May 2020 14:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -11837,6 +11837,7 @@ _mongo_stats/
 ||mastertag.kpcustomer.de^
 ||mastertag.q-sis.de^
 ||mehrwertdienstekompetenz.de/cp/$third-party
+||met.vgwort.de^
 ||mindwerk.net/zaehlpixel.php?
 ||mlm.de/counter/
 ||mlm.de/pagerank-ranking/
