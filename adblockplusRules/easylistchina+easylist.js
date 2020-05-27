@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iRWH+YKXCknurpERp6e3rw
-! Version: 202005260901
+! Checksum: rL1qDGDtS74O9Q1urWgF8A
+! Version: 202005270251
 ! Title: EasyList China+EasyList
-! Last modified: 26 May 2020 09:01 UTC
+! Last modified: 27 May 2020 02:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -1084,8 +1084,6 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||harahero.top^
-||i8ggwm.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -2345,6 +2343,7 @@ ubmcmm.baidustatic.com
 ||haoqq.me^$third-party
 ||haosf.com^$third-party
 ||haoyiwang.net^$third-party
+||harahero.top^
 ||harridan.cc^
 ||hascosafety.com^
 ||hauchi.com.tw^$third-party
@@ -2451,6 +2450,7 @@ ubmcmm.baidustatic.com
 ||i000o.com^$third-party
 ||i3818.com^
 ||i3z.cn^$third-party
+||i8ggwm.com^
 ||i92xue.com^
 ||icast.cn^$third-party
 ||icemf.com^
@@ -3653,6 +3653,7 @@ ubmcmm.baidustatic.com
 ||xmsqz.com^
 ||xmtsyg.com^
 ||xmxxwl.com^
+||xn--2qu92fhtx4ff.site^
 ||xn--2qu96gouvko1a.com^
 ||xn--2quz8f01ak10c.shop^
 ||xn--czrshy5v7kb.cc^
@@ -8921,6 +8922,7 @@ _yad_jsonp_
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+56.com##.goods_show
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -9517,6 +9519,7 @@ gamer.com.tw###flyRightBox
 gamer.com.tw###flySalve
 juxia.com###fmt
 bd-film.cc###fmtdiv
+hkmytv.com###fnbt
 apk.tw###focus
 news.qq.com###focus-bar
 qq.com###focus_jordon
@@ -10135,6 +10138,7 @@ baidu.com###sning2
 baidu.com###sning3
 sogou.com###sogou_vr_10000901_0 > div[style="display:block;"]
 sogou.com###sogou_vr_21355601_wrap_0
+w3school.com.cn###sp_tiy
 baidu.com###spage-top-banner
 downbank.cn,greenxf.com###speed-download
 greenxf.com###speed-downloader
@@ -13371,8 +13375,8 @@ mse.360.cn##a[id^="banner"]
 5118.com##a[id^="home-"]
 moxing.net##a[marked][href*=".taobao.com"]
 360-bo.com##a[name="thegg"]
+ddooo.com##a[onclick*=",\"d"]
 frdic.com,godic.net##a[onclick*="/ads/"]
-ddooo.com##A[onclick*=",\"d"]
 pcsoft.com.cn##a[onclick*="_ad"]
 caibaojian.com##a[onclick*="aliyun"]
 caibaojian.com##a[onclick*="aly"]
@@ -14201,7 +14205,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/bag2?r[]=*&r[]=$domain=free.com.tw
 @@/common/cf/*$domain=66u.com|changhong.com|fei3d.com|oneplusbbs.com|readboy.com
 @@/cpc_cpm_$domain=ygo-sem.cn
-@@/fuckadblock.$domain=bde4.com|ck101.com|datehub.co|dilidili.one|golangnote.com|lnk2.cc|papalah.com|poedb.tw|qqdie.com
+@@/fuckadblock.$domain=bde4.com|ck101.com|datehub.co|dilidili.one|golangnote.com|joyk.com|lnk2.cc|papalah.com|poedb.tw|qqdie.com
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com
 @@/home/ads/*$domain=esunbank.com.tw
 @@/image/ad/*$domain=gashpoint.com
@@ -14556,6 +14560,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||jjjgame.com/plus/ad_
 @@||jjkmn.com^$generichide
 @@||jlthjy.com^$generichide
+@@||joyk.com^$generichide
 @@||jrhot.com/data/attachment/*_300_250_
 @@||js.tudouui.com/bin/player2/$object
 @@||jswenhui.com^*/ad/
@@ -15364,6 +15369,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||du1.bbdj.com^
 ||dudm.qingsj.cn^
 ||dyscb.cn^$third-party
+||edu.jiukang.org^
 ||ee.shixunwang.net^
 ||ejunshi.com^
 ||emjs.mkzhan.com^
@@ -16260,6 +16266,7 @@ xuehongxs.com##DIV[id^="cs_DIV_cscpvrich"]
 ||abie11.top^
 ||abie12.top^
 ||abie13.top^
+||abie15.top^
 ||abie25.top^
 ||abie9.top^
 ||abuse8.com^
@@ -16310,6 +16317,7 @@ xuehongxs.com##DIV[id^="cs_DIV_cscpvrich"]
 ||anmeilai.net^
 ||anyysz.com^
 ||aomde.com^
+||aoyou2.top^
 ||apjiangte.com^
 ||apmengxin.com^
 ||applequan.com^
@@ -16794,6 +16802,7 @@ xuehongxs.com##DIV[id^="cs_DIV_cscpvrich"]
 ||gou1zhe.com^
 ||goulanmeng.cn^
 ||gralfusnzpo003.top^
+||gralfusnzpo004.top^
 ||gringrin.cn^
 ||grjs02.com^
 ||grjs06.com^
@@ -17157,6 +17166,7 @@ xuehongxs.com##DIV[id^="cs_DIV_cscpvrich"]
 ||kxhie.com^
 ||kyxnz.cn^
 ||kz8tr2.cn^
+||l29qi.xyz^
 ||l30od.cn^
 ||l4elb.cn^
 ||l7g4e.cn^
@@ -17618,6 +17628,7 @@ xuehongxs.com##DIV[id^="cs_DIV_cscpvrich"]
 ||sjczsc.com^
 ||sjljz.cn^
 ||sjuqc.com^
+||sjzxiqu.cn^
 ||skyttt.com^
 ||slivercommander.cn^
 ||slvtx.com^
@@ -18008,6 +18019,7 @@ xuehongxs.com##DIV[id^="cs_DIV_cscpvrich"]
 ||yfyoyo.com^
 ||yg10x.cn^
 ||ygblogtag.cn^
+||ygiqfnn.cn^
 ||ygqczh.com^
 ||yguap.com^
 ||yicang8.com^
@@ -49995,6 +50007,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||fastdld.com^
 ||fastdln.com^
 ||fatbuydoc.com^
+||fatwalkinger.club^
 ||fazoumee.net^
 ||fed21ff011.com^
 ||feed.r-tb.com^
@@ -50011,6 +50024,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ffortyimagist.info^
 ||fibpeeode.site^
 ||fibusedie.site^
+||fifa.s4d.xyz^
 ||fifo.s4d.xyz^
 ||findicaterperty.site^
 ||fingahvf.top^
@@ -50378,6 +50392,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||obtainlylibuk.club^
 ||od0gddq27wkk.com^
 ||oevqxivhquovq.com^
+||offerimage.com^
 ||offickiekizashi.site^
 ||officultpolicit.pro^
 ||ofgogoatan.com^
@@ -50510,6 +50525,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||push.house^
 ||pushisbest.com^
 ||pushpush.net^
+||pushsar.com^
 ||pushworldtool.com^
 ||q6idnawboy7g.com^
 ||qmvezbh0l28w.com^
@@ -50575,6 +50591,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||robjamguy.club^
 ||ronbriticated.site^
 ||ronoutom.net^
+||roots.s4d.xyz^
 ||roustast.net^
 ||routeme.one^
 ||routeserve.info^
@@ -50583,6 +50600,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||rsleaderingmu.info^
 ||rsvph.xyz^
 ||rtionalgospecul.site^
+||rtmark.net^
 ||runmeethoomes.info^
 ||rydresa.info^
 ||ryhastille.info^
@@ -74479,6 +74497,7 @@ dnsleaktest.com##.sponsor
 coingecko.com,duckduckgo.com##.sponsored
 armageddonexpo.com,ferrarichat.com##.sponsors
 kathmandupost.com##.sticky--bottom
+linuxize.com##.sticky-affiliate
 babylonbee.com##.sticky-footer-image
 readarsenal.com##.stickyContainerMpu
 coincodex.com##.sticky_nexinter

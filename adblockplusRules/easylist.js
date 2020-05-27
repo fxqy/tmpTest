@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3VyoT1Feit+Z7UZJpc5ijQ
-! Version: 202005260901
+! Checksum: ajrdoyCH6ssaOmdrLFlMdA
+! Version: 202005270251
 ! Title: EasyList
-! Last modified: 26 May 2020 09:01 UTC
+! Last modified: 27 May 2020 02:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -31426,6 +31426,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||fastdld.com^
 ||fastdln.com^
 ||fatbuydoc.com^
+||fatwalkinger.club^
 ||fazoumee.net^
 ||fed21ff011.com^
 ||feed.r-tb.com^
@@ -31442,6 +31443,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ffortyimagist.info^
 ||fibpeeode.site^
 ||fibusedie.site^
+||fifa.s4d.xyz^
 ||fifo.s4d.xyz^
 ||findicaterperty.site^
 ||fingahvf.top^
@@ -31809,6 +31811,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||obtainlylibuk.club^
 ||od0gddq27wkk.com^
 ||oevqxivhquovq.com^
+||offerimage.com^
 ||offickiekizashi.site^
 ||officultpolicit.pro^
 ||ofgogoatan.com^
@@ -31941,6 +31944,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||push.house^
 ||pushisbest.com^
 ||pushpush.net^
+||pushsar.com^
 ||pushworldtool.com^
 ||q6idnawboy7g.com^
 ||qmvezbh0l28w.com^
@@ -32006,6 +32010,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||robjamguy.club^
 ||ronbriticated.site^
 ||ronoutom.net^
+||roots.s4d.xyz^
 ||roustast.net^
 ||routeme.one^
 ||routeserve.info^
@@ -32014,6 +32019,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||rsleaderingmu.info^
 ||rsvph.xyz^
 ||rtionalgospecul.site^
+||rtmark.net^
 ||runmeethoomes.info^
 ||rydresa.info^
 ||ryhastille.info^
@@ -55910,6 +55916,7 @@ dnsleaktest.com##.sponsor
 coingecko.com,duckduckgo.com##.sponsored
 armageddonexpo.com,ferrarichat.com##.sponsors
 kathmandupost.com##.sticky--bottom
+linuxize.com##.sticky-affiliate
 babylonbee.com##.sticky-footer-image
 readarsenal.com##.stickyContainerMpu
 coincodex.com##.sticky_nexinter
