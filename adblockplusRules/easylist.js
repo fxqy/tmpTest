@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KTZAbQX0EfVrq8a3nW91yw
-! Version: 202005290911
+! Checksum: 1xUH8q8cJHCmVVKuULkn2g
+! Version: 202005300111
 ! Title: EasyList
-! Last modified: 29 May 2020 09:10 UTC
+! Last modified: 30 May 2020 01:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -331,6 +331,7 @@
 -banner-ad-
 -banner-ad.
 -banner-ad/
+-banner-ad_
 -banner-ads-
 -banner-ads/
 -Banner-Advert-
@@ -609,7 +610,7 @@
 .com/a?size
 .com/ad.$~script,domain=~ad-tuning.de
 .com/ad/$~image,third-party,domain=~mediaplex.com
-.com/ad/$~third-party,domain=~blogs.technet.microsoft.com|~channel4.com|~cspace.com|~linkedin.com|~mediaplex.com|~namemc.com
+.com/ad/$~third-party,domain=~blogs.technet.microsoft.com|~channel4.com|~cspace.com|~linkedin.com|~mediaplex.com|~namemc.com|~suicidegirlsfree.com
 .com/ad1/
 .com/ad2/
 .com/ad6/
@@ -2945,6 +2946,7 @@
 /adsdaqsky_
 /adsDateValidation.
 /adsdelivery.
+/adsDesktop.
 /adsdfp/*
 /adsdk/*
 /adsdm.
@@ -16796,6 +16798,7 @@ _popunder+$popup
 ###stationad
 ###sticky-ad
 ###sticky-ad-container
+###sticky-ad-header
 ###sticky-top-ad-spacer
 ###sticky-top-ad-wrap
 ###stickyAd
@@ -17949,6 +17952,7 @@ _popunder+$popup
 ##.Squareadspot
 ##.StandardAdLeft
 ##.StandardAdRight
+##.Sticky-AdContainer
 ##.StickyAdRail__Inner
 ##.SummaryPage-HeaderAd
 ##.TOP-ADS
@@ -31757,6 +31761,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ml0z14azlflr.com^
 ||mlsys.xyz^
 ||mmnk.s4d.xyz^
+||mmpo.s4d.xyz^
 ||moapteeg.net^
 ||mob1ledev1ces.com^
 ||mobbahjug.com^
@@ -55797,7 +55802,7 @@ webkinz.com##.a_d-bg
 ncomputers.org##.ab
 searchenginejournal.com##.absolute-banner
 motherjones.com,movieweb.com,toolbox.com,truecaller.com,vitalmtb.com,webmd.com##.ad
-gfinityesports.com,pjmedia.com##.ad-container
+fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxla.com,gfinityesports.com,ktvu.com,my9nj.com,pjmedia.com,wogx.com##.ad-container
 famously-dead.com,famouslyarrested.com,famouslyscandalous.com,slacker.com##.ad2
 interestingengineering.com##.adW
 samachar.com##.add-slot-fluid
@@ -55858,6 +55863,7 @@ borncity.com##.code-block-5
 borncity.com##.code-block-6
 readlightnovel.org##.col-lg-12[style="min-height:280px;"]
 hltv.org##.col-rek
+telegraph.co.uk##.commercial-unit
 zdnet.com##.content-leaderboard-bottom
 zdnet.com##.content-leaderboard-top
 zdnet.com##.content-mpu-bottom
@@ -56003,6 +56009,7 @@ belfastlive.co.uk,birminghammail.co.uk,bristolpost.co.uk,cambridge-news.co.uk,ch
 streamty.com##.video_adp3
 vev.io##.vjs-overlay
 vidup.io##.vjs-overlay-background
+telegraph.co.uk##.voucher-code
 windowsreport.com##.w-report-affiliate
 wplift.com##.widget_bsa
 windowsloop.com##.wl-prakatana
@@ -56014,6 +56021,7 @@ hltv.org##[class$="b-list"]
 hltv.org##[class*="geo"]
 hltv.org##[class*="widget"]
 indiatimes.com##[class] > div > div > [onclick]
+uploader.link##[class^="ads"]
 hltv.org##[href*="bbfun88.com"]
 carmag.co.za,clipwatching.com,mbauniverse.com,motachashma.com,senimovie.co,trancentral.tv##[href*="bit.ly/"]
 steroid.com##[href*="https://www.anabolics.com"]
@@ -56565,7 +56573,6 @@ libraryjournal.com###boomBox
 local.co.uk###borderTab
 snapfiles.com###borderbar
 reference.com###bot
-mp3lyrics.org###bota
 trutv.com###botleadad
 phonescoop.com###botlink
 forums.vr-zone.com,hplusmagazine.com,j.gs,q.gs###bottom
@@ -61419,7 +61426,6 @@ bnd.com##.jobs_widget_large
 ninemsn.com.au##.jobsearchBox
 radiotoday.com.au##.jobsstyle
 toorgle.net##.join
-inews.co.uk##.jp-slot
 marinelink.com,maritimepropulsion.com,yachtingjournal.com##.jq-banner
 buzzfeed.com##.js-bfa-impression
 haaretz.com##.js-clickTracker-for-addBlocker
@@ -63153,7 +63159,6 @@ independent.co.uk##.tm_300_container
 timeout.com##.to-offers
 tvguide.co.uk##.to_clickable_area
 ghanaweb.com##.tonaton-ads
-mp3lyrics.org##.tonefuse_link
 newsok.com##.toolbar_sponsor
 w3schools.com##.tooltip + div[style="height:90px;"]
 euobserver.com,runescape.com,thehill.com##.top

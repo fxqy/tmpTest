@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: AzU+07vk53VkAPkyA+mLWA
-! Version: 202005290911
+! Checksum: RUKGpKZYIdou/ezMo9zDzg
+! Version: 202005300111
 ! Title: EasyPrivacy
-! Last modified: 29 May 2020 09:11 UTC
+! Last modified: 30 May 2020 01:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2050,6 +2050,7 @@
 /gifstats.
 /gigyaGAIntegration.
 /gingeranalytics.
+/GlancePresenceVisitor_
 /glb-pv-min.js
 /glbltrackjs.
 /global-analytics.js
@@ -3112,7 +3113,7 @@
 /pageview?user_guid=
 /pageviews-counter-
 /pageviews.gif?
-/pageviews/*$domain=~stats.wikimedia.org|~tools.wmflabs.org
+/pageviews/*$domain=~pageviews.toolforge.org|~stats.wikimedia.org|~tools.wmflabs.org
 /pageviews?token=
 /pageviews_counter.
 /PageviewsTracker.
@@ -4025,9 +4026,8 @@
 /tagAnalyticsCNIL.
 /TagAuditBeacon.
 /tagCNIL.js
+/tagcommander.
 /TagCommander.cfc?
-/tagcommander.js
-/tagcommander.min.js
 /tagcommander/desktop_
 /tagcommander/mobile_
 /tagcommander_
@@ -8041,6 +8041,9 @@ _mongo_stats/
 ||zroitracker.com^$third-party
 ||ztsrv.com^$third-party
 ||zuzab.com^$third-party
+! Fingerprinting
+||guoshipartners.com^$third-party
+||push4site.com^$third-party
 ! Mining
 .1.1.1.l80.js^$third-party
 .n.2.1.js^$third-party
@@ -9459,6 +9462,7 @@ _mongo_stats/
 ||mystat-in.net^$third-party
 ||mytopf.com^$third-party
 ||opentracking.ru^$third-party
+||otclick-adv.ru^$third-party
 ||pladform.ru^$third-party
 ||pmbox.biz^$third-party
 ||proext.com^$third-party
@@ -12594,7 +12598,6 @@ _mongo_stats/
 ||advancedmp3players.co.uk/support/visitor/index.php?
 ||advancedtracker.appspot.com^
 ||advfn.com/space.gif?
-||aexp-static.com/api/axpi/omniture/s_code_serve.js?$domain=serve.com
 ||affiliate.resellerclub.com^
 ||affiliates.genealogybank.com^
 ||affiliates.londonmarketing.com^
@@ -12650,6 +12653,7 @@ _mongo_stats/
 ||amazonaws.com^*/pzyche.js
 ||amcnets.com/cgi-bin/true-ip.cgi
 ||amd.com/us/as/vwo/vwo_
+||americanexpress.com/beacon
 ||americanexpress.com/monitoring/
 ||amy.gs/track/
 ||analytic.imlive.com^
@@ -13093,6 +13097,7 @@ _mongo_stats/
 ||dominos.co.uk^*/universal.html?
 ||dp.shoprunner.com^
 ||dragonstatic.com/parking/js/track.js
+||drop.com/impressionsBeacon
 ||dropbox.com/alternate_
 ||dropbox.com/el/?b=open:
 ||dropbox.com/log/
@@ -13595,7 +13600,6 @@ _mongo_stats/
 ||kelkoo.co.uk/kk_track?
 ||kelkoo.co.uk^*/tracker/
 ||kelkoo.com/kk_track?
-||kg.aws.mashable.com^
 ||killerstartups.com^*/adsensev
 ||kinesisproxy.hearstlabs.com^
 ||king.com/api/events?
@@ -13609,8 +13613,7 @@ _mongo_stats/
 ||kohls.com/_bm/_data
 ||kohls.com/test_rum?
 ||kosmix.com^*.txt?pvid=
-||kyte.tv/flash/MarbachMetricsOmniture.swf
-||kyte.tv/flash/MarbachMetricsProvider.swf
+||krakenlyrics.com/view?
 ||laas.americanexpress.com^
 ||lancasteronline.com/javascript/ga.php
 ||landrover.com/system/logging/
@@ -13707,8 +13710,7 @@ _mongo_stats/
 ||marketing.nodesource.com^
 ||marriott.com^*/Bootstrap.js
 ||marriott.com^*/mi_customer_survey.js
-||mashable.com/pv.xml
-||massdrop.com*^/pixelrb?
+||mashable.com/s/js/zad.js
 ||mastercard.com^*/Analytics/
 ||matchesfashion.com/js/Track.js
 ||mate1.com^*/iframe/pixel/
@@ -13804,9 +13806,9 @@ _mongo_stats/
 ||mozilla.com/js/track.js
 ||mozilla.net^*/webtrends/
 ||mozilla.org/includes/min/*=js_stats
-||mp3lyrics.org^*/cnt.php?
 ||mql5.com/tr?
 ||msecnd.net^*/wt.js?
+||mshcdn.com/assets/lib/aab-$script,domain=mashable.com
 ||msn.com/collect/
 ||msn.com/ro.aspx?
 ||msn.com/script/tracking*.js
@@ -15077,9 +15079,13 @@ _mongo_stats/
 ||zylom.com^*/global_tracking.jsp?
 ||zylom.com^*/tracking_spotlight.js
 ||zytpirwai.net/track/
-! portscanning from ebay
+! Ebay trackers
 ! https://nullsweep.com/why-is-this-website-port-scanning-me/
 ||127.0.0.1^$third-party,domain=ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl
+||ebay.com/nkfytkqtoxtljvzb.js$script,domain=ebay.com
+||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
+||ebaystatic.com^*/10341xh50yz21mhhydueu4m5wad.js$script,domain=ebay.com
+||ebaystatic.com^*/g52yxhxv2mzcbealmlkri4kn5av.js$script,domain=ebay.com
 ! Forter
 /^https?:\/\/.*[a-f0-9]{6,}\.cdn.*\.forter\.com\//$script,third-party
 ||forter.com/events
@@ -15422,7 +15428,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ! Preliminarily blocking Omniture s_code tracking scripts (versions H.25 - H.25.2) due to breakage (https://adblockplus.org/forum/viewtopic.php?f=10&t=11378)
 ||abc.com/service/gremlin/js/files/s_code.js?$domain=abc.go.com
 ||adobe.com^*/omniture_s_code.js
-||aexp-static.com/api/axpi/omniture/s_code_myca_context.js$domain=americanexpress.com
 ||aircanada.com/shared/common/sitecatalyst/s_code.js
 ||announcements.uk.com^*/s_code.js
 ||atgstores.com/js/lowesca_s_code.js$domain=lowes.ca
@@ -16127,6 +16132,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||tr.discuss.com.hk^
 ||tr.price.com.hk^
 ||track.sohu.com^
+||trackjay.cool3c.com^
 ||tv.sohu.com/upload/trace/
 ||uestat.video.qiyi.com^
 ||utrack.hexun.com^
