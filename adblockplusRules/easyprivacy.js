@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: RUKGpKZYIdou/ezMo9zDzg
-! Version: 202005300111
+! Checksum: 3aebt9PjtuAp2o6ZNrdmNw
+! Version: 202005310202
 ! Title: EasyPrivacy
-! Last modified: 30 May 2020 01:11 UTC
+! Last modified: 31 May 2020 02:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2241,6 +2241,7 @@
 /i?redir=*&page=*&cookie=
 /i?siteid=
 /i?stm=
+/ibeat.min.js
 /icf-analytics.js
 /iclogs?
 /icon.gif?type=
@@ -3011,6 +3012,7 @@
 /onfocus-tag.
 /onlinecount.php
 /onsitegeo.
+/onstuimig-tag-
 /opdc.gif?
 /opdc.js
 /open.aspx?
@@ -5223,6 +5225,8 @@ _xiti_js-
 _zag_cookie.
 cgi-bin/counter
 ||meetrics.netbb-
+! Cloudflare fingerprinting
+/cgi-bin/bm/cv/*$script
 ! Admiral
 _admiral.
 ! eventbrite tracking
@@ -5668,6 +5672,7 @@ _mongo_stats/
 ||apicit.net^$third-party
 ||apollofind.com^$third-party
 ||appboycdn.com^$third-party
+||appcast.io^$third-party
 ||appn.center^$third-party
 ||appsflyer.com^$third-party
 ||aprtn.com^$third-party
@@ -6529,6 +6534,7 @@ _mongo_stats/
 ||i401xox.com^$third-party
 ||iaudienc.com^$third-party
 ||ib-ibi.com^$third-party
+||ibeat-analytics.com^$third-party
 ||ibpxl.com^$third-party
 ||ibpxl.net^$third-party
 ||ic-live.com^$third-party
@@ -10631,6 +10637,7 @@ _mongo_stats/
 ||informer.yandex.ru^
 ||infosniper.net/locate-ip-on-map.php
 ||infusionsoft.com^*/getTrackingCode?
+||innogamescdn.com/media/js/metrics-
 ||inphonic.com/tracking/
 ||inq.com/tagserver/logging/
 ||inq.com/tagserver/tracking/
@@ -11716,10 +11723,13 @@ _mongo_stats/
 ||zoomtv.me^*?pixel=
 ||zoover.co.uk/tracking/
 ||zope.net^*/ghs_wa.js
+! Fingerprinting
+||socital.com^*/socital.js
+||static.geetest.com/static/js/fullpage.*.js
 ! uBO-CNAME (Specific whitelists)
-||go.techtarget.com^
+||go.techtarget.com^$image,script
 ||trk.techtarget.com^
-||users.techtarget.com^
+||users.techtarget.com^*/GetCookiesWithCallback?
 ! akamai
 ||akamai.com/crs/lgsitewise.js
 ||akamai.net/*.babylon.com/trans_box/
@@ -13300,7 +13310,8 @@ _mongo_stats/
 ||freeones.com^*/cd/?cookies=
 ||freepik.com/_ga?
 ||fresh.techdirt.com^
-||frog.wix.com^
+||frog.wix.com/hls2?
+||frog.wix.com/p?
 ||frontdoor.com/_track?
 ||frstatic.net^*/tracking.js
 ||ft.com/conker/service/pageview?
@@ -13343,6 +13354,7 @@ _mongo_stats/
 ||geo.nbcsports.com^
 ||geo.play.it^
 ||geo.yahoo.com^
+||geoapi.indiatimes.com^
 ||geobeacon.ign.com^
 ||geoip-lookup.vice.com^
 ||geoip.al.com^
@@ -15081,6 +15093,7 @@ _mongo_stats/
 ||zytpirwai.net/track/
 ! Ebay trackers
 ! https://nullsweep.com/why-is-this-website-port-scanning-me/
+/^https?:\/\/ir\.ebaystatic\.com\/rs\/v\/[a-zA-Z0-9]{18,}\.js/$script,domain=vipr.ebaydesc.com
 ||127.0.0.1^$third-party,domain=ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl
 ||ebay.com/nkfytkqtoxtljvzb.js$script,domain=ebay.com
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
@@ -16456,6 +16469,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||vesti.ru/counter/
 ||yandex.ru/clck/click
 ||yandex.ru/clck/jclck/
+||yandex.ru/log?
 ||yast.rutube.ru^
 ! Serbian
 ! Slovene
