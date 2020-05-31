@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 3aebt9PjtuAp2o6ZNrdmNw
-! Version: 202005310202
+! Checksum: xvoLjx3HeBXhEEc8kEPu/g
+! Version: 202005311552
 ! Title: EasyPrivacy
-! Last modified: 31 May 2020 02:02 UTC
+! Last modified: 31 May 2020 15:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1700,6 +1700,7 @@
 /emtj_tracker.
 /end.gif?
 /endpoint/stats.
+/EndpointTracker/*
 /engine/ping?
 /ent_counter?
 /entry.count.image?
@@ -1866,12 +1867,14 @@
 /FoxAnalyticsExtension.
 /FoxBlueKaiPlugIn.
 /FoxComScore.
+/fp/check.js
 /fp/clear.png?
 /fp/tags.js?
 /fpc.pl?a=
 /fpcookie?
 /fpcount.exe
 /fps/check.
+/fpv2.js
 /freecgi/count.cgi?
 /friendbuy.min.js
 /frosmo.easy.js
@@ -4176,6 +4179,7 @@
 /track/component/*
 /track/count*js
 /track/event/*
+/track/hit.gif
 /track/imp/*?ur=$image
 /track/imp?
 /track/impression/*
@@ -4646,6 +4650,7 @@
 /v1/pixel?
 /v1/r.gif?
 /v1/tracker.js
+/v2/tracking/*
 /v4/analytics.
 /v4/analytics/*$~xmlhttprequest
 /v5.3nse.
@@ -6839,6 +6844,7 @@ _mongo_stats/
 ||mediaarmor.com^$third-party
 ||mediaforgews.com^$third-party
 ||mediagauge.com^$third-party
+||mediaglacier.com^$third-party
 ||mediametrics.ru^$third-party
 ||mediaplex.com^$third-party
 ||mediarithmics.com^$third-party
@@ -7482,6 +7488,7 @@ _mongo_stats/
 ||smart-dmp.com^$third-party
 ||smart-ip.net^$third-party
 ||smart-traffik.com^$third-party
+||smartclip-services.com^$third-party
 ||smartctr.com^$third-party
 ||smarterhq.io^$third-party
 ||smarterremarketer.net^$third-party
@@ -7744,6 +7751,7 @@ _mongo_stats/
 ||tradelab.fr^$third-party
 ||tradescape.biz^$third-party
 ||trafex.net^$third-party
+||traffer.net^$third-party
 ||trafficby.net^$third-party
 ||trafficengine.net^$third-party
 ||trafficfacts.com^$third-party
@@ -8048,8 +8056,26 @@ _mongo_stats/
 ||ztsrv.com^$third-party
 ||zuzab.com^$third-party
 ! Fingerprinting
+||breaktime.com.tw^$third-party
+||brightedge.com^$third-party
+||citrusad.net^$third-party
+||clickguardian.app^$third-party
+||clickyab.com^$third-party
+||franecki.net^$third-party
 ||guoshipartners.com^$third-party
+||hostpush.info^$third-party
+||ismatlab.com^$third-party
+||iwqzrm.com^$third-party
+||klangoo.com^$third-party
+||p30rank.ir^$third-party
+||ppcprotect.com^$third-party
 ||push4site.com^$third-party
+||ravelin.net^$third-party
+||sabavision.com^$third-party
+||sealine.pro^$third-party
+||simility.com^$third-party
+||spideraf.com^$third-party
+||vtex.com.br^$third-party
 ! Mining
 .1.1.1.l80.js^$third-party
 .n.2.1.js^$third-party
@@ -9172,6 +9198,8 @@ _mongo_stats/
 ! Indonesian
 ||analytic.rocks^$third-party
 ||props.id^$third-party
+! Iranian
+||rvkcpqz.com^
 ! Italian
 ||0stats.com^$third-party
 ||accessi.it^$third-party
@@ -9380,6 +9408,7 @@ _mongo_stats/
 ||orquideassp.com^$third-party
 ||percycle.com^$third-party
 ||rdstation.com.br^$third-party
+||retargeter.com.br^$third-party
 ||sambaads.com^$third-party
 ||tailtarget.com^$third-party
 ||trugaze.io^$third-party
@@ -9593,6 +9622,7 @@ _mongo_stats/
 ||weblog.com.ua^$third-party
 ||zmctrack.net^$third-party
 ! Vietnamese
+||adtimaserver.vn^$third-party
 ||amcdn.vn^$third-party
 ||contineljs.com^$third-party
 ||gostats.vn^$third-party
@@ -10138,6 +10168,7 @@ _mongo_stats/
 ||collector-*.tvsquared.com^
 ||collector-api.99designs.com^
 ||collector.automote.co.nz^
+||collector.clareity.net^
 ||collector.contentexchange.me^$third-party
 ||collector.mazeberry.com^
 ||collector.roistat.com^
@@ -10532,12 +10563,14 @@ _mongo_stats/
 ||go.com/capmon/GetDE/?
 ||go.optifuze.com^
 ||go.toutapp.com^$third-party
+||go.trouter.skype.com^
 ||goadv.com^*/track.js
 ||goaww.com/stats.php
 ||godaddy.com/js/gdwebbeacon.js
 ||google.com/analytics/$third-party
 ||google.com/insights/$script,third-party
 ||googleapis.com/aam.js
+||googleapis.com/gadasource/gada.js
 ||googleapis.com/ivc.js
 ||googleapis.com^*/gen_204?
 ||googlecode.com^*/tracker.js
@@ -11724,8 +11757,27 @@ _mongo_stats/
 ||zoover.co.uk/tracking/
 ||zope.net^*/ghs_wa.js
 ! Fingerprinting
+||apps-pro.tid.es/external/tailormade-no-jquery-
+||bcicdn.com^*/hg.js
+||cloudfront.net/js/grin-sdk.js
+||dingxiang-inc.com/ctu-group/constid-js/index.js
+||fyrsbckgi-c.global.ssl.fastly.net^
+||he7ll.com/api/js/ec-
+||ltwebstatic.com^*/assets/common.$script
+||mhxk.com^*/main/entry.common.$script
+||nofraud.com/js/device.js
+||nofraud.com^*/customer_code.js
+||pgimgs.com^*/desktop_js_header.js
+||poll-maker.com^*/scpolls.js
+||promo.ge/res/delivery/delivery.js
+||realperson.de/system/third-party/rpfp/rpfp.min.js
+||ref.dealerinspire.com^
+||resu.io/scripts/resclient.min.js
+||risk.clearbit.com^
 ||socital.com^*/socital.js
 ||static.geetest.com/static/js/fullpage.*.js
+||talkingdata.com^*/sdk_release.js
+||targeting.voxus.tv^
 ! uBO-CNAME (Specific whitelists)
 ||go.techtarget.com^$image,script
 ||trk.techtarget.com^
@@ -12483,6 +12535,7 @@ _mongo_stats/
 ||stat.tvigle.ru^
 ||stats-*.p2pnow.ru^
 ||stats.seedr.com^
+||stats.tazeros.com^
 ||subscribe.ru/1.gif/$image
 ||target.mirtesen.ru^
 ||target.smi2.net^
@@ -15099,6 +15152,8 @@ _mongo_stats/
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ebaystatic.com^*/10341xh50yz21mhhydueu4m5wad.js$script,domain=ebay.com
 ||ebaystatic.com^*/g52yxhxv2mzcbealmlkri4kn5av.js$script,domain=ebay.com
+! Fingerprint
+||tipsport.org/scripts/closure.js
 ! Forter
 /^https?:\/\/.*[a-f0-9]{6,}\.cdn.*\.forter\.com\//$script,third-party
 ||forter.com/events
@@ -17108,8 +17163,9 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||d2wzl9lnvjz3bh.cloudfront.net/frosmo.easy.js$domain=lippu.fi
 @@||dynamicyield.com/api/$script,domain=gigantti.fi
 @@||frosmo.com^$xmlhttprequest,domain=kauppahalli24.fi
-@@||googletagmanager.com/gtm.js?$domain=cdon.fi
+@@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 @@||inpref.s3.amazonaws.com/sites/$script,domain=kauppahalli24.fi
+@@||kiwi45.leiki.com/focus/$script,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 @@||lekane.net/lekane/dialogue-tracking.js?$script
 ! Hebrew
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
