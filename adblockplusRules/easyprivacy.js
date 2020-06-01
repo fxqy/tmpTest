@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: xvoLjx3HeBXhEEc8kEPu/g
-! Version: 202005311552
+! Checksum: pgIFAODREp1FS8ZYHcRONQ
+! Version: 202006011022
 ! Title: EasyPrivacy
-! Last modified: 31 May 2020 15:52 UTC
+! Last modified: 01 Jun 2020 10:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3548,6 +3548,7 @@
 /rtu-monitoring.
 /rubics_trk
 /rubicsimp/c.gif?
+/rudder-analytics.
 /rum-dytrc.
 /rum-telemetry/*
 /rum-track?
@@ -4681,6 +4682,7 @@
 /video_count.php?
 /videoanalytic/*
 /videoAnalytics.
+/videojs-analytics.
 /videojs.ga.
 /videolog?vid=
 /videotrack.js
@@ -6825,6 +6827,7 @@ _mongo_stats/
 ||matheranalytics.com^$third-party
 ||mathtag.com^$third-party
 ||matomo.cloud^$third-party
+||matterlytics.com^$third-party
 ||maxtracker.net^$third-party
 ||maxymiser.com^$third-party
 ||maxymiser.net^$third-party
@@ -13922,6 +13925,7 @@ _mongo_stats/
 ||ndtv.com/Status24x7.lv?
 ||neatorama.com/story/view/*.gif?hash
 ||ned.itv.com^
+||neowin.net/ws/$websocket
 ||net-a-porter.com/intl/trackpage.nap?
 ||net.haier.com^
 ||netflix.com/beacons?*&ssizeCat=*&vsizeCat=
