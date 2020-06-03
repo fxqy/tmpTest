@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 2iKJ8PZIvoxzlO/Z+b6pXQ
-! Version: 202006020912
+! Checksum: Th8kSQNhxe/n0KzRwMi0Eg
+! Version: 202006031231
 ! Title: EasyPrivacy
-! Last modified: 02 Jun 2020 09:12 UTC
+! Last modified: 03 Jun 2020 12:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1742,9 +1742,11 @@
 /event/track?
 /event/v3?
 /event?&event=
+/event?adblk=
 /event?auditLinkReceived=
 /event?client=$websocket
 /event?eventType=
+/event?id=
 /event?pmo=
 /event?stat_
 /event?t=*&__seed=
@@ -9201,8 +9203,6 @@ _mongo_stats/
 ! Indonesian
 ||analytic.rocks^$third-party
 ||props.id^$third-party
-! Iranian
-||rvkcpqz.com^
 ! Italian
 ||0stats.com^$third-party
 ||accessi.it^$third-party
@@ -9366,6 +9366,7 @@ _mongo_stats/
 ||amarfa.ir^$third-party
 ||persianstat.com^$third-party
 ||persianstat.ir^$third-party
+||rvkcpqz.com^
 ||tinystat.ir^$third-party
 ||webgozar.com^$third-party
 ||webgozar.ir^$third-party
@@ -11778,7 +11779,6 @@ _mongo_stats/
 ||resu.io/scripts/resclient.min.js
 ||risk.clearbit.com^
 ||socital.com^*/socital.js
-||static.geetest.com/static/js/fullpage.*.js
 ||talkingdata.com^*/sdk_release.js
 ||targeting.voxus.tv^
 ! uBO-CNAME (Specific whitelists)
@@ -16687,10 +16687,10 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||adobedtm.com/*_source.min.js$script,domain=kroger.com
 @@||adobedtm.com/launch-$script
 @@||adobedtm.com^*/launch-$script
-@@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|americanexpress.com|costco.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|newyorker.com|nfl.com|oprah.com|pnc.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
+@@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|costco.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|newyorker.com|nfl.com|oprah.com|pnc.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
 @@||adobedtm.com^*/s-code-$script
 @@||adobedtm.com^*/satellite-$script
-@@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|aeroplan.com|americanexpress.com|argos.co.uk|collegeboard.org|costco.com|crackle.com|crimewatchdaily.com|directline.com|eonline.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|jeep.com|laredoute.co.uk|laredoute.com|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|nbcnews.com|newyorker.com|nfl.com|nofrills.ca|oprah.com|oracle.com|pnc.com|realtor.com|redbull.tv|repco.co.nz|searspartsdirect.com|smooth.com.au|sonycrackle.com|stuff.co.nz|subaru.com|telegraph.co.uk|timewarnercable.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
+@@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|aeroplan.com|ally.com|americanexpress.com|argos.co.uk|collegeboard.org|costco.com|crackle.com|crimewatchdaily.com|directline.com|eonline.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|jeep.com|laredoute.co.uk|laredoute.com|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|nbcnews.com|newyorker.com|nfl.com|nofrills.ca|oprah.com|oracle.com|pnc.com|realtor.com|redbull.tv|repco.co.nz|searspartsdirect.com|smooth.com.au|sonycrackle.com|stuff.co.nz|subaru.com|telegraph.co.uk|timewarnercable.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
 @@||adprotv.com^*/comscore.streaming.$script,domain=mundodeportivo.com
 @@||afs-prod.appspot.com^*/tag?tags=$xmlhttprequest,domain=apnews.com
 @@||akamaihd.net/worldwide_analytics/$script,domain=ubi.com|ubisoft.com
@@ -17325,6 +17325,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||labrc.pw/advstats/$xmlhttprequest
 @@||leroymerlin.ru/config/analytics.js$script
 @@||matchid.adfox.yandex.ru/?url=$script,domain=ctc.ru
+@@||mc.yandex.ru/metrika/tag.js$script,domain=auto.yandex
 @@||megafon.ru/static/?files=*/tealeaf.js
 @@||mts.ru/app/vendor/angular-google-analytics.min.js
 @@||online.bcs.ru^*/piwik.bcs.js$script
