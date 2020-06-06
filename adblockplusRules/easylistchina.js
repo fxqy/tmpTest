@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qvJbQsirKIrMfIKt6eapMQ
-! Version: 202006051033
+! Checksum: CbldYAu8JtMIoWZFNvT89Q
+! Version: 202006061513
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 05 Jun 2020 10:33 UTC
+! Last Modified: 06 Jun 2020 15:13 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -3923,7 +3923,6 @@ ubmcmm.baidustatic.com
 ||zx573.cn^
 ||zxb918.com^
 ||zxhrq.cn^
-||zxpyzc.cn^
 ||zxwdw.com^
 ||zybpj.com^
 ||zydyjzw.cn^
@@ -4329,6 +4328,7 @@ _yad_jsonp_
 ||18avday.*/aa/
 ||18comic.*/iframe
 ||18comic.*/static/resources/images/168/
+||18comic.*/templates/frontend/airav/js/be
 ||18comic.*/templates/frontend/airav/js/c911d19b.js
 ||18comic.*/templates/frontend/airav/js/d
 ||192.240.111.77/ad/
@@ -8936,9 +8936,15 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||baidu.com/forum/pic/item/024f78f0f736afc32e3d800ba419ebc4b74512ae.jpg
+||mahuazy.net/images/960-60.gif
+||g3f3.com/love/
+||18comic.*/templates/frontend/airav/js/c
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-ddooo.com##DT > A
+ddooo.com##.c_down
+ddooo.com##.s_down
+mobile01.com##.ad-adblock
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -13853,6 +13859,7 @@ firefoxchina.cn##div[trace-key="ad_theme_skin_link"]
 firefoxchina.cn##div[trace-key="mh_channel_rec_tpth"]
 zuoye.baidu.com##dl[class="card related"]
 douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban."])
+ddooo.com##dt > a
 ebay.com#?#li.s-item:-abp-has(span[role="text"]>span:-abp-contains(助))
 bbs.my0511.com##embed[width="970"][height="70"]
 engadget.com#?#.Py\(40px\):-abp-has(> article > .D\(f\) > .Pos\(r\)[data-ylk*=":AD;"])
@@ -13933,6 +13940,7 @@ ruanyifeng.com#?#.asset-content > p:-abp-contains(培训)
 ruanyifeng.com#?#.asset-content > p:-abp-contains(培训) + p > img
 samsung.com#?#.template-item:-abp-has(> .wrap-sub-title > div > .ad)
 dilidili.one,gdot.me,sc115.com##script + a
+wnacg.com,wnacg.org##script + a > img
 logo160.com##script + a[href="/"]
 xingkbjm.com##script + div + .excerpt
 xingkbjm.com##script + div + .excerpt + .excerpt
@@ -14073,7 +14081,6 @@ help.xunlei.com#@#.a_fr
 520cc.me,sewangchao.com,sewangchao3.com#@#.a_mu
 xinmin.cn#@#.a_p
 hahamx.cn#@#.ad-1
-mobile01.com#@#.ad-a
 diantai.ifeng.com#@#.ad-b
 pptstore.net#@#.ad-big
 baidu.com,comefromchina.com#@#.ad-block
@@ -14162,7 +14169,6 @@ jsbooks.com.cn#@#.left-ads
 fsjoy.com#@#.main_adv
 gdrc.com#@#.midAd
 ntunhs.edu.tw,ntust.edu.tw,sjsmitaa.org#@#.module-ads
-mobile01.com#@#.navad
 eprice.com.hk#@#.one-ad
 weiyun.com#@#.page-ad
 chinatimes.com#@#.page_ad
@@ -14179,6 +14185,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
+@@/api/ad/*$domain=pinduoduo.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
 @@.png#$domain=9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|upxin.net
@@ -16026,9 +16033,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|00sy.c
 @@||gtimg.com/libs/$domain=18xs.org
 @@||libs.baidu.com^$domain=138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.com|23hh.com|23txt.com|23wxx.com|258zw.com|27xsw.com|2baob.com|30sy.com|33yq.com|365book.net|37zw.net|39shubao.com|3yt.com|52biquge.com|58xs.com|5ccc.tw|63xs.com|78zw.com|81zw.me|88106.com|8jzw.com|99mk.com|99shumeng.net|abiqugew.com|aikantxt.la|aixs.org|aoyuge.com|balingtxt.com|baoshuu.com|biduo.cc|biqiuge.com|biqubao.com|biqudu.tv|biquga.com|biquge.com.cn|biquge.info|biquge.lu|biquge.tv|biquge.tw|biquge11.com|biquge6.com|biquge98.com|biqugecd.com|biqugecom.com|biqugego.com|biqugeii.com|biqugemm.com|biqukan.com|biquku.la|biqusan.com|biqutxt.com|bixia.org|biyuwu.cc|bodekang.net|boluoxs.com|bookbao.org|bookbao9.net|booksky.cc|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|cits0871.com|clewx.com|dashenxiaoshuo.com|day66.com|ddxs.cc|ddxsku.com|dianjiangxin.com|dushuge.net|farpop.com|fhxiaoshuo.org|gdbzkz.com|guaili.org|hatxt.com|hbfie.org|hehuamei.com|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hybiquge.com|imiaobige.com|ishisetianxia.com|ixs.la|ixuanquge.com|jianlaixiaoshuo.com|jx.la|liewen.la|lindiankanshu.cc|liudatxt.com|lwtxt.net|lwxstxt.com|mianhuatang.cc|paoshu8.com|pfwx.com|piaotianxs.com|pingshuku.com|qbxs8.net|qianrenge.cc|qiqint.com|qishudu.com|qq717.com|quledu.net|qushuba.com|rmxs8.com|shenshu.info|shu008.com|shuhaige.com|shuhuangge.org|shuquge.com|siluke.tv|soxs.cc|tangsanshu.com|tpsxs.com|ttzw.tv|txshuku.com|tycqxs.com|u33.cc|vipzw.com|wanwenhui.com|wenxuem.com|wrltxt.com|x23us.me|x81zw.com|xbiquge.la|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbqge.net|xcmxsw.com|xdingdiann.com|xiaoshuosk.com|xieyixs.com|xinxs.la|xqishuta.com|xqiushu.com|xs222.co|xs5200.com|xs98.com|xsjtxt.com|xsw55.com|xszww.com|xuehong.cc|xuehongxs.com|yawenb.com|yikanxiaoshuo.com|yq-888.com|yruan.com|yssm.tv|yunxs.com|zbzw.la|zhuaji.org|zwdu.com|zzs5.com
 !
-||dydd.xyz^
-||mdcone.cn^
-||zhuanrangyun.cn^
+||aoyou3.top^
+||abie17.top^
 ###downdiv > .downcode
 ##.readerListADbox
 ##a[href*="://mgzs.cdn.bcebos.com/"]
@@ -16690,6 +16696,7 @@ xuehongxs.com##DIV[id^="cs_DIV_cscpvrich"]
 ||dxcssc.cn^
 ||dxmci.com^
 ||dybz8.net/js/htm
+||dydd.xyz^
 ||dydyhg.com^
 ||dyfzyg.com^
 ||dzisou.com^
@@ -17331,6 +17338,7 @@ xuehongxs.com##DIV[id^="cs_DIV_cscpvrich"]
 ||mcaik.com^
 ||md0z4dh.com^
 ||mdashen.vip^
+||mdcone.cn^
 ||mdous.com^
 ||mdsfzh.cn^
 ||me0715.top^
@@ -18212,6 +18220,7 @@ xuehongxs.com##DIV[id^="cs_DIV_cscpvrich"]
 ||zhongfujiaoyu.cn^
 ||zhongwangmy.cn^
 ||zhouqin520.top^
+||zhuanrangyun.cn^
 ||zhuanyule.cn^
 ||zhuifood.top^
 ||zhujiafangchan.cn^
@@ -18566,7 +18575,7 @@ fqsousou.com,kengso.com#@#.user-share
 @@/hitCount.$script,domain=on.cc
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/iplookup.$domain=cankaoxiaoxi.com|dilidili.wang|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
-@@/sensorsdata.$domain=shanbay.com
+@@/sensorsdata.$domain=36kr.com|shanbay.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/urchin.js$domain=on.cc
 @@||10010.com/mall/common/js/fa.js?referer=
