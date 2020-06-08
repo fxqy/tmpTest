@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 80+mWB8sN1qfQQOH5kn8/w
-! Version: 202006061521
+! Checksum: AlR3aTPUZBxfLC+nRNK1/Q
+! Version: 202006080351
 ! Title: EasyPrivacy
-! Last modified: 06 Jun 2020 15:21 UTC
+! Last modified: 08 Jun 2020 03:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5595,7 +5595,6 @@ _mongo_stats/
 ||adservicemedia.dk^$third-party
 ||adspsp.com^$third-party
 ||adsrvx.com^$third-party
-||adswizz.com^$third-party
 ||adsymptotic.com^$third-party
 ||adtarget.me^$third-party
 ||adtelligence.de^$third-party
@@ -6567,6 +6566,7 @@ _mongo_stats/
 ||iljmp.com^$third-party
 ||illumenix.com^$third-party
 ||ilogbox.com^$third-party
+||imhd.io^$third-party
 ||immanalytics.com^$third-party
 ||impactradius-event.com^$third-party
 ||impcounter.com^$third-party
@@ -10479,6 +10479,7 @@ _mongo_stats/
 ||facebook.com*/impression.php
 ||facebook.com/*/plugins/send_to_messenger.php?app_id=$third-party
 ||facebook.com/ai.php?
+||facebook.com/ajax/bz$ping
 ||facebook.com/audience_network/$image
 ||facebook.com/brandlift.php
 ||facebook.com/common/cavalry_endpoint.php?
@@ -17130,6 +17131,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||spiegel.de/layout/js/http/netmind-$script
 @@||sunday.de/skin/*/googleanalytics.js$script
 @@||uim.tifbs.net/js/$script,domain=gewinnspiel.web.de
+@@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
 ! French
 @@||abtasty.com/datacollectHeatmap.php$xmlhttprequest,domain=cdiscount.com
 @@||actiris.be/urchin.js
