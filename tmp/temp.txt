@@ -8,7 +8,7 @@ C:\Windows\System32\drivers\etc
 chrome://flags/#dns-over-https
 
 chrome 64位离线安装包：https://liulanmi.com/chrome
-Stable正式版：https://www.google.com/chrome/browser/desktop/index.html?platform=win64&extra=stablechannel&standalone=1
+Stable正式版：https://www.google.cn/chrome/browser/desktop/index.html?platform=win64&extra=stablechannel&standalone=1
 
 adblockPlus https://chrome.google.com/webstore/detail/cfhdojbkjhnklbpkdaibdccddilifddb
 https://chrome.google.com/webstore/detail/cfhdojbkjhnklbpkdaibdccddilifddb
@@ -43,8 +43,8 @@ curl -O -# -H "Referer: http:" http:**/[1-50].jpg
 ------------------------------Adblock plus------------------------------
 
 https://easylist-downloads.adblockplus.org/easylistchina.txt?focdnm=easylistchina.js
-https://easylist-downloads.adblockplus.org/easyprivacy.txt?focdnm=easyprivacy.js
 
+https://easylist-downloads.adblockplus.org/easyprivacy.txt?focdnm=easyprivacy.js
 https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt?focdnm=cjxlist.js
 https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt?focdnm=cjx-annoyance.js
 https://easylist-downloads.adblockplus.org/easylist.txt?focdnm=easylist.js
