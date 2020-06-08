@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ppwoF2GTiSOWlMAEABS/0A
-! Version: 202006080351
+! Checksum: jcIIgijzY4sV+ws6kSa12Q
+! Version: 202006080921
 ! Title: EasyList China+EasyList
-! Last modified: 08 Jun 2020 03:51 UTC
+! Last modified: 08 Jun 2020 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -8945,8 +8945,10 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||nfmovies.com/pic/tu/banner-
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+nfmovies.com#?#div[id]:-abp-has(>img[onclick="openurl()"])
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -50606,6 +50608,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ommodatesjoin.info^
 ||omoaxaus.net^
 ||onalentressionw.info^
+||oncersshartsh.fun^
 ||onclickgenius.com^
 ||onegalact.com^
 ||onesegreativec.site^
