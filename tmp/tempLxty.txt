@@ -94,4 +94,18 @@ DefaultConfiguer, enum SourceDialect, JdbcExplorer, JdbcMetadataFactory,
 ------------------------------linux------------------------------
 netstat -tunlp|grep 7070
 
+
+------------------------------Oracle ------------------------------
+
+create user 用户名 identified by  密码 default tablespace 表空间;
+grant create session to 用户名;
+grant select any table to 用户名;
+grant create any view  to 用户名;
+//详细权限
+CREATE USER "TEST_USER" IDENTIFIED BY "Biem1436" DEFAULT TABLESPACE "USERS" TEMPORARY TABLESPACE "TEMP";
+GRANT CREATE SESSION TO "TEST_USER";
+GRANT SELECT ON "SHAREDB"."GRTX" TO "TEST_USER";
+GRANT SELECT ON "SHAREDB"."JZGJBSJ" TO "TEST_USER";
+GRANT SELECT ON "SHAREDB"."YXSDBG" TO "TEST_USER"
+
 ------------------------------end------------------------------
