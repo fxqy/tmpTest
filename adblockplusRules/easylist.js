@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +lol8MkcbOsij/xbnMQ3AA
-! Version: 202006091241
+! Checksum: XcCidchIKGt0QDx0jAxuhQ
+! Version: 202006100921
 ! Title: EasyList
-! Last modified: 09 Jun 2020 12:41 UTC
+! Last modified: 10 Jun 2020 09:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -31105,6 +31105,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||anycadark.site^
 ||apearkcan.club^
 ||apologixopyr.site^
+||app.dolgotok.pro^
 ||apparentsav.club^
 ||appropeanes.club^
 ||appropolyfunt.site^
@@ -31346,6 +31347,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||delainlygoverhe.info^
 ||demannewcure.site^
 ||denotatorum.site^
+||dersmembrac.fun^
 ||desigactinific.pro^
 ||dexchangeinc.com^
 ||dexpredict.com^
@@ -31454,11 +31456,13 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||erversarycompa.info^
 ||es54i9g7p7xh.com^
 ||esaiasegyptian.pro^
+||esaudiesser.fun^
 ||esauwoan.com^
 ||esconcentleu.site^
 ||esentdemol.site^
 ||eseparediscou.fun^
 ||eseventent.info^
+||esinteresticma.fun^
 ||estionexperime.info^
 ||estoopsi.com^
 ||eswaldderinao.site^
@@ -31640,6 +31644,8 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||hurchasisounci.site^
 ||hwhiffonprotect.info^
 ||hyinlegvghul.com^
+||hz.dolgotok.pro^
+||ialgregarderol.fun^
 ||ideliv.net^
 ||ie8eamus.com^
 ||iglaique.net^
@@ -31649,6 +31655,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||indicaterhools.site^
 ||ineffieldinforget.site^
 ||ineldacarry.pro^
+||info.usalastnews.pro^
 ||ingcigarettbarro.info^
 ||ingdaughtexam.info^
 ||ingprographyt.info^
@@ -31658,6 +31665,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||intelligenceadx.com^
 ||intinuedbgyuj.site^
 ||inwig3aqg9xq.com^
+||iodthosenad.fun^
 ||ionaloutlerscrisi.fun^
 ||ionrefreshotsev.info^
 ||ipsoorel.com^
@@ -31785,6 +31793,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||malharvoice.pro^
 ||manatomicbru.site^
 ||mancehostic.site^
+||map.breakinginfo.pro^
 ||martafatass.pro^
 ||martyappear.pro^
 ||marwinhitted.site^
@@ -31861,6 +31870,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||nacfuns.com^
 ||nadjustifygas.info^
 ||nailowhe.net^
+||natorpression.fun^
 ||nbasicalbuffere.info^
 ||nbf9b5aurl.com^
 ||ncefoundanges.info^
@@ -32046,6 +32056,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||practeddagek.club^
 ||practingunef.site^
 ||practivelizar.club^
+||practthreat.club^
 ||presearchity.site^
 ||prevealhealth.info^
 ||prfctmney.com^
@@ -32222,6 +32233,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||sisterncoalitical.info^
 ||sitirkbit.com^
 ||sjscxhknxeek.com^
+||slectrumclarat.fun^
 ||sloeri.com^
 ||smenqskfmpfxnb.bid^
 ||soagrist.net^
@@ -32319,6 +32331,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||tiveacquisitsprett.info^
 ||tj9pcnb2ws.com^
 ||toapsira.net^
+||today.usalastnews.pro^
 ||tonewithough.info^
 ||topbetfast.com^
 ||torbudyum.com^
@@ -32346,6 +32359,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||twokidjay.com^
 ||uagesspecifica.info^
 ||uektb.com^
+||ufo.breakinginfo.pro^
 ||ufoukolt.com^
 ||ufpcdn.com^
 ||ugoupams.com^
@@ -32378,6 +32392,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||utq55kl9vyqv.com^
 ||utstancecaricit.info^
 ||uzk4umokyri3.com^
+||v.dolgotok.pro^
 ||v3qdrfxuyzwb.com^
 ||vaipsona.com^
 ||vanderebony.pro^
@@ -32446,6 +32461,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||wordshipopa.club^
 ||worldmapd.online^
 ||worthersefim.club^
+||wow.usalastnews.pro^
 ||wowjogsot.com^
 ||writerredolasy.club^
 ||wrkl.xyz^
@@ -67238,6 +67254,7 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||lemon-ads.com^$~document,~third-party
 @@||linkbucks.com/tmpl/$image,stylesheet
 @@||lokopromo.com^*/adsimages/$~third-party
+@@||looker.com/api/internal/projects/$~third-party
 @@||manageengine.com/images/logo/$image,~third-party
 @@||manageengine.com/products/ad-manager/$~third-party
 @@||martinfowler.com/articles/asyncJS.css$stylesheet,~third-party
