@@ -1,15 +1,15 @@
 [Adblock Plus 1.1]
-! Checksum: AOzTq1DvtXLEEnIWmyt89Q
-! Version: 202006111021
+! Checksum: 4LSArw1eFi/SDQQXJrhAwQ
+! Version: 202006130951
 ! Title: EasyPrivacy
-! Last modified: 11 Jun 2020 10:21 UTC
+! Last modified: 13 Jun 2020 09:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
 !
 ! Please report any unblocked tracking or problems
 ! in the forums (https://forums.lanik.us/)
-! or via e-mail (easylist.subscription@gmail.com).
+! or via e-mail (easylist@protonmail.com).
 !
 !-----------------General tracking systems-----------------!
 ! *** easylist:easyprivacy/easyprivacy_general.txt ***
@@ -9512,6 +9512,7 @@ _mongo_stats/
 ||madnet.ru^$third-party
 ||mediaplan.ru^$third-party
 ||mediatoday.ru^$third-party
+||mgid.com^$third-party,domain=~marketgid.com|~marketgid.com.ua
 ||mokuz.ru^$third-party
 ||musiccounter.ru^$third-party
 ||mystat-in.net^$third-party
