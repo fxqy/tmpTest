@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: TqBaYul3wrv24+jY1A2WQQ
-! Version: 202006130950
+! Checksum: E0eeOQtUy22UNrDS2dC7lA
+! Version: 202006140231
 ! Title: EasyList
-! Last modified: 13 Jun 2020 09:50 UTC
+! Last modified: 14 Jun 2020 02:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -31059,6 +31059,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||adaranth.com^
 ||adearsened.info^
 ||adfrastingathles.info^
+||admiriam.club^
 ||adreach.me^
 ||adservi.com^
 ||adsrv.me^
@@ -31160,6 +31161,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||atoultou.com^
 ||atterrounesh.info^
 ||atwoventre.fun^
+||audiesuree.club^
 ||audriasite.pro^
 ||aughedbannel.site^
 ||augnuxun.net^
@@ -31559,6 +31561,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||feelineweatyeng.info^
 ||feeohmchi.com^
 ||fejla.com^
+||fenedcarrago.club^
 ||fessmegilscha.info^
 ||ffickiedisticre.site^
 ||ffortyimagist.info^
@@ -31577,6 +31580,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||fontainsuny.club^
 ||forcementsawe.site^
 ||forwayonlibe.site^
+||freementgd.club^
 ||frequestabure.site^
 ||fryawlauk.com^
 ||fsitel.com^
@@ -32207,6 +32211,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||refunsiy.net^
 ||refyewdye.com^
 ||regardianpleast.site^
+||regislandery.club^
 ||reimpromot.fun^
 ||releasurezesa.site^
 ||remainttalenty.site^
@@ -32257,6 +32262,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||rtionalgospecul.site^
 ||rtmark.net^
 ||rtnews.pro^
+||rubicwithias.club^
 ||runmeethoomes.info^
 ||rusenov.com^
 ||russionsdeath.fun^
@@ -32293,6 +32299,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||secured-phone.club^
 ||seepsocu.net^
 ||separenujilo.club^
+||seriodilov.club^
 ||sersproposal.club^
 ||setemoump.com^
 ||seventual.site^
@@ -32362,6 +32369,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||strialcurity.site^
 ||striesastanov.site^
 ||strikersucces.site^
+||striplesthosen.club^
 ||stroublederaa.club^
 ||stroublederel.club^
 ||styheremo.site^
@@ -67389,6 +67397,7 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||moatads.com/*/moatwrapper.js$script,domain=hulu.com
 @@||mobygames.com/images/promo/$image,~third-party
 @@||moremoney.io/promo/Advertise.svg$~third-party
+@@||motortrader.com.my/advert/$image,~third-party
 @@||msmedia.morningstar.com^*/size=*/random=*/viewid=$script,domain=morningstar.in
 @@||msn.com^$generichide
 @@||mzstatic.com/image/$image,domain=mp3clan.one
