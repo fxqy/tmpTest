@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: QBkpCfdxKkSH2Ck2hNZ/Jw
-! Version: 202006140221
+! Checksum: 5fo0j3BYy52IsvuhgJrTPA
+! Version: 202006141621
 ! Title: EasyPrivacy
-! Last modified: 14 Jun 2020 02:21 UTC
+! Last modified: 14 Jun 2020 16:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2746,6 +2746,7 @@
 /mcounter/*
 /md.js?country=
 /mdwtc/click_thru/*
+/measure/data-capture/*
 /measure/spring.
 /measure/visit/*
 /measurement/access/contents?
@@ -8066,6 +8067,7 @@ _mongo_stats/
 ||zengenti.com^$third-party
 ||zeotap.com^$third-party
 ||zesep.com^$third-party
+||zeustechnology.com^$third-party
 ||zoomanalytics.co^$third-party
 ||zoomflow.com^$third-party
 ||zoomino.com^$third-party
@@ -11787,6 +11789,12 @@ _mongo_stats/
 ||zoomtv.me^*?pixel=
 ||zoover.co.uk/tracking/
 ||zope.net^*/ghs_wa.js
+! wix
+||frog.wix.com/da-client?
+||frog.wix.com/fed?
+||frog.wix.com/hls2?
+||frog.wix.com/p?
+||frog.wix.com/pre?
 ! Fingerprinting
 ||apps-pro.tid.es/external/tailormade-no-jquery-
 ||bcicdn.com^*/hg.js
@@ -12261,6 +12269,7 @@ _mongo_stats/
 ||inpref.s3.amazonaws.com^$third-party
 ||insight.fonecta.fi^
 ||sestatic.fi^*/zig.js
+||tags.op-palvelut.fi^
 ! Georgian
 ||links.boom.ge^
 ! Greek
@@ -13173,6 +13182,7 @@ _mongo_stats/
 ||digitalspy.co.uk/gip1.php
 ||dilbert.com^*&tracker$script
 ||dippic.com/cgi-bin/index_dl.cgi?
+||direct-events-collector.spot.im^
 ||discordapp.com^*/track
 ||discordbots.org/api/auctions/impression
 ||displaymate.com/cgi-bin/stat/
@@ -13396,8 +13406,6 @@ _mongo_stats/
 ||freeones.com^*/cd/?cookies=
 ||freepik.com/_ga?
 ||fresh.techdirt.com^
-||frog.wix.com/hls2?
-||frog.wix.com/p?
 ||frontdoor.com/_track?
 ||frstatic.net^*/tracking.js
 ||ft.com/conker/service/pageview?
@@ -16924,6 +16932,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||newrelic.com/public/charts/$subdocument,xmlhttprequest
 @@||nfltags.com/omniture/$script,domain=nfl.com
 @@||nhl.com/components/shared/omniture-tracking-scripts/newRelic.js
+@@||nike.com^*/optimizely.browser.umd.min.js$script,~third-party
 @@||nyt.com/analytics/json-kidd.min.js$script,domain=nytimes.com
 @@||nyt.com/bi/js/tagx/tagx.js$domain=nytimes.com
 @@||nytimes.com^*/EventTracker.js
@@ -17188,8 +17197,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||google-analytics.com/analytics.js$domain=novatv.bg
 ! Chinese
 @@||360buyimg.com^*/components/default/$script,domain=jd.com
-@@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.cn
-@@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.cn
+@@||adobedtm.com^*/mbox-contents-$script,domain=ceair.com|fcbarcelona.cn
+@@||adobedtm.com^*/satelliteLib-$script,domain=ceair.com|fcbarcelona.cn
 @@||aixifan.com^*/sensorsdata.min.js?$domain=acfun.cn
 @@||dynamicyield.com/api/$script,domain=zalora.com.hk|zalora.com.tw
 @@||google-analytics.com/analytics.js$domain=news.gamme.com.tw
