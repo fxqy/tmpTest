@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 5fo0j3BYy52IsvuhgJrTPA
-! Version: 202006141621
+! Checksum: HnJa9ccxtfWHWpnwqHtRxA
+! Version: 202006150901
 ! Title: EasyPrivacy
-! Last modified: 14 Jun 2020 16:21 UTC
+! Last modified: 15 Jun 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7387,7 +7387,6 @@ _mongo_stats/
 ||s7target.ru^$third-party
 ||safe-click.net^$third-party
 ||sageanalyst.net^$third-party
-||sajari.com^$third-party
 ||salecycle.com^$third-party
 ||salemove.com^$third-party
 ||salesgenius.com^$third-party
@@ -11227,6 +11226,7 @@ _mongo_stats/
 ||sadv.dadapro.com^$third-party
 ||sailthru.com/img/$image,third-party
 ||sailthru.com/Sailthru_spacer_1x1.gif
+||sajari.com/js/sj.js$third-party
 ||salesforce.com/sfga.js
 ||salesloft.com/sl.js
 ||sawpf.com/1.0.js$third-party
