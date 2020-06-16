@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: HnJa9ccxtfWHWpnwqHtRxA
-! Version: 202006150901
+! Checksum: GZPi7WyifoEUhnXIdpqYJA
+! Version: 202006161501
 ! Title: EasyPrivacy
-! Last modified: 15 Jun 2020 09:01 UTC
+! Last modified: 16 Jun 2020 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6798,7 +6798,6 @@ _mongo_stats/
 ||lognormal.net^$third-party
 ||logrocket.com^$third-party
 ||logrocket.io^$third-party
-||logsss.com^$third-party
 ||lookery.com^$third-party
 ||loopa.net.au^$third-party
 ||loopfuse.net^$third-party
@@ -8096,7 +8095,6 @@ _mongo_stats/
 ||sealine.pro^$third-party
 ||simility.com^$third-party
 ||spideraf.com^$third-party
-||vtex.com.br^$third-party
 ! Mining
 .1.1.1.l80.js^$third-party
 .n.2.1.js^$third-party
@@ -9854,6 +9852,7 @@ _mongo_stats/
 ||analytics.kapost.com^
 ||analytics.live.com^
 ||analytics.livestream.com^
+||analytics.logsss.com^
 ||analytics.mailmunch.co^
 ||analytics.matchbin.com^
 ||analytics.midwesternmac.com^
@@ -11809,6 +11808,7 @@ _mongo_stats/
 ||pgimgs.com^*/desktop_js_header.js
 ||poll-maker.com^*/scpolls.js
 ||promo.ge/res/delivery/delivery.js
+||rc.vtex.com.br^
 ||realperson.de/system/third-party/rpfp/rpfp.min.js
 ||ref.dealerinspire.com^
 ||resu.io/scripts/resclient.min.js
@@ -11816,6 +11816,7 @@ _mongo_stats/
 ||socital.com^*/socital.js
 ||talkingdata.com^*/sdk_release.js
 ||targeting.voxus.tv^
+||vtex.com.br/rc/rc.js
 ! uBO-CNAME (Specific whitelists)
 ||go.techtarget.com^$image,script
 ||trk.techtarget.com^
@@ -15191,11 +15192,13 @@ _mongo_stats/
 ! Ebay trackers
 ! https://nullsweep.com/why-is-this-website-port-scanning-me/
 /^https?:\/\/ir\.ebaystatic\.com\/rs\/v\/[a-zA-Z0-9]{18,}\.js/$script,domain=vipr.ebaydesc.com
-||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.com|gumtree.com|lendup.com|sky.com|td.com|tiaa.org|vedacheck.com|wepay.com
+||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.com|gumtree.com|lendup.com|mbna.ca|sky.com|td.com|tiaa.org|vedacheck.com|wepay.com
 ||ebay.com/nkfytkqtoxtljvzb.js$script,domain=ebay.com
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ebaystatic.com^*/10341xh50yz21mhhydueu4m5wad.js$script,domain=ebay.com
 ||ebaystatic.com^*/g52yxhxv2mzcbealmlkri4kn5av.js$script,domain=ebay.com
+! authentication.mbna.ca | authentication.td.com  (fingerprint)
+/^https?:\/\/tmx\.td\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=authentication.mbna.ca|authentication.td.com
 ! Fingerprint
 ||tipsport.org/scripts/closure.js
 ! Forter
