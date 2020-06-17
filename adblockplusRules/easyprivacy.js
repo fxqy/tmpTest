@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: GZPi7WyifoEUhnXIdpqYJA
-! Version: 202006161501
+! Checksum: hTo9f0PIIjdHH0V0bIJRmQ
+! Version: 202006171131
 ! Title: EasyPrivacy
-! Last modified: 16 Jun 2020 15:01 UTC
+! Last modified: 17 Jun 2020 11:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4464,6 +4464,7 @@
 /trackingDTM.js
 /trackingfilter.json?
 /trackingFooter.
+/trackingGA.js
 /TrackingHandler.
 /trackingheader.
 /trackingImpression/*
@@ -13792,6 +13793,7 @@ _mongo_stats/
 ||logs.hotstar.com^
 ||logx.optimizely.com^
 ||lolwot.com/B5xaqzSGvMTM.js
+||loom.com^*?beacon
 ||lovefilm.com/api/ioko/log/
 ||lovefilm.com/lovefilm/images/dot.gif
 ||lovefilm.com^*/lf-perf-beacon.png

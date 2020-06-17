@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uehLj1uoZoJ+bar9CFeOTA
-! Version: 202006161501
+! Checksum: FSGED90V5Hgz36lgD94EgA
+! Version: 202006171131
 ! Title: EasyList
-! Last modified: 16 Jun 2020 15:01 UTC
+! Last modified: 17 Jun 2020 11:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4786,7 +4786,7 @@
 /footad-
 /footad.
 /footer-ad-
-/footer-ad.
+/footer-ad.$~script
 /footer-ads/*
 /footer_ad.
 /footer_ad_
@@ -31793,6 +31793,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||krenovo.online^
 ||kudzuphloemgunk.tech^
 ||kumanaun.net^
+||l2wisd9g5d9u.com^
 ||la1dwne9cn5c.com^
 ||labortiontrifee.info^
 ||ladsabz.com^
@@ -31800,6 +31801,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||laichaim.net^
 ||lalaping.com^
 ||lamberserer.club^
+||landuncessa.fun^
 ||larrenpicture.pro^
 ||larrenworld.pro^
 ||lassistslegisten.info^
@@ -31868,6 +31870,8 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||martafatass.pro^
 ||martyappear.pro^
 ||marwinhitted.site^
+||matekernes.fun^
+||matricavfr.club^
 ||mattempts.info^
 ||mauzobou.net^
 ||mbethnarrowe.info^
@@ -31887,6 +31891,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||meowpushnot.com^
 ||mercialtaver.club^
 ||merciselyancies.site^
+||meriesbefor.fun^
 ||meryjane.pro^
 ||methingewsf.club^
 ||metricfast.com^
@@ -31932,6 +31937,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||movie-pass.live^
 ||mozgvya.com^
 ||mpay69.com^
+||mpletedsen.fun^
 ||mpliedancia.info^
 ||mprisedluxemb.info^
 ||mptedcazdep.info^
@@ -32187,6 +32193,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||pushsar.com^
 ||pushworldtool.com^
 ||pyjamaican.club^
+||pz7zrn0xxgyg.com^
 ||q6idnawboy7g.com^
 ||qmvezbh0l28w.com^
 ||qnwjhpingotrmc.com^
@@ -32410,6 +32417,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||sxmgd1aqrr.com^
 ||symphoneupcom.site^
 ||syphilohmmaging.site^
+||szahidalkath.fun^
 ||taifouwo.com^
 ||tamechangekn.info^
 ||tamiecaseros.pro^
