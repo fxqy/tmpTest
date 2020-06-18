@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FSGED90V5Hgz36lgD94EgA
-! Version: 202006171131
+! Checksum: hqAokucC5m7j4y/We9SrGg
+! Version: 202006181121
 ! Title: EasyList
-! Last modified: 17 Jun 2020 11:31 UTC
+! Last modified: 18 Jun 2020 11:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -17015,6 +17015,7 @@ _popunder+$popup
 ###top-advertisement
 ###top-advertisements
 ###top-banner-ad
+###top-banner-ad-browser
 ###top-dfp
 ###top-leaderboard-ad
 ###top-left-ad
@@ -30236,7 +30237,7 @@ _popunder+$popup
 ##.zergpowered
 ##a[href^="http://www.zergnet.com/i/"]
 ##div[id^="zergnet-widget"]
-! *** easylist:easylist/easylist_whitelist_general_hide.txt ***
+! *** easylist:easylist/easylist_allowlist_general_hide.txt ***
 thedailygreen.com#@##AD_banner
 webmail.verizon.net#@##AdColumn
 jobs.wa.gov.au,lalovings.com#@##AdContainer
@@ -31256,8 +31257,10 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cadsecz.com^
 ||cadslimz.com^
 ||cadspms.com^
+||cain.rd2d.pro^
 ||camantasp.club^
 ||cambrianter.club^
+||cancesolit.club^
 ||canonch.pro^
 ||canyboysho.info^
 ||cardmrket.com^
@@ -31495,6 +31498,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||erecommerchh.info^
 ||ereintroductc.fun^
 ||erkhxw.com^
+||ernettesew.club^
 ||erosyndc.com^
 ||errnaphim.site^
 ||ersoncur.info^
@@ -31624,6 +31628,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||gencehepatie.club^
 ||geodestricy.site^
 ||gesymphone.site^
+||getherehap.fun^
 ||gflnzl1vqntw.com^
 ||gglx.me^
 ||gigbyefly.com^
@@ -31683,6 +31688,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||heckagny.com^
 ||hedressive.info^
 ||herbaijansob.club^
+||heredeithere.club^
 ||hesterinoc.info^
 ||himselvepostly.site^
 ||himselveseg.club^
@@ -31705,6 +31711,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||housandady.site^
 ||housopsi.net^
 ||howbyehid.site^
+||howeverhou.fun^
 ||hrthvf.xyz^
 ||huckauhy.com^
 ||huhughyaw.com^
@@ -31805,6 +31812,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||larrenpicture.pro^
 ||larrenworld.pro^
 ||lassistslegisten.info^
+||last.lcnf.pro^
 ||lationwordsi.club^
 ||lattemptweh.club^
 ||latviancedef.site^
@@ -32112,6 +32120,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||paveralleycoun.info^
 ||pcommaging.site^
 ||pd-news.com^
+||pearerinven.fun^
 ||pebadu.com^
 ||peedtzaregg.casa^
 ||perfordpetre.club^
@@ -32299,6 +32308,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||sadsecz.com^
 ||sainstandset.site^
 ||sal4m649fke3.com^
+||sanddevelto.fun^
 ||santrateduk.site^
 ||sapelmyep.com^
 ||sapsixysho.pro^
@@ -32397,6 +32407,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||stroublederaa.club^
 ||stroublederel.club^
 ||styheremo.site^
+||sub.rd2d.pro^
 ||substandferex.site^
 ||successageq.site^
 ||successarysazh.site^
@@ -32536,6 +32547,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||vanmapdug.club^
 ||vebadu.com^
 ||veewakim.net^
+||ver.rd2d.pro^
 ||verageousarra.site^
 ||veralother.fun^
 ||verdriusuref.site^
@@ -34037,6 +34049,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cagelrib.net^$third-party
 ||caithamo.net^$third-party
 ||camakaroda.com^$third-party
+||camiocw.com^$third-party
 ||campanja.com^$third-party
 ||canoeklix.com^$third-party
 ||capacitygrid.com^$third-party
@@ -39147,7 +39160,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||sneakystamp.com^$third-party
 ||stormyshock.com^$third-party
 ||succeedscene.com^$third-party
-! Non-English (instead of whitelisting ads)
+! Non-English (instead of allowlisting ads)
 ||adhood.com^$third-party
 ||atresadvertising.com^$third-party
 ! admeasures.com
@@ -50284,6 +50297,8 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||dealswarm.com^$subdocument,third-party
 ||dealtoday.com.mt/banners/
 ||dealzone.co.za^$script,third-party
+||decals.rcgroups.com^$third-party
+||decals.rcgroups.net^$third-party
 ||delivery-dev.thebloggernetwork.com^
 ||delivery-s3.adswizz.com^$third-party
 ||delivery.thebloggernetwork.com^
@@ -54323,13 +54338,13 @@ $csp=worker-src 'none',domain=ahoypirate.in|bayception.pw|cruzing.xyz|mirror.sup
 ||thehayride.com^$csp=script-src 'self' *.leadpages.net *.gstatic.com *.google.com *.googleapis.com *.playwire.com *.facebook.com *.bootstrapcdn.com
 ||thinkamericana.com^$csp=script-src 'self' *.gstatic.com *.google.com *.googleapis.com *.facebook.com *.bootstrapcdn.com *.twitter.com *.spot.im
 ||videogamesblogger.com^$csp=script-src 'self' *.leadpages.net *.gstatic.com *.google.com *.googleapis.com *.playwire.com *.facebook.com *.bootstrapcdn.com *.twitter.com *.spot.im
-! Non-English (instead of whitelisting ads)
+! Non-English (instead of allowlisting ads)
 ||anandabazar.com/js/anandabazar-bootstrap/custom.js
 ||el-mundo.net/js/fm*.js$script
 ||livehindustan.com/js/BlockerScript.js
 ||pub1.cope.es^
 ! Mobile
-! Specific filters necessary for sites whitelisted with $genericblock filter option
+! Specific filters necessary for sites allowlisted with $genericblock filter option
 ! Spiegel.de
 @@||ad.yieldlab.net^$script,domain=spiegel.de
 @@||cdn.teads.tv/media/format.js$domain=spiegel.de
@@ -55882,6 +55897,7 @@ androidcentral.com,cordcutters.com,crackberry.com,imore.com,windowscentral.com##
 forbes.com##.article-speedbump
 alternativeto.net##.atf2
 searchenginejournal.com##.av-label
+thehackernews.com##.av-side-box
 digitaltrends.com##.b-anterior
 armageddonexpo.com,blockchair.com,cointelegraph.com,jpost.com,mmorpg.com,rugby365.com##.banner
 carmag.co.za##.banner-container
@@ -55958,6 +55974,7 @@ ghacks.net##.ghacks-ad
 usatoday.com##.gnt_tb
 usatoday.com##.gnt_tbr
 usatoday.com##.gnt_x__lbl
+thehackernews.com##.google
 whistleout.com.au##.has-hover
 laptopmag.com##.hawk-review-container
 pcgamer.com##.hawk-widget
@@ -55969,6 +55986,7 @@ androidcentral.com##.header-top-alert-bar--banner-ufc-247
 androidcentral.com##.header-top-alert-bar--link
 duckduckgo.com##.highlight_sponsored
 shouldiremoveit.com##.hotspots-search-results
+stackify.com##.hs-cta-wrapper
 hanime.tv##.htvad.row
 kawanfilm21.pro##.idmuvi-afterplayer
 kawanfilm21.pro##.idmuvi-topbanner
@@ -55980,6 +55998,7 @@ seedpeer.me##.is-success
 seedpeer.me##.is-warning
 itweb.co.za##.itw-content-zone
 demonslayermanga.com##.js-a-container
+duckduckgo.com##.js-ia-modules.ia-modules
 beermoneyforum.com##.js-notices
 ettv.to##.kr_cr
 clinicaltrialsarena.com,cointelegraph.com##.leaderboard
@@ -56082,6 +56101,7 @@ jatan.blog##.wpa
 webtoolhub.com##.wth_zad_text
 torrentz2.eu##.xpressa
 finance.yahoo.com##.ys-mobileFeaturedAd
+thehackernews.com##.zoho-box
 hltv.org##[class$="b-list"]
 hltv.org##[class*="geo"]
 hltv.org##[class*="widget"]
@@ -56139,6 +56159,7 @@ tpb.party##a[href^="https://www.get-express-vpn.com/"]
 ncomputers.org##a[href^="https://www.tqlkg.com/click-"]
 ynetnews.com##a[href^="https://www.xplorer.co.il/"]
 home-barista.com##a[onclick*="adstats"]
+wunderground.com##ad-mw-position-1
 androidpolice.com#?#.note-wrapper:-abp-has(p:-abp-contains(A word from our sponsor))
 searchenginejournal.com##aside[id^="SEJ_300x250_"]
 washingtonpost.com##div > .relative.db-ns.dn.ml-auto-ns
@@ -65712,6 +65733,7 @@ twitter.com#?#div[data-testid="trend"]:-abp-contains(/Promoted|Gesponsert|Promoc
 twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted Tweet|Gesponserter Tweet|推廣推文|推广推文/)
 elizium.nu##ul[style="padding: 0; width: 100%; margin: 0; list-style: none;"]
 ! youtube
+youtube.com###YtSparklesVisibilityIdentifier
 youtube.com###feed-pyv-container
 youtube.com###feedmodule-PRO
 youtube.com###homepage-chrome-side-promo
@@ -67232,8 +67254,8 @@ motherless.com##table[style*="max-width:"]
 ! CSS property filters
 pornhub.com,pornhubthbh7ap3u.onion#?#:-abp-properties(height: 300px; width: 315px;)
 pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width: 50%;)
-!-----------------------Whitelists to fix broken sites------------------------!
-! *** easylist:easylist/easylist_whitelist.txt ***
+!-----------------------Allowlists to fix broken sites------------------------!
+! *** easylist:easylist/easylist_allowlist.txt ***
 @@|blob:resource://$image
 @@||2mdn.net/instream/html5/ima3.js$script,domain=earthtv.com|zdnet.com
 @@||9cache.com/piwik.$domain=9gag.com
@@ -67582,7 +67604,7 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||zergnet.com^$image,script,stylesheet,domain=ci.craveonline.com|ci.gamerevolution.com|ci.momtastic.com|ci.thefashionspot.com|ci.totallyher.com
 @@||zippyshare.com^$generichide
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
-! uBO-CNAME (Specific whitelists)
+! uBO-CNAME (Specific allowlists)
 @@||circularhub.com^$domain=canadiantire.ca
 @@||hwcdn.net^$script,domain=mp4upload.com
 ! ezfunnels.com (https://forums.lanik.us/viewtopic.php?f=64&t=44355)
@@ -67596,7 +67618,7 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||ads.memo2.nl/banners/$subdocument
 ! vidto
 @@||playedvid.com^$generichide
-! csp whitelists
+! csp allowlists
 @@||1337x.to/cat/$csp,~third-party
 @@||1337x.to/home/$csp,~third-party
 @@||1337x.to/login$csp,~third-party
@@ -67920,7 +67942,6 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|pccomponentes.com|vlive.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=bloomberg.co.jp|farfeshplus.com|klix.ba|nettavisen.no|rtlnieuws.nl|tbs.co.jp|video.repubblica.it|vlive.tv
 @@||kanalfrederikshavn.dk^*/jquery.openx.js?
-@@||kataweb.it/adsetup.real.js$script,domain=video.repubblica.it
 @@||koshien-live.net/99/adtag.xml$domain=sportsbull.jp
 @@||krotoszyn.pl/uploads/pub/ads_files/$image,~third-party
 @@||mail.bg/mail/index/getads/$xmlhttprequest
@@ -67931,7 +67952,6 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||netmile.co.jp/ad/images/$image
 @@||news24.jp/ad-navi/$domain=search.news24.jp
 @@||ntv.co.jp/ad-navi/$domain=search.news24.jp
-@@||oasjs.kataweb.it/adsetup*.js$script,domain=video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.repubblica.it
 @@||politiken.dk/static/$script
 @@||portalbici.es^*-advertisement.$~third-party,xmlhttprequest
 @@||przegladpiaseczynski.pl/wp-content/plugins/wppas/$~third-party
@@ -67950,7 +67970,7 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||fastly.net/ad/$image,script,xmlhttprequest
 @@||fastly.net/ad2/$image,script,xmlhttprequest
 @@||fastly.net/js/*_ads.$script
-! Whitelists to fix broken pages of advertisers
+! Allowlists to fix broken pages of advertisers
 ! Facebook
 @@||www.facebook.com/ads/$generichide
 @@||www.facebook.com/ajax/ads/$xmlhttprequest,domain=facebookcorewwwi.onion|www.facebook.com
@@ -68066,7 +68086,7 @@ www.google.com#@##videoads
 @@||adservice.com/wp-content/themes/adservice/$~third-party
 @@||publisher.adservice.com^$domain=publisher.adservice.com
 @@||publisher.adservice.com^$generichide
-! *** easylist:easylist/easylist_whitelist_dimensions.txt ***
+! *** easylist:easylist/easylist_allowlist_dimensions.txt ***
 @@-120x60-$image,domain=catalogfavoritesvip.com|freeshipping.com|freeshippingrewards.com|habandvipplus.com|inthecompanyofdogsvip.com|naturesjewelryvip.com|northstylevip.com|pyramidcollectionvip.com|serengeticatalogvip.com|travelplus.com
 @@-120x60.$image,domain=catalogfavoritesvip.com|freeshipping.com|freeshippingrewards.com|habandvipplus.com|inthecompanyofdogsvip.com|naturesjewelryvip.com|northstylevip.com|pyramidcollectionvip.com|serengeticatalogvip.com|travelplus.com
 @@_120_60.$image,domain=catalogfavoritesvip.com|freeshipping.com|freeshippingrewards.com|habandvipplus.com|inthecompanyofdogsvip.com|naturesjewelryvip.com|northstylevip.com|pyramidcollectionvip.com|serengeticatalogvip.com|travelplus.com
@@ -68181,7 +68201,7 @@ www.google.com#@##videoads
 @@||wixstatic.com/media/*_300_250_$image,domain=lenislens.com
 @@||worlds-luxury-guide.com/sites/default/files/rectangle-300x250-newsletter.jpg
 @@||zorza-polarna.pl/environment/cache/images/300_250_
-! *** easylist:easylist/easylist_whitelist_popup.txt ***
+! *** easylist:easylist/easylist_allowlist_popup.txt ***
 @@/clickthrgh.asp?btag=*&aid=$popup,domain=casinobonus24.se
 @@/promoRedirect?*&zone=$popup,domain=casinobonus24.se|top5casinosites.co.uk
 @@/redirect.aspx?bid=$popup,domain=casinosonline.co.uk|onlinecasinos.co.uk|top5casinosites.co.uk
@@ -68283,7 +68303,7 @@ www.google.com#@##videoads
 ! Msn
 @@||bing.com/search$popup,domain=msn.com
 @@||msn.com^$popup,~third-party
-! *** easylist:easylist_adult/adult_whitelist.txt ***
+! *** easylist:easylist_adult/adult_allowlist.txt ***
 ! temp comment to fix python-abp issue
 @@/cdn-cgi/pe/bag2?r[]=*ads.exoclick.com$xmlhttprequest,domain=hd-porn.me
 @@/cdn-cgi/pe/bag2?r[]=*juicyads.com$xmlhttprequest,domain=glamourbabe.eu
@@ -68885,7 +68905,7 @@ www.google.com#@##videoads
 @@||youngmodelsclub.net^$generichide
 ! Non-English
 @@||ads.b10f.jp/flv/$~third-party
-! *** easylist:easylist_adult/adult_whitelist_popup.txt ***
+! *** easylist:easylist_adult/adult_allowlist_popup.txt ***
 @@&utm_medium=traffic_trade&utm_campaign=pornhub_trade_search_box$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
 @@||as.sexad.net^*?p=*&v=$popup,domain=extremetube.com|keezmovies.com|pornhub.com|pornhubthbh7ap3u.onion|redtube.com|spankwire.com|tube8.com|tube8.es|tube8.fr
 @@||blogger.com^$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
