@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: f5sKgh/kzX0a/oYrKWD6JQ
-! Version: 202006181122
+! Checksum: zZ+PGZdNqucuTQQc1D9MKw
+! Version: 202006190902
 ! Title: EasyPrivacy
-! Last modified: 18 Jun 2020 11:22 UTC
+! Last modified: 19 Jun 2020 09:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1747,6 +1747,7 @@
 /event/rumdata?
 /event/track?
 /event/v3?
+/event/visit?
 /event?&event=
 /event?adblk=
 /event?auditLinkReceived=
@@ -2840,7 +2841,6 @@
 /momentum-tracking/*
 /monetization/pixel-
 /mongoose.fp.js
-/monitor/log/*
 /monitor/v1/log
 /monitor?rtype=
 /monitor_analytic.
@@ -12671,6 +12671,7 @@ _mongo_stats/
 ||a.huluad.com/beacons/
 ||a7.org/infol.php?
 ||aa.avvo.com^
+||aax-eu-dub.amazon.com^
 ||aax-us-iad.amazon.com^
 ||abc.net.au/counters/
 ||abc.net.au^*/stats/
@@ -14888,6 +14889,7 @@ _mongo_stats/
 ||turnsocial.com/track/
 ||tvshark.com/stats.js
 ||tw.i.hulu.com^
+||tweakers.net/ajax/ping/
 ||tweako.com/imp.php
 ||tweakreviews.com/count-banner
 ||twimbow.com/serverreq/twbtracker.php$xmlhttprequest
@@ -16731,6 +16733,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||addgene.org/headers/blat/js/analyze.js
 @@||adobedtm.com/*-source.min.js$script,domain=kroger.com
 @@||adobedtm.com/*_source.min.js$script,domain=kroger.com
+@@||adobedtm.com/extensions/*/AppMeasurement.min.js$domain=atresplayer.com
 @@||adobedtm.com/launch-$script
 @@||adobedtm.com^*/launch-$script
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|costco.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|newyorker.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|usanetwork.com|vanityfair.com|wired.com|wowway.net
@@ -16755,6 +16758,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||api.academia.edu^*/stats?callback$script,~third-party
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.github.com^*/log?ref=$xmlhttprequest
+@@||api.ipstack.com/check$domain=blockfi.com|withpersona.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.segment.io/v1/$xmlhttprequest,domain=instacart.com
 @@||api.vidaxl.com^*/trackingservice/customerportal/*?$xmlhttprequest,domain=tracking.vidaxl.com
