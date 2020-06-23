@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kOnqyHKW8qpW8DmG9vCT0A
-! Version: 202006220901
+! Checksum: xHGRKGAaBChyKx721IpnFA
+! Version: 202006230911
 ! Title: EasyList
-! Last modified: 22 Jun 2020 09:01 UTC
+! Last modified: 23 Jun 2020 09:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -30990,9 +30990,11 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||0sywjs4r1x.com^
 ||1-m.xyz^
 ||1-vr.xyz^
+||110380d053f716c4.com^
 ||11a581bbb5038e.com^
 ||11ccda709b5cdf5.com^
 ||12cdee5830.com^
+||12dc71b7cb820f2a.com^
 ||14nuzznszbdp.com^
 ||1aogoh1j81g3.com^
 ||1getbestf1le3.xyz^
@@ -31038,6 +31040,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||6yag4bmwyhs4.com^
 ||6yfory7f0njw.com^
 ||6zw2rcfd.com^
+||729dcbaa57e80c1e.com^
 ||7651d44da06c.com^
 ||777ff1571bab7667.com^
 ||7b7by5utoney.com^
@@ -31053,6 +31056,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||8ue4.xyz^
 ||8xkr.xyz^
 ||91jsnzw.xyz^
+||944e66f8683ac43c.com^
 ||967rett6fzaf.com^
 ||9d766be9a3.com^
 ||9ksj.xyz^
@@ -31070,6 +31074,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||acceptionijes.site^
 ||accompathych.site^
 ||acdcdn.com^
+||achinahdh.club^
 ||aclickads.com^
 ||acmsg.online^
 ||acscdn.com^
@@ -31313,6 +31318,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||changement.pro^
 ||charalli.pro^
 ||cheewait.net^
+||chemicall.club^
 ||chengaib.net^
 ||choorgiw.net^
 ||christingera.site^
@@ -31371,6 +31377,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cp7gyw5w94c7.com^
 ||cpalabtracking.com^
 ||cpcmart.com^
+||creathere.club^
 ||creativetv.pro^
 ||crimentasaju.site^
 ||criminglynuk.pro^
@@ -31660,6 +31667,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||gadslims.com^
 ||gadsoks.com^
 ||gadsokz.com^
+||gadspms.com^
 ||gagnibcan.com^
 ||gapsfartrely.best^
 ||gardoult.com^
@@ -31774,6 +31782,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ie8eamus.com^
 ||iendoo.com^
 ||iglaique.net^
+||iiprpq1bsedg.com^
 ||imounsos.com^
 ||in6ej4pbpnih.com^
 ||incommandary.club^
@@ -31854,6 +31863,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||krenovo.online^
 ||kudzuphloemgunk.tech^
 ||kumanaun.net^
+||l2ksixujfcg5.com^
 ||l2wisd9g5d9u.com^
 ||la1dwne9cn5c.com^
 ||labortiontrifee.info^
@@ -31875,6 +31885,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ldevillaechildren.info^
 ||ldingchristing.site^
 ||leagent.info^
+||learliamtempl.fun^
 ||learnshaw.info^
 ||leathtexactlycin.info^
 ||leavilysover.site^
@@ -31957,6 +31968,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||merciselyancies.site^
 ||meriesbefor.fun^
 ||meryjane.pro^
+||metermsew.club^
 ||methingewsf.club^
 ||metricfast.com^
 ||mewnetwag.site^
@@ -31988,6 +32000,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mohammequhe.site^
 ||monadplug.com^
 ||monastersincl.site^
+||mongdaughc.fun^
 ||montwam.top^
 ||mooaleoat.com^
 ||moonicorn.network^
@@ -32227,6 +32240,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||practivelizar.club^
 ||practthreat.club^
 ||presearchity.site^
+||presticikju.club^
 ||prevealhealth.info^
 ||prfctmney.com^
 ||processaryen.site^
@@ -32605,6 +32619,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||unlomblam.pro^
 ||unreshiramor.com^
 ||untabilityde.site^
+||untpresearch.club^
 ||untridrisa.cf^
 ||upheasted.club^
 ||upush.co^
@@ -35715,7 +35730,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||legisland.net^$third-party
 ||lemitsuz.net^$third-party
 ||lenmit.com^$third-party
-||leohd59.ru^$third-party
 ||leoneaningtoldre.pro^$third-party
 ||less-css.site^$third-party
 ||lessonis.com^$third-party
@@ -37817,7 +37831,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||videohub.com^$third-party
 ||videoindigen.com^$third-party
 ||videologygroup.com^$third-party
-||videoplayerhub.com^$third-party
 ||videoplaza.com^$object,third-party,domain=autoexpress.co.uk|evo.co.uk|givemefootball.com|mensfitness.co.uk|mpora.com|tribalfootball.com
 ||videoplaza.com^$~object,third-party
 ||videoplaza.tv/proxy/distributor^$object,third-party
@@ -52750,6 +52763,11 @@ $script,third-party,domain=171gifs.com|300mbfilms.org|321jav.com|4downfiles.org|
 |http://$script,stylesheet,subdocument,third-party,xmlhttprequest,domain=akvideo.stream
 |https://$popup,third-party,domain=akvideo.stream
 |https://$script,stylesheet,subdocument,third-party,xmlhttprequest,domain=akvideo.stream
+! mp4upload.com
+@@||cdnjs.cloudflare.com^$script,stylesheet,domain=mp4upload.com
+@@||fontawesome.com^$script,stylesheet,domain=mp4upload.com
+|http://$script,stylesheet,third-party,xmlhttprequest,domain=mp4upload.com
+|https://$script,stylesheet,third-party,xmlhttprequest,domain=mp4upload.com
 ! steamplay
 /^https?:\/\/.*.str?eamplay.*\/.*[?&$=!]/$script,subdocument
 @@||spcdn.cc^$xmlhttprequest,domain=steamplay.cc|streamplay.to
@@ -56228,7 +56246,6 @@ kioskea.net###bloc_middle
 1027dabomb.net###block-10
 alt1059.com###block-11
 alt1059.com###block-22
-uproxx.com###block-728
 filmschoolrejects.com###block-banners-top
 bbcgoodfood.com###block-bbcgf-search-views-bbcgf-cc-rtl-native
 hilarious-pictures.com,winbeta.org###block-block-1
@@ -59100,7 +59117,6 @@ missoulian.com###yahoo-contentmatch
 yahoo.com###yahooPN_CM
 yellowpages.com###yahoo_ss_border
 yahoo.com###yahoovideo_ysmlinks
-uproxx.com###yb-banner
 macintouch.com###yellows
 finance.yahoo.com###yfi_ad_FB2
 finance.yahoo.com###yfi_ad_cl
@@ -63061,7 +63077,6 @@ hottipscentral.com##.unwrapped
 notebook-driver.com##.updrv
 siouxcityjournal.com##.upickem-deal-of-the-day
 memez.com##.upperSideBox
-uproxx.com##.uproxx_mp_ad
 christiantoday.com##.usefulLinks
 downeu.net##.usenet
 audioz.download##.usenetWide
@@ -64335,7 +64350,6 @@ ap.org##div[style="margin: 0px auto 20px; width: 728px; height: 90px"]
 golflink.com##div[style="margin: 0px auto; width: 728px; height: 90px;"]
 keprtv.com##div[style="margin: 0px; width: 300px; height: 250px"]
 care2.com##div[style="margin: 10px 7px; width: 301px;"]
-uproxx.com##div[style="margin: 15px auto; width: 728px; height: 90px;"]
 usedcars.com##div[style="margin: 20px 0"]
 shouldiremoveit.com##div[style="margin: 5px 0px 30px 0px;"]
 comicwebcam.com##div[style="margin: 6px auto 0;"]
@@ -64482,7 +64496,6 @@ businessmirror.com.ph##div[style="width: 728px; height: 90px; margin: 0px auto; 
 hurriyetdailynews.com,leoweekly.com##div[style="width: 728px; height: 90px; margin: 0px auto;"]
 twcenter.net##div[style="width: 728px; height: 90px; margin: 1em auto 0;"]
 ripoffreport.com##div[style="width: 728px; height: 90px; margin: 20px auto; overflow: hidden;"]
-uproxx.com##div[style="width: 728px; height: 90px; margin: 20px auto;"]
 mbworld.org##div[style="width: 728px; height: 90px; overflow: hidden; margin: 0px auto;"]
 nitroflare.com##div[style="width: 728px; height: 90px; text-align: center;"]
 bit-tech.net,eatliver.com,jpost.com,lightreading.com,urbandictionary.com##div[style="width: 728px; height: 90px;"]
@@ -65462,12 +65475,12 @@ youtube.com##ytm-promoted-sparkles-text-search-renderer
 youtube.com##ytm-promoted-sparkles-web-renderer
 ! uponit / rev/ taboola
 loveroms.com##[src*="application/javascript"]
-almasdarnews.com,antonymsfor.com,breakingisraelnews.com,coed.com,colourlovers.com,convert-me.com,convertcase.net,crackberry.com,daclips.in,dailygalaxy.com,diffen.com,drudgereport.com,easybib.com,eurweb.com,freewarefiles.com,fullmatchesandshows.com,genfb.com,grammarist.com,israelnationalnews.com,jerusalemonline.com,jewsnews.co.il,jpost.com,kizi.com,kshowonline.com,magnetdl.com,mmorpg.com,nba-stream.com,newsarama.com,opensubtitles.org,phonesreview.co.uk,playbill.com,pocketnow.com,readmng.com,roadracerunner.com,sh.st,sportspickle.com,teslacentral.com,the4thofficial.net,thebarchive.com,toptenz.net,trifind.com,uproxx.com,videotoolbox.com,vrheads.com,wnd.com,xda-developers.com##[src*="blob:"]
-almasdarnews.com,antonymsfor.com,breakingisraelnews.com,coed.com,colourlovers.com,convert-me.com,convertcase.net,daclips.in,dailygalaxy.com,diffen.com,drudgereport.com,easybib.com,eurweb.com,freewarefiles.com,fullmatchesandshows.com,genfb.com,grammarist.com,indiewire.com,jerusalemonline.com,jewsnews.co.il,kizi.com,kshowonline.com,magnetdl.com,nba-stream.com,newsarama.com,opensubtitles.org,phonesreview.co.uk,playbill.com,readmng.com,roadracerunner.com,sh.st,sportspickle.com,teslacentral.com,the4thofficial.net,thebarchive.com,toptenz.net,trifind.com,uproxx.com,videotoolbox.com,vrheads.com,wnd.com,xda-developers.com##[style*="background-image:"]
-almasdarnews.com,antonymsfor.com,breakingisraelnews.com,codeproject.com,coed.com,colourlovers.com,convert-me.com,convertcase.net,crackberry.com,daclips.in,dailygalaxy.com,destructoid.com,diffen.com,drudgereport.com,easybib.com,eurweb.com,freewarefiles.com,fullmatchesandshows.com,genfb.com,grammarist.com,indiewire.com,israelnationalnews.com,jerusalemonline.com,jewsnews.co.il,jpost.com,kizi.com,kshowonline.com,magnetdl.com,mmorpg.com,msn.com,nba-stream.com,newsarama.com,opensubtitles.org,phonesreview.co.uk,playbill.com,pocketnow.com,readmng.com,roadracerunner.com,sh.st,sportspickle.com,teslacentral.com,the4thofficial.net,thebarchive.com,toptenz.net,trifind.com,uproxx.com,videotoolbox.com,vrheads.com,wnd.com,xda-developers.com##[style*="base64"]
-101greatgoals.com,allthetests.com,almasdarnews.com,ancient-origins.net,antonymsfor.com,bibme.org,biology-online.org,blacklistednews.com,breakingisraelnews.com,chicagotribune.com,citationmachine.net,codeproject.com,coed.com,colourlovers.com,convert-me.com,convertcase.net,crackberry.com,daclips.in,dailygalaxy.com,destructoid.com,diffen.com,drudgereport.com,easybib.com,eurweb.com,freewarefiles.com,fullmatchesandshows.com,genfb.com,grammarist.com,indiewire.com,israelnationalnews.com,jerusalemonline.com,jewsnews.co.il,jpost.com,kizi.com,kshowonline.com,magnetdl.com,mmorpg.com,msn.com,nba-stream.com,newsarama.com,opensubtitles.org,phonesreview.co.uk,playbill.com,pocketnow.com,readmng.com,roadracerunner.com,sh.st,sportspickle.com,teslacentral.com,the4thofficial.net,thebarchive.com,toptenz.net,trifind.com,uproxx.com,videotoolbox.com,vrheads.com,wnd.com,xda-developers.com##[style*="blob:"]
-almasdarnews.com,antonymsfor.com,breakingisraelnews.com,coed.com,colourlovers.com,convert-me.com,convertcase.net,crackberry.com,daclips.in,dailygalaxy.com,destructoid.com,diffen.com,drudgereport.com,easybib.com,eurweb.com,freewarefiles.com,fullmatchesandshows.com,genfb.com,grammarist.com,indiewire.com,israelnationalnews.com,jerusalemonline.com,jewsnews.co.il,jpost.com,kizi.com,kshowonline.com,magnetdl.com,mmorpg.com,msn.com,nba-stream.com,newsarama.com,opensubtitles.org,phonesreview.co.uk,playbill.com,pocketnow.com,readmng.com,roadracerunner.com,sh.st,sportspickle.com,teslacentral.com,the4thofficial.net,thebarchive.com,toptenz.net,trifind.com,uproxx.com,videotoolbox.com,vrheads.com,wnd.com,xda-developers.com##[style*="data:"]
-antonymsfor.com,blacklistednews.com,breakingisraelnews.com,chicagotribune.com,citationmachine.net,codeproject.com,coed.com,colourlovers.com,convert-me.com,convertcase.net,crackberry.com,dailygalaxy.com,destructoid.com,diffen.com,drudgereport.com,easybib.com,elbooru.com,eurweb.com,freewarefiles.com,fullmatchesandshows.com,genfb.com,grammarist.com,indiewire.com,jerusalemonline.com,jewsnews.co.il,jpost.com,kizi.com,kshowonline.com,magnetdl.com,mmorpg.com,nba-stream.com,newsarama.com,opensubtitles.org,phonesreview.co.uk,playbill.com,pocketnow.com,readmng.com,roadracerunner.com,sh.st,sportspickle.com,teslacentral.com,the4thofficial.net,thebarchive.com,toptenz.net,trifind.com,uproxx.com,videotoolbox.com,vrheads.com,wnd.com#?#:-abp-properties(base64)
+almasdarnews.com,antonymsfor.com,breakingisraelnews.com,coed.com,colourlovers.com,convert-me.com,convertcase.net,crackberry.com,daclips.in,dailygalaxy.com,diffen.com,drudgereport.com,easybib.com,eurweb.com,freewarefiles.com,fullmatchesandshows.com,genfb.com,grammarist.com,israelnationalnews.com,jerusalemonline.com,jewsnews.co.il,jpost.com,kizi.com,kshowonline.com,magnetdl.com,mmorpg.com,nba-stream.com,newsarama.com,opensubtitles.org,phonesreview.co.uk,playbill.com,pocketnow.com,readmng.com,roadracerunner.com,sh.st,sportspickle.com,teslacentral.com,the4thofficial.net,thebarchive.com,toptenz.net,trifind.com,videotoolbox.com,vrheads.com,wnd.com,xda-developers.com##[src*="blob:"]
+almasdarnews.com,antonymsfor.com,breakingisraelnews.com,coed.com,colourlovers.com,convert-me.com,convertcase.net,daclips.in,dailygalaxy.com,diffen.com,drudgereport.com,easybib.com,eurweb.com,freewarefiles.com,fullmatchesandshows.com,genfb.com,grammarist.com,indiewire.com,jerusalemonline.com,jewsnews.co.il,kizi.com,kshowonline.com,magnetdl.com,nba-stream.com,newsarama.com,opensubtitles.org,phonesreview.co.uk,playbill.com,readmng.com,roadracerunner.com,sh.st,sportspickle.com,teslacentral.com,the4thofficial.net,thebarchive.com,toptenz.net,trifind.com,videotoolbox.com,vrheads.com,wnd.com,xda-developers.com##[style*="background-image:"]
+almasdarnews.com,antonymsfor.com,breakingisraelnews.com,codeproject.com,coed.com,colourlovers.com,convert-me.com,convertcase.net,crackberry.com,daclips.in,dailygalaxy.com,destructoid.com,diffen.com,drudgereport.com,easybib.com,eurweb.com,freewarefiles.com,fullmatchesandshows.com,genfb.com,grammarist.com,indiewire.com,israelnationalnews.com,jerusalemonline.com,jewsnews.co.il,jpost.com,kizi.com,kshowonline.com,magnetdl.com,mmorpg.com,msn.com,nba-stream.com,newsarama.com,opensubtitles.org,phonesreview.co.uk,playbill.com,pocketnow.com,readmng.com,roadracerunner.com,sh.st,sportspickle.com,teslacentral.com,the4thofficial.net,thebarchive.com,toptenz.net,trifind.com,videotoolbox.com,vrheads.com,wnd.com,xda-developers.com##[style*="base64"]
+101greatgoals.com,allthetests.com,almasdarnews.com,ancient-origins.net,antonymsfor.com,bibme.org,biology-online.org,blacklistednews.com,breakingisraelnews.com,chicagotribune.com,citationmachine.net,codeproject.com,coed.com,colourlovers.com,convert-me.com,convertcase.net,crackberry.com,daclips.in,dailygalaxy.com,destructoid.com,diffen.com,drudgereport.com,easybib.com,eurweb.com,freewarefiles.com,fullmatchesandshows.com,genfb.com,grammarist.com,indiewire.com,israelnationalnews.com,jerusalemonline.com,jewsnews.co.il,jpost.com,kizi.com,kshowonline.com,magnetdl.com,mmorpg.com,msn.com,nba-stream.com,newsarama.com,opensubtitles.org,phonesreview.co.uk,playbill.com,pocketnow.com,readmng.com,roadracerunner.com,sh.st,sportspickle.com,teslacentral.com,the4thofficial.net,thebarchive.com,toptenz.net,trifind.com,videotoolbox.com,vrheads.com,wnd.com,xda-developers.com##[style*="blob:"]
+almasdarnews.com,antonymsfor.com,breakingisraelnews.com,coed.com,colourlovers.com,convert-me.com,convertcase.net,crackberry.com,daclips.in,dailygalaxy.com,destructoid.com,diffen.com,drudgereport.com,easybib.com,eurweb.com,freewarefiles.com,fullmatchesandshows.com,genfb.com,grammarist.com,indiewire.com,israelnationalnews.com,jerusalemonline.com,jewsnews.co.il,jpost.com,kizi.com,kshowonline.com,magnetdl.com,mmorpg.com,msn.com,nba-stream.com,newsarama.com,opensubtitles.org,phonesreview.co.uk,playbill.com,pocketnow.com,readmng.com,roadracerunner.com,sh.st,sportspickle.com,teslacentral.com,the4thofficial.net,thebarchive.com,toptenz.net,trifind.com,videotoolbox.com,vrheads.com,wnd.com,xda-developers.com##[style*="data:"]
+antonymsfor.com,blacklistednews.com,breakingisraelnews.com,chicagotribune.com,citationmachine.net,codeproject.com,coed.com,colourlovers.com,convert-me.com,convertcase.net,crackberry.com,dailygalaxy.com,destructoid.com,diffen.com,drudgereport.com,easybib.com,elbooru.com,eurweb.com,freewarefiles.com,fullmatchesandshows.com,genfb.com,grammarist.com,indiewire.com,jerusalemonline.com,jewsnews.co.il,jpost.com,kizi.com,kshowonline.com,magnetdl.com,mmorpg.com,nba-stream.com,newsarama.com,opensubtitles.org,phonesreview.co.uk,playbill.com,pocketnow.com,readmng.com,roadracerunner.com,sh.st,sportspickle.com,teslacentral.com,the4thofficial.net,thebarchive.com,toptenz.net,trifind.com,videotoolbox.com,vrheads.com,wnd.com#?#:-abp-properties(base64)
 ! sythe
 !sythe.org##.pageContent > div > span > [href]
 !sythe.org##[href="https://www.sythe.org/r/"]
@@ -67080,6 +67093,7 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||dragon-mania-legends-wiki.mobga.me^*_advertisement.
 @@||dragon-mania-legends-wiki.mobga.me^*_Advertisement_
 @@||dwiextreme.com/banners/dwiextreme$image
+@@||dynata.com/survey/$generichide
 @@||edmodo.com/ads$~third-party,xmlhttprequest
 @@||emergencymedicalparamedic.com/wp-content/themes/AdSense/style.css
 @@||engine.adzerk.net/api/$domain=tradingview.com

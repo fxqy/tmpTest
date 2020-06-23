@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: J413fNBjDDcqhXs/xp0nnA
-! Version: 202006220902
+! Checksum: NmSKIOXR+xWWyL2uVALkjA
+! Version: 202006230911
 ! Title: EasyPrivacy
-! Last modified: 22 Jun 2020 09:02 UTC
+! Last modified: 23 Jun 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7895,6 +7895,7 @@ _mongo_stats/
 ||vertster.com^$third-party
 ||vi-serve.com^$third-party
 ||video.oms.eu^$third-party
+||videoplayerhub.com^$third-party
 ||videos.oms.eu^$third-party
 ||videostat.com^$third-party
 ||vilynx.com^$third-party
@@ -13739,6 +13740,7 @@ _mongo_stats/
 ||lexus.com/lexus-share/js/campaign_tracking.js
 ||lh.secure.yahoo.com^
 ||life.com/sm-stat/
+||lightstep.medium.systems^*/reports
 ||likes.com/api/track_pv
 ||lilb2.shutterstock.com^
 ||linguee.com*/white_pixel.gif?
@@ -16732,7 +16734,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||adobedtm.com/*_source.min.js$script,domain=kroger.com
 @@||adobedtm.com/extensions/*/AppMeasurement.min.js$domain=atresplayer.com
 @@||adobedtm.com/launch-$script
-@@||adobedtm.com^*/launch-$script
+@@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|costco.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|newyorker.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|usanetwork.com|vanityfair.com|wired.com|wowway.net
 @@||adobedtm.com^*/s-code-$script
 @@||adobedtm.com^*/satellite-$script
