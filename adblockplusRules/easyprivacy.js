@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: NmSKIOXR+xWWyL2uVALkjA
-! Version: 202006230911
+! Checksum: MXCPrEkHptzKrgYNe/sUPg
+! Version: 202006240901
 ! Title: EasyPrivacy
-! Last modified: 23 Jun 2020 09:11 UTC
+! Last modified: 24 Jun 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -682,6 +682,7 @@
 /analytics/call-
 /analytics/capture/*
 /analytics/cms/*
+/analytics/collect?
 /analytics/collect_
 /analytics/collector.
 /analytics/collector/*
@@ -9050,7 +9051,6 @@ _mongo_stats/
 ||tracking.wlscripts.net^
 ||trafiz.net^$third-party
 ||uzerly.net^$third-party
-||viously.com^$third-party
 ||webcompteur.com^$third-party
 ||winitout.com^$third-party
 ||wysistat.com^$third-party
@@ -12118,6 +12118,7 @@ _mongo_stats/
 ||tsphone.biz/pixelvoleur.jpg?
 ||veoxa.com/get_trackingcode.
 ||vidazoo.com/report/?
+||viously.com/mt?
 ||visitping.rossel.be^
 ||webmecanik.com/mtc.js
 ||webreseau.com/impression.asp?
@@ -16953,6 +16954,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.co.uk|ancestry.com|ancestry.com.au|ancestry.it|barclays.co.uk|blogtalkradio.com|swisscom.ch
 @@||ondemand.sas.com^$subdocument
 @@||online-metrix.net/fp/tags.js$domain=donorschoose.org
+@@||orginio.com/api/analytics/$~third-party,xmlhttprequest
 @@||ourworld.com/ow/evercookie_
 @@||ourworld.com/ow/js/evercookie/$script
 @@||pagure.io/static/issues_stats.js?
@@ -17173,6 +17175,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ksta.de/cre-1.0/tracking/call.js?$domain=ksta.de
 @@||ksta.de^*/api/tracking/service/ksta/templateclient.js$domain=ksta.de
 @@||ksta.de^*/tracking/tracking.js$domain=ksta.de
+@@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||rtl.de^*/videotracking.min.js$domain=rtl.de
 @@||spatialbuzz.com/piwik/piwik.js$domain=spatialbuzz.com
 @@||spiegel.de/layout/js/http/netmind-$script
