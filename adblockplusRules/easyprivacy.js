@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: p5xlgAbATJ8zxOqLKND0iQ
-! Version: 202006241421
+! Checksum: 0+Sj1PCWgeeNAcRLzhMMWA
+! Version: 202006251351
 ! Title: EasyPrivacy
-! Last modified: 24 Jun 2020 14:21 UTC
+! Last modified: 25 Jun 2020 13:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6672,6 +6672,7 @@ _mongo_stats/
 ||ironbeast.io^$third-party
 ||ist-track.com^$third-party
 ||istrack.com^$third-party
+||ithinkthereforeiam.net^$third-party
 ||itrac.it^$third-party
 ||itracker360.com^$third-party
 ||itrackerpro.com^$third-party
@@ -11413,6 +11414,7 @@ _mongo_stats/
 ||t.sharethis.com^
 ||t.smile.eu^
 ||t2.t2b.click^
+||taboola.com/?uid=
 ||taboola.com/tb?
 ||taboola.com^*/log/
 ||taboola.com^*/notify-impression?$third-party
@@ -15085,6 +15087,7 @@ _mongo_stats/
 ||ws.yellowpages.ca^
 ||wstats.e-wok.tv^
 ||wtk.db.com^
+||wunderground.com/bundle-next/scripts.
 ||wunderground.com/tag.php
 ||wwe.com/sites/all/modules/wwe/wwe_analytics/
 ||www.google.*/imgevent?$script
@@ -15308,11 +15311,11 @@ _mongo_stats/
 ||heraldscotland-gb.heraldscotland.com^
 ||isgprivacy.cbsi.com^
 ||keighleynews-gb.keighleynews.co.uk^
-||mdn.neowin.net^
 ||mmm.carbuyer.co.uk^
 ||mms.blick.ch^
 ||mms.gocomics.com^
 ||mms.itpro.co.uk^
+||neowin.net/js/mdn.neowin.js
 ||orionis.techradar.com^
 ||rps-p2.rockpapershotgun.com^
 ||rps-uk.rockpapershotgun.com^
@@ -16803,6 +16806,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||cloudfront.net^*/comscore.$script,domain=my5.tv
 @@||cloudfront.net^*/VisitorAPI.js$domain=financialpost.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
+@@||cnbcfm.com/applications/cnbc.com/staticcontent/scripts/libraries/QuoteRedesign/quote_analytics.js$script,domain=cnbc.com
 @@||cognition-va.bytedance.com/api/knowledge/$xmlhttprequest,domain=ads.tiktok.com
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||connect.squareup.com/payments/analytics/frame.html$subdocument
@@ -17278,7 +17282,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ensighten.com^*/Bootstrap.js$domain=williamhill.it
 @@||google-analytics.com/analytics.js$domain=carnesvizzera.ch
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
-@@||googletagmanager.com/gtm.js?$domain=iphoneitalia.com|la7.it
+@@||googletagmanager.com/gtm.js?$domain=iphoneitalia.com|la7.it|raiplayradio.it
 @@||ilsole24ore.com^*/fingerprint2.min.js?
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=la7.it|sky.it|video.corriere.it
 @@||imrworldwide.com/v60.js$domain=capital.it|corriereadriatico.it|fanpage.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|leggo.it|m2o.it|quotidianodipuglia.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it

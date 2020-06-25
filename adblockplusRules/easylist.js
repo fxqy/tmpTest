@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fhHiUdQwJIc583hIo/BgnA
-! Version: 202006241421
+! Checksum: DzgwoQ1sn0pClEXiQSSCTw
+! Version: 202006251351
 ! Title: EasyList
-! Last modified: 24 Jun 2020 14:20 UTC
+! Last modified: 25 Jun 2020 13:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -749,7 +749,7 @@
 .one/ads/
 .online/ads/
 .openad.$domain=~openad.lv
-.openx.$domain=~openx.com
+.openx.$domain=~openx.com|~openx.solar
 .openxtag.
 .org/ad-
 .org/ad.$~script
@@ -1917,7 +1917,7 @@
 /adfox/*
 /adfoxLoader_
 /adfr.
-/adframe.$~script
+/adframe.$~script,~xmlhttprequest
 /adframe/*
 /adframe120.
 /adframe120x240.
@@ -6943,6 +6943,7 @@
 /TrafficHaus/*
 /trafficsynergysupportresponse_
 /transad.
+/TravelAdPageView?
 /travidia/*
 /tremoradrenderer.
 /trendad.
@@ -31268,6 +31269,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||boubeeth.com^
 ||bouillerines.website^
 ||boursnormaticm.info^
+||bowmoolog.com^
 ||boyaidare.club^
 ||boyalebut.site^
 ||boycottons.club^
@@ -31415,6 +31417,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||dainaith.net^
 ||damelaurig.info^
 ||danachings.club^
+||dantbritingd.club^
 ||dardwebertoha.info^
 ||dating2cloud.org^
 ||dayadopen.site^
@@ -31489,6 +31492,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||e2706c6e2b426f74.com^
 ||e2ertt.com^
 ||e376ef28103177cc.com^
+||eadminimals.fun^
 ||eae5daf052d2673b.com^
 ||eaintrolled.info^
 ||eardewova.com^
@@ -31499,6 +31503,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||easylist-to.xyz^
 ||ebetoni.com^
 ||echoazou.com^
+||ecominalber.club^
 ||econdardseeg.site^
 ||ecurrenchoutliness.fun^
 ||edcritessuspi.info^
@@ -31540,6 +31545,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||encoursejaso.site^
 ||englingedrxa.club^
 ||engppdoqrtivjd.com^
+||engrievinebef.fun^
 ||enormitteen.pro^
 ||enoxidewo.fun^
 ||enseptedsome.info^
@@ -32164,6 +32170,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||orcjagpox.com^
 ||ordinggrandt.fun^
 ||originedreting.site^
+||orminecommi.fun^
 ||ornamedev.club^
 ||ortantchangem.info^
 ||oselyprepartie.info^
@@ -32607,6 +32614,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||trlf8mmpbfz1.com^
 ||trothko.com^
 ||trouvredawes.site^
+||tructedpunis.fun^
 ||truestioncarefore.site^
 ||tslomhfys.com^
 ||tsundedhimse.fun^
@@ -33921,8 +33929,8 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||bannerperformance.net^$third-party
 ||bannerrage.com^$third-party
 ||bannersmania.com^$third-party
-||bannersnack.com^$third-party
-||bannersnack.net^$third-party
+||bannersnack.com^$third-party,domain=~bannersnack.dev
+||bannersnack.net^$third-party,domain=~bannersnack.dev
 ||bannertgt.com^$third-party
 ||bannertracker-script.com^$third-party
 ||bannerweb.com^$third-party
@@ -49630,6 +49638,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||api.140proof.com^$third-party
 ||api.bitp.it^$third-party
 ||api.ticketnetwork.com/Events/TopSelling/domain=nytimes.com
+||apihotels.net/onestream/events/
 ||apkmaza.net/wp-content/uploads/$third-party
 ||apnonline.com.au/img/marketplace/*_ct50x50.gif
 ||appdevsecrets.com/images/nuts/
@@ -50905,7 +50914,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||smblock.s3.amazonaws.com^
 ||smbulk.com/assets/images/banner-
 ||smilepk.com/bnrsbtns/
-||snacktools.net/bannersnack/
+||snacktools.net/bannersnack/$domain=~bannersnack.dev
 ||snapdeal.com^*.php$third-party
 ||sndkorea.nowcdn.co.kr^$third-party
 ||socialmonkee.com/images/$third-party
@@ -51052,6 +51061,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||tribwgnam.files.wordpress.com^*reskin2.
 ||tripadvisor.com/WidgetEmbed-*&partnerId=$domain=rbth.co.uk|rbth.com
 ||trivago.co.uk/uk/srv/$third-party
+||trvl-px.com/trvl-px/$third-party
 ||tshirthell.com/img/affiliate_section/$third-party
 ||ttgtmedia.com/Marketing/
 ||ttt.co.uk/TMConverter/$third-party
@@ -55588,6 +55598,7 @@ loadout.tf###verticalBar
 eplsite.uk###video-section
 pirate-bay.net###vpnModal
 btdb.io,ibit.to###vpnvpn
+theregister.com###whitepapers
 stadiumastro.com##.Ads
 ynetnews.com##.ArticleBannerComponenta
 warriorforum.com##.DiscussionBoard-signature-content
@@ -67118,7 +67129,7 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||digiads.com.au/images/shared/misc/ad-disclaimer.gif
 @@||doubleclick.net/ddm/$image,domain=aetv.com|fyi.tv|history.com|mylifetime.com|speedtest.net
 @@||doubleclick.net/favicon.ico$image,domain=goal.com
-@@||doubleclick.net/gpt/pubads_impl_$script,domain=accuweather.com|epaper.timesgroup.com|espn.com|nbcsports.com|webmd.com
+@@||doubleclick.net/gpt/pubads_impl_$script,xmlhttprequest,domain=accuweather.com|epaper.timesgroup.com|espn.com|nbcsports.com|webmd.com
 @@||downdetector.com^*/javascript/dist/adscript.js$script
 @@||dragon-mania-legends-wiki.mobga.me^*_advertisement.
 @@||dragon-mania-legends-wiki.mobga.me^*_Advertisement_
@@ -67144,7 +67155,7 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||fwmrm.net^*/AdManager.js$script
 @@||g.doubleclick.net/gampad/ads$xmlhttprequest,domain=gamespot.com
 @@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=fox35orlando.com|imasdk.googleapis.com
-@@||g.doubleclick.net/tag/js/gpt.js$script,domain=9gag.com|accuweather.com|gamespot.com|webmd.com|womenshealthmag.com
+@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=9gag.com|accuweather.com|gamespot.com|webmd.com|womenshealthmag.com
 @@||g2crowd.com/uploads/product/image/$image,domain=g2.com
 @@||glos.ac.uk/DataRepository/CourseDatabase/*/adv/$image,~third-party
 @@||google.*/s?*&q=$~third-party,xmlhttprequest,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
