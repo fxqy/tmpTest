@@ -13,6 +13,25 @@ Stable正式版：https://www.google.cn/chrome/browser/desktop/index.html?platfo
 adblockPlus https://chrome.google.com/webstore/detail/cfhdojbkjhnklbpkdaibdccddilifddb
 https://chrome.google.com/webstore/detail/cfhdojbkjhnklbpkdaibdccddilifddb
 https://2wk.com/vip.php?url=
+Chrome缓存位置更改:
+    C:\Users\Dong\AppData\Local\Google\Chrome\User Data\Default\Cache
+    执行命令  mklink /D "C:\Users\Dong\AppData\Local\Google\Chrome\User Data\Default\Cache" "R:\ChromeCache"
+
+
+------------------------------Firefox------------------------------
+Firefox缓存位置更改:
+    1.about:config 搜索browser.cache.disk.parent_directory
+    2.未搜到则新建字符串：browser.cache.disk.parent_directory	R:\FirefoxCache
+
+------------------------------Adblock plus------------------------------
+
+https://easylist-downloads.adblockplus.org/easylistchina.txt?focdnm=easylistchina.js
+
+https://easylist-downloads.adblockplus.org/easyprivacy.txt?focdnm=easyprivacy.js
+https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt?focdnm=cjxlist.js
+https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt?focdnm=cjx-annoyance.js
+https://easylist-downloads.adblockplus.org/easylist.txt?focdnm=easylist.js
+https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt?focdnm=easylistchina+easylist.js
 
 ------------------------------Mac address------------------------------
 
@@ -39,16 +58,6 @@ BDUSS=; STOKEN=
 curl -O -# -H "Referer: http:" http:**/[1-50].jpg
 
 -lcurl -lws2_32 -lwinmm -lwldap32 -lwsock32
-
-------------------------------Adblock plus------------------------------
-
-https://easylist-downloads.adblockplus.org/easylistchina.txt?focdnm=easylistchina.js
-
-https://easylist-downloads.adblockplus.org/easyprivacy.txt?focdnm=easyprivacy.js
-https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjxlist.txt?focdnm=cjxlist.js
-https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt?focdnm=cjx-annoyance.js
-https://easylist-downloads.adblockplus.org/easylist.txt?focdnm=easylist.js
-https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt?focdnm=easylistchina+easylist.js
 
 ------------------------------aria2c------------------------------
 
