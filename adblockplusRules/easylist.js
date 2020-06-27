@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sBX0pF5qaKGkmWhra8bn3w
-! Version: 202006261341
+! Checksum: 9tFdX246tKoTHeXLYhPiig
+! Version: 202006270210
 ! Title: EasyList
-! Last modified: 26 Jun 2020 13:40 UTC
+! Last modified: 27 Jun 2020 02:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3524,7 +3524,7 @@
 /advertisewithus_
 /advertising-$domain=~abramarketing.com|~advertising-direct.com|~advertising-excellence.com|~advertising-factory.de|~advertising.amazon.com|~deals-italy.com|~microsoft.com|~outbrain.com|~yellowimages.com
 /advertising.$~script,~xmlhttprequest,domain=~advertising.amazon.ae|~advertising.amazon.ca|~advertising.amazon.cn|~advertising.amazon.co.jp|~advertising.amazon.co.uk|~advertising.amazon.com|~advertising.amazon.com.au|~advertising.amazon.com.mx|~advertising.amazon.de|~advertising.amazon.es|~advertising.amazon.fr|~advertising.amazon.in|~advertising.amazon.it|~advertising.amazon.sa|~advertising.berlin-airport.de|~advertising.bulurum.com|~advertising.byhoxby.com|~advertising.dailymotion.com|~advertising.expedia.com|~advertising.hulu.com|~advertising.lavenir.net|~advertising.mobile.de|~advertising.nzme.co.nz|~advertising.org.il|~advertising.racingpost.com|~advertising.roku.com|~advertising.scoop.co.nz|~advertising.sevenwestmedia.com.au|~advertising.shpock.com|~advertising.theguardian.com|~advertising.utexas.edu|~advertising.vrisko.gr|~advision.co
-/advertising/*$~xmlhttprequest,domain=~advertising.org.il|~~kloterfarms.com|~temple.edu|~themarker.com
+/advertising/*$~xmlhttprequest,domain=~advertising.org.il|~kloterfarms.com|~temple.edu|~themarker.com
 /advertising/traffic-
 /advertising02.
 /advertising2.
@@ -29798,6 +29798,7 @@ _popunder+$popup
 ##a[href^="https://traffic.bannerator.com/"]
 ##a[href^="https://trafficmedia.center/"]
 ##a[href^="https://transfer.xe.com/signup/track/redirect?"]
+##a[href^="https://trf.bannerator.com/"]
 ##a[href^="https://trklvs.com/"]
 ##a[href^="https://trust.zone/go/r.php?RID="]
 ##a[href^="https://uncensored.game/"]
@@ -29810,6 +29811,7 @@ _popunder+$popup
 ##a[href^="https://www.adultempire.com/"][href*="?partner_id="]
 ##a[href^="https://www.adxtro.com/"]
 ##a[href^="https://www.arthrozene.com/"][href*="?tid="]
+##a[href^="https://www.awin1.com/cread.php?awinaffid="]
 ##a[href^="https://www.bebi.com"]
 ##a[href^="https://www.brazzersnetwork.com/landing/"]
 ##a[href^="https://www.camsoda.com/enter.php?id="]
@@ -31189,6 +31191,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||atelovesinothic.info^
 ||atesbrothereso.info^
 ||atesupheast.fun^
+||athercompet.club^
 ||atherethundr.fun^
 ||ationdignifica.fun^
 ||atoultou.com^
@@ -31525,6 +31528,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||eforeantheirma.info^
 ||egfqtvewksktz.com^
 ||egroacho.com^
+||eikegolehem.com^
 ||eitherewindoor.club^
 ||ek9xrk5gyu.com^
 ||elastinabuker.site^
@@ -31535,6 +31539,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||elfirkelk.com^
 ||elivescousingcr.info^
 ||elkbahtax.com^
+||ellanrequiryf.fun^
 ||ellorschairwaydis.site^
 ||elmbagask.com^
 ||elyconsisterj.club^
@@ -31769,6 +31774,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||heredeithere.club^
 ||hesterinoc.info^
 ||hethelcontai.fun^
+||hictionstop.fun^
 ||himselvepostly.site^
 ||himselveseg.club^
 ||himselvesobr.club^
@@ -32233,6 +32239,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||performanceonclick.com^
 ||perhangeflets.site^
 ||pertycleaner.site^
+||perytakeryca.fun^
 ||petchesa.net^
 ||pf34zdjoeycr.com^
 ||pffw8mgd.com^
@@ -32341,6 +32348,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||realsrv.com^
 ||realtime-bid.com^
 ||reasonalattracke.info^
+||rebritingcyclo.fun^
 ||reckedmane.club^
 ||recomine.club^
 ||recommerdal.club^
@@ -32362,6 +32370,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||remarypolike.site^
 ||replentcautiful.info^
 ||repruggob.com^
+||requencesfor.fun^
 ||requentlyfths.club^
 ||resbargarettybe.info^
 ||resissylvespu.info^
@@ -32451,6 +32460,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||secured-phone.club^
 ||seepsocu.net^
 ||senrecomines.fun^
+||senrecominev.fun^
 ||separenujilo.club^
 ||seriencern.club^
 ||seriodilov.club^
@@ -32795,6 +32805,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||yonatefin.site^
 ||youearrid.com^
 ||ys1pve.site^
+||yspicb.site^
 ||yvmads.com^
 ||z11yv3xpzk.com^
 ||z3dmbpl6309s.com^
@@ -65735,6 +65746,7 @@ msn.com##a[href^="https://beap.gemini.yahoo.com/"]
 msn.com##a[href^="https://r1.zemanta.com/"]
 msn.com##a[href^="https://redirect.viglink.com/"]
 msn.com##a[href^="https://www.amazon."][href*="&tag="]
+msn.com##a[href^="https://www.awin1.com/cread.php?awinaffid="]
 msn.com##a[target="_blank"][x-enc]
 msn.com##div[data-section-id="sponsored.stripe.shopping"]
 msn.com##div[data-section-id="stripe.msstore"]
@@ -65755,10 +65767,8 @@ bing.com##.pa_list_sbo
 bing.com##.pa_sb
 @@||bing.com/shop$generichide
 bing.com##a[h$=",Ads"]
-bing.com#?##b_context > li + li :-abp-has(span.b_adSlug)
 bing.com#?##b_results > li :-abp-has(span.b_aslcp)
 bing.com#?##b_results > li :-abp-has(span.b_aslcpv4)
-bing.com#?##b_results > li :-abp-has(span:-abp-contains(Ad))
 bing.com#?#.b_algo:-abp-has(p:-abp-properties(content: "Ad"))
 bing.com##li.b_adBottom
 ! *** easylist:easylist_adult/adult_specific_hide.txt ***
