@@ -17,7 +17,6 @@ Chrome缓存位置更改:
     C:\Users\Dong\AppData\Local\Google\Chrome\User Data\Default\Cache
     执行命令  mklink /D "C:\Users\Dong\AppData\Local\Google\Chrome\User Data\Default\Cache" "R:\ChromeCache"
 
-
 ------------------------------Firefox------------------------------
 Firefox缓存位置更改:
     1.about:config 搜索browser.cache.disk.parent_directory
