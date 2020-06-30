@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: CZgDe+LC9GXxAM6Iv7Reig
-! Version: 202006291111
+! Checksum: /rQzX793XPS0M8MdJNhKsg
+! Version: 202006300931
 ! Title: EasyPrivacy
-! Last modified: 29 Jun 2020 11:11 UTC
+! Last modified: 30 Jun 2020 09:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5006,6 +5006,7 @@
 /ZagUser.js
 /zaius-min.js
 /zaius.gif?
+/zaius.js
 /zanox.js
 /zdgurgler.min.js
 /zemtracker.
@@ -10293,6 +10294,7 @@ _mongo_stats/
 ||d1gp8joe0evc8s.cloudfront.net^
 ||d1hi41nc56pmug.cloudfront.net^
 ||d1iazwv1n1tsyi.cloudfront.net^
+||d1igp3oop3iho5.cloudfront.net^
 ||d1m6l9dfulcyw7.cloudfront.net^
 ||d1qpxk1wfeh8v1.cloudfront.net^
 ||d1r27qvpjiaqj3.cloudfront.net^
@@ -13049,6 +13051,7 @@ _mongo_stats/
 ||cheapsalesconsulting.com/adaptive.php?
 ||cheezburger.com/api/visitor
 ||chelseafc.com^*/tracking.js
+||chicagotribune.com/pb/resources/images/tinygif.gif
 ||china.com/statistic.js
 ||china.com^*/endpage_footer.js
 ||chip.eu^*/pic.gif?
@@ -14383,6 +14386,7 @@ _mongo_stats/
 ||session-tracker.badcreditloans.com^
 ||sevenload.com/som_
 ||sex-flow.com/js/error.js
+||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
 ||sh.st/bundles/smeweb/img/tracking-
 ||shareaholic.com^*/bake.gif?
 ||sharecast.com/counter.php
@@ -15210,7 +15214,8 @@ _mongo_stats/
 ! Ebay trackers
 ! https://nullsweep.com/why-is-this-website-port-scanning-me/
 /^https?:\/\/ir\.ebaystatic\.com\/rs\/v\/[a-zA-Z0-9]{18,}\.js/$script,domain=vipr.ebaydesc.com
-||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.com|gumtree.com|lendup.com|mbna.ca|sky.com|td.com|tiaa.org|vedacheck.com|wepay.com
+/^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
+||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.com|gumtree.com|lendup.com|mbna.ca|sciencedirect.com|sky.com|td.com|tiaa.org|vedacheck.com|wepay.com
 ||ebay.com/nkfytkqtoxtljvzb.js$script,domain=ebay.com
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ebaystatic.com^*/10341xh50yz21mhhydueu4m5wad.js$script,domain=ebay.com
@@ -16841,6 +16846,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||disney-plus.net^*/analytics_script_bundle.js
 @@||docodoco.jp^*/docodoco?key=$script,domain=nidec-copal-electronics.com
 @@||dominos.com^*/assets/build/js/modules/dpz.tealium.js$script
+@@||dove.com/etc/ui/dovemencare/clientlibs/core/core/config/analytics.js$script,~third-party
 @@||dplay.com^*/comscore.streaming.min.js
 @@||dplay.com^*/google_analytics.js
 @@||dpm.demdex.net/id?$xmlhttprequest,domain=foxnews.com
@@ -16886,7 +16892,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||google-analytics.com/plugins/ua/ec.js$script,domain=health2000.co.nz
 @@||google.com/js/gweb/analytics/autotrack.js$domain=gradleplease.appspot.com|www.google.com
 @@||googletagmanager.com/gtag/js$script,domain=ally.com|foxnews.com|gamespot.com|m.putlocker.how|neighborhoodpostcards.com|ryanair.com
-@@||googletagmanager.com/gtm.js$domain=action.com|adsoup.com|airasia.com|asus.com|bhaskar.com|broadcom.com|chipotle.com|complex.com|computerworlduk.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nytimes.com|onesignal.com|optus.com.au|poliigon.com|porsche.com|realestate.co.nz|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|vagaro.com|wwe.com
+@@||googletagmanager.com/gtm.js$domain=action.com|adsoup.com|airasia.com|asus.com|bhaskar.com|broadcom.com|chipotle.com|complex.com|computerworlduk.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nytimes.com|onesignal.com|optus.com.au|poliigon.com|porsche.com|realestate.co.nz|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|wwe.com
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
@@ -17206,6 +17212,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
 @@||google-analytics.com/analytics.js$domain=infoconso-multimedia.fr|viandesuisse.ch
+@@||googletagmanager.com/gtm.js$script,domain=sciencesetavenir.fr
 @@||maxmind.com/geoip/$xmlhttprequest,domain=dcshoes.fr
 @@||maxmind.com^*/geoip2.js?$script,domain=dcshoes.fr
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net

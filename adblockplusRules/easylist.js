@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: zJMADbxGDCXmkpnapWbgBA
-! Version: 202006291111
+! Checksum: vdyR/VIL01hGhCLQScDImg
+! Version: 202006300930
 ! Title: EasyList
-! Last modified: 29 Jun 2020 11:11 UTC
+! Last modified: 30 Jun 2020 09:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -31083,6 +31083,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||achinahdh.club^
 ||aclickads.com^
 ||acmsg.online^
+||acousinguy.club^
 ||acscdn.com^
 ||acticgreasonsc.info^
 ||adaranth.com^
@@ -31314,6 +31315,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cardmrket.com^
 ||carpetusiko.club^
 ||casinohacksforyou.com^
+||catchinemuj.club^
 ||cauthuny.net^
 ||cawsodpet.club^
 ||cconseent.info^
@@ -31360,6 +31362,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||clickadin.com^
 ||clickathere.com^
 ||clickcdn.co^
+||clicktraceclick.com^
 ||clineddivoryr.site^
 ||cobdieink.com^
 ||codedexchange.com^
@@ -31493,6 +31496,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||doushoom.net^
 ||dregardianfl.site^
 ||droztihu.com^
+||drunkersrr.club^
 ||dryzapsol.com^
 ||dskyseconomic.info^
 ||dspleastanci.site^
@@ -31791,6 +31795,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||himselvepostly.site^
 ||himselveseg.club^
 ||himselvesobr.club^
+||himselvethe.info^
 ||hincludingse.site^
 ||hislationaler.club^
 ||histlingklakson.site^
@@ -32040,11 +32045,13 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mitsczechoesy.site^
 ||mjbuuxt7l18r.com^
 ||mk1lyl406xmp.com^
+||mkjsqrpmxqdf.com^
 ||ml0z14azlflr.com^
 ||mlsys.xyz^
 ||moapteeg.net^
 ||mob1ledev1ces.com^
 ||mobbahjug.com^
+||mobilehdmi.com^
 ||mobreach.com^
 ||moderningvigil.pro^
 ||mohammequhe.site^
@@ -32141,6 +32148,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||noutstancerewe.info^
 ||nq93jx1vpq9r.com^
 ||nqrkzcd7ixwr.com^
+||nqslmtuswqdz.com^
 ||nsoncandred.site^
 ||nsonoursewit.fun^
 ||ntdvjlvau.com^
@@ -32206,6 +32214,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ornamedev.club^
 ||ortantchangem.info^
 ||oselyprepartie.info^
+||ositoretoko.club^
 ||osmondards.pro^
 ||oswalled.club^
 ||otentieschoo.site^
@@ -32272,6 +32281,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||phenylketh.site^
 ||phookree.com^
 ||phsism.com^
+||piecesskoj.club^
 ||pigaimhop.com^
 ||piginkdos.com^
 ||pinocularoud.site^
@@ -32282,6 +32292,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||plyvitablesagree.info^
 ||pocrowpush.com^
 ||poleonaryprac.info^
+||polituremil.club^
 ||popcash.net^
 ||portedlysarcatc.info^
 ||possipationd.info^
@@ -32398,6 +32409,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||requencesfor.fun^
 ||requentlyfths.club^
 ||resbargarettybe.info^
+||resencejuy.club^
 ||resissylvespu.info^
 ||responservbzh.icu^
 ||responsidejo.club^
@@ -55423,6 +55435,7 @@ road.cc###custom-dailydeals
 kanonitv.net###custom_html-7
 dailycaller.com###dailycaller_top
 designtaxi.com###div-center-wrapper
+sourceforge.net###dlp-voip-quote
 designtaxi.com###dt-small-sub-2
 designtaxi.com###dt-small-sub-3
 eztv.io,eztv.tf,eztv.yt###e40f08c607ae13f7af47fde248d904c6
@@ -55445,9 +55458,10 @@ buffalonews.com###leaderboard-2
 wowhead.com###main > .blocks
 myjoyonline.com###mjo-article-left_rectangle_mid
 samachar.com###mobileapppromo
-pcgamingwiki.com###mpu
+consobaby.co.uk,pcgamingwiki.com###mpu
 bgr.in,thehealthsite.com###mywebsite-container
 nbcsports.com###nbcsports-leaderboard
+sourceforge.net###project-nel
 wunderground.com###purpleair_section
 scalemates.com###rev-lbb
 scalemates.com###rev-lbt
@@ -67108,6 +67122,7 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||notebookcheck.$image,~third-party
 @@||npr.org/sponsorship/targeting/$~third-party,xmlhttprequest
 @@||ntv.io/serve/load.js$domain=mcclatchydc.com
+@@||p.d.1emn.com^$script,domain=hotair.com
 @@||pbs.twimg.com/ad_img/$xmlhttprequest,domain=twitter.com
 @@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=video.timeout.com|video.venturebeat.com|videos.heute.at
 @@||prebid.adnxs.com^$xmlhttprequest,domain=go.cnn.com
