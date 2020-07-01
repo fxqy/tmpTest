@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: /rQzX793XPS0M8MdJNhKsg
-! Version: 202006300931
+! Checksum: f0GreNBrUo1gHubhCRN7/Q
+! Version: 202007011031
 ! Title: EasyPrivacy
-! Last modified: 30 Jun 2020 09:31 UTC
+! Last modified: 01 Jul 2020 10:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -955,6 +955,7 @@
 /banner.stats?
 /banners-stat.
 /basesdc.js
+/basicMetricsTracking.
 /basilic.php
 /batch.gif?
 /baynote-$script
@@ -1974,6 +1975,7 @@
 /gaAnalytics.
 /gaclicktracking-
 /gaclicktracking.
+/gaControlTracker.
 /gaCustom.
 /gadsfuncs.
 /gaEvents.js
@@ -3066,6 +3068,7 @@
 /other-analitycs/*
 /ouibounce.min.js
 /outbrainClientPixels.
+/output-stats-
 /ovstats.
 /ow_analytics.
 /owa.Analytics.
@@ -3193,7 +3196,7 @@
 /pippio.
 /pistats/cgi-bin/*
 /piwik-$domain=~github.com|~matomo.org|~piwik.org
-/piwik.$image,script,domain=~matomo.org|~piwik.org
+/piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro
 /piwik.*/ping?
 /piwik.php
 /piwik/*$domain=~github.com|~matomo.org|~piwik.org
@@ -8510,6 +8513,7 @@ _mongo_stats/
 ||capriciouscorn.com^$third-party
 ||capsquirrel.com^$third-party
 ||caringzinc.com^$third-party
+||carpentercomparison.com^$third-party
 ||carscannon.com^$third-party
 ||cautiouscrate.com^$third-party
 ||cautiouscredit.com^$third-party
@@ -9202,6 +9206,7 @@ _mongo_stats/
 ||leiki.com^$third-party
 ||m-brain.fi^$third-party
 ||netmonitor.fi^$third-party
+||reactandshare.com^$third-party
 ||stat.www.fi^$third-party
 ||tracking*.euroads.fi^$third-party
 ||vihtori-analytics.fi^$third-party
@@ -10601,7 +10606,6 @@ _mongo_stats/
 ||go.com/capmon/GetDE/?
 ||go.optifuze.com^
 ||go.toutapp.com^$third-party
-||go.trouter.skype.com^
 ||goadv.com^*/track.js
 ||goaww.com/stats.php
 ||godaddy.com/js/gdwebbeacon.js
@@ -10752,6 +10756,7 @@ _mongo_stats/
 ||jotform.io/getReferrer/$third-party
 ||js-agent.newrelic.com^
 ||jsrdn.com/i/1.gif?
+||jsrdn.com/s/1.js
 ||k.streamrail.com^
 ||k7-labelgroup.com/g.html?uid=$image
 ||kalstats.kaltura.com^
@@ -12395,6 +12400,7 @@ _mongo_stats/
 ||kitchen.juicer.cc^
 ||l-tike.com/akam/$script
 ||l.popin.cc^
+||lcs.comico.jp^$image
 ||lcs.livedoor.net^
 ||line-scdn.net^*/line_tag/
 ||line.me/tag.gif$image
@@ -13501,7 +13507,7 @@ _mongo_stats/
 ||glamourmagazine.co.uk^*/LogPageView
 ||glassmoni.researchgate.net^
 ||global.canon^*/analytics.js
-||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|desertsun.com|eddiebauer.com|glassesusa.com|jsonline.com|kurtgeiger.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
+||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|desertsun.com|eddiebauer.com|glassesusa.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
 ||globes.co.il/ga.asp
 ||globes.co.il/shared/s.ashx?
 ||globester.com^*/track.js
@@ -16023,6 +16029,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||leparking.fr/jsV038/tracker.js
 ||logs-qos.tf1.fr^
 ||ma-petite-recette.fr/visites
+||marmiton.org/logpix.php
 ||neko-san.fr/stats
 ||nouvelobs.com/scripts/stats.php?
 ||nouvelobs.com/tools/csrum.php
@@ -16318,9 +16325,16 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||analytics.sanoma.fi^
 ||dp.alma.iltalehti.fi/v1/cookie
 ||events.il.fi^
+||hs.fi/stats
 ||huuto.net/js/analytic/
 ||ilcdn.fi^*/Bootstrap.js
 ||mtv3.fi/remarketing.js
+||nelonenmedia.fi/hitcounter$image
+||omataloyhtio.fi/ffsw-pushcrew.js
+||omataloyhtio.fi/kuvat/pi.gif$image
+||omataloyhtio.fi/statb.asp
+||puutarha.net/ffsw-pushcrew.js
+||puutarha.net/statb.asp
 ||stat.mtv3.fi^
 ||ts.fi^*/spring.js
 ! Greek
@@ -16920,6 +16934,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||iwin.com/gtm.json$~third-party,xmlhttprequest
 @@||jabra.com/api/Analytics/$xmlhttprequest,domain=jabra.com
 @@||jbj.co.uk^*/analytics.js$script,~third-party
+@@||jsrdn.com/s/cs.js$domain=distro.tv
 @@||kbb.com/static/js/global/app-measurement$script
 @@||kentucky.com/mistats/finalizestats.js
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
@@ -17201,6 +17216,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||spatialbuzz.com/piwik/piwik.js$domain=spatialbuzz.com
 @@||spiegel.de/layout/js/http/netmind-$script
 @@||sunday.de/skin/*/googleanalytics.js$script
+@@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
 @@||uim.tifbs.net/js/$script,domain=gewinnspiel.web.de
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
 ! French
@@ -17268,6 +17284,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||inpref.s3.amazonaws.com/sites/$script,domain=kauppahalli24.fi
 @@||leiki.com/focus/$script,domain=anna.fi|como.fi|episodi.fi|fum.fi|inferno.fi|kaksplus.fi|rumba.fi|soundi.fi|tilt.fi
 @@||lekane.net/lekane/dialogue-tracking.js?$script
+@@||nettix.fi^*_analytics.js$domain=nettiauto.com|nettikaravaani.com|nettikone.com|nettimokki.com|nettimoto.com|nettivaraosa.com
 @@||scdn.cxense.com/cx.js$script,domain=ksml.fi|savonsanomat.fi
 ! Hebrew
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
@@ -17430,6 +17447,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||pladform.ru/player$subdocument
 @@||player.fc-zenit.ru/msi/geoip?$xmlhttprequest
 @@||player.vgtrk.com/js/stat.js?
+@@||relap.io^*/similar_pages_jsonp.js$script,domain=adme.ru
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||sptmr.ru/sportmaster.ru/js/modules/gtm.js$script,domain=sportmaster.ru
 @@||ssp.rambler.ru/acp/capirs_main.$script,domain=afisha.ru
