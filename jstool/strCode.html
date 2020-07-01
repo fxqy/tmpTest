@@ -7,23 +7,24 @@
 	</head>
 	<body>
 
-	<p id="demo">点击按钮获取</p>
-	<button onclick="myFunction()">点我</button>
+	<p id="demo"></p>
+	<button onclick="myfun()">点我</button>
 	<p id="demo1"></p>
     <button onclick="genMac()">genMac</button>
 	<script>
 		window.onload=function(){
+            myfun();
 			genMac();
 		}
 		
-		function myFunction(){
+		function myfun(){
 			var zstr="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 			var d = new Date();
 			var x = document.getElementById("demo");
 			var cvl=ecd2Str(d.getTime(),zstr);
 			var ftc=zstr.charAt(0);
 			var prx=ftc+ftc+ftc;
-			x.innerHTML=d.getTime()+", "+cvl+", "+dcd2Num(prx+cvl,0,zstr);
+			x.innerHTML=d.getTime()+", "+cvl+", "+dcd2Num(prx+cvl,0,zstr)+"<br/>"+randomCode(10,1)+"<br/>"+randomCode(10,2)+"<br/>"+randomCode(10,3);
 			
 			console.log(d.getTime());
 			console.log(strCharactCode("passwordTextaaa",32));
