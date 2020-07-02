@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: HRF6IPHvVItfQt3ReFPhLw
-! Version: 202007011031
+! Checksum: qm/uaplgaIqDlzT0prLdeQ
+! Version: 202007020900
 ! Title: EasyList
-! Last modified: 01 Jul 2020 10:31 UTC
+! Last modified: 02 Jul 2020 09:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -22262,6 +22262,7 @@ _popunder+$popup
 ##.advertisements_contain
 ##.advertisementsubtitle
 ##.advertiser
+##.advertiser-disclosure-banner
 ##.advertiser-links
 ##.advertisesingle
 ##.advertisespace_div
@@ -31158,6 +31159,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||apearkcan.club^
 ||apologixopyr.site^
 ||apparentsav.club^
+||appresentikv.club^
 ||appropeanes.club^
 ||appropolyfunt.site^
 ||aptashant.club^
@@ -31386,6 +31388,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||compensions.pro^
 ||concentleconse.site^
 ||concertainwqa.club^
+||condindered.club^
 ||congregorysun.site^
 ||conjeller-chikemon.com^
 ||consesculifin.site^
@@ -31408,6 +31411,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cpcmart.com^
 ||creathere.club^
 ||creativetv.pro^
+||cretaiformac.top^
 ||crimentasaju.site^
 ||criminglynuk.pro^
 ||crocopop.com^
@@ -31956,6 +31960,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||lessite.pro^
 ||letheyemo.site^
 ||levenileheshe.site^
+||leveryone.club^
 ||libanyelm.com^
 ||librarierserty.site^
 ||lichtpass.com^
@@ -32480,6 +32485,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ryhastille.info^
 ||rywoments.info^
 ||ryynoljdarrw.com^
+||s1.lcnf.pro^
 ||s4d.xyz^
 ||sacaharag.club^
 ||sadorsagreeng.info^
@@ -32498,6 +32504,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||sbc7wfnaakau.com^
 ||sbroughhig.info^
 ||scientialy.club^
+||scottagesyu.club^
 ||sculifinanthools.site^
 ||sdhfbvd.com^
 ||sdkfjxjertertry.com^
@@ -32585,6 +32592,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||stoassod.com^
 ||stoffickiesolding.site^
 ||stonseeb.net^
+||stopheritp.club^
 ||stoppery.club^
 ||streamclub.best^
 ||streamclub.fun^
@@ -32625,6 +32633,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||tarawerap.com^
 ||tartoals.net^
 ||taryarguestio.info^
+||tasterdayuns.top^
 ||taveredezeri.site^
 ||teachievedim.site^
 ||televeniesuc.pro^
@@ -32730,6 +32739,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||urchrevening.info^
 ||urdercomp.space^
 ||uremechangec.info^
+||ureticrelingse.top^
 ||urgwritishimpos.info^
 ||urimteku.com^
 ||url.rw^
@@ -52684,9 +52694,8 @@ $script,third-party,domain=171gifs.com|300mbfilms.org|321jav.com|4downfiles.org|
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||youtube.com/get_video_info?$~third-party
 ! nyafilmer.lol
-||jawcloud.co/js/jawgo.js$script
-||vip-hd-movies.xyz/scripts/$script,domain=nyafilmer.lol
-||wp.com/nyafilmer.lol/branding/$domain=nyafilmer.lol
+||nyafilmer.wtf/u_a4fv7zcj.js$script
+||vip-hd-movies.club/scripts/nwm-pw2.min.js$script,domain=nyafilmer.wtf
 ! CPU abuse
 ||energi.world/wp-content/themes/energi/js/particles$script,~third-party
 ! https://publicwww.com/websites/%22cloudfront.net%2Fscript.js%22/
@@ -55786,6 +55795,7 @@ ettv.to##[href^="https://www.my-privacy-protection.com/"]
 provideocoalition.com##[href^="https://www.provideocoalition.com/linkout/"]
 vedbex.com##[onclick]
 facebook.com##a[aria-label="Advertiser link"]
+probuilds.net##a[class^="dl-blitz-"]
 mail.yahoo.com##a[data-test-id="pencil-ad-messageList"]
 techpowerup.com##a[href*=".pnq"]
 civilserviceindia.com##a[href*="/red.php?bu="]
