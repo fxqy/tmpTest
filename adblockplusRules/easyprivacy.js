@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: JtsqeIbavhgaZ/4ro5XfeA
-! Version: 202007030901
+! Checksum: LQ7i7Pd7mAi58Gdgyk5VCA
+! Version: 202007031631
 ! Title: EasyPrivacy
-! Last modified: 03 Jul 2020 09:01 UTC
+! Last modified: 03 Jul 2020 16:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3195,11 +3195,11 @@
 /pinterest-pixels.
 /pippio.
 /pistats/cgi-bin/*
-/piwik-$domain=~github.com|~matomo.org|~piwik.org
+/piwik-$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro
 /piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro
 /piwik.*/ping?
 /piwik.php
-/piwik/*$domain=~github.com|~matomo.org|~piwik.org
+/piwik/*$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro
 /piwik1.
 /piwik2.js
 /piwik_
