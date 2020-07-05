@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: qex/N30fRgOEL/KLlRmhkg
-! Version: 202007050211
+! Checksum: ifF+1aznz3BJpl6H7NeSMQ
+! Version: 202007051351
 ! Title: EasyPrivacy
-! Last modified: 05 Jul 2020 02:11 UTC
+! Last modified: 05 Jul 2020 13:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4018,6 +4018,7 @@
 /stt/track/*
 /stwc-counter/*
 /stwc/code.js
+/submission/pageview
 /supercookie.
 /superstats.
 /supertracking.
@@ -4090,6 +4091,7 @@
 /TealeafSDK.js
 /TealeafSDKConfig.js
 /TealeafTarget.
+/tealeaftarget?
 /tealium-analytics.
 /tealium-api/*
 /tealium-udo.
@@ -11517,6 +11519,7 @@ _mongo_stats/
 ||track.contently.com^
 ||track.cordial.io^
 ||track.digitalriver.com^
+||track.hubspot.com^
 ||track.juno.com^
 ||track.leadin.com^
 ||track.mailerlite.com^
@@ -12647,6 +12650,7 @@ _mongo_stats/
 ||reachandrich.antevenio.com^
 ||s3wfg.com/js/vortexloader.js
 ||stats.miarroba.info^
+||tag.shopping-feed.com^
 ||tracker.thinkindot.com^
 ! Swedish
 ||aftonbladet.se/blogportal/view/statistics?$third-party
@@ -14119,6 +14123,7 @@ _mongo_stats/
 ||pardot.com/pd.js
 ||partners.badongo.com^
 ||partners.mysavings.com^
+||paypal.com/platform/tealeaftarget
 ||paypal.com/webapps/beaconweb/
 ||paypalobjects.com/*/m/mid.swf$domain=paypal.com
 ||pbsrc.com/common/pixel.png
@@ -15233,6 +15238,7 @@ _mongo_stats/
 ||oneid.mmstat.com^
 ! Port scanning Fingerprinting Trackers (Privacy and CPU abuse)
 ! https://nullsweep.com/why-is-this-website-port-scanning-me/
+$third-party,websocket,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.com|gumtree.com|lendup.com|mbna.ca|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com
 /^https?:\/\/ir\.ebaystatic\.com\/rs\/v\/[a-zA-Z0-9]{18,}\.js/$script,domain=vipr.ebaydesc.com
 /^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: A/vr/RY/v7qyzV97dSHOXQ
-! Version: 202007050210
+! Checksum: fX+D2dvQ77febRbbhjhHdg
+! Version: 202007051400
 ! Title: EasyList
-! Last modified: 05 Jul 2020 02:10 UTC
+! Last modified: 05 Jul 2020 14:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -31530,6 +31530,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||dryzapsol.com^
 ||dskyseconomic.info^
 ||dspleastanci.site^
+||dstuckedot.space^
 ||dtsedge.com^
 ||dubkenduo.com^
 ||duchoono.com^
@@ -32114,6 +32115,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mopushy.com^
 ||moradu.com^
 ||morazormands.site^
+||morderedouih.club^
 ||mortantameron.club^
 ||mortionaletak.site^
 ||mortionalgo.site^
@@ -32285,6 +32287,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ouzoadru.net^
 ||ovementerter.site^
 ||overnmentil.site^
+||overnmentsv.club^
 ||overnmenty.club^
 ||overribleintena.info^
 ||ovk2cuebg77t.com^
@@ -32861,6 +32864,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||whadaupo.net^
 ||whaustou.net^
 ||wheessoo.com^
+||whenedkom.club^
 ||whethere.club^
 ||whetherecyclo.fun^
 ||whoshood.com^

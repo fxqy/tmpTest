@@ -125,6 +125,7 @@ wanmancn
 guangyaoli
 apple.com
 kuaidi100.com##.download-nav,.open-mp
+mail.126.com##.gWel-bottom
 !------------------------------bilibili------------------------------
 chat.bilibili.com
 hdslb.com/bfs/live

@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: caHcyVCHcD1atY+3O82blQ
-! Version: 202007050203
+! Checksum: YINNAq5hmKd3mYGVC4eU7g
+! Version: 202007051353
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 05 Jul 2020 02:03 UTC
+! Last Modified: 05 Jul 2020 13:53 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -1085,6 +1085,7 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+###adad
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
@@ -8770,7 +8771,6 @@ megatime.com.tw###ad_type_9
 baidu.com###ad_xbox_1
 baidu.com###ad_xbox_2
 baidu.com###ad_xbox_3
-subhd.la,subhdtw.com###adad
 localking.com.tw###adbannerurl
 yxdown.com###adbg
 tbtdg.com###adblockWarning
@@ -13600,7 +13600,7 @@ linkedin.com#?#.core-rail > div > div[id^="ember"]:-abp-has(.feed-shared-actor__
 m.mydrivers.com#?#.cnewsinfo > p:-abp-has(.f14_link + br + .f14_link)
 m.thepaper.cn#?#.t_news:-abp-has(img[alt="广告"])
 muchong.com#?#.forum_Post_index:-abp-has(nobr:-abp-contains(18))
-mydrivers.com#?#.news_info > p:-abp-has(.f14_link + br + .f14_link)
+mydrivers.com#?#.news_info > p:last-of-type:-abp-has(> a)
 news.baidu.com#?#.index-list-item:-abp-has(.tip-time:-abp-contains(广告))
 news.sohu.com,www.sohu.com#?#.list16 > ul > li:-abp-contains(广告)
 nfmovies.com#?#div[id]:-abp-has(>img[onclick="openurl()"])
