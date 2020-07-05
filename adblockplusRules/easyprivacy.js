@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: LQ7i7Pd7mAi58Gdgyk5VCA
-! Version: 202007031631
+! Checksum: qex/N30fRgOEL/KLlRmhkg
+! Version: 202007050211
 ! Title: EasyPrivacy
-! Last modified: 03 Jul 2020 16:31 UTC
+! Last modified: 05 Jul 2020 02:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2703,6 +2703,7 @@
 /Logs/ad?
 /Logs/discovery?
 /Logs/other?data=
+/logs/report_js_error
 /logserver-
 /logstat.
 /logstat?
@@ -7479,6 +7480,7 @@ _mongo_stats/
 ||silverpush.co^$third-party
 ||simonsignal.com^$third-party
 ||simpleanalytics.io^$third-party
+||simpleanalyticscdn.com^$third-party
 ||simpleheatmaps.com^$third-party
 ||simplehitcounter.com^$third-party
 ||simplereach.com^$third-party
@@ -10681,6 +10683,7 @@ _mongo_stats/
 ||i.compendium.com^
 ||i.s-microsoft.com/wedcs/ms.js
 ||i.viafoura.co^
+||iabusprivacy.pmc.com^
 ||ib.adnxs.com^
 ||ibmcloud.com/collector/
 ||icbdr.com/images/pixel.gif
@@ -10956,6 +10959,7 @@ _mongo_stats/
 ||msecnd.net/scripts/b/ai.
 ||msecnd.net/scripts/jsll-
 ||mshcdn.com/assets/metrics-
+||mtrcs.samba.tv^
 ||mts.mansion.com^$third-party
 ||mtvnservices.com/aria/uuid.html
 ||mtvnservices.com/metrics/
@@ -11071,6 +11075,7 @@ _mongo_stats/
 ||performance.typekit.net^$third-party
 ||performgroup.com/metrics/
 ||perr.h-cdn.com^$third-party
+||perso.aws.arc.pub^
 ||petitionermaster.appspot.com^
 ||phantom.nudgespot.com^$third-party
 ||phncdn.com/js/ssig_helper.js
@@ -11818,6 +11823,7 @@ _mongo_stats/
 ||frog.wix.com/hls2?
 ||frog.wix.com/p?
 ||frog.wix.com/pre?
+||frog.wix.com^$ping
 ! Fingerprinting
 ||apps-pro.tid.es/external/tailormade-no-jquery-
 ||bcicdn.com^*/hg.js
@@ -13163,6 +13169,7 @@ _mongo_stats/
 ||creditcards.com/sb.php?
 ||crowdignite.com/img/l.gif
 ||crsend.com/stats/
+||crta.metro.co.uk^
 ||crunchsports.com/tracking_fetchinfo.aspx?
 ||ct.cnet.com/opens?
 ||ctscdn.com/content/tracking-
@@ -14343,6 +14350,7 @@ _mongo_stats/
 ||s3.amazonaws.com^$script,domain=decider.com|nypost.com|pagesix.com
 ||sa.bbc.co.uk^
 ||sa.squareup.com^
+||sa135.kiro7.com^
 ||sa135.macworld.co.uk^
 ||sa135.wsbtv.com^
 ||sabah.com.tr/Statistic/
@@ -16433,6 +16441,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||cgi.tbs.co.jp^
 ||count.upc.rakuten.co.jp^
 ||dmm.com/analytics/
+||dmm.com/imp?
 ||event.notifier.rakuten.co.jp^
 ||goo.ne.jp^*/vltracedmd.js
 ||i2i.jp/bin/
