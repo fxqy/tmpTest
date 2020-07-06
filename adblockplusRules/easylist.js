@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: fX+D2dvQ77febRbbhjhHdg
-! Version: 202007051400
+! Checksum: rX5r/m7u+zr069sN2modtQ
+! Version: 202007060900
 ! Title: EasyList
-! Last modified: 05 Jul 2020 14:00 UTC
+! Last modified: 06 Jul 2020 09:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -28971,6 +28971,7 @@ _popunder+$popup
 ##.widget-advert-970
 ##.widget-advertisement
 ##.widget-ami-newsmax
+##.widget-dfp
 ##.widget-entry-ads-160
 ##.widget-gpt2-ami-ads
 ##.widget-group-Ads
@@ -31336,6 +31337,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||canonch.pro^
 ||canyboysho.info^
 ||cardmrket.com^
+||carefuseds.club^
 ||carpetusiko.club^
 ||casinohacksforyou.com^
 ||catchinemuj.club^
@@ -31559,6 +31561,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||edcritessuspi.info^
 ||edencourtbrita.info^
 ||edhappearer.info^
+||edjokerned.space^
 ||edmarketts.fun^
 ||edmotherew.fun^
 ||edoutoam.net^
@@ -31742,6 +31745,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||gadsokz.com^
 ||gadspms.com^
 ||gagnibcan.com^
+||galbrechen.club^
 ||gapsfartrely.best^
 ||gardoult.com^
 ||garettygrea.space^
@@ -31827,6 +31831,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||hedressive.info^
 ||herbaijansob.club^
 ||heredeithere.club^
+||hereexpelli.space^
 ||hesterinoc.info^
 ||hethelcontai.fun^
 ||hictionstop.fun^
@@ -31939,6 +31944,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||kg8l81yh7vnf.com^
 ||kikoucuy.net^
 ||kindznnd998.xyz^
+||kingicking.club^
 ||kingithinref.club^
 ||kinsecutiony.club^
 ||kissioncault.club^
@@ -32552,6 +32558,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||sbc7wfnaakau.com^
 ||sbroughhig.info^
 ||scientialy.club^
+||scommuni.info^
 ||scottagesyu.club^
 ||sculifinanthools.site^
 ||sdhfbvd.com^
@@ -32561,6 +32568,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||searchmulty.com^
 ||seasonssna.fun^
 ||sebadu.com^
+||seconomics.club^
 ||secreat.club^
 ||securecloud-dt.com^
 ||secured-iphone.club^
@@ -32860,6 +32868,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||welsworn.info^
 ||westerdayeol.site^
 ||westerdayeu.site^
+||westwarese.club^
 ||wg-aff.com^
 ||whadaupo.net^
 ||whaustou.net^
@@ -33545,6 +33554,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||adsinimages.com^$third-party
 ||adsinstant.com^$third-party
 ||adskeeper.co.uk^$third-party
+||adskeeper.com^$third-party
 ||adskpak.com^$third-party
 ||adslala.com^$third-party
 ||adslidango.com^$third-party
@@ -49473,6 +49483,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||96.9.176.245^$third-party
 ||a.livesportmedia.eu^
 ||a.ucoz.net^
+||a.vdo.ai^
 ||a04296f070c0146f314d-0dcad72565cb350972beb3666a86f246.r50.cf5.rackcdn.com^
 ||a7.org^*=$xmlhttprequest
 ||aadvertismentt.com^$subdocument
@@ -53262,6 +53273,8 @@ $third-party,xmlhttprequest,domain=ancensored.com
 |https://$script,stylesheet,xmlhttprequest,domain=4archive.org|randomarchive.com|thebarchive.com
 ! Rarbg
 @@/scripts/hcaptcha.challenge.js$script,~third-party,domain=rarbg.to|rarbg2019.org|rarbg2020.org|rarbg2021.org|rarbgaccess.org|rarbgmirror.com|rarbgmirror.org|rarbgmirror.xyz|rarbgmirrored.org|rarbgp2p.org|rarbgproxied.org|rarbgproxy.org|rarbgprx.org|rarbgto.org|rarbgunblocked.org|rarbgway.org
+@@||hcaptcha.com/captcha/$domain=rarbg.to|rarbg2019.org|rarbg2020.org|rarbg2021.org|rarbgaccess.org|rarbgmirror.com|rarbgmirror.org|rarbgmirror.xyz|rarbgmirrored.org|rarbgp2p.org|rarbgproxied.org|rarbgproxy.org|rarbgprx.org|rarbgto.org|rarbgunblocked.org|rarbgway.org
+@@||hcaptcha.com^*/api.js$script,domain=rarbg.to|rarbg2019.org|rarbg2020.org|rarbg2021.org|rarbgaccess.org|rarbgmirror.com|rarbgmirror.org|rarbgmirror.xyz|rarbgmirrored.org|rarbgp2p.org|rarbgproxied.org|rarbgproxy.org|rarbgprx.org|rarbgto.org|rarbgunblocked.org|rarbgway.org
 ||rarbg.to^$script,~third-party
 ||rarbg2019.org^$script,~third-party
 ||rarbg2020.org^$script,~third-party
