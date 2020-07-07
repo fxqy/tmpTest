@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: +7mWmAjDqfiHE11sjTnGmQ
-! Version: 202007060853
+! Checksum: H2BgFS1YjyyMX/3S/s+eIw
+! Version: 202007070853
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 06 Jul 2020 08:53 UTC
+! Last Modified: 07 Jul 2020 08:53 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -1091,6 +1091,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||xn--4gqqc629gbju.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -8565,8 +8566,13 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||qqvip.info/baidu
+||meituing.com/baidu
+||wnacg.*/sdfdc/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+wnacg.com,wnacg.org##A[href*="tyrantdb.com"]
+zhicheng.com##DIV[class^="all-"][style^="position:relative;width:50%;float:"]
 99syy1.com##DIV[class^="ps_"]
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -10261,10 +10267,9 @@ sina.com.cn##.ad_01_right
 ifeng.com##.ad_04
 ifeng.com##.ad_09
 szonline.net##.ad_1000_90
-ifeng.com,nnnews.net##.ad_12
+ifeng.com##.ad_12
 51wangdai.com##.ad_123_AD
 jurong.cn##.ad_190_60_5s
-nnnews.net##.ad_24
 1688.com.au##.ad_300_p
 eol.cn##.ad_490
 ttys5.com##.ad_580
@@ -13875,12 +13880,11 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/adimg/*$domain=laniqu.com|veryeast.cn
 @@/adjs_pic_$domain=168gamer.net|91wii.com|saraba1st.com
 @@/adLoader.$domain=shejiben.com
-@@/adlogger_tracker.php$domain=serve.netsh.org
 @@/admanager/*$domain=woego.cn
 @@/adpic/*$domain=baike.baidu.com|czsrc.com|nieyou.com|ontheup.com.tw|zform.net
 @@/ads/*$domain=189.cn|95516.com
 @@/adsbox.$domain=long7.qq.com
-@@/adsbygoogle.$domain=moa.tw|serve.netsh.org
+@@/adsbygoogle.$domain=moa.tw
 @@/adsense/*$domain=piseneasy.com|taobao.com
 @@/adshow/*$domain=mndxy.org
 @@/adsimg/*$domain=wdxuexi.com
@@ -13920,7 +13924,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@/pub/ad/*$domain=ruten.com.tw
 @@/pub1/??$domain=banggo.com
 @@/show_ad_$domain=wb.qq.com
-@@/show_ads_impl.js$domain=serve.netsh.org
 @@/store_ad/*$domain=pcstore.com.tw
 @@/unadblock/adjs_$domain=hepan.com
 @@=mywebloadt1&$domain=myweb.hinet.net
@@ -14327,7 +14330,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||myqqjd.com^$generichide
 @@||nceea.cn/Content/images/ad/
 @@||netded.com/plus/ad_js.php?aid=3|
-@@||netsh.org^$script,~third-party,xmlhttprequest,domain=serve.netsh.org
 @@||newad.mail.wo.cn^
 @@||news.u17i.com/advert/
 @@||newsmth.net/nForum/*/ADAgent_
@@ -14405,7 +14407,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||scyts.com^$generichide
 @@||sdc.pingan.com^$~image
 @@||selfimg.com.cn/??
-@@||serve.netsh.org^$elemhide
 @@||serving-sys.com/serving/adServer.bs?$popup,domain=hongkongcard.com
 @@||seselah.com^$generichide
 @@||seyise8.com^$generichide

@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Ec3P45Kr+eoBipO2nkwU+Q
-! Version: 202007060901
+! Checksum: TNfAVS8mVcYAZvBwZSkVPQ
+! Version: 202007070901
 ! Title: EasyPrivacy
-! Last modified: 06 Jul 2020 09:01 UTC
+! Last modified: 07 Jul 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1578,6 +1578,7 @@
 /didna-pixel-
 /diffuser.js
 /digital-data-enrichment.
+/DigitalAnalytics.umd.
 /digitalice_tag.js
 /dil_v6.4.js
 /disp_cnt.
@@ -5261,6 +5262,8 @@ _xiti_js-
 _zag_cookie.
 cgi-bin/counter
 ||meetrics.netbb-
+! Akamai fingerprinting
+/^https?:\/\/.*\/(public|resources|static|assets)\/([a-f0-9]){28,32}$/$script,~third-party,xmlhttprequest
 ! Cloudflare fingerprinting
 /cgi-bin/bm/cv/*$script
 ! Admiral
@@ -5743,6 +5746,7 @@ _mongo_stats/
 ||audiencerate.com^$third-party
 ||audiens.com^$third-party
 ||audrte.com^$third-party
+||aufp.io^$third-party
 ||authorinsights.com^$third-party
 ||auto-ping.com^$third-party
 ||autoaffiliatenetwork.com^$third-party
@@ -6670,6 +6674,7 @@ _mongo_stats/
 ||ipinyou.com.cn^$third-party
 ||iplist.cc^$third-party
 ||iplocationtools.com^$third-party
+||ipqualityscore.com^$third-party
 ||ipro.com^$third-party
 ||iproanalytics.com^$third-party
 ||iprotrk.com^$third-party
@@ -7218,6 +7223,7 @@ _mongo_stats/
 ||proofpositivemedia.com^$third-party
 ||propeller-tracking.com^$third-party
 ||provenpixel.com^$third-party
+||prprocess.com^$third-party
 ||prtracker.com^$third-party
 ||pstats.com^$third-party
 ||pt-trx.com^$third-party
@@ -11829,7 +11835,6 @@ _mongo_stats/
 ||frog.wix.com^$ping
 ! Fingerprinting
 ||apps-pro.tid.es/external/tailormade-no-jquery-
-||bcicdn.com^*/hg.js
 ||cloudfront.net/js/grin-sdk.js
 ||dingxiang-inc.com/ctu-group/constid-js/index.js
 ||fyrsbckgi-c.global.ssl.fastly.net^
@@ -11849,6 +11854,7 @@ _mongo_stats/
 ||socital.com^*/socital.js
 ||talkingdata.com^*/sdk_release.js
 ||targeting.voxus.tv^
+||trwl1.com/ascripts/gcrt.js
 ||vtex.com.br/rc/rc.js
 ! uBO-CNAME (Specific allowlists)
 ||go.techtarget.com^$image,script
@@ -13262,6 +13268,7 @@ _mongo_stats/
 ||e2ma.net/track/
 ||eafyfsuh.net/track/
 ||easy2.com^*/logging/
+||eba-amadeus.netdna-ssl.com/fastTrack/$domain=flyasiana.com
 ||ebay-us.com/fp/
 ||ebay.com/op/t.do?event
 ||ebayobjects.com/*;dc_pixel_url=$image
@@ -13721,7 +13728,9 @@ _mongo_stats/
 ||jakpost.net/jptracker/
 ||jal.co.jp/common_rn/js/rtam.js
 ||jaludo.com/pm.php?
+||javhd.com/ascripts/gcu.js
 ||javhd.com/click/
+||javhd.com/t/
 ||javher.com/analytics.js
 ||jessops.com/js/JessopsTracking.
 ||jetsetter.com/tracker.php
@@ -15087,6 +15096,8 @@ _mongo_stats/
 ||weeklyblitz.net/tracker.js
 ||wego.com/farmer/
 ||wellness.com/proxy.asp
+||wellsfargo.com/AIDO/trx.js
+||wellsfargo.com/tracking/
 ||wellsphere.com/?hit=
 ||whatcar.com/Client/Stats/
 ||whistleout.com.au/track
@@ -15249,6 +15260,8 @@ $third-party,websocket,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.
 ||ebaystatic.com^*/10341xh50yz21mhhydueu4m5wad.js$script,domain=ebay.com
 ||ebaystatic.com^*/g52yxhxv2mzcbealmlkri4kn5av.js$script,domain=ebay.com
 ! Fingerprint
+||bcicdn.com/js-min/*/chunks/8.*.js
+||dditscdn.com/arms-datacollectorjs/
 ||tipsport.org/scripts/closure.js
 ! Forter
 /^https?:\/\/.*[a-f0-9]{6,}\.cdn.*\.forter\.com\//$script,third-party
@@ -15823,6 +15836,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||golem.de/staticrl/scripts/golem_cpx_
 ||golem.de/staticrl/scripts/golem_cpxl_
 ||goyellow.de/trackbrowser.jsp
+||gruenderszene.de^*/transparent.png?
 ||handelsblatt.com/analytics/
 ||hardware-infos.com/counter/
 ||hardwarelabs.de/stat/
