@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: TNfAVS8mVcYAZvBwZSkVPQ
-! Version: 202007070901
+! Checksum: WWPbGPvXyF/9uLlWAa9pSA
+! Version: 202007080901
 ! Title: EasyPrivacy
-! Last modified: 07 Jul 2020 09:01 UTC
+! Last modified: 08 Jul 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4298,6 +4298,7 @@
 /tracker/emos2_
 /tracker/event?
 /tracker/eventBatch/*
+/tracker/events/*
 /tracker/imp?
 /tracker/index.jsp?
 /tracker/log?
@@ -5683,6 +5684,7 @@ _mongo_stats/
 ||amung.us^$third-party
 ||amxdt.com^$third-party
 ||analitits.com^$third-party
+||analitycs.net^$third-party
 ||analoganalytics.com^$third-party
 ||analysistools.net^$third-party
 ||analytics-egain.com^$third-party
@@ -6551,6 +6553,7 @@ _mongo_stats/
 ||hmstats.com^$third-party
 ||hoood.info^$third-party
 ||hopurl.org^$third-party
+||horzrb.com^$third-party
 ||hospitality-optimizer.com^$third-party
 ||host-tracker.com^$third-party
 ||hostip.info^$third-party
@@ -8098,6 +8101,25 @@ _mongo_stats/
 ||zroitracker.com^$third-party
 ||ztsrv.com^$third-party
 ||zuzab.com^$third-party
+! Notification servers (Tracking/Fingerprinting users)
+||bosspush.com^$third-party
+||cdn-sitegainer.com^$third-party
+||centrpush.com^$third-party
+||cleverpush.com^$third-party
+||copush.com^$third-party
+||digitalpush.org^$third-party
+||fkondate.com^$third-party
+||getsupernova.com^$third-party
+||gravitec.net^$third-party
+||kattepush.com^$third-party
+||master-push.com^$third-party
+||master-push.net^$third-party
+||moengage.com^$third-party
+||nativesubscribe.pro^$third-party
+||notifadz.com^$third-party
+||notifpush.com^$third-party
+||provesrc.com^$third-party
+||reprocautious.com^$third-party
 ! Fingerprinting
 ||breaktime.com.tw^$third-party
 ||brightedge.com^$third-party
@@ -8576,6 +8598,7 @@ _mongo_stats/
 ||greyinstrument.com^$third-party
 ||guiltlessbasketball.com^$third-party
 ||gulliblecamp.com^$third-party
+||haltingbadge.com^$third-party
 ||hammerhearing.com^$third-party
 ||hilariouszinc.com^$third-party
 ||historicalbeam.com^$third-party
@@ -8591,6 +8614,7 @@ _mongo_stats/
 ||j93557g.com^$third-party
 ||jadeitite.com^$third-party
 ||jamexistence.com^$third-party
+||lameletters.com^$third-party
 ||lamplow.com^$third-party
 ||laughcloth.com^$third-party
 ||leaplunchroom.com^$third-party
@@ -8611,6 +8635,7 @@ _mongo_stats/
 ||neighborlywatch.com^$third-party
 ||nervoussummer.com^$third-party
 ||niftyhospital.com^$third-party
+||overconfidentfood.com^$third-party
 ||parcelcreature.com^$third-party
 ||parsimoniouspolice.com^$third-party
 ||partplanes.com^$third-party
@@ -10351,6 +10376,7 @@ _mongo_stats/
 ||d34ko97cxuv4p7.cloudfront.net^
 ||d35u1vg1q28b3w.cloudfront.net^
 ||d36lvucg9kzous.cloudfront.net^
+||d395dw5zk780j2.cloudfront.net^
 ||d39yds8oe4n4jq.cloudfront.net^
 ||d3a2okcloueqyx.cloudfront.net^
 ||d3cgm8py10hi0z.cloudfront.net^
@@ -17039,6 +17065,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||pixel.quantserve.com/api/segments.xml?a=$domain=associatedcontent.com|cbs.com|cbsatlanta.com|centurylink.net|comedy.com|eurweb.com|fox5vegas.com|foxcarolina.com|grabnetworks.com|kctv5.com|kpho.com|kptv.com|theimproper.com|thenewsroom.com|tv.com|tvguide.com|wfsb.com|wnem.com|wsmv.com
 @@||pixel.quantserve.com/seg/$script,domain=photos.essence.com
 @@||pixelpressmedia.com/wp-content/plugins/duracelltomi-google-tag-manager/$script,domain=pixelpressmedia.com
+@@||plantyn.com/optiext/optiextension.dll$~third-party
 @@||play.aetv.com/vendor/AppMeasurement.js$script,~third-party
 @@||play.aetv.com/vendor/FacebookPixel.min.js$script,~third-party
 @@||play.google.com/log?$xmlhttprequest,domain=google.com
