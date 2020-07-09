@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: WWPbGPvXyF/9uLlWAa9pSA
-! Version: 202007080901
+! Checksum: sBNbreUhbmxLb9+JausQIw
+! Version: 202007090901
 ! Title: EasyPrivacy
-! Last modified: 08 Jul 2020 09:01 UTC
+! Last modified: 09 Jul 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6912,6 +6912,7 @@ _mongo_stats/
 ||mieru-ca.com^$third-party
 ||millioncounter.com^$third-party
 ||minewhat.com^$third-party
+||minkatu.com^$third-party
 ||mixi.mn^$third-party
 ||mixpanel.com^$third-party
 ||mkt3261.com^$third-party
@@ -7173,6 +7174,7 @@ _mongo_stats/
 ||pingdom.net^$third-party
 ||pingil.com^$third-party
 ||pingomatic.com^$third-party
+||pinpoll.com^$third-party
 ||pipfire.com^$third-party
 ||pippio.com^$third-party
 ||piwik.pro^$third-party
@@ -7794,6 +7796,7 @@ _mongo_stats/
 ||tradescape.biz^$third-party
 ||trafex.net^$third-party
 ||traffer.net^$third-party
+||trafficbass.com^$third-party
 ||trafficby.net^$third-party
 ||trafficengine.net^$third-party
 ||trafficfacts.com^$third-party
@@ -7860,6 +7863,7 @@ _mongo_stats/
 ||ubertags.com^$third-party
 ||ubertracking.info^$third-party
 ||uciservice.com^$third-party
+||udkcrj.com^$third-party
 ||ugdturner.com^$third-party
 ||uhygtf1.com^$third-party
 ||umbel.com^$third-party
@@ -7959,6 +7963,7 @@ _mongo_stats/
 ||volantix.com^$third-party
 ||voodooalerts.com^$third-party
 ||votistics.com^$third-party
+||vprza.com^$third-party
 ||vtracker.net^$third-party
 ||w3counter.com^$third-party
 ||w55c.net^$third-party
@@ -8010,7 +8015,6 @@ _mongo_stats/
 ||webtrends.com^$third-party
 ||webtrendslive.com^$third-party
 ||webtuna.com^$third-party
-||weesh.co.uk^$third-party
 ||wemfbox.ch^$third-party
 ||whackedmedia.com^$third-party
 ||wheredoyoucomefrom.ovh^$third-party
@@ -8102,13 +8106,17 @@ _mongo_stats/
 ||ztsrv.com^$third-party
 ||zuzab.com^$third-party
 ! Notification servers (Tracking/Fingerprinting users)
+||actirinius.com^$third-party
+||bildirt.com^$third-party
 ||bosspush.com^$third-party
 ||cdn-sitegainer.com^$third-party
 ||centrpush.com^$third-party
 ||cleverpush.com^$third-party
 ||copush.com^$third-party
 ||digitalpush.org^$third-party
+||feraciumus.com^$third-party
 ||fkondate.com^$third-party
+||getpushmonkey.com^$third-party
 ||getsupernova.com^$third-party
 ||gravitec.net^$third-party
 ||kattepush.com^$third-party
@@ -8118,8 +8126,17 @@ _mongo_stats/
 ||nativesubscribe.pro^$third-party
 ||notifadz.com^$third-party
 ||notifpush.com^$third-party
+||olgtex.com^$third-party
+||on-push.com^$third-party
+||onesignal.com^$third-party
 ||provesrc.com^$third-party
+||push-ad.com^$third-party
+||push-house.net^$third-party
+||pushalert.co^$third-party
+||pushengage.com^$third-party
 ||reprocautious.com^$third-party
+||truepush.com^$third-party
+||viapush.com^$third-party
 ! Fingerprinting
 ||breaktime.com.tw^$third-party
 ||brightedge.com^$third-party
@@ -8304,14 +8321,12 @@ _mongo_stats/
 ||g1thub.com^
 ||gay-hotvideo.net^
 ||gitgrub.pro^$third-party
-||gobba.myeffect.net^
 ||goldoffer.online^$third-party
 ||googleanalytcs.com^$third-party
 ||graftpool.ovh^
 ||gramombird.com^
 ||greengaming.de^$third-party
 ||gus.host^$third-party
-||gustaver.ddns.net^$third-party
 ||hallaert.online^$third-party
 ||hashcoin.co^$third-party
 ||hashforcash.us^$third-party
@@ -8326,7 +8341,6 @@ _mongo_stats/
 ||hostingcloud.faith
 ||hostingcloud.party
 ||hostingcloud.racing
-||hostingcloud.science
 ||igg.biz^$third-party
 ||igrid.org^
 ||ininmacerad.pro^$third-party
@@ -8430,7 +8444,6 @@ _mongo_stats/
 ||rand.com.ru^
 ||reauthenticator.com^
 ||reauthenticator.com^$third-party
-||renhertfo.com^$third-party
 ||rocks.io^$third-party
 ||rtb-seller.com^$third-party
 ||rtb.connatix.com^
@@ -8472,8 +8485,6 @@ _mongo_stats/
 ||tulip18.com^$third-party
 ||turnsocial.com^$third-party
 ||unrummaged.com^$third-party
-||uoldid.ru^
-||uoldid.ru^$third-party
 ||usa.cc^$third-party
 ||vcfs6ip5h6.bid^$third-party
 ||verifier.live^
@@ -8481,7 +8492,6 @@ _mongo_stats/
 ||verresof.com^$third-party
 ||videoplayer2.xyz^
 ||vkcdnservice.com^$third-party
-||vuryua.ru^$third-party
 ||vzhjnorkudcxbiy.com^$third-party
 ||wasm.stream
 ||wbmwss.beetv.net^$third-party
@@ -9857,9 +9867,7 @@ _mongo_stats/
 ||amplify.outbrain.com^$third-party
 ||amplifypixel.outbrain.com^
 ||an.yandex.ru^
-||analytic.pho.fm^
 ||analytic.xingcloud.com^$third-party
-||analyticapi.pho.fm^
 ||analyticcdn.globalmailer.com^
 ||analytics-beacon-*.amazonaws.com^
 ||analytics-cms.whitebeard.me^
@@ -9884,7 +9892,6 @@ _mongo_stats/
 ||analytics.cmg.net^
 ||analytics.codigo.se^
 ||analytics.cohesionapps.com^
-||analytics.conmio.com^
 ||analytics.convertlanguage.com^
 ||analytics.cynapse.com^
 ||analytics.datahc.com^
@@ -10464,7 +10471,6 @@ _mongo_stats/
 ||dtym7iokkjlif.cloudfront.net/dough/
 ||du4rq1xqh3i1k.cloudfront.net^
 ||du8783wkf05yr.cloudfront.net^$third-party
-||dufue2m4sondk.cloudfront.net^
 ||dugout.co/das2.js
 ||duu8lzqdm8tsz.cloudfront.net^
 ||dw.cbsi.com^$script
@@ -11075,10 +11081,6 @@ _mongo_stats/
 ||p.adbrn.com^
 ||p.delivery.net^$third-party
 ||p.eyebuydirect-cmr.net^
-||p.po.st/p?pub=
-||p.po.st/p?t=view&$third-party
-||p.po.st^*&pub=
-||p.po.st^*&vguid=
 ||p.travelsmarter.net^
 ||p.yotpo.com^
 ||p0.com/1x1
@@ -11769,7 +11771,6 @@ _mongo_stats/
 ||vpoweb.com/counter.php?
 ||vs4.com/impr.php?
 ||vtnlog-*.elb.amazonaws.com^
-||vtracking.in.com^
 ||vvhp.net/read/view.gif
 ||vwdealerdigital.com/cdn/sd.js
 ||w3track.com/newtrk/$third-party
@@ -11944,7 +11945,6 @@ _mongo_stats/
 ||analytics.cnd-motionmedia.de^$third-party
 ||analytics.gameforge.de^
 ||analytics.loop-cloud.de^$third-party
-||analytics.pinpoll.com^
 ||analytics.praetor.im^$third-party
 ||andyhoppe.com/count/
 ||audimark.de/tracking/
@@ -13381,7 +13381,6 @@ _mongo_stats/
 ||experiandirect.com/javascripts/tracking.js
 ||experts-exchange.com/pageloaded.jsp?
 ||extendoffice.com/analytics.js
-||extra.tvmaze.com^
 ||extremetech.com/cszn/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
 ||extremetech.com/sac/mostclicked/$script
 ||extremetech.com^*/ga.js
@@ -14704,7 +14703,6 @@ _mongo_stats/
 ||stats.zmags.com^
 ||stats02.topix.com^
 ||statstracker.celebrity-gossip.net^
-||stattrack.0catch.com^
 ||stbt.coupons.com^
 ||stickpage.com/counter.php
 ||stocktwits.com/spaceape-web.gif?
@@ -15201,6 +15199,7 @@ _mongo_stats/
 ||yahoodns.net/pixel.gif
 ||yandex.*/clck/$~ping
 ||yandex.*/count/
+||yandex.com/clck/
 ||ybinst2.ec.yimg.com/ec/*&Type=Event.CPT&$domain=search.yahoo.com
 ||yellowpages.co.in/trac/
 ||yellowpages.com/images/li.gif?
@@ -15995,7 +15994,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||track.express.de^
 ||track.mopo.de^
 ||trackerstatistik.init-ag.de^
-||tracking.beilagen-prospekte.de^
 ||tracking.finanzen.net^
 ||tracking.hrs.de^
 ||tracking.krone.at^
@@ -17258,6 +17256,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||gstatic.com^*/analytics.js$domain=google.com
 !----------------Allowlists to fix broken international sites-----------------!
 ! *** easylist:easyprivacy/easyprivacy_allowlist_international.txt ***
+! Egyptian
+@@||nbe.com.eg/NBEeChannelManager/CallMW.aspx$~third-party
 ! German
 @@||adobedtm.com^*/mbox-contents-$script,domain=dhl.de
 @@||adobedtm.com^*/satelliteLib-$script,domain=dhl.de|sbb.ch
