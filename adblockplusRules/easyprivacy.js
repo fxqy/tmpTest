@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: WtIKyJrxC7NzRHqKb5jObQ
-! Version: 202007091131
+! Checksum: MvsllQJNZvUg+uq2TgJKJg
+! Version: 202007100151
 ! Title: EasyPrivacy
-! Last modified: 09 Jul 2020 11:31 UTC
+! Last modified: 10 Jul 2020 01:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2679,6 +2679,7 @@
 /logging-code.
 /logging/log-
 /logging/pixel?
+/logging/React-
 /logging/v1/log|
 /Logging?dv=
 /logging_requests.
@@ -5541,6 +5542,7 @@ _mongo_stats/
 ||9nl.eu^$third-party
 ||a-cast.jp^$third-party
 ||a-counters.com^$third-party
+||a-mo.net^$third-party
 ||a-pagerank.net^$third-party
 ||a013.com^$third-party
 ||a4b-tracking.com^$third-party
@@ -6449,6 +6451,8 @@ _mongo_stats/
 ||gigcount.com^$third-party
 ||gim.co.il^$third-party
 ||glanceguide.com^$third-party
+||glassboxcdn.com^$third-party
+||glassboxdigital.io^$third-party
 ||glbtracker.com^$third-party
 ||globalsiteanalytics.com^$third-party
 ||globalviptraffic.com^$third-party
@@ -7698,6 +7702,7 @@ _mongo_stats/
 ||tdsrmbl.net^$third-party
 ||tdstats.com^$third-party
 ||tealiumiq.com^$third-party
+||techlab-cdn.com^$third-party
 ||tedioustooth.com^$third-party
 ||telize.com^$third-party
 ||teljari.is^$third-party
@@ -10568,6 +10573,8 @@ _mongo_stats/
 ||facebook.com^*/tracking.js$third-party
 ||fairfax.com.au/js/track/
 ||fast.appcues.com^
+||fcmatch.google.com^
+||fcmatch.youtube.com^
 ||feed.informer.com/fdstats
 ||feedblitz.com/imp?$third-party
 ||feedblitz.com^*.gif?$third-party
@@ -11923,6 +11930,7 @@ _mongo_stats/
 ||js.trendmd.com/trendmd.min.js
 ||nsg.symantec.com^$third-party
 ||seal.godaddy.com^$third-party
+||seal.networksolutions.com^$third-party
 ||seal.verisign.com^$third-party
 ||sealserver.trustwave.com^$third-party
 ||trustev.com/trustev.min.js$third-party
@@ -14695,6 +14703,7 @@ _mongo_stats/
 ||stats.uswitch.com^
 ||stats.videodelivery.net^
 ||stats.visistat.com^
+||stats.vk-portal.net^
 ||stats.vulture.com^
 ||stats.wordpress.com^
 ||stats.wwd.com^
@@ -16862,6 +16871,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||att.com/scripts/adobe/prod/$script
 @@||att.com/scripts/adobe/virtual/detm-container-hdr.js
 @@||att.com/ui/*/jsnlog.js
+@@||audioeye.com/ae.js$domain=woodlanddirect.com
 @@||azureedge.net^*/eventtracking.js$domain=crimemapping.com
 @@||barclays.co.uk/content/dam/$script
 @@||barclays.co.uk/touchclarity/mbox.js
@@ -16967,7 +16977,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||google-analytics.com/plugins/ua/ec.js$script,domain=health2000.co.nz
 @@||google.com/js/gweb/analytics/autotrack.js$domain=gradleplease.appspot.com|www.google.com
 @@||googletagmanager.com/gtag/js$script,domain=ally.com|anchor.fm|foxnews.com|gamespot.com|m.putlocker.how|neighborhoodpostcards.com|ryanair.com
-@@||googletagmanager.com/gtm.js$domain=action.com|adsoup.com|airasia.com|asus.com|bhaskar.com|broadcom.com|chipotle.com|complex.com|computerworlduk.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nytimes.com|onesignal.com|optus.com.au|poliigon.com|porsche.com|realestate.co.nz|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|wwe.com
+@@||googletagmanager.com/gtm.js$domain=action.com|adsoup.com|airasia.com|asus.com|bhaskar.com|broadcom.com|chipotle.com|complex.com|computerworlduk.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nytimes.com|onesignal.com|optus.com.au|poliigon.com|porsche.com|realestate.co.nz|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|woodlanddirect.com|wwe.com
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com

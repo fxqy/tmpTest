@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7eCWyLqt+z2sXgZASRlQ1w
-! Version: 202007091130
+! Checksum: p24jXehW0Vms88lXYYUASQ
+! Version: 202007100151
 ! Title: EasyList
-! Last modified: 09 Jul 2020 11:30 UTC
+! Last modified: 10 Jul 2020 01:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -23833,6 +23833,7 @@ _popunder+$popup
 ##.cpaAdPosition
 ##.cpmstarHeadline
 ##.cpmstarText
+##.cpoma-adlabel
 ##.cpp-text-ad
 ##.cr_ad
 ##.cranky-ads-zone
@@ -31163,6 +31164,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||anatomicele.site^
 ||anglishreasts.site^
 ||aniashboy.club^
+||anklandas.club^
 ||anlcld.com^
 ||anotherederi.site^
 ||anothingahy.club^
@@ -31423,6 +31425,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||consesculifin.site^
 ||considedefinit.fun^
 ||constrongyfe.site^
+||contentiakol.club^
 ||continelyfas.site^
 ||conversityz.club^
 ||coolcpms.com^
@@ -31845,6 +31848,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||herbaijansob.club^
 ||heredeithere.club^
 ||hereexpelli.space^
+||heregenessco.club^
 ||hesterinoc.info^
 ||hethelcontai.fun^
 ||hictionstop.fun^
@@ -31997,6 +32001,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||lcnf.pro^
 ||ldevillaechildren.info^
 ||ldingchristing.site^
+||ldwidentconc.space^
 ||leagent.info^
 ||learliamtempl.fun^
 ||learnshaw.info^
@@ -32027,6 +32032,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||linkev.com^
 ||linstanintedter.site^
 ||lisconcertain.site^
+||lisdimpassie.club^
 ||listeraislatory.site^
 ||littlementok.site^
 ||ljamingrepre.site^
@@ -32578,6 +32584,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||saumooly.net^
 ||sbc7wfnaakau.com^
 ||sbroughhig.info^
+||schubbyve.club^
 ||scientialy.club^
 ||scommuni.info^
 ||scottagesyu.club^
@@ -32714,6 +32721,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||taryarguestio.info^
 ||tasterdayuns.top^
 ||taveredezeri.site^
+||teachiefislate.space^
 ||teachievedim.site^
 ||televeniesuc.pro^
 ||tentdinationgab.info^
@@ -32781,6 +32789,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||truestioncarefore.site^
 ||trytipemo.com^
 ||tslomhfys.com^
+||tstobkl.pro^
 ||tsundedhimse.fun^
 ||ttheathereco.site^
 ||ttspikbeglki.com^
@@ -37814,6 +37823,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||trafficforce.com^$third-party
 ||trafficformoney.com^$third-party
 ||traffichaus.com^$third-party
+||trafficjunky.com^$third-party
 ||trafficjunky.net^$third-party
 ||trafficmasterz.net^$third-party
 ||trafficmp.com^$third-party
@@ -48982,7 +48992,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||traffic.ru^$third-party
 ||trafficholder.com^$third-party
 ||traffichunt.com^$third-party
-||trafficjunky.com^$third-party
 ||trafficlearn.com^$third-party
 ||trafficpimps.com^$third-party
 ||trafficshop.com^$third-party
