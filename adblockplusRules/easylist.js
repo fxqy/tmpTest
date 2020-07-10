@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: p24jXehW0Vms88lXYYUASQ
-! Version: 202007100151
+! Checksum: ip2sy+Lhje+PMk9DoZXBpw
+! Version: 202007101150
 ! Title: EasyList
-! Last modified: 10 Jul 2020 01:50 UTC
+! Last modified: 10 Jul 2020 11:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8169,6 +8169,7 @@ takeover_banner_
 /exblss1.js?
 /exo-force-
 /exo-loader/*
+/exo/ExoNative
 /exo_frnd_
 /exo_na/*$script,subdocument
 /fel456.js
@@ -30469,7 +30470,7 @@ members.portalbuzz.com#@##sponsors-home
 3dmark.com,yougamers.com#@##takeover_ad
 acceptableads.com#@##text-ads
 audioacrobat.com#@##theAd
-foodbeast.com,mensfitness.com#@##top-ad
+foodbeast.com,memytutaj.pl,mensfitness.com#@##top-ad
 isource.com#@##topAd
 playstationlifestyle.net#@##topAdSpace
 sdtimes.com#@##topAdSpace_div
@@ -31227,6 +31228,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||atwoventre.fun^
 ||audiesuree.club^
 ||audriasite.pro^
+||aufhausted.club^
 ||aughedbannel.site^
 ||augnuxun.net^
 ||aujaujoa.net^
@@ -31348,6 +31350,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cardmrket.com^
 ||carefuseds.club^
 ||carpetusiko.club^
+||carticuladx.club^
 ||casinohacksforyou.com^
 ||catchinemuj.club^
 ||cauthuny.net^
@@ -37132,6 +37135,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||reichelcormier.bid^$third-party
 ||reklamz.com^$third-party
 ||rekovers.ru^$third-party
+||relappro.com^$third-party
 ||relatedweboffers.com^$third-party
 ||relestar.com^$third-party
 ||relevanti.com^$third-party
@@ -49218,6 +49222,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||xxlargepop.com^
 ||xxssyndic.com^
 ||xxxadu.com^
+||xxxrevpushclcdu.com^
 ||yebadu.com^
 ||yoredi.com^
 ||zavrotfro.com^
@@ -49238,6 +49243,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||nlntrk.com^$document
 ||nyetm2mkch.com^$document
 ||trkinator.com^$document
+||xxxrevpushclcdu.com^$document
 ! Mobile
 ||reporo.net^$third-party
 ! Pornhub network
@@ -51468,6 +51474,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cams.com/p/cams/cpcs/streaminfo.cgi?$third-party
 ||cams.enjoy.be^$third-party
 ||cams.spacash.com^$third-party
+||camsaim.com^*&campaign=$third-party
 ||camsoda.com/promos/$third-party
 ||camsrule.com/exports/$third-party
 ||cartoontube.com^$subdocument,third-party
@@ -51536,6 +51543,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||feeds.videosz.com^
 ||femjoy.com/bnrs/$third-party
 ||fgn.me^*/skins/
+||filmsstreaming.club/dating/
 ||firestormmedia.tv^*?affid=
 ||fleshlight.com/images/banners/
 ||fleshlight.com/images/peel/
@@ -52142,6 +52150,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||fc.lc/js/nt.js
 ||fc.lc^$subdocument,~third-party
 ||ferrarichat.com^*/sponsors/
+||feurl.com/asset/barr.js
 ||findit.com.mt/viewer/
 ||finextra.com/finextra-images/leaderboards/
 ||fishki.net/code?
@@ -52269,6 +52278,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||lens101.com/images/banner.jpg
 ||lespagesjaunesafrique.com/bandeaux/
 ||letsupload.co/themes/mngez/mngez/images/apollo.webp
+||letsupload.co/themes/mngez/mngez/images/repack.webp
 ||libertyblitzkrieg.com/wp-content/uploads/2012/09/cc200x300.gif
 ||limesurvey.org/images/banners/
 ||linuxinsider.com/images/sda/
@@ -53544,7 +53554,7 @@ $webrtc,domain=uptobox.com
 ||swatchseries.to/main.js
 ||www*.swatchseries.to^$script
 ! Fembed
-$script,third-party,xmlhttprequest,domain=clickopen.club|core1player.com|exvcon.com|fembed.com|fsimg.info|gaobook.review|mavplay.com|mavplayer.xyz|novelplanet.me|secfilm.xyz|sonline.pro|svpri.xyz|vaplayer.xyz|vidplayer.cz|xstreamcdn.com
+$script,third-party,xmlhttprequest,domain=clickopen.club|core1player.com|exvcon.com|fembed.com|feurl.com|fsimg.info|gaobook.review|mavplay.com|mavplayer.xyz|novelplanet.me|secfilm.xyz|sonline.pro|svpri.xyz|vaplayer.xyz|vidplayer.cz|xstreamcdn.com
 ||fembed.com/revenue
 ! Fastplay
 |http://$script,stylesheet,third-party,domain=fastplay.to
@@ -54858,6 +54868,8 @@ wyciwyg:$popup,domain=jkanime.net
 ||pornfanplace.com/js/pops.
 ||pornfanplace.com/rec/
 ||porngals4.com/img/b/
+||pornhail.com/exo/
+||pornhail.com/nb/
 ||pornhat.com/banner/
 ||pornhd.com/pornhd/
 ||pornhub.com/catagories/costume/
@@ -58516,7 +58528,7 @@ lastminute.com###sponsoredFeature
 lastminute.com###sponsoredFeatureModule
 theblaze.com###sponsored_stories
 smashingmagazine.com###sponsorlisttarget
-abalive.com,abestweb.com,autotrader.com.au,barnsleyfc.co.uk,bbb.org,bcfc.com,blackpoolfc.co.uk,boattrader.com.au,burnleyfootballclub.com,bwfc.co.uk,cafc.co.uk,cardiffcityfc.co.uk,christianity.com,cpfc.co.uk,dakar.com,dcfc.co.uk,digitalmusicnews.com,etftrends.com,fastseduction.com,football-league.co.uk,geekwire.com,gerweck.net,goseattleu.com,hullcitytigers.com,iconfinder.com,itfc.co.uk,justauto.com.au,kiswrockgirls.com,landreport.com,law.com,lcfc.com,manutd.com,myam1230.com,nesn.com,noupe.com,paidcontent.org,pba.com,pcmag.com,petri.co.il,pingdom.com,psl.co.za,race-dezert.com,rovers.co.uk,sjsuspartans.com,soompi.com,sponsorselect.com,tapemastersinc.net,techmeme.com,trendafrica.co.za,waronyou.com,whenitdrops.com###sponsors
+abalive.com,abestweb.com,autotrader.com.au,barnsleyfc.co.uk,bbb.org,bcfc.com,blackpoolfc.co.uk,boattrader.com.au,burnleyfootballclub.com,bwfc.co.uk,cafc.co.uk,cardiffcityfc.co.uk,christianity.com,cpfc.co.uk,dakar.com,dcfc.co.uk,digitalmusicnews.com,etftrends.com,fastseduction.com,football-league.co.uk,geekwire.com,gerweck.net,goseattleu.com,hullcitytigers.com,iconfinder.com,itfc.co.uk,justauto.com.au,kiswrockgirls.com,landreport.com,law.com,lcfc.com,manutd.com,myam1230.com,nesn.com,noupe.com,paidcontent.org,pba.com,pcmag.com,petri.co.il,pingdom.com,pixeldra.in,psl.co.za,race-dezert.com,rovers.co.uk,sjsuspartans.com,soompi.com,sponsorselect.com,tapemastersinc.net,techmeme.com,trendafrica.co.za,waronyou.com,whenitdrops.com###sponsors
 newarkrbp.org###sponsors-container-outer
 sanjose.com###sponsors-module
 und.com###sponsors-story-wrap
@@ -63097,6 +63109,7 @@ bristolpost.co.uk,cambridge-news.co.uk,derbytelegraph.co.uk,grimsbytelegraph.co.
 nymag.com##.vp-1180-plus
 ettv.to##.vp_ab
 centurylink.net##.vp_right
+mirrorace.com##.vpn-download
 speedtest.net##.vpn-product
 torrentz2.eu,torrentz2.is##.vpninfo
 vivastreet.co.uk##.vs-summary-300x250
@@ -65486,6 +65499,7 @@ modmy.com##.article-leaderboard
 filecrypt.co##.bams
 wccftech.com##.banner-ad
 samaup.com##.bannernone
+filecrypt.co##.bims
 playwire.com##.bolt-ad-container
 menshealth.com##.breaker-ad
 freewarefiles.com##.center-gray-ad-txt
@@ -65534,6 +65548,7 @@ baltimoresun.com,boston.com,calgaryherald.com,capitalgazette.com,carrollcountyti
 baltimoresun.com,boston.com,calgaryherald.com,capitalgazette.com,carrollcountytimes.com,chicagotribune.com,citypaper.com,courant.com,dailymail.co.uk,dailypress.com,edmontonjournal.com,edmunds.com,financialpost.com,gofugyourself.com,hearthhead.com,huffingtonpost.co.uk,ign.com,infinitiev.com,last.fm,latimes.com,leaderpost.com,lolking.net,mcall.com,metacritic.com,montrealgazette.com,nasdaq.com,nationalpost.com,newsarama.com,orlandosentinel.com,ottawacitizen.com,pcmag.com,ranker.com,sandiegouniontribune.com,saveur.com,sherdog.com,spin.com,stereogum.com,sun-sentinel.com,theprovince.com,thestarphoenix.com,tmn.today,tomshardware.co.uk,tomshardware.com,torontosun.com,trustedreviews.com,twincities.com,vancouversun.com,vibe.com,windsorstar.com,wowhead.com##.trc-content-sponsoredUB
 realfarmacy.com##.trc_rbox_container
 freep.com##.tsfrm-sponsor-logo-content
+mirrorace.com##.uk-button-secondary
 mirrorace.com##.uk-margin-bottom
 mingle2.com##.user_profile_ads
 courier-journal.com##.util-bar-module-share
@@ -67012,6 +67027,7 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||clickondetroit.com/gmg.static/ads/$script
 @@||clickorlando.com/gmg.static/ads/$script
 @@||clients*.google.com/adsense/*?key=$domain=~calcalist.co.il|~gaytube.com|~mako.co.il|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~walla.co.il|~xtube.com|~ynet.co.il|~youjizz.com|~youporn.com|~youporngay.com
+@@||clipartkey.com/adopen/adstyle.css
 @@||cloudflare.com/ajax/libs/videojs-contrib-ads/$stylesheet,domain=healthmeans.com
 @@||cloudfront.net/_ads/$xmlhttprequest,domain=jobstreet.co.id|jobstreet.co.in|jobstreet.co.th|jobstreet.com|jobstreet.com.my|jobstreet.com.ph|jobstreet.com.sg|jobstreet.vn
 @@||cloudfront.net^*/advertising.png$image,domain=worthpoint.com
