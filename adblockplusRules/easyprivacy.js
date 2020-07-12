@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 6LyaB7Vu9tsYs2cGuCjdaA
-! Version: 202007110221
+! Checksum: nyCpk0lO4lqALgNG4VYmAA
+! Version: 202007120301
 ! Title: EasyPrivacy
-! Last modified: 11 Jul 2020 02:21 UTC
+! Last modified: 12 Jul 2020 03:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1380,6 +1380,7 @@
 /ComScoreSWF.
 /concat/tracking.
 /condenet-metric.
+/confiant-tag.
 /confiant.js
 /config/analytics.js
 /configuration-stat.js
@@ -3201,6 +3202,7 @@
 /piwik-$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro
 /piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro
 /piwik.*/ping?
+/piwik.js
 /piwik.php
 /piwik/*$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro
 /piwik1.
@@ -6656,6 +6658,7 @@ _mongo_stats/
 ||intermundomedia.com^$third-party
 ||interstateanalytics.com^$third-party
 ||intervigil.com^$third-party
+||investingchannel.com^$third-party
 ||invisioncloudstats.com^$third-party
 ||invitemedia.com^$third-party
 ||invoc.us^$third-party
@@ -8663,6 +8666,7 @@ _mongo_stats/
 ||photographpan.com^$third-party
 ||pietexture.com^$third-party
 ||plantdigestion.com^$third-party
+||pleasantpump.com^$third-party
 ||prepareplanes.com^$third-party
 ||profusesupport.com^$third-party
 ||puffyloss.com^$third-party
@@ -10393,7 +10397,6 @@ _mongo_stats/
 ||d34ko97cxuv4p7.cloudfront.net^
 ||d35u1vg1q28b3w.cloudfront.net^
 ||d36lvucg9kzous.cloudfront.net^
-||d395dw5zk780j2.cloudfront.net^
 ||d39yds8oe4n4jq.cloudfront.net^
 ||d3a2okcloueqyx.cloudfront.net^
 ||d3cgm8py10hi0z.cloudfront.net^
@@ -16961,7 +16964,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||events-collector.spot.im/api/$xmlhttprequest
 @@||evestment.com/api/analytics/$domain=evestment.com
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
-@@||ezodn.com/detroitchicago/dayton.js$script,domain=linuxize.com
+@@||ezodn.com/detroitchicago/dayton.js$script,domain=gerweck.net|linuxize.com
 @@||fccbrea.org^*/swfaddress.js
 @@||fifa.com^*/webanalytics.js?
 @@||firstdirect.com^*/logging-code.js

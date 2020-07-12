@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ip2sy+Lhje+PMk9DoZXBpw
-! Version: 202007101150
+! Checksum: w74LuereyoNoFo0oWGthZg
+! Version: 202007120300
 ! Title: EasyList
-! Last modified: 10 Jul 2020 11:50 UTC
+! Last modified: 12 Jul 2020 03:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -20410,6 +20410,7 @@ _popunder+$popup
 ##.adboxesrow
 ##.adboxlong
 ##.adboxo
+##.adboxtop
 ##.adbreak
 ##.adbrite2
 ##.adbrite_post
@@ -21287,6 +21288,7 @@ _popunder+$popup
 ##.adsbottombox
 ##.adsbox
 ##.adsbox-square
+##.adsbox970x90
 ##.adsboxBtn
 ##.adsbox_300x250
 ##.adsboxitem
@@ -28469,6 +28471,7 @@ _popunder+$popup
 ##.top-adbox
 ##.top-ads
 ##.top-ads-bottom-bar
+##.top-ads-mobile
 ##.top-ads-wrapper
 ##.top-adsense
 ##.top-adsense-banner
@@ -31148,6 +31151,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||alhistoriousg.info^
 ||aliticalpassister.info^
 ||all2cnjuh34jb.com^
+||allanetmilean.club^
 ||alldeveldefinite.info^
 ||allycollegedstrie.info^
 ||aloissentence.pro^
@@ -31221,6 +31225,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||atesupheast.fun^
 ||athercompet.club^
 ||atherethundr.fun^
+||atictrementint.club^
 ||ationdignifica.fun^
 ||atoultou.com^
 ||atterrounesh.info^
@@ -31347,6 +31352,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cancesolit.club^
 ||canonch.pro^
 ||canyboysho.info^
+||carbourse.club^
 ||cardmrket.com^
 ||carefuseds.club^
 ||carpetusiko.club^
@@ -31420,6 +31426,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||companiedoml.site^
 ||comparencelabl.site^
 ||compensions.pro^
+||complified.club^
 ||concentleconse.site^
 ||concertainwqa.club^
 ||condindered.club^
@@ -31591,6 +31598,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||eforeantheirma.info^
 ||egfqtvewksktz.com^
 ||egroacho.com^
+||eighbourge.club^
 ||eikegolehem.com^
 ||eitherewindoor.club^
 ||ek9xrk5gyu.com^
@@ -31603,6 +31611,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||elevantpds.club^
 ||elfirkelk.com^
 ||elivescousingcr.info^
+||elizabledy.club^
 ||elkbahtax.com^
 ||ellanrequiryf.fun^
 ||ellorschairwaydis.site^
@@ -31660,6 +31669,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||evemasoil.com^
 ||eventurypol.site^
 ||ewseriencern.fun^
+||exercisely.club^
 ||expansity.club^
 ||expertnifg.com^
 ||extrementtgfa.site^
@@ -31820,6 +31830,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||grexoacu.com^
 ||grievine.club^
 ||grifictuberal.site^
+||grirault.net^
 ||groackam.com^
 ||grubsoan.com^
 ||gstralpolita.info^
@@ -31885,6 +31896,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||huhughyaw.com^
 ||hurchasisounci.site^
 ||hwhiffonprotect.info^
+||hyconsistenb.space^
 ||hyinlegvghul.com^
 ||ialgregarderol.fun^
 ||iclickcdn.com^
@@ -32324,6 +32336,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||overnmenty.club^
 ||overribleintena.info^
 ||ovk2cuebg77t.com^
+||owedinternslt.space^
 ||oweverycanvas.info^
 ||owncutone.com^
 ||oyeesfrencha.fun^
@@ -32413,6 +32426,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||productorsy.pro^
 ||professonsd.top^
 ||prographiciko.site^
+||prolinessyu.club^
 ||promiserkololla.site^
 ||propeanfanku.site^
 ||propeanikob.site^
@@ -32458,6 +32472,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||qqqwes.com^
 ||quadrupleclick.com^
 ||quaetabib.com^
+||questaurah.club^
 ||quotes.com^
 ||qwerq133.xyz^
 ||qza7iorexyrp.com^
@@ -32471,6 +32486,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ratlyepin.club^
 ||raupsica.net^
 ||razdvabm.com^
+||rcentratiumd.space^
 ||rd2d.pro^
 ||rdingperhan.site^
 ||rdsb2.club^
@@ -32655,6 +32671,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||sociatedilo.club^
 ||soldinggrily.site^
 ||solicensusuntf.site^
+||solicients.club^
 ||soltitate.site^
 ||solutelynewt.site^
 ||soofeest.net^
@@ -32726,8 +32743,10 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||taveredezeri.site^
 ||teachiefislate.space^
 ||teachievedim.site^
+||telephants.club^
 ||televeniesuc.pro^
 ||tentdinationgab.info^
+||tentiaggie.club^
 ||terialnevitiesini.info^
 ||terrapsps.com^
 ||tevenienceention.fun^
@@ -32829,6 +32848,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||untabilityde.site^
 ||untpresearch.club^
 ||untridrisa.cf^
+||upgulpinon.com^
 ||upheasted.club^
 ||upush.co^
 ||urchrevening.info^
@@ -32851,6 +32871,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||uzk4umokyri3.com^
 ||v3qdrfxuyzwb.com^
 ||vaipsona.com^
+||vallegalikty.club^
 ||vanderebony.pro^
 ||vanderlisten.pro^
 ||vanmapdug.club^
@@ -35754,7 +35775,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||inuxu.biz^$third-party
 ||inuxu.co.in^$third-party
 ||invernetter.info^$third-party
-||investingchannel.com^$third-party
 ||inviziads.com^$third-party
 ||ip-adress.com^$third-party
 ||ipraccessie.info^$third-party
@@ -52818,7 +52838,6 @@ $webrtc,domain=ibit.to
 @@||googleapis.com^$script,stylesheet,domain=mrunlock.kim|myunblock.com|prox4you.xyz|unbl0ck.kim|unblockall.org|unblocked.krd|unblocked.lc|unblocked.lol|unblocked.si|unblockproject.red
 |http://$script,third-party,domain=mrunlock.kim|myunblock.com|prox4you.xyz|unbl0ck.kim|unblockall.org|unblocked.krd|unblocked.lc|unblocked.lol|unblocked.si|unblockproject.red
 |https://$script,third-party,domain=mrunlock.kim|myunblock.com|prox4you.xyz|unbl0ck.kim|unblockall.org|unblocked.krd|unblocked.lc|unblocked.lol|unblocked.si|unblockproject.red
-||chrome.google.com^$popup,domain=mrunlock.kim|myunblock.com|prox4you.xyz|unbl0ck.kim|unblockall.org|unblocked.krd|unblocked.lc|unblocked.lol|unblocked.si|unblockproject.red
 ! bit.ly
 /^https?:\/\/.*bit(ly)?\.(com|ly)\//$domain=1337x.to|1ancient-origins.net|c123movies.com|clicknupload.org|downloadpirate.com|eztv.io|eztv.tf|eztv.yt|ffmovies.ru|fmovies.taxi|fmovies.world|fullmatchesandshows.com|gostreams.net|healthline.com|intoupload.net|kimcartoon.to|limetorrents.info|megaup.net|monova.org|monova.to|moviewatcher.is|mrunlock.kim|newser.com|pirateiro.com|prox4you.xyz|seedpeer.me|sendit.cloud|swatchseries.to|torlock.com|torrentdownloads.me|torrentfunk2.com|torrentz2.eu|tubidy.io|uiz.io|unbl0ck.kim|unblockall.org|unblocked.lol|unblocked.si|unblockproject.red|uptobox.com|userscloud.com|vev.io|vev.red|vidbull.tv|vidop.icu|vidup.io|yify-movies.net|yourbittorrent2.com|zippyshare.com
 ! Torrent/Pirate sites /sw.js
@@ -55444,6 +55463,7 @@ webtoolhub.com###banner_704_107
 webtoolhub.com###banner_719_105
 steroid.com###banner_div
 cleveland.com,masslive.com,nj.com,oregonlive.com###below-toprail
+infoplease.com###block-arcamaxemailsubscriptionwidgetschoolopeningpoll
 infoplease.com###block-ipabovethefold
 infoplease.com###block-ipbtfad
 infoplease.com###block-ipleaderboardad
@@ -55618,6 +55638,7 @@ god.dailydot.com##.dynamite-block
 nytimes.com##.e12j3pa50
 trustedreviews.com##.eagle-widget
 ctvnews.ca##.election-leaderboard
+indianexpress.com##.epaper-banner
 cryptonews.com##.exchange
 hltv.org##.f-col-top
 steroid.com##.fancybox-overlay
@@ -67158,6 +67179,7 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=video.timeout.com|video.venturebeat.com|videos.heute.at
 @@||prebid.adnxs.com^$xmlhttprequest,domain=go.cnn.com
 @@||pro.myphotopipe.com/images/ProductSections/advert-$image,domain=myphotopipe.com
+@@||securitytrails.com/app/api/domain/$~third-party,xmlhttprequest
 @@||static.ziffdavis.com/sitenotice/*/settings.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.c|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 @@||static.ziffdavis.com/sitenotice/evidon-sitenotice-bundle.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.c|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 @@||worthpoint.com^*/advertising?$~third-party
@@ -67584,6 +67606,7 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||bancodevenezuela.com/imagenes/publicidad/$~third-party
 @@||banki.ru/bitrix/*/advertising.block/$stylesheet
 @@||borsen.dk/themes/borsen.dk/js/dfp.js$script
+@@||candidate.hr-manager.net/Advertisement/PreviewAdvertisement.aspx$subdocument,~third-party
 @@||ced.sascdn.com/tag/*/smart.js$domain=dr.dk
 @@||cloudinary.com/portalbici/advertisements/$domain=portalbici.es
 @@||custojusto.pt/user/myads/$~third-party
