@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: quhsy/W6Dj+8C4gc04+auQ
-! Version: 202007121451
+! Checksum: 2y73092DJgzsn4IN+Qj6lA
+! Version: 202007130911
 ! Title: EasyPrivacy
-! Last modified: 12 Jul 2020 14:51 UTC
+! Last modified: 13 Jul 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1117,6 +1117,8 @@
 /caos-analytics/*
 /capture_client.js
 /CaptureStat.
+/CardioLogAgent/*
+/CardioLogAgent_
 /caulytracker2.
 /caulytracker_
 /cbanalytics.
@@ -5624,7 +5626,6 @@ _mongo_stats/
 ||adrizer.com^$third-party
 ||adrta.com^$third-party
 ||adsensedetective.com^$third-party
-||adservicemedia.dk^$third-party
 ||adspsp.com^$third-party
 ||adsrvx.com^$third-party
 ||adsymptotic.com^$third-party
@@ -8117,37 +8118,52 @@ _mongo_stats/
 ||ztsrv.com^$third-party
 ||zuzab.com^$third-party
 ! Notification servers (Tracking/Fingerprinting users)
+||accengage.net^$third-party
 ||actirinius.com^$third-party
+||aimtell.com^$third-party
+||alertme.news^$third-party
+||amazonaws.com/cdn.aimtell.com/
+||aswpsdkus.com^$third-party
 ||bildirt.com^$third-party
 ||bosspush.com^$third-party
+||browserpusher.com^$third-party
 ||cdn-sitegainer.com^$third-party
 ||centrpush.com^$third-party
 ||cleverpush.com^$third-party
 ||copush.com^$third-party
+||cracataum.com^$third-party
 ||digitalpush.org^$third-party
 ||feraciumus.com^$third-party
 ||fkondate.com^$third-party
+||foxpush.com^$third-party
+||foxpush.net^$third-party
 ||getpushmonkey.com^$third-party
 ||getsupernova.com^$third-party
 ||gravitec.net^$third-party
+||heroesdom.com^$third-party
 ||kattepush.com^$third-party
 ||master-push.com^$third-party
 ||master-push.net^$third-party
+||misrepush.com^$third-party
 ||moengage.com^$third-party
 ||nativesubscribe.pro^$third-party
 ||notifadz.com^$third-party
 ||notifpush.com^$third-party
+||notify.solutions^$third-party
 ||olgtex.com^$third-party
 ||on-push.com^$third-party
 ||onesignal.com^$third-party
 ||provesrc.com^$third-party
+||psh.one^$third-party
 ||push-ad.com^$third-party
 ||push-house.net^$third-party
 ||pushalert.co^$third-party
 ||pushengage.com^$third-party
 ||reprocautious.com^$third-party
+||snd.tc^$third-party
 ||truepush.com^$third-party
 ||viapush.com^$third-party
+||xtremepush.com^$third-party
 ! Fingerprinting
 ||breaktime.com.tw^$third-party
 ||brightedge.com^$third-party
@@ -13137,6 +13153,7 @@ _mongo_stats/
 ||click.aliexpress.com^$image,script
 ||click.engage.xbox.com^
 ||click.oneplus.com^
+||click.sinx.com^
 ||click.udimg.com^
 ||click2.cafepress.com^
 ||clicks.hurriyet.com.tr^
@@ -15198,6 +15215,7 @@ _mongo_stats/
 ||xing.com/logjam/
 ||xozilla.com/js/analytics.js
 ||xp.apple.com/config/1/report/
+||xtrack.capetown.gov.za^
 ||yahoo.com/__perf_log_
 ||yahoo.com/_td_api/beacon/
 ||yahoo.com/b?
@@ -16965,7 +16983,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||events-collector.spot.im/api/$xmlhttprequest
 @@||evestment.com/api/analytics/$domain=evestment.com
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
-@@||ezodn.com/detroitchicago/dayton.js$script,domain=gerweck.net|linuxize.com
+@@||ezodn.com/detroitchicago/dayton.js$script
 @@||fccbrea.org^*/swfaddress.js
 @@||fifa.com^*/webanalytics.js?
 @@||firstdirect.com^*/logging-code.js
