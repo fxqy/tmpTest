@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 2y73092DJgzsn4IN+Qj6lA
-! Version: 202007130911
+! Checksum: M7dsDk/dDMJa2l7TK14KqQ
+! Version: 202007140901
 ! Title: EasyPrivacy
-! Last modified: 13 Jul 2020 09:11 UTC
+! Last modified: 14 Jul 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -641,6 +641,7 @@
 /analytics-ping.
 /analytics-plugin/*
 /analytics-post-
+/analytics-pusher/*
 /analytics-savebt?
 /analytics-scripts.
 /analytics-sendEvent
@@ -3159,6 +3160,7 @@
 /perf-beacon-
 /perflog/*
 /perfmetrics.js
+/performance-metrics.js
 /performance.fcgi?
 /performance_timing/*
 /performance_tracker-
@@ -5188,6 +5190,7 @@ _global_analytics_
 _google_analytics.
 _googleAnalytics.
 _googleAnalytics_
+_GoogleTagManager2/
 _gstat.gif?uid=
 _hitcount1.
 _hits_stat.
@@ -6424,6 +6427,7 @@ _mongo_stats/
 ||gatorleads.co.uk^$third-party
 ||gaug.es^$third-party
 ||gbotvisit.com^$third-party
+||gc.zgo.at^$third-party
 ||gear5.me^$third-party
 ||geistm.com^$third-party
 ||gemius.pl^$third-party
@@ -6470,6 +6474,7 @@ _mongo_stats/
 ||go-mpulse.net^$third-party
 ||go2link.net^$third-party
 ||goadservices.com^$third-party
+||goatcounter.com^$third-party
 ||godhat.com^$third-party
 ||goingup.com^$third-party
 ||goldstats.com^$third-party
@@ -6575,6 +6580,7 @@ _mongo_stats/
 ||hs-analytics.net^$third-party
 ||hsadspixel.net^$third-party
 ||hscta.net^$third-party
+||htlbid.com^$third-party
 ||hubvisor.io^$third-party
 ||hudb.pl^$third-party
 ||humanclick.com^$third-party
@@ -7213,6 +7219,7 @@ _mongo_stats/
 ||pointillist.com^$third-party
 ||pointomatic.com^$third-party
 ||polarcdn-pentos.com^$third-party
+||polarcdn-terrax.com^$third-party
 ||popsample.com^$third-party
 ||popt.in^$third-party
 ||populr.me^$third-party
@@ -8141,6 +8148,7 @@ _mongo_stats/
 ||getsupernova.com^$third-party
 ||gravitec.net^$third-party
 ||heroesdom.com^$third-party
+||jeeng.com^$third-party
 ||kattepush.com^$third-party
 ||master-push.com^$third-party
 ||master-push.net^$third-party
@@ -10360,6 +10368,7 @@ _mongo_stats/
 ||d10gj7yjsfriaj.cloudfront.net^
 ||d10lpsik1i8c69.cloudfront.net^
 ||d11a2fzhgzqe7i.cloudfront.net^
+||d15kdpgjg3unno.cloudfront.net^
 ||d169bbxks24g2u.cloudfront.net^
 ||d16fk4ms6rqz1v.cloudfront.net^
 ||d16xpr36wrmcmk.cloudfront.net^
@@ -12358,6 +12367,7 @@ _mongo_stats/
 ||cookies.reedbusiness.nl^
 ||hottraffic.nl^$third-party
 ||marktplaats.net/cnt/
+||npo.nl/divolte/tt/web-event?$domain=zapp.nl
 ||statistics.rbi-nl.com^
 ||ugent.be/js/log.js
 ! Estonian
@@ -12835,6 +12845,9 @@ _mongo_stats/
 ||alipay.com/web/bi.do?ref=
 ||allcarpictures.com/stat/
 ||allexperts.com/px/
+||alljapanesepass.com/ascripts/gcu.js
+||alljapanesepass.com/rstat
+||alljapanesepass.com/t/
 ||allmodern.com^*/sessioned_reqs.asp?
 ||allmovieportal.com/hostpagescript.js
 ||allvoices.com/track_page
@@ -13883,7 +13896,6 @@ _mongo_stats/
 ||log.optimizely.com^
 ||log.player.cntv.cn/stat.html?
 ||log.prezi.com^
-||log.quora.com^
 ||log.snapdeal.com^
 ||log.wat.tv^
 ||log.webnovel.com^
@@ -14321,6 +14333,7 @@ _mongo_stats/
 ||quibids.com^*/pixels/
 ||quickmeme.com/tracker/
 ||quintcareers.4jobs.com/Common/JavaScript/functions.tracking.js
+||quora.com/ajax/batched_log_
 ||quotesonic.com/vendor/pixel.cfm
 ||qz.com/log
 ||r.bbci.co.uk^
@@ -16408,6 +16421,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||stat.novinky.cz^
 ! Dutch
 ||analytics.rambla.be^
+||bol.com/tracking/
 ||klik.nrc.nl/ping?
 ||logs.ggweb.nl^
 ||marktplaats.nl/add_counter_image.
@@ -16427,6 +16441,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||hs.fi/stats
 ||huuto.net/js/analytic/
 ||ilcdn.fi^*/Bootstrap.js
+||is.fi/stats/
 ||mtv3.fi/remarketing.js
 ||nelonenmedia.fi/hitcounter$image
 ||omataloyhtio.fi/ffsw-pushcrew.js
@@ -16435,6 +16450,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||puutarha.net/ffsw-pushcrew.js
 ||puutarha.net/statb.asp
 ||stat.mtv3.fi^
+||tori.fi/img/none.gif$image
 ||ts.fi^*/spring.js
 ! Greek
 ||skroutz.gr/analytics/
@@ -16682,6 +16698,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||ngs.ru/s/
 ||ok.ru/dk?cmd=videoStatNew
 ||ozon.ru/tracker/
+||pixels.boxberry.ru^
 ||radar.imgsmail.ru^
 ||rambler.ru/metrics/
 ||rbc.ru/click?
@@ -17545,6 +17562,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||olx.pl^*/js/tracking/ninja.js$domain=olx.pl
 @@||sgqcvfjvr.onet.pl^$script,domain=kobieta.onet.pl
 @@||stat24.com/crossdomain.xml$domain=ipla.tv
+@@||urbanowiczhaft.pl/wp-content/plugins/duracelltomi-google-tag-manager/$~third-party
 @@||wp.pl^*/dot.gif?$xmlhttprequest,domain=open.fm|wp.tv
 !
 !---------- Portuguese ----------
