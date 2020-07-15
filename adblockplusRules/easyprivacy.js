@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: M7dsDk/dDMJa2l7TK14KqQ
-! Version: 202007140901
+! Checksum: qkIMPeFZ3DcqqhvDVzfBDw
+! Version: 202007150921
 ! Title: EasyPrivacy
-! Last modified: 14 Jul 2020 09:01 UTC
+! Last modified: 15 Jul 2020 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -790,6 +790,7 @@
 /analyticsmediator.
 /AnalyticsOnDemand/*
 /analyticsscript_
+/analyticssdk.js
 /analyticstick.
 /analyticstrack.
 /analyticstracking.
@@ -1515,6 +1516,7 @@
 /csp_report.gne?
 /ctd-sourcepoint.
 /ctd-tealium.
+/ctr_tracker.
 /ctr_tracking.
 /ctrack?
 /ctracker/*
@@ -6683,6 +6685,7 @@ _mongo_stats/
 ||ipaddresslabs.com^$third-party
 ||ipapi.co^$third-party
 ||ipcatch.com^$third-party
+||ipdata.co^$third-party
 ||iper2.com^$third-party
 ||iperceptions.com^$third-party
 ||ipfingerprint.com^$third-party
@@ -7356,7 +7359,7 @@ _mongo_stats/
 ||report-uri.io^$third-party
 ||res-x.com^$third-party
 ||research-tool.com^$third-party
-||researchnow.co.uk^$third-party
+||researchnow.co.uk^$third-party,domain=~dynata.com
 ||reson8.com^$third-party
 ||responsetap.com^$third-party
 ||resulticks.com^$third-party
@@ -8586,6 +8589,7 @@ _mongo_stats/
 ||butterburst.com^$third-party
 ||calculatorstatement.com^$third-party
 ||callousbrake.com^$third-party
+||calmcactus.com^$third-party
 ||cannontwin.com^$third-party
 ||capriciouscorn.com^$third-party
 ||capsquirrel.com^$third-party
@@ -9984,6 +9988,7 @@ _mongo_stats/
 ||analytics.tiktok.com^
 ||analytics.tout.com^
 ||analytics.tribeca.vidavee.com^
+||analytics.unibuddy.co^
 ||analytics.urx.io^
 ||analytics.vanillaforums.com^
 ||analytics.vendemore.com^
@@ -14411,7 +14416,6 @@ _mongo_stats/
 ||roadandtrack.com^*/RTdartSite.js
 ||roblox.com/www/e.png?
 ||rok.com.com^
-||roll.bankofamerica.com^
 ||rottentomatoes.com/tracking/
 ||rover.ebay.$image,object,script
 ||rover.ebay.com.au^*&cguid=
@@ -15338,8 +15342,11 @@ $third-party,websocket,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.
 ||ebaystatic.com^*/10341xh50yz21mhhydueu4m5wad.js$script,domain=ebay.com
 ||ebaystatic.com^*/g52yxhxv2mzcbealmlkri4kn5av.js$script,domain=ebay.com
 ! Fingerprint
+||aero.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||bcicdn.com/js-min/*/chunks/8.*.js
+||boss.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||dditscdn.com/arms-datacollectorjs/
+||dull.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||tipsport.org/scripts/closure.js
 ! Forter
 /^https?:\/\/.*[a-f0-9]{6,}\.cdn.*\.forter\.com\//$script,third-party
