@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: VIeWxNTDKGqFj0IdQ1EMrw
-! Version: 202007160501
+! Checksum: la3eyqB7ulQgObsus9vBQA
+! Version: 202007160921
 ! Title: EasyPrivacy
-! Last modified: 16 Jul 2020 05:01 UTC
+! Last modified: 16 Jul 2020 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -15295,6 +15295,7 @@ _mongo_stats/
 ||youtube-nocookie.com/ptracking?
 ||youtube-nocookie.com/robots.txt?
 ||youtube.com/api/stats/ads?
+||youtube.com/api/stats/atr
 ||youtube.com/api/stats/delayplay?
 ||youtube.com/api/stats/qoe?
 ||youtube.com/api/stats/watchtime
