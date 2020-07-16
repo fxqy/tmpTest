@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: qkIMPeFZ3DcqqhvDVzfBDw
-! Version: 202007150921
+! Checksum: VIeWxNTDKGqFj0IdQ1EMrw
+! Version: 202007160501
 ! Title: EasyPrivacy
-! Last modified: 15 Jul 2020 09:21 UTC
+! Last modified: 16 Jul 2020 05:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -644,6 +644,7 @@
 /analytics-pusher/*
 /analytics-savebt?
 /analytics-scripts.
+/analytics-secure.
 /analytics-sendEvent
 /analytics-social.
 /analytics-tag.
@@ -5276,6 +5277,8 @@ _xiti_js-
 _zag_cookie.
 cgi-bin/counter
 ||meetrics.netbb-
+! propertyguru fingerprinting
+/pg*.js?PID=$xmlhttprequest
 ! Akamai fingerprinting
 /^https?:\/\/.*\/(public|resources|static|assets)\/([a-f0-9]){28,32}$/$script,~third-party,xmlhttprequest
 ! Cloudflare fingerprinting
@@ -8142,11 +8145,14 @@ _mongo_stats/
 ||cleverpush.com^$third-party
 ||copush.com^$third-party
 ||cracataum.com^$third-party
+||danorenius.com^$third-party
 ||digitalpush.org^$third-party
+||edrone.me^$third-party
 ||feraciumus.com^$third-party
 ||fkondate.com^$third-party
 ||foxpush.com^$third-party
 ||foxpush.net^$third-party
+||getback.ch^$third-party
 ||getpushmonkey.com^$third-party
 ||getsupernova.com^$third-party
 ||gravitec.net^$third-party
@@ -8157,6 +8163,7 @@ _mongo_stats/
 ||master-push.net^$third-party
 ||misrepush.com^$third-party
 ||moengage.com^$third-party
+||najva.com^$third-party
 ||nativesubscribe.pro^$third-party
 ||notifadz.com^$third-party
 ||notifpush.com^$third-party
@@ -11916,7 +11923,6 @@ _mongo_stats/
 ||mhxk.com^*/main/entry.common.$script
 ||nofraud.com/js/device.js
 ||nofraud.com^*/customer_code.js
-||pgimgs.com^*/desktop_js_header.js
 ||poll-maker.com^*/scpolls.js
 ||promo.ge/res/delivery/delivery.js
 ||rc.vtex.com.br^
@@ -14863,7 +14869,6 @@ _mongo_stats/
 ||theweek.com/decor/track/
 ||thinkgeek.com/js/rts.js
 ||thrillist.com/track
-||ti.com/assets/js/headerfooter/$script
 ||tiaa-cref.org^*/js_tiaacref_analytics.
 ||tickco.com/track.js
 ||tidaltv.com/Ping.aspx
@@ -17023,6 +17028,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||geo-targetly.com/geolocation?id$script,third-party
 @@||geo.kaloo.ga/json/?$script,domain=telesurtv.net
 @@||geo.ngtv.io/locate/$domain=hbo.com
+@@||geoip-db.com/jsonp/$script,domain=justchill.site
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=ibanez.com
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
 @@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
