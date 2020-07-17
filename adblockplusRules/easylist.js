@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eStQoQDvqCVwy3RuKImMMQ
-! Version: 202007161411
+! Checksum: D/MhOJ7XIuUvDV3xut0fCg
+! Version: 202007170911
 ! Title: EasyList
-! Last modified: 16 Jul 2020 14:10 UTC
+! Last modified: 17 Jul 2020 09:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -19574,6 +19574,7 @@ _popunder+$popup
 ##.adPlaceholder35
 ##.adPlaceholder54
 ##.adPlaceholder_foot
+##.adPlacement
 ##.adPod
 ##.adPosition
 ##.adPremium
@@ -21947,6 +21948,7 @@ _popunder+$popup
 ##.advert-bronze
 ##.advert-bronze-btm
 ##.advert-btm
+##.advert-card
 ##.advert-center
 ##.advert-center_468x60
 ##.advert-col
@@ -24312,6 +24314,7 @@ _popunder+$popup
 ##.fixed-ads-header
 ##.fixedAds
 ##.fixedRightAd
+##.fixed_ad
 ##.fixed_ad_336x280
 ##.fixed_bottom_ad
 ##.fl-ads
@@ -25838,6 +25841,7 @@ _popunder+$popup
 ##.macad
 ##.mad_adcontainer
 ##.madison_ad
+##.mag21_fixed_ad
 ##.magAd
 ##.magad
 ##.magazine_box_ad
@@ -31072,6 +31076,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||6f363e072e82206b.com^
 ||6i4uibyg0c82.com^
 ||6ped2nd3yp.com^
+||6sxi6i74dk9m.com^
 ||6yag4bmwyhs4.com^
 ||6yfory7f0njw.com^
 ||6zw2rcfd.com^
@@ -31206,6 +31211,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||apearkcan.club^
 ||apologixopyr.site^
 ||apparentsav.club^
+||applicatemh.club^
 ||appresentikv.club^
 ||appropeanes.club^
 ||appropolyfunt.site^
@@ -31431,6 +31437,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cinsurmours.club^
 ||circuitewate.space^
 ||cjf25jklrwqt.com^
+||cjlqwfpkwi.com^
 ||ckardwithinktab.info^
 ||clarizonsimp.top^
 ||clcassd.com^
@@ -31549,6 +31556,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||derthundrew.club^
 ||desigactinific.pro^
 ||despitalyt.club^
+||dewincubiatoll.com^
 ||dexchangeinc.com^
 ||dexpredict.com^
 ||dgafgadsgkjg.top^
@@ -31598,6 +31606,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||dskyseconomic.info^
 ||dspleastanci.site^
 ||dstuckedot.space^
+||dt0ok92rg7r8.com^
 ||dtscout.com^
 ||dtsedge.com^
 ||dubkenduo.com^
@@ -31645,6 +31654,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||eforeantheirma.info^
 ||egfqtvewksktz.com^
 ||egroacho.com^
+||eieocp6mdu59.com^
 ||eighbourge.club^
 ||eikegolehem.com^
 ||eitherewindoor.club^
@@ -31685,6 +31695,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||eondunpea.com^
 ||eoredi.com^
 ||epresententifi.info^
+||epyulyi7887o.com^
 ||eralsstroying.info^
 ||eraltradiansid.info^
 ||ercredici.info^
@@ -31719,10 +31730,13 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||exercisely.club^
 ||expansity.club^
 ||expertnifg.com^
+||explanettu.club^
 ||extrementtgfa.site^
+||exualpaignp.info^
 ||eyecurred.com^
 ||eyhempsedinte.info^
 ||eyzu80g9xcxa.com^
+||ezexfzek.com^
 ||f185cefa37b1806e.com^
 ||f3551539d6565853.com^
 ||f40f89d54b8.com^
@@ -31896,6 +31910,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||hadslims.com^
 ||hadslimz.com^
 ||hadsoks.com^
+||hadspms.com^
 ||haftobso.net^
 ||hagainstan.space^
 ||halleyperson.pro^
@@ -31906,6 +31921,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||haviouseulom.club^
 ||hayfatduh.com^
 ||haypaydig.club^
+||hbfxmcgazuail.com^
 ||healthoutabol.site^
 ||hearthurstxz.club^
 ||heckagny.com^
@@ -31943,15 +31959,19 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||housopsi.net^
 ||howbyehid.site^
 ||howeverhou.fun^
+||hriaaim06kts.com^
 ||hrthvf.xyz^
 ||huckauhy.com^
 ||huhughyaw.com^
 ||hurchasisounci.site^
+||hvawrj8yeqru.com^
 ||hwhiffonprotect.info^
 ||hyconsistenb.space^
 ||hyinlegvghul.com^
 ||i4rsrcj6.top^
+||i99i.org^
 ||ialgregarderol.fun^
+||ianisedover.info^
 ||iclickcdn.com^
 ||icn.brandnewapp.pro^
 ||ideliv.net^
@@ -32055,6 +32075,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||l2ksixujfcg5.com^
 ||l2wisd9g5d9u.com^
 ||la1dwne9cn5c.com^
+||labeldollars.com^
 ||labortiontrifee.info^
 ||ladsabz.com^
 ||ladsdown.com^
@@ -32249,8 +32270,10 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||n6mnw8jaldqe.com^
 ||nacfuns.com^
 ||nadjustifygas.info^
+||nah9v7mdppff.com^
 ||nailowhe.net^
 ||naircastlecywr.club^
+||nalbusinespr.info^
 ||natorpression.fun^
 ||nbasicalbuffere.info^
 ||nbf9b5aurl.com^
@@ -32286,6 +32309,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ngleaccinemad.site^
 ||nglingapparen.fun^
 ||ngtablishbol.top^
+||ni6cdwf6w5xr.com^
 ||nibzitgas.com^
 ||nicevideos.xyz^
 ||niebrundveepursuede.info^
@@ -32298,6 +32322,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||nk26uvjrz0tt.com^
 ||nlz0ini5uz9t.com^
 ||nlzz7a3md4sx.com^
+||nmentshad.info^
 ||noagloot.net^
 ||noaloheb.com^
 ||noamiagainst.pro^
@@ -32354,6 +32379,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ofttanmob.site^
 ||ogysevery.site^
 ||ohmchoicechi.online^
+||ohonorpod.site^
 ||ojwd63thskiz.com^
 ||oldmilram.com^
 ||olicyconsendsi.info^
@@ -32540,6 +32566,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||pyjamaican.club^
 ||pz7zrn0xxgyg.com^
 ||q6idnawboy7g.com^
+||qfjherc.com^
 ||qmnyjs7jd1jp.com^
 ||qmvezbh0l28w.com^
 ||qnwjhpingotrmc.com^
@@ -32667,6 +32694,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ryhastille.info^
 ||rywoments.info^
 ||ryynoljdarrw.com^
+||s1t2uuenhsfs.com^
 ||s4d.xyz^
 ||sacaharag.club^
 ||sadorsagreeng.info^
@@ -32718,6 +32746,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||sevenialfeminde.fun^
 ||sevening.club^
 ||seventual.site^
+||severalpros.info^
 ||severymurden.site^
 ||sexagogal.site^
 ||sg2rgnza7k9t.com^
@@ -32769,12 +32798,15 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||sousaira.com^
 ||sovernment.club^
 ||soza6rsz3ezi.com^
+||sparagken.com^
 ||special-offers.online^
 ||special-promotions.online^
 ||specimense.club^
 ||specularpro.site^
 ||spendeivivar.site^
 ||spentalwithinga.info^
+||sperans-beactor.com^
+||spo7h3ktdvy5.com^
 ||sprintainokeg.site^
 ||srvng.xyz^
 ||ssorsophicla.info^
@@ -32836,6 +32868,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||taveredezeri.site^
 ||teachiefislate.space^
 ||teachievedim.site^
+||tebyj99zkdyb.com^
 ||telephants.club^
 ||televeniesuc.pro^
 ||tentdinationgab.info^
@@ -32881,6 +32914,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||tj9pcnb2ws.com^
 ||tme2wrwzz3wh.com^
 ||toapsira.net^
+||toeapesob.com^
 ||tonewithough.info^
 ||topbetfast.com^
 ||topblockchainsolutions.nl^
@@ -32939,6 +32973,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||uluswozzel.info^
 ||ulyssianeq.club^
 ||ummerciseha.info^
+||uncessoryel.info^
 ||undedfracted.club^
 ||undedsunbese.site^
 ||underwards.site^
@@ -33075,6 +33110,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||xcvgdf.party^
 ||xebadu.com^
 ||xineday.com^
+||xioodnxc1p1a.com^
 ||xizupsawo.pro^
 ||xmlppcbuzz.com^
 ||xqheb9yszyrd.com^
@@ -33088,6 +33124,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||yanderthundr.fun^
 ||yapparenalu.info^
 ||yawsupvie.site^
+||yb7a1bb6k1.com^
 ||ycorsementh.top^
 ||ydrinkletremem.site^
 ||yeaonesad.com^
@@ -33123,6 +33160,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||zro56hd6szoy.com^
 ||zroundancez.site^
 ||zudrurta.com^
+||zxa4kxw2nvox.com^
 ||zxxtkrkzfyy3.com^
 ||zzdb5p4upiug.com^
 ! Third-party
@@ -55772,7 +55810,7 @@ politifact.com##.m-billboard
 wccftech.com##.main-background
 designtaxi.com##.masonry-brick.dynamic-width
 forbes.com##.medianet-wrapper
-imdb.com##.mediaviewer__head-banner
+imdb.com##.mediaviewer__head-banner:not(.media-viewer__action-bar)
 techrepublic.com##.medusa-rr
 digit.in##.merchantlink
 pirate-bay.net##.message-wrap

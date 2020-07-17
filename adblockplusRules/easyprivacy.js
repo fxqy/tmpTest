@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: G8wRCup3npWonHUx1/7nEg
-! Version: 202007161411
+! Checksum: HVUU7r6eqeH7ttW/gkkQYw
+! Version: 202007170911
 ! Title: EasyPrivacy
-! Last modified: 16 Jul 2020 14:11 UTC
+! Last modified: 17 Jul 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5280,7 +5280,8 @@ cgi-bin/counter
 ! propertyguru fingerprinting
 /pg*.js?PID=$xmlhttprequest
 ! Akamai fingerprinting
-/^https?:\/\/.*\/(public|resources|static|assets)\/([a-f0-9]){28,32}$/$script,~third-party,xmlhttprequest
+! https://publicwww.com/websites/%22_cf.push%22/
+/^https?:\/\/.*\/(public|resources|static|assets)\/([a-f0-9]){28,30}$/$script,~third-party,xmlhttprequest
 ! Cloudflare fingerprinting
 /cgi-bin/bm/cv/*$script
 ! Admiral
@@ -8641,6 +8642,7 @@ _mongo_stats/
 ||fatcoil.com^$third-party
 ||faultycanvas.com^$third-party
 ||fearfulflag.com^$third-party
+||firstfrogs.com^$third-party
 ||flakyfeast.com^$third-party
 ||flockflame.com^$third-party
 ||forecasttiger.com^$third-party
@@ -10324,6 +10326,8 @@ _mongo_stats/
 ||contentpass.net/stats?$third-party
 ||control.cityofcairns.com^$third-party
 ||conversions.genieventures.co.uk^
+||convertflow.co^*/events/
+||convertflow.co^*/visitors/
 ||convsgmp.taboola.com^
 ||cookies.livepartners.com^
 ||cookietracker.cloudapp.net^
