@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: D/MhOJ7XIuUvDV3xut0fCg
-! Version: 202007170911
+! Checksum: 1edl8BZKrih3BA6fo8m8XQ
+! Version: 202007181750
 ! Title: EasyList
-! Last modified: 17 Jul 2020 09:10 UTC
+! Last modified: 18 Jul 2020 17:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -16404,6 +16404,7 @@ _popunder+$popup
 ###shortnews_advert
 ###show-ad
 ###show-player-right-ad
+###show-sticky-ad
 ###showAd
 ###show_ads
 ###show_ads1
@@ -16847,6 +16848,7 @@ _popunder+$popup
 ###static_textads_1
 ###stationad
 ###sticky-ad
+###sticky-ad-bottom
 ###sticky-ad-container
 ###sticky-ad-header
 ###sticky-top-ad-spacer
@@ -20710,6 +20712,7 @@ _popunder+$popup
 ##.ads-300x80
 ##.ads-301
 ##.ads-336-197-qu
+##.ads-336x280
 ##.ads-468
 ##.ads-468x60-bordered
 ##.ads-560-65
@@ -21142,6 +21145,7 @@ _popunder+$popup
 ##.ads_border
 ##.ads_box
 ##.ads_box_headline
+##.ads_box_type1
 ##.ads_brace
 ##.ads_by
 ##.ads_by_tico
@@ -21651,6 +21655,7 @@ _popunder+$popup
 ##.adunit-side
 ##.adunit-title
 ##.adunit-wrap
+##.adunit-wrapper
 ##.adunit125
 ##.adunit160
 ##.adunit300x250
@@ -27453,6 +27458,7 @@ _popunder+$popup
 ##.shoppingGoogleAdSense
 ##.shortads
 ##.shortadvertisement
+##.show-sticky-ad
 ##.showAd
 ##.showAdContainer
 ##.showAd_No
@@ -28152,6 +28158,7 @@ _popunder+$popup
 ##.std_ad_container
 ##.ste-ad
 ##.sticky-ad
+##.sticky-ad-bottom
 ##.sticky-ad-container
 ##.sticky-ad-header
 ##.sticky-ad-slot--homepage--wrapper
@@ -28277,6 +28284,7 @@ _popunder+$popup
 ##.tbl_ad
 ##.tbox_ad
 ##.tc-adbanner
+##.tc_ad
 ##.tc_ad_unit
 ##.tckr_adbrace
 ##.td-Adholder
@@ -31017,6 +31025,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ! Non-flagged (Revolving ad servers)
 ||01dbf3a452b6.com^
 ||05xz0h2xo799.com^
+||0aa89ur58y.top^
 ||0cf40a2064ce2.com^
 ||0klxjejyxak3.com^
 ||0oaqgsk54hm5.com^
@@ -31091,6 +31100,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||815e8fa24ebb8686.com^
 ||86cb1dcb13ba5a1a.com^
 ||87gw0fl0rc11.com^
+||8d6lbsvg3qkl.com^
 ||8gzijqo4c85j.com^
 ||8mb4qkd74cht.com^
 ||8tduqa3h42y5.com^
@@ -31227,6 +31237,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||arisonoping.club^
 ||arketscolourse.site^
 ||armashair.site^
+||armatchints.info^
 ||arnessaudie.site^
 ||arningexpos.top^
 ||arnockglen.club^
@@ -31319,6 +31330,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||behavingsali.club^
 ||beiven.pw^
 ||belgradualuna.site^
+||bernationa.club^
 ||berningbegi.club^
 ||bersmanatomic.site^
 ||besiasmere.site^
@@ -31439,6 +31451,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cjf25jklrwqt.com^
 ||cjlqwfpkwi.com^
 ||ckardwithinktab.info^
+||cklecreditie.info^
 ||clarizonsimp.top^
 ||clcassd.com^
 ||clcknads.pro^
@@ -31466,6 +31479,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||communited.club^
 ||companiedoml.site^
 ||comparencelabl.site^
+||compensess.club^
 ||compensions.pro^
 ||complified.club^
 ||concentleconse.site^
@@ -31484,6 +31498,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||coolcpms.com^
 ||coperledsinhe.info^
 ||cosimolaugh.pro^
+||cosimotable.pro^
 ||councedvdvg.club^
 ||counevan.pro^
 ||countertrck.com^
@@ -31498,6 +31513,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||creathere.club^
 ||creativetv.pro^
 ||cretaiformac.top^
+||cretextsma.info^
 ||crimentasaju.site^
 ||criminglynuk.pro^
 ||crocopop.com^
@@ -31705,6 +31721,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ernettesew.club^
 ||erosyndc.com^
 ||errnaphim.site^
+||ersfeaturall.info^
 ||ersoncur.info^
 ||ertainstreated.fun^
 ||erversarycompa.info^
@@ -32277,6 +32294,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||natorpression.fun^
 ||nbasicalbuffere.info^
 ||nbf9b5aurl.com^
+||ncedagricul.info^
 ||ncefoundanges.info^
 ||ncialappropo.site^
 ||ncountsnash.info^
@@ -32420,6 +32438,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||othesarialiber.club^
 ||othyightmare.club^
 ||otsurvedchange.info^
+||ouftukoo.net^
 ||oughgoalityabo.info^
 ||oukreesy.net^
 ||ouncialliberte.site^
@@ -32476,6 +32495,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||perytakeryca.fun^
 ||petachiefund.club^
 ||petchesa.net^
+||petrospedas.club^
 ||pf34zdjoeycr.com^
 ||pffw8mgd.com^
 ||pgradualirelev.info^
@@ -32591,6 +32611,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||raupsica.net^
 ||razdvabm.com^
 ||rcentratiumd.space^
+||rchitereach.info^
 ||rd2d.pro^
 ||rdingperhan.site^
 ||rdsb2.club^
@@ -32942,8 +32963,10 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||truestioncarefore.site^
 ||truesweb.com^
 ||trytipemo.com^
+||tscarbornonnae.info^
 ||tslomhfys.com^
 ||tstobkl.pro^
+||tstrokenga.info^
 ||tsundedhimse.fun^
 ||ttheathereco.site^
 ||ttspikbeglki.com^
@@ -33136,6 +33159,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||yeuropertsp.site^
 ||yg592gpmrh0q.com^
 ||yinsterkneeline.info^
+||yirishedspe.info^
 ||yonashbin.com^
 ||yonatefin.site^
 ||youearrid.com^
@@ -55998,6 +56022,7 @@ dailywire.com##div[style^="max-width: 300px;"]
 dailywire.com##div[style^="width: 728px;"]
 facebook.com#?#div[style="max-width: 390px; min-width: 190px;"]:-abp-has(a[href^="/ads/"])
 harleyquinnwidget.live##iframe ~ div > a[target="_blank"] > img[src]
+lmgtfy.com##iframe[data-s1search-id*="ads-bing"]
 mobile.twitter.com#?#.tweet:-abp-has(.promo)
 seedpeer.me#?#a:-abp-has(.usenet-downwload-link)
 jokerplayer.net##snackbar
@@ -58866,7 +58891,7 @@ nag.co.za###text-60
 amren.com,bharatmarg.com,buddyhead.com,defsounds.com,knowelty.com,prosnookerblog.com,technomag.co.zw###text-7
 consortiumnews.com,couponistaqueen.com,localvictory.com,michiganmessenger.com,ncr1037.co.za,newsday.co.zw,technomag.co.zw,vgleaks.com###text-8
 vanguardngr.com###text-87
-africaports.co.za,cnx-software.com,mynokiablog.com###text-9
+africaports.co.za,mynokiablog.com###text-9
 androidauthority.com###text-92
 torontolife.com###text-links
 hemmings.com###text_links
@@ -59469,6 +59494,7 @@ legacy.com##.aa_Table
 androidauthority.com##.aa_button_wrapper
 androidauthority.com##.aa_desktop
 androidauthority.com##.aa_intcont_300x250
+cnx-software.com##.aaltern-single
 smarteranalyst.com##.ab-tested-trading-center
 pcgamesn.com##.ab_mp
 imdb.com##.ab_zergnet
@@ -60930,7 +60956,6 @@ chrisbrownworld.com,myplay.com##.fwas300x250
 masterworksbroadway.com##.fwas728x90_top
 thelakewoodscoop.com##.g-col > a
 nofilmschool.com##.g-leader
-cnx-software.com##.g-single
 prokerala.com##.gAS_468x60
 titantv.com##.gAd
 about.com##.gB
@@ -60951,6 +60976,7 @@ inserbia.info##.gads250
 telegraph.co.uk##.gafs
 behance.net##.gallery-sponsor
 citywire.co.uk##.gallerySponsor
+cnx-software.com##.galtern
 pcper.com,thedrum.co.uk,thefix.com,tribalfootball.com##.gam-holder
 9news.com,bloomberg.com,courier-journal.com,theleafchronicle.com,thestarpress.com,usaweekend.com##.gam_wrapper
 addictinggames.com##.gameHeaderSponsor
@@ -65690,7 +65716,6 @@ baltimoresun.com,boston.com,calgaryherald.com,capitalgazette.com,carrollcountyti
 baltimoresun.com,boston.com,calgaryherald.com,capitalgazette.com,carrollcountytimes.com,chicagotribune.com,citypaper.com,courant.com,dailymail.co.uk,dailypress.com,edmontonjournal.com,edmunds.com,financialpost.com,gofugyourself.com,hearthhead.com,huffingtonpost.co.uk,ign.com,infinitiev.com,last.fm,latimes.com,leaderpost.com,lolking.net,mcall.com,metacritic.com,montrealgazette.com,nasdaq.com,nationalpost.com,newsarama.com,orlandosentinel.com,ottawacitizen.com,pcmag.com,ranker.com,sandiegouniontribune.com,saveur.com,sherdog.com,spin.com,stereogum.com,sun-sentinel.com,theprovince.com,thestarphoenix.com,tmn.today,tomshardware.co.uk,tomshardware.com,torontosun.com,trustedreviews.com,twincities.com,vancouversun.com,vibe.com,windsorstar.com,wowhead.com##.trc-content-sponsoredUB
 realfarmacy.com##.trc_rbox_container
 freep.com##.tsfrm-sponsor-logo-content
-mirrorace.com##.uk-button-secondary
 mirrorace.com##.uk-margin-bottom
 mingle2.com##.user_profile_ads
 courier-journal.com##.util-bar-module-share

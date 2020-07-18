@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: HVUU7r6eqeH7ttW/gkkQYw
-! Version: 202007170911
+! Checksum: F6wv0DObWX+Dmk67q8asmw
+! Version: 202007181751
 ! Title: EasyPrivacy
-! Last modified: 17 Jul 2020 09:11 UTC
+! Last modified: 18 Jul 2020 17:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2160,6 +2160,7 @@
 /googlytics-
 /gootics.js
 /gosquared-livestats/*
+/gov-tracking.min.js
 /gPageTracking.
 /grappler/log/*
 /gravity-beacon-
@@ -8774,6 +8775,7 @@ _mongo_stats/
 ||thirdrespect.com^$third-party
 ||thirstytwig.com^$third-party
 ||ticklesign.com^$third-party
+||toecircle.com^$third-party
 ||tranquilside.com^$third-party
 ||troubledtail.com^$third-party
 ||typicalairplane.com^$third-party
@@ -12758,6 +12760,7 @@ _mongo_stats/
 ||top.zp.ua/counter/
 ! Vietnamese
 ||analytics.yomedia.vn^
+||tracking.aita.gov.vn^
 !-----------------Individual tracking systems-----------------!
 ! *** easylist:easyprivacy/easyprivacy_specific.txt ***
 .gif?*&utm_$domain=livejasmin.com
@@ -13120,7 +13123,7 @@ _mongo_stats/
 ||bwbx.io^*/javelin/js/abba/abba-$script,domain=bloomberg.com
 ||c.cdngeek.com^$domain=edugeek.net
 ||c.ipaddress.com^
-||c.paypal.com^
+||c.paypal.com^$script
 ||c.wort-suche.com^
 ||c.x.oanda.com^
 ||c.ypcdn.com^*/webyp?rid=
@@ -13524,6 +13527,7 @@ _mongo_stats/
 ||foxsports.com.au/akam/$script
 ||foxtel.com.au/cms/fragments/corp_analytics/
 ||fp.measure.office.com^
+||fpa-events.arstechnica.com^
 ||france24.com^*/_ws/urgent
 ||freaksofcock.com/track/
 ||free-tv-video-online.me/resources/js/counter.js
@@ -14183,6 +14187,7 @@ _mongo_stats/
 ||oms.expedia.com^
 ||onetravel.com/TrackOnetravelAds.js
 ||online.citi.com^*/fp.min.js
+||onlyfans.com^*/stats-collect?
 ||oodle.co.uk/event/track-first-view/
 ||oodle.com/js/suntracking.js
 ||open.mkt1397.com^
@@ -17020,6 +17025,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ezodn.com/detroitchicago/dayton.js$script
 @@||fccbrea.org^*/swfaddress.js
 @@||fifa.com^*/webanalytics.js?
+@@||files.mycloud.com/js/analytics/google_analytics.js
 @@||firstdirect.com^*/logging-code.js
 @@||firststatesuper.com.au^*/js/analytics.js$script
 @@||flagshipmerchantservices.com/clickpathmedia.js
