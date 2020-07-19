@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: F6wv0DObWX+Dmk67q8asmw
-! Version: 202007181751
+! Checksum: SGH6G4EwXmOcxXjoa5Vf0Q
+! Version: 202007191331
 ! Title: EasyPrivacy
-! Last modified: 18 Jul 2020 17:51 UTC
+! Last modified: 19 Jul 2020 13:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6398,6 +6398,7 @@ _mongo_stats/
 ||free-website-hit-counters.com^$third-party
 ||free-website-statistics.com^$third-party
 ||freebloghitcounter.com^$third-party
+||freecounter.ovh^$third-party
 ||freecountercode.com^$third-party
 ||freecounterstat.com^$third-party
 ||freegeoip.app^$third-party
@@ -7209,6 +7210,7 @@ _mongo_stats/
 ||pixelinteractivemedia.com^$third-party
 ||pixelpop.co^$third-party
 ||pixelrevenue.com^$third-party
+||pixfuture.com^$third-party
 ||pizzaandads.com^$third-party
 ||pjatr.com^$third-party
 ||pjtra.com^$third-party
@@ -7739,6 +7741,7 @@ _mongo_stats/
 ||tetoolbox.com^$third-party
 ||tgdaudience.com^$third-party
 ||tglyr.co^$third-party
+||tgtag.io^$third-party
 ||theadex.com^$third-party
 ||theagency.com^$third-party
 ||thebestlinks.com^$third-party
@@ -7828,6 +7831,7 @@ _mongo_stats/
 ||trafficengine.net^$third-party
 ||trafficfacts.com^$third-party
 ||trafficfuel.com^$third-party
+||trafficguard.ai^$third-party
 ||trafficjoint.com^$third-party
 ||trafficregenerator.com^$third-party
 ||traffikcntr.com^$third-party
@@ -8629,6 +8633,7 @@ _mongo_stats/
 ||desiredirt.com^$third-party
 ||detectdiscovery.com^$third-party
 ||diplomahawaii.com^$third-party
+||discreetfield.com^$third-party
 ||distinctday.com^$third-party
 ||dq95d35.com^$third-party
 ||drydrum.com^$third-party
@@ -8667,6 +8672,7 @@ _mongo_stats/
 ||immensehoney.com^$third-party
 ||importedincrease.com^$third-party
 ||importedinsect.com^$third-party
+||impulsejewel.com^$third-party
 ||innocentinvention.com^$third-party
 ||inquisitiveinvention.com^$third-party
 ||intelligentscissors.com^$third-party
@@ -8681,6 +8687,7 @@ _mongo_stats/
 ||lizardslaugh.com^$third-party
 ||lorenzourban.com^$third-party
 ||loudlunch.com^$third-party
+||lovelydrum.com^$third-party
 ||lowlocket.com^$third-party
 ||lumberamount.com^$third-party
 ||lumpylumber.com^$third-party
@@ -8735,6 +8742,7 @@ _mongo_stats/
 ||scintillatingscissors.com^$third-party
 ||scintillatingspace.com^$third-party
 ||scrubswim.com^$third-party
+||seatsmoke.com^$third-party
 ||secretturtle.com^$third-party
 ||selectivesummer.com^$third-party
 ||selfishsea.com^$third-party
@@ -8746,7 +8754,9 @@ _mongo_stats/
 ||shockingship.com^$third-party
 ||shyseed.com^$third-party
 ||sicksmash.com^$third-party
+||sinceresubstance.com^$third-party
 ||smashsurprise.com^$third-party
+||smoggystation.com^$third-party
 ||somberscarecrow.com^$third-party
 ||sombersurprise.com^$third-party
 ||sortsummer.com^$third-party
@@ -8785,6 +8795,7 @@ _mongo_stats/
 ||unbecominghall.com^$third-party
 ||unequalbrake.com^$third-party
 ||untidyrice.com^$third-party
+||verseballs.com^$third-party
 ||womanear.com^$third-party
 ||zlp6s.pw^$third-party
 !-----------------International third-party tracking domains-----------------!
@@ -10774,6 +10785,7 @@ _mongo_stats/
 ||hqq.tv/js/counters.js
 ||hsforms.com^*/counters.gif
 ||hsforms.com^*/timings.gif$image
+||hspbotdetection.azurewebsites.net^
 ||hubspot.com/analytics/
 ||hubspot.com/cs/loader-v2.js
 ||hubspot.com/tracking/
@@ -13313,6 +13325,7 @@ _mongo_stats/
 ||destructoid.com/img2.phtml?
 ||diamond.transfermarkt.de^
 ||dictionary.com/track/
+||digital.flytedesk.com/js/head.js
 ||digitalriver.com^*/globaltracking
 ||digitalspy.co.uk/gip1.php
 ||dilbert.com^*&tracker$script
@@ -15276,11 +15289,7 @@ _mongo_stats/
 ||yellowpages.com/images/li.gif?
 ||yellowpages.com/proxy/envoy/
 ||yellowpages.com/proxy/turn_tags/
-||yelp.ca/spice?
-||yelp.co.uk/spice?
-||yelp.com.au/spice?
-||yelp.com/spice?
-||yelp.ie/spice?
+||yelp.*/spice?
 ||yimg.com/nq/ued/assets/flash/wsclient_
 ||yimg.com^*/yabcs.js
 ||yimg.com^*/ywa.js
@@ -15309,6 +15318,7 @@ _mongo_stats/
 ||youtube.com/api/stats/qoe?
 ||youtube.com/api/stats/watchtime
 ||youtube.com/get_video?
+||youtube.com/mac_204?
 ||youtube.com/ptracking?
 ||youtube.com/s?
 ||youtube.com/set_awesome?
@@ -16756,6 +16766,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||tracker.azet.sk^
 ! Spanish
 ||abc.es/pixel/
+||analytics.bolavip.com^
 ||analytics.infobae.com^
 ||analytics.redlink.com.ar^
 ||audiencies.ccma.cat^
@@ -16904,7 +16915,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||addgene.org/headers/blat/js/analyze.js
 @@||adobedtm.com/*-source.min.js$script,domain=kroger.com
 @@||adobedtm.com/*_source.min.js$script,domain=kroger.com
-@@||adobedtm.com/extensions/*/AppMeasurement.min.js$domain=atresplayer.com
+@@||adobedtm.com/extensions/$script,domain=atresplayer.com
 @@||adobedtm.com/launch-$script
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|costco.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|newyorker.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|usanetwork.com|vanityfair.com|wired.com|wowway.net
