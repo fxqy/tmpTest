@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: SGH6G4EwXmOcxXjoa5Vf0Q
-! Version: 202007191331
+! Checksum: bjaHi5H7eKemSVdmlDD42Q
+! Version: 202007200911
 ! Title: EasyPrivacy
-! Last modified: 19 Jul 2020 13:31 UTC
+! Last modified: 20 Jul 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -15307,6 +15307,7 @@ _mongo_stats/
 ||yourfilehost.com/counter.htm
 ||youronlinechoices.com/activity/
 ||yourtv.com.au/share/com/js/fb_google_intercept.js
+||youtube-nocookie.com/api/stats/atr
 ||youtube-nocookie.com/api/stats/delayplay?
 ||youtube-nocookie.com/api/stats/playback?
 ||youtube-nocookie.com/api/stats/qoe?
@@ -16552,6 +16553,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||tracking.gruppo.mps.it^
 ||trk.m.libero.it^
 ||tuttogratis.it/gopix.php?
+||tuttomercatoweb.com/pixel
 ||video.mediaset.it/polymediashowanalytics/
 ||videogame.it/a/logview/
 ||virgilio.it/clientinfo.gif?
@@ -16788,6 +16790,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||terra.com.mx^*/metrics_end.js
 ||terra.com/js/metrics/
 ||terra.com^*/td.asp?bstat
+||todomercadoweb.es/pixel
 ||trrsf.com/metrics/
 ||uecdn.es/js/pbmu.js
 ||wssgmstats.vibbo.com^
@@ -16803,6 +16806,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||stat.nyheter24.se^
 ! Thai
 ||dek-d.com^*/analytic.js
+||scribe.wongnai.com^
 ||ta.sanook.com^
 ||thairath.co.th/event/
 ! Turkish
@@ -16823,6 +16827,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||piccy.org.ua/c?
 ||target.ukr.net^
 ! Vietnamese
+||log.ttbc-hcm.gov.vn^
 ||logsbin.dantri.com.vn^
 ! Indonesian
 ||ktracker.kumparan.com^
