@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: bjaHi5H7eKemSVdmlDD42Q
-! Version: 202007200911
+! Checksum: Pw8eQj0rSgZMBHXghCCZtg
+! Version: 202007220901
 ! Title: EasyPrivacy
-! Last modified: 20 Jul 2020 09:11 UTC
+! Last modified: 22 Jul 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6720,6 +6720,7 @@ _mongo_stats/
 ||itracker360.com^$third-party
 ||itrackerpro.com^$third-party
 ||itracmediav4.com^$third-party
+||itrustzone.site^$third-party
 ||ivcbrasil.org.br^$third-party
 ||ivstracker.net^$third-party
 ||ivwbox.de^$third-party
@@ -12863,9 +12864,9 @@ _mongo_stats/
 ||airspacemag.com/g/g/button/
 ||akamai.net^$script,domain=argos.co.uk|newscientist.com|upwork.com
 ||akamai.net^*/button.clickability.com/
-||akamaihd.net/ok7rdanq.gif$image,domain=inquirer.net
 ||akamaihd.net/pixelkabam/
 ||akamaihd.net^$script,domain=allmodern.com|birchlane.com|perigold.com|wayfair.co.uk|wayfair.com
+||akamaihd.net^*.gif$image,domain=globalnews.ca|inquirer.net
 ||alarabiya.net/track_content_
 ||alarabiya.net^*/googleid.js
 ||alb.reddit.com^
@@ -13188,7 +13189,7 @@ _mongo_stats/
 ||cjtube.com/tp/*.php
 ||cl.expedia.com^
 ||cl.ly/metrics?
-||clancy.spiceworks.com/gov.js
+||clancy.spiceworks.com^
 ||classic.comunio.*/external/ct/ct.js
 ||clc.stackoverflow.com^
 ||clck.yandex.com^
@@ -17655,6 +17656,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||megafon.ru/static/?files=*/tealeaf.js
 @@||mts.ru/app/vendor/angular-google-analytics.min.js
 @@||online.bcs.ru^*/piwik.bcs.js$script
+@@||pladform.ru/dive/$xmlhttprequest
 @@||pladform.ru/player$subdocument
 @@||player.fc-zenit.ru/msi/geoip?$xmlhttprequest
 @@||player.vgtrk.com/js/stat.js?
