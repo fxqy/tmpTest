@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RrYMbiRDOPuJhcfwAPmy3w
-! Version: 202007220901
+! Checksum: xzqH/6EgIEXAs19W9pjxLA
+! Version: 202007230921
 ! Title: EasyList
-! Last modified: 22 Jul 2020 09:01 UTC
+! Last modified: 23 Jul 2020 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -18166,6 +18166,7 @@ _popunder+$popup
 ##.ad--marker-inner
 ##.ad--medium-rectangle
 ##.ad--mid-content
+##.ad--mobile
 ##.ad--mpu
 ##.ad--no-bg
 ##.ad--noscroll
@@ -23211,6 +23212,7 @@ _popunder+$popup
 ##.bot_ads
 ##.botad2
 ##.bottom-ad
+##.bottom-ad--bigbox
 ##.bottom-ad-banner
 ##.bottom-ad-box
 ##.bottom-ad-container
@@ -29908,7 +29910,6 @@ _popunder+$popup
 ##a[onclick*="//m.economictimes.com/etmack/click.htm"]
 ##a[onmousedown^="this.href='/wp-content/embed-ad-content/"]
 ##ad-desktop-sidebar
-##ad-slot--header-banner
 ##amp-ad-custom
 ##aside[id^="adrotate_widgets-"]
 ##aside[id^="advads_ad_widget-"]
@@ -31303,6 +31304,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||asoulrox.com^
 ||aspartbib.site^
 ||aspaskaim.club^
+||assemblyass.club^
 ||assionwreckl.top^
 ||assiumyikg.club^
 ||assumineuron.site^
@@ -31445,6 +31447,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cadslimz.com^
 ||cadspms.com^
 ||caglaikr.net^
+||cahangeas.club^
 ||caiteesh.net^
 ||camantasp.club^
 ||cambrianter.club^
@@ -31563,6 +31566,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||courselfnorter.site^
 ||courthereb.club^
 ||coversaved.club^
+||coversestri.club^
 ||cowbumply.com^
 ||coysotown.com^
 ||cp7gyw5w94c7.com^
@@ -31809,6 +31813,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||eseventent.info^
 ||esf397vsf1nk.com^
 ||esinteresticma.fun^
+||espreditionm.club^
 ||esshortleda.info^
 ||estionexperime.info^
 ||estoopsi.com^
@@ -32085,6 +32090,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||idelv.net^
 ||ie8eamus.com^
 ||iendoo.com^
+||ientribalintri.club^
 ||iglaique.net^
 ||ignitiontigercamera.com^
 ||iiprpq1bsedg.com^
@@ -32401,6 +32407,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||nailowhe.net^
 ||naircastlecywr.club^
 ||nalbusinespr.info^
+||natesbiscussi.club^
 ||natorpression.fun^
 ||nbasicalbuffere.info^
 ||nbf9b5aurl.com^
@@ -32533,6 +32540,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||onesignal.com^
 ||onetouch4.com^
 ||onindexicowillio.info^
+||onintensstud.club^
 ||onscribedpastrong.info^
 ||onukrauh.net^
 ||onwaysebuj.site^
@@ -32563,6 +32571,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ountapaveralle.info^
 ||ousseventi.info^
 ||outsimfat.site^
+||outtunova.com^
 ||ouzoadru.net^
 ||ovementerter.site^
 ||overnmentil.site^
@@ -32761,6 +32770,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||reasonalattracke.info^
 ||rebrancardera.site^
 ||rebritingcyclo.fun^
+||recesirralsoc.club^
 ||reckedmane.club^
 ||recomine.club^
 ||recommerdal.club^
@@ -33119,6 +33129,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||traighteri.club^
 ||transardugde.club^
 ||trblocked.com^
+||treammicr.club^
 ||tremembersy.site^
 ||trfsltions.info^
 ||trikersuccessar.site^
@@ -65290,6 +65301,7 @@ youtube.com##.watch-extra-info-column
 youtube.com##.watch-extra-info-right
 youtube.com##.ytd-carousel-ad-renderer
 youtube.com##.ytd-compact-promoted-video-renderer
+youtube.com##.ytd-display-ad-renderer
 youtube.com##.ytd-merch-shelf-renderer
 youtube.com##.ytd-promoted-sparkles-text-search-renderer
 youtube.com##.ytd-promoted-video-renderer
@@ -66930,8 +66942,6 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||doubleclick.net/favicon.ico$image,domain=goal.com
 @@||doubleclick.net/gpt/pubads_impl_$script,xmlhttprequest,domain=accuweather.com|epaper.timesgroup.com|espn.com|nbcsports.com|webmd.com
 @@||downdetector.com^*/javascript/dist/adscript.js$script
-@@||dragon-mania-legends-wiki.mobga.me^*_advertisement.
-@@||dragon-mania-legends-wiki.mobga.me^*_Advertisement_
 @@||dwiextreme.com/banners/dwiextreme$image
 @@||dynata.com/survey/$generichide
 @@||edmodo.com/ads$~third-party,xmlhttprequest

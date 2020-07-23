@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Pw8eQj0rSgZMBHXghCCZtg
-! Version: 202007220901
+! Checksum: EnCopQxIRdT6H2kLvfoWJg
+! Version: 202007230921
 ! Title: EasyPrivacy
-! Last modified: 22 Jul 2020 09:01 UTC
+! Last modified: 23 Jul 2020 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1342,6 +1342,7 @@
 /collect/sdk?
 /collect/stats?
 /collect/tracking.
+/collect/view?
 /collect?*&cid=
 /collect?*&tid=
 /collect?callback=
@@ -5125,6 +5126,7 @@
 ?log=stats-
 ?log_visibility=
 ?mf_referrer=
+?pageviews=$third-party
 ?pvid=*&pn=
 ?rand=*&blk=
 ?rand=*&ref_
@@ -11110,6 +11112,7 @@ _mongo_stats/
 ||newton.pm/events/track_bulk
 ||ngpvan.com/v1/Track/
 ||nice264.com/data?$third-party
+||nile.works/api/save-perf?
 ||nile.works/TargetingWebAPP/
 ||ninja.onap.io^
 ||nitropay.com/nads/$third-party
@@ -11896,6 +11899,7 @@ _mongo_stats/
 ||wpdigital.net/metrics/
 ||ws.amazon.com/widgets/*=gettrackingid|
 ||ws.audioeye.com^
+||ws.sharethis.com^$script
 ||wsf.com/tracking/$third-party
 ||wsj.net/MW5/content/analytics/hooks.js
 ||wss.maven.io^$websocket
@@ -12289,6 +12293,7 @@ _mongo_stats/
 ||bokecc.com/flash/playlog?
 ||bokecc.com/flash/timerecorder?
 ||bzclk.baidu.com^
+||c.holmesmind.com^
 ||cbsi.com.cn/js/dw.js
 ||cdn.hiido.cn^$third-party
 ||cdnmaster.com/sitemaster/sm360.js
