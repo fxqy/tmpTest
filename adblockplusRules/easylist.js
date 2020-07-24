@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: xzqH/6EgIEXAs19W9pjxLA
-! Version: 202007230921
+! Checksum: zIMhQbRMpeHI5i43HL8Ylg
+! Version: 202007241041
 ! Title: EasyList
-! Last modified: 23 Jul 2020 09:21 UTC
+! Last modified: 24 Jul 2020 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -244,7 +244,6 @@
 -ads-widget?
 -ads.generated.
 -ads.gif
--ads.js?
 -ads.php?
 -ads.swf
 -ads/728x
@@ -697,7 +696,6 @@
 .intad.
 .intad/
 .internads.
-.io/ads.
 .io/ads/
 .is/ads/
 .jp/ads/
@@ -15764,6 +15762,8 @@ _popunder+$popup
 ###news_right_ad
 ###newstream_first_ad
 ###newuser_ad
+###ng-ad
+###ng-ad-lbl
 ###ng_rtcol_ad
 ###nia_ad
 ###nib-ad
@@ -19672,6 +19672,7 @@ _popunder+$popup
 ##.adTag-wrap
 ##.adText
 ##.adTextPmpt
+##.adTextWrap
 ##.adTicker
 ##.adTile
 ##.adTileWrap
@@ -28773,6 +28774,7 @@ _popunder+$popup
 ##.ukn-inline-advert
 ##.ult_vp_videoPlayerAD
 ##.unSponsored
+##.under-header-ad
 ##.under-player-ads
 ##.under_ads
 ##.underplayer__ad
@@ -29332,6 +29334,7 @@ _popunder+$popup
 ##a[href*=".allsports4you.club"]
 ##a[href*=".approvallamp.club/"]
 ##a[href*=".bang.com/"][href*="&aff="]
+##a[href*=".cfm?fp="][href*="&prvtof="]
 ##a[href*=".clkcln.com/"]
 ##a[href*=".clksite.com/"]
 ##a[href*=".fwd28.com/"]
@@ -30014,6 +30017,7 @@ _popunder+$popup
 ##img[alt^="Fuckbook"]
 ##p[id^="div-gpt-ad-"]
 ##script[src^="http://free-shoutbox.net/app/webroot/shoutbox/sb.php?shoutbox="] + #freeshoutbox_content
+##span[data-component-type="s-ads-metrics"]
 ##topadblock
 ! internetradiouk.com  / jamaicaradio.net / onlineradios.in etc
 ##.add-box-side
@@ -31096,6 +31100,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||442d9f2ac50ca502.com^
 ||4edidqmtzlsa.com^
 ||4prgkoj870j9.com^
+||4rt6auqet2rx.com^
 ||4t6u1amm3t3n.com^
 ||508ec56533e3937e.com^
 ||50trk.com^
@@ -31387,6 +31392,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||besthpath.club^
 ||bestvideo2019.xyz^
 ||betternoon.club^
+||bg9ugav5tik0mbh7n9ca.pro^
 ||bhcf764sf8pg.com^
 ||bher64eljhjx.com^
 ||bidiology.com^
@@ -31403,6 +31409,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||bloglife24.com^
 ||bmkz57b79pxk.com^
 ||bnrsis.com^
+||boajagoar.com^
 ||boffoadsfeeds.com^
 ||bokrelri.com^
 ||bopohsage.com^
@@ -31463,6 +31470,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||casinohacksforyou.com^
 ||catchinemuj.club^
 ||cauthuny.net^
+||cawbarthe.com^
 ||cawsodpet.club^
 ||cconseent.info^
 ||cdcz.xyz^
@@ -31722,6 +31730,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||econdardseeg.site^
 ||ecurrenchoutliness.fun^
 ||edampeci.com^
+||edcredition.club^
 ||edcritessuspi.info^
 ||edencourtbrita.info^
 ||edgreateria.info^
@@ -31823,6 +31832,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||eunformeranothe.info^
 ||europertsticke.site^
 ||evalynbrought.pro^
+||evatelyenu.club^
 ||evemasoil.com^
 ||eventurypol.site^
 ||ewseriencern.fun^
@@ -31890,6 +31900,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||fibpeeode.site^
 ||fibusedie.site^
 ||fictimruffles.space^
+||fiestataseel.club^
 ||fimpromote.club^
 ||findicaterperty.site^
 ||fingahvf.top^
@@ -31909,6 +31920,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||formany.club^
 ||forwayonlibe.site^
 ||francieseds.club^
+||francoistsjacqu.info^
 ||freementgd.club^
 ||frenchayan.club^
 ||frequestabure.site^
@@ -31924,6 +31936,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||fz5akngy5o6r.com^
 ||g1dxj6q1qfl2.com^
 ||g2afse.com^
+||g6zkzy0g2g.com^
 ||gadsabz.com^
 ||gadsans.com^
 ||gadsanz.com^
@@ -32008,7 +32021,9 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||grirault.net^
 ||groackam.com^
 ||grubsoan.com^
+||grumpult.com^
 ||gstralpolita.info^
+||gueselambe.club^
 ||h-l.icu^
 ||h-l.xyz^
 ||h3btqpy2abc3.com^
@@ -32041,6 +32056,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||heredeithere.club^
 ||hereexpelli.space^
 ||heregenessco.club^
+||herscryptia.info^
 ||hesterinoc.info^
 ||hethelcontai.fun^
 ||hictionstop.fun^
@@ -32309,6 +32325,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mdlsite.com^
 ||mecontentassent.website^
 ||medcourthe.fun^
+||mediaappletree.com^
 ||meehaina.net^
 ||mega-fla.com^
 ||megmobpoi.club^
@@ -32393,6 +32410,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mslimitages.site^
 ||mslimitagesmo.site^
 ||mstorer.net^
+||mugleafly.com^
 ||mugpothop.com^
 ||mujgirreveals.club^
 ||mungaryn.club^
@@ -32414,6 +32432,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ncedagricul.info^
 ||ncefoundanges.info^
 ||ncialappropo.site^
+||ncilityinflati.club^
 ||ncountsnash.info^
 ||nctionclarkingcu.fun^
 ||ncylegiatede.info^
@@ -33115,6 +33134,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||topperyregard.fun^
 ||torbudyum.com^
 ||torrentprotection.com^
+||torsperience.club^
 ||tortdiscreets.club^
 ||torytalenty.site^
 ||totogetica.com^
@@ -33193,6 +33213,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||urchrevening.info^
 ||urdercomp.space^
 ||uremechangec.info^
+||ureresponsbrit.club^
 ||ureticrelingse.top^
 ||urgwritishimpos.info^
 ||urimteku.com^
@@ -33218,6 +33239,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||vanderlisten.pro^
 ||vanmapdug.club^
 ||vashoaft.net^
+||vatskaylittl.club^
 ||vcommission.com^
 ||vebadu.com^
 ||vedcouragin.info^
@@ -33227,6 +33249,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||veralother.fun^
 ||verdriusuref.site^
 ||veremund-hon.com^
+||vevatom.com^
 ||vfl81ea28aztw7y3.pro^
 ||vgw35hwr4w6x.com^
 ||viatepigan.com^
@@ -33276,11 +33299,13 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||weethery.com^
 ||weinberinaz.site^
 ||welsworn.info^
+||wensoono.com^
 ||westerdayeol.site^
 ||westerdayeu.site^
 ||westwarese.club^
 ||wg-aff.com^
 ||whadaupo.net^
+||whamukoji.pro^
 ||whaustou.net^
 ||wheessoo.com^
 ||whenedkom.club^
@@ -37647,7 +37672,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||rtpdn11.com^$third-party
 ||rubiconproject.com^$third-party
 ||rue1mi4.bid^$third-party
-||rumble.com^$third-party
 ||rumimorigu.info^$third-party
 ||rummyaffiliates.com^$third-party
 ||run-syndicate.com^$third-party
@@ -47244,7 +47268,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||6198399e4910e66-ovc.com^$popup
 ||6kup12tgxx.com^$popup
 ||72b8869dfc34690.com^$popup
-||7ggtpciw.com^$popup
 ||87159d7b62fc885.com^$popup
 ||888games.com^$popup,third-party
 ||888media.net^$popup,third-party
@@ -47282,7 +47305,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||adexchangemachine.com^$popup
 ||adexchangeprediction.com^$popup,third-party
 ||adexchangetracker.com^$popup,third-party
-||adfarm.mediaplex.com^$popup,third-party
 ||adfclick1.com^$popup,third-party
 ||adglare.net^$popup
 ||adhealers.com^$popup
@@ -47305,7 +47327,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||adplxmd.com^$popup,third-party
 ||adport.io^$popup
 ||adright.co^$popup
-||adrotate.se^$popup,third-party
 ||adrunnr.com^$popup,third-party
 ||ads.sexier.com^$popup,third-party
 ||adsbreak.com^$popup
@@ -47337,21 +47358,9 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||adxprtz.com^$popup,third-party
 ||afclickoffers.com^$popup
 ||affbuzzads.com^$popup,third-party
-||affrh2011.com^$popup,third-party
-||affrh2012.com^$popup,third-party
-||affrh2013.com^$popup,third-party
-||affrh2014.com^$popup,third-party
 ||affrh2015.com^$popup,third-party
-||affrh2016.com^$popup,third-party
-||affrh2017.com^$popup,third-party
-||affrh2018.com^$popup,third-party
-||affrh2019.com^$popup,third-party
 ||affrh2020.com^$popup,third-party
-||affrh2021.com^$popup,third-party
 ||affrh2022.com^$popup,third-party
-||affrh2023.com^$popup,third-party
-||affrh2024.com^$popup,third-party
-||affrh2025.com^$popup,third-party
 ||aflrm.com^$popup,third-party
 ||afriflatry.co^$popup,third-party
 ||aidaigry.com^$popup
@@ -47378,7 +47387,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ardintcoin.com^$popup
 ||arescadon.com^$popup
 ||arrlnk.com^$popup
-||asdad.xyz^$popup
 ||atas.io^$popup
 ||atozdealinfo.com^$popup
 ||august15download.com^$popup,third-party
@@ -47391,7 +47399,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||b3z29k1uxb.com^$popup
 ||b54m4qbmt0b9.com^$popup
 ||baypops.com^$popup,third-party
-||bbballs.men^$popup
 ||bbuni.com^$popup,third-party
 ||bcvcmedia.com^$popup,third-party
 ||becoquin.com^$popup,third-party
@@ -47431,8 +47438,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||broomboxmain.com^$popup,third-party
 ||brucelead.com^$popup,third-party
 ||bullads.net^$popup,third-party
-||butheptesitrew.pro^$popup
-||buthestienjo.pro^$popup
 ||buyeasy.by^$popup
 ||buythis.ad^$popup,third-party
 ||buzzadnetwork.com^$popup
@@ -47443,11 +47448,9 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||calcch.com^$popup,third-party
 ||camscaps.net^$popup
 ||careerjournalonline.com^$popup
-||carvarial.pro^$popup
 ||casino.betsson.com^$popup,third-party
 ||cbbp1.com^$popup
 ||cbdzone.online^$popup
-||cdaz.ciu^$popup
 ||cdaz.icu^$popup
 ||cdnmedia.xyz^$popup
 ||ceeglagu.net^$popup
@@ -47469,7 +47472,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||clicksor.net^$popup,third-party
 ||clicksvenue.com^$popup,third-party
 ||clicktripz.com^$popup,third-party
-||clk-can.com^$popup
 ||clk-sec.com^$popup
 ||clkads.com^$popup,third-party
 ||clkcln.com^$popup,third-party
@@ -47479,9 +47481,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||clkrev.com^$popup,third-party
 ||cloudsrvtrk.com^$popup,third-party
 ||cloudtracked.com^$popup,third-party
-||clpremdo.com^$popup,third-party
 ||cm.g.doubleclick.net^$popup,third-party
-||cml5egriskie.xyz^$popup
 ||cmllk2.info^$popup,third-party
 ||codedexchange.com^$popup
 ||codeonclick.com^$popup
@@ -47513,7 +47513,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||deliverydom.com^$popup,third-party
 ||deloplen.com^$popup
 ||deloton.com^$popup
-||delta-boa.com^$popup,third-party
 ||denza.pro^$popup,third-party
 ||digitaldsp.com^$popup
 ||dilruwha.net^$popup
@@ -47542,7 +47541,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||eastbour.mobi^$popup
 ||easydownloadnow.com^$popup,third-party
 ||easykits.org^$popup,third-party
-||econsideepofle.info^$popup
 ||edchargina.pro^$popup
 ||elephant-ads.com^$popup
 ||enlarget.com^$popup,third-party
@@ -47554,7 +47552,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||exdynsrv.com^$popup,third-party
 ||exosrv.com^$popup
 ||expired-antiviruses.com^$popup
-||explainidentifycoding.info^$popup,third-party
 ||explorads.com^$popup,third-party
 ||expmediadirect.com^$popup
 ||ezdownloadpro.info^$popup,third-party
@@ -47569,7 +47566,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||filestube.com^$popup,third-party
 ||finance-reporting.org^$popup,third-party
 ||findbetterresults.com^$popup,third-party
-||firefoxprotect.me^$popup
 ||firstclass-download.com^$popup,third-party
 ||flrdra.com^$popup
 ||focuusing.com^$popup
@@ -47587,12 +47583,10 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||fusttds.xyz^$popup
 ||fvenxjtzuaxu.com^$popup
 ||fwbntw.com^$popup
-||g05.info^$popup,third-party
 ||gameonmom.net^$popup
 ||gamesrotator.com^$popup
 ||ganja.com^$popup,third-party
 ||gdmconvtrck.com^$popup
-||geranew.info^$popup,third-party
 ||getalinkandshare.com^$popup
 ||getmyads.com^$popup,third-party
 ||gfdfhdh5t5453.com^$popup
@@ -47632,13 +47626,11 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||hlpnowp-c.com^$popup,third-party
 ||hotchatdate.com^$popup,third-party
 ||hotchatdirect.com^$popup,third-party
-||hovernottaked.info^$popup
 ||hqtrk.com^$popup
 ||hrahdmon.com^$popup
 ||hrtye.com^$popup
 ||hrtyh.com^$popup
 ||hstpnetwork.com^$popup,third-party
-||htmlhubing.xyz^$popup,third-party
 ||htmonster.com^$popup
 ||hueads.com^$popup
 ||huluads.info^$popup,third-party
@@ -47650,7 +47642,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ilividnewtab.com^$popup,third-party
 ||imbetan.info^$popup
 ||imsnp.com^$popup,third-party
-||inbinaryoption.com^$popup,third-party
 ||inclk.com^$popup
 ||indianmasala.com^$popup,third-party,domain=masalaboard.com
 ||indianweeklynews.com^$popup,third-party
@@ -47669,7 +47660,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||iwanttodeliver.com^$popup,third-party
 ||iyfnzgb.com^$popup
 ||jdtracker.com^$popup,third-party
-||jettags.rocks^$popup,third-party
 ||jqfjrjka5t.top^$popup
 ||jsmentry.com^$popup
 ||jsmptjmp.com^$popup
@@ -47689,8 +47679,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ladsreds.com^$popup
 ||ladsup.com^$popup
 ||large-format.net^$popup,third-party
-||lcxrimmb.com^$popup
-||legisland.net^$popup,third-party
 ||letshareus.com^$popup,third-party
 ||letzonke.com^$popup,third-party
 ||lie2anyone.com^$popup
@@ -47711,7 +47699,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||lucretius-ada.com^$popup
 ||lustigbanner.com^$popup,third-party
 ||lvztx.com^$popup
-||m57ku6sm.com^$popup,third-party
 ||m73lae5cpmgrv38.com^$popup
 ||magicads.nl^$popup,third-party
 ||maomaotang.com^$popup,third-party
@@ -47746,12 +47733,10 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mobsuitem.com^$popup
 ||modescrips.info^$popup,third-party
 ||moneytec.com^$popup,third-party
-||montpti.top^$popup
 ||moon-ads.com^$popup,third-party
 ||morphonebrities.info^$popup
 ||mpqfzyh.com^$popup
 ||mtbgrgscjwcjc.com^$popup
-||mutaticial.com^$popup
 ||muvflix.com^$popup,third-party
 ||mvmbs.com^$popup
 ||mxsads.com^$popup,third-party
@@ -47762,9 +47747,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||myrdrcts.com^$popup,third-party
 ||mysagagame.com^$popup,third-party
 ||mystighty.info^$popup
-||mystreamadpush.link^$popup
 ||myusersoffer.com^$popup
-||n388hkxg.com^$popup,third-party
 ||naganoadigei.com^$popup
 ||namesakeoscilloscopemarquis.com^$popup,third-party
 ||nanoadexchange.com^$popup,third-party
@@ -47783,13 +47766,9 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ntlyaccessfulsp.info^$popup
 ||nymphdate.com^$popup,third-party
 ||o333o.com^$popup,third-party
-||o8q80l1z.top^$popup
 ||oclaserver.com^$popup
 ||ofeetles.pro^$popup
 ||offaces-butional.com^$popup
-||offertrk.info^$popup,third-party
-||oiqheoiwgnqiweoj.bid^$popup
-||okiaecdkdyut.bid^$popup
 ||onad.eu^$popup,third-party
 ||onclickads.net^$popup,third-party
 ||onclickclear.com^$popup,third-party
@@ -47803,7 +47782,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||onlineshopping.website^$popup,third-party
 ||onpato.ru^$popup,third-party
 ||oodsotso.com^$popup
-||open-downloads.net^$popup,third-party
 ||openadserving.com^$popup,third-party
 ||opptmzpops.com^$popup
 ||opskln.com^$popup
@@ -47811,7 +47789,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||oratosaeron.com^$popup,third-party
 ||origer.info^$popup
 ||otnolabttmup.com^$popup
-||outdm.tmslinks.info^$popup
 ||outhulem.net^$popup
 ||overturs.com^$popup,third-party
 ||oxybe.com^$popup,third-party
@@ -47819,10 +47796,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||padsdel.com^$popup,third-party
 ||padssup.com^$popup
 ||parkingse.info^$popup
-||parronnotandone.info^$popup
 ||parserwords.info^$popup
-||parserworld.info^$popup,third-party
-||partypills.org^$popup,third-party
 ||passeura.com^$popup
 ||patiencepls.com^$popup
 ||patiskcontentdelivery.info^$popup
@@ -47837,12 +47811,10 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||phiptams.net^$popup
 ||phu1aefue.com^$popup
 ||pimmuter.com^$popup
-||pipaoffers.com^$popup,third-party
 ||pipsol.net^$popup
 ||pixellitomedia.com^$popup,third-party
 ||pixelsfighting.co^$popup,third-party
 ||playboymethod.com^$popup,third-party
-||plex2.com^$popup,third-party
 ||plexop.net^$popup,third-party
 ||plsdrct2.me^$popup,third-party
 ||pocofh.com^$popup
@@ -47871,7 +47843,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||preskalyn.com^$popup
 ||prfdesk.pro^$popup
 ||prigmaperf.me^$popup,third-party
-||prime535.com^$popup
 ||privacy4browsers.com^$popup,third-party
 ||private-speed-app-online.club^$popup
 ||prjcq.com^$popup,third-party
@@ -47904,7 +47875,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||qertewrt.com^$popup,third-party
 ||qlinks.pro^$popup
 ||qom006.site^$popup
-||qrkiykgbk.com^$popup
 ||qrlsx.com^$popup,third-party
 ||qswotrk.com^$popup,third-party
 ||quantomcoding.com^$popup,third-party
@@ -47920,7 +47890,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||red-direct-n.com^$popup
 ||redirect18systemsg.com^$popup
 ||redirect2719.ws^$popup
-||redirectgang.com^$popup
 ||redirections.site^$popup,third-party
 ||redirectvoluum.com^$popup
 ||refpa.top^$popup
@@ -47957,14 +47926,12 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||secureintl.com^$popup,third-party
 ||securesmrt-dt.com^$popup
 ||seethisinaction.com^$popup,third-party
-||seiya.work^$popup,third-party
 ||senzapudore.it^$popup,third-party
 ||serving-sys.com^$popup,third-party
 ||sexitnow.com^$popup,third-party
 ||sfxuiadi.com^$popup
 ||shaexowi.com^$popup
 ||shalleda.com^$popup,third-party
-||shiek1ph.com^$popup,third-party
 ||shopeasy.by^$popup,third-party
 ||shortpixel.ai^$popup
 ||showcasead.com^$popup
@@ -48013,13 +47980,11 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||targetctracker.com^$popup,third-party
 ||tatami-solutions.com^$popup,third-party
 ||td563.com^$popup,third-party
-||techcloudtrk.com^$popup,third-party
 ||techsidea.website^$popup
 ||terraclicks.com^$popup,third-party
 ||textsrv.com^$popup,third-party
 ||thatsallfolks.link^$popup
 ||the-binary-trader.biz^$popup,third-party
-||thecloudtrader.com^$popup,third-party
 ||theih1w.top^$popup,third-party
 ||thepornsurvey.com^$popup,third-party
 ||ths9j89.com^$popup
@@ -48037,12 +48002,9 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||torpsol.com^$popup
 ||totaladperformance.com^$popup,third-party
 ||track-safe.com^$popup
-||tracker*.bingohall.ag^$popup,third-party
-||tracker*.richcasino.com^$popup,third-party
 ||trackerislive.com^$popup
 ||tracki112.com^$popup,third-party
 ||tracking.marketing^$popup
-||tracking.sportsbet.$popup,third-party
 ||trackmkxoffers.se^$popup
 ||traffic-c.com^$popup,third-party
 ||traffic.adexprtz.com^$popup
@@ -48060,21 +48022,17 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||trfsltions.info^$popup
 ||trido.club^$popup,third-party
 ||trklnks.com^$popup,third-party
-||trkpointcloud.com^$popup,third-party
 ||trw12.com^$popup,third-party
 ||tsyndicate.com^$popup
 ||tubeadvertising.eu^$popup
 ||tulip18.com^$popup
-||turbofileindir.com^$popup,third-party
 ||tutotrack.com^$popup
 ||tutvp.com^$popup,third-party
-||tvas-a.pw^$popup,third-party
 ||tvas-b.pw^$popup,third-party
 ||twqiqiang.com^$popup,third-party
 ||udncoeln.com^$popup
 ||uel-uel-fie.com^$popup
 ||ufpcdn.com^$popup
-||unblocksite.info^$popup,third-party
 ||unqpun.pro^$popup
 ||uptopopunder.com^$popup
 ||usenetnl.download^$popup,third-party
@@ -48132,7 +48090,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||xtendmedia.com^$popup,third-party
 ||xtracker.pro^$popup
 ||xv9xm6zxb8.com^$popup
-||xyzzyxxyzzyx.com^$popup
 ||y1jxiqds7v.com^$popup
 ||yeesshh.com^$popup,third-party
 ||yieldmanager.com^$popup,third-party
@@ -48617,6 +48574,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||laynsite.pro^$third-party
 ||leche69.com^$third-party
 ||legendarylars.com^$third-party
+||lhs-3844b.com^
 ||libertystmedia.com^$third-party
 ||lickbylick.com^$third-party
 ||lifepromo.biz^$third-party
@@ -49743,7 +49701,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||clicktripz.com/scripts/js/ct.js
 ||clipdealer.com/?action=widget&*&partner=
 ||cloudbet.com/ad/
-||cloudfront.net/?tid=
 ||cloudfront.net/dfpd.js
 ||cloudfront.net/images/super-banner/$domain=buyandsellph.com
 ||cloudfront.net/js/ad.js$domain=langenscheidt.com
@@ -49821,6 +49778,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||d1grtyyel8f1mh.cloudfront.net^
 ||d1i9kr6k34lyp.cloudfront.net^
 ||d1il9t8pu4dsoj.cloudfront.net^
+||d1lxz4vuik53pc.cloudfront.net^
 ||d1mbgf0ge24riu.cloudfront.net^
 ||d1n3tk65esqc4k.cloudfront.net^
 ||d1nmxiiewlx627.cloudfront.net^
@@ -51132,6 +51090,11 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||vidoplay.com^$third-party
 ||whichtalk.com^$third-party
 ! cloudfront hosted
+||cloudfront.net/?kcpsd=
+||cloudfront.net/?orskd=
+||cloudfront.net/?saqud=
+||cloudfront.net/?tid=
+||cloudfront.net/?tzfzd=
 ||d141wsrw9m4as6.cloudfront.net^
 ||d14821r0t3377v.cloudfront.net^
 ||d188elxamt3utn.cloudfront.net^
@@ -51890,7 +51853,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 /market.php?$domain=adf.ly
 |blob:$domain=allthetests.com|ancient-origins.net|antonymsfor.com|filmlinks4u.is|firstrowau.eu|gofirstrow.eu|jerusalemonline.com|jewsnews.co.il|keepvid.com|kiplinger.com|kissmanga.com|kshowonline.com|letmewatchthis.pl|lolcounter.com|ludokado.com|merriam-webster.com|olympicstreams.me|phonesreview.co.uk|pocketnow.com|primewire.to|sockshare.net|sportspickle.com|streamgaroo.com|textsfromlastnight.com|trifind.com|videotoolbox.com|vidtodo.com|vivo.sx|watchvideo.us|webfirstrow.eu
 |http*://$image,other,third-party,domain=powvideo.net|streamplay.to
-|http*://$image,stylesheet,third-party,xmlhttprequest,domain=123movies.net|123moviesfree.com|clipconverter.cc|flyordie.com|kissanime.ru|kissasian.she
+|http*://$image,stylesheet,third-party,xmlhttprequest,domain=123movies.net|123moviesfree.com|clipconverter.cc|flyordie.com|kissanime.ru
 |http*://$script,third-party,domain=1jalshamoviez.cc|prostylex.org
 |http*://$subdocument,third-party,domain=adf.ly|adfoc.us|adv.li|adyou.me|ay.gy|j.gs|mylink.zone|q.gs|sh.st
 |http://creative.*/smart.js$script,third-party
@@ -52761,6 +52724,7 @@ $websocket,domain=olympicstreams.me|strikeout.co|strikeout.nu|vipleague.pw|vipst
 ||kiss-anime.ws^$subdocument,~third-party
 ! kissasian.sh
 $script,third-party,xmlhttprequest,domain=kissasian.sh
+@@||hcaptcha.com^$domain=kissasian.sh
 !torrentdownloads.me | limetorrents.info
 @@||ajax.googleapis.com^$script,domain=limetorrents.info|torrentdownloads.me|torrentfunk2.com
 |http://$script,subdocument,third-party,xmlhttprequest,domain=limetorrents.info|torrentdownloads.me|torrentfunk2.com
@@ -55665,6 +55629,7 @@ wplift.com##.widget_bsa
 windowsloop.com##.wl-prakatana
 jatan.blog##.wpa
 theregister.com##.wptl
+twentytwowords.com##.wrapper-min-height-standard
 webtoolhub.com##.wth_zad_text
 finance.yahoo.com##.ys-mobileFeaturedAd
 thehackernews.com##.zoho-box
@@ -55749,16 +55714,15 @@ ucas.com##div[data-google-slot-id]
 mail.yahoo.com##div[data-test-id="ad-viewability-tracker"]
 magicseaweed.com##div[data-type="advert"]
 yahoo.com##div[data-wf-beacons^="https://ir2.beap.gemini.yahoo.com/mbcsc?"]
-theweathernetwork.com##div[id*="gpt-ad-"]
 searchenginejournal.com##div[id^="SEJ_300x250_"]
 weather.com##div[id^="Taboola-main-"]
 kisshentai.net##div[id^="ad"]
 thewrap.com##div[id^="dsk-box-ad"]
+engadget.com##div[id^="native-"]
 gamepedia.com##div[id^="siderail_"]
 dexerto.com##div[id^="topLeaderboardContainerWaterfall-"]
 add0n.com##div[style="min-height:90px;max-width:728px;text-align:center"]
 indusladies.com##div[style="padding:5%;margin-left:30%;"]
-theweathernetwork.com##div[style="width:300px;height:600px; margin-bottom: 15px;"]
 dailywire.com##div[style^="max-width: 300px;"]
 dailywire.com##div[style^="width: 728px;"]
 facebook.com#?#div[style="max-width: 390px; min-width: 190px;"]:-abp-has(a[href^="/ads/"])
@@ -58422,7 +58386,6 @@ football-league.co.uk###sponsor_links
 health365.com.au###sponsor_logo_s
 lmgtfy.com###sponsor_wrapper
 7search.com,filenewz.com,general-fil.es,general-files.com,generalfil.es,internetretailer.com,ixquick.co.uk,ixquick.com,nickjr.com,rewind949.com,slickdeals.net,startpage.com,webhostingtalk.com,yahoo.com###sponsored
-theweathernetwork.com###sponsored-by
 webhostingtalk.com###sponsored-clear
 pjmedia.com###sponsored-content-id
 hardwarezone.com.sg###sponsored-links-alt
@@ -65931,6 +65894,7 @@ onlydudes.tv##.b-below-video
 onlydudes.tv##.b-mobile-spots-wrap
 onlydudes.tv##.b-randoms-col
 onlydudes.tv##.b-side-info
+onlydudes.tv##.b-spot-section
 onlydudes.tv##.b-uvb-spot
 fuqer.com##.b300x250
 porndoo.com##.bAd
