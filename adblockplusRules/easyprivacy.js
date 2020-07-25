@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: xOxyb5kRlKbGtWZgwfgMJg
-! Version: 202007241041
+! Checksum: YlGTTVdnbs6C2N2lgkvkgA
+! Version: 202007251431
 ! Title: EasyPrivacy
-! Last modified: 24 Jul 2020 10:41 UTC
+! Last modified: 25 Jul 2020 14:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1784,6 +1784,7 @@
 /events-collector.
 /events.gif?
 /events/*?event=
+/events/analytics/*
 /events/capture?
 /Events/Impression?
 /events/pixel/*$image
@@ -6139,6 +6140,7 @@ _mongo_stats/
 ||datacaciques.com^$third-party
 ||datacoral.com^$third-party
 ||datacoral.io^$third-party
+||datacygnal.io^$third-party
 ||datadoghq-browser-agent.com^$third-party
 ||datafeedfile.com^$third-party
 ||datam.com^$third-party
@@ -7232,6 +7234,7 @@ _mongo_stats/
 ||pjtra.com^$third-party
 ||placemypixel.com^$third-party
 ||platformpanda.com^$third-party
+||plausible.io^$third-party
 ||plecki.com^$third-party
 ||pleisty.com^$third-party
 ||plexop.com^$third-party
@@ -7761,6 +7764,7 @@ _mongo_stats/
 ||tgtag.io^$third-party
 ||theadex.com^$third-party
 ||theagency.com^$third-party
+||theardent.group^$third-party
 ||thebestlinks.com^$third-party
 ||thebrighttag.com^$third-party
 ||thecounter.com^$third-party
@@ -8140,7 +8144,6 @@ _mongo_stats/
 ||zdtag.com^$third-party
 ||zedwhyex.com^$third-party
 ||zeerat.com^$third-party
-||zengenti.com^$third-party
 ||zeotap.com^$third-party
 ||zesep.com^$third-party
 ||zeustechnology.com^$third-party
@@ -8171,7 +8174,9 @@ _mongo_stats/
 ||danorenius.com^$third-party
 ||digitalpush.org^$third-party
 ||edrone.me^$third-party
+||feedify.net^$third-party
 ||feraciumus.com^$third-party
+||fernomius.com^$third-party
 ||fkondate.com^$third-party
 ||foxpush.com^$third-party
 ||foxpush.net^$third-party
@@ -8186,6 +8191,7 @@ _mongo_stats/
 ||master-push.net^$third-party
 ||misrepush.com^$third-party
 ||moengage.com^$third-party
+||mp3vizor.com^$third-party
 ||najva.com^$third-party
 ||nativesubscribe.pro^$third-party
 ||notifadz.com^$third-party
@@ -8199,9 +8205,12 @@ _mongo_stats/
 ||push-ad.com^$third-party
 ||push-house.net^$third-party
 ||pushalert.co^$third-party
+||pushbird.com^$third-party
+||pushbullet.com^$third-party
 ||pushengage.com^$third-party
 ||pushex.io^$third-party
 ||pushify.com^$third-party
+||pushwoosh.com^$third-party
 ||reprocautious.com^$third-party
 ||sendpulse.com^$third-party
 ||shroughtened.com^$third-party
@@ -8779,6 +8788,7 @@ _mongo_stats/
 ||shyseed.com^$third-party
 ||sicksmash.com^$third-party
 ||sinceresubstance.com^$third-party
+||smallbeginner.com^$third-party
 ||smashsurprise.com^$third-party
 ||smoggystation.com^$third-party
 ||somberscarecrow.com^$third-party
@@ -10228,6 +10238,7 @@ _mongo_stats/
 ||carambo.la/logging/
 ||carl.pubsvs.com^
 ||caspionlog.appspot.com^
+||cbsistatic.com^*/siteTracking.js
 ||cc.swiftype.com^
 ||ccexperimentsstatic.oracleoutsourcing.com^
 ||cdn.trafficexchangelist.com^$third-party
@@ -11510,6 +11521,7 @@ _mongo_stats/
 ||stats.smartclip.net^
 ||stats.topofblogs.com^
 ||stats.twistage.com^
+||stats.varrando.com^
 ||stats.viddler.com^
 ||stats.webs.com^
 ||stats.webstarts.com^$third-party
@@ -11947,6 +11959,7 @@ _mongo_stats/
 ||zdlogs.sphereup.com^
 ||zemanta.com/reblog_*.png$image,third-party
 ||zemanta.com/usersync/outbrain/?
+||zengenti.com/tags/
 ||ziffdavisb2b.com^*/tracker.js
 ||ziffprod.com^*/zdcse.min.js?referrer=
 ||zmags.com/a/p/p.js
@@ -12669,6 +12682,7 @@ _mongo_stats/
 ||awaps.yandex.ru^
 ||banstat.nadavi.net^
 ||bigday.ru/counter.php?
+||browser-updater.yandex.net^
 ||c.bigmir.net^
 ||clck.yandex.ru^$~other
 ||climatecontrol.ru/counters/
@@ -12744,6 +12758,7 @@ _mongo_stats/
 ||stat.sputnik.ru^
 ||stat.tvigle.ru^
 ||stats-*.p2pnow.ru^
+||stats.embedcdn.cc^
 ||stats.seedr.com^
 ||stats.tazeros.com^
 ||subscribe.ru/1.gif/$image
@@ -14971,7 +14986,6 @@ _mongo_stats/
 ||track.hubspot.com^
 ||track.netzero.net^
 ||track.ning.com^
-||track.pushbullet.com^
 ||track.rediff.com^$script
 ||track.searchiq.co^
 ||track.slideshare.net^
@@ -16699,6 +16713,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||squid.gazeta.pl/bdtrck/
 ||stats.teledyski.info^
 ||wp.pl/?rid=
+||wtk.pl/js/WTKStats.js
 ! Portuguese
 ||audience-mostread.r7.com^
 ||audiencia.r7.com^
@@ -16727,6 +16742,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||2ch.hk^*/tracker.js?
 ||4pda.ru/stat/
 ||ad7.bigmir.net^
+||affilate.hh.ru^
 ||agroserver.ru/ct/
 ||analytics.carambatv.ru^
 ||auto.ru/-/ajax/$~xmlhttprequest
@@ -17093,7 +17109,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
 @@||ghstatic.com/images/site/zylom/scripts/google-analytics.js?$domain=zylom.com
 @@||google-analytics.com/analytics.js$domain=afternic.com|allmusic.com|amctv.com|anchor.fm|bebo.com|bennysva.com|blastingnews.com|ch10.co.il|cliphunter.com|daemon-tools.cc|desigual.com|easyjet.com|firehousesubs.com|gamepix.com|greentoe.com|health2000.co.nz|housing.wisc.edu|infogr.am|jackbox.tv|jobs.net|keygames.com|m.timesofindia.com|manowthaimordialloc.com.au|maxiclimber.com|orbitum.com|pluto.tv|pure.com|rebtel.com|sbnation.com|sci2.tv|seatgeek.com|stitcher.com|support.amd.com|tagheuer.com.au|tracking.narvar.com|tv10play.se|tv3play.se|tv6play.se|tv8play.se|video.pbs.org|vox.com|vpnster.com|weather.gov|westernunion.at|westernunion.be|westernunion.ca|westernunion.ch|westernunion.cl|westernunion.co.jp|westernunion.co.nz|westernunion.co.uk|westernunion.co.za|westernunion.com|westernunion.com.au|westernunion.com.co|westernunion.com.hk|westernunion.com.my|westernunion.com.pe|westernunion.de|westernunion.fr|westernunion.ie|westernunion.it|westernunion.nl|westernunion.ph|westernunion.pl|westernunion.se|westernunion.sg|www.google.com
-@@||google-analytics.com/ga.js$domain=7digital.com|account.hirezstudios.com|aebn.net|aftonbladet.se|alatest.com|americanapparel.net|apps.facebook.com|asus.com|avast.com|babylon.com|bangbros.com|banshee.fm|billabong.com|billboard.com|bolha.com|bookadumpster.com|boostmobile.com|break.com|brobible.com|cinemassacre.com|comingsoon.net|comingsoon.neteverydayhealth.com|dailyfreegames.com|donanimhaber.com|ehow.com|eonline.com|filmweb.pl|fora.tv|fossil.com|foxsports.com.au|frequency.com|g4tv.com|gasbuddy.com|globaltv.com|google.com|gumtree.com.au|hoerzu.de|imageshack.us|intellicast.com|jetbrains.com|jobsite.co.uk|justjared.com|juxtapoz.com|kleinanzeigen.ebay.de|latimes.com|lemonfree.com|liptonicetea.com|logitech.com|lucasarts.com|mashable.com|maxcdn.com|medonet.pl|meetme.com|mevio.com|mommyish.com|newyorker.com|nme.com|nuts.co.uk|opendns.com|oyster.com|philips.com|photobucket.com|priceme.co.nz|priestville.org|salon.com|search.diy.com|seekingalpha.com|sundance.org|techbargains.com|tempe12.com|theblaze.com|thegrindstone.com|thevine.com.au|theweek.com|threatfire.com|timberland.com|tomshardware.com|tube8.com|tvunetworks.com|tweetgrid.com|umbro.com|weeworld.com|wonka.com|xda-developers.com|yellow.co.nz|youtube.com|zoo.org.au
+@@||google-analytics.com/ga.js$domain=7digital.com|account.hirezstudios.com|aebn.net|aftonbladet.se|alatest.com|americanapparel.net|apps.facebook.com|asus.com|avast.com|babylon.com|bangbros.com|banshee.fm|billabong.com|billboard.com|bolha.com|bookadumpster.com|boostmobile.com|break.com|brobible.com|cinemassacre.com|comingsoon.net|dailyfreegames.com|donanimhaber.com|ehow.com|eonline.com|everydayhealth.com|filmweb.pl|fora.tv|fossil.com|foxsports.com.au|frequency.com|g4tv.com|gasbuddy.com|globaltv.com|google.com|gumtree.com.au|hoerzu.de|imageshack.us|intellicast.com|jetbrains.com|jobsite.co.uk|justjared.com|juxtapoz.com|kleinanzeigen.ebay.de|latimes.com|lemonfree.com|liptonicetea.com|logitech.com|lucasarts.com|mashable.com|maxcdn.com|medonet.pl|meetme.com|mevio.com|mommyish.com|newyorker.com|nme.com|nuts.co.uk|opendns.com|oyster.com|philips.com|photobucket.com|priceme.co.nz|priestville.org|salon.com|search.diy.com|seekingalpha.com|sundance.org|techbargains.com|tempe12.com|theblaze.com|thegrindstone.com|thevine.com.au|theweek.com|threatfire.com|timberland.com|tomshardware.com|tube8.com|tvunetworks.com|tweetgrid.com|umbro.com|weeworld.com|wonka.com|xda-developers.com|yellow.co.nz|youtube.com|zoo.org.au
 @@||google-analytics.com/gtm/js$script,domain=curbed.com|eater.com|funnyordie.com|gumtree.com|mmafighting.com|mmamania.com|nflgamepass.com|polygon.com|racked.com|reuters.com|riftherald.com|sbnation.com|theringer.com|toysrus.ca|vox.com
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=lovehoney.co.uk|maxiclimber.com|opendns.com|openshift.com|vimeo.com|westernunion.at|westernunion.be|westernunion.ca|westernunion.ch|westernunion.cl|westernunion.co.jp|westernunion.co.nz|westernunion.co.uk|westernunion.co.za|westernunion.com|westernunion.com.au|westernunion.com.co|westernunion.com.hk|westernunion.com.my|westernunion.com.pe|westernunion.de|westernunion.fr|westernunion.ie|westernunion.it|westernunion.nl|westernunion.ph|westernunion.pl|westernunion.se|westernunion.sg
 @@||google-analytics.com/plugins/ua/ec.js$script,domain=health2000.co.nz
