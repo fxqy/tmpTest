@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QyGZk4s7Pb1y8kw9xIpS0A
-! Version: 202007251431
+! Checksum: FZqqaROyVJvUkVq1Z9MXww
+! Version: 202007261320
 ! Title: EasyList
-! Last modified: 25 Jul 2020 14:30 UTC
+! Last modified: 26 Jul 2020 13:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3780,7 +3780,7 @@
 /ajax-advert-
 /ajax-advert.
 /ajax/ad/*
-/ajax/ads/*
+/ajax/ads/*$domain=~mobile.de
 /ajax/ads_
 /ajaxAd?
 /ajaxads.
@@ -6463,7 +6463,6 @@
 /shared/ads/*
 /shortmediads/*
 /show-ad.
-/show-ads.
 /show.ad?
 /show.cgi?adp
 /show?zone_id=
@@ -9523,6 +9522,8 @@ _popunder+$popup
 ###HB_News-ad
 ###HEADERAD
 ###HOME_TOP_RIGHT_BOXAD
+###HP1-ad
+###HP2-ad
 ###HP_adUnits
 ###H_Ad_728x90
 ###H_Ad_Wrap
@@ -9547,6 +9548,7 @@ _popunder+$popup
 ###HouseAdInsert
 ###IC1-ad
 ###IC2-ad
+###IC3-ad
 ###ID_Ad_Sky
 ###IM_AD
 ###IN_HOUSE_AD_SWITCHER_0
@@ -9705,6 +9707,7 @@ _popunder+$popup
 ###TipTopAdSpace
 ###TitleAD
 ###Top-Ad-Container
+###Top-ad
 ###Top1AdWrapper
 ###Top468x60AD
 ###TopADs
@@ -29791,6 +29794,7 @@ _popunder+$popup
 ##a[href^="https://gghf.mobi/"]
 ##a[href^="https://giftsale.co.uk/?utm_"]
 ##a[href^="https://go.ad2up.com/"]
+##a[href^="https://go.cmrdr.com/"]
 ##a[href^="https://go.hpyrdr.com/"]
 ##a[href^="https://go.onclasrv.com/"]
 ##a[href^="https://go.stripchat.com/"][href*="&campaignId="]
@@ -31165,6 +31169,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||abnormaticn.club^
 ||abroadlynijiz.site^
 ||absolubleldan.site^
+||abusticsevi.club^
 ||acacdn.com^
 ||accedenonre.club^
 ||acceptiongere.site^
@@ -32048,6 +32053,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||hapogzu9a19m5fhe56pb.pro^
 ||haracticdag.fun^
 ||harriscote.pro^
+||hastikapubli.club^
 ||haviouseulom.club^
 ||hayfatduh.com^
 ||haypaydig.club^
@@ -32439,6 +32445,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ncialappropo.site^
 ||ncilityinflati.club^
 ||ncountsnash.info^
+||ncourtainco.club^
 ||nctionclarkingcu.fun^
 ||ncylegiatede.info^
 ||ndardsgreatm.fun^
@@ -32456,6 +32463,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||nesystersp.club^
 ||netcatx.com^
 ||netpatas.com^
+||neurishot.info^
 ||neveralexpect.fun^
 ||newerannews.com^
 ||news-headlines.co^
@@ -32465,6 +32473,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||nfarmerlycompa.info^
 ||nfkq8jy5db0b.com^
 ||nfqglptm47uc.com^
+||ngallerydese.club^
 ||ngholishingsm.info^
 ||nglattemptenlan.fun^
 ||ngleaccinemad.site^
@@ -32511,6 +32520,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ntedporchite.info^
 ||nthjiglet.club^
 ||ntowcested.info^
+||ntroducepo.club^
 ||ntryhospitesoili.fun^
 ||ntsartingaccura.info^
 ||ntsimprovide.info^
@@ -32684,6 +32694,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||popcash.net^
 ||pophahwot.com^
 ||poponclick.info^
+||poraryguib.club^
 ||portedlysarcatc.info^
 ||possipationd.info^
 ||postlnk.com^
@@ -32892,6 +32903,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||runmeethoomes.info^
 ||rusenov.com^
 ||russionsdeath.fun^
+||rviceschoolr.club^
 ||rwindomdec.fun^
 ||rybystalfracted.fun^
 ||rydresa.info^
@@ -33239,6 +33251,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ustriptomorbie.site^
 ||uthorner.info^
 ||uthworkreaseu.info^
+||utlawglouce.club^
 ||utpenedwritted.info^
 ||utq55kl9vyqv.com^
 ||utstancecaricit.info^
@@ -49065,8 +49078,10 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||adplexo.com^
 ||adservi.com^
 ||aebadu.com^
+||anycdndata.info^
 ||bebadu.com^
 ||billionpops.com^
+||briggbrought.pro^
 ||cebadu.com^
 ||clcknpop.com^
 ||clickadin.com^
@@ -49106,6 +49121,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||joredii.com^
 ||koncbabae.com^
 ||koradu.com^
+||libedgolart.com^
 ||lupoot.com^
 ||mdlsite.com^
 ||moomoopop.com^
@@ -49149,6 +49165,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||trmnsite.com^
 ||tsandycateup.com^
 ||uebadu.com^
+||ulukaris.com^
 ||uoredi.com^
 ||uyiiop.site^
 ||vebadu.com^
@@ -49167,6 +49184,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||xxxrevpushclcdu.com^
 ||yebadu.com^
 ||yoredi.com^
+||ytimm.com^
 ||zavrotfro.com^
 ! Document blocks
 ||abbp1.com^$document
@@ -49269,6 +49287,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||jsmjmp.com^$popup
 ||juicyads.com^$popup,third-party
 ||kaizentraffic.com^$popup,third-party
+||libedgolart.com^$popup
 ||lofv.xyz^$popup
 ||loltrk.com^$popup,third-party
 ||moradu.com^$popup,third-party
@@ -53258,13 +53277,16 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=vidtodo.c
 |http://$script,third-party,xmlhttprequest,domain=s0ft4pc.com
 |https://$script,third-party,xmlhttprequest,domain=s0ft4pc.com
 ! Putlocker
-@@||ajax.googleapis.com^$script,domain=putlocker.ninja|putlocker.style|putlockers.mn|putlockers.movie
-@@||apis.google.com^$script,subdocument,domain=putlocker.ninja|putlocker.style|putlockers.mn|putlockers.movie
-@@||cdn.jsdelivr.net^$script,stylesheet,domain=putlocker.ninja|putlocker.style|putlockers.mn|putlockers.movie
-@@||cdnjs.cloudflare.com^$script,stylesheet,domain=putlocker.ninja|putlocker.style|putlockers.mn|putlockers.movie
-@@||connect.facebook.net^$script,domain=putlocker.ninja|putlocker.style|putlockers.mn|putlockers.movie
-|http://$script,stylesheet,third-party,xmlhttprequest,domain=putlocker.ninja|putlocker.style|putlockers.mn|putlockers.movie
-|https://$script,stylesheet,third-party,xmlhttprequest,domain=putlocker.ninja|putlocker.style|putlockers.mn|putlockers.movie
+@@||ajax.googleapis.com^$script,domain=putlocker.actor|putlocker.ninja|putlocker.style|putlockers.mn|putlockers.movie
+@@||apis.google.com^$script,subdocument,domain=putlocker.actor|putlocker.ninja|putlocker.style|putlockers.mn|putlockers.movie
+@@||cdnjs.cloudflare.com^$script,stylesheet,domain=putlocker.actor|putlocker.ninja|putlocker.style|putlockers.mn|putlockers.movie
+@@||connect.facebook.net^$script,domain=putlocker.actor|putlocker.ninja|putlocker.style|putlockers.mn|putlockers.movie
+@@||gstatic.com^$domain=putlocker.actor|putlocker.ninja|putlocker.style|putlockers.mn|putlockers.movie
+@@||jsdelivr.net^$script,stylesheet,domain=putlocker.actor|putlocker.ninja|putlocker.style|putlockers.mn|putlockers.movie
+@@||jwpcdn.com^$script,stylesheet,domain=putlocker.actor|putlocker.ninja|putlocker.style|putlockers.mn|putlockers.movie
+@@||loadshare.org^$domain=putlocker.actor|putlocker.ninja|putlocker.style|putlockers.mn|putlockers.movie
+|http://$script,stylesheet,third-party,xmlhttprequest,domain=putlocker.actor|putlocker.ninja|putlocker.style|putlockers.mn|putlockers.movie
+|https://$script,stylesheet,third-party,xmlhttprequest,domain=putlocker.actor|putlocker.ninja|putlocker.style|putlockers.mn|putlockers.movie
 ! bc.vc
 |http://$script,third-party,xmlhttprequest,domain=bc.vc
 |https://$script,third-party,xmlhttprequest,domain=bc.vc
@@ -54134,7 +54156,7 @@ wyciwyg:$popup,domain=jkanime.net
 .win^$other,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|xtube.com|youporn.com|youporngay.com
 /\/[0-9].*\-.*\-[a-z0-9]{4}/$script,xmlhttprequest,domain=gaytube.com|keezmovies.com|tube8.com|tube8.es|tube8.fr
 /^https?:\/\/.*\/.*[0-9a-z]{7,16}\.js/$script,domain=boobieblog.com|phun.org
-/^https?:\/\/.*\/[a-z0-9A-Z]{3,15}\.(php|jsx|1ph)/$image,script,subdocument,domain=3movs.com|4tube.com|alotporn.com|alrincon.com|anysex.com|aphroditeporntube.com|bigvideo.net|bobs-tube.com|cockmeter.com|dreamamateurs.com|dump.xxx|efukt.com|eroxia.com|extremetube.com|fantasti.cc|fap18.net|fuck55.net|gfsvideos.com|gottanut.com|hdpornpictures.net|home-made-videos.com|hotpornfile.org|imgadult.com|imgdrive.net|imgtaxi.com|imgtown.net|imgwallet.com|keezmovies.com|letmejerk.com|mofosex.com|monsoonx.top|mypornstarbook.net|myvidster.com|nuvid.com|openloadporn.co|orsm.net|porndaa.com|porndoe.com|pornoreino.com|pornozot.com|pornsexer.com|pussyspace.com|sexu.tv|shameless.com|spankwire.com|thenipslip.com|tryboobs.com|wiz69.com|xcafe.com|xnxx-sexfilme.com
+/^https?:\/\/.*\/[a-z0-9A-Z]{3,15}\.(php|jsx|1ph)/$image,script,subdocument,domain=3movs.com|4tube.com|alotporn.com|alrincon.com|anysex.com|aphroditeporntube.com|bigvideo.net|bobs-tube.com|cockmeter.com|dreamamateurs.com|dump.xxx|efukt.com|eroxia.com|extremetube.com|fantasti.cc|fap18.net|fuck55.net|gfsvideos.com|gottanut.com|hdpornpictures.net|home-made-videos.com|hotpornfile.org|imgadult.com|imgdrive.net|imgtaxi.com|imgtown.net|imgwallet.com|keezmovies.com|letmejerk.com|mofosex.com|monsoonx.top|mypornstarbook.net|myvidster.com|nuvid.com|openloadporn.co|orsm.net|porndaa.com|porndoe.com|pornoreino.com|pornozot.com|pornsexer.com|pussyspace.com|sexu.tv|shameless.com|spankbang.name|spankwire.com|thenipslip.com|tryboobs.com|wiz69.com|xcafe.com|xnxx-sexfilme.com
 /http://[a-zA-Z0-9]+\.[a-z]+\/.*(?:[\W_]).*[a-zA-Z0-9]+/$script,third-party,domain=keezmovies.com|redtube.com|tube8.com|tube8.es|tube8.fr|www.pornhub.com|www.pornhubthbh7ap3u.onion|youporn.com
 /json^$other,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|xtube.com|youporn.com|youporngay.com
 |blob:$script,domain=xhamster.com|youporn.com
@@ -55571,6 +55593,7 @@ wccftech.com##.main-background
 designtaxi.com##.masonry-brick.dynamic-width
 forbes.com##.medianet-wrapper
 imdb.com##.mediaviewer__head-banner:not(.media-viewer__action-bar)
+techrepublic.com##.medusa-rightrail
 techrepublic.com##.medusa-rr
 digit.in##.merchantlink
 pirate-bay.net##.message-wrap
@@ -55623,7 +55646,7 @@ imdb.com##.slot_wrapper
 1movies.is##.sp-cont
 ndtv.com##.sp_ad-t
 sundayworld.co.za##.spnsorhome
-dnsleaktest.com,thegatewaypundit.com##.sponsor
+dnsleaktest.com,thegatewaypundit.com,westernjournal.com,wnd.com##.sponsor
 coingecko.com,duckduckgo.com##.sponsored
 armageddonexpo.com,ferrarichat.com##.sponsors
 kathmandupost.com##.sticky--bottom
