@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FZqqaROyVJvUkVq1Z9MXww
-! Version: 202007261320
+! Checksum: xnKePWAQvdriWE0VaphoPQ
+! Version: 202007271130
 ! Title: EasyList
-! Last modified: 26 Jul 2020 13:20 UTC
+! Last modified: 27 Jul 2020 11:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -31273,6 +31273,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||anycadark.site^
 ||aoredi.com^
 ||apearkcan.club^
+||aphicbouncil.club^
 ||apologixopyr.site^
 ||apparentsav.club^
 ||applicatemh.club^
@@ -31486,6 +31487,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cdnads.com^
 ||cdnmr.net^
 ||ceincreatedaughtcha.info^
+||cenceevent.club^
 ||cenessdise.info^
 ||ceparateauab.info^
 ||cerizoug.net^
@@ -31655,6 +31657,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||dersmembrac.fun^
 ||derthundrew.club^
 ||desigactinific.pro^
+||desinferbe.club^
 ||despitalyt.club^
 ||dewincubiatoll.com^
 ||dexchangeinc.com^
@@ -31732,6 +31735,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||easy2cnjuh34jb.com^
 ||easylist-to.xyz^
 ||eatmenticha.top^
+||eatyfailiffacc.club^
 ||ebetoni.com^
 ||echoazou.com^
 ||ecominalber.club^
@@ -31925,6 +31929,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||fontainsuny.club^
 ||foowafoa.com^
 ||forcementsawe.site^
+||foreignsec.club^
 ||formany.club^
 ||forwayonlibe.site^
 ||francieseds.club^
@@ -31983,6 +31988,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||getherehap.fun^
 ||gflnzl1vqntw.com^
 ||gglx.me^
+||gievalonjing.club^
 ||gigbyefly.com^
 ||ginfanleg.club^
 ||gitoku.com^
@@ -32288,6 +32294,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||lomkgojdoeffl.com^
 ||loobusir.com^
 ||lopzitpup.com^
+||lorassocialgr.club^
 ||loricalreach.info^
 ||louchees.net^
 ||lowtyroguer.com^
@@ -32604,6 +32611,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||oukreesy.net^
 ||ouncialliberte.site^
 ||ountapaveralle.info^
+||ountryvener.club^
 ||ousseventi.info^
 ||outsimfat.site^
 ||outtunova.com^
@@ -32993,6 +33001,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||sikx1ivtjbi8.com^
 ||silsfrastinggove.info^
 ||simpaignsen.info^
+||simpleprogr.club^
 ||simrubwan.com^
 ||sincernething.site^
 ||singthouthappi.info^
@@ -55335,6 +55344,9 @@ imcdb.org###SiteLifeSupport
 road.cc###Top-Billboard
 ndtv.com###_pcwgtlhs
 krunker.io###aHolder
+imgbox.com###aad-header-1
+imgbox.com###aad-header-2
+imgbox.com###aad-header-3
 campusrn.com,jigzone.com,theoswatch.com###ad
 clip.dj,wordreference.com###ad1
 wordreference.com###ad2
@@ -55370,6 +55382,7 @@ road.cc###custom-dailydeals
 kanonitv.net###custom_html-7
 dailycaller.com###dailycaller_top
 designtaxi.com###div-center-wrapper
+howtogeek.com###div-thetop1
 sourceforge.net###dlp-voip-quote
 designtaxi.com###dt-small-sub-2
 designtaxi.com###dt-small-sub-3
@@ -67484,7 +67497,7 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||amazon-adsystem.com/e/ir?$image,domain=kasi-time.com
 @@||amebame.com/pub/ads/$image,domain=ameba.jp
 @@||anandabazar.com/js/anandabazar-bootstrap/$script
-@@||api.friends.ponta.jp/api/ads/$~third-party
+@@||api.friends.ponta.jp/api/$~third-party
 @@||bancodevenezuela.com/imagenes/publicidad/$~third-party
 @@||banki.ru/bitrix/*/advertising.block/$stylesheet
 @@||borsen.dk/themes/borsen.dk/js/dfp.js$script
