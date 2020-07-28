@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: GzH6JZgbH9sJDv6gOZQkAw
-! Version: 202007261321
+! Checksum: VDA0Sqypqk9Sx1GCUAjtvg
+! Version: 202007280911
 ! Title: EasyPrivacy
-! Last modified: 26 Jul 2020 13:21 UTC
+! Last modified: 28 Jul 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1786,6 +1786,7 @@
 /events/*?event=
 /events/analytics/*
 /events/capture?
+/events/counter?
 /Events/Impression?
 /events/pixel/*$image
 /events?*&referrer=
@@ -10672,7 +10673,6 @@ _mongo_stats/
 ||facebook.com^*/placementbid.json$third-party
 ||facebook.com^*/tracking.js$third-party
 ||fairfax.com.au/js/track/
-||fast.appcues.com^
 ||fcmatch.google.com^
 ||fcmatch.youtube.com^
 ||feed.informer.com/fdstats
@@ -11959,6 +11959,8 @@ _mongo_stats/
 ||zoomtv.me^*?pixel=
 ||zoover.co.uk/tracking/
 ||zope.net^*/ghs_wa.js
+! Appcues
+/^https?:\/\/fast\.appcues\.com\/[0-9]{4,6}\.js
 ! taboola
 ||convsgmp.taboola.com^
 ||la-sync.taboola.com^
@@ -13536,6 +13538,7 @@ _mongo_stats/
 ||fast.forbes.com^
 ||fastexercise.com/logging.js
 ||fathom.pixeldrain.com^
+||fathom.status.im^
 ||favicon.co.uk/stat/
 ||fc2.com/ana/
 ||fc2.com/ana2/
@@ -14940,7 +14943,6 @@ _mongo_stats/
 ||thesaurus.com/track/
 ||theseforums.com/track/
 ||thesmokinggun.com^*/jsmd.js
-||theweathernetwork.com/guid
 ||theweek.com/decor/track/
 ||thinkgeek.com/js/rts.js
 ||thrillist.com/track
