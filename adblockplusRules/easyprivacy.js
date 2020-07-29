@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 2j39yt5R++993BmJ4PgrCg
-! Version: 202007291021
+! Checksum: UqhDuRNmjsqB+JAc5d2XFA
+! Version: 202007291521
 ! Title: EasyPrivacy
-! Last modified: 29 Jul 2020 10:21 UTC
+! Last modified: 29 Jul 2020 15:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5568,7 +5568,6 @@ _mongo_stats/
 ||88infra-strat.com^$third-party
 ||99counters.com^$third-party
 ||99stats.com^$third-party
-||9juj88.com^$third-party
 ||9nl.eu^$third-party
 ||a-cast.jp^$third-party
 ||a-counters.com^$third-party
@@ -5618,7 +5617,6 @@ _mongo_stats/
 ||adchemy.com^$third-party
 ||adclickstats.net^$third-party
 ||addfreestats.com^$third-party
-||addlvr.com^$third-party
 ||adelixir.com^$third-party
 ||adform.net^$third-party
 ||adfox.ru^$third-party
@@ -5670,7 +5668,6 @@ _mongo_stats/
 ||afairweb.com^$third-party
 ||affilae.com^$third-party
 ||affiliateedge.eu^$third-party
-||affiliates-pro.com^$third-party
 ||affiliatly.com^$third-party
 ||affinesystems.com^$third-party
 ||affinitymatrix.com^$third-party
@@ -5720,7 +5717,6 @@ _mongo_stats/
 ||analoganalytics.com^$third-party
 ||analysistools.net^$third-party
 ||analytics-egain.com^$third-party
-||analytics-engine.net^$third-party
 ||analyticschecker.com^$third-party
 ||analyticson.com^$third-party
 ||analyticswizard.com^$third-party
@@ -5732,7 +5728,6 @@ _mongo_stats/
 ||angelfishstats.com^$third-party
 ||angorch-cdr7.com^$third-party
 ||angsrvr.com^$third-party
-||anonymousdmp.com^$third-party
 ||anrdoezrs.net^$third-party
 ||answerscloud.com^$third-party
 ||anti-cheat.info^$third-party
@@ -6017,7 +6012,6 @@ _mongo_stats/
 ||clickshift.com^$third-party
 ||clickstream.co.za^$third-party
 ||clicktale.net^$third-party
-||clicktrack1.com^$third-party
 ||clicktracks.com^$third-party
 ||clicktrkservices.com^$third-party
 ||clickx.io^$third-party
@@ -6073,7 +6067,6 @@ _mongo_stats/
 ||convertglobal.com^$third-party
 ||convertro.com^$third-party
 ||cooladata.com^$third-party
-||copacast.net^$third-party
 ||copperegg.com^$third-party
 ||coralogix.com^$third-party
 ||core-cen-54.com^$third-party
@@ -6245,7 +6238,6 @@ _mongo_stats/
 ||e-webtrack.net^$third-party
 ||e-zeeinternet.com^$third-party
 ||eacla.com^$third-party
-||earnitup.com^$third-party
 ||easy-hit-counter.com^$third-party
 ||easy-hit-counters.com^$third-party
 ||easycounter.com^$third-party
@@ -6309,7 +6301,6 @@ _mongo_stats/
 ||ethnio.com^$third-party
 ||etp-prod.com^$third-party
 ||etracker.com^$third-party
-||etrafficcounter.com^$third-party
 ||etrigue.com^$third-party
 ||etyper.com^$third-party
 ||eu-survey.com^$third-party
@@ -6325,7 +6316,6 @@ _mongo_stats/
 ||everesttech.net^$third-party
 ||evergage.com^$third-party
 ||evisitanalyst.com^$third-party
-||evolvemediametrics.com^$third-party
 ||evyy.net^$third-party
 ||ewebanalytics.com^$third-party
 ||ewebcounter.com^$third-party
@@ -6395,7 +6385,6 @@ _mongo_stats/
 ||flyingpt.com^$third-party
 ||fn-pz.com^$third-party
 ||followercounter.com^$third-party
-||fonderredd.info^$third-party
 ||footprintdns.com^$third-party
 ||footprintlive.com^$third-party
 ||force24.co.uk^$third-party
@@ -6554,7 +6543,6 @@ _mongo_stats/
 ||gxgydnhz.com^$third-party
 ||h4k5.com^$third-party
 ||halldata.com^$third-party
-||halo77.com^$third-party
 ||halstats.com^$third-party
 ||haveamint.com^$third-party
 ||hdmtools.com^$third-party
@@ -6605,7 +6593,6 @@ _mongo_stats/
 ||hotjar.com^$third-party
 ||hotjar.io^$third-party
 ||hotlog.ru^$third-party
-||hqhrt.com^$third-party
 ||hs-analytics.net^$third-party
 ||hsadspixel.net^$third-party
 ||hscta.net^$third-party
@@ -6646,7 +6633,6 @@ _mongo_stats/
 ||imhd.io^$third-party
 ||immanalytics.com^$third-party
 ||impactradius-event.com^$third-party
-||impcounter.com^$third-party
 ||imrtrack.com^$third-party
 ||imrworldwide.com^$third-party
 ||imtwjwoasak.com^$third-party
@@ -6687,7 +6673,6 @@ _mongo_stats/
 ||instore.biz^$third-party
 ||intelimet.com^$third-party
 ||intelli-direct.com^$third-party
-||intelli-tracker.com^$third-party
 ||intelligencefocus.com^$third-party
 ||intellimize.co^$third-party
 ||interact-analytics.com^$third-party
@@ -6840,7 +6825,6 @@ _mongo_stats/
 ||lfov.net^$third-party
 ||liadm.com^$third-party
 ||lijit.com^$third-party
-||limbik.io^$third-party
 ||linezing.com^$third-party
 ||link-smart.com^$third-party
 ||linkconnector.com^$third-party
@@ -6851,7 +6835,6 @@ _mongo_stats/
 ||listrakbi.com^$third-party
 ||litix.io^$third-party
 ||livecount.fr^$third-party
-||livehit.net^$third-party
 ||livesegmentservice.com^$third-party
 ||livesession.io^$third-party
 ||livestat.com^$third-party
@@ -6978,7 +6961,6 @@ _mongo_stats/
 ||mlstat.com^$third-party
 ||mm7.net^$third-party
 ||mmccint.com^$third-party
-||mmetrix.mobi^$third-party
 ||mmi-agency.com^$third-party
 ||mno.link^$third-party
 ||mobalyzer.net^$third-party
@@ -7291,7 +7273,6 @@ _mongo_stats/
 ||ptengine.jp^$third-party
 ||ptmind.com^$third-party
 ||pto-slb-09.com^$third-party
-||ptp123.com^$third-party
 ||ptrk-wn.com^$third-party
 ||pubdream.com^$third-party
 ||publicgood.com^$third-party
@@ -7409,7 +7390,6 @@ _mongo_stats/
 ||revjet.com^$third-party
 ||revoffers.com^$third-party
 ||revolvermaps.com^$third-party
-||revsw.net^$third-party
 ||rewardtv.com^$third-party
 ||reztrack.com^$third-party
 ||rezync.com^$third-party
@@ -7450,7 +7430,6 @@ _mongo_stats/
 ||rstg.io^$third-party
 ||rsvpgenius.com^$third-party
 ||rtb123.com^$third-party
-||rtfn.net^$third-party
 ||rtmark.net^$third-party
 ||rtox.net^$third-party
 ||rtrk.co.nz^$third-party
@@ -7571,7 +7550,6 @@ _mongo_stats/
 ||sitemeter.com^$third-party
 ||sitereport.org^$third-party
 ||sitestat.com^$third-party
-||sitestats.live^$third-party
 ||siteswithcontent.com^$third-party
 ||sitetag.us^$third-party
 ||sitetagger.co.uk^$third-party
@@ -7631,7 +7609,6 @@ _mongo_stats/
 ||speedcurve.com^$third-party
 ||spklw.com^$third-party
 ||splittag.com^$third-party
-||splurgi.com^$third-party
 ||splyt.com^$third-party
 ||spn-twr-14.com^$third-party
 ||spn.ee^$third-party
@@ -7642,7 +7619,6 @@ _mongo_stats/
 ||sprinklecontent.com^$third-party
 ||sptag.com^$third-party
 ||sptag1.com^$third-party
-||sptag2.com^$third-party
 ||spycounter.net^$third-party
 ||spylog.com^$third-party
 ||spylog.ru^$third-party
@@ -7669,7 +7645,6 @@ _mongo_stats/
 ||statistx.com^$third-party
 ||statowl.com^$third-party
 ||statpipe.ru^$third-party
-||stats.cz^$third-party
 ||stats2.com^$third-party
 ||stats21.com^$third-party
 ||stats4all.com^$third-party
@@ -7689,7 +7664,6 @@ _mongo_stats/
 ||stattrax.com^$third-party
 ||statun.com^$third-party
 ||statuncore.com^$third-party
-||stcllctrs.com^$third-party
 ||stcounter.com^$third-party
 ||steadfastsystem.com^$third-party
 ||steelhousemedia.com^$third-party
@@ -7706,11 +7680,9 @@ _mongo_stats/
 ||strs.jp^$third-party
 ||sub2tech.com^$third-party
 ||submitnet.net^$third-party
-||subtraxion.com^$third-party
 ||successfultogether.co.uk^$third-party
 ||sugodeku.com^$third-party
 ||summerhamster.com^$third-party
-||summitemarketinganalytics.com^$third-party
 ||sumo.com^$third-party
 ||sumologic.com^$third-party,domain=~sumologic.net
 ||sumome.com^$third-party
@@ -7750,7 +7722,6 @@ _mongo_stats/
 ||tcimg.com^$third-party
 ||tctm.co^$third-party
 ||td573.com^$third-party
-||tdsrmbl.net^$third-party
 ||tdstats.com^$third-party
 ||tealiumiq.com^$third-party
 ||techlab-cdn.com^$third-party
@@ -7823,7 +7794,6 @@ _mongo_stats/
 ||track-web.net^$third-party
 ||track2.me^$third-party
 ||trackalyzer.com^$third-party
-||trackbar.info^$third-party
 ||trackcb.com^$third-party
 ||trackcdn.com^$third-party
 ||trackcmp.net^$third-party
@@ -7864,7 +7834,6 @@ _mongo_stats/
 ||trafficregenerator.com^$third-party
 ||traffikcntr.com^$third-party
 ||trafic.ro^$third-party
-||trafinfo.info^$third-party
 ||trail-web.com^$third-party
 ||trailheadapp.com^$third-party
 ||trakken.de^$third-party
@@ -7898,7 +7867,6 @@ _mongo_stats/
 ||truehits1.gits.net.th^$third-party
 ||truoptik.com^$third-party
 ||trysera.com^$third-party
-||tscapeplay.com^$third-party
 ||tscounter.com^$third-party
 ||tsk4.com^$third-party
 ||tsk5.com^$third-party
@@ -8018,7 +7986,6 @@ _mongo_stats/
 ||vmm-satellite1.com^$third-party
 ||vmm-satellite2.com^$third-party
 ||vmmpxl.com^$third-party
-||vmtrk.com^$third-party
 ||voicefive.com^$third-party
 ||volantix.com^$third-party
 ||voodooalerts.com^$third-party
@@ -8052,7 +8019,6 @@ _mongo_stats/
 ||webglstats.com^$third-party
 ||webiqonline.com^$third-party
 ||webleads-tracker.com^$third-party
-||weblytics.io^$third-party
 ||webmasterplan.com^$third-party
 ||website-hit-counters.com^$third-party
 ||websiteceo.com^$third-party
@@ -8076,7 +8042,6 @@ _mongo_stats/
 ||webtrendslive.com^$third-party
 ||webtuna.com^$third-party
 ||wemfbox.ch^$third-party
-||whackedmedia.com^$third-party
 ||wheredoyoucomefrom.ovh^$third-party
 ||whitepixel.com^$third-party
 ||whizstats.com^$third-party
@@ -8286,9 +8251,7 @@ _mongo_stats/
 ||altpool.pro^$third-party
 ||analytics.blue^$third-party
 ||andlache.com^$third-party
-||anybest.host
 ||anybest.site
-||anybest.space
 ||api.inwemo.com^$third-party
 ||arizona-miner.tk^$third-party
 ||assetscdn.stream^$third-party
@@ -8296,7 +8259,6 @@ _mongo_stats/
 ||authedmine.com^$third-party,domain=~coinhive.com
 ||authedmine.eu^$third-party
 ||authedwebmine.cz^$third-party,domain=~webmine.cz
-||avero.xyz^$third-party
 ||averoconnector.com^$third-party
 ||axoncoho.tk^$third-party
 ||azvjudwr.info^$third-party
@@ -8308,7 +8270,6 @@ _mongo_stats/
 ||berateveng.ru^
 ||berserkpl.net.pl^$websocket
 ||besstahete.info^$third-party
-||bestcoinsignals.com^$third-party
 ||besti.ga^
 ||bestsecurepractice.com^$third-party
 ||bewaslac.com^$third-party
@@ -8323,7 +8284,6 @@ _mongo_stats/
 ||bmst.pw^
 ||brominer.com^$third-party
 ||browsermine.com^$third-party
-||butcalve.com^$third-party
 ||byebye.ml^$third-party
 ||candid.zone^$third-party
 ||cashbeet.com^
@@ -8341,10 +8301,8 @@ _mongo_stats/
 ||coin-have.com^$third-party
 ||coin-hive.com^$third-party
 ||coin-service.com^$third-party
-||coinblind.com^$third-party
 ||coincheck.com^$third-party
 ||coinerra.com^$third-party
-||coinhive-manager.com^$third-party
 ||coinhive.com^$third-party
 ||coinhiveproxy.com^$third-party
 ||coinimp.com$third-party
@@ -8381,8 +8339,6 @@ _mongo_stats/
 ||deepc.cc^$third-party
 ||devphp.org.ua^$third-party
 ||directprimal.com^$third-party
-||dubester.pw
-||dubester.space
 ||duckdns.org^$third-party,websocket
 ||dzizsih.ru^$third-party
 ||easyhash.de^$third-party
@@ -8405,14 +8361,12 @@ _mongo_stats/
 ||flightsy.bid
 ||flightsy.win
 ||flightzy.bid
-||flnqmin.org^$third-party
 ||flophous.cf^$third-party
 ||formulawire.com^$third-party
 ||freecontent.bid
 ||freecontent.date
 ||freecontent.science
 ||freecontent.stream
-||freshrefresher.com^$third-party
 ||g1thub.com^
 ||gay-hotvideo.net^
 ||gitgrub.pro^$third-party
@@ -8422,7 +8376,6 @@ _mongo_stats/
 ||gramombird.com^
 ||greengaming.de^$third-party
 ||gus.host^$third-party
-||hallaert.online^$third-party
 ||hashcoin.co^$third-party
 ||hashforcash.us^$third-party
 ||hashing.win^$third-party
@@ -8439,7 +8392,6 @@ _mongo_stats/
 ||igg.biz^$third-party
 ||igrid.org^
 ||ininmacerad.pro^$third-party
-||intellecthosting.net^
 ||investhash.com^$third-party
 ||ipinfo.io^$third-party
 ||istlandoll.com^$third-party
@@ -8449,24 +8401,20 @@ _mongo_stats/
 ||jsecoin.com^$third-party
 ||jyhfuqoh.info^$third-party
 ||kdowqlpt.info^$third-party
-||kedtise.com^$third-party
 ||kinoprofi.org^$third-party
 ||laferia.cr^$third-party
 ||laserveradedomaina.com^$third-party
 ||ledhenone.com^$third-party
-||ledinund.com^$third-party
 ||lightminer.co^$third-party
 ||lindon-pool.win^$third-party
 ||livestatsnet.services^$third-party
 ||lmiutil.com^$third-party
 ||machieved.com^$third-party
-||mataharirama.xyz^$third-party
 ||mebablo.com^$third-party
 ||mepirtedic.com^$third-party
 ||mercy.ga^$third-party
 ||mfio.cf^
 ||mi-de-ner-nis3.info^
-||mighbest.pw
 ||mine.nahnoji.cz^
 ||mine.torrent.pw^$third-party
 ||minemytraffic.com^$third-party
@@ -8487,15 +8435,10 @@ _mongo_stats/
 ||monerominer.rocks^$third-party
 ||moneroocean.stream^$third-party
 ||monkeyminer.net^$third-party
-||moonsade.com^$third-party
 ||morningdigit.com^$third-party
-||mrycrypto.com^$third-party
 ||munero.me^$third-party
 ||mutinyhq.com^$third-party
 ||mwor.gq^
-||mycryrpto.com^$third-party
-||myrcrypto.com^$third-party
-||myregeneaf.com^
 ||nabaza.com^$third-party
 ||nablabee.com^$third-party
 ||nametraff.com^$third-party
@@ -8511,30 +8454,24 @@ _mongo_stats/
 ||niematego.tk^$third-party
 ||nimiq.com^$third-party
 ||nimiq.watch^$third-party
-||nimiqchain.info^$third-party
 ||nimiqpool.com^$third-party
 ||nimiqtest.net^$third-party
 ||nimpool.io^$third-party
 ||notmining.org^$third-party
 ||oei1.gq^
 ||offerreality.com^$third-party
-||olecintri.com^$third-party
 ||omine.org^$third-party
 ||onlinereserchstatistics.online^$third-party
 ||openguid.org^$third-party
 ||p2poolmining.com^$third-party
-||p2poolmining.net^$third-party
 ||pampopholf.com^
 ||panelsave.com^$third-party
 ||papoto.com^$third-party
 ||party-vqgdyvoycc.now.sh^$third-party
 ||pertholin.com^$third-party
-||philpool.com^$third-party
 ||play.mix.kinostuff.com^
 ||poolmining.eu^$third-party
-||poolmining.net^$third-party
 ||pr0gram.org^$third-party
-||premiumstats.xyz^$third-party
 ||proj2018.xyz^$third-party
 ||rand.com.ru^
 ||reauthenticator.com^
@@ -8548,7 +8485,6 @@ _mongo_stats/
 ||serv1swork.com^
 ||service4refresh.info^
 ||silimbompom.com^$third-party
-||site.flashx.
 ||smartoffer.site^$third-party
 ||soodatmish.com^
 ||sourcecode.pro^$third-party
@@ -8584,7 +8520,6 @@ _mongo_stats/
 ||vcfs6ip5h6.bid^$third-party
 ||verifier.live^
 ||verifypow.com^$third-party
-||verresof.com^$third-party
 ||videoplayer2.xyz^
 ||vkcdnservice.com^$third-party
 ||vzhjnorkudcxbiy.com^$third-party
@@ -8603,7 +8538,6 @@ _mongo_stats/
 ||wtm.monitoringservice.co^$third-party
 ||wtmtrack.com^$third-party
 ||wty46.com^$third-party
-||xbasfbno.info^$third-party
 ||xfast.host^$third-party
 ||xmrpool.net^$third-party
 ||xy.nullrefexcep.com^$third-party
@@ -8691,7 +8625,6 @@ _mongo_stats/
 ||farshake.com^$third-party
 ||fatcoil.com^$third-party
 ||faultycanvas.com^$third-party
-||fearfulflag.com^$third-party
 ||firstfrogs.com^$third-party
 ||flakyfeast.com^$third-party
 ||flockflame.com^$third-party
@@ -8957,7 +8890,6 @@ _mongo_stats/
 ||fastcounter.de^$third-party
 ||fixcounter.com^$third-party
 ||free-counters.net^$third-party
-||freetracker.biz^$third-party
 ||freihit.de^$third-party
 ||fremaks.net^$third-party
 ||fun-hits.com^$third-party
@@ -9024,7 +8956,6 @@ _mongo_stats/
 ||oewabox.at^$third-party
 ||oghub.io^$third-party
 ||optimierung-der-website.de^$third-party
-||org-dot-com.com^$third-party
 ||osxau.de^$third-party
 ||ourstats.de^$third-party
 ||page-hit.de^$third-party
@@ -9131,7 +9062,6 @@ _mongo_stats/
 ||wipe.de^$~script,third-party
 ||xcounter.ch^$third-party
 ||xhit.com^$third-party
-||xl-counti.com^$third-party
 ||xplosion.de^$third-party
 ||yoochoose.net^$third-party
 ||zaehler.tv^$third-party
@@ -9214,7 +9144,6 @@ _mongo_stats/
 ||titag.com^$third-party
 ||toc.io^$third-party
 ||tracking.wlscripts.net^
-||trafiz.net^$third-party
 ||uzerly.net^$third-party
 ||webcompteur.com^$third-party
 ||winitout.com^$third-party
@@ -9265,7 +9194,6 @@ _mongo_stats/
 ||hubpd.com^$third-party
 ||i-mobile.co.jp^$third-party
 ||ipinyou.com^$third-party
-||irs01.$third-party
 ||irs09.com^$third-party
 ||jiankongbao.com^$third-party
 ||lndata.com^$third-party
@@ -9397,7 +9325,6 @@ _mongo_stats/
 ||freecounter.it^$third-party
 ||freestat.ws^$third-party
 ||freestats.biz^$third-party
-||freestats.me^$third-party
 ||freestats.net^$third-party
 ||freestats.org^$third-party
 ||freestats.tk^$third-party
@@ -9437,7 +9364,6 @@ _mongo_stats/
 ||webmobile.ws^$third-party
 ||whoseesyou.com^$third-party
 ||wstatslive.com^$third-party
-||zt-dst.com^$third-party
 ! Japanese
 ||accesstrade.net^$third-party
 ||admatrix.jp^$third-party
@@ -9445,10 +9371,8 @@ _mongo_stats/
 ||aid-ad.jp^$third-party
 ||amoad.com^$third-party
 ||analyticsip.net^$third-party
-||beanscattering.jp^$third-party
 ||bigmining.com^$third-party
 ||blogranking.net^$third-party
-||ca-mpr.jp^$third-party
 ||cetlog.jp^$third-party
 ||cheqzone.com^$third-party
 ||cosmi.io^$third-party
@@ -9572,7 +9496,6 @@ _mongo_stats/
 ||ngastatic.com^$third-party
 ||nokaut.link^$third-party
 ||nsaudience.pl^$third-party
-||p071qmn.com^$third-party
 ||pushdom.co^$third-party
 ||refericon.pl^$third-party
 ||rejestr.org^$third-party
@@ -9715,7 +9638,6 @@ _mongo_stats/
 ||tnative.ru^$third-party
 ||toptracker.ru^$third-party
 ||tpm.pw^$third-party
-||track.cooster.ru^
 ||uarating.com^$third-party
 ||upravel.com^$third-party
 ||uptolike.com^$third-party
@@ -9782,7 +9704,6 @@ _mongo_stats/
 ||suntcontent.se^$third-party
 ||tidningsnatet.se^$third-party
 ||tns-sifo.se^$third-party
-||vastpaketet.se^$third-party
 ||webserviceaward.com^$third-party
 ||yieldbird.com^$third-party
 ! Thai
