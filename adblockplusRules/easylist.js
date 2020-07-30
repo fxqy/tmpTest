@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: At58BDT3ZZavqYKCZ+qT5w
-! Version: 202007291511
+! Checksum: AA1iblXmx2BePlO6b80hVw
+! Version: 202007300910
 ! Title: EasyList
-! Last modified: 29 Jul 2020 15:11 UTC
+! Last modified: 30 Jul 2020 09:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -31781,6 +31781,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||egfqtvewksktz.com^
 ||egrettyjokilin.info^
 ||egroacho.com^
+||eicularentif.club^
 ||eieocp6mdu59.com^
 ||eighbourge.club^
 ||eikegolehem.com^
@@ -31807,6 +31808,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||emmettperson.pro^
 ||emolapnay.com^
 ||emphante.club^
+||encedagric.club^
 ||encountryf.pro^
 ||encoursejaso.site^
 ||engaedo8.com^
@@ -31855,6 +31857,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||esinteresticma.fun^
 ||espreditionm.club^
 ||esshortleda.info^
+||estersparat.club^
 ||estionexperime.info^
 ||estoopsi.com^
 ||eswaldderinao.site^
@@ -31928,6 +31931,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ffickiedisticre.site^
 ||ffortyimagist.info^
 ||fgddl9szdof7.com^
+||fgoverhead.club^
 ||fibpeeode.site^
 ||fibusedie.site^
 ||fictimruffles.space^
@@ -32680,6 +32684,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||paintifiercute.club^
 ||paraterinchest.site^
 ||paratingsulik.site^
+||parentful.club^
 ||parketbedde.info^
 ||parpapsit.com^
 ||pasaigul.com^
@@ -32857,6 +32862,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||reasonalattracke.info^
 ||rebrancardera.site^
 ||rebritingcyclo.fun^
+||recallysugg.club^
 ||recesirralsoc.club^
 ||reckedmane.club^
 ||recomine.club^
@@ -33273,6 +33279,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||uitabletublis.info^
 ||ukcomparends.pro^
 ||ul8seok7w5al.com^
+||ularsecono.club^
 ||ulsterns.club^
 ||ulsternsforma.fun^
 ||ultunivesrega.fun^
@@ -37585,7 +37592,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||radiusmarketing.com^$third-party
 ||ragapa.com^$third-party
 ||raigluce.net^$third-party
-||rainbowtgx.com^$third-party
 ||rainwealth.com^$third-party
 ||raiphupi.com^$third-party
 ||raloonee.com^$third-party
@@ -49722,7 +49728,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||d1grtyyel8f1mh.cloudfront.net^
 ||d1i9kr6k34lyp.cloudfront.net^
 ||d1il9t8pu4dsoj.cloudfront.net^
-||d1lxz4vuik53pc.cloudfront.net^
+||d1lxz4vuik53pc.cloudfront.net^*/inner-host.min.js
 ||d1mbgf0ge24riu.cloudfront.net^
 ||d1n3tk65esqc4k.cloudfront.net^
 ||d1nmxiiewlx627.cloudfront.net^
@@ -50634,7 +50640,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||salefile.googlecode.com^$third-party
 ||salemwebnetwork.com/Stations/images/SiteWrapper/
 ||sascdn.com/config.js
-||sascdn.com/diff/$image
+||sascdn.com/diff/$image,script
 ||sascdn.com/tag/
 ||sat-shop.co.uk/images/$third-party
 ||satshop.tv/images/banner/$third-party
@@ -54904,6 +54910,7 @@ wyciwyg:$popup,domain=jkanime.net
 ||videos.com^*/jsp.js
 ||videoszoofiliahd.com/wp-content/themes/vz/js/p.js
 ||vidmo.org/images/*_banuers_
+||vipergirls.to^*/sc300x250.
 ||viralporn.com^*/popnew.js
 ||vivatube.com/upload/banners/
 ||vivud.com/nb/b_
@@ -66352,7 +66359,7 @@ adultfreex.com##a[href*="/brazzers-network/"]
 taxidrivermovie.com##a[href*="/category/"]
 nude.hu##a[href*="/click/"]
 faapy.com,hdzog.com,smutr.com,xcafe.com##a[href*="/cs/"]
-agedbeauty.net,data18.com,porndoe.com,pornpics.com,theanalist.info,watchmygf.me,xxxhdd.com,xxxymovies.com##a[href*="/go/"]
+agedbeauty.net,data18.com,porndoe.com,pornpics.com,theanalist.info,vipergirls.to,watchmygf.me,xxxhdd.com,xxxymovies.com##a[href*="/go/"]
 xhamster.com,xhamster.one##a[href*="/join.html?from=no_ads"]
 megatube.xxx,xozilla.com##a[href*="/link/"]
 mypornstarbook.net##a[href*="/out"]
@@ -66377,7 +66384,7 @@ babe.today,eskimotube.com,xjapanese.com##a[href*="?track="]
 pornhub.com,pornhubthbh7ap3u.onion##a[href*="abbp"]
 taxidrivermovie.com##a[href*="mrskin.com/"]
 pornhub.com,pornhubthbh7ap3u.onion##a[href*="pleasedontslaymy"]
-adultfilmdatabase.com,animeidhentai.com,babeforums.org,bos.so,camvideos.tv,camwhores.tv,celebrity-slips.com,cutscenes.net,daftsex.com,dbnaked.com,devporn.net,efukt.com,fritchy.com,gifsauce.com,hentai2read.com,hotpornfile.org,hpjav.com,imagebam.com,imgbox.com,imgtaxi.com,motherless.com,myporn.club,pandamovies.pw,planetsuzy.org,pussyspace.com,redgifs.com,sendvid.com,sexgalaxy.net,sextvx.com,sexuria.com,sxyprn.com,thefappeningblog.com,ultrahorny.com,vintage-erotica-forum.com,waxtube.com,yeapornpls.com##a[href*="theporndude.com"]
+adultfilmdatabase.com,animeidhentai.com,babeforums.org,bos.so,camvideos.tv,camwhores.tv,celebrity-slips.com,cutscenes.net,daftsex.com,dbnaked.com,devporn.net,efukt.com,fritchy.com,gifsauce.com,hentai2read.com,hotpornfile.org,hpjav.com,imagebam.com,imgbox.com,imgtaxi.com,motherless.com,myporn.club,pandamovies.pw,planetsuzy.org,pussyspace.com,redgifs.com,sendvid.com,sexgalaxy.net,sextvx.com,sexuria.com,sxyprn.com,thefappeningblog.com,ultrahorny.com,vintage-erotica-forum.com,vipergirls.to,waxtube.com,yeapornpls.com##a[href*="theporndude.com"]
 gaytube.com##a[href="/external/meet_and_fuck"]
 efukt.com##a[href="http://crazyshit.com/?utm_"]
 sex.com##a[href="http://idg.idealgasm.com/"]
@@ -66480,7 +66487,7 @@ adultfreex.com##a[href^="https://t.co/"]
 yespornplease.com##a[href^="https://www.brazzersnetwork.com/"]
 celebrity-slips.com##a[href^="https://www.celebrity-slips.com/rd/"]
 gotporn.com##a[href^="https://www.gotporn.com/click.php?id="]
-imagebam.com##a[href^="https://www.mrporngeek.com/"]
+imagebam.com,vipergirls.to##a[href^="https://www.mrporngeek.com/"]
 avn.com,penthouse.com##a[href^="https://www.myfreecams.com/"][href*="&track="]
 smutr.com##a[href^="https://www.primepornlist.com/"]
 sex.com##a[href^="https://www.rabbits.webcam/?id="]
