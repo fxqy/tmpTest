@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: jbUVIE98sRmDUwDCBpLk/A
-! Version: 202007300911
+! Checksum: nFE7nRmGKSs9jtpIwoqK+g
+! Version: 202007310911
 ! Title: EasyPrivacy
-! Last modified: 30 Jul 2020 09:11 UTC
+! Last modified: 31 Jul 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5894,6 +5894,7 @@ _mongo_stats/
 ||bridgevine.com^$third-party
 ||brightfunnel.com^$third-party
 ||brilig.com^$third-party
+||britepool.com^$third-party
 ||bronto.com^$third-party
 ||browser-statistik.de^$third-party
 ||browser-update.org^$third-party
@@ -16301,7 +16302,9 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||mar.vip.com^
 ||mp.weixin.qq.com/mp/appmsgreport?
 ||mp.weixin.qq.com/mp/getappmsgad?
+||mp.weixin.qq.com/mp/jsmonitor?
 ||mp.weixin.qq.com/mp/report?
+||mp.weixin.qq.com/mp/webcommreport?
 ||music.163.com/weapi/feedback/weblog
 ||music.163.com/weapi/pl/count
 ||narutom.com/stat.js
@@ -16958,6 +16961,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
 @@||cnbcfm.com/applications/cnbc.com/staticcontent/scripts/libraries/QuoteRedesign/quote_analytics.js$script,domain=cnbc.com
 @@||cognition-va.bytedance.com/api/knowledge/$xmlhttprequest,domain=ads.tiktok.com
+@@||cohesionapps.com/cohesion/$script,subdocument,domain=frontier.com
+@@||cohesionapps.com/preamp/$subdocument,xmlhttprequest,domain=frontier.com
 @@||collusion.com/static/analytics.js$script,~third-party
 @@||collusion.com/static/newrelic.js$script,~third-party
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
@@ -17033,7 +17038,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||google-analytics.com/plugins/ua/ec.js$script,domain=health2000.co.nz
 @@||google.com/js/gweb/analytics/autotrack.js$domain=gradleplease.appspot.com|www.google.com
 @@||googletagmanager.com/gtag/js$script,domain=ally.com|anchor.fm|foxnews.com|gamespot.com|m.putlocker.how|neighborhoodpostcards.com|ryanair.com
-@@||googletagmanager.com/gtm.js$domain=action.com|adsoup.com|airasia.com|asus.com|bhaskar.com|broadcom.com|chipotle.com|complex.com|computerworlduk.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nytimes.com|onesignal.com|optus.com.au|overwatchleague.com|poliigon.com|porsche.com|realestate.co.nz|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|woodlanddirect.com|wwe.com
+@@||googletagmanager.com/gtm.js$domain=action.com|adsoup.com|airasia.com|asus.com|bhaskar.com|broadcom.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nytimes.com|onesignal.com|optus.com.au|overwatchleague.com|poliigon.com|porsche.com|realestate.co.nz|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|woodlanddirect.com|wwe.com
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
@@ -17094,7 +17099,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||mozu.com^*/analytics.js$script,domain=acehardware.com
 @@||mpsnare.iesnare.com/snare.js$domain=citi.com|citibank.com|enmasse.com|login.skype.com|vitacost.com
 @@||mpsnare.iesnare.com/wu/snare.js$domain=westernunion.com
-@@||msecnd.net/scripts/jsll-$script,domain=office.com|teams.microsoft.com
+@@||msecnd.net/scripts/jsll-$script,domain=office.com|sharepoint.com|teams.microsoft.com
 @@||munchkin.marketo.net/munchkin.js
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com|greentoe.com
 @@||mxpnl.com^$domain=mixpanel.com
@@ -17104,6 +17109,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||nfltags.com/omniture/$script,domain=nfl.com
 @@||nhl.com/components/shared/omniture-tracking-scripts/newRelic.js
 @@||nike.com^*/optimizely.browser.umd.min.js$script,~third-party
+@@||noaa.gov/maps/resources/scripts/ga.js$script,~third-party
 @@||nyt.com/analytics/json-kidd.min.js$script,domain=nytimes.com
 @@||nyt.com/bi/js/tagx/tagx.js$domain=nytimes.com
 @@||nytimes.com^*/EventTracker.js
@@ -17248,6 +17254,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@/cdn-cgi/images/trace/captcha/js/h/transparent.gif$image,~third-party
 ! uBO-CNAME (Specific allowlists)
 @@||n8s.jp^$script,domain=nikkei.com
+@@||takeda.com.dxcloud.episerver.net^$domain=takeda.com
 ! facebook related (https://forums.lanik.us/viewtopic.php?f=64&t=43722)
 @@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
 @@||messenger.com/common/referer_frame.php$subdocument,domain=messenger.com
@@ -17518,6 +17525,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
 @@||mediaweaver.jp^$image,domain=ismedia.jp
+@@||nihongo.alc.co.jp/theme/Japanese/img/home/nf/us.gif$image,~third-party
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
