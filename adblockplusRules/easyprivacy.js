@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: kUug4o5+UkNBsyTFQ7m/ZA
-! Version: 202008021541
+! Checksum: epYTgcV8/zFttazQtT/K0Q
+! Version: 202008030911
 ! Title: EasyPrivacy
-! Last modified: 02 Aug 2020 15:41 UTC
+! Last modified: 03 Aug 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3363,6 +3363,7 @@
 /prodtracker?
 /production/analytics.
 /profile_tracker.
+/promo_tracking.
 /promo_tracking/*
 /promos/pixels?
 /propagate_cookie.
@@ -5291,12 +5292,13 @@ cgi-bin/counter
 /cdn-cgi/apps/body/*$script,~third-party
 /cdn-cgi/apps/head/*$script,~third-party
 ! Notifcation scripts
+/epsilon.
 /PushexSDK.
 ! propertyguru fingerprinting
 /pg*.js?PID=$xmlhttprequest
 ! Akamai fingerprinting
 ! https://publicwww.com/websites/%22_cf.push%22/
-/^https?:\/\/.*\/(public|resources|static|assets)\/([a-f0-9]){28,30}$/$script,~third-party,xmlhttprequest
+/^https?:\/\/.*\/(public|resources|static|assets)\/([a-f0-9]){28,30}$/$script,~third-party,xmlhttprequest,domain=~cand.li
 ! Cloudflare fingerprinting
 /cgi-bin/bm/cv/*$script
 ! Admiral
@@ -8193,6 +8195,7 @@ _mongo_stats/
 ||reprocautious.com^$third-party
 ||sendpulse.com^$third-party
 ||shroughtened.com^$third-party
+||sm-epsilon.com^$third-party
 ||snd.tc^$third-party
 ||truepush.com^$third-party
 ||urbanairship.com^$third-party
@@ -11310,6 +11313,8 @@ _mongo_stats/
 ||s3-tracking.synthasite.net.s3.amazonaws.com^
 ||s5labs.io/common/i?impressionId$image
 ||sadv.dadapro.com^$third-party
+||sail-horizon.com/horizon/$third-party
+||sail-horizon.com/spm/
 ||sailthru.com/img/$image,third-party
 ||sailthru.com/Sailthru_spacer_1x1.gif
 ||sajari.com/js/sj.js$third-party
@@ -11699,6 +11704,7 @@ _mongo_stats/
 ||trove.com^*&uid=$image
 ||tru.webelapp.com^
 ||trumba.com/et.aspx?$third-party
+||trustcommander.net/privacy/
 ||trustedform.com/trustedform.js?provide_referrer
 ||trustpilot.com/stats/
 ||trustsquare.net/trafficmonitor/
@@ -14274,6 +14280,7 @@ _mongo_stats/
 ||policeone.com/stat/
 ||politico.com/resource/assets/js.min/video-tracking$script
 ||popcap.com^*/interstitial_zones.js
+||poptropica.com/brain/track.php?
 ||porndoo.com/lib/ajax/track.php
 ||pornhd.com/api/user/tracking
 ||porntube.com^*/track
@@ -15271,7 +15278,6 @@ _mongo_stats/
 ||youtube.com/api/stats/atr
 ||youtube.com/api/stats/delayplay?
 ||youtube.com/api/stats/qoe?
-||youtube.com/api/stats/watchtime
 ||youtube.com/get_video?
 ||youtube.com/mac_204?
 ||youtube.com/ptracking?
@@ -15475,6 +15481,7 @@ $third-party,websocket,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.
 ||913nd.dieti-natura.es^
 ||a8ht.hipp.fr^
 ||ar.i-run.fr^
+||at.pagesjaunes.fr^
 ||azg1.emalu-store.com^
 ||bhu9.bankia.es^
 ||c4dv.copinesdevoyage.com^
@@ -15616,6 +15623,7 @@ $third-party,websocket,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.
 ||vpf4.euskaltelofertas.com^
 ||vry9.destinia.com^
 ||vtf2f.banque-casino.fr^
+||wa.gmx.fr^
 ||wdr9.inseec.com^
 ||we.wecanimal.pt^
 ||wph2.destinia.us^
@@ -16140,8 +16148,10 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||orange.fr/front/report/probe
 ||orange.fr/track?
 ||p.pagesjaunes.fr^
+||pagesjaunes.fr/assets/js/stats_
 ||pagesjaunes.fr/bva/track.js
 ||pagesjaunes.fr/crmmetrix/
+||pagesjaunes.fr/stats/
 ||pwa.telephoneannuaire.fr^
 ||rdtdlv.laredoute.fr^
 ||rtbf.be/log
@@ -16891,6 +16901,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||adprotv.com^*/comscore.streaming.$script,domain=mundodeportivo.com
 @@||afs-prod.appspot.com^*/tag?tags=$xmlhttprequest,domain=apnews.com
 @@||akamaihd.net/worldwide_analytics/$script,domain=ubi.com|ubisoft.com
+@@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com
 @@||amplitude.com/libs/amplitude-$script,domain=loom.com
 @@||ampproject.org/v0/amp-geo-$script,domain=pantagraph.com|tasty.co
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=abcnews.go.com|foxbusiness.com|foxnews.com
@@ -17151,6 +17162,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||puch-ersatzteile.at^*/google-analytics.min.js
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
+@@||quantcast.mgr.consensu.org/cmp.js$script,domain=ladbible.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|nymag.com
 @@||rasset.ie/dotie/js/tracker.js$domain=rte.ie
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
@@ -17232,7 +17244,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||yottaa.net^*/scripts/eventtracking/$script,domain=containerstore.com
 @@||youbora.com/*/js/adapters/jwplayer$script
 @@||youtube.com/api/analytics/$~third-party
-@@||youtube.com/api/stats/watchtime?$image,domain=youtube.com
 @@||zappos.com/js/trackingPixel/mercentTracker.js
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
