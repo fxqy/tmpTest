@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: epYTgcV8/zFttazQtT/K0Q
-! Version: 202008030911
+! Checksum: GmrMfmJOjX3UV+Gjp+4L3A
+! Version: 202008041051
 ! Title: EasyPrivacy
-! Last modified: 03 Aug 2020 09:11 UTC
+! Last modified: 04 Aug 2020 10:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10296,6 +10296,7 @@ _mongo_stats/
 ||concert.io/lookup/
 ||conde.io/beacon
 ||condenastdigital.com/content?$third-party
+||confiant-integrations.global.ssl.fastly.net^
 ||connect.facebook.net/signals/$third-party
 ||connect.facebook.net^*/fbds.js$third-party
 ||consensu.org/?log=
@@ -11011,6 +11012,7 @@ _mongo_stats/
 ||metrics.wikinvest.com^
 ||metrixlablw.customers.luna.net^
 ||metro-trending-*.amazonaws.com^$third-party
+||minutemediacdn.com/campaign-manager-client/
 ||mixpanel.com/track?
 ||mkcms.com/stats.js
 ||ml.com/enterprisetagging/
@@ -11120,6 +11122,7 @@ _mongo_stats/
 ||pageturnpro.com/tracker.aspx?
 ||pair.com/itero/tracker_ftc/
 ||parsely.com/keys/$script,third-party
+||parsely.com/plogger/
 ||partner.cynapse.com^
 ||partners.etoro.com^$script
 ||partypoker.com^*/tracking-
@@ -11187,6 +11190,7 @@ _mongo_stats/
 ||plista.com/activity
 ||plugins.longtailvideo.com/googlytics
 ||plugins.longtailvideo.com/yourlytics
+||plumbus.minutemediaservices.com^
 ||pmetrics.performancing.com^
 ||pornhost.com/count_hit_player.php
 ||postageapp.com/receipt/$third-party
@@ -12508,6 +12512,7 @@ _mongo_stats/
 ||sync.shinobi.jp^
 ||t.adlpo.com^
 ||t.felmat.net^
+||t.seesaa.net^
 ||torimochi.line-apps.com^
 ||track.thebase.in^
 ||userdive.com^$third-party
@@ -17217,6 +17222,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||udottraffic.utah.gov/javascripts/Piwik.js
 @@||ue.flipboard.com^$script,~third-party
 @@||uefa.com/inc/js/core/projects/statistics/statistics.js?$script
+@@||uid.mavencoalition.io^$xmlhttprequest,domain=thestreet.com
 @@||ultimedia.com/js/common/jquery.gatracker.js
 @@||unileversolutions.com^*/config/analytics.js
 @@||unisys.com^*/track.gif$image,~third-party
@@ -17492,6 +17498,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ilsole24ore.com^*/fingerprint2.min.js?
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=la7.it|sky.it|video.corriere.it
 @@||imrworldwide.com/v60.js$domain=capital.it|corriereadriatico.it|fanpage.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|leggo.it|m2o.it|quotidianodipuglia.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it
+@@||iolam.it/js/iam2.0.js?$script,domain=siviaggia.it
 @@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it
 @@||mediaworld.it^*/GoogleTagManager.js?
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=vodafone.it
