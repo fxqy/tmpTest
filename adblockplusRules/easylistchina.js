@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zxXSGqRpK2btsLW1DaQTHQ
-! Version: 202008050853
+! Checksum: uFK8nqd7mZJ5rEDyzjNtAw
+! Version: 202008050903
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 05 Aug 2020 08:53 UTC
+! Last Modified: 05 Aug 2020 09:03 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -1095,6 +1095,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||mi82ltk3veb7.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -3772,7 +3773,6 @@ $websocket,domain=5nj.com|cechi8.com
 /gamer/*$subdocument,domain=gamer.com.tw
 /gTool.js$domain=51live.com|52waha.com|ccav5.com|zhibo7.com
 /homead/*_appledaily_bg.
-/hostinger-promote-$domain=nodkey.xyz
 /html/taobao_focus_
 /ifengRotatorAd.js
 /images/*.gif$domain=maichun5.info|mc88.info|myhhg.com|yh1.info|yh10.info
@@ -3831,7 +3831,6 @@ _yad_jsonp_
 |http://*/ad_bj.js?
 |http://rc.sz.zj.cn/*.swf^$domain=bbs.sz.zj.cn
 |http://t.cn/$domain=ady8.info|cdsoso.me
-|https:$subdocument,domain=nodkey.xyz
 ||*.$image,rewrite=abp-resource:1x1-transparent-gif,third-party,domain=rmdown.com
 ||*/ad/$rewrite=abp-resource:blank-mp3,domain=huaren.tv
 ||*/videos/other/*.f4v$object,rewrite=abp-resource:blank-mp3,domain=iqiyi.com
@@ -4391,7 +4390,6 @@ _yad_jsonp_
 ||6park.com/img/*0.gif
 ||6park.com/parks/$script
 ||6park.com^$subdocument
-||6ped2nd3yp.com^$domain=nodkey.xyz
 ||6tj.com/ent/fkbg/20191220/a46326c6a57fc066a6d985ceabdc42f6.jpg
 ||6vhao.tv/d/
 ||70.86.24.120:8060/
@@ -7175,7 +7173,6 @@ _yad_jsonp_
 ||pniao99.com/statics/js/stat.js
 ||poco.cn/v1_1/rank/get_floating_layer_ad
 ||poco.cn^*_info_banner
-||popads.net^$domain=nodkey.xyz
 ||porn87.com/static/stream_ads/
 ||poster.weather.com.cn^
 ||poxiao.com/template/default/images/12345.js
@@ -14346,7 +14343,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||noahedu.com/ad/$~third-party
 @@||noahedu.com/advertising/
 @@||nobugin.com^$generichide
-@@||nodkey.xyz^$genericblock,generichide
+@@||nodkey.xyz^$generichide
 @@||nowscore.com/script/common/adHelper.js
 @@||nthu.edu.tw^*ad
 @@||ntou.edu.tw/bin/showads.
