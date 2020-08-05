@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: GmrMfmJOjX3UV+Gjp+4L3A
-! Version: 202008041051
+! Checksum: mBRQZanIGjdeRdc8dKvZqQ
+! Version: 202008050901
 ! Title: EasyPrivacy
-! Last modified: 04 Aug 2020 10:51 UTC
+! Last modified: 05 Aug 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6325,6 +6325,7 @@ _mongo_stats/
 ||ewebanalytics.com^$third-party
 ||ewebcounter.com^$third-party
 ||exactag.com^$third-party
+||excited.me^$third-party
 ||exclusiveclicks.com^$third-party
 ||exelator.com^$third-party
 ||exitbee.com^$third-party
@@ -15000,6 +15001,7 @@ _mongo_stats/
 ||ttxm.co.uk^*/log.js
 ||tubeplus.me/geoip.php?
 ||tubepornclassic.com/js/111.js
+||tubepornstars.com/js/analytics
 ||tubidy.io/sc.js
 ||tubxporn.com/track.php
 ||tumblr.com/impixu?
@@ -17385,6 +17387,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||maxmind.com/geoip/$xmlhttprequest,domain=dcshoes.fr
 @@||maxmind.com^*/geoip2.js?$script,domain=dcshoes.fr
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
+@@||s-sfr.fr/stats/header.js$script,domain=sfr.fr
 @@||script.ownpage.fr/v1/ownpage.js?$script,domain=lci.fr
 @@||static.lci.fr/assets/scripts/common/tracker.js?$script,~third-party
 @@||static.lci.fr/assets/scripts/common/user-agent-analyzer.js$script,~third-party
