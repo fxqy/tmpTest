@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: mBRQZanIGjdeRdc8dKvZqQ
-! Version: 202008050901
+! Checksum: sT6yLm+J2WVhGfgBhfi2NQ
+! Version: 202008060911
 ! Title: EasyPrivacy
-! Last modified: 05 Aug 2020 09:01 UTC
+! Last modified: 06 Aug 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4124,6 +4124,7 @@
 /tealiumTagsData.
 /telemetry/log/*
 /tenping.cpa.
+/testImpressions/beacon
 /textlink.php?text
 /thbeacon/*
 /thcn_code.
@@ -8574,6 +8575,7 @@ _mongo_stats/
 ||bandborder.com^$third-party
 ||basketballbelieve.com^$third-party
 ||baskettexture.com^$third-party
+||boilingbeetle.com^$third-party
 ||breakfastboat.com^$third-party
 ||broadcastbed.com^$third-party
 ||broaddoor.com^$third-party
@@ -17078,6 +17080,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||jabra.com/api/Analytics/$xmlhttprequest,domain=jabra.com
 @@||jbj.co.uk^*/analytics.js$script,~third-party
 @@||jsrdn.com/s/cs.js$domain=distro.tv
+@@||jwpcdn.com/player/plugins/googima/*/googima.js$script,domain=ladbible.com
 @@||kbb.com/static/js/global/app-measurement$script
 @@||kentucky.com/mistats/finalizestats.js
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
