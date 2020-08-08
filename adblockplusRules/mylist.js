@@ -132,6 +132,8 @@ hdslb.com/bfs/live
 hdslb.com/bfs/static/live
 xycdn.com/api/get_seeds
 bilibili.com##.z-aside-area,.haruna-sekai-de-ichiban-kawaii,.haruna-sekai-de-ichiban-kawaii,.z-room-background,#sections-vm,.z-sidebar,.comment-m
+40yb.com/js/bbs/pb.js
+40yb.com/js/seajump.js
 !------------------------------props------------------------------
 ! 40yb.com#?#:-abp-has(> canvas)
 ! micaitu.net,40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com,980kp.com#?#:-abp-properties(transform)
