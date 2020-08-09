@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 8Pr7E1euwCB9IeYDqxfFUQ
-! Version: 202008081201
+! Checksum: c8PK1B1NgHnc7pYTo6zreA
+! Version: 202008090921
 ! Title: EasyPrivacy
-! Last modified: 08 Aug 2020 12:01 UTC
+! Last modified: 09 Aug 2020 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6447,6 +6447,11 @@ _mongo_stats/
 ||fusestats.com^$third-party
 ||fuziontech.net^$third-party
 ||fyreball.com^$third-party
+||g2178927685.co^$third-party
+||g2377012020.co^$third-party
+||g2575096355.co^$third-party
+||g2773180690.co^$third-party
+||g2971265025.co^$third-party
 ||gaconnector.com^$third-party
 ||gameanalytics.com^$third-party
 ||gammachug.com^$third-party
@@ -6470,6 +6475,7 @@ _mongo_stats/
 ||geoplugin.net^$third-party
 ||georiot.com^$third-party
 ||geotargetly-1a441.appspot.com^$third-party
+||geotargetly.co^$third-party
 ||getambassador.com^$third-party
 ||getbackstory.com^$third-party
 ||getblueshift.com^$third-party
@@ -7058,6 +7064,7 @@ _mongo_stats/
 ||nedstat.net^$third-party
 ||nedstatbasic.net^$third-party
 ||nedstatpro.net^$third-party
+||nejmqianyan.cn^$third-party
 ||neki.org^$third-party
 ||nerfherdersolo.com^$third-party
 ||nero.live^$third-party
@@ -7082,6 +7089,7 @@ _mongo_stats/
 ||nicequest.com^$third-party
 ||niftymaps.com^$third-party
 ||nik.io^$third-party
+||noibu.com^$third-party
 ||noowho.com^$third-party
 ||nordicresearch.com^$third-party
 ||northstartravelmedia.com^$third-party
@@ -9943,6 +9951,7 @@ _mongo_stats/
 ||analytics.gvim.mobi^
 ||analytics.humanautomation.ai^
 ||analytics.inform.com^
+||analytics.jst.ai^
 ||analytics.kaltura.com^
 ||analytics.kapost.com^
 ||analytics.live.com^
@@ -13758,6 +13767,7 @@ _mongo_stats/
 ||imgur.com/lumbar.gif?
 ||immassets.s3.amazonaws.com^
 ||imonitor.dhgate.com^
+||imore.com/_gap/
 ||imp-media-lab.thenewslens.com^
 ||imx.comedycentral.com^
 ||indeed.com/rpc/$~xmlhttprequest
@@ -14826,6 +14836,7 @@ _mongo_stats/
 ||talktalk.co.uk^*/log.html
 ||talktalk.co.uk^*/tracking/
 ||target.com/ci/$script
+||target.nejm.org^
 ||targetspot.com/track/
 ||tarot.com/stats/
 ||taskulu.com/mtc/event
@@ -15561,6 +15572,7 @@ $third-party,websocket,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.
 ||ttauri.laptopmag.com^
 ||ttauri.livescience.com^
 ||ttauri.loudersound.com^
+||ttauri.space.com^
 ||ttauri.tomsguide.com^
 ||ttauri.tomshardware.com^
 ||ttauri.whathifi.com^
@@ -16665,7 +16677,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||log.suumo.jp^
 ||logql.yahoo.co.jp^
 ||measure.ameblo.jp^
-||mmstat.com^$image
+||mmstat.com^$image,ping
 ||mtc.nhk.or.jp^
 ||nhk.or.jp^*/bc.js
 ||ppf.rakuten.co.jp^$~script
@@ -17269,7 +17281,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||player.sundaysky.com^$subdocument
 @@||playstation.net/event/$domain=playstation.com|playstation.net|sony.com
 @@||pnas.org^*/fingerprint.js$script,~third-party
-@@||pro.ip-api.com/json/$xmlhttprequest,domain=aljazeera.com|cookappsgames.com
+@@||pro.ip-api.com/json/$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|sheee.co.il|walla.co.il
 @@||ps.w.org/google-analytics-dashboard-for-wp/assets/
 @@||pshared.5min.com/Scripts/OnePlayer/Loggers/ComScore.StreamSense.js
 @@||pshared.5min.com/Scripts/OnePlayer/Loggers/ComScore.Viewability.js
