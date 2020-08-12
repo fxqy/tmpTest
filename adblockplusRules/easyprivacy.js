@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: D598hwI9gmkQvxy1nnoqEQ
-! Version: 202008111021
+! Checksum: KCgVuB6j0tQgZ+hCCFMoow
+! Version: 202008120911
 ! Title: EasyPrivacy
-! Last modified: 11 Aug 2020 10:21 UTC
+! Last modified: 12 Aug 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -599,6 +599,7 @@
 /amp-omniture-iframe?
 /amp.gif?
 /amp/log.json
+/amp/pingback?
 /amp_ping/*
 /amplitude-*.js$script
 /ampmetrics.
@@ -4964,6 +4965,7 @@
 /wstat.pl
 /wstats.php?
 /wt.js?http
+/wt.js?pageurl
 /wt.pl?p=
 /wt?p=
 /wt_capi.js
@@ -6856,6 +6858,7 @@ _mongo_stats/
 ||livestat.com^$third-party
 ||livetrafficfeed.com^$third-party
 ||lloogg.com^$third-party
+||lngtd.com^$third-party
 ||localytics.com^$third-party
 ||lockview.cn^$third-party
 ||locotrack.net^$third-party
@@ -7859,6 +7862,7 @@ _mongo_stats/
 ||trakken.de^$third-party
 ||trakzor.com^$third-party
 ||transactionale.com^$third-party
+||traq.li^$third-party
 ||traversedlp.com^$third-party
 ||trbas.com^$third-party
 ||treasuredata.com^$third-party
@@ -11222,6 +11226,7 @@ _mongo_stats/
 ||ppx.com/tracking/
 ||pr.blogflux.com^
 ||prd-collector-anon.playbuzz.com^
+||presspage.com/statistics/
 ||pricespider.com/impression/
 ||primedia.co.za/analytics/
 ||print2webcorp.com/mkt3/_js/p2w_tracker.js
@@ -13610,6 +13615,7 @@ _mongo_stats/
 ||geolocation.forbes.com^
 ||geovisites.com^*/geouser.js
 ||gfycat.com^*/GFAN.min.js
+||ghacks.net/statics/px.gif
 ||giffgaff.com/r/?id=
 ||giganews.com/images/rpp.gif
 ||gismeteo.*/stat.gif
@@ -17180,7 +17186,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||google-analytics.com/plugins/ua/ec.js$script,domain=health2000.co.nz
 @@||google.com/js/gweb/analytics/autotrack.js$domain=gradleplease.appspot.com|www.google.com
 @@||googletagmanager.com/gtag/js$script,domain=ally.com|anchor.fm|foxnews.com|gamespot.com|m.putlocker.how|neighborhoodpostcards.com|ryanair.com
-@@||googletagmanager.com/gtm.js$domain=action.com|adsoup.com|airasia.com|asus.com|bhaskar.com|broadcom.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nytimes.com|onesignal.com|optus.com.au|overwatchleague.com|poliigon.com|porsche.com|realestate.co.nz|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|theta.tv|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|woodlanddirect.com|wwe.com
+@@||googletagmanager.com/gtm.js$domain=action.com|adsoup.com|airasia.com|asus.com|bhaskar.com|broadcom.com|bsa-whitelabel.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nytimes.com|onesignal.com|optus.com.au|overwatchleague.com|poliigon.com|porsche.com|realestate.co.nz|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|theta.tv|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|woodlanddirect.com|wwe.com
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
