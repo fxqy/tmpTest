@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: KCgVuB6j0tQgZ+hCCFMoow
-! Version: 202008120911
+! Checksum: K5yQQK0KMJUEHG5ueSITMw
+! Version: 202008140921
 ! Title: EasyPrivacy
-! Last modified: 12 Aug 2020 09:11 UTC
+! Last modified: 14 Aug 2020 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4965,7 +4965,6 @@
 /wstat.pl
 /wstats.php?
 /wt.js?http
-/wt.js?pageurl
 /wt.pl?p=
 /wt?p=
 /wt_capi.js
@@ -11133,6 +11132,7 @@ _mongo_stats/
 ||orb.ee/collect
 ||orts.wixawin.com^$third-party
 ||outbrain.com/nanoWidget/externals/cookie/
+||outbrain.com/widgetOBUserSync/
 ||outbrain.com^*/widgetStatistics.js
 ||p.adbrn.com^
 ||p.delivery.net^$third-party
@@ -11984,7 +11984,7 @@ _mongo_stats/
 ||fastly.net/sp.js
 ! Unnecessary third-party scripts
 ||howsmyssl.com^$third-party
-||js.trendmd.com/trendmd.min.js
+||js.trendmd.com^$script,subdocument,third-party
 ||nsg.symantec.com^$third-party
 ||seal.godaddy.com^$third-party
 ||seal.networksolutions.com^$third-party
@@ -16641,6 +16641,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||libero.it/search/abin/ajaxtrace?
 ||libero.it^*/counter.php?
 ||livestats.la7.tv^
+||lupoporno.com/js/analytics
 ||ma.register.it^
 ||mediaset.it/cgi-bin/getcod.cgi?
 ||mtv.it/flux/trackingcodes/
@@ -17147,6 +17148,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||eatstreet.com/api/v2/tracking/$~third-party
 @@||ec.europa.eu^*/piwik.js
 @@||edgedatg.com/aws/apps/datg/web-player-unity/externals/comscore.$script,domain=abc.com
+@@||editorx.com/_api/*count?type$~third-party
 @@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citizensbank.com|dell.com|fidelity.com|france24.com|homedepot.com|hp.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
 @@||ensighten.com^*/code/$script
 @@||ensighten.com^*/scode/$script,domain=norton.com
@@ -17165,6 +17167,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||flagshipmerchantservices.com/clickpathmedia.js
 @@||flippingbook.com^*/static/analytics.js$script,~third-party
 @@||flsenate.gov/Scripts/GoogleAnalytics.js$~third-party
+@@||fmz.com/pkg/fingerprint2.min.js$~third-party,xmlhttprequest
 @@||fncstatic.com^*/visitorapi.js$script,domain=foxbusiness.com|foxnews.com
 @@||foxnews.com^*/visitorapi.js$script,domain=foxnews.com
 @@||gannettdigital.com/universal-web-client/master/latest/elements/$xmlhttprequest
@@ -17379,6 +17382,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||walmart.com^*/api/logger$xmlhttprequest
 @@||washingtonpost.com/wp-stat/analytics/latest/main.js
 @@||wbshop.com/fcgi-bin/iipsrv.fcgi?
+@@||wix.com/_api/*count?type$~third-party
 @@||wordpress.org/extend/plugins/wp-slimstat/screenshot-$image,~third-party
 @@||wordpress.org/wp-slimstat/assets/banner-$image,~third-party
 @@||wp.com^*/google-analytics-for-wordpress/$domain=wordpress.org
