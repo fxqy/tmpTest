@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: K5yQQK0KMJUEHG5ueSITMw
-! Version: 202008140921
+! Checksum: ED+vpsBgK6a+sCCK7HtGvA
+! Version: 202008151441
 ! Title: EasyPrivacy
-! Last modified: 14 Aug 2020 09:21 UTC
+! Last modified: 15 Aug 2020 14:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -106,7 +106,6 @@
 -tracker-geoip.
 -tracking-pixel.
 -tracking.gtm.
--tracking.js?
 -tracking/ga-
 -tracking?referrer=
 -trackingScript.
@@ -1870,6 +1869,7 @@
 /fingerprint3.js
 /fingerprint3.min.js
 /fingerprintjs2.
+/firebase-analytics.js
 /firestats/*
 /firm_tracking.js
 /fkounter/*
@@ -2041,7 +2041,7 @@
 /geo-ip-detect?
 /geo.php?
 /geoAnalysis.js
-/geocc.
+/geocc.$domain=~geocc.ru
 /geocoding.ash
 /geocompteur.
 /geocounter.
@@ -2943,7 +2943,7 @@
 /NetworkTracking.
 /neustar.beacon.
 /new-client/trackers.
-/new-relic.
+/new-relic.$~stylesheet
 /new.cnt.aspx?
 /newlog.php?
 /newrelic-google-
@@ -5603,7 +5603,6 @@ _mongo_stats/
 ||acexedge.com^$third-party
 ||acint.net^$third-party
 ||acq.io^$third-party
-||acsbap.com^$third-party
 ||active-trk7.com^$third-party
 ||activeconversion.com^$third-party
 ||activemeter.com^$third-party
@@ -8667,6 +8666,7 @@ _mongo_stats/
 ||historicalbeam.com^$third-party
 ||hocgeese.com^$third-party
 ||homelycrown.com^$third-party
+||honorableland.com^$third-party
 ||horsenectar.com^$third-party
 ||immensehoney.com^$third-party
 ||importedincrease.com^$third-party
@@ -10996,6 +10996,7 @@ _mongo_stats/
 ||mas.nth.ch^
 ||mashery.com/analytics/
 ||materiel.net/r/$image
+||maven.io/api/userEvent/
 ||maxmind.com/app/$third-party
 ||maxmind.com/geoip/$third-party
 ||maxmind.com/js/country.js
