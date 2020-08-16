@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ED+vpsBgK6a+sCCK7HtGvA
-! Version: 202008151441
+! Checksum: aIpq4FtBrzMIFpylCdXj6Q
+! Version: 202008161521
 ! Title: EasyPrivacy
-! Last modified: 15 Aug 2020 14:41 UTC
+! Last modified: 16 Aug 2020 15:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -66,6 +66,7 @@
 -fb-pixel-
 -ga-track.
 -ga-tracker.
+-ga-tracking/
 -gatracker.
 -geoIP.js
 -google-analytics-
@@ -684,6 +685,7 @@
 /analytics/call-
 /analytics/capture/*
 /analytics/cms/*
+/analytics/cnnvan/*
 /analytics/collect?
 /analytics/collect_
 /analytics/collector.
@@ -4209,6 +4211,7 @@
 /track.js?screen=
 /track.p?
 /track.php?*&uid=
+/track.php?*_impression
 /track.php?referrer=
 /track.png?
 /track.srv.
@@ -4577,6 +4580,7 @@
 /traffictrade/*
 /traffix-track.
 /trafic.js
+/trail.gif?s=
 /trakksocial.js
 /trans/logger.js
 /trans_pixel.asp
@@ -7351,6 +7355,7 @@ _mongo_stats/
 ||rapidtrk.net^$third-party
 ||rating.in^$third-party
 ||reachforce.com^$third-party
+||reachlocalservices.com^$third-party
 ||reachsocket.com^$third-party
 ||reactful.com^$third-party
 ||reactrmod.com^$third-party
@@ -7427,6 +7432,7 @@ _mongo_stats/
 ||rktch.com^$third-party
 ||rktu.com^$third-party
 ||rlcdn.com^$third-party
+||rlets.com^$third-party
 ||rmtag.com^$third-party
 ||rnengage.com^$third-party
 ||rng-snp-003.com^$third-party
@@ -7689,6 +7695,7 @@ _mongo_stats/
 ||steadfastsystem.com^$third-party
 ||steelhousemedia.com^$third-party
 ||stellaservice.com^$third-party
+||sterlingwoods.com^$third-party
 ||stippleit.com^$third-party
 ||stormcontainertag.com^$third-party
 ||stormiq.com^$third-party
@@ -8574,6 +8581,7 @@ _mongo_stats/
 ||absurdapple.com^$third-party
 ||acidpigs.com^$third-party
 ||acridtwist.com^$third-party
+||additionant.com^$third-party
 ||afraidlanguage.com^$third-party
 ||agreeabletouch.com^$third-party
 ||aheadday.com^$third-party
@@ -8634,6 +8642,7 @@ _mongo_stats/
 ||diplomahawaii.com^$third-party
 ||discreetfield.com^$third-party
 ||distinctday.com^$third-party
+||divehope.com^$third-party
 ||dq95d35.com^$third-party
 ||drydrum.com^$third-party
 ||ejyymghi.com^$third-party
@@ -8655,6 +8664,7 @@ _mongo_stats/
 ||giddycoat.com^$third-party
 ||giraffepiano.com^$third-party
 ||glisteningguide.com^$third-party
+||gloriousbeef.com^$third-party
 ||gondolagnome.com^$third-party
 ||gorgeousground.com^$third-party
 ||greyinstrument.com^$third-party
@@ -8741,6 +8751,7 @@ _mongo_stats/
 ||scientificshirt.com^$third-party
 ||scintillatingscissors.com^$third-party
 ||scintillatingspace.com^$third-party
+||screechingslip.com^$third-party
 ||scrubswim.com^$third-party
 ||seatsmoke.com^$third-party
 ||secretturtle.com^$third-party
@@ -10672,6 +10683,7 @@ _mongo_stats/
 ||ga.kvideo.io^
 ||ga.webdigi.co.uk^
 ||gamegecko.com/gametrack?
+||gannettdigital.com/capture_logger/
 ||gatehousemedia.com/wickedlocal/ip.js
 ||gateway.foresee.com^
 ||gcion.com/gcion.ashx?
@@ -12981,6 +12993,7 @@ _mongo_stats/
 ||armystudyguide.com/hqxapi/it?
 ||arstechnica.co.uk/services/incr.php?stats$xmlhttprequest
 ||arstechnica.com/dragons/breath.gif
+||arstechnica.com/keys/arstechnica.com/p.js
 ||arstechnica.com/services/incr.php?stats$xmlhttprequest
 ||arstechnica.com^*.gif?id=
 ||art.co.uk/asp/robot/
@@ -14892,6 +14905,7 @@ _mongo_stats/
 ||tiaa-cref.org^*/js_tiaacref_analytics.
 ||tickco.com/track.js
 ||tidaltv.com/Ping.aspx
+||tiktok.com/api/impression/
 ||tiktok.com/captcha/report
 ||timeslogtn.timesnow.tv^
 ||timesofisrael.com/js/rgb_app.js
@@ -15370,6 +15384,7 @@ _mongo_stats/
 ||aero.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||bcicdn.com/js-min/*/chunks/8.*.js
 ||boss.bankofamerica.com^$script,~third-party,xmlhttprequest
+||chronicle.com/865d04b047df4fabeaf436609fc85eab
 ||dditscdn.com/arms-datacollectorjs/
 ||dull.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||tipsport.org/scripts/closure.js
@@ -16233,6 +16248,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 /acceptable.$domain=750g.com|adorocinema.com|alibabuy.com|allocine.fr|cap-cine.fr|chartsinfrance.net|cotecine.fr|easyvols.fr|easyvoyage.com|get-the-look.fr|jeuxactu.com|jeuxvideo.com|lestream.fr|millenium.org|musiquemag.com|ouest-france.fr|ozap.com|purebreak.com|purepeople.com|puretrend.com|shopoon.fr|terrafemina.com
 /autopromo.$domain=750g.com|adorocinema.com|alibabuy.com|allocine.fr|cap-cine.fr|chartsinfrance.net|cotecine.fr|easyvols.fr|easyvoyage.com|get-the-look.fr|jeuxactu.com|jeuxvideo.com|lestream.fr|millenium.org|musiquemag.com|ouest-france.fr|ozap.com|purebreak.com|purepeople.com|puretrend.com|shopoon.fr|terrafemina.com
 /autopromotion.$domain=750g.com|adorocinema.com|alibabuy.com|allocine.fr|cap-cine.fr|chartsinfrance.net|cotecine.fr|easyvols.fr|easyvoyage.com|get-the-look.fr|jeuxactu.com|jeuxvideo.com|lestream.fr|millenium.org|musiquemag.com|ouest-france.fr|ozap.com|purebreak.com|purepeople.com|puretrend.com|shopoon.fr|terrafemina.com
+||2ememain.be/metrics/
 ||a.20minutes.fr^
 ||act.acotedemoi.com^
 ||aliasdmc.fr/js/general_sts.js
