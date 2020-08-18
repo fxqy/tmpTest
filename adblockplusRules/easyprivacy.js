@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 8+5HvU7MClhDhJIZEzwN0A
-! Version: 202008170902
+! Checksum: CPRDcJKgKL017R2JS62F0A
+! Version: 202008180901
 ! Title: EasyPrivacy
-! Last modified: 17 Aug 2020 09:01 UTC
+! Last modified: 18 Aug 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4638,6 +4638,7 @@
 /ui/analytics/*
 /uim.html/*
 /ulpixel.
+/ulpixel?
 /ultra_track/*
 /umg-analytics/*
 /umt.gif?
@@ -5778,6 +5779,7 @@ _mongo_stats/
 ||athenainstitute.biz^$third-party
 ||atoshonetwork.com^$third-party
 ||atp.io^$third-party
+||atsptp.com^$third-party
 ||atticwicket.com^$third-party
 ||attracta.com^$third-party
 ||attributionapp.com^$third-party
@@ -5813,6 +5815,7 @@ _mongo_stats/
 ||b1js.com^$third-party
 ||b2c.com^$third-party
 ||babator.com^$third-party
+||baikalize.com^$third-party
 ||bam-x.com^$third-party
 ||baptisttop1000.com^$third-party
 ||baremetrics.com^$third-party
@@ -6456,6 +6459,7 @@ _mongo_stats/
 ||g2575096355.co^$third-party
 ||g2773180690.co^$third-party
 ||g2971265025.co^$third-party
+||g3169349360.co^$third-party
 ||gaconnector.com^$third-party
 ||gameanalytics.com^$third-party
 ||gammachug.com^$third-party
@@ -9439,7 +9443,6 @@ _mongo_stats/
 ||kir.jp^$third-party
 ||letro.jp^$third-party
 ||macromill.com^$third-party
-||marsflag.com^$third-party
 ||mobylog.jp^$third-party
 ||msgs.jp^$third-party
 ||nex8.net^$third-party
@@ -11005,6 +11008,8 @@ _mongo_stats/
 ||marketingautomation.services/net?$third-party
 ||marketo.com/gw1/
 ||marketo.com/rtp-api/
+||marsflag.com^*/tr.js
+||marsflag.com^*/tr.min.js
 ||mas.nth.ch^
 ||mashery.com/analytics/
 ||materiel.net/r/$image
@@ -11606,6 +11611,7 @@ _mongo_stats/
 ||tr.cloud-media.fr^
 ||tr.connatix.com^
 ||tr.interlake.net^
+||tr.marsflag.com^
 ||tr.webantenna.info^
 ||tr1.mailperformance.com^
 ||tra.scds.pmdstatic.net/pmc-starter/$script
@@ -13332,6 +13338,7 @@ _mongo_stats/
 ||despegar.com/t?
 ||desr.fkapi.net^
 ||destructoid.com/img2.phtml?
+||diagnostics.redditmedia.com^$xmlhttprequest,domain=reddit.com
 ||diamond.transfermarkt.de^
 ||dictionary.com/track/
 ||digital.flytedesk.com/js/head.js
@@ -14399,6 +14406,7 @@ _mongo_stats/
 ||reco.hardsextube.com^
 ||recomendedsite.com/addon/upixel/
 ||recommendation.24.com^
+||reddit.com/counters/$xmlhttprequest
 ||reddit.com/static/pixel.png$image
 ||reddit.com/timings/
 ||reddit.com/web/log/
@@ -16707,6 +16715,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||dmm.com/analytics/
 ||dmm.com/imp?
 ||event.notifier.rakuten.co.jp^
+||gizmodo.jp/api/SurveyCountCollection?
 ||goo.ne.jp^*/vltracedmd.js
 ||i2i.jp/bin/
 ||ln.ameba.jp^
