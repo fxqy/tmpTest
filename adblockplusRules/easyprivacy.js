@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: CPRDcJKgKL017R2JS62F0A
-! Version: 202008180901
+! Checksum: hz2EH4useutYA2eUBctf0A
+! Version: 202008190911
 ! Title: EasyPrivacy
-! Last modified: 18 Aug 2020 09:01 UTC
+! Last modified: 19 Aug 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4193,6 +4193,7 @@
 /track-compiled.js
 /track-cookies.
 /track-event.
+/track-focus.min.js
 /track-imp?
 /track-internal-links.
 /track-opening/*
@@ -4319,6 +4320,7 @@
 /tracker.php?
 /tracker.pl?
 /tracker.tsp?
+/tracker/?key=
 /tracker/aptimized-
 /tracker/canvas.ashx
 /tracker/counter/*
@@ -6864,6 +6866,7 @@ _mongo_stats/
 ||livestat.com^$third-party
 ||livetrafficfeed.com^$third-party
 ||lloogg.com^$third-party
+||lmyiwaakn.com^$third-party
 ||lngtd.com^$third-party
 ||localytics.com^$third-party
 ||lockview.cn^$third-party
@@ -7379,6 +7382,7 @@ _mongo_stats/
 ||recoset.com^$third-party
 ||recruitics.com^$third-party
 ||redcounter.net^$third-party
+||redfastlabs.com^$third-party
 ||redistats.com^$third-party
 ||redstatcounter.com^$third-party
 ||reedbusiness.net^$third-party
@@ -11315,6 +11319,7 @@ _mongo_stats/
 ||recart.com/tracking/
 ||recs.atgsvcs.com^$third-party
 ||redditstatic.com/ads/pixel.js
+||redfast.com/ping/
 ||redplum.com^*&pixid=$third-party
 ||reelevant.dev/tracker
 ||reevoo.com/assets/ga.$script
@@ -16659,6 +16664,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||ilsole24ore.com/static/js/track.js?
 ||joka.it/inquiero/isapi/csf.dll?
 ||la7.it/js-live/nielsen1.js
+||leggo.it/index.php?$image
 ||libero.it//js/comscore/
 ||libero.it/cgi-bin/ajaxtrace?
 ||libero.it/cgi-bin/cdcounter.cgi?
@@ -17107,6 +17113,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||bbc.co.uk/radio/player/*/logger.js$script,~third-party
 @@||bgp.he.net/images/flags/*.gif?$image
 @@||bjjhq.com/HttpCombiner.ashx?$script
+@@||blackcircles.ca^*/gtm.js$~third-party
 @@||bluecare.express/js/tracking/$script,~third-party
 @@||bookmate.com^*/impressions?$xmlhttprequest
 @@||bootcamp.mit.edu/js/angulartics-google-analytics.min.js
@@ -17329,7 +17336,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||player.sundaysky.com^$subdocument
 @@||playstation.net/event/$domain=playstation.com|playstation.net|sony.com
 @@||pnas.org^*/fingerprint.js$script,~third-party
-@@||pro.ip-api.com/json/$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|sheee.co.il|walla.co.il
+@@||pro.ip-api.com/json$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|sheee.co.il|walla.co.il
 @@||ps.w.org/google-analytics-dashboard-for-wp/assets/
 @@||pshared.5min.com/Scripts/OnePlayer/Loggers/ComScore.StreamSense.js
 @@||pshared.5min.com/Scripts/OnePlayer/Loggers/ComScore.Viewability.js
