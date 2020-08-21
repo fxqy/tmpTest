@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: hz2EH4useutYA2eUBctf0A
-! Version: 202008190911
+! Checksum: 8DhhzN4HJl27Cnu12fOnkA
+! Version: 202008210911
 ! Title: EasyPrivacy
-! Last modified: 19 Aug 2020 09:11 UTC
+! Last modified: 21 Aug 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -383,6 +383,7 @@
 /_owa.gif?
 /_sess/script.js
 /_stat/log/*
+/_stat/log_
 /_t.gif?*&u=
 /_t.gif?url=
 /_topic_stats?
@@ -1525,6 +1526,7 @@
 /ctrack?
 /ctracker/*$domain=~charmtracker.com
 /ctrl.gif?ref=
+/custom-analytics.js
 /custom-tracking.
 /CustomTrackingScript.
 /cv/conversion.js
@@ -7205,6 +7207,7 @@ _mongo_stats/
 ||pass-1234.com^$third-party
 ||pathful.com^$third-party
 ||pbbl.co^$third-party
+||pbstck.com^$third-party
 ||pc1.io^$third-party
 ||pclicks.com^$third-party
 ||pcspeedup.com^$third-party
@@ -7490,6 +7493,7 @@ _mongo_stats/
 ||sapha.com^$third-party
 ||sas15k01.com^$third-party
 ||sayutracking.co.uk^$third-party
+||sbbanalytics.com^$third-party
 ||sbdtds.com^$third-party
 ||sc-static.net^$third-party
 ||scaledb.com^$third-party
@@ -7660,6 +7664,7 @@ _mongo_stats/
 ||spywords.com^$third-party
 ||sqate.io^$third-party
 ||squidanalytics.com^$third-party
+||srmdata.com^$third-party
 ||srpx.net^$third-party
 ||srv1010elan.com^$third-party
 ||stack-sonar.com^$third-party
@@ -8600,6 +8605,7 @@ _mongo_stats/
 ||amazingairplane.com^$third-party
 ||anxiousapples.com^$third-party
 ||attractivecap.com^$third-party
+||audioarctic.com^$third-party
 ||automaticside.com^$third-party
 ||awzbijw.com^$third-party
 ||axiomaticalley.com^$third-party
@@ -8746,6 +8752,7 @@ _mongo_stats/
 ||readymoon.com^$third-party
 ||realizerecess.com^$third-party
 ||realizevacation.com^$third-party
+||receptivereaction.com^$third-party
 ||repeatsweater.com^$third-party
 ||resonantbrush.com^$third-party
 ||rhetoricalloss.com^$third-party
@@ -11078,6 +11085,7 @@ _mongo_stats/
 ||msecnd.net/scripts/jsll-
 ||mshcdn.com/assets/metrics-
 ||mts.mansion.com^$third-party
+||mtvnservices.com/aria/projectX/
 ||mtvnservices.com/aria/uuid.html
 ||mtvnservices.com/metrics/
 ||murdoog.com^*/Pixel/$image
@@ -11955,7 +11963,6 @@ _mongo_stats/
 ||dingxiang-inc.com/ctu-group/constid-js/index.js
 ||fyrsbckgi-c.global.ssl.fastly.net^
 ||he7ll.com/api/js/ec-
-||ltwebstatic.com^*/assets/common.$script
 ||mhxk.com^*/main/entry.common.$script
 ||nofraud.com/js/device.js
 ||nofraud.com^*/customer_code.js
@@ -12532,6 +12539,7 @@ _mongo_stats/
 ||future-shop.jp/rview.gif?
 ||imgstat.ameba.jp^$third-party
 ||ip2c.landscape.co.jp^
+||ipcheck.blogsys.jp^
 ||kitchen.juicer.cc^
 ||l-tike.com/akam/$script
 ||l.popin.cc^
@@ -12732,6 +12740,7 @@ _mongo_stats/
 ||stat.rum.cdnvideo.ru^
 ||stat.sputnik.ru^
 ||stat.tvigle.ru^
+||statistics.fppressa.ru^
 ||stats-*.p2pnow.ru^
 ||stats.embedcdn.cc^
 ||stats.seedr.com^
@@ -15609,6 +15618,7 @@ _mongo_stats/
 ||thisisthewestcountry-gb.thisisthewestcountry.co.uk^
 ||thurrockgazette-gb.thurrockgazette.co.uk^
 ||times-series-gb.times-series.co.uk^
+||trustarc.mgr.consensu.org/get?
 ||ttauri.creativebloq.com^
 ||ttauri.laptopmag.com^
 ||ttauri.livescience.com^
@@ -16689,6 +16699,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||smsaffari.it/count_new.php?
 ||spaziogames.it/ajax/player_impression.ashx?
 ||stats.splinder.com^
+||tantifilm.top^*/ping
 ||tiscali.it/banner-tiscali/stats.html?
 ||topolino.it^*/omniture.php?
 ||track.tesiteca.it^
