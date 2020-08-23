@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: HcXWGHA3Fe3pAPX4w/4ZrA
-! Version: 202008230401
+! Checksum: /HukrMuik/ERvyohEp6psg
+! Version: 202008231331
 ! Title: EasyPrivacy
-! Last modified: 23 Aug 2020 04:01 UTC
+! Last modified: 23 Aug 2020 13:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -297,6 +297,7 @@
 .png?cpn=
 .png?uid=*&tag=
 .pt/n.gif?
+.redux-logger-
 .ro/c.gif?
 .ru/0.gif?
 .sharecounter.$third-party
@@ -1057,6 +1058,8 @@
 /bm-bam-trk.
 /bms-analytics.
 /bn/tracker/*
+/bnTracker.js?
+/bnTracker/*
 /bom/analytics/*
 /bookvisitinfo.html?
 /boomerang-latest.js
@@ -2198,6 +2201,8 @@
 /gv-analytics/*
 /gweb/analytics/*
 /hash_stat_bulk/*
+/hawkeye.js
+/hawklinks.js
 /hc/tracking/*
 /hc_pixel.gif?
 /headerpixel.gif?
@@ -4396,6 +4401,7 @@
 /tracking-script/*
 /tracking-v3.
 /tracking-widget.
+/tracking.*&ref=
 /tracking.*/impression?
 /tracking.*/view?
 /tracking.*/viewRes?
@@ -5191,6 +5197,7 @@ _astatspro/
 _audience_pixel.
 _baynote.
 _beacon?
+_bnTracker.min.js?
 _browsermetrix.
 _c.gif?c=
 _cedexis.
@@ -8233,6 +8240,7 @@ _mongo_stats/
 ||pushbullet.com^$third-party
 ||pushengage.com^$third-party
 ||pushex.io^$third-party
+||pushible.com^$third-party
 ||pushify.com^$third-party
 ||pushwoosh.com^$third-party
 ||reconditerespect.com^$third-party
@@ -10237,7 +10245,6 @@ _mongo_stats/
 ||cdn3.net/pixe/
 ||cdnma.com/apps/capture.js
 ||cdnplanet.com/static/rum/rum.js
-||cdnweb.aoscdn.com/hawkeye.js
 ||ce.lijit.com^
 ||centerix.ru^*/count.msl?
 ||ceros.com/a?data
@@ -10356,6 +10363,7 @@ _mongo_stats/
 ||conde.io/beacon
 ||condenastdigital.com/content?$third-party
 ||confiant-integrations.global.ssl.fastly.net^
+||connect.bolt.com/v1/log
 ||connect.facebook.net/signals/$third-party
 ||connect.facebook.net^*/fbds.js$third-party
 ||consensu.org/?log=
@@ -10643,7 +10651,7 @@ _mongo_stats/
 ||facebook.com*/impression.php
 ||facebook.com/*/plugins/send_to_messenger.php?app_id=$third-party
 ||facebook.com/ai.php?
-||facebook.com/ajax/bz$ping
+||facebook.com/ajax/bz$ping,xmlhttprequest
 ||facebook.com/audience_network/$image
 ||facebook.com/brandlift.php
 ||facebook.com/common/cavalry_endpoint.php?
@@ -10667,7 +10675,6 @@ _mongo_stats/
 ||feedcat.net/button/
 ||feedify.net/thirdparty/json/track/
 ||filament-stats.herokuapp.com^
-||files-hawk.co.uk/hl/hawklinks.js
 ||filesonic.com/referral/$third-party
 ||firecrux.com/track/$xmlhttprequest
 ||fitanalytics.com/metrics/
@@ -10781,7 +10788,6 @@ _mongo_stats/
 ||happen.spkt.io^
 ||harvester.ext.square-enix-europe.com^
 ||hasbro.com/includes/js/metrics/
-||hawkeye-data-production.sciencemag.org.s3-website-us-east-1.amazonaws.com^
 ||haymarket.com/injector/deliver/
 ||heals.msgfocus.com^$third-party
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
@@ -12031,6 +12037,7 @@ _mongo_stats/
 ||howsmyssl.com^$third-party
 ||js.trendmd.com^$script,subdocument,third-party
 ||nsg.symantec.com^$third-party
+||privacy-policy.truste.com^$third-party
 ||seal.godaddy.com^$third-party
 ||seal.networksolutions.com^$third-party
 ||seal.verisign.com^$third-party
@@ -12520,7 +12527,6 @@ _mongo_stats/
 ||stats.rcsobjects.it^
 ||stats.technopia.it^
 ||stats2.*.fdnames.com^
-||stgy.ovh^*/3rdp-censor/
 ||tag.triboomedia.it^
 ||tourmake.it^*/stat/
 ||tourmake.it^*/stats?
@@ -12599,6 +12605,7 @@ _mongo_stats/
 ||180.70.93.115/ndmclick/$domain=~daum.ip
 ||cafe24.com/weblog.js
 ||log.cizion.com^
+||log.targetpush.co.kr^
 ||mtag.mman.kr^
 ||performanceplay.co.kr^
 ||recobell.io/rest/logs?
@@ -13807,6 +13814,7 @@ _mongo_stats/
 ||idiva.com/analytics_
 ||idolator.com/stats/
 ||iedc.fitbit.com^
+||ig.active.com/ig.track.js$script
 ||ign.com/global/analytics/drones.js
 ||iheart.com/tracking/
 ||image.providesupport.com/cmd/
@@ -15417,6 +15425,7 @@ _mongo_stats/
 ||ebaystatic.com^*/10341xh50yz21mhhydueu4m5wad.js$script,domain=ebay.com
 ||ebaystatic.com^*/g52yxhxv2mzcbealmlkri4kn5av.js$script,domain=ebay.com
 ! Fingerprint
+/^https?:\/\/www\.ugg\.com\/static\/[a-z0-9]{15,}/$domain=ugg.com
 ||aero.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||bcicdn.com/js-min/*/chunks/8.*.js
 ||boss.bankofamerica.com^$script,~third-party,xmlhttprequest
@@ -15838,6 +15847,7 @@ _mongo_stats/
 ||greenmangaming.com/omnopfddrdlevbbh.js
 ||gumtree.com/ycxwzbcsxennhrkc.js
 ||gumtree.com/ycxwzbcsxennhrkcxhr.js
+||hardware.info/js/l/23082020.js
 ||paxful.com/bmlsclxndnomunnk.js
 ||teepublic.com/binfgkxpxaizujgk.js
 ! stackoverflow
@@ -16795,6 +16805,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||gmarket.co.kr/js/common/uuid.js
 ||hits.zdnet.co.kr^
 ||l.m.naver.com^
+||log.etoday.co.kr^
 ||log.sv.pandora.tv^
 ||naver.com/PostView.nhn?$image
 ||nil.naver.com^
@@ -17713,7 +17724,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ilsole24ore.com^*/fingerprint2.min.js?
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=la7.it|sky.it|video.corriere.it
 @@||imrworldwide.com/v60.js$domain=capital.it|corriereadriatico.it|fanpage.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|leggo.it|m2o.it|quotidianodipuglia.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it
-@@||iolam.it/js/iam2.0.js?$script,domain=3bmeteo.com|siviaggia.it|virgilio.it
+@@||iolam.it/js/iam2.0.js?$script,domain=3bmeteo.com|dilei.it|siviaggia.it|virgilio.it
 @@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it
 @@||mediaworld.it^*/GoogleTagManager.js?
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=vodafone.it
