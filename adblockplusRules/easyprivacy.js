@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ggVxoz0ZUOG7NJNN3AAuGQ
-! Version: 202008280921
+! Checksum: RlseG67nS3uJi+NaqhHSIQ
+! Version: 202008300701
 ! Title: EasyPrivacy
-! Last modified: 28 Aug 2020 09:21 UTC
+! Last modified: 30 Aug 2020 07:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10059,6 +10059,7 @@ _mongo_stats/
 ||analytics.urx.io^
 ||analytics.vanillaforums.com^
 ||analytics.vendemore.com^
+||analytics.video.meredithcorp.io^
 ||analytics.webgains.io^
 ||analytics.websolute.it^
 ||analytics.wildtangent.com^
@@ -10215,6 +10216,7 @@ _mongo_stats/
 ||breakingburner.com/stats.html?
 ||breakmedia.com/track.jpg?
 ||bright.bncnt.com^
+||browser.sentry-cdn.com^
 ||browserscope.org/user/beacon/
 ||bs.yandex.ru^
 ||btn.clickability.com^
@@ -10657,6 +10659,7 @@ _mongo_stats/
 ||evt.collarity.com^$image
 ||evt.izooto.com^
 ||exacttarget.com^$third-party
+||excite.ie/?click_in=
 ||exitintel.com/log/$third-party
 ||experience.contextly.com^
 ||f.email.bjs.com^*/1x2.gif
@@ -12060,6 +12063,7 @@ _mongo_stats/
 ||siteintercept.qualtrics.com^$third-party
 ||trustev.com/trustev.min.js$third-party
 ||websecurity.norton.com^$third-party
+||webutation.net/js/load_badge.js
 ||widget.trustpilot.com^$third-party
 ||widgets.trustedshops.com^$third-party
 ! Suspect trackers (from privacy badger)
@@ -13244,7 +13248,6 @@ _mongo_stats/
 ||cheapsalesconsulting.com/adaptive.php?
 ||cheezburger.com/api/visitor
 ||chelseafc.com^*/tracking.js
-||chicagotribune.com/pb/resources/images/tinygif.gif
 ||china.com/statistic.js
 ||china.com^*/endpage_footer.js
 ||chip.eu^*/pic.gif?
@@ -13268,6 +13271,7 @@ _mongo_stats/
 ||click2.cafepress.com^
 ||clicks.hurriyet.com.tr^
 ||clicks.traffictrader.net^
+||clicktime.symantec.com^
 ||client-event-reporter.twitch.tv^
 ||climatedesk.org*/pixel.gif
 ||clk.about.com^
@@ -13743,6 +13747,7 @@ _mongo_stats/
 ||groupon.*/tracky$xmlhttprequest
 ||groupon.com/analytic/
 ||groupon.com/tracking
+||guardianapps.co.uk/geolocation
 ||gumtree.com.au/?pc=
 ||h.cliphunter.com^
 ||hanksgalleries.com/stxt/counter.php?
@@ -14239,6 +14244,7 @@ _mongo_stats/
 ||nordstrom.com/log
 ||nova.pub/track.php?
 ||novatech.co.uk^*/tracking?
+||novelcool.com/files/js/yh_tj.js
 ||novell.com^*/metrics.js
 ||novinite.com/tz.php
 ||nst.com.my/statistic/
@@ -17266,6 +17272,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||firstdirect.com^*/logging-code.js
 @@||firststatesuper.com.au^*/js/analytics.js$script
 @@||flagshipmerchantservices.com/clickpathmedia.js
+@@||flipboard.com/setcookie?$~third-party
 @@||flippingbook.com^*/static/analytics.js$script,~third-party
 @@||flsenate.gov/Scripts/GoogleAnalytics.js$~third-party
 @@||fmz.com/pkg/fingerprint2.min.js$~third-party,xmlhttprequest
@@ -17468,7 +17475,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||treg.hearstnp.com/treg.js$script,domain=sfchronicle.com
 @@||tw.cx/c?a=$xmlhttprequest,domain=justwatch.com
 @@||udottraffic.utah.gov/javascripts/Piwik.js
-@@||ue.flipboard.com^$script,~third-party
 @@||uefa.com/inc/js/core/projects/statistics/statistics.js?$script
 @@||uid.mavencoalition.io^$xmlhttprequest,domain=thestreet.com
 @@||ultimedia.com/js/common/jquery.gatracker.js
