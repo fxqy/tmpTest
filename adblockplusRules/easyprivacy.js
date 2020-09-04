@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: JZdwLAgtAhqwEMm7UpiBHg
-! Version: 202009031031
+! Checksum: 2TW0+gfnlVvEMOF166rL6w
+! Version: 202009041122
 ! Title: EasyPrivacy
-! Last modified: 03 Sep 2020 10:31 UTC
+! Last modified: 04 Sep 2020 11:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3284,6 +3284,7 @@
 /pixel/img/*
 /pixel/impression/*
 /pixel/js/*$third-party
+/Pixel/Script/Behavior?
 /pixel/stream/*
 /pixel/visit?
 /pixel1/impression.
@@ -4124,6 +4125,8 @@
 /td-pageviews.
 /tda.*/in.gif
 /teal-chartbeat-
+/teal-comscore-
+/teal-gcianalytics-
 /tealeaf.cgi
 /TeaLeaf.js
 /tealeaf.min.js
@@ -5716,6 +5719,7 @@ _mongo_stats/
 ||agilecrm.com^$third-party
 ||agilone.com^$third-party
 ||agkn.com^$third-party
+||agrvt.com^$third-party
 ||aidata.io^$third-party
 ||aimediagroup.com^$third-party
 ||air2s.com^$third-party
@@ -6630,6 +6634,7 @@ _mongo_stats/
 ||hitslog.com^$third-party
 ||hitsniffer.com^$third-party
 ||hitsprocessor.com^$third-party
+||hitsteps.com^$third-party
 ||hittail.com^$third-party
 ||hittracker.com^$third-party
 ||hitwake.com^$third-party
@@ -17808,6 +17813,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||mediaweaver.jp^$image,domain=ismedia.jp
 @@||nihongo.alc.co.jp/theme/Japanese/img/home/nf/us.gif$image,~third-party
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
+@@||r-ad.ne.jp/json?$xmlhttprequest,domain=recruit.co.jp
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
