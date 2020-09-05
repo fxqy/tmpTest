@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 2TW0+gfnlVvEMOF166rL6w
-! Version: 202009041122
+! Checksum: sWRGb6HVUVNL/XT2txOE3g
+! Version: 202009051331
 ! Title: EasyPrivacy
-! Last modified: 04 Sep 2020 11:22 UTC
+! Last modified: 05 Sep 2020 13:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -917,6 +917,7 @@
 /autotag.
 /autotrack-with-autotrack-analytics.
 /autotrack.carbon.js
+/autotrack.custom.js
 /autotrack.custom.min.js
 /autotrack.js
 /autotrack.min.js
@@ -6076,6 +6077,7 @@ _mongo_stats/
 ||cnzz.com^$third-party
 ||cobaltgroup.com^$third-party
 ||codata.ru^$third-party
+||coefficy.com^$third-party
 ||cogmatch.net^$third-party
 ||cognativex.com^$third-party
 ||cognitivematch.com^$third-party
@@ -13378,7 +13380,6 @@ _mongo_stats/
 ||dailymotion.com^*/analytics.js
 ||dailymotion.com^*/tag.gif?
 ||dainikbhaskar.com/tracking/
-||data.mail.yahoo.com^
 ||data.mic.com^
 ||data.ninemsn.com.au/*GetAdCalls
 ||data.younow.com^
@@ -13711,7 +13712,7 @@ _mongo_stats/
 ||glamourmagazine.co.uk^*/LogPageView
 ||glassmoni.researchgate.net^
 ||global.canon^*/analytics.js
-||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courierpress.com|desertsun.com|eddiebauer.com|glassesusa.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|theadvertiser.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
+||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courierpress.com|desertsun.com|eddiebauer.com|glassesusa.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|theadvertiser.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
 ||globes.co.il/ga.asp
 ||globes.co.il/shared/s.ashx?
 ||globester.com^*/track.js
@@ -15413,6 +15414,7 @@ _mongo_stats/
 ||ypcdn.com/webyp/javascripts/client_side_analytics_
 ||yuku.com/stats?
 ||yupptv.com/yupptvreports/stats.php^
+||yusercontent.com/mail?url=$image,domain=mail.yahoo.com
 ||yyv.co/track/
 ||zap.dw-world.de^$image
 ||zap2it.com^*/editorial-partner/
@@ -15657,6 +15659,7 @@ _mongo_stats/
 ||southwalesargus-gb.southwalesargus.co.uk^
 ||southwalesguardian-gb.southwalesguardian.co.uk^
 ||southwestfarmer-gb.southwestfarmer.co.uk^
+||sp.news-journalonline.com^
 ||stalbansreview-gb.stalbansreview.co.uk^
 ||sthelensstar-gb.sthelensstar.co.uk^
 ||stourbridgenews-gb.stourbridgenews.co.uk^
@@ -17369,6 +17372,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||mlb.com/scripts/stats/app/bam.stats.app.unified_file.js$script
 @@||mlb.com/scripts/stats/app/bbq_hashmgmt.js$script
 @@||mlbstatic.com/mlb.com/adobe-analytics/AppMeasurement-mlb.js$domain=mlb.com
+@@||mlbstatic.com/mlb.com/adobe-analytics/VisitorAPI.js$script,domain=mlb.com
 @@||monetate.net/img/$script,domain=newegg.com
 @@||monetate.net/js/$domain=newegg.com|nike.com
 @@||monetate.net/trk/$script,domain=newegg.com
