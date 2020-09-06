@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: sWRGb6HVUVNL/XT2txOE3g
-! Version: 202009051331
+! Checksum: GTUiXXcSbjUfVsjR6wrzdA
+! Version: 202009061201
 ! Title: EasyPrivacy
-! Last modified: 05 Sep 2020 13:31 UTC
+! Last modified: 06 Sep 2020 12:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -936,6 +936,7 @@
 /aws-analytics.js
 /awstats.js
 /awstats_misc_tracker
+/azion-pulse.js
 /aztrack.
 /aztracker.
 /b/s/beacon
@@ -1106,6 +1107,7 @@
 /bundles/cm.js|
 /bundles/metrics.
 /bundles/tracciamento?
+/busting/*/gtm-
 /buzz_stats.
 /bypassmajs|
 /bypasspiphp?
@@ -3051,6 +3053,7 @@
 /omniture/sphere
 /omniture/tracking.
 /Omniture/Tracking/*
+/omniture/uuid.
 /omniture/visitorapi.
 /omniture?
 /omnitureAMP.
@@ -3886,6 +3889,7 @@
 /stat/eventManager/*
 /stat/fe?
 /stat/inserthit.
+/stat/online-log
 /stat/track.php?mode=js
 /stat/track_
 /stat/tracker.
@@ -4317,6 +4321,7 @@
 /track_yt_vids.
 /trackad.
 /trackAdHit.
+/trackAirship.js
 /trackalyze/*$script
 /TrackClick.
 /trackClickAsync.
@@ -6425,6 +6430,7 @@ _mongo_stats/
 ||flashgamestats.com^$third-party
 ||flashtalking.com^$third-party
 ||flcounter.com^$third-party
+||flexlinkspro.com^$third-party
 ||flixfacts.co.uk^$third-party
 ||flixsyndication.net^$third-party
 ||flocktory.com^$third-party
@@ -6476,6 +6482,7 @@ _mongo_stats/
 ||friendbuy.com^$third-party
 ||fruitflan.com^$third-party
 ||fsd2.digital^$third-party
+||fstats.xyz^$third-party
 ||fstrk.net^$third-party
 ||ftbpro.com^$third-party
 ||ftz.io^$third-party
@@ -7301,6 +7308,7 @@ _mongo_stats/
 ||pntra.com^$third-party
 ||pntrac.com^$third-party
 ||pntrs.com^$third-party
+||podfdch.com^$third-party
 ||pointillist.com^$third-party
 ||pointomatic.com^$third-party
 ||polarcdn-pentos.com^$third-party
@@ -8148,6 +8156,7 @@ _mongo_stats/
 ||wt-eu02.net^$third-party
 ||wt-safetag.com^$third-party
 ||wtp101.com^$third-party
+||wts.one^$third-party
 ||wtstats.com^$third-party
 ||wundercounter.com^$third-party
 ||wunderloop.net^$third-party
@@ -8712,6 +8721,7 @@ _mongo_stats/
 ||forecasttiger.com^$third-party
 ||frailoffer.com^$third-party
 ||futuristicfifth.com^$third-party
+||gammamaximum.com^$third-party
 ||giddycoat.com^$third-party
 ||giraffepiano.com^$third-party
 ||glisteningguide.com^$third-party
@@ -8755,6 +8765,7 @@ _mongo_stats/
 ||markedmeasure.com^$third-party
 ||massivemark.com^$third-party
 ||meatydime.com^$third-party
+||memorizeneck.com^$third-party
 ||movemeal.com^$third-party
 ||mowfruit.com^$third-party
 ||mundanepollution.com^$third-party
@@ -8790,6 +8801,7 @@ _mongo_stats/
 ||realizerecess.com^$third-party
 ||realizevacation.com^$third-party
 ||receptivereaction.com^$third-party
+||rejectfairies.com^$third-party
 ||repeatsweater.com^$third-party
 ||resonantbrush.com^$third-party
 ||rhetoricalloss.com^$third-party
@@ -10265,6 +10277,7 @@ _mongo_stats/
 ||carambo.la/logging/
 ||carl.pubsvs.com^
 ||caspionlog.appspot.com^
+||cbsi.com/lib/api/client-info
 ||cbsistatic.com^*/siteTracking.js
 ||cc.swiftype.com^
 ||ccexperimentsstatic.oracleoutsourcing.com^
@@ -10738,6 +10751,8 @@ _mongo_stats/
 ||geckofoot.com/gfcounterimg.aspx?
 ||geckofoot.com/gfvisitormap.aspx?
 ||geni.us/snippet.js
+||geo-eu.snigelweb.com^
+||geo-us.snigelweb.com^
 ||geo.ertya.com^
 ||geo.gexo.com/geo.js$third-party
 ||geo.gorillanation.com^
@@ -11072,6 +11087,7 @@ _mongo_stats/
 ||mcs.delvenetworks.com^
 ||mcssl.com^*/track.ashx?
 ||mdctrail.com/b.ashx$third-party
+||measure.refinery89.com^
 ||media-imdb.com/twilight/?
 ||mediabong.com/t/
 ||mediabong.net/t/
@@ -11398,6 +11414,8 @@ _mongo_stats/
 ||rt.flix360.com^
 ||rtt.campanja.com^
 ||ru4.com/click?
+||rum.azion.com^
+||rum.azioncdn.net^
 ||rum.conde.io^
 ||rum.minutemediaservices.com^
 ||rum.nccgroup-webperf.com^
@@ -11616,6 +11634,7 @@ _mongo_stats/
 ||tags.cdn.circlesix.co^
 ||tags.master-perf-tools.com^
 ||tags.newscgp.com^
+||tags.refinery89.com^
 ||target.mixi.media^
 ||targeting.*.arcpublishing.com^
 ||targeting.perso.aws.arc.pub^
@@ -14441,6 +14460,7 @@ _mongo_stats/
 ||pulsar.ebay.$ping,script
 ||purevpn.com/api/setCookies
 ||puritan.com/images/pixels/
+||pushsquare.com/blank.gif
 ||pvstat.china.cn^
 ||pw.org/sites/all/*/ga.js
 ||px.mvfglobal.com^
@@ -15176,6 +15196,7 @@ _mongo_stats/
 ||upsellit.com^*/visitor?
 ||uptpro.homestead.com^
 ||urbanlist.com/event/track-first-view/
+||urs.metacritic.com^
 ||usage.zattoo.com/?adblock=
 ||usell.com/bug.gif?
 ||user-metrics.onthemarket.com^
