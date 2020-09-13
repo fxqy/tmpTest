@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: vihSk+/2oBnApZArrVBVgA
-! Version: 202009120021
+! Checksum: VXOv0PLmMlF5QtsQ/Chbtw
+! Version: 202009130651
 ! Title: EasyPrivacy
-! Last modified: 12 Sep 2020 00:21 UTC
+! Last modified: 13 Sep 2020 06:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -635,6 +635,7 @@
 /analytics-endpoint.
 /analytics-event-
 /analytics-event.
+/analytics-events-
 /analytics-gcp.
 /analytics-helper.
 /analytics-ingestion/*
@@ -5353,6 +5354,7 @@ _admiral.
 ! Consent/GDPR tracking
 /cmp-hello.
 /cmp/messaging.js
+/cmp3.js
 /sourcepoint.js
 /SourcePoint_JS_Files/*
 ! Eulerian
@@ -5784,6 +5786,7 @@ _mongo_stats/
 ||apexstats.com^$third-party
 ||apextag.com^$third-party
 ||apextwo.com^$third-party
+||api64.com^$third-party
 ||apicit.net^$third-party
 ||apollofind.com^$third-party
 ||appboycdn.com^$third-party
@@ -6614,6 +6617,7 @@ _mongo_stats/
 ||gxgydnhz.com^$third-party
 ||h4k5.com^$third-party
 ||halldata.com^$third-party
+||haloscan.com^$third-party
 ||halstats.com^$third-party
 ||haveamint.com^$third-party
 ||hdmtools.com^$third-party
@@ -7195,6 +7199,7 @@ _mongo_stats/
 ||onefeed.co.uk^$third-party
 ||oneimpress.io^$third-party
 ||onelink-translations.com^$third-party
+||onelink.me^$third-party
 ||onestat.com^$third-party
 ||onetag-sys.com^$third-party
 ||onetag.io^$third-party
@@ -8653,6 +8658,7 @@ _mongo_stats/
 ||alleyarm.com^$third-party
 ||allowmailbox.com^$third-party
 ||amazingairplane.com^$third-party
+||amlg.io^$third-party
 ||anxiousapples.com^$third-party
 ||attractivecap.com^$third-party
 ||audioarctic.com^$third-party
@@ -8791,6 +8797,7 @@ _mongo_stats/
 ||pietexture.com^$third-party
 ||plantdigestion.com^$third-party
 ||pleasantpump.com^$third-party
+||plotrabbit.com^$third-party
 ||prepareplanes.com^$third-party
 ||profusesupport.com^$third-party
 ||puffyloss.com^$third-party
@@ -10727,6 +10734,7 @@ _mongo_stats/
 ||geo.ngtv.io^
 ||geo.q5media.net^
 ||geo.query.yahoo.com^$~xmlhttprequest,domain=~mail.yahoo.com
+||geo.thehindu.com^
 ||geobar.ziffdavisinternational.com^
 ||geoip.nekudo.com^
 ||geoservice.curse.com^
@@ -10825,6 +10833,7 @@ _mongo_stats/
 ||icbdr.com/images/pixel.gif
 ||icu.getstorybox.com^
 ||id.verticalhealth.net/script.js?partnerid=
+||iheart.com/events
 ||images-amazon.com/images/*/ga.js$third-party
 ||images-amazon.com/images/*/third-party/tracker$third-party
 ||images-amazon.com/images^*/analytics/$third-party
@@ -13081,7 +13090,7 @@ _mongo_stats/
 ||baidu.com^*/wb.gif?
 ||bandstores.co.uk/tracking/scripts/
 ||banggood.com/?p=
-||bangkokpost.com/spac/spac.js
+||bangkokpost.com/hits/
 ||bankofamerica.com/cookie-id.js
 ||barcelo.com^*/Tracking.js
 ||barclaycard.co.uk/cs/static/js/esurveys/esurveys.js
@@ -13285,7 +13294,6 @@ _mongo_stats/
 ||collector.tescocompare.com^
 ||collector.trendmd.com^
 ||collector.wallapop.com^
-||collegehumor.com/track.php?
 ||commentarymagazine.com^*/track.asp?
 ||commercialappeal.com/metrics/
 ||compare.easyvoyage.
@@ -13513,6 +13521,7 @@ _mongo_stats/
 ||ezinearticles.com/blank/
 ||f-secure.com^*/wtsdc.js
 ||f.staticlp.com^
+||facebook.com/a/bz?
 ||facebook.com/ajax/*/log.php
 ||facebook.com/ajax/*logging.
 ||facebook.com/ct.php
@@ -14031,6 +14040,7 @@ _mongo_stats/
 ||media-imdb.com/images/*/imdbads/js/beacon-$script
 ||media-imdb.com^*/adblock.swf
 ||mediaplex.com^*/universal.html
+||medium.com^*/performance/
 ||medscape.com/pi/1x1/pv/profreg-1x1.gif
 ||meduza.io/stat/
 ||merchantcircle.com/static/track.js
@@ -17128,6 +17138,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ! *** easylist:easyprivacy/easyprivacy_allowlist.txt ***
 @@/build/js/analytics.$script,domain=lx.com|nbcbayarea.com|nbcboston.com|nbcchicago.com|nbcconnecticut.com|nbcdfw.com|nbclosangeles.com|nbcmiami.com|nbcnewyork.com|nbcphiladelphia.com|nbcsandiego.com|nbcwashington.com|necn.com|telemundo40.com|telemundo48elpaso.com|telemundoarizona.com|telemundolasvegas.com|telemundopr.com
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
+@@/friendbuy.min.js$script,domain=butcherbox.com
 @@/yozons-lib/core.js$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
 @@||1001trackstats.com/api/$xmlhttprequest,domain=songstats.com
 @@||ad.crwdcntrl.net^$script,domain=investopedia.com
@@ -17276,6 +17287,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||fmz.com/pkg/fingerprint2.min.js$~third-party,xmlhttprequest
 @@||fncstatic.com^*/visitorapi.js$script,domain=foxbusiness.com|foxnews.com
 @@||foxnews.com^*/visitorapi.js$script,domain=foxnews.com
+@@||friendbuy.com^$domain=butcherbox.com
 @@||gannettdigital.com/universal-web-client/master/latest/elements/$xmlhttprequest
 @@||gatsbyjs.org/packages/$xmlhttprequest
 @@||gatsbyjs.org/page-data/packages/$xmlhttprequest
