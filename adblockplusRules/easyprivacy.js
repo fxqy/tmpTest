@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: VXOv0PLmMlF5QtsQ/Chbtw
-! Version: 202009130651
+! Checksum: hSpwMxy52irwDin7+WhAQw
+! Version: 202009141211
 ! Title: EasyPrivacy
-! Last modified: 13 Sep 2020 06:51 UTC
+! Last modified: 14 Sep 2020 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1511,7 +1511,7 @@
 /CreateCookieSSO_
 /CreateVIDCookie.aspx?
 /creative.png?slotId=
-/criteo.$domain=~criteo.investorroom.com
+/criteo.$domain=~criteo.blotout.io|~criteo.investorroom.com
 /Criteo/*
 /criteo_
 /criteoRTA.
@@ -2056,6 +2056,7 @@
 /gemiusAudience.
 /generictracking.
 /geo-ip-detect?
+/geo-location/v1
 /geo.php?
 /geoAnalysis.js
 /geocc.$domain=~geocc.ru
@@ -5330,6 +5331,9 @@ _xiti_js-
 _zag_cookie.
 cgi-bin/counter
 ||meetrics.netbb-
+! DNS checks
+/DNSCheck.js
+/DNSChecker.js
 ! hawkeye
 /hawk.js
 /hawkeye.js
@@ -11485,6 +11489,7 @@ _mongo_stats/
 ||ssl-images-amazon.com/images/*/common/1x1._*.gif$domain=~amazon.com
 ||st.cdnco.us^
 ||st.linkfire.com^
+||stacksocialcontent.com/event/
 ||stas.outbrain.com^
 ||stat.boredomtherapy.com^
 ||stat.glaze.ai^
@@ -12563,6 +12568,7 @@ _mongo_stats/
 ||tracks.arubamediamarketing.it^
 ||tracy.sadv.dadapro.com^
 ||triboomedia.it^*/Bootstrap.js
+||videomatictv.com/imps/
 ||vppst.iltrovatore.it^
 ||webbificio.com/add.asp?
 ||webbificio.com/wm.asp?
@@ -13482,6 +13488,7 @@ _mongo_stats/
 ||etui.fs.ml.com^
 ||eu.groupondata.com^
 ||ev.kck.st^
+||event-api.reverb.com^
 ||event-collector.udsrv.com^
 ||event-reporting-dot-webylytics.appspot.com^
 ||eventlog.jackpot.de^
@@ -14909,6 +14916,7 @@ _mongo_stats/
 ||talktalk.co.uk^*/log.html
 ||talktalk.co.uk^*/tracking/
 ||target.com/ci/$script
+||target.microsoft.com^$xmlhttprequest
 ||target.nejm.org^
 ||targetspot.com/track/
 ||tarot.com/stats/
@@ -15391,6 +15399,7 @@ _mongo_stats/
 ||youtube.com/ptracking?
 ||youtube.com/s?
 ||youtube.com/set_awesome?
+||youtube.com^*/heartbeat?
 ||ypcdn.com/webyp/javascripts/client_side_analytics_
 ||yuku.com/stats?
 ||yupptv.com/yupptvreports/stats.php^
@@ -16703,6 +16712,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||rtl.hu/_stat/
 ||videa.hu/flvplayer_setcookie.php?
 ! Italian
+/~shared/do/~/count/?$image
 ||alfemminile.com/logpix.php
 ||altervista.org/js/contatore.js
 ||altervista.org/js_tags/contatore.js
@@ -17647,10 +17657,11 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.fr
 @@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.fr|icimusique.ca|laredoute.be|laredoute.ch|laredoute.fr|lci.fr|nrj.fr|tou.tv
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=programme-tv.net
+@@||caf.fr^*/smarttag.js$script,~third-party
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
 @@||google-analytics.com/analytics.js$domain=infoconso-multimedia.fr|viandesuisse.ch
-@@||googletagmanager.com/gtm.js$script,domain=sciencesetavenir.fr
+@@||googletagmanager.com/gtm.js$script,domain=linternaute.com|sciencesetavenir.fr
 @@||maxmind.com/geoip/$xmlhttprequest,domain=dcshoes.fr
 @@||maxmind.com^*/geoip2.js?$script,domain=dcshoes.fr
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
