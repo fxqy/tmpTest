@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: hSpwMxy52irwDin7+WhAQw
-! Version: 202009141211
+! Checksum: O1Sc+iiF0Ka60QUO+/pFxA
+! Version: 202009161451
 ! Title: EasyPrivacy
-! Last modified: 14 Sep 2020 12:11 UTC
+! Last modified: 16 Sep 2020 14:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4541,7 +4541,6 @@
 /TrackingHandler.
 /trackingheader.
 /trackingImpression/*
-/trackingOnload-
 /trackingp.gif
 /trackingPixel.
 /TrackingPixel/*
@@ -10979,7 +10978,6 @@ _mongo_stats/
 ||livefyre.com/tracking/
 ||livefyre.com^*/tracker.js
 ||livefyre.com^*/tracking/
-||livehelpnow.net/lhn/handler/$image
 ||livehelpnow.net/lhn/jsutil/getinvitationmessage.aspx?
 ||liverail.com/?metric=
 ||liverail.com/track/?
@@ -13348,6 +13346,7 @@ _mongo_stats/
 ||customerservicejobs.com/common/track/
 ||cyberlink.com/analytics/
 ||d.ghostery.com^
+||d3f5l8ze0o4j2m.cloudfront.net^$script,domain=trademe.co.nz
 ||da.virginmedia.com^
 ||dabs.com/AbacusTest/clientinfo_bk.gif
 ||dailymail.co.uk/geo/
@@ -15431,8 +15430,8 @@ _mongo_stats/
 ! Bing
 ||bing.com/fd/ls/l?IG=
 ||bing.com/fd/ls/lsp.aspx
-||bing.com^*/glinkping.aspx
-||bing.com^*/GLinkPingPost.aspx
+||bing.com^*/glinkping.aspx$ping,xmlhttprequest
+||bing.com^*/GLinkPingPost.aspx$ping,xmlhttprequest
 ! Aliexpress
 ||aliyuncs.com/r.png
 ||gj.mmstat.com^
@@ -15443,7 +15442,7 @@ _mongo_stats/
 /^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
 /^https?:\/\/tmx\.td\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=mbna.ca|td.com
-||127.0.0.1^$third-party,websocket,domain=~127.0.0.1|~localhost
+||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.com|gumtree.com|lendup.com|mbna.ca|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com
 ||ebay.com/nkfytkqtoxtljvzb.js$script,domain=ebay.com
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ebaystatic.com^*/10341xh50yz21mhhydueu4m5wad.js$script,domain=ebay.com
@@ -17880,7 +17879,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 !
 !---------- Portuguese ----------
 !
-@@||127.0.0.1^$websocket,domain=sicredi.com.br
 @@||77.91.202.130/js/20050/xiti.js$domain=custojusto.pt
 @@||adobedtm.com^*/satelliteLib-$script,domain=crackle.com.br|laredoute.pt
 @@||chiptec.net/skin/*/GoogleAnalyticsPlus/$script
