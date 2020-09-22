@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: polCT0gnPVIYbFF2UuS8vA
-! Version: 202009210901
+! Checksum: O8AAd297NyeTkntayGtLsw
+! Version: 202009220901
 ! Title: EasyPrivacy
-! Last modified: 21 Sep 2020 09:01 UTC
+! Last modified: 22 Sep 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2349,6 +2349,7 @@
 /imp_cnt.gif?
 /imp_img.php?
 /imppix/*
+/impr.gif?
 /impr.xlg?
 /impresion/zona/*
 /impress.php?
@@ -3294,6 +3295,7 @@
 /pixel/img/*
 /pixel/impression/*
 /pixel/js/*$third-party
+/pixel/sbs?
 /Pixel/Script/Behavior?
 /pixel/stream/*
 /pixel/visit?
@@ -5071,6 +5073,7 @@
 /youtube-track-event_
 /ystat.do
 /ystat.js
+/yt-track-streamer
 /YuduStatistics/*
 /z.inc.php?
 /zag.gif?
@@ -6492,6 +6495,7 @@ _mongo_stats/
 ||fuse-data.com^$third-party
 ||fusestats.com^$third-party
 ||fuziontech.net^$third-party
+||fwpixel.com^$third-party
 ||fyreball.com^$third-party
 ||g2178927685.co^$third-party
 ||g2377012020.co^$third-party
@@ -6724,6 +6728,7 @@ _mongo_stats/
 ||infopro-insight.com^$third-party
 ||infoprodata.com^$third-party
 ||informz.net^$third-party
+||ingratitudedaintyblockade.com^
 ||inimbus.com.au^$third-party
 ||inmoment.com^$third-party
 ||innomdc.com^$third-party
@@ -8885,6 +8890,7 @@ _mongo_stats/
 ||unarmedindustry.com^$third-party
 ||unbecominghall.com^$third-party
 ||unequalbrake.com^$third-party
+||unknowncrate.com^$third-party
 ||untidyrice.com^$third-party
 ||verseballs.com^$third-party
 ||womanear.com^$third-party
@@ -10124,6 +10130,7 @@ _mongo_stats/
 ||awaps.yandex.net^
 ||awe.sm/conversions/
 ||aweber.com/form/displays.htm?$image
+||awesome.section.io^
 ||awseukpi.whisbi.com^$third-party
 ||axislogger.appspot.com^
 ||az693360.vo.msecnd.net^
@@ -11914,6 +11921,7 @@ _mongo_stats/
 ||webworx24.co.uk/123trace.php
 ||webzel.com/counter/
 ||wetpaint.com^*/track?
+||whooshkaa.com/listen/track
 ||whosread.com/counter/
 ||widgeo.net/compteur.php?
 ||widgeo.net/geocompteur/
@@ -15369,12 +15377,14 @@ _mongo_stats/
 ||youronlinechoices.com/activity/
 ||yourtv.com.au/share/com/js/fb_google_intercept.js
 ||youtube-nocookie.com/api/stats/atr
+||youtube-nocookie.com/api/stats/delayplay?
 ||youtube-nocookie.com/api/stats/playback?
 ||youtube-nocookie.com/api/stats/qoe?
 ||youtube-nocookie.com/ptracking?
 ||youtube-nocookie.com/robots.txt?
 ||youtube.com/api/stats/ads?
 ||youtube.com/api/stats/atr
+||youtube.com/api/stats/delayplay?
 ||youtube.com/api/stats/qoe?
 ||youtube.com/get_video?
 ||youtube.com/ptracking?
