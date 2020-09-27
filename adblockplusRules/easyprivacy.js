@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ccvQGZUUGCtPmaq3KENWLQ
-! Version: 202009261011
+! Checksum: WZRtzHDds68Dx6oIbEEl8g
+! Version: 202009270901
 ! Title: EasyPrivacy
-! Last modified: 26 Sep 2020 10:11 UTC
+! Last modified: 27 Sep 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -19,6 +19,7 @@
 &ctxId=*&pubId=*&clientDT=
 &ctxId=*&pubId=*&objId=
 &event=view&
+&EventType=Impression&
 &funnel_state=
 &http_referer=$script,xmlhttprequest,domain=~facebook.com
 &idsite=*&send_image=$image
@@ -2616,6 +2617,7 @@
 /LoadAudienceSegs-
 /loadcounter.
 /loader-counter.
+/loader/counter.js
 /loadJsFingerprint.js
 /localga.js
 /locotrack.js
@@ -5650,6 +5652,7 @@ _mongo_stats/
 ||acexedge.com^$third-party
 ||acint.net^$third-party
 ||acq.io^$third-party
+||acsbap.com^$third-party
 ||active-trk7.com^$third-party
 ||activeconversion.com^$third-party
 ||activemeter.com^$third-party
@@ -5831,6 +5834,7 @@ _mongo_stats/
 ||audience.visiblemeasures.com^$third-party
 ||audienceamplify.com^$third-party
 ||audienceiq.com^$third-party
+||audiencepixel.com^$third-party
 ||audiencerate.com^$third-party
 ||audiens.com^$third-party
 ||audrte.com^$third-party
@@ -5935,6 +5939,7 @@ _mongo_stats/
 ||bm324.com^$third-party
 ||bmlmedia.com^$third-party
 ||bmmetrix.com^$third-party
+||bnqt.com^$third-party
 ||bntech.io^$third-party
 ||boomerang.com.au^$third-party
 ||boomtrain.com^$third-party
@@ -7049,6 +7054,7 @@ _mongo_stats/
 ||mmi-agency.com^$third-party
 ||mno.link^$third-party
 ||mobalyzer.net^$third-party
+||mobee.xyz^$third-party
 ||mochibot.com^$third-party
 ||mockingfish.com^$third-party
 ||momently.com^$third-party
@@ -8014,6 +8020,7 @@ _mongo_stats/
 ||urlself.com^$third-party
 ||usabilitytools.com^$third-party
 ||usabilla.com^$third-party
+||usablenet.com^$third-party
 ||useinsider.com^$third-party
 ||useitbetter.com^$third-party
 ||useproof.com^$third-party
@@ -8147,6 +8154,7 @@ _mongo_stats/
 ||webtrendslive.com^$third-party
 ||webtuna.com^$third-party
 ||wemfbox.ch^$third-party
+||wgsas.com^$third-party
 ||wheredoyoucomefrom.ovh^$third-party
 ||whitepixel.com^$third-party
 ||whizstats.com^$third-party
@@ -8291,6 +8299,7 @@ _mongo_stats/
 ||pushbird.com^$third-party
 ||pushbullet.com^$third-party
 ||pushengage.com^$third-party
+||pusher.com^$third-party
 ||pushex.io^$third-party
 ||pushible.com^$third-party
 ||pushify.com^$third-party
@@ -8672,6 +8681,7 @@ _mongo_stats/
 ||audioarctic.com^$third-party
 ||automaticside.com^$third-party
 ||awakebird.com^$third-party
+||awarealley.com^$third-party
 ||awzbijw.com^$third-party
 ||axiomaticalley.com^$third-party
 ||ayc0zsm69431gfebd.info^$third-party
@@ -8722,6 +8732,7 @@ _mongo_stats/
 ||diplomahawaii.com^$third-party
 ||discreetfield.com^$third-party
 ||distinctday.com^$third-party
+||distributiontomatoes.com^$third-party
 ||divehope.com^$third-party
 ||dq95d35.com^$third-party
 ||drydrum.com^$third-party
@@ -8865,6 +8876,7 @@ _mongo_stats/
 ||spuriousbase.com^$third-party
 ||spurioussteam.com^$third-party
 ||squeakzinc.com^$third-party
+||squealingturn.com^$third-party
 ||squirrelhands.com^$third-party
 ||staleshow.com^$third-party
 ||stalesummer.com^$third-party
@@ -8881,6 +8893,7 @@ _mongo_stats/
 ||sugarcurtain.com^$third-party
 ||superficialsquare.com^$third-party
 ||sweetslope.com^$third-party
+||tangibleteam.com^$third-party
 ||tawdryson.com^$third-party
 ||tendertest.com^$third-party
 ||thirdrespect.com^$third-party
@@ -9461,7 +9474,6 @@ _mongo_stats/
 ||hiperstat.com^$third-party
 ||hitcountersonline.com^$third-party
 ||imetrix.it^$third-party
-||iolam.it^$third-party
 ||ipfrom.com^$third-party
 ||italianadirectory.com^$third-party
 ||keyxel.com^$third-party
@@ -14839,7 +14851,6 @@ _mongo_stats/
 ||stats.paste2.org^
 ||stats.piaggio.com^
 ||stats.propublica.org^
-||stats.pusher.com^
 ||stats.searchftps.net^
 ||stats.searchftps.org^
 ||stats.shoppydoo.com^
@@ -14967,6 +14978,7 @@ _mongo_stats/
 ||theseforums.com/track/
 ||thesmokinggun.com^*/jsmd.js
 ||theweek.com/decor/track/
+||thinkcomputers.org/dist/thinkcomputers.min.js
 ||thinkgeek.com/js/rts.js
 ||thrillist.com/track
 ||tiaa-cref.org^*/js_tiaacref_analytics.
@@ -17794,7 +17806,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ilsole24ore.com^*/fingerprint2.min.js?
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=la7.it|sky.it|video.corriere.it
 @@||imrworldwide.com/v60.js$domain=capital.it|corriereadriatico.it|fanpage.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|leggo.it|m2o.it|quotidianodipuglia.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it
-@@||iolam.it/js/iam2.0.js?$script,domain=3bmeteo.com|dilei.it|siviaggia.it|virgilio.it
 @@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it
 @@||mediaworld.it^*/GoogleTagManager.js?
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=vodafone.it
