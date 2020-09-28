@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: WZRtzHDds68Dx6oIbEEl8g
-! Version: 202009270901
+! Checksum: axbmBw+Jj/7bhN/+IC7dvw
+! Version: 202009280911
 ! Title: EasyPrivacy
-! Last modified: 27 Sep 2020 09:01 UTC
+! Last modified: 28 Sep 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7739,6 +7739,7 @@ _mongo_stats/
 ||stack-sonar.com^$third-party
 ||stadsvc.com^$third-party
 ||star-cntr-5.com^$third-party
+||startsmajesty.com^
 ||stat-track.com^$third-party
 ||stat.social^$third-party
 ||stat08.com^$third-party
@@ -10716,6 +10717,7 @@ _mongo_stats/
 ||flixster.com^*/analytics.
 ||flocktory.com^*/tracks/
 ||flux.com/geo.html?
+||fmnetwork.nl/tracking/
 ||fog.pixual.co^
 ||followistic.com/widget/stat/
 ||footballmedia.com/tracking/
@@ -11731,7 +11733,9 @@ _mongo_stats/
 ||track.yieldsoftware.com^
 ||tracker.affiliate.iqoption.com^
 ||tracker.affirm.com^
+||tracker.arc.io^
 ||tracker.beezup.com^
+||tracker.cdnbye.com^
 ||tracker.data-vp.com^
 ||tracker.downdetector.com^
 ||tracker.financialcontent.com^
@@ -13750,7 +13754,6 @@ _mongo_stats/
 ||goseek.com/track-
 ||gov.in/js/ga.js
 ||gq-magazine.co.uk^*/LogPageView
-||gql.reddit.com^
 ||grammarly.io/log
 ||groupon.*/tracky$xmlhttprequest
 ||groupon.com/analytic/
@@ -15458,6 +15461,7 @@ _mongo_stats/
 /^https?:\/\/ir\.ebaystatic\.com\/rs\/v\/[a-zA-Z0-9]{18,}\.js/$script,domain=vipr.ebaydesc.com
 /^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
+/^https?:\/\/src\.ebay-us\.com\/[_a-zA-Z0-9]{10,}\?/$script,domain=pages.ebay.com
 /^https?:\/\/tmx\.td\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=mbna.ca|td.com
 /^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
 ||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|gumtree.com|lendup.com|mbna.ca|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com
@@ -17194,6 +17198,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||analytics.edgekey.net/ma_library/html5/html5_malibrary.js$script,domain=mxplayer.in
 @@||analytics.edgesuite.net/config/beacon-*.xml$domain=foxnews.com
 @@||analytics.edgesuite.net/html5/akamaihtml5-min.js$domain=abcnews.go.com|foxbusiness.com|foxnews.com|threenow.co.nz
+@@||analytics.itunes.apple.com^$~third-party
 @@||analytics.logsss.com/logsss*.min.js$script,domain=rosegal.com
 @@||analytics.snidigital.com^$script,domain=hgtv.com
 @@||analytics.twitter.com^$domain=analytics.twitter.com
@@ -17457,6 +17462,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||pro.ip-api.com/json$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|sheee.co.il|walla.co.il
 @@||ps.w.org/google-analytics-dashboard-for-wp/assets/
 @@||puch-ersatzteile.at^*/google-analytics.min.js
+@@||pusher.com^*/pusher.min.js$script,domain=bringatrailer.com
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
@@ -17626,6 +17632,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||royalmail.com/b/ss/$image
 @@||scorecardresearch.com/r2?$image,domain=ancestry.com|billetnet.dk|billettservice.no|lippupalvelu.fi|pcworld.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se|wsj.com
 @@||scorecardresearch.com/r?$image,domain=ancestry.com|billetnet.dk|billettservice.no|lippupalvelu.fi|macworld.com|pcworld.com|techhive.com|ticketmaster.ae|ticketmaster.co.uk|ticketmaster.de|ticketmaster.ie|ticketmaster.nl|ticnet.se|wsj.com
+@@||securemetrics.apple.com/b/ss/$image
 @@||simyo.de/b/ss/$image
 @@||smetrics.aem.playstation.com/b/ss/$image
 @@||smetrics.ally.com/b/ss/
