@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 4qKRgqTpGcW24JekWCNbdQ
-! Version: 202010080421
+! Checksum: QmINp8gH7kekXjcgmghPXQ
+! Version: 202010090631
 ! Title: EasyPrivacy
-! Last modified: 08 Oct 2020 04:21 UTC
+! Last modified: 09 Oct 2020 06:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1379,7 +1379,7 @@
 /collection.php?data=
 /collector.php?
 /collector/*/*?*&euidl=*&url=
-/collector/beacon^
+/collector/beacon
 /collector/hit?
 /collector/pageview
 /collector?report=
@@ -3514,6 +3514,7 @@
 /readomniturecookie.
 /readReceipt/notify/?img=$image
 /readtracker-
+/realtimeapi/impression?
 /realtimetracking/*
 /realytics-
 /realytics.js
@@ -5152,7 +5153,7 @@
 ://tracker.*/pageview
 ://tracking.*/beacon/
 ://tracking.*/tr.js
-://utm.$domain=~utm.arc.nasa.gov|~utm.edu|~utm.io|~utm.md|~utm.pansa.pl|~utoronto.ca
+://utm.$domain=~utm.arc.nasa.gov|~utm.edu|~utm.io|~utm.md|~utm.pansa.pl|~utm.pharos360.com|~utoronto.ca
 ;1x1inv=
 ;manifest-analytics.js
 ;sz=1x1;ord=
@@ -5597,6 +5598,7 @@ _mongo_stats/
 !-----------------Third-party tracking domains-----------------!
 ! *** easylist:easyprivacy/easyprivacy_trackingservers.txt ***
 ! Revolving trackers
+u
 ||g2178927685.co^
 ||g2377012020.co^
 ||g2575096355.co^
@@ -6039,6 +6041,7 @@ _mongo_stats/
 ||capturly.com^$third-party
 ||caramel.press^$third-party
 ||carrotquest.io^$third-party
+||casalemedia.com^$third-party
 ||cashburners.com^$third-party
 ||cashcount.com^$third-party
 ||cbtrk.net^$third-party
@@ -6748,6 +6751,7 @@ _mongo_stats/
 ||index.ru^$third-party
 ||indexstats.com^$third-party
 ||indextools.com^$third-party
+||indexww.com^$third-party
 ||indicative.com^$third-party
 ||indicia.com^$third-party
 ||individuad.net^$third-party
@@ -7742,6 +7746,7 @@ _mongo_stats/
 ||speed-trap.com^$third-party
 ||speedcurve.com^$third-party
 ||spklw.com^$third-party
+||splitbee.io^$third-party
 ||splittag.com^$third-party
 ||splyt.com^$third-party
 ||spn-twr-14.com^$third-party
@@ -10420,6 +10425,7 @@ _mongo_stats/
 ||collect.rewardstyle.com^
 ||collect.usefathom.com^
 ||collector-*.elb.amazonaws.com^$image,third-party
+||collector-*.px-client.net^
 ||collector-*.tvsquared.com^
 ||collector-api.99designs.com^
 ||collector.automote.co.nz^
@@ -11559,6 +11565,7 @@ _mongo_stats/
 ||squarespace.com/universal/scripts-compressed/performance-$script,third-party
 ||srvmath.com^*/analytics.js
 ||ssl-images-amazon.com/images/*/common/1x1._*.gif$domain=~amazon.com
+||ssr.streamrail.net^
 ||st.cdnco.us^
 ||st.linkfire.com^
 ||stacksocialcontent.com/event/
@@ -11883,6 +11890,7 @@ _mongo_stats/
 ||trove.com^*&uid=$image
 ||tru.webelapp.com^
 ||trumba.com/et.aspx?$third-party
+||trustarc.com/bannermsg?
 ||trustcommander.net/privacy/
 ||trustedform.com/trustedform.js?provide_referrer
 ||trustpilot.com/stats/
@@ -14663,6 +14671,7 @@ _mongo_stats/
 ||securepaynet.net/image.aspx?
 ||seeclickfix.com^*/text_widgets_analytics.html
 ||seedr.cc/tr.js
+||seekingalpha.com/mone_event
 ||selfip.org/counter/
 ||sella.co.nz^*/sella_stats_
 ||seoquake.com/seoadv/audience/3.gif
@@ -14957,6 +14966,7 @@ _mongo_stats/
 ||sun.com/share/metrics/
 ||supermediastore.com/web/track?
 ||superpages.com/ct/clickThrough?
+||supportmetrics.apple.com/content/services/stats
 ||surinenglish.com/acceso.php?
 ||surveys.cnet.com^
 ||sysomos.com/track/
@@ -15601,7 +15611,6 @@ _mongo_stats/
 ||ralphlauren.de/IZ/
 ||ralphlauren.fr/IZ/
 ||seatgeek.com/aG6ZzoXU/
-||seekingalpha.com/xgCxM9By/
 ||skechers.com/dL6GOSf9/
 ||sweetwater.com/p2TBVNJZ/
 ||therealreal.com/ev56mY37/
@@ -15773,6 +15782,7 @@ _mongo_stats/
 ||ttauri.t3.com^
 ||ttauri.tomsguide.com^
 ||ttauri.tomshardware.com^
+||ttauri.toptenreviews.com^
 ||ttauri.whathifi.com^
 ||twch.20min.ch^
 ||vg247.com/wp-content/themes/vg247/scripts/mvg247-fsm.js
