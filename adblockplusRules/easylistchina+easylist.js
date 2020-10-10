@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IbyHiVzOIQW7bTst/yfmqQ
-! Version: 202010090631
+! Checksum: W2nYpWB4+tDYvOVhnrT3oQ
+! Version: 202010101311
 ! Title: EasyList China+EasyList
-! Last modified: 09 Oct 2020 06:31 UTC
+! Last modified: 10 Oct 2020 13:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -1129,6 +1129,8 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||tencent.xn--io0a7i^
+||shoukuoedu.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -8741,6 +8743,8 @@ _yad_jsonp_
 ||zzzyk.com/js/
 ||szonline.net/static/js/ads.js
 ||c.mipcdn.com^$domain=manhuabei.com
+||zdcj.net/html/weibo
+||zlyk.com/dp.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -13775,7 +13779,7 @@ xingkbjm.com##script + div + .excerpt
 xingkbjm.com##script + div + .excerpt + .excerpt
 wnacg.com,wnacg.org##script + div > a > img
 kanxigua.com##script + div > a:first-child:last-child
-hboav.com##script + div[class="cc5278_banner_ad"]
+hboav.com##style + script + div[class="cc5278_banner_ad"]
 jianshu.com##section[aria-label="jianshu-ad"]
 tukergo.com##section[class^="ch"]
 vs.cm##section[id^="ad_"]
@@ -14897,6 +14901,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 /\.js\?[a-z]+=[a-z]+$/$script,domain=china.cn|faxingsj.com|gouchezj.com|gushiwen.org|iask.sina.com.cn|jandan.net|jianbihua.org|jintang114.org|juqingba.cn|km.com|meishichina.com|mrcjcn.com|oh100.com|phb123.com|piaoliang.com|qqtn.com|t262.com|tianqi.com|unjs.com|wesiedu.com|ximizi.com|xinjunshicn.net|xinshipu.com|xuexila.com|yjbys.com|zaojv.com|zgjm.org|zhongyao1.com|zqnf.com
 ?*=*=*=$subdocument,domain=00cha.com|01fy.cn|06ps.com|08160.cn|0s.net.cn|10000xing.cn|100how.com|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|120ask.com|16xx8.com|192ly.com|1ppt.com|1ting.com|201980.com|21hubei.com|23yy.com|256.cc|263y.com|2hanju.com|2liang.net|315hyw.com|32r.com|32xp.com|360changshi.com|360doc.cn|360zuowen.com|39.net|4aqq.com|5000yan.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|59wz.com|5djiaren.com|5h.com|5nd.com|5seestar.com|5tps.com|66law.cn|7k7k.com|7y7.com|800400.net|86huoche.com|8794.cn|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|annhe.net|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|b2b6.com|babihu.com|baicaolu.net|baotang5.com|baoxianzx.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinakaoyan.com|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|csai.cn|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dayfund.cn|dgzj.com|diangon.com|ditiezu.com|diyifanwen.com|dugoogle.com|eastday.com|enterdesk.com|exam58.com|fangdaijisuanqi.com|faxingzhan.com|friok.com|fun48.com|game234.com|gaosan.com|gaotie.cn|guancha.cn|gucheng.com|gugu5.com|guidaye.com|gulongbbs.com|gushiwen.cn|hc23.com|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|jeasyui.net|jf258.com|jianbihua.com|jianbihuadq.com|jinbaodm.com|jingdianlaoge.com|jy135.com|kdslife.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|nanhuwang.com|pansoso.com|pctowap.com|pig66.com|pikacn.com|pingguolv.com|pingshu8.com|ppzuowen.com|qcrx.cn|qcwxjs.com|qizuang.com|qm120.com|qncye.com|qqzhi.com|quwenqushi.com|riji.cn|riji100zi.com|rr95.com|ruiwen.com|sc115.com|shadafang.com|shangc.net|shenchuang.com|souid.com|ssqzj.com|szdushi.com.cn|szhk.com|tvmao.com|uzuzuz.com|vswang.com|weather.com.cn|webshu.net|wenkuxiazai.com|wenshenxiu.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|xzbu.com|yanyue.cn|yaozui.com|yellowurl.cn|yiqig.cn|yiyouliao.com|yuwenmi.com|yxad.com|yyrtv.com|zanyiba.com|zdface.com|zhifure.com|zhongyoo.com|zixuntop.com|ziyuanm.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net|zuoyesou.com|zybus.com
 !
+||ent1.qunchua.cn^
 ###bd-hl-content
 ###container > #pic_container
 ###container > .item.title_normal
@@ -15922,6 +15927,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||gtimg.com/libs/$domain=18xs.org
 @@||libs.baidu.com^$domain=138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.com|23hh.com|23txt.com|23wxx.com|258zw.com|266ks.com|27xsw.com|2baob.com|30sy.com|33yq.com|365book.net|37zw.net|39shubao.com|3yt.com|52biquge.com|58xs.com|5ccc.tw|78zw.com|81zw.me|8jzw.com|99mk.com|99shumeng.net|aikantxt.la|balingtxt.com|baoshuu.com|bbiqugew.com|biduo.cc|biqiuge.com|biqubao.com|biqudu.tv|biquga.com|biquge.com.cn|biquge.info|biquge.lu|biquge.tv|biquge11.com|biquge6.com|biquge98.com|biqugecd.com|biqugego.com|biqugemm.com|biqugesc.com|biqukan.com|biquku.la|biqusan.com|biqutxt.com|bixia.org|biyuwu.cc|bodekang.net|boluoxs.com|bookbao.org|bookbao9.net|booksky.cc|booktxt.net|bshuku.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|cits0871.com|clewx.com|damengzhu6.com|dashenxiaoshuo.com|day66.com|ddxs.cc|ddxsku.com|dushuge.net|farpop.com|fhxiaoshuo.org|gdbzkz.com|guaili.org|hatxt.com|hbfie.org|hehuamei.com|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hybiquge.com|imiaobige.com|iqishu.la|ishisetianxia.com|ixiatxt.com|ixs.la|ixuanquge.com|jianlaixiaoshuo.com|jx.la|kkbiqu2.com|liewen.la|lindiankanshu.cc|liudatxt.com|lwtxt.net|lwxstxt.com|mhtwx.la|mubige.com|paoshu8.com|pfwx.com|piaotianxs.com|pingshuku.com|qbxs8.net|qianrenge.cc|qiqint.la|qq717.com|quledu.net|qushuba.com|rmxs8.com|shu008.com|shuhaige.net|shuhaiwu.com|shumil.co|shuquge.com|siluke.tv|soxs.cc|swshuge.com|tangsanshu.com|tpszw.com|ttzw.tv|txshuku.net|tycqxs.com|u33.cc|v63xs.com|vipxs.la|wanwenhui.com|wenxuem.com|wrlwx.com|x23us.me|x81zw.com|xaixs.org|xbiquge.la|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbqge.net|xcmxsw.com|xdingdiann.com|xiangcunxiaoshuo.com|xiaoshuosk.com|xieyixs.com|xinxs.la|xqiushu.com|xs222.co|xs5200.com|xs98.com|xsqishu.com|xsw55.com|xszww.com|xuehong.cc|xuehongxs.com|yawenb.com|yikanxiaoshuo.com|yq-888.com|yruan.com|yssm.tv|yunxs.com|zbzw.la|zhuaji.org|zwdu.com|zzs5.com
 !#Novels
+||4kfv18.cn^
+##dd[style="padding:16px 16px 20px;margin: 15px;border-radius:50%;background-color:green;"]
+||jiangboshidai.com^
 bxwx666.org###addiv3
 bxwx666.org###bdstatic
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -20762,6 +20770,8 @@ fqsousou.com,kengso.com#@#.user-share
 /ads-300-
 /ads-300.
 /ads-5.
+/ads-640x100-
+/ads-640x100.
 /ads-890x100-
 /ads-admin.
 /ads-api.
@@ -22079,7 +22089,7 @@ fqsousou.com,kengso.com#@#.user-share
 /adwrapperiframe.
 /adwriter2.
 /adx-exchange.
-/adx.$domain=~adx.co.nz|~adx.cx|~adx.nz|~adx.ru|~adx.tribefire.com|~adx.uk.com|~adx.world|~adx.wowfi.com|~journals.uchicago.edu
+/adx.$domain=~adx.co.nz|~adx.cx|~adx.nz|~adx.ru|~adx.traveledge.com|~adx.tribefire.com|~adx.uk.com|~adx.world|~adx.wowfi.com|~journals.uchicago.edu
 /adx/ads?
 /adx/iframe.
 /adx/js/*
@@ -42277,6 +42287,7 @@ _popunder+$popup
 ##.contained-ad-shaft
 ##.contained-ad-wrapper
 ##.container--ad
+##.container--ads
 ##.container--advert
 ##.container--bannerAd
 ##.container--header-ads
@@ -49734,6 +49745,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||1740f665a91b68.com^
 ||196f25ce95a.com^
 ||1983c499735.com^
+||19a782bc982.com^
 ||19b45a16170729.com^
 ||19beda38dc2ce42.com^
 ||19d12dd9de1.com^
@@ -49866,6 +49878,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||4eacccd99990beed317.com^
 ||4edidqmtzlsa.com^
 ||4f6b2af479d337cf.com^
+||4f9d88054fa2b.com^
 ||4fb0a3bf4a3d38.com^
 ||4ib3rzfjqh.buzz^
 ||4ixbffsib0.monster^
@@ -49940,6 +49953,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||6a9102689db8e.com^
 ||6af461b907c5b.com^
 ||6b357cda0f.com^
+||6b4bcc240ad94.com^
 ||6b5c418918ebb008cc6.com^
 ||6bd9a2ea1a1801e55.com^
 ||6bgaput9ullc.com^
@@ -49980,6 +49994,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||754daf9cd396259.com^
 ||757a51ce62f.com^
 ||758c824671f4fc0.com^
+||75a91a1683.com^
 ||7651d44da06c.com^
 ||771b92b0ca0963e.com^
 ||77437ee0a17f19c6085.com^
@@ -50141,6 +50156,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||abfcfxfkzmiqht.com^
 ||abgligarchan.com^
 ||abjusouft.com^
+||abluvdiscr.com^
 ||ablymechan.club^
 ||abnormaticn.club^
 ||abodealley.com^
@@ -50266,6 +50282,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||agreenikeru.site^
 ||agzfxovg.com^
 ||agzlxyylf.com^
+||ahadsply.com^
 ||ahbcagaazvtuh.com^
 ||ahcnxuepput.com^
 ||ahelessenge.club^
@@ -50378,6 +50395,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||amsfi.com^
 ||amsthr.com^
 ||amsvts.com^
+||amuletlatemanagement.com^
 ||amxodxmsuwdhn.com^
 ||anatomicele.site^
 ||anbalxkcpwa.com^
@@ -50510,6 +50528,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||askallalb.club^
 ||askaspalb.online^
 ||askbegrag.com^
+||askewpatienceblameless.com^
 ||askinsoner.club^
 ||asonaloccu.info^
 ||asoulrox.com^
@@ -50705,6 +50724,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||bcvxpffzmkqf.com^
 ||bd1617dbbc28f.com^
 ||bdbdqkdkfb.xyz^
+||bdbdqqkbxb.xyz^
 ||bdhbtrizb.com^
 ||bdozkocgkljj.com^
 ||bdtwxreri.com^
@@ -50896,6 +50916,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||breated.club^
 ||breatedy.club^
 ||breatmentbr.top^
+||breedingcasual.com^
 ||breedom.club^
 ||brgzqubngqbioh.com^
 ||brinarynuker.site^
@@ -51340,6 +51361,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cpalabtracking.com^
 ||cpcmart.com^
 ||cphjydduuh.com^
+||cpm-ad.com^
 ||cpmgatenetwork.com^
 ||cpmnetworkcontent.com^
 ||cpmprofitablecontent.com^
@@ -51444,6 +51466,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cyqbtxpgarmc.com^
 ||cytrkxfzkxrjv.com^
 ||cyvnsdsygkpqvz.com^
+||cyzyyv.com^
 ||czcetfjlisyjh.com^
 ||czgmlnhz.com^
 ||czobtirdnwqhn.com^
@@ -51454,6 +51477,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||d0eda50bf4f7d172c06.com^
 ||d0efb7d9aeb478d.com^
 ||d194f913ee63.com^
+||d1c4d437f10.com^
 ||d2vybwwevieya6j.monster^
 ||d31ea41705818c9.com^
 ||d3b75cfc88a9.com^
@@ -51663,6 +51687,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||displaynetworkprofit.com^
 ||displaynews.live^
 ||displayvertising.com^
+||disposalfourth.com^
 ||disticked.club^
 ||distinesseqe.site^
 ||distrikerkvazar.site^
@@ -51871,6 +51896,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||easternpush.xyz^
 ||easy2cnjuh34jb.com^
 ||easydistrustuldistrustul.com^
+||easygoinghomesickimprobable.com^
 ||easylist-to.xyz^
 ||eatayvgov.com^
 ||eatmenticha.top^
@@ -52227,6 +52253,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||evemasoil.com^
 ||eventurypol.site^
 ||evergreensame.com^
+||everyindus.top^
 ||eveteaemo.com^
 ||evfzxjiqg.com^
 ||evghlumwjasu.com^
@@ -52246,6 +52273,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||exchangepresumeethel.com^
 ||excqjoor.com^
 ||exdynsrv.com^
+||exe.io^
 ||exercially.mobi^
 ||exercisely.club^
 ||exgkfejvm.com^
@@ -52260,6 +52288,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||expenditurebaneopenly.com^
 ||expertnifg.com^
 ||explanettu.club^
+||exploitnookconsequently.com^
 ||expresentc.top^
 ||expsevdkqyr.com^
 ||exrmlhihaj.com^
@@ -52488,6 +52517,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||flexknfp.com^
 ||flipy6sudy.com^
 ||flloczhqdkn.com^
+||flmuqa.com^
 ||flmyidbnljphko.com^
 ||flnfbaoozuib.com^
 ||flnwaqyh.com^
@@ -52923,6 +52953,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||grursusy.com^
 ||grxzcfdcxu.com^
 ||grykuutktgaun.com^
+||gscarcinoh.club^
 ||gsdolqvdjr.com^
 ||gsdsccoo.com^
 ||gseyriwpozfxf.com^
@@ -53161,6 +53192,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||hmmmcjgho.com^
 ||hmpumxcsex.com^
 ||hmqzcnngnajps.com^
+||hmyjpt.com^
 ||hncahnvieotyu.com^
 ||hnhsvlswqtoxgn.com^
 ||hnlsyandeos.com^
@@ -53190,6 +53222,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||hornsgrid.com^
 ||hortestoz.com^
 ||horvmygebyg.com^
+||hosieryelevate.com^
 ||hospitecrew.club^
 ||host-host-ads.com^
 ||houghtdespe.fun^
@@ -53462,6 +53495,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ineffieldinforget.site^
 ||ineldacarry.pro^
 ||inevitablemittenprefer.com^
+||inexpedientjuvenile.com^
 ||inextricableaveragefourteenth.com^
 ||infopicked.com^
 ||infra.systems^
@@ -53557,6 +53591,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||islofthmci.com^
 ||ismtampsshad.icu^
 ||isnsgjhthhaqtu.com^
+||isolationowen.com^
 ||ispaagigjygd.com^
 ||issuesconsultationsocially.com^
 ||istcommun.info^
@@ -54321,6 +54356,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||liuduuct.com^
 ||liulwxrybupyzu.com^
 ||livwrite.com^
+||lizzietolerance.com^
 ||ljamingrepre.site^
 ||ljhyotgxuyglm.com^
 ||ljjaiargqfwtzu.com^
@@ -54571,6 +54607,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mandearersi.club^
 ||mannequinent.site^
 ||mannequinent.website^
+||mannernotchnewly.com^
 ||marchites.club^
 ||marerajahcopied.com^
 ||marguvpydbrr.com^
@@ -54812,6 +54849,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||monadplug.com^
 ||monastersincl.site^
 ||mondayunauthorized.com^
+||moneyzenith.com^
 ||mongdaughc.fun^
 ||monotonoussurveytoxic.com^
 ||montkpl.top^
@@ -55149,6 +55187,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||nlyqwlyykvjl.com^
 ||nlz0ini5uz9t.com^
 ||nlzz7a3md4sx.com^
+||nmentsce.top^
 ||nmentshad.info^
 ||nmentsim.club^
 ||nmldqncelrpht.com^
@@ -55185,6 +55224,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||norakseemlyntr.info^
 ||normugtog.com^
 ||northeregikgf.club^
+||northernintimate.com^
 ||northyatters.site^
 ||nosdbwnd.com^
 ||nostromedia.com^
@@ -55233,6 +55273,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||nseconoming.club^
 ||nsecretaflicti.info^
 ||nsfercuritydi.club^
+||nskoxgsb.com^
 ||nsmwtzwq.com^
 ||nsnfokcikwf.com^
 ||nsofasstroy.info^
@@ -55243,6 +55284,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||nsserviewssti.club^
 ||nstjenxcpvm.com^
 ||nstlnjtrufu.com^
+||nstructhow.top^
 ||nswnseld.com^
 ||nsxawdatuetbq.com^
 ||ntadnddfgogpse.com^
@@ -55265,6 +55307,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ntlzbnmyukos.com^
 ||ntowcested.info^
 ||ntpmhryl.com^
+||ntracksno.top^
 ||ntroducepo.club^
 ||ntryhospitesoili.fun^
 ||ntryonoxojiyya.com^
@@ -55293,6 +55336,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||nutscolouredrefrain.com^
 ||nuxdkxknj.com^
 ||nuxsmhexm.com^
+||nvbwgk.com^
 ||nvcwpexqk.com^
 ||nvdljujp.com^
 ||nvgcmeqfn.com^
@@ -55613,6 +55657,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ovcxvpvdk.com^
 ||ovczxzkfkfbb.com^
 ||ovementerter.site^
+||overboardinflected.com^
 ||overnment.club^
 ||overnmentil.site^
 ||overnmentsv.club^
@@ -55688,6 +55733,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||paegcsvchsdlbj.com^
 ||pafovocg.bid^
 ||pagaynrbee.com^
+||paginw.com^
 ||pagiwp.com^
 ||pagnookr.net^
 ||paht.tech^
@@ -55770,6 +55816,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||perfordpetre.club^
 ||performanceonclick.com^
 ||perhangeflets.site^
+||perhapscommabudge.com^
 ||perspoolothe.fun^
 ||pertycleaner.site^
 ||perymiynf.com^
@@ -55942,6 +55989,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||portedlysarcatc.info^
 ||positious.club^
 ||possepairsad.com^
+||possessedbrute.com^
 ||possipationd.info^
 ||postback.info^
 ||postlnk.com^
@@ -56034,6 +56082,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||properatery.club^
 ||proportly.club^
 ||propu.sh^
+||prospergenerosityperformance.com^
 ||prosumsit.com^
 ||protectdedication.com^
 ||protection-booster.club^
@@ -56067,6 +56116,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||psurdoak.com^
 ||psvgnczo.com^
 ||psxxbhheqxoy.com^
+||psylefywha.pro^
 ||ptaivain.net^
 ||ptarywzhyzri.com^
 ||ptaubsih.com^
@@ -56245,6 +56295,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||qkvklknzycrgo.com^
 ||qkxmnpxtr.com^
 ||qkzwxhcleqj.com^
+||qlblpyslxciorl.com^
 ||qlcsqjxly.com^
 ||qldozzpy.com^
 ||qlhhbgkgggsp.com^
@@ -56513,6 +56564,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||reenrageasse.xyz^
 ||refaucherais.site^
 ||refaucherais.website^
+||reflectionsforeground.com^
 ||refnippod.com^
 ||reforeightolikm.site^
 ||refunsiy.net^
@@ -56688,6 +56740,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||road44ont.online^
 ||roarbeggarlyhilarious.com^
 ||robjamguy.club^
+||rogew.com^
 ||rollersadnessstranded.com^
 ||ronbriticated.site^
 ||ronoutom.net^
@@ -57160,6 +57213,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||sowlobptfzfh.com^
 ||soza6rsz3ezi.com^
 ||sparagken.com^
+||sparedshabbylaugh.com^
 ||sparktrailerabonnement.com^
 ||special-offers.online^
 ||special-promotions.online^
@@ -57187,6 +57241,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||sports-live-streams.club^
 ||sports-streams-online.best^
 ||sports-streams-online.com^
+||sportstreams.xyz^
 ||spredomk.club^
 ||sprintainokeg.site^
 ||spuobvix.com^
@@ -57228,6 +57283,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||stargoug.com^
 ||startsmajesty.com^
 ||statutecompatibility.com^
+||steakyesembarrass.com^
 ||stedintelo.club^
 ||stenosent.xyz^
 ||steverariso.fun^
@@ -57414,6 +57470,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||teqhllxidowmi.com^
 ||terialnevitiesini.info^
 ||terpeditors.club^
+||terra8nb.com^
 ||terrapsps.com^
 ||terskneesian.space^
 ||tesfatheleshs.club^
@@ -57437,6 +57494,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||theationopo.club^
 ||theatredveres.site^
 ||theatrialmero.club^
+||theeburs.com^
 ||thefastpush.com^
 ||thefuncoolstuff.com^
 ||theirsvendor.com^
@@ -57862,6 +57920,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||unoblotto.net^
 ||unreshiramor.com^
 ||unrzhgdly.com^
+||unskilledsqueakjunk.com^
 ||untabilityde.site^
 ||untpresearch.club^
 ||untridrisa.cf^
@@ -59219,6 +59278,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||zkfjgzonjvg.com^
 ||zkmyaizgc.com^
 ||zkoumvpngkubl.com^
+||zkqlyhwfn.com^
 ||zkqpoamv.com^
 ||zksdztizohcfy.com^
 ||zkwtqwwks.com^
@@ -59338,6 +59398,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||zxcvxmtzs.com^
 ||zxdardwpsuf.com^
 ||zxevjtzvqlxy.com^
+||zxryytzesvn.com^
 ||zxxtkrkzfyy3.com^
 ||zyadwzlxllogm.com^
 ||zyddpern.com^
@@ -69830,7 +69891,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||playbuzz.com/player/$script,third-party
 ||player.anyclip.com/anyclip-widget/$script,third-party
 ||playwire.com/bolt/js/$script,third-party
-||vidazoo.com/basev/widgets/widget.js$script,third-party
+||vidazoo.com/basev/$script,third-party
 ||viewdeos.com^$script,third-party
 ! mimecast proxying
 ||mimecast.com^$domain=motorcycleshows.com
@@ -74377,7 +74438,7 @@ dt-updates.com##.adv_items
 faceyourmanga.com##.adv_special
 thedailystar.net##.advatige
 infoplease.com##.advb
-98online.com,abplive.in,africareview.com,airgunshooting.co.uk,airmalta.com,allghananews.com,anews.com.tr,angliaafloat.co.uk,arabianindustry.com,barkinganddagenhampost.co.uk,becclesandbungayjournal.co.uk,bexleytimes.co.uk,bitcoinzebra.com,blogto.com,bloomberg.com,bollywoodhungama.com,bromsgrovestandard.co.uk,btcmanager.com,burymercury.co.uk,cambstimes.co.uk,canalboat.co.uk,caribbeancinemas.com,cbc.ca,centralfm.co.uk,chemicalwatch.com,cheshirelife.co.uk,coastalscene24.co.uk,completefrance.com,cotswoldlife.co.uk,countrysmallholding.com,coventryobserver.co.uk,cranbrookherald.com,crimemagazine.com,dailyedge.ie,dailysun.co.za,derbyshirelife.co.uk,derehamtimes.co.uk,designmena.com,devonlife.co.uk,directory247.co.uk,dissmercury.co.uk,dorsetmagazine.co.uk,droitwichstandard.co.uk,dunmowbroadcast.co.uk,eadt.co.uk,eastlondonadvertiser.co.uk,economist.com,edp24.co.uk,ee.co.za,elystandard.co.uk,eos.org,essexlifemag.co.uk,etf.com,eveningnews24.co.uk,eveshamobserver.co.uk,exmouthherald.co.uk,exmouthjournal.co.uk,expressandstar.com,fakenhamtimes.co.uk,farmprogress.com,filmymonkey.com,foxbusiness.com,foxnews.com,fruitnet.com,ft.com,games.co.uk,gamesgames.com,gamesindustry.biz,gfi.com,gnovies.com,gravesendreporter.co.uk,greatbritishlife.co.uk,greatyarmouthmercury.co.uk,greenun24.co.uk,guardianonline.co.nz,guernseypress.com,gulfnews.com,hackneygazette.co.uk,hamhigh.co.uk,hampshire-life.co.uk,healthcanal.com,healthguru.com,healthinsurancedaily.com,herefordshirelife.co.uk,hertfordshirelife.co.uk,hertsad.co.uk,hoteliermiddleeast.com,huntspost.co.uk,icaew.com,ilfordrecorder.co.uk,iol.co.za,ipswichstar.co.uk,islingtongazette.co.uk,jerseyeveningpost.com,journeychristiannews.com,jqueryte.com,kent-life.co.uk,kentnews.co.uk,kumusika.co.zw,lancashirelife.co.uk,leamingtonobserver.co.uk,legendarypokemon.net,lgr.co.uk,livingedge.co.uk,lowestoftjournal.co.uk,maltapark.com,malvernobserver.co.uk,medicalnewstoday.com,megasearch.co,midweekherald.co.uk,mmegi.bw,momjunction.com,morningstar.co.uk,msnbc.com,music-news.com,myfinances.co.uk,newhamrecorder.co.uk,newstalkzb.co.nz,newsweek.com,nine.com.au,norfolkmag.co.uk,northdevongazette.co.uk,northeastlifemag.co.uk,northnorfolknews.co.uk,northsomersettimes.co.uk,outdoorchannel.com,phnompenhpost.com,piccsy.com,pilotweb.aero,pinkun.com,radiosport.co.nz,redditchstandard.co.uk,romfordrecorder.co.uk,royston-crow.co.uk,rugbyobserver.co.uk,saffronwaldenreporter.co.uk,shropshirelifemagazine.co.uk,shropshirestar.com,sidmouthherald.co.uk,skysports.com,solihullobserver.co.uk,somerset-life.co.uk,sportingshooter.co.uk,sportspromedia.com,stowmarketmercury.co.uk,stratfordobserver.co.uk,sudburymercury.co.uk,suffolkmag.co.uk,surreylife.co.uk,sussexlife.co.uk,technewstoday.com,tenplay.com.au,the42.ie,thecomet.net,thegardener.co.za,thegayuk.com,thejournal.ie,theneweuropean.co.uk,thetribunepapers.com,thewestonmercury.co.uk,totalscifionline.com,trucksplanet.com,tvweek.com,videogamer.com,warwickshirelife.co.uk,wattonandswaffhamtimes.co.uk,weddingsite.co.uk,westessexlife.co.uk,whtimes.co.uk,wiltshiremagazine.co.uk,winewizard.co.za,wisbechstandard.co.uk,worcesterobserver.co.uk,worcestershirelife.co.uk,wow247.co.uk,wymondhamandattleboroughmercury.co.uk,yorkshirelife.co.uk,yourchickens.co.uk,z9movie.com##.advert
+98online.com,abplive.in,africareview.com,airgunshooting.co.uk,airmalta.com,allghananews.com,anews.com.tr,angliaafloat.co.uk,arabianindustry.com,barkinganddagenhampost.co.uk,becclesandbungayjournal.co.uk,bexleytimes.co.uk,bitcoinzebra.com,blogto.com,bloomberg.com,bollywoodhungama.com,bromsgrovestandard.co.uk,btcmanager.com,burymercury.co.uk,cambstimes.co.uk,canalboat.co.uk,caribbeancinemas.com,cbc.ca,centralfm.co.uk,chemicalwatch.com,cheshirelife.co.uk,coastalscene24.co.uk,completefrance.com,cotswoldlife.co.uk,countrysmallholding.com,coventryobserver.co.uk,cranbrookherald.com,crimemagazine.com,dailyedge.ie,dailysun.co.za,derbyshirelife.co.uk,derehamtimes.co.uk,designmena.com,devonlife.co.uk,directory247.co.uk,dissmercury.co.uk,dorsetmagazine.co.uk,droitwichstandard.co.uk,dunmowbroadcast.co.uk,eadt.co.uk,eastlondonadvertiser.co.uk,economist.com,edp24.co.uk,ee.co.za,elystandard.co.uk,eos.org,essexlifemag.co.uk,etf.com,eveningnews24.co.uk,eveshamobserver.co.uk,exmouthherald.co.uk,exmouthjournal.co.uk,expressandstar.com,fakenhamtimes.co.uk,farmprogress.com,filmymonkey.com,foxbusiness.com,foxnews.com,fruitnet.com,ft.com,games.co.uk,gamesgames.com,gamesindustry.biz,gfi.com,gnovies.com,gravesendreporter.co.uk,greatbritishlife.co.uk,greatyarmouthmercury.co.uk,greenun24.co.uk,guardianonline.co.nz,guernseypress.com,gulfnews.com,hackneygazette.co.uk,hamhigh.co.uk,hampshire-life.co.uk,healthcanal.com,healthguru.com,healthinsurancedaily.com,herefordshirelife.co.uk,hertfordshirelife.co.uk,hertsad.co.uk,hoteliermiddleeast.com,huntspost.co.uk,icaew.com,ilfordrecorder.co.uk,iol.co.za,ipswichstar.co.uk,islingtongazette.co.uk,jerseyeveningpost.com,journeychristiannews.com,jqueryte.com,kent-life.co.uk,kentnews.co.uk,kumusika.co.zw,lancashirelife.co.uk,leamingtonobserver.co.uk,legendarypokemon.net,lgr.co.uk,livingedge.co.uk,lowestoftjournal.co.uk,maltapark.com,malvernobserver.co.uk,medicalnewstoday.com,megasearch.co,midweekherald.co.uk,mmegi.bw,momjunction.com,morningstar.co.uk,msnbc.com,music-news.com,myfinances.co.uk,newhamrecorder.co.uk,newstalkzb.co.nz,newsweek.com,nine.com.au,norfolkmag.co.uk,northdevongazette.co.uk,northeastlifemag.co.uk,northnorfolknews.co.uk,northsomersettimes.co.uk,outdoorchannel.com,phnompenhpost.com,piccsy.com,pilotweb.aero,pinkun.com,radiosport.co.nz,raidforums.com,redditchstandard.co.uk,romfordrecorder.co.uk,royston-crow.co.uk,rugbyobserver.co.uk,saffronwaldenreporter.co.uk,shropshirelifemagazine.co.uk,shropshirestar.com,sidmouthherald.co.uk,skysports.com,solihullobserver.co.uk,somerset-life.co.uk,sportingshooter.co.uk,sportspromedia.com,stowmarketmercury.co.uk,stratfordobserver.co.uk,sudburymercury.co.uk,suffolkmag.co.uk,surreylife.co.uk,sussexlife.co.uk,technewstoday.com,tenplay.com.au,the42.ie,thecomet.net,thegardener.co.za,thegayuk.com,thejournal.ie,theneweuropean.co.uk,thetribunepapers.com,thewestonmercury.co.uk,totalscifionline.com,trucksplanet.com,tvweek.com,videogamer.com,warwickshirelife.co.uk,wattonandswaffhamtimes.co.uk,weddingsite.co.uk,westessexlife.co.uk,whtimes.co.uk,wiltshiremagazine.co.uk,winewizard.co.za,wisbechstandard.co.uk,worcesterobserver.co.uk,worcestershirelife.co.uk,wow247.co.uk,wymondhamandattleboroughmercury.co.uk,yorkshirelife.co.uk,yourchickens.co.uk,z9movie.com##.advert
 naldzgraphics.net##.advertBSA
 bandwidthblog.com,comtar.com,demerarawaves.com,eaglecars.com,earth911.com,hypable.com,proporn.com,slodive.com,smartearningsecrets.com,weathernationtv.com,zimbabwesituation.com##.advertise
 dailyvoice.com##.advertise-with-us

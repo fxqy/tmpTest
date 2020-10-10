@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: QmINp8gH7kekXjcgmghPXQ
-! Version: 202010090631
+! Checksum: EMoZnsQbRZNB+cl7+Or6fA
+! Version: 202010101311
 ! Title: EasyPrivacy
-! Last modified: 09 Oct 2020 06:31 UTC
+! Last modified: 10 Oct 2020 13:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -831,7 +831,6 @@
 /api/log?
 /api/lt/ref?
 /api/metrics$other
-/api/metrics|
 /api/pageview?
 /api/ping/*
 /api/pixel?
@@ -5598,7 +5597,6 @@ _mongo_stats/
 !-----------------Third-party tracking domains-----------------!
 ! *** easylist:easyprivacy/easyprivacy_trackingservers.txt ***
 ! Revolving trackers
-u
 ||g2178927685.co^
 ||g2377012020.co^
 ||g2575096355.co^
@@ -15194,6 +15192,7 @@ u
 ||ts.delfi.
 ||tsn.ua/svc/video/stat/
 ||ttxm.co.uk^*/log.js
+||tube8live.com/api/metrics
 ||tubeplus.me/geoip.php?
 ||tubepornclassic.com/js/111.js
 ||tubepornstars.com/js/analytics
