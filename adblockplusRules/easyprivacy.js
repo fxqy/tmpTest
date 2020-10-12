@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 62yljeVRdWzq6Z12m+DpoA
-! Version: 202010120151
+! Checksum: 7vPZWTbQoyW8S+Gy07P5aQ
+! Version: 202010120901
 ! Title: EasyPrivacy
-! Last modified: 12 Oct 2020 01:51 UTC
+! Last modified: 12 Oct 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -638,6 +638,7 @@
 /analytics-event-
 /analytics-event.
 /analytics-events-
+/analytics-facade.
 /analytics-gcp.
 /analytics-helper.
 /analytics-ingestion/*
@@ -1930,6 +1931,7 @@
 /fpcookie?
 /fpcount.exe
 /fps/check.
+/fptrk.min.js
 /fpv2.js
 /freecgi/count.cgi?
 /friendbuy.min.js
@@ -3643,6 +3645,7 @@
 /rum.js/*
 /rum.min.
 /rum/id?
+/rum_cmp?
 /rumstat.
 /rumtag.
 /runtimejs/intercept/*
@@ -5608,6 +5611,7 @@ _mongo_stats/
 ||g3763602365.co^
 ||g3961686700.co^
 ||g4159771035.co^
+||g4357855370.co^
 ! Third-party
 ||0emm.com^$third-party
 ||1-cl0ud.com^$third-party
@@ -10867,7 +10871,6 @@ _mongo_stats/
 ||haymarket.com/injector/deliver/
 ||heals.msgfocus.com^$third-party
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
-||hearstnp.com/treg.js
 ||heg-cp.com/upm/$third-party
 ||hello.myfonts.net/count/
 ||hello.staticstuff.net^
@@ -11331,6 +11334,7 @@ _mongo_stats/
 ||pixel.newscred.com^
 ||pixel.roymorgan.com^
 ||pixel.s3xified.com^
+||pixel.safe-installation.com^
 ||pixel.solvemedia.com^
 ||pixel.sprinklr.com^
 ||pixel.tree.com^
@@ -12642,6 +12646,7 @@ _mongo_stats/
 ||track.youniversalmedia.com^
 ||tracker.bestshopping.com^
 ||tracker.iltrovatore.it^
+||tracker.thinkermail.com^
 ||tracking.trovaprezzi.it^
 ||tracks.arubamediamarketing.it^
 ||tracy.sadv.dadapro.com^
@@ -14103,6 +14108,7 @@ _mongo_stats/
 ||luxurylink.com/t/hpr.php?
 ||ly.lygo.com^*/jquery.lycostrack.js
 ||m.putlocker.how/tracking
+||ma.redhat.com^
 ||madthumbs.com/tlog.php
 ||mail.com/monitor/count?
 ||mail.ru/counter?
@@ -14951,6 +14957,7 @@ _mongo_stats/
 ||streetfire.net/handlers/logstreamfileimpression.ashx?
 ||streetinsider.com/*.php?
 ||stribe.com/00/logs?
+||stubhub.com/bfx/api/logging
 ||studyisland.com^*/ga.js
 ||stuff.afterdawn.com/views.cfm
 ||stuff.co.nz/track/
@@ -16532,6 +16539,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||rel.nextinpact.com^
 ||rel2.nextinpact.com^
 ||zam.nextinpact.com^
+||zone-telechargement.al/analytics/
 ! Arabic
 ||cdn.mosoah.com/analytics.js
 ||ratteb.com/js.js
@@ -16775,6 +16783,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||vroom.be^*/stats.php?
 ||webstatistieken.xs4all.nl^
 ! Finnish
+||adlibris.com/pixel.gif
 ||analytics.sanoma.fi^
 ||data.reactandshare.com^
 ||dp.alma.iltalehti.fi/v1/cookie
@@ -16929,6 +16938,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||sy.amebame.com^
 ||sy.ameblo.jp^
 ||tsite.jp/static/analytics/
+||tv-asahi.co.jp/official/logging?
 ||wisteria-js.excite.co.jp^
 ||x.allabout.co.jp^
 ||yahoo.co.jp/b?p=
@@ -17254,6 +17264,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@/friendbuy.min.js$script,domain=butcherbox.com
 @@/yozons-lib/core.js$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
 @@||1001trackstats.com/api/$xmlhttprequest,domain=songstats.com
+@@||9cdn.net^*/js/tracking/$script,domain=nine.com.au
 @@||ad.crwdcntrl.net^$script,domain=investopedia.com
 @@||adblockanalytics.com/ads.js|
 @@||addgene.org/headers/blat/js/analyze.js
@@ -17274,6 +17285,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com
 @@||amplitude.com/libs/amplitude-$script,domain=loom.com
 @@||ampproject.org/v0/amp-geo-$script,domain=pantagraph.com|tasty.co
+@@||analytics.amplitude.com^$~third-party
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=abcnews.go.com|foxbusiness.com|foxnews.com
 @@||analytics.edgekey.net/ma_library/html5/html5_malibrary.js$script,domain=mxplayer.in
 @@||analytics.edgesuite.net/config/beacon-*.xml$domain=foxnews.com
@@ -17327,7 +17339,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com|imageshack.com
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca
 @@||changenow.io/js/tracking.js$script
-@@||check.ddos-guard.net/check.js$script,domain=doxbin.org
+@@||check.ddos-guard.net/check.js$script
 @@||chessfriends.com/js/live/GoogleAnalytics.js?$~third-party
 @@||circuitv.com/assets/js/analytics.js$~third-party
 @@||clearcode.cc/piwik.pro/$image,domain=piwik.pro
@@ -17424,9 +17436,9 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||google-analytics.com/plugins/ua/ec.js$script,domain=health2000.co.nz
 @@||google.com/js/gweb/analytics/autotrack.js$domain=gradleplease.appspot.com|www.google.com
 @@||googletagmanager.com/gtag/js$script,domain=ally.com|anchor.fm|foxnews.com|gamespot.com|m.putlocker.how|neighborhoodpostcards.com|playphrase.me|ryanair.com
-@@||googletagmanager.com/gtm.js$domain=action.com|ads.spotify.com|adsoup.com|aim.steelseries.com|airasia.com|asus.com|bhaskar.com|broadcom.com|bsa-whitelabel.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nytimes.com|onesignal.com|optus.com.au|overwatchleague.com|poliigon.com|porsche.com|realestate.co.nz|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|theta.tv|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|weightwatchers.com|woodlanddirect.com|wwe.com
+@@||googletagmanager.com/gtm.js$domain=action.com|ads.spotify.com|adsoup.com|aim.steelseries.com|airasia.com|asus.com|bhaskar.com|broadcom.com|bsa-whitelabel.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|insideevs.com|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nytimes.com|onesignal.com|optus.com.au|overwatchleague.com|poliigon.com|porsche.com|realestate.co.nz|rebtel.com|rockstargames.com|rollingstone.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|theta.tv|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|weightwatchers.com|woodlanddirect.com|wwe.com
 @@||gov.au/Scripts/ga.js$script,~third-party
-@@||gstatic.com^*/firebase-analytics.js$script,domain=999.md|audiomack.com|games.com|google.com
+@@||gstatic.com^*/firebase-analytics.js$script,domain=999.md|audiomack.com|foreignaffairs.com|games.com|google.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
 @@||hitfile.net/platform/js/fdlogger/fdlogger.js$script,~third-party
@@ -17602,7 +17614,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||tools.usps.com/go/scripts/tracking.js
 @@||tracking.unrealengine.com/tracking.js
 @@||travix.com/searchoptions?affiliate=$xmlhttprequest
-@@||treg.hearstnp.com/treg.js$script,domain=sfchronicle.com|sfgate.com
 @@||tw.cx/c?a=$xmlhttprequest,domain=justwatch.com
 @@||udottraffic.utah.gov/javascripts/Piwik.js
 @@||uefa.com/inc/js/core/projects/statistics/statistics.js?$script
@@ -17851,7 +17862,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||frosmo.com^$xmlhttprequest,domain=kauppahalli24.fi
 @@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
 @@||inpref.s3.amazonaws.com/sites/$script,domain=kauppahalli24.fi
-@@||leiki.com/focus/$script,domain=anna.fi|como.fi|episodi.fi|fum.fi|inferno.fi|kaksplus.fi|rumba.fi|soundi.fi|tilt.fi
+@@||leiki.com/focus/$script,domain=anna.fi|como.fi|episodi.fi|fum.fi|inferno.fi|kaksplus.fi|rumba.fi|seura.fi|soundi.fi|tilt.fi
 @@||lekane.net/lekane/dialogue-tracking.js?$script
 @@||nettix.fi^*_analytics.js$domain=nettiauto.com|nettikaravaani.com|nettikone.com|nettimokki.com|nettimoto.com|nettivaraosa.com
 @@||scdn.cxense.com/cx.js$script,domain=ksml.fi|savonsanomat.fi
