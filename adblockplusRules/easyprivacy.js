@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: wCFvzn+jOFAqmTUN4VkfRw
-! Version: 202010130901
+! Checksum: z8a3WNlNVisyjHPDQTxAMg
+! Version: 202010140901
 ! Title: EasyPrivacy
-! Last modified: 13 Oct 2020 09:01 UTC
+! Last modified: 14 Oct 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5194,6 +5194,7 @@
 ?event=pageview&
 ?event=performancelogger:
 ?event=pixel.
+?event=tracking:ajax
 ?eventType=*&url=
 ?eventtype=impression&pid=
 ?eventtype=request&pid=
@@ -5221,7 +5222,6 @@
 ?trackingCategory=
 ?triggertags=
 ?type=pageview&
-?type=performance&
 ?type=ping&$~subdocument
 ?url=*&id=*&res=*&ref=
 ?utmad=*&utmac=
@@ -7741,7 +7741,7 @@ _mongo_stats/
 ||sophi.io^$third-party
 ||sophus3.com^$third-party
 ||soska.us^$third-party
-||sp-prod.net^$third-party,domain=~autobild.de|~bild.de|~boerse-online.de|~bz-berlin.de|~caramia.de|~computerbild.de|~edelblech.de|~finanzen.at|~finanzen.ch|~finanzen.net|~fitbook.de|~gofeminin.de|~idealo.at|~idealo.co.uk|~idealo.de|~idealo.es|~idealo.fr|~idealo.it|~immonet.de|~kombi.de|~metal-hammer.de|~musikexpress.de|~n24.de|~onmeda.de|~rollingstone.de|~sportbild.de|~stylebook.de|~techbook.de|~transfermarkt.de|~travelbook.de|~welt.de|~wieistmeineip.at|~wieistmeineip.ch|~wieistmeineip.de|~zuio.tv
+||sp-prod.net^$third-party,domain=~autobild.de|~bike-bild.de|~bild.de|~boerse-online.de|~businessinsider.de|~bz-berlin.de|~caramia.de|~computerbild.de|~edelblech.de|~finanzen.at|~finanzen.ch|~finanzen.net|~fitbook.de|~gofeminin.de|~idealo.at|~idealo.co.uk|~idealo.de|~idealo.es|~idealo.fr|~idealo.it|~immonet.de|~kombi.de|~meinestadt.de|~metal-hammer.de|~musikexpress.de|~myhomebook.de|~n24.de|~noizz.de|~onmeda.de|~politico.eu|~rollingstone.de|~sportbild.de|~stylebook.de|~techbook.de|~transfermarkt.de|~travelbook.de|~welt.de|~wieistmeineip.at|~wieistmeineip.ch|~wieistmeineip.de|~zuio.tv
 ||spamanalyst.com^$third-party
 ||spectate.com^$third-party
 ||speed-trap.com^$third-party
@@ -10018,6 +10018,7 @@ _mongo_stats/
 ||amazonaws.com/prod/entities
 ||amazonaws.com/prod/main?ref=$image,third-party
 ||amazonaws.com/prod/report-only
+||amazonaws.com/production_beacon
 ||amazonaws.com/searchdiscovery-satellite-production/
 ||amazonaws.com/statics.reedge.com/
 ||amazonaws.com/wgntrk/
@@ -11923,6 +11924,7 @@ _mongo_stats/
 ||ultimedia.com/v/
 ||ultimedia.com^*/visibilityStat.js
 ||unid.go.com^*/hit?
+||units.knotch.it^
 ||uplynk.com/session/ping/
 ||upt.graphiq.com^
 ||uptime.com/static/rum/$third-party
@@ -12147,7 +12149,7 @@ _mongo_stats/
 ||fastly.net/sp.js
 ! Consent Trackers
 ||opencmp.net^$script,third-party
-||privacy-mgmt.com^$script,third-party,domain=~11freunde.de|~faz.net|~tvspielfilm.de|~vip.de
+||privacy-mgmt.com^$script,third-party,domain=~11freunde.de|~boerse-online.de|~faz.net|~finanzen.at|~finanzen.net|~tvspielfilm.de|~vip.de
 ! Unnecessary third-party scripts
 ||cyveillance.com^$third-party
 ||howsmyssl.com^$third-party
@@ -14860,6 +14862,7 @@ _mongo_stats/
 ||sp.zanesvilletimesrecorder.com^
 ||spanids.dictionary.com^
 ||spanids.thesaurus.com^
+||spankbang.com/auth_fetch?$xmlhttprequest
 ||spankbang.com/fetch$xmlhttprequest
 ||spankbang.com^$ping
 ||speakertext.com/analytics/
@@ -15480,6 +15483,7 @@ _mongo_stats/
 ||yopmail.com/c.swf
 ||youandyourwedding.co.uk^*/EAS_tag.
 ||youandyourwedding.co.uk^*/socialtracking/
+||youjizzlive.com/api/metrics
 ||younewstv.com/js/easyxdm.min.js
 ||youporn.com^*/tracker.js
 ||yourbittorrent.com/collect.php
@@ -16889,6 +16893,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||tracking.tuobenessere.it^$script
 ||tracking.viaggiamo.it^$script
 ||trk.m.libero.it^
+||tuttocagliari.net/pixel
 ||tuttogratis.it/gopix.php?
 ||tuttomercatoweb.com/pixel
 ||video.mediaset.it/polymediashowanalytics/
@@ -17450,6 +17455,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ibm.com/software/reports/compatibility/clarity-reports/js/$script,~third-party
 @@||identity.mparticle.com^$xmlhttprequest,domain=msnbc.com|nbc.com
 @@||idfcbank.com/static/features/*/scripts/FingerPrint.js$script,~third-party
+@@||imgur.com/min/px.js$~third-party
 @@||imrworldwide.com/novms/js/2/ggc$script,domain=9now.com.au|adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|espn.com|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|news-mail.com.au|news.com.au|noosanews.com.au|ntnews.com.au|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|townsvillebulletin.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
 @@||imrworldwide.com/v60.js$domain=adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|last.fm|musicfeeds.com.au|news-mail.com.au|noosanews.com.au|ntnews.com.au|nzherald.co.nz|realestateview.com.au|sf.se|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|threenow.co.nz|townsvillebulletin.com.au|weatherchannel.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
 @@||infowars.com/videojs-event-tracking/dist/videojs-event-tracking.js
@@ -17559,7 +17565,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com|mirror.co.uk
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com|mirror.co.uk|tumblr.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|nymag.com
 @@||rasset.ie/dotie/js/tracker.js$domain=rte.ie
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
@@ -17579,10 +17585,11 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||sears.com^*/analytics.sitecatalyst.js
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
-@@||segment.com/analytics.js/*/analytics.min.js$script
+! @@||segment.com/analytics.js/*/analytics.min.js$script
 @@||segment.com/v1/projects/$xmlhttprequest,domain=benchling.com
 @@||segment.io/analytics.js/*/analytics.min.js$script
 @@||segment.io/v1/$xmlhttprequest,domain=greentoe.com
+@@||serve-ts.amagi.tv^*/beacon?$xmlhttprequest,domain=watch.truecrimenetworktv.com
 @@||siteapps.caa.co.uk/scripts/plugins/analytics/ga.min.js$script,~third-party
 @@||smartclient.com/smartclient/isomorphic/system/modules/isc_analytics.js$xmlhttprequest
 @@||songza.com/static/*/songza/systems/$script
