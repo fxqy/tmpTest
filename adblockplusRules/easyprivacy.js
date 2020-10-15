@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: z8a3WNlNVisyjHPDQTxAMg
-! Version: 202010140901
+! Checksum: 3hFhTrys32X9vze4CD6nuw
+! Version: 202010150911
 ! Title: EasyPrivacy
-! Last modified: 14 Oct 2020 09:01 UTC
+! Last modified: 15 Oct 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6908,6 +6908,7 @@ _mongo_stats/
 ||lasagneandands.com^$third-party
 ||lead-123.com^$third-party
 ||lead-converter.com^$third-party
+||leadbi.com^$third-party
 ||leadboxer.com^$third-party
 ||leadchampion.com^$third-party
 ||leaddyno.com^$third-party
@@ -9540,6 +9541,7 @@ _mongo_stats/
 ||webads.eu^$third-party
 ||webmeter.ws^$third-party
 ||webmobile.ws^$third-party
+||websanalytic.com^$third-party
 ||whoseesyou.com^$third-party
 ||wstatslive.com^$third-party
 ! Japanese
@@ -13527,7 +13529,6 @@ _mongo_stats/
 ||ebay-us.com/fp/
 ||ebay.com/op/t.do?event
 ||ebayobjects.com/*;dc_pixel_url=$image
-||ebaystatic.com/pictures/aw/pics/s_1x2.gif
 ||ebaystatic.com^*/agof_survey_
 ||ebaystatic.com^*/iam_
 ||economist.com/geoip.php
@@ -13785,7 +13786,7 @@ _mongo_stats/
 ||glamourmagazine.co.uk^*/LogPageView
 ||glassmoni.researchgate.net^
 ||global.canon^*/analytics.js
-||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|theadvertiser.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
+||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
 ||globes.co.il/ga.asp
 ||globes.co.il/shared/s.ashx?
 ||globester.com^*/track.js
@@ -17474,6 +17475,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||jbj.co.uk^*/analytics.js$script,~third-party
 @@||jsrdn.com/s/cs.js$domain=distro.tv
 @@||jwpcdn.com/player/plugins/googima/*/googima.js$script,domain=ladbible.com
+@@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
 @@||kbb.com/static/js/global/app-measurement$script
 @@||kentucky.com/mistats/finalizestats.js
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
@@ -17770,6 +17772,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.net|radiorur.de|saturn.at|sport1.de
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
+@@||kameleoon.eu/kameleoon.js$domain=welt.de
 @@||ksta.de/cre-1.0/tracking/call.js?$domain=ksta.de
 @@||ksta.de^*/api/tracking/service/ksta/templateclient.js$domain=ksta.de
 @@||ksta.de^*/tracking/tracking.js$domain=ksta.de
@@ -17779,7 +17782,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||spatialbuzz.com/piwik/piwik.js$domain=spatialbuzz.com
 @@||spiegel.de/layout/js/http/netmind-$script
 @@||sunday.de/skin/*/googleanalytics.js$script
-@@||taboola.com/libtrc/impl.$script,domain=bild.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|stylebook.de|techbook.de
+@@||taboola.com/libtrc/impl.$script,domain=bild.de|bz-berlin.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|stylebook.de|techbook.de|travelbook.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
 @@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
 @@||uim.tifbs.net/js/$script,domain=gewinnspiel.web.de
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
