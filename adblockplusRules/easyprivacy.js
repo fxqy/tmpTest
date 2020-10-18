@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: LF6e00h7FuaxpvsJ2qq5bA
-! Version: 202010170221
+! Checksum: 9a1jtMvmXhbOT3Xq14XCyg
+! Version: 202010180311
 ! Title: EasyPrivacy
-! Last modified: 17 Oct 2020 02:21 UTC
+! Last modified: 18 Oct 2020 03:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4652,6 +4652,7 @@
 /trck/etms/*
 /trckUtil.
 /trclnk.js
+/trendmd.min.js
 /trigger-visit-event
 /triggertag.js
 /triggit-analytics.
@@ -17767,7 +17768,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=br.de
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
 @@||asadcdn.com/adlib/pages/sport1.js$domain=sport1.de
-@@||cdn.privacy-mgmt.com^$subdocument,xmlhttprequest,domain=ekstrabladet.dk|manager-magazin.de|spiegel.de|sport1.de|vtm.begmt.com|welt.de
+@@||cdn.privacy-mgmt.com^$subdocument,xmlhttprequest,domain=ekstrabladet.dk|giga.de|manager-magazin.de|spiegel.de|sport1.de|vtm.begmt.com|welt.de
 @@||darmstadt.ui-traffic.de/mobile/webapp/bower_components/heatmap.js$domain=darmstadt.ui-traffic.de
 @@||deutschlandfunkkultur.de/themes/*/js.php?files=*,script/smarttag.js,$script,~third-party
 @@||energy.de^*/ivw.js?$domain=energy.de
