@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 9a1jtMvmXhbOT3Xq14XCyg
-! Version: 202010180311
+! Checksum: 1hC7LLf6fRFXpS1bqM0kkQ
+! Version: 202010190901
 ! Title: EasyPrivacy
-! Last modified: 18 Oct 2020 03:11 UTC
+! Last modified: 19 Oct 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -898,6 +898,7 @@
 /astrack.js
 /astracker.
 /astracker/*
+/async/stat
 /asyncggtracking.
 /at.gif?
 /atapixel.js
@@ -1063,6 +1064,7 @@
 /blueKaiAnalytics.
 /bluekaicookieinfo.
 /BlueKaiPixel/*
+/bluetracker.
 /bluetracker/*
 /bm-analytics-trk.js
 /bm-analytics/*
@@ -1862,6 +1864,7 @@
 /FacebookTracking.
 /faciliti-tag.
 /fairfax_tracking.js
+/famobi_tracking_
 /fastcounter.
 /favcyanalytics?
 /fb-app-tracker.
@@ -2225,6 +2228,7 @@
 /gujTracker.
 /gv-analytics/*
 /gweb/analytics/*
+/hash_stat/*
 /hash_stat_bulk/*
 /hc/tracking/*
 /hc_pixel.gif?
@@ -5214,6 +5218,7 @@
 ?record&*&serve_js
 ?ref=*&itemcnt=
 ?service=settrace&
+?sponsor_pixel=
 ?src=*_trk=
 ?statify_referrer=
 ?stwc_cz=
@@ -7744,7 +7749,7 @@ _mongo_stats/
 ||sophi.io^$third-party
 ||sophus3.com^$third-party
 ||soska.us^$third-party
-||sp-prod.net^$third-party,domain=~autobild.de|~bike-bild.de|~bild.de|~boerse-online.de|~businessinsider.de|~bz-berlin.de|~caramia.de|~clever-tanken.de|~computerbild.de|~edelblech.de|~finanzen.at|~finanzen.ch|~finanzen.net|~fitbook.de|~gofeminin.de|~idealo.at|~idealo.co.uk|~idealo.de|~idealo.es|~idealo.fr|~idealo.it|~immonet.de|~kombi.de|~meinestadt.de|~metal-hammer.de|~musikexpress.de|~myhomebook.de|~n24.de|~noizz.de|~onmeda.de|~politico.eu|~rollingstone.de|~sportbild.de|~stylebook.de|~techbook.de|~transfermarkt.de|~travelbook.de|~welt.de|~wieistmeineip.at|~wieistmeineip.ch|~wieistmeineip.de|~zuio.tv
+||sp-prod.net^$third-party,domain=~autobild.de|~bike-bild.de|~bild.de|~boerse-online.de|~businessinsider.de|~bz-berlin.de|~caramia.de|~clever-tanken.de|~computerbild.de|~edelblech.de|~finanzen.at|~finanzen.ch|~finanzen.net|~fitbook.de|~gofeminin.de|~idealo.at|~idealo.co.uk|~idealo.de|~idealo.es|~idealo.fr|~idealo.it|~immonet.de|~kombi.de|~meinestadt.de|~metal-hammer.de|~musikexpress.de|~myhomebook.de|~n24.de|~noizz.de|~onmeda.de|~politico.eu|~rollingstone.de|~sportbild.de|~stylebook.de|~techbook.de|~testbild.de|~transfermarkt.de|~travelbook.de|~welt.de|~wieistmeineip.at|~wieistmeineip.ch|~wieistmeineip.de|~zuio.tv
 ||spamanalyst.com^$third-party
 ||spectate.com^$third-party
 ||speed-trap.com^$third-party
@@ -8879,6 +8884,7 @@ _mongo_stats/
 ||rejectfairies.com^$third-party
 ||repeatsweater.com^$third-party
 ||resonantbrush.com^$third-party
+||resonantrock.com^$third-party
 ||rhetoricalloss.com^$third-party
 ||richstring.com^$third-party
 ||ringplayground.com^$third-party
@@ -11831,6 +11837,7 @@ _mongo_stats/
 ||tracking.fits.me^$third-party
 ||tracking.g2crowd.com^
 ||tracking.godatafeed.com^
+||tracking.html5games.com^
 ||tracking.interweave.com^$third-party
 ||tracking.jotform.com^
 ||tracking.keywee.co^
@@ -13956,6 +13963,7 @@ _mongo_stats/
 ||infogr.am/js/metrics.js
 ||infomine.com/imcounter.js
 ||infoq.com/metrics/
+||informer.com/ajax/article_log.php
 ||informer.com/statistic?
 ||infospace.com^*=pageview&
 ||infusionextreme.com/tracker/
@@ -14539,6 +14547,7 @@ _mongo_stats/
 ||quintcareers.4jobs.com/Common/JavaScript/functions.tracking.js
 ||quora.com/ajax/batched_log_
 ||quotesonic.com/vendor/pixel.cfm
+||qwant.com/v2/api/ux/surveys?
 ||qz.com/log
 ||r.bbci.co.uk^
 ||r.my.com^
@@ -14868,6 +14877,7 @@ _mongo_stats/
 ||spankbang.com/pull_stats?$xmlhttprequest
 ||spankbang.com^$ping
 ||speakertext.com/analytics/
+||speed.cloudflare.com/__log
 ||speed.wikia.net^
 ||spinmedia.com/clarity.min.js
 ||splurgy.com/bacon/*_ct.gif$image
@@ -16536,6 +16546,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||unblog.fr/cu.js
 ||wawacity.*/bypass
 ||wbdds.allocine.fr^
+||wstats.gameblog.fr^
 ||yandex.fr/clck/click
 ||zonecss.fr/images/stat_robocop.gif?
 ||zonecss.fr/images/statscreen.gif?
@@ -17055,6 +17066,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||auto.ru/cookiesync/
 ||avito.ru/stat/
 ||babyblog.ru/pixel?
+||c.sibnet.ru^
 ||consultant.ru/js/counter.js
 ||cosmo.ru/*/.js?i=*&r=
 ||counter.drom.ru^
