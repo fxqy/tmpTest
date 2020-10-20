@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 1hC7LLf6fRFXpS1bqM0kkQ
-! Version: 202010190901
+! Checksum: 5/WLYwicPZuILDLp3/YdVw
+! Version: 202010200921
 ! Title: EasyPrivacy
-! Last modified: 19 Oct 2020 09:01 UTC
+! Last modified: 20 Oct 2020 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -898,7 +898,7 @@
 /astrack.js
 /astracker.
 /astracker/*
-/async/stat
+/async/stat|
 /asyncggtracking.
 /at.gif?
 /atapixel.js
@@ -5617,6 +5617,7 @@ _mongo_stats/
 ||g3961686700.co^
 ||g4159771035.co^
 ||g4357855370.co^
+||g4555939705.co^
 ! Third-party
 ||0emm.com^$third-party
 ||1-cl0ud.com^$third-party
@@ -7776,6 +7777,7 @@ _mongo_stats/
 ||srmdata.com^$third-party
 ||srpx.net^$third-party
 ||srv1010elan.com^$third-party
+||ssm.codes^$third-party
 ||stack-sonar.com^$third-party
 ||stackadapt.com^$third-party
 ||stadsvc.com^$third-party
@@ -9555,6 +9557,7 @@ _mongo_stats/
 ! Japanese
 ||accesstrade.net^$third-party
 ||admatrix.jp^$third-party
+||adpon.jp^$third-party
 ||af-z.jp^$third-party
 ||aid-ad.jp^$third-party
 ||amoad.com^$third-party
@@ -10796,6 +10799,7 @@ _mongo_stats/
 ||fullstory.com/s/fs.js$third-party
 ||future-fie-assets.co.uk^
 ||future-price.co.uk^
+||futurecdn.net/bordeaux.js
 ||futurecdn.net^*/abp.js
 ||fwcdn1.com/js/fwn.js
 ||fwix.com/ref.js
