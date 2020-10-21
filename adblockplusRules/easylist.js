@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: h0pSBVSj/U+m/JL7wd8SVg
-! Version: 202010210901
+! Checksum: Bo39h4vDjuKHYFngnnPqtA
+! Version: 202010210911
 ! Title: EasyList
-! Last modified: 21 Oct 2020 09:01 UTC
+! Last modified: 21 Oct 2020 09:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -27043,6 +27043,8 @@ _popunder+$popup
 ##.premium_ad_container
 ##.premiumad
 ##.preview-ad
+##.priad
+##.priad-1
 ##.pricead-border
 ##.primary-ad
 ##.primary-ad-widget
@@ -27335,6 +27337,7 @@ _popunder+$popup
 ##.right-advert
 ##.right-col-ad
 ##.right-column-ad
+##.right-column-ads
 ##.right-navAdBox
 ##.right-rail-ad
 ##.right-rail-ad-banner
@@ -55043,6 +55046,7 @@ search-results.com###rr_sa_container
 rollingstone.com###rs-ticketing
 redsharknews.com###rsBannerStrip
 core77.com###rsDesignDir
+sciencealert.com###rt-header
 eprop.co.za###rt-top
 pages.ebay.com###rtm_1658
 ebay.ie###rtm_NB

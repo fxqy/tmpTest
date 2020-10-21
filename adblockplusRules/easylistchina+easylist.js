@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Fh34mNBTwXKAWn/LZLKbow
-! Version: 202010210901
+! Checksum: 8pU+74q+EXij8lF5imr2Jg
+! Version: 202010210911
 ! Title: EasyList China+EasyList
-! Last modified: 21 Oct 2020 09:01 UTC
+! Last modified: 21 Oct 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -45526,6 +45526,8 @@ _popunder+$popup
 ##.premium_ad_container
 ##.premiumad
 ##.preview-ad
+##.priad
+##.priad-1
 ##.pricead-border
 ##.primary-ad
 ##.primary-ad-widget
@@ -45818,6 +45820,7 @@ _popunder+$popup
 ##.right-advert
 ##.right-col-ad
 ##.right-column-ad
+##.right-column-ads
 ##.right-navAdBox
 ##.right-rail-ad
 ##.right-rail-ad-banner
@@ -73526,6 +73529,7 @@ search-results.com###rr_sa_container
 rollingstone.com###rs-ticketing
 redsharknews.com###rsBannerStrip
 core77.com###rsDesignDir
+sciencealert.com###rt-header
 eprop.co.za###rt-top
 pages.ebay.com###rtm_1658
 ebay.ie###rtm_NB
