@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: VY5EQroLa2dlJGlriLV6bg
-! Version: 202010250301
+! Checksum: JU2WpMct5jbR2gCBzqL0HA
+! Version: 202010270911
 ! Title: EasyPrivacy
-! Last modified: 25 Oct 2020 03:01 UTC
+! Last modified: 27 Oct 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5149,7 +5149,7 @@
 ://ivwextern.
 ://metrika.*/analytics.
 ://mint.*/?js
-://piwik.$third-party
+://piwik.$third-party,domain=~matomo.org
 ://reporting.*/blank.gif?
 ://rum.*/events
 ://rum.*/rum/
@@ -6038,7 +6038,6 @@ _mongo_stats/
 ||callreports.com^$third-party
 ||calltrackingmetrics.com^$third-party
 ||calltracks.com^$third-party
-||calltrk.com^$third-party
 ||campaigncog.com^$third-party
 ||canddi.com^$third-party
 ||canlytics.com^$third-party
@@ -10327,6 +10326,7 @@ _mongo_stats/
 ||c3metrics.medifast1.com^
 ||cache2.delvenetworks.com^
 ||cadreon.s3.amazonaws.com^
+||calltrk.com/companies/
 ||canada.com/js/analytics/
 ||canecto.info/analytics.js
 ||canvas-ping.conduit-data.com^
@@ -10750,7 +10750,7 @@ _mongo_stats/
 ||eventtracker.videostrip.com^$third-party
 ||eveonline.com/redir.asp$third-party
 ||evgnet.com/beacon/
-||evidon.com/pub/tag.js
+||evidon.com/pub/
 ||eviesays.com/js/analytics/
 ||evri.com/analytics/
 ||evt.collarity.com^$image
