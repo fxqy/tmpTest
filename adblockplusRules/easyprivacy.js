@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: JU2WpMct5jbR2gCBzqL0HA
-! Version: 202010270911
+! Checksum: C28rTjlpnB6lX4BLK0AHTg
+! Version: 202010290441
 ! Title: EasyPrivacy
-! Last modified: 27 Oct 2020 09:11 UTC
+! Last modified: 29 Oct 2020 04:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -11100,7 +11100,7 @@ _mongo_stats/
 ||loglady.skypicker.com^
 ||logs-api.shoprunner.com^
 ||logs.datadoghq.com^$domain=~app.datadoghq.com
-||logs.datadoghq.eu^
+||logs.datadoghq.eu^$domain=~app.datadoghq.eu
 ||logs.spilgames.com^
 ||logs.thebloggernetwork.com^
 ||logs.vmixcore.com^
@@ -13902,12 +13902,6 @@ _mongo_stats/
 ||hsn.com/code/pix.aspx
 ||huawei.com/hwa-c/
 ||hubpages.com/c/*.gif?
-||huffingtonpost.*/vanity/?
-||huffingtonpost.com/click?
-||huffingtonpost.com/geopromo/
-||huffingtonpost.com/include/geopromo.php
-||huffingtonpost.com/ping?
-||huffingtonpost.com/traffic/
 ||huffpost.com/ping?
 ||hulkshare.com/ajax/tracker.php
 ||hulkshare.com/stats.php
@@ -14161,6 +14155,7 @@ _mongo_stats/
 ||mate1.com^*/reg.logging.js
 ||mayoclinic.org/js/gconversion.js
 ||mcloud.to/log/
+||mcs-va.tiktokv.com^
 ||mdmpix.com/js/connector.php?
 ||mealime.com/assets/mealytics.js
 ||media-imdb.com/images/*/imdbads/js/beacon-$script
@@ -17426,8 +17421,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||dpm.demdex.net/id?$xmlhttprequest,domain=foxnews.com
 @@||dw.cbsi.com/anonc.js$domain=gamespot.com|giantbomb.com
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|gamespot.com|tv.com
-@@||dynamicyield.com/api/$script,domain=flytap.com|thewarehouse.co.nz|zalora.com.my|zalora.com.ph|zalora.sg
-@@||dynamicyield.com/st?$script,domain=computeruniverse.net|zalora.com.my|zalora.com.ph|zalora.sg
+@@||dynamicyield.com/api/$script,domain=fendi.com|flytap.com|thewarehouse.co.nz|zalora.com.my|zalora.com.ph|zalora.sg
+@@||dynamicyield.com/st?$script,domain=computeruniverse.net|fendi.com|zalora.com.my|zalora.com.ph|zalora.sg
 @@||e2e-comms.pearson.com/osbrowserchecker/prd/thirdPartyCookie.html?$subdocument,domain=pearsonmylabandmastering.com
 @@||easyship.com/api/v1/track/$xmlhttprequest,domain=trackmyshipment.co
 @@||eatstreet.com/api/v2/tracking/$~third-party
@@ -17466,6 +17461,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||geo.ngtv.io/locate/$domain=hbo.com
 @@||geoip-db.com/jsonp/$script,third-party
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=ibanez.com
+@@||geoplugin.net/javascript.gp?$script,domain=virginmobile.ca
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
 @@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
 @@||ghstatic.com/images/site/zylom/scripts/google-analytics.js?$domain=zylom.com
@@ -17618,7 +17614,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||s.yimg.com^*/advertisement/sponsor/promo/ad.png$image,domain=news.yahoo.com
 @@||sahibinden.com/assets/analytics*.js$script
 @@||sbphototours.com/includes/AWStats.js$~third-party
-@@||scorecardresearch.com/beacon.js$domain=agame.com|allmusic.com|amctv.com|apl.tv|babycenter.com|bonappetit.com|calgaryherald.com|canada.com|cbc.ca|dailymail.co.uk|dailymotion.com|deviantart.com|discovery.com|doctoroz.com|edmontonjournal.com|fastcompany.com|financialpost.com|firstwefeast.com|hitfix.com|huffingtonpost.com|investigationdiscovery.com|landandfarm.com|last.fm|leaderpost.com|m.tmz.com|montrealgazette.com|nationalpost.com|newsday.com|ottawacitizen.com|outsideonline.com|radaronline.com|salon.com|sci2.tv|syfy.com|theprovince.com|thestar.com|thestarphoenix.com|thinkatheist.com|tlc.com|tmz.com|v3.co.uk|vancouversun.com|windsorstar.com
+@@||scorecardresearch.com/beacon.js$domain=agame.com|allmusic.com|amctv.com|apl.tv|babycenter.com|bonappetit.com|calgaryherald.com|canada.com|cbc.ca|dailymail.co.uk|dailymotion.com|deviantart.com|discovery.com|doctoroz.com|edmontonjournal.com|fastcompany.com|financialpost.com|firstwefeast.com|hitfix.com|investigationdiscovery.com|landandfarm.com|last.fm|leaderpost.com|m.tmz.com|montrealgazette.com|nationalpost.com|newsday.com|ottawacitizen.com|outsideonline.com|radaronline.com|salon.com|sci2.tv|syfy.com|theprovince.com|thestar.com|thestarphoenix.com|thinkatheist.com|tlc.com|tmz.com|v3.co.uk|vancouversun.com|windsorstar.com
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_html5.js
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_theplatform.js
 @@||screen9.com/players/*/amber-google-analytics.esm.js$script,domain=api.screen9.com
