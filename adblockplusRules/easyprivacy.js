@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: C28rTjlpnB6lX4BLK0AHTg
-! Version: 202010290441
+! Checksum: V/9k50kdQY5O02T+wzgpKQ
+! Version: 202010300252
 ! Title: EasyPrivacy
-! Last modified: 29 Oct 2020 04:41 UTC
+! Last modified: 30 Oct 2020 02:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10036,6 +10036,7 @@ _mongo_stats/
 ||amazonaws.com/prod/entities
 ||amazonaws.com/prod/main?ref=$image,third-party
 ||amazonaws.com/prod/report-only
+||amazonaws.com/prod/v2
 ||amazonaws.com/production_beacon
 ||amazonaws.com/searchdiscovery-satellite-production/
 ||amazonaws.com/statics.reedge.com/
@@ -10673,6 +10674,7 @@ _mongo_stats/
 ||dn34cbtcv9mef.cloudfront.net^
 ||dnn506yrbagrg.cloudfront.net^
 ||domodomain.com^*/ddsense.aspx?
+||dotaudiences.com^$third-party
 ||doug1izaerwt3.cloudfront.net^
 ||dreamhost.com/*.cgi?$image,third-party
 ||drift.com/impressions/
@@ -11436,6 +11438,7 @@ _mongo_stats/
 ||quisma.com/tracking/
 ||quora.com/_/ad/
 ||quora.com/qevents.js
+||qzzr.com/_uid.gif
 ||r.mail.ru^
 ||r.msn.com^
 ||r.ypcdn.com^*/rtd?ptid$image
@@ -17357,7 +17360,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||bookmate.com^*/impressions?$xmlhttprequest
 @@||bootcamp.mit.edu/js/angulartics-google-analytics.min.js
 @@||boxberry.ru/local/templates/site-boxberry/js/tracking_service.js$xmlhttprequest
-@@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|imperial.ac.uk|loveotv.com|theangryviking1776.com|washingtonpost.com|wix.com
+@@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|imperial.ac.uk|loveotv.com|theangryviking1776.com|thepittsburghoratory.org|washingtonpost.com|wix.com
 @@||bugzilla.mozilla.org^*/extensions/TrackingFlags/$script
 @@||c.paypal.com/da/r/fb.js$script
 @@||c212.net^$image,domain=prnewswire.com
