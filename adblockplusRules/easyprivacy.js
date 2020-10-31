@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: V/9k50kdQY5O02T+wzgpKQ
-! Version: 202010300252
+! Checksum: 50OxoHDbSE39a8gcg9M1Dw
+! Version: 202010310251
 ! Title: EasyPrivacy
-! Last modified: 30 Oct 2020 02:52 UTC
+! Last modified: 31 Oct 2020 02:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1281,6 +1281,7 @@
 /clickstats.
 /clickstream.aspx?
 /clickstream.js
+/clickstream/visit?
 /clicktag.
 /ClickTail.
 /clicktale-
@@ -7159,6 +7160,7 @@ _mongo_stats/
 ||nakanohito.jp^$third-party
 ||nalook.com^$third-party
 ||nanovisor.io^$third-party
+||narrativ.com^$third-party
 ||natero.com^$third-party
 ||native.ai^$third-party
 ||natpal.com^$third-party
@@ -10602,6 +10604,7 @@ _mongo_stats/
 ||d3iouejux1os58.cloudfront.net^
 ||d3kyk5bao1crtw.cloudfront.net^
 ||d3l3lkinz3f56t.cloudfront.net^
+||d3m6sept6cnil5.cloudfront.net^
 ||d3mskfhorhi2fb.cloudfront.net^
 ||d3n6i6eorggdxk.cloudfront.net^
 ||d3q7vxy7usqoub.cloudfront.net^
@@ -11443,6 +11446,7 @@ _mongo_stats/
 ||r.msn.com^
 ||r.ypcdn.com^*/rtd?ptid$image
 ||rackcdn.com/easie.js
+||rackcdn.com/gate.js
 ||rackcdn.com/icon2.gif?
 ||rackcdn.com/knotice.api.js
 ||rackcdn.com/stf.js
@@ -11648,6 +11652,7 @@ _mongo_stats/
 ||stats.twistage.com^
 ||stats.varrando.com^
 ||stats.viddler.com^
+||stats.vliplatform.com^
 ||stats.webs.com^
 ||stats.webstarts.com^$third-party
 ||stats.wp.com^
@@ -12090,6 +12095,7 @@ _mongo_stats/
 ||zengenti.com/tags/
 ||ziffdavisb2b.com^*/tracker.js
 ||ziffprod.com^*/zdcse.min.js?referrer=
+||zineone.com^*/event
 ||zmags.com/a/p/p.js
 ||zoover.co.uk/tracking/
 ||zope.net^*/ghs_wa.js
@@ -13317,6 +13323,7 @@ _mongo_stats/
 ||canoe.ca/generix/ga.js
 ||canstockphoto.com/monitor/
 ||capitalone.com/collector/
+||capture.crutchfield.com^
 ||cardomain.com/js/tibbylog.js?
 ||cardstore.com/affiliate.jsp?
 ||carmagazine.co.uk^*/tracking.js
@@ -13855,6 +13862,7 @@ _mongo_stats/
 ||groupon.*/tracky$xmlhttprequest
 ||groupon.com/analytic/
 ||groupon.com/tracking
+||groupondata.com/tracky
 ||guardianapps.co.uk/geolocation
 ||gumtree.com.au/?pc=
 ||h.cliphunter.com^
@@ -14051,8 +14059,7 @@ _mongo_stats/
 ||klout.com/ka.js
 ||knoxnews.com/metrics/
 ||kodakgallery.com^*/analytics_
-||kohls.com/_bm/_data
-||kohls.com/test_rum?
+||kohls.com/test_rum_nv?
 ||kosmix.com^*.txt?pvid=
 ||krakenlyrics.com/view?
 ||laas.americanexpress.com^
@@ -16012,7 +16019,7 @@ _mongo_stats/
 /^https?:\/\/.*\.corsair\.(fr|ci|ca|gp|mq|re)\/[a-z0-9]{19,}\?/$script,xmlhttprequest
 ||aerlingus.com/ahktqsewxjhguuxe.js
 ||aerlingus.com/ahktqsewxjhguuxexhr.js
-||bhphotovideo.com/YAEMJLYP/
+||bhphotovideo.com/otohphnbwww-
 ||greenmangaming.com/omnopfddrdlevbbh.js
 ||gumtree.com/ycxwzbcsxennhrkc.js
 ||gumtree.com/ycxwzbcsxennhrkcxhr.js
@@ -17360,7 +17367,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||bookmate.com^*/impressions?$xmlhttprequest
 @@||bootcamp.mit.edu/js/angulartics-google-analytics.min.js
 @@||boxberry.ru/local/templates/site-boxberry/js/tracking_service.js$xmlhttprequest
-@@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|imperial.ac.uk|loveotv.com|theangryviking1776.com|thepittsburghoratory.org|washingtonpost.com|wix.com
+@@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|imperial.ac.uk|loveotv.com|onginnovations.com|theangryviking1776.com|thepittsburghoratory.org|washingtonpost.com|wix.com
 @@||bugzilla.mozilla.org^*/extensions/TrackingFlags/$script
 @@||c.paypal.com/da/r/fb.js$script
 @@||c212.net^$image,domain=prnewswire.com
@@ -17377,6 +17384,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||cdn.privacy-mgmt.com^$domain=telegraph.co.uk
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca
 @@||changenow.io/js/tracking.js$script
+@@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
 @@||check.ddos-guard.net/check.js$script
 @@||chessfriends.com/js/live/GoogleAnalytics.js?$~third-party
 @@||circuitv.com/assets/js/analytics.js$~third-party
