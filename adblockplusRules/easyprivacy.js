@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: edAhb0RvLY6JSHYkA2Zo6g
-! Version: 202011040911
+! Checksum: f/D/5ZYmKHDv/FzdY4h7oQ
+! Version: 202011050911
 ! Title: EasyPrivacy
-! Last modified: 04 Nov 2020 09:11 UTC
+! Last modified: 05 Nov 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4569,6 +4569,7 @@
 /trackingcookies.
 /TrackingData.
 /trackingDTM.js
+/trackingEMI?cid=
 /trackingfilter.json?
 /trackingFooter.
 /trackingGA.js
@@ -5623,6 +5624,7 @@ _mongo_stats/
 ||g4159771035.co^
 ||g4357855370.co^
 ||g4555939705.co^
+||g4754024040.co^
 ! Third-party
 ||0emm.com^$third-party
 ||1-cl0ud.com^$third-party
@@ -16883,6 +16885,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||freeonline.org/sito_track?
 ||gazzetta.it^*/stats.php?
 ||ilsole24ore.com/static/js/track.js?
+||insights.cdt.ch^
 ||joka.it/inquiero/isapi/csf.dll?
 ||la7.it/js-live/nielsen1.js
 ||lalaziosiamonoi.it/pixel
@@ -17369,7 +17372,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||bookmate.com^*/impressions?$xmlhttprequest
 @@||bootcamp.mit.edu/js/angulartics-google-analytics.min.js
 @@||boxberry.ru/local/templates/site-boxberry/js/tracking_service.js$xmlhttprequest
-@@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|gracevanberkum.com|imperial.ac.uk|loveotv.com|onginnovations.com|theangryviking1776.com|thepittsburghoratory.org|washingtonpost.com|wix.com
+@@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|crrowd.com|gracevanberkum.com|imperial.ac.uk|loveotv.com|onginnovations.com|theangryviking1776.com|thepittsburghoratory.org|washingtonpost.com|wix.com
 @@||bugzilla.mozilla.org^*/extensions/TrackingFlags/$script
 @@||c.paypal.com/da/r/fb.js$script
 @@||c212.net^$image,domain=prnewswire.com
@@ -17972,7 +17975,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||quattroruote.it^*/webtrekk_mediaTracking.min.js$script,~third-party
 @@||repstatic.it/minify/sites/common/config_webtrekk_$script,domain=video.repubblica.it
 @@||repstatic.it^*/Nielsen.js
-@@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|lastampa.it
+@@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
 @@||thron.com/shared/plugins/tracking/current/tracking-library-min.js$domain=dainese.com
 @@||timvision.it/libs/fingerprint/fingerprint.js
 @@||tiscali.it/js/webtrends/$script,domain=mail.tiscali.it
