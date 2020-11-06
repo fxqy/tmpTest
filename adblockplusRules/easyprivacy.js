@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: f/D/5ZYmKHDv/FzdY4h7oQ
-! Version: 202011050911
+! Checksum: d4M16ZBNzXV9ADu0XLXKMQ
+! Version: 202011060901
 ! Title: EasyPrivacy
-! Last modified: 05 Nov 2020 09:11 UTC
+! Last modified: 06 Nov 2020 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7789,6 +7789,7 @@ _mongo_stats/
 ||ssm.codes^$third-party
 ||stack-sonar.com^$third-party
 ||stackadapt.com^$third-party
+||stackvaults.com^$third-party
 ||stadsvc.com^$third-party
 ||star-cntr-5.com^$third-party
 ||stat-track.com^$third-party
@@ -8061,6 +8062,7 @@ _mongo_stats/
 ||umbel.com^$third-party
 ||unicaondemand.com^$third-party
 ||uniqodo.com^$third-party
+||united-infos.net^$third-party
 ||unknowntray.com^$third-party
 ||upapi.net^$third-party
 ||upscore.com^$third-party
@@ -11979,6 +11981,7 @@ _mongo_stats/
 ||vdo.ai/core/logger.php?
 ||veeseo.com/tracking/
 ||ventunotech.com/beacon/
+||venturify.at/pixel/
 ||verticalacuity.com/varw/sendEvent?
 ||verticalacuity.com/vat/
 ||vidazoo.com/aggregate?
@@ -12973,6 +12976,7 @@ _mongo_stats/
 ||stat.matichon.co.th^
 ! Turkish
 ||st.tmgrup.com.tr^
+||tracking.venturify.at^
 ! Ukranian
 ||informers.sinoptik.ua^
 ||mgz.com.ua/counter.php?
@@ -13549,6 +13553,7 @@ _mongo_stats/
 ||drugs.com/api/logger/
 ||dsm.com^*/searchenginetracking.js
 ||duckduckgo.com/t/
+||dumpster.cam4.com^
 ||dvdempire.com/images/empty2.asp
 ||dvdempire.com/include/user/empty2.asp?
 ||dw.cnet.com^
@@ -14506,6 +14511,7 @@ _mongo_stats/
 ||play.com/sitetrak/
 ||playboy.com/libs/analytics/
 ||playdom.com/affl/show_pixel?
+||player-telemetry.vimeo.com^
 ||playlist.com/scripts/remote_logger.js
 ||playserver1.com/analytics/
 ||playstation.com/beacon/
@@ -15283,6 +15289,8 @@ _mongo_stats/
 ||ulogin.ru/stats.html
 ||ultimedia.com/deliver/statistiques/
 ||ultra-gamerz-zone.cz.cc/b/stats?
+||unagi-eu.amazon.*/events/$domain=~aws.amazon.com
+||unagi.amazon.*/events/$domain=~aws.amazon.com
 ||unicornapp.com^*/Metrics/
 ||unionleader.com/js/ul/ga.js
 ||unisys.com^*/dcsMultiTrack.js
@@ -16464,6 +16472,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||wiwo.de/analytics/
 ||wlw.de^*/tracking/
 ||xtranews.de/counter/
+||ymprove.web.de^
 ||zdf.de^*/tracking?
 ||zdf.de^*/trackingivw?
 ||zeit.de/js/rsa.js
@@ -17834,7 +17843,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||sunday.de/skin/*/googleanalytics.js$script
 @@||taboola.com/libtrc/impl.$script,domain=bild.de|bz-berlin.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|techbook.de|travelbook.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
 @@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
-@@||uim.tifbs.net/js/$script,domain=gewinnspiel.web.de
+@@||uim.tifbs.net/js/$script,domain=web.de
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
 !
 !---------- French ----------
