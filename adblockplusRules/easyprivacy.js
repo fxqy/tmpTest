@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: d4M16ZBNzXV9ADu0XLXKMQ
-! Version: 202011060901
+! Checksum: UA6GP35s3ZvBeBWkbXulyA
+! Version: 202011070841
 ! Title: EasyPrivacy
-! Last modified: 06 Nov 2020 09:01 UTC
+! Last modified: 07 Nov 2020 08:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -17324,7 +17324,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ad.crwdcntrl.net^$script,domain=investopedia.com
 @@||adblockanalytics.com/ads.js|
 @@||addgene.org/headers/blat/js/analyze.js
-@@||adobedtm.com/*-source.min.js$script,domain=kroger.com
+@@||adobedtm.com/*-source.min.js$script,domain=dollargeneral.com|kroger.com
 @@||adobedtm.com/*_source.min.js$script,domain=kroger.com
 @@||adobedtm.com/extensions/$script,domain=atresplayer.com
 @@||adobedtm.com/launch-$script
@@ -17382,6 +17382,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||bootcamp.mit.edu/js/angulartics-google-analytics.min.js
 @@||boxberry.ru/local/templates/site-boxberry/js/tracking_service.js$xmlhttprequest
 @@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|crrowd.com|gracevanberkum.com|imperial.ac.uk|loveotv.com|onginnovations.com|theangryviking1776.com|thepittsburghoratory.org|washingtonpost.com|wix.com
+@@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||bugzilla.mozilla.org^*/extensions/TrackingFlags/$script
 @@||c.paypal.com/da/r/fb.js$script
 @@||c212.net^$image,domain=prnewswire.com
@@ -17535,6 +17536,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||kbb.com/static/js/global/app-measurement$script
 @@||kentucky.com/mistats/finalizestats.js
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
+@@||lacoste.com/on/demandware.static/*/click-analytics.js$~third-party
 @@||legendstracking.com/js/legends-tracking.js
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
 @@||lexus.com/lexus-share/js/tracking_omn/$xmlhttprequest
