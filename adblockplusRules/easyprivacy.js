@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: hJ4nIshg/NxbkG0KxlMZtA
-! Version: 202011111011
+! Checksum: Gy0wFzak+3OeBpFymUuuLA
+! Version: 202011121021
 ! Title: EasyPrivacy
-! Last modified: 11 Nov 2020 10:11 UTC
+! Last modified: 12 Nov 2020 10:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9237,6 +9237,7 @@ _mongo_stats/
 ||topstat.com^$third-party
 ||tracdelight.com^$third-party
 ||tracdelight.io^$third-party
+||trackboxx.info^$third-party
 ||trafficmaxx.de^$third-party
 ||trbo.com^$third-party
 ||trendcounter.de^$third-party
@@ -10053,7 +10054,7 @@ _mongo_stats/
 ||amazonaws.com/prod/report-only
 ||amazonaws.com/prod/v2
 ||amazonaws.com/production_beacon
-||amazonaws.com/production|$third-party,domain=~amazon.com
+||amazonaws.com/production|$third-party,xmlhttprequest,domain=~amazon.com
 ||amazonaws.com/searchdiscovery-satellite-production/
 ||amazonaws.com/statics.reedge.com/
 ||amazonaws.com/wgntrk/
@@ -15204,7 +15205,7 @@ _mongo_stats/
 ||tracking.chacha.com^
 ||tracking.christianpost.com^
 ||tracking.conduit.com^
-||tracking.epicgames.com^$image
+||tracking.epicgames.com^
 ||tracking.eurosport.com^
 ||tracking.gfycat.com/viewCount/
 ||tracking.hsn.com^
@@ -17397,7 +17398,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||bookmate.com^*/impressions?$xmlhttprequest
 @@||bootcamp.mit.edu/js/angulartics-google-analytics.min.js
 @@||boxberry.ru/local/templates/site-boxberry/js/tracking_service.js$xmlhttprequest
-@@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|crrowd.com|gina-phillips.com|gracevanberkum.com|imperial.ac.uk|loveotv.com|onginnovations.com|simonparkes.org|stockforecasttoday.com|tekku.co.za|theangryviking1776.com|thegivingblock.com|thepittsburghoratory.org|washingtonpost.com|wix.com
+@@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|crrowd.com|gina-phillips.com|gracevanberkum.com|imperial.ac.uk|loveotv.com|onginnovations.com|simonparkes.org|stockforecasttoday.com|tekku.co.za|theangryviking1776.com|thegivingblock.com|thepittsburghoratory.org|truenews4u.com|washingtonpost.com|wix.com
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||bugzilla.mozilla.org^*/extensions/TrackingFlags/$script
 @@||c.paypal.com/da/r/fb.js$script
