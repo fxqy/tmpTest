@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0+cJMNnSr1F6h81op9Bz1A
-! Version: 202011121021
+! Checksum: jB5H/uxuTPw5iTcVlBDVRg
+! Version: 202011130911
 ! Title: EasyList
-! Last modified: 12 Nov 2020 10:21 UTC
+! Last modified: 13 Nov 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8180,6 +8180,7 @@ _prx/ba_$script
 -prebid-
 -prebid.$script
 -prebid/
+.prebid&
 .prebid-bundle.
 .prebid.$domain=~prebid.org
 /adn-hb/*
@@ -11841,6 +11842,7 @@ _popunder+$popup
 ###ads-mn
 ###ads-mpu
 ###ads-outer
+###ads-pagetop
 ###ads-panel
 ###ads-panorama-A1
 ###ads-position-header-desktop
@@ -20958,6 +20960,7 @@ _popunder+$popup
 ##.ads-interlinks
 ##.ads-item
 ##.ads-label
+##.ads-label-inverse
 ##.ads-large
 ##.ads-leaderboard
 ##.ads-leaderboard-border
@@ -21054,6 +21057,9 @@ _popunder+$popup
 ##.ads-x1
 ##.ads-x1-super
 ##.ads-zone
+##.ads.rectangle160
+##.ads.rectangle300
+##.ads.skyscraper160
 ##.ads.widget
 ##.ads01
 ##.ads02
@@ -30098,6 +30104,7 @@ _popunder+$popup
 ##a[href^="https://incisivetrk.cvtr.io/click?"]
 ##a[href^="https://intrev.co/"]
 ##a[href^="https://iqoption.com/lp/mobile-partner/"][href*="?aff="]
+##a[href^="https://ismlks.com/"]
 ##a[href^="https://jmp.awempire.com/"]
 ##a[href^="https://join.dreamsexworld.com/"]
 ##a[href^="https://join.sexworld3d.com/track/"]
@@ -31154,7 +31161,7 @@ thestudentroom.co.uk#@#.fixed_ad
 webphunu.net#@#.flash-advertisement
 songlyrics.com#@#.footer-ad
 employmentguide.com#@#.footer-ads
-selectparkhomes.com#@#.footer_ad
+gotoeat.maff.go.jp,selectparkhomes.com#@#.footer_ad
 koopik.com#@#.footerad
 ebayclassifieds.com,guloggratis.dk#@#.gallery-ad
 time.com#@#.google-sponsored
@@ -32599,6 +32606,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||bglnzzsgigbto.com^
 ||bgn2zqlce1eiya.icu^
 ||bgqddlvq.com^
+||bgrndi.com^
 ||bgvexbybxxbcao.com^
 ||bgvfceqpqzx.com^
 ||bgwbqsmj.com^
@@ -32734,6 +32742,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||brandnewapp.pro^
 ||brapoiorc.com^
 ||brassstacker.com^
+||brdmin.com^
 ||breadstringscrashed.com^
 ||breakinginfo.pro^
 ||breastfeedingfabricadorable.com^
@@ -49087,6 +49096,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||vid123.net^$third-party
 ||video-people.com^$third-party
 ||virtuagirlhd.com^$third-party
+||vivaclix.com^$third-party
 ||vividcash.com^$third-party
 ||vlexokrako.com^$third-party
 ||vlogexpert.com^$third-party
@@ -59170,12 +59180,13 @@ youporn.com##.watchTextBox
 imagearn.com##.wide_banner
 cumlouder.com##.widget_bnrs
 gifsauce.com##.widget_live
+xhamster.com,xhamster.one,xhamster2.com##.wiz-spb
 de-sexy-tube.ru##.wrap-head-banner-mob
 xjapanese.com##.xcam
 mrskin.com##.yui3-u-1-3:last-child
 porn.com,pornhd.com,xvideos-free.com##.zone
 pornhd.com##.zone-area
-xhamster.com,xhamster.one##[class^="xplayer-banner"]
+xhamster.com,xhamster.one,xhamster2.com##[class^="xplayer-banner"]
 sxyprn.com##[href*="/re/"]
 extremetube.com,pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="base64"]
 extremetube.com,pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="data:"]
@@ -59283,7 +59294,7 @@ xxxstreams.eu##a[style]
 pornhub.com,pornhubthbh7ap3u.onion##ads
 pornhub.com,pornhubthbh7ap3u.onion##aside > [style="display: block;"] > table
 pornhub.com,pornhubthbh7ap3u.onion##aside > span:first-child
-alrincon.com,thenipslip.com##canvas
+alrincon.com,thenipslip.com,wetpussygames.com##canvas
 pornhub.com,pornhubthbh7ap3u.onion##div > aside > aside
 porngames.com##div > canvas
 txxx.com##div > div[style*="z-index:"]
