@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Xc44eNChUABk0476aVA3IQ
-! Version: 202011141501
+! Checksum: GXkWEJARCyxJSVAmg8PIyA
+! Version: 202011160911
 ! Title: EasyPrivacy
-! Last modified: 14 Nov 2020 15:01 UTC
+! Last modified: 16 Nov 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4969,7 +4969,7 @@
 /webstats/track.php?
 /webstats_counter/*
 /webtag.js
-/webtrack.$domain=~webtrack.dhlecs.com|~webtrack.dhlglobalmail.com
+/webtrack.$domain=~webtrack.ballcolegrave.co.uk|~webtrack.ballseed.com|~webtrack.dhlecs.com|~webtrack.dhlglobalmail.com
 /webtracker.
 /webTracking.$domain=~webtracking.girard-agediss.com
 /webtracking/*$~subdocument
@@ -5805,6 +5805,7 @@ _mongo_stats/
 ||alltagcloud.info^$third-party
 ||alltracked.com^$third-party
 ||alocdn.com^$third-party
+||alpixtrack.com^$third-party
 ||altabold1.com^$third-party
 ||altastat.com^$third-party
 ||alvenda.com^$third-party
@@ -5955,6 +5956,7 @@ _mongo_stats/
 ||bfmio.com^$third-party
 ||bfoleyinteractive.com^$third-party
 ||bgpng.me^$third-party
+||bidphysics.com^$third-party
 ||bidr.io^$third-party
 ||bidsimulator.com^$third-party
 ||bidswitch.net^$third-party
@@ -11934,6 +11936,7 @@ _mongo_stats/
 ||tree-pixel-log.s3.amazonaws.com^
 ||tremorhub.com^
 ||trendmd.com/events
+||trends.newsmaxwidget.com^
 ||trf.intuitwebsites.com^
 ||triggers.wfxtriggers.com^
 ||tritondigital.com/lt?sid*&hasads=
@@ -13849,7 +13852,7 @@ _mongo_stats/
 ||glamourmagazine.co.uk^*/LogPageView
 ||glassmoni.researchgate.net^
 ||global.canon^*/analytics.js
-||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|cbs.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
+||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
 ||globes.co.il/ga.asp
 ||globes.co.il/shared/s.ashx?
 ||globester.com^*/track.js
@@ -17476,8 +17479,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||dpm.demdex.net/id?$xmlhttprequest,domain=foxnews.com
 @@||dw.cbsi.com/anonc.js$domain=gamespot.com|giantbomb.com
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|gamespot.com|tv.com
-@@||dynamicyield.com/api/$script,domain=fendi.com|flytap.com|thewarehouse.co.nz|zalora.com.my|zalora.com.ph|zalora.sg
-@@||dynamicyield.com/st?$script,domain=computeruniverse.net|fendi.com|zalora.com.my|zalora.com.ph|zalora.sg
+@@||dynamicyield.com/api/$script,domain=croma.com|fendi.com|flytap.com|thewarehouse.co.nz|zalora.com.my|zalora.com.ph|zalora.sg
+@@||dynamicyield.com/st?$script,domain=computeruniverse.net|croma.com|fendi.com|zalora.com.my|zalora.com.ph|zalora.sg
 @@||e2e-comms.pearson.com/osbrowserchecker/prd/thirdPartyCookie.html?$subdocument,domain=pearsonmylabandmastering.com
 @@||easyship.com/api/v1/track/$xmlhttprequest,domain=trackmyshipment.co
 @@||eatstreet.com/api/v2/tracking/$~third-party
