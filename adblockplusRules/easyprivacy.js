@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: GXkWEJARCyxJSVAmg8PIyA
-! Version: 202011160911
+! Checksum: UhHOl2prVsHYPHZQzvOnwg
+! Version: 202011170911
 ! Title: EasyPrivacy
-! Last modified: 16 Nov 2020 09:11 UTC
+! Last modified: 17 Nov 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6289,6 +6289,7 @@ _mongo_stats/
 ||devatics.io^$third-party
 ||device9.com^$third-party
 ||dgmsearchlab.com^$third-party
+||di-capt.com^$third-party
 ||dialogtech.com^$third-party
 ||did-it.com^$third-party
 ||didit.com^$third-party
@@ -10221,6 +10222,7 @@ _mongo_stats/
 ||atom-data.io/session/latest/track.html?$third-party
 ||attn.tv/creative?
 ||attn.tv/impression?
+||attn.tv^*/analytics.js
 ||attributiontrackingga.googlecode.com^
 ||auctiva.com/Default.aspx?query
 ||audience.atex.com^
@@ -11954,6 +11956,7 @@ _mongo_stats/
 ||tru.webelapp.com^
 ||trumba.com/et.aspx?$third-party
 ||trustarc.com/bannermsg?
+||trustcommander.net/iab-tcfapi/
 ||trustcommander.net/privacy/
 ||trustedform.com/trustedform.js?provide_referrer
 ||trustpilot.com/stats/
@@ -12221,6 +12224,7 @@ _mongo_stats/
 ||seal.verisign.com^$third-party
 ||sealserver.trustwave.com^$third-party
 ||secure.trust-guard.com^$third-party
+||siteintercept.allegiancetech.com^
 ||siteintercept.qualtrics.com^$third-party
 ||trustev.com/trustev.min.js$third-party
 ||websecurity.norton.com^$third-party
@@ -13274,6 +13278,7 @@ _mongo_stats/
 ||beacon.nuskin.com^
 ||beacon.shazam.com^
 ||beacon.toyota.co.jp^
+||beacon.walmart.com^
 ||beacon.wikia-services.com^
 ||beacon.www.theguardian.com^
 ||beap-bc.yahoo.com^
@@ -13985,6 +13990,7 @@ _mongo_stats/
 ||iedc.fitbit.com^
 ||ig.active.com/ig.track.js$script
 ||ign.com/global/analytics/drones.js
+||iheart.com/api/v3/playback/reporting
 ||iheart.com/tracking/
 ||image.providesupport.com/cmd/
 ||imagefap.com/images/yes.gif?
@@ -15856,12 +15862,14 @@ _mongo_stats/
 ||trustarc.mgr.consensu.org/get?
 ||ttauri.bikeperfect.com^
 ||ttauri.creativebloq.com^
+||ttauri.digitalcameraworld.com^
 ||ttauri.guitarworld.com^
 ||ttauri.laptopmag.com^
 ||ttauri.livescience.com^
 ||ttauri.loudersound.com^
 ||ttauri.musicradar.com^
 ||ttauri.nexttv.com^
+||ttauri.realhomes.com^
 ||ttauri.space.com^
 ||ttauri.t3.com^
 ||ttauri.tomsguide.com^
@@ -16561,6 +16569,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||lemde.fr^*/tracking/
 ||leparking-moto.fr/*/tracker.js
 ||leparking.fr/jsV038/tracker.js
+||liberation.fr/newsite/js/cmp/
 ||logs-qos.tf1.fr^
 ||ma-petite-recette.fr/visites
 ||marmiton.org/logpix.php
@@ -17663,7 +17672,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com|mirror.co.uk|tumblr.com
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bikeperfect.com|cyclingnews.com|digitalcameraworld.com|gamesradar.com|guitarplayer.com|independent.co.uk|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|realhomes.com|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|nymag.com
 @@||rasset.ie/dotie/js/tracker.js$domain=rte.ie
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
