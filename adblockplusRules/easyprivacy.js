@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: rfqau53HzTWorod2DSJmig
-! Version: 202011200911
+! Checksum: WUeIvNonAiSVM6fG73Azpw
+! Version: 202011230911
 ! Title: EasyPrivacy
-! Last modified: 20 Nov 2020 09:11 UTC
+! Last modified: 23 Nov 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -472,6 +472,7 @@
 /addstats?callback=
 /addTrackingScripts.
 /adform-tracking.
+/adform_sync.
 /adframestats|
 /adimp?
 /adimppixel/*
@@ -2378,6 +2379,7 @@
 /impr.xlg?
 /impresion/zona/*
 /impress.php?
+/impress?*&sid=
 /impression.ashx
 /impression.gif?
 /impression.js?
@@ -4379,6 +4381,7 @@
 /tracker.*/visit?
 /tracker.1.0.gif?
 /tracker.do?
+/tracker.ga.
 /tracker.gif?
 /tracker.js.php?
 /tracker.json.php?
@@ -5896,6 +5899,7 @@ _mongo_stats/
 ||audiencepixel.com^$third-party
 ||audiencerate.com^$third-party
 ||audiens.com^$third-party
+||audio.sex^$third-party
 ||audrte.com^$third-party
 ||aufp.io^$third-party
 ||authorinsights.com^$third-party
@@ -8438,6 +8442,8 @@ _mongo_stats/
 ||35.239.57.233^$third-party
 ||45.32.105.134^$third-party
 ||77.162.125.199^$third-party
+||a-calc.com^$third-party
+||a-calc.de^$third-party
 ||aalbbh84.info^$third-party
 ||abc.pema.cl^$third-party
 ||acbp0020171456.page.tl^
@@ -8480,7 +8486,12 @@ _mongo_stats/
 ||binarybusiness.de^$third-party
 ||bitclub.network^$third-party
 ||bitclubnetwork.com^$third-party
+||bitcoin-cashcard.com^$third-party
+||bitcoin-cashcard.de^$third-party
+||bitcoin-cashcard.eu^$third-party
 ||bitcoin-pay.eu^$third-party
+||bitcoin-pocket.de^$third-party
+||bitcoin-pocket.eu^$third-party
 ||bmcm.pw^
 ||bmnr.pw^
 ||bmst.pw^
@@ -8539,6 +8550,7 @@ _mongo_stats/
 ||deepc.cc^$third-party
 ||devphp.org.ua^$third-party
 ||directprimal.com^$third-party
+||dontbeevils.de^$third-party
 ||duckdns.org^$third-party,websocket
 ||dzizsih.ru^$third-party
 ||easyhash.de^$third-party
@@ -8548,6 +8560,10 @@ _mongo_stats/
 ||eth-pocket.com^$third-party
 ||eth-pocket.de^$third-party
 ||eth-pocket.eu^$third-party
+||ethereum-cashcard.com^$third-party
+||ethereum-cashcard.de^$third-party
+||ethereum-cashcard.eu^$third-party
+||ethereum-pocket.com^$third-party
 ||ethereum-pocket.de^$third-party
 ||ethereum-pocket.eu^$third-party
 ||ethtrader.de^$third-party
@@ -8709,6 +8725,8 @@ _mongo_stats/
 ||traviilo.com^$third-party
 ||trk.connatix.com^
 ||truemine.org^$third-party
+||trustiseverything.de^$third-party
+||trustmeiamapro.de^$third-party
 ||tulip18.com^$third-party
 ||turnsocial.com^$third-party
 ||unrummaged.com^$third-party
@@ -8796,6 +8814,7 @@ _mongo_stats/
 ||colorfulafterthought.com^$third-party
 ||complextoad.com^$third-party
 ||conditioncrush.com^$third-party
+||confesschairs.com^$third-party
 ||consciouschairs.com^$third-party
 ||coordinatedcoat.com^$third-party
 ||coordinatedcub.com^$third-party
@@ -9233,7 +9252,6 @@ _mongo_stats/
 ||spider-mich.com^$third-party
 ||sponsorcounter.de^$third-party
 ||spring-tns.net^$third-party
-||srvtrck.com^$third-party
 ||static-fra.de^*/targeting.js
 ||static-fra.de^*/tracking.js
 ||statistik-gallup.net^$third-party
@@ -14034,6 +14052,7 @@ _mongo_stats/
 ||indiatimes.com/stats?
 ||indiatimes.com/trackjs10.
 ||indiatimes.com^*/notify.htm
+||info.com/pingback
 ||infogr.am/js/metrics.js
 ||infomine.com/imcounter.js
 ||infoq.com/metrics/
@@ -15483,6 +15502,7 @@ _mongo_stats/
 ||whstatic.com^*/ga.js?
 ||wikihow.com/visit_info
 ||wikihow.com/x/collect?
+||wikihow.com/x/event?
 ||wikimedia.org/wiki/Special:RecordImpression?
 ||wikimonde.com/h.php
 ||wikinvest.com/plugin/api.php?*=metricld&
@@ -15643,7 +15663,6 @@ _mongo_stats/
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=ebay-kleinanzeigen.de
 /^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
 ||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|lendup.com|mbna.ca|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com
-||ebay.com/nkfytkqtoxtljvzb.js$script,domain=ebay.com
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ebaystatic.com^*/10341xh50yz21mhhydueu4m5wad.js$script,domain=ebay.com
 ||ebaystatic.com^*/g52yxhxv2mzcbealmlkri4kn5av.js$script,domain=ebay.com
@@ -17387,7 +17406,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||adobedtm.com/*_source.min.js$script,domain=kroger.com
 @@||adobedtm.com/extensions/$script,domain=atresplayer.com
 @@||adobedtm.com/launch-$script
-@@||adobedtm.com^*/AppMeasurement.min.js$script,domain=apple.com
+@@||adobedtm.com^*/AppMeasurement.min.js$script,domain=apple.com|foodnetwork.com
+@@||adobedtm.com^*/AppMeasurement_Module_$script,domain=foodnetwork.com
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|costco.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|newyorker.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|usanetwork.com|vanityfair.com|wired.com|wowway.net
 @@||adobedtm.com^*/s-code-$script
@@ -17690,7 +17710,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bikeperfect.com|cyclingnews.com|digitalcameraworld.com|gamesradar.com|guitarplayer.com|independent.co.uk|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|realhomes.com|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bikeperfect.com|cyclingnews.com|digitalcameraworld.com|gamesradar.com|guitarplayer.com|independent.co.uk|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|nymag.com
 @@||rasset.ie/dotie/js/tracker.js$domain=rte.ie
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
