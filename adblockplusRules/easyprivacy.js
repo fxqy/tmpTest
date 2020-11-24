@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: WUeIvNonAiSVM6fG73Azpw
-! Version: 202011230911
+! Checksum: thXP7KocI1PSBR/XphduAw
+! Version: 202011241151
 ! Title: EasyPrivacy
-! Last modified: 23 Nov 2020 09:11 UTC
+! Last modified: 24 Nov 2020 11:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7373,7 +7373,7 @@ _mongo_stats/
 ||pinpoll.com^$third-party
 ||pipfire.com^$third-party
 ||pippio.com^$third-party
-||piwik.pro^$third-party,domain=~piwikpro.de
+||piwik.pro^$third-party,domain=~clearcode.cc|~clearcode.pl|~piwikpro.de
 ||pixel.ad^$third-party
 ||pixel.watch^$third-party
 ||pixeleze.com^$third-party
@@ -14733,7 +14733,7 @@ _mongo_stats/
 ||rumble.com/l/$image
 ||runnersworld.com^*/universalpixel.html
 ||russellgrant.com/hostedsearch/panelcounter.aspx
-||rv.modanisa.com^
+||rv.modanisa.com^$script
 ||s-msn.com/br/gbl/js/2/report.js
 ||s-msn.com/primedns.gif?$domain=msn.com
 ||s-msn.com/s/js/loader/activity/trackloader.min.js
@@ -15028,6 +15028,7 @@ _mongo_stats/
 ||stats.extremetech.com^
 ||stats.fs.com^
 ||stats.harpercollins.com^
+||stats.hfet.org^
 ||stats.ibtimes.co.in^
 ||stats.ibtimes.co.uk^
 ||stats.nimiq-network.com^
@@ -17438,6 +17439,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.segment.io/v1/$xmlhttprequest,domain=instacart.com
 @@||api.vidaxl.com^*/trackingservice/customerportal/*?$xmlhttprequest,domain=tracking.vidaxl.com
+@@||appboycdn.com^*/appboy.min.js$script,domain=bakkt.com
 @@||aramex.co.nz/Umbraco/Api/Tracking/
 @@||archive.softwareheritage.org^*/stat/counters/$xmlhttprequest
 @@||asendiausa.com/tracking/js/tracking/customertracking.js?
