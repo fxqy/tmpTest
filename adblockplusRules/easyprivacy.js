@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: FOJCL4iXyPU1Ha46HLwwiA
-! Version: 202011250921
+! Checksum: jJv1FqcQH+KYNpt7/BBPXA
+! Version: 202011260911
 ! Title: EasyPrivacy
-! Last modified: 25 Nov 2020 09:21 UTC
+! Last modified: 26 Nov 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1136,6 +1136,7 @@
 /c_track.php?
 /cablog?
 /cache/analytics.
+/cached-scripts/analytics.js
 /caixinlog.js
 /calameo-beacon.
 /call-tracking.js
@@ -3598,6 +3599,7 @@
 /resxclsa.
 /resxclsa_
 /ret_pixels/*
+/retargeting-pixels.
 /retargetingScript/*
 /revenue-science.
 /revenuescience.
@@ -6005,6 +6007,7 @@ _mongo_stats/
 ||bmlmedia.com^$third-party
 ||bmmetrix.com^$third-party
 ||bnqt.com^$third-party
+||bnster.com^$third-party
 ||bntech.io^$third-party
 ||boomerang.com.au^$third-party
 ||boomtrain.com^$third-party
@@ -6029,6 +6032,7 @@ _mongo_stats/
 ||brsrvr.com^$third-party
 ||bstn-14-ma.com^$third-party
 ||btbuckets.com^$third-party
+||btloader.com^$third-party
 ||btserve.com^$third-party
 ||btstatic.com^$third-party
 ||btttag.com^$third-party
@@ -6328,6 +6332,7 @@ _mongo_stats/
 ||dmclick.cn^$third-party
 ||dmd53.com^$third-party
 ||dmpcounter.com^$third-party
+||dmpprof.com^$third-party
 ||dmpxs.com^$third-party
 ||dmtracker.com^$third-party
 ||dmtry.com^$third-party
@@ -6613,6 +6618,7 @@ _mongo_stats/
 ||getsmartcontent.com^$third-party
 ||getsmartlook.com^$third-party
 ||getstatistics.se^$third-party
+||getviously.com^$third-party
 ||gez.io^$third-party
 ||gglscr.online^$third-party
 ||giddyuptrk.com^$third-party
@@ -7091,6 +7097,7 @@ _mongo_stats/
 ||mercent.com^$third-party
 ||meteorsolutions.com^$third-party
 ||metricool.com^$third-party
+||metrics0.com^$third-party
 ||metricsdirect.com^$third-party
 ||mezzobit.com^$third-party
 ||mfadsrvr.com^$third-party
@@ -7296,6 +7303,7 @@ _mongo_stats/
 ||opentracker.net^$third-party
 ||openvenue.com^$third-party
 ||oproi.com^$third-party
+||opstag.com^$third-party
 ||optify.net^$third-party
 ||optimahub.com^$third-party
 ||optimix.asia^$third-party
@@ -7355,6 +7363,7 @@ _mongo_stats/
 ||perimeterx.net^$third-party
 ||perion.com^$third-party
 ||perk0mean.com^$third-party
+||perljs.com^$third-party
 ||permutive.app^$third-party
 ||permutive.com^$third-party
 ||personalicanvas.com^$third-party
@@ -8330,6 +8339,8 @@ _mongo_stats/
 ||zroitracker.com^$third-party
 ||ztsrv.com^$third-party
 ||zuzab.com^$third-party
+! Marketo email tracking domains https://github.com/easylist/easylist/issues/6475
+||mkto-*.com^$third-party
 ! Notification servers (Tracking/Fingerprinting users)
 ||accengage.net^$third-party
 ||actirinius.com^$third-party
@@ -8793,6 +8804,7 @@ _mongo_stats/
 ||basketballbelieve.com^$third-party
 ||baskettexture.com^$third-party
 ||boilingbeetle.com^$third-party
+||borderbrush.com^$third-party
 ||breakfastboat.com^$third-party
 ||broadcastbed.com^$third-party
 ||broaddoor.com^$third-party
@@ -8837,11 +8849,13 @@ _mongo_stats/
 ||discreetfield.com^$third-party
 ||distinctday.com^$third-party
 ||distributiontomatoes.com^$third-party
+||disturbedquiet.com^$third-party
 ||divehope.com^$third-party
 ||dq95d35.com^$third-party
 ||drydrum.com^$third-party
 ||ejyymghi.com^$third-party
 ||endurablecrayon.com^third-party
+||enormousearth.com^$third-party
 ||enviousshape.com^$third-party
 ||fadedsnow.com^$third-party
 ||falseframe.com^$third-party
@@ -8919,10 +8933,13 @@ _mongo_stats/
 ||petiteumbrella.com^$third-party
 ||photographpan.com^$third-party
 ||pietexture.com^$third-party
+||placidperson.com^$third-party
 ||plantdigestion.com^$third-party
 ||pleasantpump.com^$third-party
 ||plotrabbit.com^$third-party
 ||prepareplanes.com^$third-party
+||producecopy.com^$third-party
+||profitrumour.com^$third-party
 ||profusesupport.com^$third-party
 ||puffyloss.com^$third-party
 ||puffypull.com^$third-party
@@ -8938,6 +8955,7 @@ _mongo_stats/
 ||realizerecess.com^$third-party
 ||realizevacation.com^$third-party
 ||receptivereaction.com^$third-party
+||regularplants.com^$third-party
 ||rejectfairies.com^$third-party
 ||repeatsweater.com^$third-party
 ||resonantbrush.com^$third-party
@@ -8949,8 +8967,10 @@ _mongo_stats/
 ||roofrelation.com^$third-party
 ||rusticprice.com^$third-party
 ||ruthlessdegree.com^$third-party
+||sablesong.com^$third-party
 ||satisfycork.com^$third-party
 ||savoryorange.com^$third-party
+||scaredsnake.com^$third-party
 ||scientificshirt.com^$third-party
 ||scintillatingscissors.com^$third-party
 ||scintillatingspace.com^$third-party
@@ -9791,6 +9811,7 @@ _mongo_stats/
 ||3wnp9.ru^$third-party
 ||a-counter.com.ua^$third-party
 ||a-counter.kiev.ua^$third-party
+||a4st.club^$third-party
 ||adblockmetrics.ru^$third-party
 ||admile.ru^$third-party
 ||adx.com.ru^$third-party
@@ -9821,6 +9842,7 @@ _mongo_stats/
 ||gnezdo.ru^$third-party
 ||gostats.ru^$third-party
 ||hitmir.ru^$third-party
+||hobbi.xyz^$third-party
 ||hsdn.org^$third-party
 ||idntfy.ru^$third-party
 ||imrk.net^$third-party
@@ -9989,6 +10011,7 @@ _mongo_stats/
 ||105app.com/report/?
 ||216.18.176.4/logger/
 ||24option.com/?oftc=$image,third-party
+||2fuc4clr7gvcn.cloudfront.net^
 ||360buyimg.com^*/unit/log/*/log.js
 ||3crowd.com^*/3c1px.gif
 ||3qsdn.com/watchtime?
@@ -10818,6 +10841,7 @@ _mongo_stats/
 ||evri.com/analytics/
 ||evt.collarity.com^$image
 ||evt.izooto.com^
+||ex.co/content/monetization/legacy-pixels/
 ||exacttarget.com^$third-party
 ||excite.ie/?click_in=
 ||exitintel.com/log/$third-party
@@ -11456,6 +11480,7 @@ _mongo_stats/
 ||pr.blogflux.com^
 ||prd-collector-anon.ex.co^
 ||prd-collector-anon.playbuzz.com^
+||prd-collector-auth.playbuzz.com^
 ||presspage.com/statistics/
 ||pricespider.com/impression/
 ||primedia.co.za/analytics/
@@ -11790,6 +11815,7 @@ _mongo_stats/
 ||tagger.opecloud.com^
 ||taggstar.com^*/taggstar.min.js
 ||tags.cdn.circlesix.co^
+||tags.creativille.co.uk^
 ||tags.master-perf-tools.com^
 ||tags.newscgp.com^
 ||tags.refinery89.com^
@@ -11803,6 +11829,7 @@ _mongo_stats/
 ||techweb.com/beacon/
 ||telemetry.reembed.com^
 ||telemetry.soundcloud.com^
+||telemetry.tableausoftware.com^
 ||telerium.net/geo.php
 ||the-group.net/aether/
 ||thefilter.com/events/view?
@@ -12744,6 +12771,7 @@ _mongo_stats/
 ||tr.bt.matrixspa.it^
 ||track.adintend.com^
 ||track.cedsdigital.it^
+||track.eadv.it^
 ||track.veedio.it^
 ||track.youniversalmedia.com^
 ||tracker.bestshopping.com^
@@ -13892,7 +13920,7 @@ _mongo_stats/
 ||glamourmagazine.co.uk^*/LogPageView
 ||glassmoni.researchgate.net^
 ||global.canon^*/analytics.js
-||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
+||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
 ||globes.co.il/ga.asp
 ||globes.co.il/shared/s.ashx?
 ||globester.com^*/track.js
@@ -17654,6 +17682,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||mxpnl.com^$domain=mixpanel.com
 @@||mywebar.com/js/tracking_worker.js$~third-party
 @@||nintendo.com/apps/noa/scripts/analytics.js
+@@||tracking.narvar.com/tracking/$~third-party
+@@||tracking.narvar.com/trackinginfo/$~third-party
 ! @@||ncbi.nlm.nih.gov/stat?
 @@||newrelic.com/nr-*.min.js$domain=surveymonkey.co.uk|surveymonkey.com|surveymonkey.de|surveymonkey.ru
 @@||newrelic.com/public/charts/$subdocument,xmlhttprequest

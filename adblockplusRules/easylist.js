@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KKOKu8GxMiKOhnqz4Rulfg
-! Version: 202011250921
+! Checksum: ylikXNOZDaf3O6AiZvCJ0g
+! Version: 202011260911
 ! Title: EasyList
-! Last modified: 25 Nov 2020 09:21 UTC
+! Last modified: 26 Nov 2020 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -14551,6 +14551,7 @@ _popunder+$popup
 ###frnContentAd
 ###front-ad-cont
 ###front-page-advert
+###front-page-middle-advertisement
 ###frontPageAd
 ###front_ad728
 ###front_adtop_content
@@ -19574,6 +19575,7 @@ _popunder+$popup
 ##.adExpanded
 ##.adExternalPage
 ##.adFender3
+##.adFooterDFPMobile
 ##.adFooterLinks
 ##.adFrame
 ##.adFrameCnt
@@ -20587,6 +20589,7 @@ _popunder+$popup
 ##.adchoices-link
 ##.adclass
 ##.adcode
+##.adcode-widget
 ##.adcode2
 ##.adcode_container
 ##.adcodetop
@@ -24276,6 +24279,7 @@ _popunder+$popup
 ##.div-gpt-ad
 ##.div-gpt-ad--interstitiel
 ##.div-gpt-ad--top
+##.div-gpt-ad-adhesion-leaderboard-wrap
 ##.divAd
 ##.divAdright
 ##.divAdsBanner
@@ -24729,6 +24733,7 @@ _popunder+$popup
 ##.full_width_ad
 ##.fulladblock
 ##.fullbannerad
+##.fullwidth-advertisement
 ##.fusion-ads
 ##.fusion-advert
 ##.fusionAd
@@ -26572,6 +26577,7 @@ _popunder+$popup
 ##.native-ad-container
 ##.native-ad-item
 ##.native-ad-link
+##.native-ad-mode
 ##.native-ad-placeholder
 ##.native-ad-promoted-provider
 ##.native-adv
@@ -31155,6 +31161,7 @@ plus.net#@#.banner300
 mlb.com#@#.bannerAd
 milenio.com#@#.banner_728x90
 mergermarket.com#@#.banner_ad
+tracking.narvar.com#@#.banner_ad_link
 cumbooks.co.za,eurweb.com,infoplease.com#@#.bannerad
 popporn.com,webphunu.net#@#.block-ad
 economist.com#@#.block-ec_ads
@@ -32473,6 +32480,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||awjyickdugj.com^
 ||awkmzvii39ei4.xyz^
 ||awnyohgtmb.com^
+||awptjmp.com^
 ||awrnrkmwtia.com^
 ||awsatstb.com^
 ||awtvnrgwxletd.com^
@@ -32852,7 +32860,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||btemegxbnalq.com^
 ||btgxicdivmtv.com^
 ||btkxogjoxtd.com^
-||btloader.com^
 ||btonzfjleinuax.com^
 ||btrdlsehltu.com^
 ||btttmgxtziztqq.com^
@@ -45202,6 +45209,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||nexage.com^$third-party
 ||nexeps.com^$third-party
 ||nexioniect.com^$third-party
+||nextclick.pl^$third-party
 ||nextlandingads.com^$third-party
 ||nextmillennium.io^$third-party
 ||nextoptim.com^$third-party
@@ -46055,6 +46063,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||servedby.flashtalking.com/imp/$script,third-party,xmlhttprequest
 ||servedbyadbutler.com^$third-party
 ||servedbyopenx.com^$third-party
+||servedbysmart.com^$third-party
 ||servemeads.com^$third-party
 ||servenobid.com^$third-party
 ||serverbid.com^$third-party
@@ -47708,6 +47717,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||avalopaly.com^$popup,third-party
 ||awempire.com^$popup,third-party
 ||awesomenewspush.com^$popup
+||awptjmp.com^$popup
 ||awsclic.com^$popup,third-party
 ||b3z29k1uxb.com^$popup
 ||b54m4qbmt0b9.com^$popup
@@ -51400,6 +51410,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||d3dq1nh1l1pzqy.cloudfront.net^
 ||d3g5ovfngjw9bw.cloudfront.net^
 ||d3hj4iyx6t1waz.cloudfront.net^
+||d3j3yrurxcqogk.cloudfront.net^
 ||d3kpkrgd3aj4o7.cloudfront.net^
 ||d3lw2k94jnkvbs.cloudfront.net^
 ||d3m4hp4bp4w996.cloudfront.net^
@@ -52331,6 +52342,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||igorslab.de/wp-content/uploads/205/$script
 ||iheart.com^*/getLiveRadioAdConfig
 ||imagetwist.com/imgs/720x90.png
+||imagetwist.com/imgs/720x901.png
 ||imagetwist.com/imgs/hims.jpg
 ||imagetwist.com/raa/
 ||imgking.co/frler.js
@@ -52613,6 +52625,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||playbuzz.com/embed/$script,third-party
 ||playbuzz.com/player/$script,third-party
 ||player.anyclip.com/anyclip-widget/$script,third-party
+||player.avplayer.com^$third-party
 ||playwire.com/bolt/js/$script,third-party
 ||vidazoo.com/basev/$script,third-party
 ||viewdeos.com^$script,third-party
@@ -56428,6 +56441,7 @@ reason.com,rushlimbaugh.com,wordreference.com##.adtitle
 ansamed.info,baltic-course.com,carsdirect.com,cctv.com,cpuid.com,facebook.com,facebookcorewwwi.onion,futbol24.com,getwapi.com,isearch.omiga-plus.com,jetphotos.com,karger.com,maritimejobs.com,massappeal.com,mnn.com,mysuncoast.com,newagebd.net,ok.co.uk,ponged.com,prohaircut.com,qone8.com,runamux.net,search.v9.com,ultimate-guitar.com,vh1.com,webssearches.com,zbani.com##.adv
 blastingnews.com##.adv-box-content
 healthleadersmedia.com##.adv-con
+pgatour.com##.adv-dummy
 luxury-insider.com##.adv-info
 vidstream.io##.adv-space
 motorauthority.com##.adv-spacer
@@ -57807,6 +57821,7 @@ liveuamap.com##.passby
 cjnews.com##.paszone_container
 nhentai.com##.pb-0.w-100[style]
 prankvidz.com##.pb-container
+playbuzz.com##.pb-site-player
 eeweb.com##.pbox
 cryptocompare.com##.pc-text
 neverendingplaylist.com##.pcad
@@ -58390,7 +58405,7 @@ whatismyreferer.com##a[href*="/?offer_id="]
 itweb.co.za##a[href*="/adclick.php?"]
 igorslab.de,landline.media,sundayworld.co.za,theroanokestar.com,thevoicebw.com,visualcapitalist.com##a[href*="/linkout/"]
 movie-censorship.com##a[href*="/out.php?"]
-imagetwist.com##a[href*="/rad/"]
+imagetwist.com##a[href*="/par/"]
 civilserviceindia.com##a[href*="/red.php?bu="]
 sundayworld.co.za,universityaffairs.ca##a[href*="/sponsored-content/"]
 biznews.com,businessdailyafrica.com,financialexpress.com,irishtimes.com,komonews.com,seattletimes.com,spokesman.com##a[href*="/sponsored/"]
