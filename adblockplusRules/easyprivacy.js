@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: jJv1FqcQH+KYNpt7/BBPXA
-! Version: 202011260911
+! Checksum: h+B4S455h/+U7PpnhSUoag
+! Version: 202011270921
 ! Title: EasyPrivacy
-! Last modified: 26 Nov 2020 09:11 UTC
+! Last modified: 27 Nov 2020 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3406,6 +3406,7 @@
 /powercount.
 /powr-counter.
 /pphlogger.
+/ppms.js
 /pr.php?
 /preparecookies?callback=
 /presslabs.js$script,~third-party
@@ -17024,6 +17025,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||paginegialle.it/cgi-bin/jimpres.cgi?
 ||paginegialle.it/engagement.js
 ||pornolupo.org/track.js
+||ppcdn.it/iol/tracklib.3.js
 ||repstatic.it^*/nielsen_static_mapping_repubblica_
 ||sa.sky.it^
 ||seat.it/cgi-bin/getcod.cgi?
@@ -17970,6 +17972,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
 @@||uim.tifbs.net/js/$script,domain=web.de
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
+@@||zeit.de/cre-*/tracking/call.js?$domain=zeit.de
+@@||zeit.de/cre-*/tracking/tracking.js$domain=zeit.de
 !
 !---------- French ----------
 !

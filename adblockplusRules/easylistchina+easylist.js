@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EESum4KQINKp7uL/AzIeJw
-! Version: 202011260911
+! Checksum: 8YQgRG6mRM8OW+1nnAgQNw
+! Version: 202011270921
 ! Title: EasyList China+EasyList
-! Last modified: 26 Nov 2020 09:11 UTC
+! Last modified: 27 Nov 2020 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -4987,6 +4987,7 @@ _yad_jsonp_
 ||alicdn.com/kf/U693ffd2a78ac452895488e4e5426554cA.jpg
 ||alicdn.com/kf/U937e9421ce844d44a5977758f21b72eey.png
 ||alicdn.com/kf/Ufb1c57128ee14e7d88841812d0d280abo.gif
+||alicdn.com/kf/Ufd682a9d70524fc895a0059f276998196.jpg
 ||alicdn.com/kf/UTB8tVxYvbPJXKJkSafS5jaqUXXac.gif
 ||alicdn.com/openad/dsp-front-booth/
 ||alicdn.com/tfscom/*.sina.
@@ -6089,6 +6090,7 @@ _yad_jsonp_
 ||game.466.com^$third-party
 ||game333.net/aainset/
 ||gamefy.cn/cookiead.php
+||gamemale.com/static/js/valida.js
 ||gamersky.com/common/tg/
 ||gamersky.com/g/gamerskyflash.js
 ||gamersky.com^*.htm$subdocument
@@ -8887,6 +8889,7 @@ _yad_jsonp_
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
+tophub.today##.c-d.c-d-e > .qc + DIV
 gpcxw.com###AA2
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
@@ -14207,6 +14210,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=youneed.win
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -15085,6 +15089,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 /\.js\?[a-z]+=[a-z]+$/$script,domain=china.cn|faxingsj.com|gouchezj.com|gushiwen.org|iask.sina.com.cn|jandan.net|jianbihua.org|jintang114.org|juqingba.cn|km.com|meishichina.com|mrcjcn.com|oh100.com|phb123.com|piaoliang.com|qqtn.com|t262.com|tianqi.com|unjs.com|wesiedu.com|ximizi.com|xinjunshicn.net|xinshipu.com|xuexila.com|yjbys.com|zaojv.com|zgjm.org|zhongyao1.com|zqnf.com
 ?*=*=*=$subdocument,domain=00cha.com|01fy.cn|06ps.com|08160.cn|0s.net.cn|10000xing.cn|100how.com|1010jiajiao.com|1024sj.com|11467.com|114piaowu.com|120ask.com|16xx8.com|192ly.com|1ppt.com|1ting.com|201980.com|21hubei.com|23yy.com|256.cc|263y.com|2hanju.com|2liang.net|315hyw.com|32r.com|32xp.com|360changshi.com|360doc.cn|360zuowen.com|39.net|4aqq.com|5000yan.com|515fa.com|51edu.com|51sxue.com|51test.net|51zxw.net|52wubi.com|52zxw.com|59wz.com|5djiaren.com|5h.com|5nd.com|5seestar.com|5tps.com|66law.cn|7k7k.com|7y7.com|800400.net|86huoche.com|8794.cn|911cha.com|91jucai.com|91zhongkao.com|949949.com|9553.com|99.com.cn|9939.com|9ht.com|ab126.com|admin5.com|aihami.com|aiyangedu.com|aizhan.com|ankangwang.com|annhe.net|apple886.com|arpun.com|askci.com|aspku.com|atobo.com|b2b168.com|b2b6.com|babihu.com|baicaolu.net|baotang5.com|baoxianzx.com|bbdj.com|bendibao.com|bianzhile.com|blog.sina.cn|boosj.com|bu-shen.com|bytravel.cn|c1km4.com|chajiaotong.com|chazidian.com|china.com|chinacar.com.cn|chinakaoyan.com|chinawj.com.cn|chuiyue.com|cidianwang.com|cjcp.com.cn|cnbanbao.cn|cncn.com|cnkang.com|cnlinfo.net|coozhi.com|cr173.com|csai.cn|cyyangqiguan.com|d17.cc|d1xz.net|daquan.com|dayfund.cn|dgzj.com|diangon.com|ditiezu.com|diyifanwen.com|dugoogle.com|eastday.com|enterdesk.com|exam58.com|fangdaijisuanqi.com|faxingzhan.com|friok.com|fun48.com|game234.com|gaosan.com|gaotie.cn|guancha.cn|gucheng.com|gugu5.com|guidaye.com|gulongbbs.com|gushiwen.cn|hc23.com|hqhot.com|huangye88.com|hxnews.com|hydcd.com|icauto.com.cn|idongde.com|isanxia.com|ixinwei.com|jeasyui.net|jf258.com|jianbihua.com|jianbihuadq.com|jinbaodm.com|jingdianlaoge.com|jy135.com|kdslife.com|latiaozixun.net|liuxue86.com|m.douban.com|makepolo.com|mama.cn|meishij.net|mipcache.bdstatic.com|miyudaquan.com|nanhuwang.com|pansoso.com|pctowap.com|pig66.com|pikacn.com|pingguolv.com|pingshu8.com|ppzuowen.com|qcrx.cn|qcwxjs.com|qizuang.com|qm120.com|qncye.com|qqzhi.com|quwenqushi.com|riji.cn|riji100zi.com|rr95.com|ruiwen.com|sc115.com|shadafang.com|shangc.net|shenchuang.com|souid.com|ssqzj.com|szdushi.com.cn|szhk.com|tvmao.com|uzuzuz.com|vswang.com|weather.com.cn|webshu.net|wenkuxiazai.com|wenshenxiu.com|wmxa.cn|woyaogexing.com|xiachufang.com|xiangha.com|xiao84.com|xiaole8.com|xiegw.cn|xywy.com|xzbu.com|yanyue.cn|yaozui.com|yellowurl.cn|yiqig.cn|yiyouliao.com|yuwenmi.com|yxad.com|yyrtv.com|zanyiba.com|zdface.com|zhifure.com|zhongyoo.com|zixuntop.com|ziyuanm.com|zjbiz.net|zuowen8.com|zuowenku.net|zuowenwang.net|zuoyesou.com|zybus.com
 !
+||materiel.baizhan.net^
 ###bd-hl-content
 ###container > #pic_container
 ###container > .item.title_normal
@@ -15407,6 +15412,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||cp.7y7.com^
 ||cp.jfcdns.com^
 ||cp.qbaobei.com^
+||cpro.bdrmb.cn^
 ||cpro.xixiliya.cn^
 ||crayon.meishichina.com^
 ||cspb1.5w5w.com^
@@ -16054,7 +16060,7 @@ fuliba.net,uliba.net##.widget_custom_html:nth-child(2)
 !#hboav.com
 @@$image,xmlhttprequest,domain=hboav.com
 @@||exosrv.com/splash.php?idzone=3361640$xmlhttprequest,domain=hboav.com
-@@||hboav.com/guga/das.js$~third-party
+@@||hboav.com/guga/ads.js$~third-party
 @@||hboav.com^$generichide
 @@||realsrv.com/iframe.php?idzone=3476965&size=300x250$subdocument,domain=hboav.com
 ||hboav.com/guga/$~subdocument
@@ -17899,6 +17905,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||tk59n.cn^
 ||tkshyp.com^
 ||tlwl1.cn^
+||tlwl2.cn^
 ||tmmjgcp.cn^
 ||tmrmixer.cn^
 ||tochgw.com^
@@ -20083,7 +20090,6 @@ fqsousou.com,kengso.com#@#.user-share
 /ad01.
 /ad02/background_
 /ad1-728-
-/ad1.$domain=~ad1.de|~ad1.in|~arlenemirsky.com|~vereinslinie.de
 /ad1/index.
 /ad11c.
 /ad12.
@@ -22199,6 +22205,7 @@ fqsousou.com,kengso.com#@#.user-share
 /adv02.$domain=~dobro.systems
 /adv03.$domain=~dobro.systems
 /adv1.
+/adv100x60.
 /Adv150.
 /adv180x150.
 /adv2.
@@ -25206,7 +25213,6 @@ fqsousou.com,kengso.com#@#.user-share
 /scripts/ad_
 /scripts/ads/*
 /scripts/AdService_
-/scripts/adv.
 /scripts/afc/*
 /scripts/feedmeCaf.php?q=*&d=*&ron=$script
 /scripts/zanox-
@@ -26018,7 +26024,6 @@ fqsousou.com,kengso.com#@#.user-share
 /wwwad.
 /wwwads.
 /x5advcorner.
-/xads.js
 /xads.php
 /xadvertisement.
 /xbanner.js
@@ -26490,7 +26495,6 @@ _ads.cgi
 _ads.cms?
 _ads.html
 _ads.js.
-_ads.js?
 _ads.php?
 _ads.station.
 _ads/css/
@@ -33858,6 +33862,7 @@ _popunder+$popup
 ###hours_ad
 ###houseAd
 ###hovered_sponsored
+###hp-desk-after-header-ad
 ###hp-header-ad
 ###hp-mpu
 ###hp-right-ad
@@ -44599,6 +44604,7 @@ _popunder+$popup
 ##.jsOneAd
 ##.js_adContainer
 ##.js_contained-ad-container
+##.js_deferred-ad
 ##.js_slideshow-full-width-ad
 ##.js_slideshow-sidebar-ad
 ##.jsx-adcontainer
@@ -58488,6 +58494,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||smrtgs.com^
 ||smsimprisee.club^
 ||snambepupkjggz.com^
+||snammar-jumntal.com^
 ||snapsed.club^
 ||snbybgwiyfug.com^
 ||snckdjuymeopsc.com^
@@ -67154,6 +67161,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||smartclk.net^$popup
 ||smartwebads.com^$popup,third-party
 ||smrtgs.com^$popup,third-party
+||snammar-jumntal.com^$popup
 ||sonagerthrou.com^$popup
 ||sparkstudios.com^$popup,third-party
 ||spattermutiny.com^$popup
@@ -67858,6 +67866,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||omynews.net^$third-party
 ||onedmp.com.^$third-party
 ||onhercam.com^$third-party
+||onlineporno.fun^$third-party
 ||ordermc.com^$third-party
 ||otaserve.net^$third-party
 ||othernedm.info^$third-party
@@ -73636,6 +73645,7 @@ csdb.dk###casdivhor
 csdb.dk###casdivver
 fresnobee.com###cb-topjobs
 bnd.com###cb_widget
+cloudwards.net###cbox
 aviationweek.com,grist.org,imgmega.com,linuxinsider.com,neg0.ca###cboxOverlay
 roomzaar.com###cgp-bb-tag
 realage.com###channel_sponsor_callout
@@ -75794,6 +75804,7 @@ annistonstar.com##.custom_hot_deal_image
 dnsleaktest.com##.cute-box
 jobhits.co.uk##.cvads
 futurecurrencyforecast.com##.cwc-tor-widget
+cloudwards.net##.cws-deal
 freesteam.io,theblockcrypto.com##.d-lg-block
 coingecko.com##.d-md-block
 glumbouploads.com##.d0_728
@@ -77012,6 +77023,7 @@ autoaction.com.au##.square
 kathmandupost.com##.sticky--bottom
 golfmagic.com##.sticky-container
 babylonbee.com##.sticky-footer-image
+oilcity.news##.sticky-sponsors-large
 salon.com##.sticky-wrapper
 readarsenal.com##.stickyContainerMpu
 wtop.com##.sticky_parent
