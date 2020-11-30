@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: tXzXyr1CLC2Tgx6+qsv85g
-! Version: 202011291111
+! Checksum: mQqRb+/fQBMu3GF/+czCYg
+! Version: 202011301511
 ! Title: EasyPrivacy
-! Last modified: 29 Nov 2020 11:11 UTC
+! Last modified: 30 Nov 2020 15:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -832,6 +832,7 @@
 /api-analytics.
 /api/0/stats
 /api/analytics/*
+/api/analytics?
 /api/analytics|
 /api/log?
 /api/lt/ref?
@@ -3406,6 +3407,7 @@
 /postview.gif?
 /powercount.
 /powr-counter.
+/pp/micro.tag.min.js
 /pphlogger.
 /ppms.js
 /pr.php?
@@ -4624,6 +4626,7 @@
 /trackpidv3.
 /trackpix.
 /trackpixel.
+/trackpixel?
 /trackpush.min.js
 /trackpush/*
 /trackpxl?
@@ -4783,6 +4786,7 @@
 /uxm_tracking.
 /v.gif?t=
 /v1/analytics.js
+/v1/impressions
 /v1/page-hit
 /v1/pixel?
 /v1/r.gif?
@@ -8392,6 +8396,7 @@ _mongo_stats/
 ||notify.solutions^$third-party
 ||olgtex.com^$third-party
 ||on-push.com^$third-party
+||onepush.app^$third-party
 ||onesignal.com^$third-party
 ||provesrc.com^$third-party
 ||psh.one^$third-party
@@ -11494,6 +11499,7 @@ _mongo_stats/
 ||primedia.co.za/analytics/
 ||print2webcorp.com/mkt3/_js/p2w_tracker.js
 ||prism.app-us1.com^$script,third-party
+||privacy-center.org^*/events
 ||privacytool.org/AnonymityChecker/js/fontdetect.js$third-party
 ||processor.asccommunications.com^
 ||production-mcs.lvp.llnw.net^
@@ -13070,6 +13076,8 @@ _mongo_stats/
 ||tag.shopping-feed.com^
 ||track.sunmedia.tv^
 ||tracker.thinkindot.com^
+||tracking.smartmeapp.com^
+||webpixel.smartmeapp.com^
 ! Swedish
 ||aftonbladet.se/blogportal/view/statistics?$third-party
 ||collector.schibsted.io^
@@ -14669,7 +14677,7 @@ _mongo_stats/
 ||pulsar.ebay.$ping,script
 ||purevpn.com/api/setCookies
 ||puritan.com/images/pixels/
-||purr.nytimes.com^
+||purr.nytimes.com^*/purr-cache
 ||pushsquare.com/blank.gif
 ||pvstat.china.cn^
 ||pw.org/sites/all/*/ga.js
