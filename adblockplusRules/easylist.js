@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: F8IT4VoU3Qb10TXQ+tjIgg
-! Version: 202011301511
+! Checksum: uarAHTpQgj/up4YVdMTS7Q
+! Version: 202012011401
 ! Title: EasyList
-! Last modified: 30 Nov 2020 15:11 UTC
+! Last modified: 01 Dec 2020 14:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -31474,6 +31474,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||02b5da94a2bd4aea.com^
 ||02f08caa2ee.com^
 ||039ad0897e6da.com^
+||03a1414e1c.com^
 ||04426f8b7ce9b069431.com^
 ||048d36793b8.com^
 ||050y9lhe8p.com^
@@ -32377,6 +32378,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||artantash.club^
 ||artapeare.site^
 ||arthwhilearthu.info^
+||artisticdisgraceevidently.com^
 ||artneesrparkete.info^
 ||artpever.com^
 ||artqpnah.com^
@@ -32417,6 +32419,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||assumptivestation.com^
 ||assurancemercysneak.com^
 ||assuremath.com^
+||astancerta.fun^
 ||astra9dlya10.com^
 ||astrouble.club^
 ||asuydisi.com^
@@ -32629,6 +32632,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||bcngvwvewfvw.com^
 ||bcuuipewdz.com^
 ||bcvrczvqlm.com^
+||bcvutcks.com^
 ||bcvxpffzmkqf.com^
 ||bd1617dbbc28f.com^
 ||bdbdqkdkfb.xyz^
@@ -33505,6 +33509,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||d194f913ee63.com^
 ||d1c4d437f10.com^
 ||d25192919cb6d.com^
+||d2850fafeb7.com^
 ||d2ab631af57.com^
 ||d2vybwwevieya6j.monster^
 ||d31ea41705818c9.com^
@@ -33523,6 +33528,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||d6jfiirio372.com^
 ||d71e6dd31a026d45.com^
 ||d72gb9oukw3j.com^
+||d77685035ab.com^
 ||d7e10fa2099.com^
 ||d869381a42af33b.com^
 ||d99sure.xyz^
@@ -33858,6 +33864,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||drbwugautcgh.com^
 ||dredkcyex.com^
 ||dregardianfl.site^
+||dressuresl.top^
 ||driverwinggranulated.com^
 ||dropsymooant.com^
 ||dropzenad.com^
@@ -38561,6 +38568,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||preyjustly.com^
 ||prfctmney.com^
 ||prfxrfkrvzroz.com^
+||pricestern.top^
 ||prieseerunbe.info^
 ||princided.club^
 ||prioritybeforehand.com^
@@ -38864,6 +38872,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||qpianhkxxuc.com^
 ||qplcqdbiob.com^
 ||qpljfpwdpk.com^
+||qptqoylpxmqbz.com^
 ||qqatxipoki.com^
 ||qqdalrqzvukzto.com^
 ||qqemfpbnixtqx.com^
@@ -39492,6 +39501,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||satisfactoryviolin.com^
 ||saturalerdax.site^
 ||saturalolk.club^
+||saturdayloathe.com^
 ||sauaopmdesyysa.com^
 ||sauceheirloom.com^
 ||saumooly.net^
@@ -40418,6 +40428,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||truernewlywait.com^
 ||truestioncarefore.site^
 ||truesweb.com^
+||trulytonic.com^
 ||trusted-click-host.com^
 ||trwbkkxk.com^
 ||trytipemo.com^
@@ -52301,6 +52312,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||audioz.download^*/promotional/
 ||aveherald.com/images/banners/
 ||bahamaslocal.com/img/banners/
+||bank-codes.com/*.html?c=
 ||basingstokeobserver.co.uk/wp-content/uploads/2018/09/wk40-petra-leaderboard.jpg
 ||beap.gemini.yahoo.com^
 ||bernama.com/storage/banner/
@@ -52577,6 +52589,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mrunal.org^*/ad-
 ||mrunal.org^*/Ad_
 ||mrunal.org^*/Win20CSP_
+||msn.com^*/placement-manager.
 ||musicatorrents.com^*/license.
 ||musicatorrents.com^*/script.
 ||musictarget.com*/!
@@ -53170,6 +53183,7 @@ $webrtc,domain=uptobox.com
 ||sendit.cloud/images/banner/
 ! gounlimited.to
 @@||cdnjs.cloudflare.com/ajax/libs/$script,domain=gounlimited.to
+@@||code.jquery.com^$script,domain=gounlimited.to
 |http://$script,third-party,xmlhttprequest,domain=gounlimited.to
 |https://$script,third-party,xmlhttprequest,domain=gounlimited.to
 ||gounlimited.to/olehkwmxtnhn.js
@@ -54041,6 +54055,8 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 ||milffox.com/ai/s/s/su.
 ||milffox.com/ai/s/s/suo.
 ||milffox.com/ai/s/s/supc.
+||milffox.com/local_su.js
+||milffox.com/su4unbl-r.js
 ||milkmanbook.com/dat/promo/
 ||miragepics.com/images/11361497289209202613.jpg
 ||mobilepornmovies.com/images/banners/
@@ -54067,6 +54083,7 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 ||myslavegirl.org/follow/go.js
 ||mysmokingmistress.com/saber/
 ||naked-sluts.us/prpop.js
+||namethatporn.com/assets/dev_popscript.js
 ||namethatporn.com^*/ba.
 ||namethatporn.com^*/pu_
 ||namethatpornstar.com/topphotos/
@@ -56410,6 +56427,7 @@ sporcle.com##.IMGgi
 footytube.com##.InSkinHide
 israelnationalnews.com##.InfoIn
 israelnationalnews.com##.InfoIn2
+sports.yahoo.com##.LDRB2-status-ok
 bloemfonteincourant.co.za,ofm.co.za,peoplemagazine.co.za##.LeaderBoard
 morningstar.com##.LeaderWrap
 agrieco.net,fjcruiserforums.com,mlive.com,newsorganizer.com,oxygenmag.com##.Leaderboard
@@ -56433,6 +56451,7 @@ thebull.com.au##.Maquetas
 juxtapoz.com##.MarketPlace
 farmersweekly.co.za##.MasterLeaderboard
 totaltele.com##.Master_LargeMPU
+sports.yahoo.com##.Mb\(24px\)
 agrieco.net##.MedRect
 bloemfonteincourant.co.za,ofm.co.za##.MediumRectangle
 iwsearch.net##.Mid-Top
@@ -57050,6 +57069,7 @@ maniacdev.com##.c4
 canada411.ca##.c411TopBanner
 filepuma.com##.cRight_footer
 ria.ru##.c_banners
+sports.yahoo.com##.caas-sticky-sda-container
 thecable.ng##.cableads_mid
 challonge.com##.cake-unit
 ghacks.net##.category-sponsored
@@ -58968,6 +58988,7 @@ yelp.com#?#li[class^="lemon--li"]:-abp-has(a[href^="/adredir?"])
 ! msn.com
 msn.com###promotedlinksplaceholder
 msn.com##.ad-content
+msn.com##.adsContent-DS-EntryPoint1-1
 msn.com##.amazon
 msn.com##.configurableAd
 msn.com##.dynamicRRWrapper
@@ -59026,6 +59047,7 @@ dominationtube.com###download-bar
 3movs.com###el-ab-a
 adultdvdtalk.com###enter_overlay
 megapornx.com###ex_pop_iframe
+namethatporn.com###fab_blacko
 deliciousmovies.com,topamateursexvideos.com###fadeinbox
 yporn.tv###featured
 imagetwist.com###firopage
@@ -59189,8 +59211,7 @@ extremetube.com##._mapm_link_premium
 seductivetease.com##.a-center
 de-sexy-tube.ru##.aBlock
 pornvideofile.com##.aWrapper
-namethatporn.com##.a_br_b
-namethatporn.com##.a_cls
+namethatporn.com##.a_bbf_w
 fooktube.com##.aa
 cumlouder.com##.aan-bottom
 porn300.com##.aan_fake

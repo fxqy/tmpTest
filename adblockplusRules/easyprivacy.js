@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: mQqRb+/fQBMu3GF/+czCYg
-! Version: 202011301511
+! Checksum: QaBrH5CysYDuBWGXV2XQQA
+! Version: 202012011401
 ! Title: EasyPrivacy
-! Last modified: 30 Nov 2020 15:11 UTC
+! Last modified: 01 Dec 2020 14:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3411,7 +3411,7 @@
 /pphlogger.
 /ppms.js
 /pr.php?
-/preparecookies?callback=
+/preparecookies?callback=$domain=~mirapodo.de|~mytoys.de|~yomonda.de
 /presslabs.js$script,~third-party
 /prime-email-metrics/*$image
 /printpixel.js
@@ -5172,7 +5172,7 @@
 ://ivwextern.
 ://metrika.*/analytics.
 ://mint.*/?js
-://piwik.$domain=~matomo.org
+://piwik.$domain=~matomo.org|~piwik.pro
 ://reporting.*/blank.gif?
 ://rum.*/events
 ://rum.*/rum/
@@ -10252,6 +10252,7 @@ _mongo_stats/
 ||aolcdn.com^*/beacon.min.js
 ||ape-tagit.timeinc.net^
 ||apester.com/event^
+||api-location-prd.pelcro.com^
 ||api.bit.ly/*/clicks?$third-party
 ||api.collarity.com/cws/*http
 ||api.wipmania.com^
@@ -14413,6 +14414,7 @@ _mongo_stats/
 ||n26.com/n26_sp_
 ||nabble.com/static/analytics.js
 ||namebright.com/js/fp2.js
+||namethatporn.com/assets/imgs/1x1.gif
 ||naplesnews.com/metrics/
 ||naptol.com/usr/local/csp/staticContent/js/ga.js
 ||nationalgeographic.com/stats/ax/
