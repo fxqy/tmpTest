@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uarAHTpQgj/up4YVdMTS7Q
-! Version: 202012011401
+! Checksum: 40qJYAfkF6bf3XBJhT9sNw
+! Version: 202012021511
 ! Title: EasyList
-! Last modified: 01 Dec 2020 14:01 UTC
+! Last modified: 02 Dec 2020 15:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12989,6 +12989,7 @@ _popunder+$popup
 ###article-bottom-ad
 ###article-box-ad
 ###article-content-ad
+###article-footer-ad
 ###article-footer-sponsors
 ###article-island-ad
 ###article-sidebar-ad
@@ -18421,6 +18422,7 @@ _popunder+$popup
 ##.ad-background-intra-body
 ##.ad-banner
 ##.ad-banner-300
+##.ad-banner-728x90
 ##.ad-banner-bkgd
 ##.ad-banner-bottom-container
 ##.ad-banner-container
@@ -18534,6 +18536,7 @@ _popunder+$popup
 ##.ad-close-button
 ##.ad-cluster
 ##.ad-cluster-container
+##.ad-cnt
 ##.ad-code
 ##.ad-codes
 ##.ad-col
@@ -25254,6 +25257,7 @@ _popunder+$popup
 ##.header_leaderboard_ad
 ##.header_link_ad
 ##.header_right_ad
+##.header_top_ad
 ##.headerad
 ##.headerad-720
 ##.headerad-placeholder
@@ -26638,6 +26642,7 @@ _popunder+$popup
 ##.newPex_forumads
 ##.newTopAdContainer
 ##.new_ad1
+##.new_ad_wrapper_all
 ##.newad
 ##.newad1
 ##.newadsky-wrapper
@@ -31936,6 +31941,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||a5020fec1701e9f3.com^
 ||a5e04df959f1af34.com^
 ||a5e2773db8a5.com^
+||a67z.com^
 ||a69ee4fa50dc3.com^
 ||a6be07586bc4a7.com^
 ||a6f845e6c37b2833148.com^
@@ -32193,6 +32199,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||albireo.xyz^
 ||alconbeatsi.club^
 ||alcreasalcon.info^
+||alcroconawa.com^
 ||alcularreless.club^
 ||aleaidass.site^
 ||alealebag.site^
@@ -35467,6 +35474,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||homeyloanedmes.work^
 ||honeycshfferufrew.com^
 ||honeymaria.com^
+||honfleurisez.xyz^
 ||honoursdashed.com^
 ||hoofstepfather.com^
 ||hooify.com^
@@ -38732,6 +38740,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||pyllxjfkjhpjbq.com^
 ||pypkrvtepsha.com^
 ||pyqsbuaeqiku.com^
+||pyroguanites.xyz^
 ||pyzkbxspoon.com^
 ||pz7zrn0xxgyg.com^
 ||pzjdrhrlzdli.com^
@@ -39119,6 +39128,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||reinformaln.top^
 ||reinspersian.com^
 ||reiqwxxd.com^
+||rejouassions.xyz^
 ||rekodpro.com^
 ||relaxingovercomeexaggerate.com^
 ||releasurezesa.site^
@@ -40175,6 +40185,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||tepmpemrixd.com^
 ||teqhllxidowmi.com^
 ||terdaywe.top^
+||terephtalate.xyz^
 ||terialexperi.top^
 ||terialnevitiesini.info^
 ||terpeditors.club^
@@ -52528,6 +52539,8 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||jordantimes.com/accu/
 ||jsb.high-minded.net^
 ||juventus.com/pics/sponsors/
+||kcsoftwares.com/images/brave.png
+||kcsoftwares.com/images/bravetip.png
 ||kdnuggets.com/aps/
 ||kendrickcoleman.com/images/banners/
 ||kickass-kat.com^$script
@@ -55109,6 +55122,7 @@ rednationonline.ca###dnn_BannerPane
 designtaxi.com###dt-small-sub-2
 designtaxi.com###dt-small-sub-3
 energyforecastonline.co.za###endorsers
+geekwire.com###engineering-centers-sidebar
 my.juno.com###entertainmentTile
 fxsforexsrbijaforum.com###fa_ticker_container
 thedrinknation.com###fcBanner
@@ -57579,6 +57593,7 @@ bizarrepedia.com##.holder
 greatdaygames.com##.home_Right_bg
 wpbt2.org##.home_banners
 hpe.com##.home_leaderboard
+geekwire.com##.home_listing
 securitymattersmag.com##.homeart_marketpl_container
 news1130.com##.homepage-headlines-sponsorship-block
 mancunianmatters.co.uk##.homepage-leader
@@ -58341,6 +58356,7 @@ ndtv.com##.sp_ad-t
 rapid-search-engine.com##.sp_header
 channelchooser.com##.span-12.prepend-top.last
 kcsoftwares.com##.span2.well
+kcsoftwares.com##.span3.well
 fark.com##.spau
 fashionmagazine.com##.special-messages
 picarto.tv##.specialbanner
@@ -58566,6 +58582,7 @@ thehackernews.com##[href^="https://go.thn.li/"]
 rtvonline.com##[href^="https://goo.gl/"]
 imagetwist.com##[href^="https://imagetwist.com/pxt/"]
 noypigeeks.com##[href^="https://nypgks.com/"]
+whatleaks.com##[href^="https://secure.doublevpn.com/"]
 wccftech.com##[href^="https://tidd.ly/"]
 cnx-software.com##[href^="https://www.amazon.com/"]
 unknowncheats.me##[href^="https://www.iwantcheats.net/"]
@@ -58677,6 +58694,7 @@ engadget.com##div[data-component="GeminiAdItem"]
 pushsquare.com##div[data-dfp-id]
 monova.org##div[data-id]
 engadget.com##div[data-nav-drawer-slide-panel] > aside[role="banner"]
+techspot.com##div[data-type="zadbl_downloads_single"]
 quora.com##div[id$="content_box"]
 sockshare.net##div[id^="MGWrap"]
 searchenginejournal.com##div[id^="SEJ_300x250_"]
