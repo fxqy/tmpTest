@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: hF8JU1cs5Cbeta7W6seYKw
-! Version: 202012021502
+! Checksum: +QqpNEo09m+Td/GYtOYhsw
+! Version: 202012031011
 ! Title: EasyPrivacy
-! Last modified: 02 Dec 2020 15:02 UTC
+! Last modified: 03 Dec 2020 10:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5647,6 +5647,7 @@ _mongo_stats/
 ||g4952108375.co^
 ||g5150192710.co^
 ||nxakpj4ac8gkd53.info^
+||propeller-tracking.com^
 ||sbgsodufuosmmvsdf.info^
 ||z0uolej1qnxzub1.info^
 ! Third-party
@@ -7445,7 +7446,6 @@ _mongo_stats/
 ||promotionengine.com^$third-party
 ||proofpoint.com^$third-party
 ||proofpositivemedia.com^$third-party
-||propeller-tracking.com^$third-party
 ||propermessage.io^$third-party
 ||provenpixel.com^$third-party
 ||prprocess.com^$third-party
@@ -10123,7 +10123,6 @@ _mongo_stats/
 ||amazonaws.com/prod/entities
 ||amazonaws.com/prod/main?ref=$image,third-party
 ||amazonaws.com/prod/report-only
-||amazonaws.com/prod/v2
 ||amazonaws.com/production_beacon
 ||amazonaws.com/production|$third-party,xmlhttprequest,domain=~amazon.com
 ||amazonaws.com/searchdiscovery-satellite-production/
@@ -15602,7 +15601,6 @@ _mongo_stats/
 ||xing.com/collect/
 ||xing.com/logjam/
 ||xozilla.com/js/analytics.js
-||xp.apple.com/config/1/report/
 ||xtrack.capetown.gov.za^
 ||yahoo.com/__perf_log_
 ||yahoo.com/_td_api/beacon/

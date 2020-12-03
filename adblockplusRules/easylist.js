@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 40qJYAfkF6bf3XBJhT9sNw
-! Version: 202012021511
+! Checksum: mwR5qiKmLvxw4Wpl+kXtYQ
+! Version: 202012031011
 ! Title: EasyList
-! Last modified: 02 Dec 2020 15:11 UTC
+! Last modified: 03 Dec 2020 10:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3814,7 +3814,7 @@
 /annonse.$domain=~annonse.nu
 /annonse/*
 /annonser.
-/annonser/*
+/annonser/*$domain=billink.no
 /announce/adv/*
 /anyad.js
 /ape-ad-
@@ -7285,7 +7285,7 @@
 ://ad.*/jstag^
 ://adcl.$domain=~adcl.com|~adcl.screenconnect.com
 ://adn.*/zone/$subdocument
-://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.harvard.edu|~ads.lapalingo.com|~ads.lordlucky.com|~ads.microsoft.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
+://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.harvard.edu|~ads.instacart.com|~ads.lapalingo.com|~ads.lordlucky.com|~ads.microsoft.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 ://adv.$domain=~adv.bet|~adv.cincsys.com|~adv.co.it|~adv.cpa-api.ru|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.ec|~adv.ee|~adv.gg|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.vg|~adv.works|~adv.yomiuri.co.jp|~advids.co|~erti.se|~escreverdireito.com|~farapp.com|~forex-tv-online.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 ://affiliate.$third-party
 ://affiliates.$third-party
@@ -25428,6 +25428,7 @@ _popunder+$popup
 ##.horizsponsoredlinks
 ##.hortad
 ##.house-ad
+##.house-ad-unit
 ##.house-ads
 ##.houseAd
 ##.houseAd1
@@ -38609,7 +38610,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||promriftahead.com^
 ||propeanfanku.site^
 ||propeanikob.site^
-||propeller-tracking.com^
 ||propellerclick.com^
 ||properatery.club^
 ||proportly.club^
@@ -39636,7 +39636,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||seszopvxktsfn.com^
 ||setemoump.com^
 ||setrtcjfhreqg.com^
-||setupad.com^
 ||seuojaesymeriv.com^
 ||sevenialfeminde.fun^
 ||sevening.club^
@@ -50345,6 +50344,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||disqus.com/listPromoted?
 ||disqusservice.com/iframe/fallback/
 ||dj.rasset.ie/dotie/js/rte.ads.js
+||djicdn.com/uploads/ad_image_$third-party
 ||djr4k68f8n55o.cloudfront.net^
 ||djz9es32qen64.cloudfront.net^
 ||dm0acvguygm9h.cloudfront.net^
@@ -55899,6 +55899,7 @@ flexiblewebdesign.com###scroll
 espnscrum.com###scrumRhsBgMpu
 espnscrum.com###scrumRhsBgTxtLks
 hentai2read.com###sct_banner_980_60
+yahoo.com###sda-MAST
 91mobiles.com###se_notification
 docspot.com###search-leaderboard
 sail-world.com###searchRotation
@@ -56706,6 +56707,7 @@ trendhunter.com##.articleBox
 audizine.com##.articleIMG
 shoppinglifestyle.com##.articleLREC
 tvbrics.com##.article__banner
+9news.com.au##.article__native-links
 eastrolog.com##.as300x250
 memepix.com##.asblock
 xmodulo.com##.asdf-banner-zone
@@ -57101,7 +57103,11 @@ iotwreport.com,wuxiaworld.com##.code-block
 getdroidtips.com,kanonitv.net##.code-block-1
 getdroidtips.com##.code-block-13
 getdroidtips.com##.code-block-15
+windowsreport.com##.code-block-30
+windowsreport.com##.code-block-31
 getdroidtips.com##.code-block-4
+windowsreport.com##.code-block-66
+windowsreport.com##.code-block-68
 getdroidtips.com##.code-block-8
 link-base.org##.col-lg-12
 disqus.com##.col-promoted
@@ -58502,7 +58508,7 @@ joebucsfan.com##.top_banner_cont
 wallpapersmania.com##.top_pad_10
 roadtests.com##.topad
 dnaindia.com##.topadd
-tinyurl.com##.topbanner
+streamable.com,tinyurl.com##.topbanner
 pagesinventory.com##.tpromo
 smallseotools.com##.tuny_baaz_ni_ana_
 joebucsfan.com##.tweet_div1
