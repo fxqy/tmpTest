@@ -35,6 +35,20 @@ function initEvents(){
 		var edpwd=_$G("edcpt_pwd").value;
         edtxt.value=dcpt(edtxt.value,edpwd);
 	};
+	_$G("taba_btnec64a").onclick=function(){
+		var edtxt=_$G("edcpt_txt");
+		var edpwd=_$G("edcpt_pwd").value;
+        enc64(edtxt.value, krct(edpwd), function(res){
+            edtxt.value=res;
+        })
+	};
+	_$G("taba_btnec64b").onclick=function(){
+		var edtxt=_$G("edcpt_txt");
+		var edpwd=_$G("edcpt_pwd").value;
+        dec64(edtxt.value, krct(edpwd),function(res){
+            edtxt.value=res;
+        });
+	};
 	_$G("taba_btn3").onclick=function(){
 		var edtxt=_$G("edcpt_txt");
 		var edpwd=_$G("edcpt_pwd").value;
@@ -284,4 +298,87 @@ function aesDcpt(text,pwd){
 	var decryptedBytes = aesOfb.decrypt(encryptedBytes);
 	var decryptedText = aesjs.utils.utf8.fromBytes(decryptedBytes);
 	return decryptedText;
+}
+
+/**------------------------------EC64------------------------------*/
+
+function enc64(str, sers, fun) {
+    if(sers==null||sers.length!=64)
+        throw "enc64 series error";
+    str2ab(str,function(ab){
+        var bts = new Uint8Array(ab);
+		var bd = "";
+        var len = bts.length;
+        var a=0,b=0;
+        for (var i = 0; i < len; i++) {
+            var it = bts[i] & 0xff;
+            a=a<<8|it;
+            b+=8;
+            while(b>=6) {
+                bd+=sers.charAt(a>>(b-6)&0x3f);
+                b-=6;
+            }
+        }
+        if(b!=0) {
+            bd+=sers.charAt(a<<(6-b)&0x3f);
+        }
+        fun.call(null,bd);
+	});
+}
+
+function dec64(str, sers,fun) {
+    if(sers==null||sers.length!=64)
+        throw "dec64 series error";
+    var len = str.length;
+    var bts = new Uint8Array(Math.floor(len*3/4));
+    var a=0,b=0,n=0;
+    for (var i = 0; i < len; i++) {
+        var it = sers.indexOf(str.charAt(i));
+        a=a<<6|it;
+        b+=6;
+        while(b>=8) {
+            bts[n]=a>>(b-8)&0xff;
+            b-=8;
+            n++;
+        }
+    }
+    console.log("b="+b+", ?="+(len*3%4));
+    ab2str(bts,function(str){
+        fun.call(null,str);
+    });
+    return bts;
+}
+
+function krct(s,l){
+	var z="+-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	var lnz=z.length;
+	var lns=s.length;
+	var lpn=lns+lnz;
+	for(var i=0,j=0,k=0;i<lpn;i++){
+		var it;
+		if(i>lns-1){
+			it=z.charCodeAt(j);
+			j++;
+		}else{
+			it=s.charCodeAt(k);
+			k++;
+		}
+		var m=it*(it>>3)%lnz;
+		z=z.substring(m+1,lnz)+z.charAt(m)+z.substring(0,m);
+	}
+	return l?z.substring(0,l):z;
+}
+
+function ab2str(u,f) {
+   var b = new Blob([u]);
+   var r = new FileReader();
+    r.readAsText(b, 'utf-8');
+    r.onload = function (){if(f)f.call(null,r.result)}
+}
+
+function str2ab(s,f) {
+    var b = new Blob([s],{type:'text/plain'});
+    var r = new FileReader();
+    r.readAsArrayBuffer(b);
+    r.onload = function (){if(f)f.call(null,r.result)}
 }
