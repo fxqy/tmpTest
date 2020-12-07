@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: XMnOpD7oS6pgMA5uW45wKQ
-! Version: 202012051141
+! Checksum: SK0lRmfyXyQ8lDnWq//F7g
+! Version: 202012070521
 ! Title: EasyPrivacy
-! Last modified: 05 Dec 2020 11:41 UTC
+! Last modified: 07 Dec 2020 05:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3254,6 +3254,7 @@
 /phpmyvisites.js
 /pic.gif?m=
 /pic.gif?url=
+/piNctTracking.js
 /ping.*&referrer=
 /ping.*/ping.js
 /ping.gif?
@@ -4547,6 +4548,7 @@
 /tracking/tracker.
 /tracking/tracking.
 /tracking/tracking_
+/Tracking/TrackPage
 /tracking/trk-
 /tracking/ts?
 /tracking/tynt_
@@ -4849,6 +4851,7 @@
 /viewcounterproxy.
 /views/s.gif?
 /views/vw.js
+/views_tracking/*
 /viewstats.aspx?
 /viewtracking.aspx?
 /viewTracking.min.js
@@ -6556,6 +6559,7 @@ _mongo_stats/
 ||forkcdn.com^$third-party
 ||formalyzer.com^$third-party
 ||formisimo.com^$third-party
+||fouanalytics.com^$third-party
 ||foundry42.com^$third-party
 ||fout.jp^$third-party
 ||fpctraffic2.com^$third-party
@@ -10609,6 +10613,7 @@ _mongo_stats/
 ||counters.freewebs.com^
 ||countly.stackvaults.com^
 ||country.yepshare.com^
+||covery.ai/fp/$third-party
 ||creativecdn.com/pix/?
 ||creativecdn.com/tags?
 ||creator.zmags.com^
@@ -10697,6 +10702,7 @@ _mongo_stats/
 ||d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com^
 ||d31bfnnwekbny6.cloudfront.net/customers/
 ||d34ko97cxuv4p7.cloudfront.net^
+||d34qb8suadcc4g.cloudfront.net^
 ||d35u1vg1q28b3w.cloudfront.net^
 ||d36lvucg9kzous.cloudfront.net^
 ||d39yds8oe4n4jq.cloudfront.net^
@@ -10814,6 +10820,7 @@ _mongo_stats/
 ||edge.bredg.com^$third-party
 ||edge.sqweb.com^
 ||edgesuite.net^*/googleanalyt
+||edkt.io^*/edgekit.min.js
 ||edrone.me/trace?
 ||egmontpublishing.dk/tracking/
 ||els-cdn.com^*/analytics.js
@@ -10918,6 +10925,7 @@ _mongo_stats/
 ||future-price.co.uk^
 ||futurecdn.net/bordeaux.js$xmlhttprequest
 ||futurecdn.net^*/abp.js
+||fw.tv/embed/impressions
 ||fwcdn1.com/js/fwn.js
 ||fwix.com/ref.js
 ||fwix.com^*/trackclicks_
@@ -11981,6 +11989,7 @@ _mongo_stats/
 ||tracking.lengow.com^
 ||tracking.listhub.net^
 ||tracking.livingsocial.com^
+||tracking.magnetmail.net^
 ||tracking.maxcdn.com^$third-party
 ||tracking.menamarketplace.com^
 ||tracking.monsido.com^
@@ -15096,6 +15105,7 @@ _mongo_stats/
 ||stats.hfet.org^
 ||stats.ibtimes.co.in^
 ||stats.ibtimes.co.uk^
+||stats.nctm.org^
 ||stats.nimiq-network.com^
 ||stats.nymag.com^
 ||stats.opoloo.de^
@@ -16975,7 +16985,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||vroom.be^*/stats.php?
 ||webstatistieken.xs4all.nl^
 ! Finnish
-||adlibris.com/pixel.gif
 ||analytics.sanoma.fi^
 ||data.reactandshare.com^
 ||dp.alma.iltalehti.fi/v1/cookie
@@ -17645,7 +17654,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||google-analytics.com/plugins/ua/ec.js$script,domain=health2000.co.nz
 @@||google.com/js/gweb/analytics/autotrack.js$domain=gradleplease.appspot.com|www.google.com
 @@||googletagmanager.com/gtag/js$script,domain=ally.com|anchor.fm|foxnews.com|gamespot.com|m.putlocker.how|neighborhoodpostcards.com|playphrase.me|ryanair.com
-@@||googletagmanager.com/gtm.js$domain=action.com|ads.spotify.com|adsoup.com|aim.steelseries.com|airasia.com|asus.com|bhaskar.com|broadcom.com|bsa-whitelabel.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|indy100.com|insideevs.com|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsy.com|nfl.com|nflgamepass.com|onesignal.com|optus.com.au|overwatchleague.com|poliigon.com|porsche.com|postable.com|realestate.co.nz|rebtel.com|redbull.com|rockstargames.com|rollingstone.com|royalbank.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|theta.tv|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|weightwatchers.com|woodlanddirect.com|wwe.com
+@@||googletagmanager.com/gtm.js$domain=action.com|ads.spotify.com|adsoup.com|aim.steelseries.com|airasia.com|asus.com|bhaskar.com|broadcom.com|bsa-whitelabel.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|health2000.co.nz|indy100.com|insideevs.com|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsletter.co.uk|newsy.com|nfl.com|nflgamepass.com|onesignal.com|optus.com.au|overwatchleague.com|poliigon.com|porsche.com|postable.com|realestate.co.nz|rebtel.com|redbull.com|rockstargames.com|rollingstone.com|royalbank.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|theta.tv|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|weightwatchers.com|woodlanddirect.com|wwe.com
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
@@ -17723,6 +17732,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||nintendo.com/apps/noa/scripts/analytics.js
 @@||tracking.narvar.com/tracking/$~third-party
 @@||tracking.narvar.com/trackinginfo/$~third-party
+@@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
 @@||yottaa.com/rapid.min.js$script,domain=wineenthusiast.com
 ! @@||ncbi.nlm.nih.gov/stat?
 @@||newrelic.com/nr-*.min.js$domain=surveymonkey.co.uk|surveymonkey.com|surveymonkey.de|surveymonkey.ru
