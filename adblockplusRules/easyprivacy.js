@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: cM7lZxMccaWmjt4J4VsU5g
-! Version: 202012090621
+! Checksum: INvLTWmzmKZ0cqSYoJtpnw
+! Version: 202012101401
 ! Title: EasyPrivacy
-! Last modified: 09 Dec 2020 06:21 UTC
+! Last modified: 10 Dec 2020 14:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1405,6 +1405,7 @@
 /compile/AppMeasurement.
 /comscore-min.js
 /comscore.
+/comscore.min.js
 /comscore/pageview_
 /comscore/streamsense.
 /comscore?
@@ -2295,6 +2296,7 @@
 /hlog.asp
 /hm.pl?p=
 /hmapxy.js
+/hnpprivacy-min.
 /home/Analytic?
 /homeCounter.
 /homepage/analytics.
@@ -5881,6 +5883,7 @@ _mongo_stats/
 ||anti-cheat.info^$third-party
 ||antiblock.info^$third-party
 ||anura.io^$third-party
+||anymind360.com^$third-party
 ||ape78cn2.com^$third-party
 ||apexstats.com^$third-party
 ||apextag.com^$third-party
@@ -6837,6 +6840,7 @@ _mongo_stats/
 ||infopro-insight.com^$third-party
 ||infoprodata.com^$third-party
 ||informz.net^$third-party
+||ingage.tech^$third-party
 ||inimbus.com.au^$third-party
 ||inmoment.com^$third-party
 ||innomdc.com^$third-party
@@ -7524,6 +7528,7 @@ _mongo_stats/
 ||questradeaffiliates.com^$third-party
 ||quillion.com^$third-party
 ||quintelligence.com^$third-party
+||quintesse.io^$third-party
 ||quitsnap-blue.com^$third-party
 ||qzlog.com^$third-party
 ||r7ls.net^$third-party
@@ -12386,6 +12391,7 @@ _mongo_stats/
 ||d.omsnative.de^
 ||data.econa.com^
 ||datacomm.ch^*/count.cgi?
+||datalayer.p7s1.io^
 ||et.twyn.com^
 ||events.kaloo.ga^$third-party
 ||export.newscube.de^$~subdocument
@@ -14514,7 +14520,6 @@ _mongo_stats/
 ||ning.com^*/ga/ga.js
 ||nj.com/cgi-bin/stats/
 ||nj.com/dhtml/stats/
-||nj1r.valorbuff.com^
 ||nm.newegg.com^
 ||nmtracking.netflix.com^
 ||noip.com/images/em.php?$image
@@ -14528,7 +14533,6 @@ _mongo_stats/
 ||novell.com^*/metrics.js
 ||novinite.com/tz.php
 ||nst.com.my/statistic/
-||nvea.valorbuff.com^
 ||nymag.com/js/2/metrony
 ||nymag.com^*/analytics.js
 ||nyse.com^*/stats/
@@ -15735,6 +15739,13 @@ _mongo_stats/
 ||zytpirwai.net/track/
 ! first-party tracking
 ||as01.overbuff.com^
+||gk3o.trackdota.com^
+||k9v7.dotabuff.com^
+||mqzy.dotabuff.com^
+||nj1r.valorbuff.com^
+||nkeq.speedrun.com^
+||nvea.valorbuff.com^
+||pqoz.trackdota.com^
 ||uuqz.overbuff.com^
 ! Bing
 ||bing.com/fd/ls/l?IG=
