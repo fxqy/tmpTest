@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: INvLTWmzmKZ0cqSYoJtpnw
-! Version: 202012101401
+! Checksum: Nl1IAjuUzUJXq7HXKJ3Zvw
+! Version: 202012120211
 ! Title: EasyPrivacy
-! Last modified: 10 Dec 2020 14:01 UTC
+! Last modified: 12 Dec 2020 02:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1413,6 +1413,7 @@
 /comscore_beacon/*
 /comscore_engine.
 /comscore_pageview
+/comscore_ping
 /comscore_stats.
 /comscorebeacon.
 /comscorepageviewcomscorekw=
@@ -2239,6 +2240,7 @@
 /gtm.js
 /gtm.min.js
 /gtm/gtm-
+/gtmProd.
 /gtmTracking.
 /gtrack.
 /gujTracker.
@@ -5608,6 +5610,7 @@ _sdcTrackingCode.
 /ab_track.
 /adb.policy.js
 /adblock?action=
+/adblocker-check.
 /adblocker/pixel.
 /adblockLogger/*
 /iab-adblockDetector.
@@ -9507,6 +9510,7 @@ _mongo_stats/
 ||logly.co.jp^$third-party
 ||mediav.com^$third-party
 ||miaozhen.com^$third-party
+||mmstat.com^$third-party
 ||oadz.com^$third-party
 ||p0y.cn^$third-party
 ||phpstat.com^$third-party
@@ -12652,6 +12656,7 @@ _mongo_stats/
 ||dup.baidustatic.com^
 ||epro.sogou.com^
 ||etwun.com:8080/counter.php?
+||fourier.taobao.com^
 ||g.yccdn.com^
 ||haostat.qihoo.com^
 ||hudong.com/flux.js
@@ -12888,6 +12893,8 @@ _mongo_stats/
 ||rd.rakuten.co.jp^$script
 ||rlog.popin.cc^
 ||s.yimg.jp/images/listing/tool/cv/ytag.js
+||sankei-digital.co.jp/log?
+||sankei.co.jp/js/privacy/sando.js
 ||seesaa.jp/ot_square.pl?
 ||shinobi.jp/track?
 ||shinobi.jp/zen?
@@ -14069,6 +14076,7 @@ _mongo_stats/
 ||hotpads.com/node/api/comscore
 ||hotstar.com^*/identify
 ||hotstar.com^*/track
+||houzz.com/hsc/aetrk/
 ||houzz.com/js/log?
 ||hoverstock.com/boomerang?
 ||howcast.com/images/h.gif
@@ -15236,6 +15244,7 @@ _mongo_stats/
 ||telemetry.art19.com^
 ||telemetry.tradingview.com^
 ||telerium.net/geo.php
+||tellerreport.com/react/pixel
 ||tempo.inc.com^
 ||tesco.com/cgi-bin3/buyrate?type=
 ||tfl.gov.uk/tfl-global/scripts/stats-config.js
@@ -17156,7 +17165,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||log.suumo.jp^
 ||logql.yahoo.co.jp^
 ||measure.ameblo.jp^
-||mmstat.com^$image,ping
 ||mtc.nhk.or.jp^
 ||nhk.or.jp^*/bc.js
 ||ppf.rakuten.co.jp^$~script
@@ -17765,6 +17773,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
 @@||tracking.narvar.com/tracking/$~third-party
 @@||tracking.narvar.com/trackinginfo/$~third-party
+@@||uid.mavencoalition.io^$xmlhttprequest,domain=fashionista.com
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
 @@||yottaa.com/rapid.min.js$script,domain=wineenthusiast.com
 ! @@||ncbi.nlm.nih.gov/stat?
