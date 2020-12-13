@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Nl1IAjuUzUJXq7HXKJ3Zvw
-! Version: 202012120211
+! Checksum: X/xt+Wh5X3bey3Kzukt7lg
+! Version: 202012131051
 ! Title: EasyPrivacy
-! Last modified: 12 Dec 2020 02:11 UTC
+! Last modified: 13 Dec 2020 10:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2799,6 +2799,7 @@
 /logvisit?visitedurl=
 /logwebhit.
 /logwriter.php
+/loi/imp?
 /lotame_audiences.
 /loyalty-tracking-
 /ls.gif?
@@ -5199,6 +5200,7 @@
 ://track.*/visitor/
 ://tracker.*/pageview
 ://tracking.*/beacon/
+://tracking.*/event
 ://tracking.*/tr.js
 ://utm.$domain=~utm.arc.nasa.gov|~utm.edu|~utm.io|~utm.md|~utm.pansa.pl|~utm.pharos360.com|~utoronto.ca
 ;1x1inv=
@@ -7338,6 +7340,7 @@ _mongo_stats/
 ||openstat.net^$third-party
 ||opentracker.net^$third-party
 ||openvenue.com^$third-party
+||openxcdn.net^$third-party
 ||oproi.com^$third-party
 ||opstag.com^$third-party
 ||optify.net^$third-party
@@ -10317,6 +10320,7 @@ _mongo_stats/
 ||ask.com^*/i.gif?
 ||assoc-amazon.*^e/ir?t=$image
 ||asterpix.com/tagcloudview/
+||at.cbsi.com^*/event?
 ||atcdn.co.uk/frostbite/
 ||atdmt.com/action/
 ||atdmt.com/iaction/
@@ -11377,6 +11381,7 @@ _mongo_stats/
 ||naver.net/wcslog.js
 ||navlink.com/__utmala.js
 ||nbcudigitaladops.com/hosted/housepix.gif
+||nbcudigitaladops.com/hosted/util/geo_data.js
 ||needle.com/pageload?
 ||needle.com/pageupdate?
 ||neocounter.neoworx-blog-tools.net^
@@ -14086,6 +14091,7 @@ _mongo_stats/
 ||hrblock.com/includes/pixel/
 ||hrum.hotelsapi.io^
 ||hsn.com/code/pix.aspx
+||html5games.com/event/
 ||huawei.com/hwa-c/
 ||hubpages.com/c/*.gif?
 ||huffpost.com/ping?
@@ -17660,7 +17666,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||events-collector.spot.im/api/$xmlhttprequest
 @@||evestment.com/api/analytics/$domain=evestment.com
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
-@@||ezodn.com/detroitchicago/dayton.js$script
 @@||fccbrea.org^*/swfaddress.js
 @@||fifa.com^*/webanalytics.js?
 @@||files.mycloud.com/js/analytics/google_analytics.js
@@ -17770,6 +17775,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||mywebar.com/js/tracking_worker.js$~third-party
 @@||nintendo.com/apps/noa/scripts/analytics.js
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
+@@||static.amazon.jobs/assets/analytics-$script,domain=amazon.jobs
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
 @@||tracking.narvar.com/tracking/$~third-party
 @@||tracking.narvar.com/trackinginfo/$~third-party
