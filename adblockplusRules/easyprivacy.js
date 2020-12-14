@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: X/xt+Wh5X3bey3Kzukt7lg
-! Version: 202012131051
+! Checksum: FS6Aw8NccWfw2Wvy8FxS6w
+! Version: 202012141011
 ! Title: EasyPrivacy
-! Last modified: 13 Dec 2020 10:51 UTC
+! Last modified: 14 Dec 2020 10:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2327,6 +2327,7 @@
 /i/i.gif?
 /i2a.js
 /i2yesCounter.js
+/i?_SB_stm=
 /i?e=*&page=*&cookie=
 /i?redir=*&page=*&cookie=
 /i?siteid=
@@ -4119,6 +4120,7 @@
 /stdlog?
 /store-uniq-client-id?bomuuid=
 /storeAdvImpression.
+/stp.gif?
 /stracking.js
 /sTrackStats.
 /stream/log.html?
@@ -8384,6 +8386,12 @@ _mongo_stats/
 ||zroitracker.com^$third-party
 ||ztsrv.com^$third-party
 ||zuzab.com^$third-party
+! revprotect
+||pphwrevr.com^$third-party
+||protectcrev.com^$third-party
+||protectsubrev.com^$third-party
+||revcatch.com^$third-party
+||revprotect.com^$third-party
 ! Marketo email tracking domains https://github.com/easylist/easylist/issues/6475
 ||mkto-*.com^$third-party
 ! Notification servers (Tracking/Fingerprinting users)
@@ -12387,6 +12395,7 @@ _mongo_stats/
 ||clipkit.de/metrics?
 ||cloudfront.net/customers/24868.min.js
 ||cnt2.stroeerdp.de^
+||collector.rn.de^
 ||com.econa.com^
 ||counter.1i.kz^
 ||counter.blogoscoop.net^
@@ -13662,6 +13671,7 @@ _mongo_stats/
 ||dainikbhaskar.com/tracking/
 ||data.mic.com^
 ||data.ninemsn.com.au/*GetAdCalls
+||data.webullfintech.com/event/
 ||data.younow.com^
 ||datehookup.com/strk/dateadvertreg?
 ||daum.net^*/dwi.js
@@ -14279,6 +14289,8 @@ _mongo_stats/
 ||list.ru/counter?
 ||live.com/handlers/watson.mvc?
 ||livedoor.com/counter/
+||livehdcams.com/api/events
+||livehdcams.com/api/metrics
 ||livejournal.com/ljcounter/?
 ||liveperson.net/hc/*/?visitor=
 ||livestation.com^*/akamaimediaanalytics.swf
@@ -14702,6 +14714,8 @@ _mongo_stats/
 ||poptropica.com/brain/track.php?
 ||porndoo.com/lib/ajax/track.php
 ||pornhd.com/api/user/tracking
+||pornhublive.com/api/events
+||pornhublive.com/api/metrics
 ||porntube.com^*/track
 ||potterybarn.com/pbimgs/*/external/thirdparty.js
 ||potterybarnkids.com/pkimgs/*/external/thirdparty.js
@@ -15245,7 +15259,6 @@ _mongo_stats/
 ||tdwaterhouse.co.uk^*/track.js
 ||ted.dailymail.co.uk^
 ||ted.metro.co.uk^
-||telegraph.api.hbo.com^
 ||telegraph.co.uk^*/tmglmultitrackselector.js
 ||telemetry.art19.com^
 ||telemetry.tradingview.com^
@@ -17698,14 +17711,14 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||google-analytics.com/plugins/ua/ec.js$script,domain=health2000.co.nz
 @@||google.com/js/gweb/analytics/autotrack.js$domain=gradleplease.appspot.com|www.google.com
 @@||googletagmanager.com/gtag/js$script,domain=ally.com|anchor.fm|foxnews.com|gamespot.com|m.putlocker.how|neighborhoodpostcards.com|playphrase.me|ryanair.com
-@@||googletagmanager.com/gtm.js$domain=action.com|ads.spotify.com|adsoup.com|aim.steelseries.com|airasia.com|asus.com|bhaskar.com|broadcom.com|bsa-whitelabel.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|gumtree.com|health2000.co.nz|indy100.com|insideevs.com|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsletter.co.uk|newsy.com|nfl.com|nflgamepass.com|onesignal.com|optus.com.au|overwatchleague.com|poliigon.com|porsche.com|postable.com|readyrefresh.com|realestate.co.nz|rebtel.com|redbull.com|rockstargames.com|rollingstone.com|royalbank.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|theta.tv|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|weightwatchers.com|woodlanddirect.com|wwe.com
+@@||googletagmanager.com/gtm.js$domain=action.com|ads.spotify.com|adsoup.com|aim.steelseries.com|airasia.com|asus.com|bhaskar.com|broadcom.com|bsa-whitelabel.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|gumtree.com|hbomax.com|health2000.co.nz|indy100.com|insideevs.com|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsletter.co.uk|newsy.com|nfl.com|nflgamepass.com|onesignal.com|optus.com.au|overwatchleague.com|poliigon.com|porsche.com|postable.com|readyrefresh.com|realestate.co.nz|rebtel.com|redbull.com|rockstargames.com|rollingstone.com|royalbank.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|theta.tv|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|weightwatchers.com|woodlanddirect.com|wwe.com
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org
 @@||hitfile.net/platform/js/fdlogger/fdlogger.js$script,~third-party
 @@||hmhco.com/one/js/conf/trackjs.config.$script,~third-party,xmlhttprequest
-@@||hobbyking.com^*/gtm.js$script,third-party
+@@||hobbyking.com^*/gtm.js$script,~third-party
 @@||hopx.cedexis.com^$xmlhttprequest,domain=play.aetv.com|play.history.com|play.mylifetime.com
 @@||hscta.net/cta/current.js$script,domain=aucfan.com
 @@||i-scmp.com/production/mixpanel.$domain=scmp.com
