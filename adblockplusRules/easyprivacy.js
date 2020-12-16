@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: w6Wlb6d4vLKrzoCXjlBDBg
-! Version: 202012151011
+! Checksum: xVVYaS4qaiatmzcyRyInTw
+! Version: 202012161111
 ! Title: EasyPrivacy
-! Last modified: 15 Dec 2020 10:11 UTC
+! Last modified: 16 Dec 2020 11:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5672,6 +5672,7 @@ _mongo_stats/
 ||g4952108375.co^
 ||g5150192710.co^
 ||g5348277045.co^
+||g5546361380.co^
 ||mors22.com^
 ||nxakpj4ac8gkd53.info^
 ||propeller-tracking.com^
@@ -12290,7 +12291,7 @@ _mongo_stats/
 ||frog.wix.com/hls2?
 ||frog.wix.com/p?
 ||frog.wix.com/pre?
-||frog.wix.com^$ping
+||frog.wix.com^$ping,xmlhttprequest
 ! Fingerprinting
 ||cloudfront.net/js/grin-sdk.js
 ||dingxiang-inc.com/ctu-group/constid-js/index.js
@@ -13147,6 +13148,8 @@ _mongo_stats/
 ||collector.schibsted.io^
 ||counter.mtgnewmedia.se^
 ||vizzit.se^$third-party
+! Tajik
+||pixel.smartmedia.tj^
 ! Thai
 ||sal.isanook.com^
 ||stat.matichon.co.th^
@@ -14190,6 +14193,7 @@ _mongo_stats/
 ||instructables.com/counter
 ||instyle.co.uk^*/tracking.js
 ||insynchq.com/wf/open?
+||intake-analytics.wikimedia.org^
 ||intelli.ageuk.org.uk^
 ||intensedebate.com/empty.php
 ||intent.cbsi.com^
