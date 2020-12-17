@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: xVVYaS4qaiatmzcyRyInTw
-! Version: 202012161111
+! Checksum: YGrCHKWAoHwyRFvra7guuw
+! Version: 202012171111
 ! Title: EasyPrivacy
-! Last modified: 16 Dec 2020 11:11 UTC
+! Last modified: 17 Dec 2020 11:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5753,6 +5753,7 @@ _mongo_stats/
 ||acint.net^$third-party
 ||acq.io^$third-party
 ||acsbap.com^$third-party
+||acsbapp.com^$third-party
 ||active-trk7.com^$third-party
 ||activeconversion.com^$third-party
 ||activemeter.com^$third-party
@@ -6583,6 +6584,7 @@ _mongo_stats/
 ||fprnt.com^$third-party
 ||fqsecure.com^$third-party
 ||fqtag.com^$third-party
+||fraudjs.io^$third-party
 ||free-counter.co.uk^$third-party
 ||free-counter.com^$third-party
 ||free-counters.co.uk^$third-party
@@ -7177,6 +7179,7 @@ _mongo_stats/
 ||monitus.net^$third-party
 ||monstat.com^$third-party
 ||monu.delivery^$third-party
+||mooo.com^$third-party
 ||mooseway.com^$third-party
 ||mopinion.com^$third-party
 ||motrixi.com^$third-party
@@ -10384,6 +10387,7 @@ _mongo_stats/
 ||beacon.affil.walmart.com^
 ||beacon.aimtell.com^
 ||beacon.errorception.com^
+||beacon.flow.io^
 ||beacon.gcion.com^
 ||beacon.gu-web.net^
 ||beacon.heliumnetwork.com^
@@ -10750,6 +10754,7 @@ _mongo_stats/
 ||d3kyk5bao1crtw.cloudfront.net^
 ||d3l3lkinz3f56t.cloudfront.net^
 ||d3m6sept6cnil5.cloudfront.net^
+||d3mapax0c3izpi.cloudfront.net/lib/ajax/events.js
 ||d3mskfhorhi2fb.cloudfront.net^
 ||d3n6i6eorggdxk.cloudfront.net^
 ||d3q7vxy7usqoub.cloudfront.net^
@@ -11655,6 +11660,7 @@ _mongo_stats/
 ||rodale.com/ga/
 ||rodalenl.com/imp?$third-party
 ||rokt.com/pixel/
+||routeapp.io/route-analytics/
 ||royalecms.com/statistics.php?
 ||rs.sinajs.cn^
 ||rss.tmgrup.com.tr^
@@ -12120,6 +12126,7 @@ _mongo_stats/
 ||ultimedia.com^*/visibilityStat.js
 ||unid.go.com^*/hit?
 ||units.knotch.it^
+||unity3d.com/v1/events
 ||uplynk.com/session/ping/
 ||upt.graphiq.com^
 ||uptime.com/static/rum/$third-party
@@ -13542,6 +13549,7 @@ _mongo_stats/
 ||channel4.com/foresee_c4/
 ||charter.com/api/collector
 ||chase.com/activity$image
+||chatroll.com/t.gif
 ||cheapflights.com/ic/*.gif?
 ||cheapsalesconsulting.com/adaptive.php?
 ||cheezburger.com/api/visitor
@@ -15319,6 +15327,7 @@ _mongo_stats/
 ||tmagazine.com/js/track_
 ||tms.eharmony.ca^
 ||tms.eharmony.co.uk^
+||tnaflix.com^$ping
 ||tnla.thenewslens.com^
 ||tongji.meizu.com^
 ||toolbox.com/DataLayerPixelServlet|
@@ -15811,6 +15820,7 @@ _mongo_stats/
 ! genieesspv https://github.com/easylist/easylist/issues/6471
 /^https?:\/\/js.*\/t\/[0-9]{3}\/[0-9]{3}\/[a-z0-9]{7,8}\.js/$script,third-party
 ! Fingerprint
+/^https?:\/\/editorial\.rottentomatoes\.com\/bundles\/[a-z0-9]{30,}/$script,xmlhttprequest,domain=rottentomatoes.com
 /^https?:\/\/www\.halifax-online\.co\.uk\/bundles\/[a-z0-9]{15,}/$script,domain=halifax-online.co.uk
 /^https?:\/\/www\.imperva\.com\/[0-9a-f]{30,}\?/$script,xmlhttprequest,domain=imperva.com
 /^https?:\/\/www\.mouser\.com\/[a-z]{25,}.js/$script,xmlhttprequest,domain=mouser.com
@@ -17722,6 +17732,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org
+@@||herokuapp.com/api/analytics$domain=madeincookware.com
 @@||hitfile.net/platform/js/fdlogger/fdlogger.js$script,~third-party
 @@||hmhco.com/one/js/conf/trackjs.config.$script,~third-party,xmlhttprequest
 @@||hobbyking.com^*/gtm.js$script,~third-party
