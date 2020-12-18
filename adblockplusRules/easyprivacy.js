@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: YGrCHKWAoHwyRFvra7guuw
-! Version: 202012171111
+! Checksum: ex4aCpcI58XXtPwXKr5HmA
+! Version: 202012181121
 ! Title: EasyPrivacy
-! Last modified: 17 Dec 2020 11:11 UTC
+! Last modified: 18 Dec 2020 11:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -16837,6 +16837,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||analy.qq.com^
 ||analyse.weather.com.cn^
 ||analytics.163.com^
+||analytics.oneplus.cn^
 ||analytics.shop.hisense.com^
 ||analytics.zhihu.com^
 ||anti-bot.baidu.com^
@@ -16864,6 +16865,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||cdn.baidupcs.com/monitor.jpg?
 ||click.ali213.net^
 ||click.gamersky.com^
+||click.oneplus.cn^
 ||click.suning.cn^
 ||clkstat.qihoo.com^
 ||cmstool.youku.com^

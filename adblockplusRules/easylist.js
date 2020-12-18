@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KS+yFQ0DCNvrGBZBE3aEgQ
-! Version: 202012171110
+! Checksum: S966jCx3qICoCSyTlHsBNw
+! Version: 202012181121
 ! Title: EasyList
-! Last modified: 17 Dec 2020 11:10 UTC
+! Last modified: 18 Dec 2020 11:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6532,6 +6532,7 @@
 /site_under.
 /siteads.
 /siteads/*
+/siteAdsBidBarrel.
 /siteadvert.
 /siteafs.txt?
 /sitefiles/ads/*
@@ -13071,6 +13072,7 @@ _popunder+$popup
 ###background_ad_right
 ###background_ads
 ###backgroundadvert
+###banADbanner
 ###ban_300x250
 ###ban_728x90
 ###banner-300x250
@@ -21111,6 +21113,7 @@ _popunder+$popup
 ##.ads-x1
 ##.ads-x1-super
 ##.ads-zone
+##.ads.grid-layout
 ##.ads.rectangle160
 ##.ads.rectangle300
 ##.ads.skyscraper160
@@ -27034,6 +27037,7 @@ _popunder+$popup
 ##.penci-google-adsense-2
 ##.penci-promo-link
 ##.penci_list_banner_widget
+##.penci_list_bannner_widget
 ##.penci_single_ad_before_content
 ##.pencil-ad
 ##.pencil-ad-container
@@ -32585,6 +32589,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||augaufta.com^
 ||aughedbannel.site^
 ||augnuxun.net^
+||augustjudgementsuddenly.com^
 ||auhqnsjbvizeey.com^
 ||aujaujoa.net^
 ||aujooxoo.com^
@@ -50597,7 +50602,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||d2qz7ofajpstv5.cloudfront.net^
 ||d2szg1g41jt3pq.cloudfront.net^
 ||d2taktuuo4oqx.cloudfront.net^
-||d2v02itv0y9u9t.cloudfront.net^
 ||d2va1d0hpla18n.cloudfront.net^
 ||d31vxm9ubutrmw.cloudfront.net^
 ||d33otidwg56k90.cloudfront.net^
@@ -57418,6 +57422,7 @@ wric.com##.csWxSponsor
 celebuzz.com##.cs_banner728_top
 stylist.co.uk##.css-17xu4dw.css-do8iv3
 stylist.co.uk##.css-1x9y3ge.css-do8iv3
+comparitech.com##.ct_popup_modal
 androidcentral.com##.cta
 dailydot.com##.cta-article-wrapper
 funny.com##.ctnAdBanner
@@ -57489,6 +57494,7 @@ hellopeter.com##.div1
 hellopeter.com##.div2
 israelnationalnews.com##.div300
 alternativeto.net##.divLeaderboardLove
+thelist.com##.divider-heading-container
 weather.us##.dkpw-billboard-margin
 cfweradio.ca##.dl
 mediafire.com##.dlInfo-Apps
@@ -57677,6 +57683,10 @@ masterworksbroadway.com##.fwas728x90_top
 fxstreet.com##.fxs_leaderboard
 bluntforcetruth.com,borneobulletin.com.bn,chicagodefender.com,dallasvoice.com,gematsu.com,hotnews.org.za,newsday.co.zw,nondoc.com,one.com.mt,radioinsight.com,thegolfnewsnet.com,theindependent.co.zw,thestandard.co.zw##.g
 moviemaker.com##.g-2.g
+sammobile.com##.g-29
+sammobile.com##.g-30
+sammobile.com##.g-32
+sammobile.com##.g-39
 moviemaker.com##.g-4.g
 thelakewoodscoop.com##.g-col > a
 nofilmschool.com##.g-leader
