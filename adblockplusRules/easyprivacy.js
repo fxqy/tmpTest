@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ex4aCpcI58XXtPwXKr5HmA
-! Version: 202012181121
+! Checksum: gOkvp/zTPsEOsSH7k0rzqw
+! Version: 202012200301
 ! Title: EasyPrivacy
-! Last modified: 18 Dec 2020 11:21 UTC
+! Last modified: 20 Dec 2020 03:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -86,6 +86,7 @@
 -lp-tracking.
 -mastertag.
 -mediaplex_
+-optimization-metrics.
 -optimost-
 -page-analytics.
 -pixel.*?uuid=
@@ -8640,7 +8641,6 @@ _mongo_stats/
 ||ethtrader.de^$third-party
 ||etzbnfuigipwvs.ru^$third-party
 ||eucsoft.com^$third-party
-||exdynsrv.com^$third-party
 ||f1tbit.com^
 ||feesocrald.com^
 ||filmoljupci.com^
@@ -11880,6 +11880,7 @@ _mongo_stats/
 ||t.sharethis.com^
 ||t.signalayer.com^
 ||t.smile.eu^
+||t.spot.im^
 ||t2.t2b.click^
 ||tag-manager.playbuzz.com^
 ||tag.aticdn.net^
@@ -13669,6 +13670,7 @@ _mongo_stats/
 ||customerservicejobs.com/common/track/
 ||cyberlink.com/analytics/
 ||d.ghostery.com^
+||d.skk.moe^
 ||d3f5l8ze0o4j2m.cloudfront.net^$script,domain=trademe.co.nz
 ||da.virginmedia.com^
 ||dabs.com/AbacusTest/clientinfo_bk.gif
@@ -15595,6 +15597,9 @@ _mongo_stats/
 ||wallcannrewards.com^*/index.php?
 ||walletpop.com/track/
 ||wallpaperstock.net/partners.js
+||walmart.com/client/api/logs
+||walmart.com/client/api/metrics
+||walmartimages.com^*/cdn-perf.min.js$domain=walmart.com
 ||warp.prnewswire.co.uk^
 ||washingtonpost.com/notification-sw.js
 ||washingtonpost.com/wp-stat/analytics/
@@ -16859,6 +16864,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||bc.qunar.com^
 ||bdwblog.eastmoney.com^
 ||bglog.bitauto.com^
+||bilanx.dcard.tw^*/events
 ||bilibili.com/x/report/
 ||btrace.qq.com^
 ||cast.ra.icast.cn^
@@ -17745,6 +17751,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ibm.com/software/reports/compatibility/clarity-reports/js/$script,~third-party
 @@||identity.mparticle.com^$xmlhttprequest,domain=msnbc.com|nbc.com
 @@||idfcbank.com/static/features/*/scripts/FingerPrint.js$script,~third-party
+@@||ikea.com/cdn/googleanalytics/$~third-party,xmlhttprequest
 @@||imgur.com/min/px.js$~third-party
 @@||imrworldwide.com/novms/js/2/ggc$script,domain=9now.com.au|adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|espn.com|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|news-mail.com.au|news.com.au|noosanews.com.au|ntnews.com.au|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|townsvillebulletin.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
 @@||imrworldwide.com/v60.js$domain=adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|last.fm|musicfeeds.com.au|news-mail.com.au|noosanews.com.au|ntnews.com.au|nzherald.co.nz|realestateview.com.au|sf.se|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|threenow.co.nz|townsvillebulletin.com.au|weatherchannel.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
@@ -17952,7 +17959,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||vodafone.com.au/analytics/js/$script
 @@||vouchercodes.co.uk/__wsm.gif$ping
 @@||waitrosecellar.com^*/eventTracking-Cellar.js$domain=waitrosecellar.com
-@@||walmart.com^*/api/logger$xmlhttprequest
 @@||washingtonpost.com/wp-stat/analytics/latest/main.js
 @@||wbshop.com/fcgi-bin/iipsrv.fcgi?
 @@||weightwatchers.com/optimizelyjs/$script,~third-party
