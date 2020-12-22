@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: gOkvp/zTPsEOsSH7k0rzqw
-! Version: 202012200301
+! Checksum: kT4nUnd6aq5pdboNSkztLg
+! Version: 202012221051
 ! Title: EasyPrivacy
-! Last modified: 20 Dec 2020 03:01 UTC
+! Last modified: 22 Dec 2020 10:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -448,6 +448,7 @@
 /ad_tracking.
 /adam.js
 /AdAppSettings/*
+/adb-analytics
 /adb/track.php?
 /adb1.gif?
 /adb_iub.js
@@ -5284,6 +5285,7 @@ _.gif?ref=
 _.gif?t=
 _247seotracking.
 _act/tracking.
+_ad_stat.
 _adcenterconversion.
 _adobe_analytics.
 _adobe_analytics_
@@ -6973,6 +6975,7 @@ _mongo_stats/
 ||kisstesting.com^$third-party
 ||kitbit.net^$third-party
 ||kitcode.net^$third-party
+||kiwihk.net^$third-party
 ||klert.com^$third-party
 ||klldabck.com^$third-party
 ||km-sea.net^$third-party
@@ -7180,7 +7183,6 @@ _mongo_stats/
 ||monitus.net^$third-party
 ||monstat.com^$third-party
 ||monu.delivery^$third-party
-||mooo.com^$third-party
 ||mooseway.com^$third-party
 ||mopinion.com^$third-party
 ||motrixi.com^$third-party
@@ -8392,6 +8394,35 @@ _mongo_stats/
 ||zroitracker.com^$third-party
 ||ztsrv.com^$third-party
 ||zuzab.com^$third-party
+! https://blog.confiant.com/the-trend-of-client-side-fingerprinting-in-cloaked-landing-pages-21915eb473df
+||artfin.club^
+||bemarts.club^
+||bogglecool.club^
+||bosetoo.club^
+||chanelventure.club^
+||cyrstalventure.club^
+||docileyellow.club^
+||elevagant.club^
+||halospring.club^
+||hollydeal.club^
+||iconstab.club^
+||kungfupan.club^
+||leono.club^
+||localbeige.club^
+||lomeldeer.club^
+||makedosupport.club^
+||mandatebright.club^
+||migrati.xyz^
+||morozhko.club^
+||muatui.com^
+||polobook.club^
+||santuforward.club^
+||supertraders.club^
+||supertraders.info^
+||tantrumall.club^
+||tradesecretz.info^
+||vicspendig.club^
+||vinchenmedia.club^
 ! revprotect
 ||pphwrevr.com^$third-party
 ||protectcrev.com^$third-party
@@ -9459,6 +9490,7 @@ _mongo_stats/
 ||reseau-pub.com^$third-party
 ||rossel.tech^$third-party
 ||semiocast.com^$third-party
+||shopimind.com^$third-party
 ||sitizy.network^$third-party
 ||sk1n.fr^$third-party
 ||sk8t.fr^$third-party
@@ -10473,6 +10505,7 @@ _mongo_stats/
 ||c3metrics.medifast1.com^
 ||cache2.delvenetworks.com^
 ||cadreon.s3.amazonaws.com^
+||cahf4eed.mooo.com^
 ||calltrk.com/companies/
 ||canada.com/js/analytics/
 ||canecto.info/analytics.js
@@ -11063,6 +11096,7 @@ _mongo_stats/
 ||hgcdn.net/?$third-party
 ||hi.hellobar.com^
 ||highwebmedia.com/CACHE/js/output.92c98302d256.js
+||hit.mybestpro.com^
 ||hits-*.iubenda.com^
 ||hits.dealer.com^
 ||hits.informer.com^
@@ -11117,6 +11151,7 @@ _mongo_stats/
 ||informer.yandex.ru^
 ||infosniper.net/locate-ip-on-map.php
 ||infusionsoft.com^*/getTrackingCode?
+||ingest.sentry.io^
 ||innogamescdn.com/media/js/metrics-
 ||inphonic.com/tracking/
 ||inq.com/tagserver/logging/
@@ -14933,6 +14968,8 @@ _mongo_stats/
 ||session-tracker.badcreditloans.com^
 ||sevenload.com/som_
 ||sex-flow.com/js/error.js
+||sexu.com/api/events
+||sexu.com/api/ttrack
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
 ||sh.st/bundles/smeweb/img/tracking-
 ||shareaholic.com^*/bake.gif?
