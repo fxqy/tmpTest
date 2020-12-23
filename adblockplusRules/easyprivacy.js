@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: kT4nUnd6aq5pdboNSkztLg
-! Version: 202012221051
+! Checksum: 9Xdn8PES0hosjDT1ZbpGAw
+! Version: 202012230501
 ! Title: EasyPrivacy
-! Last modified: 22 Dec 2020 10:51 UTC
+! Last modified: 23 Dec 2020 05:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -916,6 +916,7 @@
 /athena.gif?
 /athenastgbeacon.
 /atlas_track.
+/atr_events_
 /atrk.gif?
 /atrk.js
 /ats/lib/*
@@ -1624,6 +1625,7 @@
 /detm_adobe.
 /device-fingerprint.
 /dfp-gpt.
+/dfpsvc?
 /di-tealium.
 /Diagnostics?hit=
 /didna-pixel-
@@ -3364,7 +3366,7 @@
 /pixel_V2.
 /pixelappcollector.
 /pixelArticolo?
-/pixelcounter.
+/pixelcounter.$domain=~pixelcounter.com
 /pixelframe/*
 /PixelImg.asp
 /pixeljs/*
@@ -6059,7 +6061,6 @@ _mongo_stats/
 ||bouncepilot.com^$third-party
 ||bouncex.com^$third-party
 ||bpmonline.com^$third-party
-||branch.io^$third-party
 ||brandlock.io^$third-party
 ||brat-online.ro^$third-party
 ||brcdn.com^$third-party
@@ -7346,6 +7347,7 @@ _mongo_stats/
 ||opbandit.com^$third-party
 ||openclick.com^$third-party
 ||openhit.com^$third-party
+||openlog.in^$third-party
 ||openstat.net^$third-party
 ||opentracker.net^$third-party
 ||openvenue.com^$third-party
@@ -7524,6 +7526,7 @@ _mongo_stats/
 ||q-stats.nl^$third-party
 ||qbaka.net^$third-party
 ||qbop.com^$third-party
+||qflm.net^$third-party
 ||qlfsat.co.uk^$third-party
 ||qlitics.com^$third-party
 ||qlzn6i1l.com^$third-party
@@ -10342,7 +10345,7 @@ _mongo_stats/
 ||api.wipmania.com^
 ||apm-engine.meteor.com^$third-party,xmlhttprequest
 ||app.cdn-cs.com/__t.png?
-||app.link^$third-party
+||app.link/_r?$script,third-party
 ||app.opmnstr.com/v2/geolocate/
 ||app.yesware.com/t/$third-party
 ||appdynamics.com/geo/$third-party
@@ -10469,6 +10472,7 @@ _mongo_stats/
 ||bonsai.internetbrands.com^
 ||bpath.com/count.dll?
 ||brain.foresee.com^
+||branch.io/branch-latest.min.js$script,third-party
 ||branch.io^*/pageview
 ||branch.io^*_fingerprint_id=$third-party
 ||brandaffinity.net/icetrack/
@@ -11480,6 +11484,7 @@ _mongo_stats/
 ||onet.pl^*/tags?
 ||onetrust.com^$ping
 ||onsugar.com/static/ck.php?
+||ontraport.com/track.php
 ||ooyala.com/3rdparty/comscore_
 ||ooyala.com/authorized?analytics
 ||ooyala.com/sas/analytics?
@@ -15485,6 +15490,7 @@ _mongo_stats/
 ||truste.com/common/js/ga.js
 ||truste.com/notice?*consent-track
 ||trx.smdatalabs.com^
+||trx3.famousfix.com^
 ||ts.delfi.
 ||tsn.ua/svc/video/stat/
 ||ttxm.co.uk^*/log.js
