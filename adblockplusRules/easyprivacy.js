@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 9Xdn8PES0hosjDT1ZbpGAw
-! Version: 202012230501
+! Checksum: JBEEiqZDHmXafP9someQzA
+! Version: 202012240221
 ! Title: EasyPrivacy
-! Last modified: 23 Dec 2020 05:01 UTC
+! Last modified: 24 Dec 2020 02:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -17677,7 +17677,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||cdn-ds.com/analytics/dfa.js$script,domain=tuttleclickgenesis.com
 @@||cdn-ds.com/analytics/sockjs.js$script,domain=tuttleclickgenesis.com
 @@||cdn-net.com/cc.js$script,domain=uber.com|ubereats.com
-@@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com|imageshack.com
+@@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com|historyvault.com|imageshack.com
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca
 @@||changenow.io/js/tracking.js$script
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
