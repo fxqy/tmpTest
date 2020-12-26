@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: JBEEiqZDHmXafP9someQzA
-! Version: 202012240221
+! Checksum: D55I764SbRl37qf+oMgLgQ
+! Version: 202012261551
 ! Title: EasyPrivacy
-! Last modified: 24 Dec 2020 02:21 UTC
+! Last modified: 26 Dec 2020 15:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1151,6 +1151,7 @@
 /campaign_tracker.
 /campaign_trax.
 /caos-analytics/*
+/caos/analytics.
 /capture_client.js
 /CaptureStat.
 /CardioLogAgent/*
@@ -3465,6 +3466,7 @@
 /public/analytics.js
 /public/visitor.json?
 /public/visitor/create?
+/publisher:getClientId?key=
 /publishertag.js
 /pubstats.
 /pubtag.js?
@@ -5690,6 +5692,7 @@ _mongo_stats/
 ||105app.com^$third-party
 ||11nux.com^$third-party
 ||123count.com^$third-party
+||123stat.com^$third-party
 ||15gifts.com^$third-party
 ||168logger.com^$third-party
 ||1freecounter.com^$third-party
@@ -6723,6 +6726,7 @@ _mongo_stats/
 ||grepdata.com^$third-party
 ||grmtech.net^$third-party
 ||group-ib.ru^$third-party
+||growthrx.in^$third-party
 ||grumrt.com^$third-party
 ||gsecondscreen.com^$third-party
 ||gsimedia.net^$third-party
@@ -7285,6 +7289,7 @@ _mongo_stats/
 ||nicequest.com^$third-party
 ||niftymaps.com^$third-party
 ||nik.io^$third-party
+||nitropay.com^$third-party
 ||noibu.com^$third-party
 ||noowho.com^$third-party
 ||nordicresearch.com^$third-party
@@ -10676,6 +10681,7 @@ _mongo_stats/
 ||count.paycounter.com^
 ||counter.bloke.com^
 ||counter.cam-content.com^
+||counter.digits.com^
 ||counter.hyipexplorer.com^
 ||counter.maases.com^
 ||counter.packa2.cz^
@@ -11679,6 +11685,7 @@ _mongo_stats/
 ||reevoo.com/track/
 ||reevoo.com/track_url/
 ||reevoo.com^*/track/
+||refer.ccbill.com^
 ||referrer.disqus.com^
 ||reflow.tv/pixels/
 ||relap.io^*/head.js?
@@ -12087,6 +12094,7 @@ _mongo_stats/
 ||tracking.quisma.com^
 ||tracking.rapidape.com^
 ||tracking.rightmessage.com^
+||tracking.scenepass.com^
 ||tracking.searchmarketing.com^
 ||tracking.sembox.it^$third-party
 ||tracking.skyword.com^$third-party
@@ -13223,6 +13231,7 @@ _mongo_stats/
 ||6waves.com/trker/
 ||99bitcoins.com/_load/
 ||a.huluad.com/beacons/
+||a3xo-eng.spankbang.com^
 ||a7.org/infol.php?
 ||aa.avvo.com^
 ||aax-eu-dub.amazon.com^
