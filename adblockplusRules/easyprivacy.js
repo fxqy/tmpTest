@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: P2dlN7G+PMFtokh/jvjjTg
-! Version: 202012271701
+! Checksum: 4MfpuyNZMexTgbQ0weojhw
+! Version: 202012290311
 ! Title: EasyPrivacy
-! Last modified: 27 Dec 2020 17:01 UTC
+! Last modified: 29 Dec 2020 03:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2094,6 +2094,7 @@
 /gemius1.js
 /gemius_
 /gemiusAudience.
+/gen204?
 /generictracking.
 /geo-ip-detect?
 /geo-location/v1
@@ -2879,6 +2880,7 @@
 /metrics/statsd/*
 /metrics/survey/*
 /metrics/track/*
+/metrics/v1/frontend/*
 /metrics/vanity/?
 /metricsISCS.
 /metrika/*&ident=
@@ -3134,7 +3136,7 @@
 /openxtargeting.js
 /opinionlab.js
 /OpinionLab_Tag.
-/optiextension.dll?$~subdocument
+/optiextension.dll?$script
 /optimization-perf.js
 /optimizely.$domain=~optimizely.com
 /optimizely/*$script
@@ -3618,6 +3620,7 @@
 /resmeter.js
 /resonance.js
 /ResonateAnalytics.
+/resource?zones=
 /resourcestat.
 /rest/analytics/*
 /restats_
@@ -5681,6 +5684,7 @@ _mongo_stats/
 ||g5150192710.co^
 ||g5348277045.co^
 ||g5546361380.co^
+||g5744445715.co^
 ||mors22.com^
 ||nxakpj4ac8gkd53.info^
 ||propeller-tracking.com^
@@ -5811,6 +5815,8 @@ _mongo_stats/
 ||adregain.ru^$third-party
 ||adrizer.com^$third-party
 ||adrta.com^$third-party
+||adsco.re^$third-party
+||adscore.com^$third-party
 ||adsensedetective.com^$third-party
 ||adspsp.com^$third-party
 ||adsrvr.org^$third-party
@@ -6191,6 +6197,7 @@ _mongo_stats/
 ||clickreport.com^$third-party
 ||clicksagent.com^$third-party
 ||clicksen.se^$third-party
+||clicksgate.com^$third-party
 ||clickshift.com^$third-party
 ||clickstream.co.za^$third-party
 ||clicktale.net^$third-party
@@ -7290,6 +7297,7 @@ _mongo_stats/
 ||nicequest.com^$third-party
 ||niftymaps.com^$third-party
 ||nik.io^$third-party
+||ninjacat.io^$third-party
 ||nitropay.com^$third-party
 ||noibu.com^$third-party
 ||noowho.com^$third-party
@@ -7844,6 +7852,7 @@ _mongo_stats/
 ||socsi.in^$third-party
 ||sodoit.com^$third-party
 ||soflopxl.com^$third-party
+||soft-com.biz^$third-party
 ||softonic-analytics.net^$third-party
 ||sojern.com^$third-party
 ||soko.ai^$third-party
@@ -10894,6 +10903,7 @@ _mongo_stats/
 ||e-merchant.com/^*/edr.js$third-party
 ||e.ebidtech.com/cv/
 ||early-birds.fr/tracker/
+||ebayadservices.com/marketingtracking/
 ||ebayrtm.com/rtm?RtmCmd&a=img&$image
 ||ebaystatic.com^*/pulsar.js
 ||ebaystatic.com^*/rover_$script
@@ -13162,6 +13172,7 @@ _mongo_stats/
 ||tms-st.cdn.ngenix.net^
 ||top.elec.ru^
 ||track.recreativ.ru^
+||tracking.gpm-rtv.ru^
 ||tracking.retailrocket.net^
 ||traktor.ru^*/counter.php?
 ||ulogin.ru/js/stats.js
@@ -14655,6 +14666,7 @@ _mongo_stats/
 ||onetravel.com/TrackOnetravelAds.js
 ||online.citi.com^*/fp.js
 ||online.citi.com^*/fp.min.js
+||onlydudes.tv/analytics.js
 ||onlyfans.com^*/stats-collect?
 ||oodle.co.uk/event/track-first-view/
 ||oodle.com/js/suntracking.js
@@ -16373,6 +16385,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||hayneedle.com/js/s_code.min.*.js
 ||images-amazon.com/images/*/wcs-help-omniture/wcs-help-omniture-$script
 ||img-bahn.de/v/*/js/s_code.js$domain=bahn.de
+||jsfiddle.net/xdmuj68e/
 ||loc.gov/js/*/s_code.js
 ||mercedes-benz.ca/js/omniture.js
 ||mercola.com/Assets/js/omniture/sitecatalyst/mercola_s_code.js
@@ -18452,8 +18465,10 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||online.bcs.ru^*/piwik.bcs.js$script
 @@||pladform.ru/dive/$xmlhttprequest
 @@||pladform.ru/player$subdocument
+@@||playep.pro/log_event$~third-party,xmlhttprequest
 @@||player.fc-zenit.ru/msi/geoip?$xmlhttprequest
 @@||player.vgtrk.com/js/stat.js?
+@@||plplayer.online/log_event$~third-party,xmlhttprequest
 @@||relap.io^*/similar_pages_jsonp.js$script,domain=adme.ru
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||sptmr.ru/sportmaster.ru/js/modules/gtm.js$script,domain=sportmaster.ru
