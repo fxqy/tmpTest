@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cu1j20ZZLGqPyX57B7sqyw
-! Version: 202012290310
+! Checksum: p6rAiteGcH6cfVRpGDHbjQ
+! Version: 202012290951
 ! Title: EasyList
-! Last modified: 29 Dec 2020 03:10 UTC
+! Last modified: 29 Dec 2020 09:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -22717,6 +22717,7 @@ _popunder+$popup
 ##.adwords-container
 ##.adwordsHeader
 ##.adwords_in_content
+##.adworks
 ##.adwrap
 ##.adwrap-widget
 ##.adwrapper-lrec
@@ -30469,6 +30470,7 @@ _popunder+$popup
 ##div[class^="AdhesionAd_"]
 ##div[class^="BannerAd_"]
 ##div[class^="BlockAdvert-"]
+##div[class^="Component-dfp-"]
 ##div[class^="Directory__footerAds"]
 ##div[class^="Display_displayAd"]
 ##div[class^="PreAd_"]
@@ -32296,20 +32298,42 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||adstarget.net^
 ||adstellar.icu^
 ||adstonesik.club^
+||adswam.com^
+||adsyst.biz^
+||adtng.com^
+||adtonement.com^
 ||adtrackingflow.pro^
+||adultadvertising.net^
+||adultcamchatfree.com^
+||adultcamfree.com^
+||adultcamliveweb.com^
+||adultlinkexchange.com^
+||adultmoviegroup.com^
+||adultoafiliados.com.br^
 ||adultsense.net^
+||adultsense.org^
 ||adultterritory.net^
 ||adv-links.com^
+||adv-plus.com^
+||adv777.com^
 ||advancellsclo.site^
 ||advantscivile.club^
+||adventory.com^
+||adversolutions.com^
+||advertisingsex.com^
+||advertom.com^
+||advertrtb.com^
 ||advinci.life^
 ||advinci.uno^
 ||advisorded.club^
 ||advmaiotg.com^
+||advsense.info^
 ||advserver.xyz^
 ||adwalte.info^
 ||adxadserv.com^
+||adxite.com^
 ||adxnexus.com^
+||adxpansion.com^
 ||adzfun.info^
 ||adzfun.me^
 ||adziondin.club^
@@ -32319,6 +32343,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||aebadu.com^
 ||aec40f9e073ba6.com^
 ||aeeefzfuk.com^
+||aeesy.com^
 ||aegzjowko.com^
 ||aehdgzigy.com^
 ||afa9bdfa63bf7.com^
@@ -32329,6 +32354,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||affairswaved.com^
 ||affectiondifferentlysway.com^
 ||affiliates.systems^
+||affiliatewindow.com^
 ||affiliclk.org^
 ||affodilyrecruis.fun^
 ||afftracks.online^
@@ -32420,6 +32446,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||aktgw4u9z27l.com^
 ||akuettddwkwtdx.com^
 ||alaccinalcom.top^
+||alahnavideos.pro^
 ||alappropolylibe.site^
 ||alapsblu.com^
 ||albalbant.com^
@@ -32433,6 +32460,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||alealebag.site^
 ||alefrfobkoxbgaf.com^
 ||alespeonor.com^
+||alfatraffic.com^
 ||alhistoriousg.info^
 ||aliencesuffe.top^
 ||alignclamstram.com^
@@ -32459,6 +32487,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||alvfzqwkb.com^
 ||alwayspainfully.com^
 ||alwkvwdxqojyce.com^
+||alwqfajh.com^
 ||alwsbnvialll.com^
 ||alxsite.com^
 ||alxzes.com^
@@ -32468,6 +32497,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||amadagasca.com^
 ||amakwktrnb.com^
 ||amaqvmfd.com^
+||amateurcouplewebcam.com^
 ||amaumomt.com^
 ||amavirgin.pro^
 ||amcpusvcit.com^
@@ -32488,8 +32518,10 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||amsthr.com^
 ||amsvts.com^
 ||amswtlxkvzc.com^
+||amtracking01.com^
 ||amuletlatemanagement.com^
 ||amxodxmsuwdhn.com^
+||anastasia-international.com^
 ||anatomicele.site^
 ||anbalxkcpwa.com^
 ||anbiarfehxyz.com^
@@ -32556,6 +32588,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||appropolyfunt.site^
 ||approvalglamourduly.com^
 ||appstoore.online^
+||apromoweb.com^
 ||apus.tech^
 ||aqfhhfqarukys.com^
 ||aqftikmr.com^
@@ -32590,6 +32623,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||arisonoping.club^
 ||arketdiamon.space^
 ||arketscolourse.site^
+||arlitasite.pro^
 ||arlottencert.club^
 ||armashair.site^
 ||armatchints.info^
@@ -32639,6 +32673,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ashcdn.com^
 ||ashchiasp.club^
 ||ashingcontro.top^
+||asiangfsex.com^
 ||asiinbyu.com^
 ||asingsprxxebsx.com^
 ||asjdhajsdnweqwasdascxzccsdcsdcsdfewfwefqweqweqw.network^
@@ -32740,7 +32775,12 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||awehobrasp.live^
 ||aweinkbum.com^
 ||awelessawelesscedar.com^
+||awemwh.com^
+||awentw.com^
+||aweprotostatic.com^
+||aweprt.com^
 ||awepsi.com^
+||awept.com^
 ||awesomenewspush.com^
 ||awesomepeculiar.com^
 ||awestc.com^
@@ -32749,6 +32789,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||awjkddtq.com^
 ||awjyickdugj.com^
 ||awkmzvii39ei4.xyz^
+||awmserve.com^
 ||awnyohgtmb.com^
 ||awptjmp.com^
 ||awrnrkmwtia.com^
@@ -32779,6 +32820,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||azpresearch.club^
 ||azrjdlvlsxihbd.com^
 ||azsikvmhlzuhje.com^
+||aztecash.com^
 ||azwsolqpewo.com^
 ||b014381c95cb.com^
 ||b02byun5xc3s.com^
@@ -43820,6 +43862,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||befirstcdn.com^$third-party
 ||beggarthodcomp.info^$third-party
 ||begun.ru^$third-party
+||behave.com^$third-party
 ||belmonhezamil.pro^$third-party
 ||belointeractive.com^$third-party
 ||belvertising.be^$third-party
@@ -49269,74 +49312,21 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||adsgangsta.com^$third-party
 ||adskape.ru^$third-party
 ||adspyglass.com^$third-party
-||adswam.com^$third-party
-||adsyst.biz^$third-party
-||adtng.com^$third-party
-||adtonement.com^$third-party
 ||adult3dcomics.com^$third-party
-||adultaccessnow.com^$third-party
-||adultadvertising.net^$third-party
-||adultcamchatfree.com^$third-party
-||adultcamfree.com^$third-party
-||adultcamliveweb.com^$third-party
-||adultcommercial.net^$third-party
-||adultdatingtraffic.com^$third-party
 ||adultforce.com^$third-party
-||adultlinkexchange.com^$third-party
-||adultmediabuying.com^$third-party
-||adultmoviegroup.com^$third-party
-||adultoafiliados.com.br^$third-party
 ||adultsense.com^$third-party
-||adultsense.org^$third-party
-||adulttubetraffic.com^$third-party
-||adv-plus.com^$third-party
-||adv777.com^$third-party
-||adventory.com^$third-party
-||adversolutions.com^$third-party
-||advertisingsex.com^$third-party
-||advertom.com^$third-party
-||advertrtb.com^$third-party
 ||advmaker.ru^$third-party
-||advmania.com^$third-party
 ||advredir.com^$third-party
-||advsense.info^$third-party
-||adxite.com^$third-party
-||adxmarket.com^$third-party
-||adxpansion.com^$third-party
 ||adzs.com^$third-party
-||aeesy.com^$third-party
 ||aemediatraffic.com^$third-party
-||affiliatewindow.com^$third-party
 ||affiliaxe.com^$third-party
 ||affiligay.net^$third-party
 ||aipmedia.com^$third-party
-||alahnavideos.pro^$third-party
-||alfatraffic.com^$third-party
 ||all-about-tech.com^$third-party
 ||allosponsor.com^$third-party
-||allotraffic.com^$third-party
-||alwqfajh.com^$third-party
-||amateurcouplewebcam.com^$third-party
-||amtracking01.com^$third-party
-||anastasia-international.com^$third-party
-||andase.com^$third-party
-||animeidhentai.com^$third-party
 ||antaraimedia.com^$third-party
 ||antoball.com^$third-party
-||apromoweb.com^$third-party
-||arlitasite.pro^$third-party
-||artamkari.com^$third-party
 ||asiafriendfinder.com^$third-party
-||asiangfsex.com^$third-party
-||awemwh.com^$third-party
-||awentw.com^$third-party
-||aweprotostatic.com^$third-party
-||aweprt.com^$third-party
-||awept.com^$third-party
-||awmpartners.com^$third-party
-||awmserve.com^$third-party
-||ax47mp-xp-21.com^$third-party
-||aztecash.com^$third-party
 ||baconaces.pro^$third-party
 ||badgirlz.org^$third-party
 ||banclip.com^$third-party
@@ -50809,6 +50799,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||d2qz7ofajpstv5.cloudfront.net^
 ||d2szg1g41jt3pq.cloudfront.net^
 ||d2taktuuo4oqx.cloudfront.net^
+||d2uap9jskdzp2.cloudfront.net^
 ||d2va1d0hpla18n.cloudfront.net^
 ||d31vxm9ubutrmw.cloudfront.net^
 ||d33otidwg56k90.cloudfront.net^

@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 4MfpuyNZMexTgbQ0weojhw
-! Version: 202012290311
+! Checksum: PukpNIXXsb+yeCOhnuU2cQ
+! Version: 202012290951
 ! Title: EasyPrivacy
-! Last modified: 29 Dec 2020 03:11 UTC
+! Last modified: 29 Dec 2020 09:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7417,6 +7417,7 @@ _mongo_stats/
 ||pendo.io^$third-party
 ||pepperjam.com^$third-party
 ||percentmobile.com^$third-party
+||perf-serving.com^$third-party
 ||perfdrive.com^$third-party
 ||perfectaudience.com^$third-party
 ||perfiliate.com^$third-party
@@ -10791,6 +10792,7 @@ _mongo_stats/
 ||d2san7t27xb2pn.cloudfront.net^
 ||d2tcg4i9q4js4a.cloudfront.net^
 ||d2tgfbvjf3q6hn.cloudfront.net^
+||d2wy8f7a9ursnm.cloudfront.net^
 ||d2xgf76oeu9pbh.cloudfront.net^
 ||d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com^
 ||d31bfnnwekbny6.cloudfront.net/customers/
@@ -14912,8 +14914,6 @@ _mongo_stats/
 ||rismedia.com/tracking.js
 ||ritzcarlton.com/ritz/crossDomainTracking.mi?
 ||riverisland.com^*/mindshare.min.js
-||rkdms.com/order.gif?
-||rkdms.com/sid.gif?
 ||ro89.com/hitme.php?
 ||roadandtrack.com^*/RTdartSite.js
 ||roblox.com/www/e.png?
