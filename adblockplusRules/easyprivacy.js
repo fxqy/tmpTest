@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: PukpNIXXsb+yeCOhnuU2cQ
-! Version: 202012290951
+! Checksum: dvzrB7YsUuzYL1hOKoHt3g
+! Version: 202012310211
 ! Title: EasyPrivacy
-! Last modified: 29 Dec 2020 09:51 UTC
+! Last modified: 31 Dec 2020 02:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8960,6 +8960,7 @@ _mongo_stats/
 ||distributiontomatoes.com^$third-party
 ||disturbedquiet.com^$third-party
 ||divehope.com^$third-party
+||dollardelta.com^$third-party
 ||dq95d35.com^$third-party
 ||drydrum.com^$third-party
 ||ejyymghi.com^$third-party
@@ -10355,7 +10356,7 @@ _mongo_stats/
 ||aolcdn.com^*/beacon.min.js
 ||ape-tagit.timeinc.net^
 ||apester.com/event^
-||api-location-prd.pelcro.com^
+||api-location-prd.pelcro.com^$domain=newsweek.com
 ||api.bit.ly/*/clicks?$third-party
 ||api.collarity.com/cws/*http
 ||api.wipmania.com^
@@ -18187,6 +18188,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||caf.fr^*/smarttag.js$script,~third-party
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
+@@||getviously.com/js$script,domain=futura-sciences.com
 @@||google-analytics.com/analytics.js$domain=infoconso-multimedia.fr|viandesuisse.ch
 @@||googletagmanager.com/gtm.js$script,domain=linternaute.com|sciencesetavenir.fr
 @@||maxmind.com/geoip/$xmlhttprequest,domain=dcshoes.fr
