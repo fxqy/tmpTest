@@ -15,6 +15,11 @@
 		window.onload=function(){
             myfun();
 			genMac();
+            
+            var arr=str2arr("qmzZPA的风格的士速递防守打高合金钢猴急≈≡≠＝﹦≒≌≤≥＜⅞¾⅔■￠▧✔￠￡￥₱₰№〒〓¿");
+            console.log(arr);
+            var sa=arr2str(arr);
+            console.log(sa);
 		}
 		
 		function myfun(){
@@ -170,63 +175,26 @@
 			//console.log(str);
 			
 		}
-		
-		/**backup
-        //java
-		public static String charVal(double o){
-			double a = Math.floor(o/62);
-			int b = (int)Math.floor(o%62);
-			char ch=(char)(b<10?b+48:(b>35?b+61:b+55));
-			char[] chs=new char[]{ch};
-			String c = new String(chs);
-			String r = "";
-			if (a > 0)
-				r=charVal(a);
-			return r + c;
+
+		function str2arr(str){
+            var arr=[];
+            for(var i=0; i<str.length; i++){
+				var it=str.charCodeAt(i);
+                arr.push(it>>8&0xff);
+                arr.push(it&0xff);
+			}
+			return arr;
 		}
-		
-		public static double numVal(String s,int t){
-			if(t>s.length()-1)return 0;
-			int a=s.charAt(s.length()-t-1);
-			int b=a<65?a-48:(a<97?a-55:a-61);
-			return b*Math.pow(62,t)+numVal(s,t+1);
-		}
-		
-		public static void main(String[] args) {
-			java.util.Date dt = new java.util.Date();
-			System.out.println(dt.getTime());
-			String s = charVal(dt.getTime());
-			System.out.println(s);
-			double n = numVal(s,0);
-			System.out.println(new DecimalFormat("#").format(n));
-		}
-        //js
-        function strCharactCode(s,l){
-            var z="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-            var lnz=z.length;
-            var lns=s.length;
-            var lpn=lns+lnz*0;
-            for(var i=0,j=0,k=0;i<lpn;i++,k++){
-                 if(k==lns)k=0;
-                var it;
-                if(i>lns){
-                    if(j==lnz)j=0;
-                    it=z.charCodeAt(j);
-                    //z=z.substring(23,lnz)+z.substring(0,23);
-                    //j++;
-                }else{
-                    it=s.charCodeAt(k);
-                    //var n=it%lnz;
-                    //var h=z.charAt(n);
-                    //z=z.substring(n+1,lnz)+h+z.substring(0,n);
-                } 
-                var m=it*3%lnz;
-                var g=z.charAt(m);
-                z=z.substring(m+1,lnz)+g+z.substring(0,m);
+
+		function arr2str(arr){
+            var sa='';
+            for(var i=0; i<arr.length;i+=2){
+                var it=arr[i];
+                sa+=String.fromCharCode(it<<8|arr[i+1])
             }
-            return l?z.substring(0,l):z;
-        }
-		**/
+			return sa;
+		}
+
 	</script>
 
 	</body>

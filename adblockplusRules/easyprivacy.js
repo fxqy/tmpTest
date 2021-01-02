@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: dvzrB7YsUuzYL1hOKoHt3g
-! Version: 202012310211
+! Checksum: KMi/Wac6/kUvDfc3meakHg
+! Version: 202101020251
 ! Title: EasyPrivacy
-! Last modified: 31 Dec 2020 02:11 UTC
+! Last modified: 02 Jan 2021 02:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -11235,7 +11235,6 @@ _mongo_stats/
 ||kiwari.com^*/impressions.asp?
 ||kk-resources.com/ks.js
 ||klarnaservices.com^$image,third-party
-||klaviyo.com/onsite/js/klaviyo.js$third-party
 ||klickly.com/track
 ||kmib.co.kr/ref/
 ||kochava.com/track/$third-party
@@ -11313,6 +11312,7 @@ _mongo_stats/
 ||log.outbrain.com^
 ||log.outbrainimg.com^
 ||log.pinterest.com^
+||log.plinga.de^
 ||log.seekda.com^
 ||logger.snackly.co^
 ||logging.carambo.la^
@@ -16819,6 +16819,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||jeu.net/hits.js
 ||jeuxvideo.com/contenu/medias/video/countv.php?
 ||jscrambler.com^$script,domain=airfrance.fr
+||k.kolplay.com^
 ||k.rueducommerce.fr^
 ||kbn.korben.info^
 ||lardennais.fr/sites/all/themes/enabootstrap/js/stat-callback.js
@@ -17644,6 +17645,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||afs-prod.appspot.com^*/tag?tags=$xmlhttprequest,domain=apnews.com
 @@||akamaihd.net/worldwide_analytics/$script,domain=ubi.com|ubisoft.com
 @@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com
+@@||akamaized.net^*/resource/assets/$xmlhttprequest,domain=funplusgame.com
 @@||amplitude.com/libs/amplitude-$script,domain=loom.com
 @@||ampproject.org/v0/amp-geo-$script,domain=pantagraph.com|tasty.co
 @@||analytics.amplitude.com^$~third-party
@@ -18188,9 +18190,9 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||caf.fr^*/smarttag.js$script,~third-party
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
-@@||getviously.com/js$script,domain=futura-sciences.com
+@@||getviously.com/js$script,domain=futura-sciences.com|wamiz.com
 @@||google-analytics.com/analytics.js$domain=infoconso-multimedia.fr|viandesuisse.ch
-@@||googletagmanager.com/gtm.js$script,domain=linternaute.com|sciencesetavenir.fr
+@@||googletagmanager.com/gtm.js$script,domain=linternaute.com|sciencesetavenir.fr|wamiz.com
 @@||maxmind.com/geoip/$xmlhttprequest,domain=dcshoes.fr
 @@||maxmind.com^*/geoip2.js?$script,domain=dcshoes.fr
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
@@ -18450,6 +18452,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||coronavirus-monitor.ru/scripts/statistics/statistics.$script,~third-party
 @@||criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
 @@||dict.rambler.ru/fcgi-bin/$xmlhttprequest,domain=rambler.ru
+@@||fplay.online/log_event$~third-party,xmlhttprequest
 @@||google-analytics.com/analytics.js$domain=nabortu.ru|poiskstroek.ru|rzd.ru|teddyfood.com
 @@||google-analytics.com/plugins/ua/ec.js$domain=teddyfood.com
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|sportmaster.ru|teddyfood.com
@@ -18470,6 +18473,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||playep.pro/log_event$~third-party,xmlhttprequest
 @@||player.fc-zenit.ru/msi/geoip?$xmlhttprequest
 @@||player.vgtrk.com/js/stat.js?
+@@||playy.online/log_event$~third-party,xmlhttprequest
 @@||plplayer.online/log_event$~third-party,xmlhttprequest
 @@||relap.io^*/similar_pages_jsonp.js$script,domain=adme.ru
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
@@ -18477,6 +18481,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ssp.rambler.ru/acp/capirs_main.$script,domain=afisha.ru
 @@||ssp.rambler.ru/capirs.js$domain=afisha.ru
 @@||swa.mail.ru/cgi-bin/counters?$script
+@@||toplay.biz/log_event$~third-party,xmlhttprequest
+@@||ttutu.biz/log_event$~third-party,xmlhttprequest
 @@||ucoz.net/cgi/uutils.fcg?$script,third-party
 @@||wargag.ru/public/js/counter.js?
 @@||widget.myrentacar.me^$script,subdocument
