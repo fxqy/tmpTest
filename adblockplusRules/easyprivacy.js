@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: KMi/Wac6/kUvDfc3meakHg
-! Version: 202101020251
+! Checksum: vkmKLewZc4xqtEO4uCwp5A
+! Version: 202101030731
 ! Title: EasyPrivacy
-! Last modified: 02 Jan 2021 02:51 UTC
+! Last modified: 03 Jan 2021 07:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -494,6 +494,7 @@
 /admp-
 /adobe-analytics.
 /adobe-analytics/*
+/adobe-prd/*
 /adobe.visitor-
 /adobe/app-measurement.
 /adobe/AppMeasurement-
@@ -2463,6 +2464,7 @@
 /integration?pixel=
 /intellitracker.js
 /intercept.js
+/internal/page_view?
 /intervigil.
 /intextlinks-tracking/*
 /intstatcheck.
@@ -5199,6 +5201,7 @@
 ://gdyn.*/1.gif?
 ://geoip.*/country.json
 ://ivwextern.
+://lightning.*/launch/
 ://metrika.*/analytics.
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
@@ -10391,9 +10394,7 @@ _mongo_stats/
 ||atdmt.com/jaction/
 ||atdmt.com/mstag/
 ||atom-data.io/session/latest/track.html?$third-party
-||attn.tv/creative?
-||attn.tv/impression?
-||attn.tv^*/analytics.js
+||attn.tv^*/dtag.js
 ||attributiontrackingga.googlecode.com^
 ||auctiva.com/Default.aspx?query
 ||audience.atex.com^
@@ -10709,6 +10710,7 @@ _mongo_stats/
 ||countly.stackvaults.com^
 ||country.yepshare.com^
 ||covery.ai/fp/$third-party
+||covet.pics/beacons
 ||creativecdn.com/pix/?
 ||creativecdn.com/tags?
 ||creator.zmags.com^
@@ -10781,6 +10783,7 @@ _mongo_stats/
 ||d28g9g3vb08y70.cloudfront.net^
 ||d2as12kgjg8gw5.cloudfront.net^
 ||d2cpw6kwpff7n5.cloudfront.net^
+||d2gbtcuv3w9qyv.cloudfront.net^
 ||d2ibu2ug0mt5qp.cloudfront.net^
 ||d2kdl5wcwrtj90.cloudfront.net^
 ||d2nq0f8d9ofdwv.cloudfront.net/track.js
@@ -11232,6 +11235,7 @@ _mongo_stats/
 ||key4web.com^*/set_cookie_by_referer/
 ||keywee.co/analytics.js?
 ||keyword.daumdn.com^
+||keywords.complex.com^
 ||kiwari.com^*/impressions.asp?
 ||kk-resources.com/ks.js
 ||klarnaservices.com^$image,third-party
@@ -11967,6 +11971,7 @@ _mongo_stats/
 ||te.supportfreecontent.com^
 ||technorati.com/technoratimedia-pixel.js
 ||techweb.com/beacon/
+||telemetry.api.wmcdp.io^
 ||telemetry.reembed.com^
 ||telemetry.soundcloud.com^
 ||telemetry.tableausoftware.com^
@@ -13276,8 +13281,6 @@ _mongo_stats/
 ||adf.ly/omni*.swf
 ||adidas.com/analytics/
 ||adidas.com^*/analytics/
-||adprimemedia.com^*/video_report/attemptAdReport.php?
-||adprimemedia.com^*/video_report/videoReport.php?
 ||adroll.com/pixel/
 ||adv.drtuber.com^
 ||advancedmp3players.co.uk/support/visitor/index.php?
@@ -13301,12 +13304,12 @@ _mongo_stats/
 ||airbnb.*/tracking/
 ||airfrance.com/s/?tcs=
 ||airnewzealand.eu^$ping
-||airspacemag.com/g/g/button/
+||airtable.com/internal/$xmlhttprequest
+||airtable.com^*/reports
 ||akamai.net^$script,domain=argos.co.uk|newscientist.com|upwork.com
 ||akamai.net^*/button.clickability.com/
 ||akamaihd.net/pixelkabam/
 ||akamaihd.net^$script,domain=allmodern.com|birchlane.com|perigold.com|wayfair.co.uk|wayfair.com
-||akamaihd.net^*.gif$image,domain=globalnews.ca|inquirer.net
 ||alb.reddit.com^
 ||alibaba.com/js/beacon_
 ||alicdn.com/js/aplus_*.js
@@ -14411,6 +14414,7 @@ _mongo_stats/
 ||lovefilm.com^*/lf-perf-beacon.png
 ||lslmetrics.djlmgdigital.com^
 ||lucidchart.com/analytics_
+||lulus.com/api/track/events
 ||luxurylink.com/t/hpr.php?
 ||ly.lygo.com^*/jquery.lycostrack.js
 ||m.putlocker.how/tracking
@@ -14714,6 +14718,7 @@ _mongo_stats/
 ||pbsrc.com/common/pixel.png
 ||pch.com^*/scripts/Analytics/
 ||pch.com^*/SpectrumAnalytics.js?
+||pci3oo5mg4mn-a.akamaihd.net^
 ||pckeeper.com^*/pixels/
 ||pclick.europe.yahoo.com^
 ||pclick.internal.yahoo.com^
@@ -15851,16 +15856,14 @@ _mongo_stats/
 ||zylom.com^*/global_tracking.jsp?
 ||zylom.com^*/tracking_spotlight.js
 ||zytpirwai.net/track/
+! Adobe
+||lightning.ncaa.com/launch/$script
 ! first-party tracking
-||as01.overbuff.com^
-||gk3o.trackdota.com^
-||k9v7.dotabuff.com^
-||mqzy.dotabuff.com^
-||nj1r.valorbuff.com^
-||nkeq.speedrun.com^
-||nvea.valorbuff.com^
-||pqoz.trackdota.com^
-||uuqz.overbuff.com^
+||eu1l.dotabuff.com^
+||eu1l.overbuff.com^
+||eu1l.speedrun.com^
+||eu1l.trackdota.com^
+||eu1l.valorbuff.com^
 ! Bing
 ||bing.com/fd/ls/l?IG=
 ||bing.com/fd/ls/lsp.aspx
@@ -17632,10 +17635,10 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||adobedtm.com/*-source.min.js$script,domain=backcountry.com|dollargeneral.com|kroger.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|kroger.com
 @@||adobedtm.com/extensions/$script,domain=atresplayer.com
-@@||adobedtm.com/launch-$script
+! @@||adobedtm.com/launch-$script
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=apple.com|foodnetwork.com
 @@||adobedtm.com^*/AppMeasurement_Module_$script,domain=foodnetwork.com
-@@||adobedtm.com^*/launch-$script,xmlhttprequest
+! @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|backcountry.com|costco.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|newyorker.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|usanetwork.com|vanityfair.com|wired.com|wowway.net
 @@||adobedtm.com^*/s-code-$script
 @@||adobedtm.com^*/satellite-$script
