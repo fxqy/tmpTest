@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: vkmKLewZc4xqtEO4uCwp5A
-! Version: 202101030731
+! Checksum: /gOzBXBApRb9BI9eX+vumg
+! Version: 202101040331
 ! Title: EasyPrivacy
-! Last modified: 03 Jan 2021 07:31 UTC
+! Last modified: 04 Jan 2021 03:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -11215,6 +11215,7 @@ _mongo_stats/
 ||isitelab.io/ite_sitecomV1ANA.min.js
 ||itracking.fccinteractive.com^
 ||iyisayfa.net/inc.php?
+||jac.yahoosandbox.com^
 ||jailbaitchan.com/tp/
 ||jangomail.com^*?UID$third-party
 ||javascriptcounter.appspot.com^
@@ -11764,6 +11765,7 @@ _mongo_stats/
 ||scout.haymarketmedia.com^$third-party
 ||scout.salesloft.com/r?tid=
 ||scout.us2.salesloft.com^$image
+||scribd.com^*/events
 ||scribol.com/traffix/widget_tracker/
 ||scripts.psyma.com^
 ||sdrive.skoda-auto.com^
@@ -15504,8 +15506,7 @@ _mongo_stats/
 ||triadretail.com^*/roverTrack.js
 ||trialpay.com/mi/
 ||triond.com/cntimp?
-||tripadvisor.*/PageMoniker?
-||tripadvisor.com/uvpages/page_moniker.html
+||tripadvisor.com^*/rum
 ||trivago.com/check-session-state?
 ||trivago.com/tracking/
 ||trk.flazio.com^
@@ -16611,6 +16612,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||homepage-baukasten.de/cookie.php?
 ||horizont.net/stats/
 ||ht4u.net^*/blackpixel2.php
+||inside-channels.ch^*/ping/
+||inside-it.ch^*/ping/
 ||is.base.de^
 ||jobanova.de/stats.php?
 ||jolie.de^*/pic.gif?
@@ -17232,6 +17235,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||stats.splinder.com^
 ||stats.stylight.it^
 ||tantifilm.top^*/ping
+||timinternet.it/timmobilestatic/img/*.gif?
+||timinternet.it/timmobilestatic/jsPrivacy/gdl_function_cookie.js
 ||tiscali.it/banner-tiscali/stats.html?
 ||topolino.it^*/omniture.php?
 ||track.tesiteca.it^
