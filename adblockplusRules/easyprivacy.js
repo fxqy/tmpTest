@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: /gOzBXBApRb9BI9eX+vumg
-! Version: 202101040331
+! Checksum: hqDtES8yxXiJNc3dBxBRiA
+! Version: 202101050331
 ! Title: EasyPrivacy
-! Last modified: 04 Jan 2021 03:31 UTC
+! Last modified: 05 Jan 2021 03:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -959,6 +959,7 @@
 /azion-pulse.js
 /aztrack.
 /aztracker.
+/azure-perfops.
 /b/s/beacon
 /b/ss/*&aqe=
 /b/ss/*&ce=iso-8859-1&
@@ -1177,6 +1178,7 @@
 /cdn.stats2?
 /cdn5.js?
 /cdn_cookie_service.$image
+/cdnperf-rum.
 /cds-webanalytics.
 /cdx-radar/*
 /cdx.gif?
@@ -1193,6 +1195,7 @@
 /certona_$script
 /cfformprotect/*
 /cfm-realtime-marketing/*
+/cgAnalyticsPageView.
 /cgi-bin/cnt/*
 /cgi-bin/count.cgi?
 /cgi-bin/count.pl?
@@ -3070,6 +3073,7 @@
 /nofastat.
 /notifications/analytics
 /np?log=
+/npm/perfops-rom
 /npssurvey.
 /nsimpression/*
 /nStat/*
@@ -3249,6 +3253,7 @@
 /perf-beacon-
 /perflog/*
 /perfmetrics.js
+/perfops-cc.
 /performance-logger.
 /performance-metrics.js
 /performance.fcgi?
@@ -6165,6 +6170,7 @@ _mongo_stats/
 ||christiantop1000.com^$third-party
 ||christmalicious.com^$third-party
 ||chrumedia.com^$third-party
+||chtbl.com^$third-party
 ||cint.com^$third-party
 ||cintnetworks.com^$third-party
 ||circular-counters.com^$third-party
@@ -7424,6 +7430,7 @@ _mongo_stats/
 ||perfdrive.com^$third-party
 ||perfectaudience.com^$third-party
 ||perfiliate.com^$third-party
+||perfops.io^$third-party
 ||perfops.net^$third-party
 ||performanceanalyser.net^$third-party
 ||performancerevenues.com^$third-party
@@ -8416,6 +8423,19 @@ _mongo_stats/
 ||zroitracker.com^$third-party
 ||ztsrv.com^$third-party
 ||zuzab.com^$third-party
+! https://www.opensubtitles.org/
+||5centscdn.com^$third-party,xmlhttprequest
+||azioncdn.net^$third-party,xmlhttprequest
+||azureedge.net^$third-party,xmlhttprequest
+||belugacdn.link^$third-party,xmlhttprequest
+||blazingcdn.net^$third-party,xmlhttprequest
+||cdn-tech.io^$third-party,xmlhttprequest
+||cf-china.info^$third-party,xmlhttprequest
+||doracdn.com^$third-party,xmlhttprequest
+||gocache.net^$third-party,xmlhttprequest
+||mncdn.com^$third-party,xmlhttprequest
+||psychz.net^$third-party,xmlhttprequest
+||worldssl.net^$third-party,xmlhttprequest
 ! https://blog.confiant.com/the-trend-of-client-side-fingerprinting-in-cloaked-landing-pages-21915eb473df
 ||artfin.club^
 ||bemarts.club^
@@ -8950,6 +8970,7 @@ _mongo_stats/
 ||cubchannel.com^$third-party
 ||culturedcrayon.com^$third-party
 ||curvycry.com^$third-party
+||cushionpig.com^$third-party
 ||damdoor.com^$third-party
 ||dampdock.com^$third-party
 ||dapperdiscussion.com^$third-party
@@ -10782,6 +10803,7 @@ _mongo_stats/
 ||d27s92d8z1yatv.cloudfront.net/js/jquery.jw.analitycs.js
 ||d28g9g3vb08y70.cloudfront.net^
 ||d2as12kgjg8gw5.cloudfront.net^
+||d2axgrpnciinw7.cloudfront.net^
 ||d2cpw6kwpff7n5.cloudfront.net^
 ||d2gbtcuv3w9qyv.cloudfront.net^
 ||d2ibu2ug0mt5qp.cloudfront.net^
@@ -10810,6 +10832,7 @@ _mongo_stats/
 ||d3cxv97fi8q177.cloudfront.net^
 ||d3hb14vkzrxvla.cloudfront.net/health-check
 ||d3iouejux1os58.cloudfront.net^
+||d3j1weegxvu8ns.cloudfront.net^
 ||d3kyk5bao1crtw.cloudfront.net^
 ||d3l3lkinz3f56t.cloudfront.net^
 ||d3m6sept6cnil5.cloudfront.net^
@@ -10932,6 +10955,7 @@ _mongo_stats/
 ||emihosting.com^*/tracking/
 ||endorsal.io/check/
 ||ensighten.com/error/e.php?
+||entitlement.auth.adobe.com^$third-party
 ||epl.paypal-communication.com^
 ||epromote.co.za/track/
 ||erne.co/tags?
@@ -10945,6 +10969,7 @@ _mongo_stats/
 ||event.api.drift.com^
 ||event.getblue.io^
 ||event.syndigo.cloud^
+||event.webcollage.net^
 ||eventapi.libring.com^
 ||eventful.com/apps/generic/$image,third-party
 ||eventgateway.soundcloud.com^
@@ -11071,6 +11096,7 @@ _mongo_stats/
 ||glam.com^*/log.act?
 ||glbdns.microsoft.com^
 ||gleam.io/seen?
+||gleam.io^$script,third-party
 ||go.com/capmon/GetDE/?
 ||go.optifuze.com^
 ||go.toutapp.com^$third-party
@@ -11186,6 +11212,7 @@ _mongo_stats/
 ||inq.com^*/onEvent?_
 ||insight.mintel.com^$third-party
 ||insight.rapid7.com^$third-party
+||insights.algolia.io^
 ||insights.plista.com^$third-party
 ||insights.sitesearch360.com^
 ||insitez.blob.core.windows.net^
@@ -12418,6 +12445,7 @@ _mongo_stats/
 ||uhytajrtpo-a.akamaihd.net^
 ||zvsuhljiha-a.akamaihd.net^
 ! fastly
+||7q1z79gxsi.global.ssl.fastly.net^
 ||clarium.global.ssl.fastly.net^
 ||dfapvmql-q.global.ssl.fastly.net^
 ||fastly.net/collect?
@@ -13761,6 +13789,7 @@ _mongo_stats/
 ||db.com^*/stats.js?
 ||dc.banggood.com^
 ||dccss.banggood.com^
+||dcf.espn.com^
 ||dd.nytimes.com^
 ||dealnews.com/lw/ul.php?
 ||debtconsolidationcare.com/affiliate/tracker/
@@ -14090,7 +14119,7 @@ _mongo_stats/
 ||glamourmagazine.co.uk^*/LogPageView
 ||glassmoni.researchgate.net^
 ||global.canon^*/analytics.js
-||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|mentalfloss.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
+||global.ssl.fastly.net^$script,xmlhttprequest,domain=allmodern.com|argos.co.uk|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com
 ||globes.co.il/ga.asp
 ||globes.co.il/shared/s.ashx?
 ||globester.com^*/track.js
@@ -15275,6 +15304,7 @@ _mongo_stats/
 ||stomp.com.sg/site/servlet/tracker
 ||store.yahoo.net^*/ywa.js
 ||storenvy.com/tracking/
+||streamta.pe/stat/
 ||streetdirectory.com/tracking/
 ||streetfire.net/flash/trackingutility.swf
 ||streetfire.net/handlers/logstreamfileimpression.ashx?
@@ -15345,6 +15375,7 @@ _mongo_stats/
 ||tcpalm.com/metrics/
 ||tdwaterhouse.ca/includes/javascript/rtesurvey.js
 ||tdwaterhouse.co.uk^*/track.js
+||techspot.com/geoip/
 ||ted.dailymail.co.uk^
 ||ted.metro.co.uk^
 ||telegraph.co.uk^*/tmglmultitrackselector.js
@@ -15561,6 +15592,8 @@ _mongo_stats/
 ||u46.pnc.com^
 ||u47.pnc.com^
 ||ua.indianexpress.com^
+||ubereats.com/_events
+||ubereats.com/_track
 ||ucoz.com/stat/
 ||ucweb.com/collect/
 ||ui-portal.com/1and1/mailcom/s?
@@ -18100,7 +18133,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||abc.com/b/ss/$image
 @@||amazoncustomerservice.d2.sc.omtrdc.net/b/ss/*/H.25.1/$image
 @@||castorama.fr/b/ss/$image
-@@||espn.com/b/ss/$image
 @@||fandango.com/b/ss/$image
 @@||globalnews.ca/b/ss/$image
 @@||go.com/b/ss/$image
