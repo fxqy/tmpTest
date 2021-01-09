@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: UagYLZRIAPxehbaiez3Iyw
-! Version: 202101080311
+! Checksum: GEhoqrGx41rfv+Z53qK7Jg
+! Version: 202101091041
 ! Title: EasyPrivacy
-! Last modified: 08 Jan 2021 03:11 UTC
+! Last modified: 09 Jan 2021 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3058,6 +3058,7 @@
 /ninja-panamera.js
 /NitroCookies.js
 /njs.gif?
+/nlogger.js
 /nLoggerJB_
 /nm/itracking?
 /nm_ga_bottom.
@@ -6170,7 +6171,7 @@ _mongo_stats/
 ||christiantop1000.com^$third-party
 ||christmalicious.com^$third-party
 ||chrumedia.com^$third-party
-||chtbl.com^$third-party
+||chtbl.com^$script,third-party,xmlhttprequest
 ||cint.com^$third-party
 ||cintnetworks.com^$third-party
 ||circular-counters.com^$third-party
@@ -8978,7 +8979,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dq95d35.com^$third-party
 ||drydrum.com^$third-party
 ||ejyymghi.com^$third-party
-||endurablecrayon.com^third-party
+||endurablecrayon.com^$third-party
 ||enormousearth.com^$third-party
 ||enviousshape.com^$third-party
 ||fadedsnow.com^$third-party
@@ -11708,6 +11709,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rc.rlcdn.com^
 ||readcube.com/ping?
 ||readcube.com/tracking/
+||realm.hearst3pcc.com^
 ||realplayer.com^*/pixel?
 ||realtidbits.com^*/analytics.js
 ||rebel.ai/track?
@@ -12364,7 +12366,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zoover.co.uk/tracking/
 ||zope.net^*/ghs_wa.js
 ! Appcues
-/^https?:\/\/fast\.appcues\.com\/[0-9]{4,6}\.js
+/^https?:\/\/fast\.appcues\.com\/[0-9]{4,6}\.js/
 ! taboola
 ||convsgmp.taboola.com^
 ||la-sync.taboola.com^
@@ -13280,7 +13282,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||6waves.com/trker/
 ||99bitcoins.com/_load/
 ||a.huluad.com/beacons/
-||a3xo-eng.spankbang.com^
 ||a7.org/infol.php?
 ||aa.avvo.com^
 ||aax-eu-dub.amazon.com^
@@ -15210,6 +15211,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||spanids.thesaurus.com^
 ||spankbang.com/pull_stats?$xmlhttprequest
 ||spankbang.com^$ping
+||spankbang.com^*?type=pv
 ||speakertext.com/analytics/
 ||speed.cloudflare.com/__log
 ||speed.wikia.net^
@@ -17992,7 +17994,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bikeperfect.com|cyclingnews.com|digitalcameraworld.com|gamesradar.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bikeperfect.com|cyclingnews.com|digitalcameraworld.com|f1aldia.com|gamesradar.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|nymag.com
 @@||rasset.ie/dotie/js/tracker.js$domain=rte.ie
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
@@ -18231,7 +18233,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||caf.fr^*/smarttag.js$script,~third-party
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
-@@||getviously.com/js$script,domain=futura-sciences.com|gossip-room.fr|wamiz.com
+@@||getviously.com/js$script,domain=futura-sciences.com|getsu.fr|gossip-room.fr|wamiz.com
 @@||google-analytics.com/analytics.js$domain=infoconso-multimedia.fr|viandesuisse.ch
 @@||googletagmanager.com/gtm.js$script,domain=linternaute.com|sciencesetavenir.fr|wamiz.com
 @@||maxmind.com/geoip/$xmlhttprequest,domain=dcshoes.fr
