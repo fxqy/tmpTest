@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: drK9yQBVFdFdnTtYJosABw
-! Version: 202101240941
+! Checksum: p7lWv3Bez1s4HTCNpU7A1A
+! Version: 202101260241
 ! Title: EasyPrivacy
-! Last modified: 24 Jan 2021 09:41 UTC
+! Last modified: 26 Jan 2021 02:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2127,6 +2127,7 @@
 /gemius1.js
 /gemius_
 /gemiusAudience.
+/gen204/*
 /gen204?
 /generictracking.
 /geo-ip-detect?
@@ -7527,6 +7528,7 @@ _mongo_stats/
 ||placemypixel.com^$third-party
 ||platformpanda.com^$third-party
 ||plausible.io^$third-party
+||plavxml.com^$third-party
 ||plecki.com^$third-party
 ||pleisty.com^$third-party
 ||plexop.com^$third-party
@@ -11675,6 +11677,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pix.impdesk.com^
 ||pix.speedbit.com^$third-party
 ||pixel-a.basis.net^
+||pixel.ampry.com^
 ||pixel.blivenyc.com^
 ||pixel.cdnwidget.com^
 ||pixel.condenastdigital.com^
@@ -12254,6 +12257,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trendmd.com/events
 ||trends.newsmaxwidget.com^
 ||trf.intuitwebsites.com^
+||trib.al^$image,third-party
 ||triggers.wfxtriggers.com^
 ||tritondigital.com/lt?sid*&hasads=
 ||tritondigital.com/ltflash.php?
@@ -13445,6 +13449,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||akamaihd.net^$script,domain=allmodern.com|birchlane.com|perigold.com|wayfair.co.uk|wayfair.com
 ||alb.reddit.com^
 ||alibaba.com/js/beacon_
+||alicdn.com/AWSC/et/
 ||alicdn.com/js/aplus_*.js
 ||aliexpress.com/js/beacon_
 ||alipay.com/web/bi.do?ref=
@@ -14382,7 +14387,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||imgur.com/lumbar.gif?
 ||immassets.s3.amazonaws.com^
 ||imonitor.dhgate.com^
-||imore.com/_gap/
+||imore.com/sites/imore.com/files/gap/
 ||imp-media-lab.thenewslens.com^
 ||imx.comedycentral.com^
 ||indeed.com/rpc/$~xmlhttprequest
@@ -14808,6 +14813,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||omniture.stuff.co.nz^
 ||omniture.theglobeandmail.com^
 ||oms.expedia.com^
+||on.msnbc.com^$image
 ||onetravel.com/TrackOnetravelAds.js
 ||online.citi.com^*/fp.js
 ||online.citi.com^*/fp.min.js
@@ -15183,8 +15189,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||slack.com/clog/track/
 ||slacker.com/beacon/
 ||slant.co/js/track.min.js
+||slashdot.org/country.js
 ||slashdot.org/images/js.gif?$image
-||slashdot.org/purple.gif
 ||slashgear.com/stats/
 ||slickdeals.net/ajax/stats/
 ||slide.com/tracker/
@@ -17989,7 +17995,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||google-analytics.com/plugins/ua/ec.js$script,domain=health2000.co.nz
 @@||google.com/js/gweb/analytics/autotrack.js$domain=gradleplease.appspot.com|www.google.com
 @@||googletagmanager.com/gtag/js$script,domain=ally.com|anchor.fm|foxnews.com|gamespot.com|honeystinger.com|m.putlocker.how|neighborhoodpostcards.com|playphrase.me|ryanair.com|schwab.com
-@@||googletagmanager.com/gtm.js$domain=action.com|ads.spotify.com|adsoup.com|aim.steelseries.com|airasia.com|asus.com|bhaskar.com|broadcom.com|bsa-whitelabel.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|gumtree.com|hbomax.com|health2000.co.nz|indy100.com|insideevs.com|itv.com|jobs.net|keygames.com|magicjack.com|moviefone.com|nestio.com|newsarama.com|newsletter.co.uk|newsy.com|nfl.com|nflgamepass.com|onesignal.com|optus.com.au|overwatchleague.com|pioneer.eu|poliigon.com|porsche.com|postable.com|readyrefresh.com|realestate.co.nz|rebtel.com|redbull.com|rockstargames.com|rollingstone.com|royalbank.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|theta.tv|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|weightwatchers.com|woodlanddirect.com|wwe.com
+@@||googletagmanager.com/gtm.js$domain=action.com|ads.spotify.com|adsoup.com|aim.steelseries.com|airasia.com|asus.com|bhaskar.com|broadcom.com|bsa-whitelabel.com|chipotle.com|complex.com|computerworlduk.com|coolermaster.com|cyclingnews.com|desigual.com|drumstick.com|ebuyer.com|elevationscu.com|fortune.com|foxnews.com|gamepix.com|git-tower.com|google.com|gumtree.com|hbomax.com|health2000.co.nz|indy100.com|insideevs.com|itv.com|jobs.net|keygames.com|magicjack.com|medibank.com.au|moviefone.com|nestio.com|newsarama.com|newsletter.co.uk|newsy.com|nfl.com|nflgamepass.com|onesignal.com|optus.com.au|overwatchleague.com|pioneer.eu|poliigon.com|porsche.com|postable.com|readyrefresh.com|realestate.co.nz|rebtel.com|redbull.com|rockstargames.com|rollingstone.com|royalbank.com|rozetka.com.ua|scotsman.com|sixflags.com|starbucks.ca|support.amd.com|talktalk.co.uk|techradar.com|theta.tv|toto.co.jp|toysrus.ca|trademe.nz|usmagazine.com|weightwatchers.com|woodlanddirect.com|wwe.com
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
