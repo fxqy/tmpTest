@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: p7lWv3Bez1s4HTCNpU7A1A
-! Version: 202101260241
+! Checksum: DxczP+9KJH0X5HYjAPZAsg
+! Version: 202101271031
 ! Title: EasyPrivacy
-! Last modified: 26 Jan 2021 02:41 UTC
+! Last modified: 27 Jan 2021 10:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -891,7 +891,9 @@
 /appGoogleTagManager-
 /appier-track-
 /AppMeasurement.js
+/AppMeasurement.min.js
 /AppMeasurement2.js
+/AppMeasurement_Module_
 /AppMeasurementCustom.
 /apTracker.
 /aptrk.js
@@ -3339,8 +3341,8 @@
 /pinterest-pixels.
 /pippio.
 /pistats/cgi-bin/*
-/piwik-$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro|piwikpro.de
-/piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro|piwikpro.de
+/piwik-$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
+/piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
 /piwik.*/ping?
 /piwik.js
 /piwik.php
@@ -5245,6 +5247,7 @@
 ://b.*/vanity/?
 ://c.*/c.gif?
 ://c1.*/c.gif?
+://cmpv2.
 ://collect.*/pageview
 ://collector.*/event
 ://d.*/track.js
@@ -11024,7 +11027,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||emihosting.com^*/tracking/
 ||endorsal.io/check/
 ||ensighten.com/error/e.php?
-||epl.paypal-communication.com^
+||epl.paypal-communication.com^$script
 ||epromote.co.za/track/
 ||erne.co/tags?
 ||errors.snackly.co^
@@ -12574,6 +12577,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! *** easylist:easyprivacy/easyprivacy_thirdparty_international.txt ***
 ! German
 ||78.46.19.203^$third-party,domain=~sprueche-zitate.net.ip
+||ablida.net^$third-party
 ||adc-srv.net/retargeting.php
 ||adm24.de/hp_counter/$third-party
 ||aftonbladet.se/trafikfonden/
@@ -14405,6 +14409,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||infusionextreme.com/tracker/
 ||inmagine.com/j/ga.js
 ||ino.com/img/sites/mkt/click.gif
+||inq.com/tagserver/
 ||inquiries.redhat.com^
 ||insideline.com^*/dart1x1.gif
 ||insideline.com^*/edw1x1.gif
@@ -17816,7 +17821,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ad.crwdcntrl.net^$script,domain=investopedia.com
 @@||adblockanalytics.com/ads.js|
 @@||addgene.org/headers/blat/js/analyze.js
-@@||adobedtm.com/*-source.min.js$script,domain=backcountry.com|dollargeneral.com|kroger.com
+@@||adobedtm.com/*-source.min.js$script,domain=atresplayer.com|backcountry.com|dollargeneral.com|kroger.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|kroger.com
 @@||adobedtm.com/extensions/$script,domain=atresplayer.com
 @@||adobedtm.com/launch-$script
@@ -18042,6 +18047,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||lexus.com/lexus-share/js/tracking_omn/$xmlhttprequest
 @@||lightningmaps.org^*/piwik.js
 @@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
+@@||live.bbc.co.uk^*/comscore.js$script,~third-party
 @@||logging.apache.org^$domain=apache.org
 @@||lowesgiftcardbonus.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
 @@||marketo.com/index.php/$script,subdocument,xmlhttprequest
@@ -18226,6 +18232,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||wix.com/_api/*count?type$~third-party
 @@||wp.com^*/google-analytics-for-wordpress/$domain=wordpress.org
 @@||wplogout.com/wp-content/uploads/*Google$image,~third-party
+@@||www.ups.com/WebTracking/processInputRequest
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||yandex.ru/metrika/watch.js$domain=engwords.net
 @@||yimg.com^*/ywa.js$domain=nydailynews.com|travelscream.com|yahoo.com
@@ -18355,6 +18362,8 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.net|radiorur.de|saturn.at|sport1.de
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=tvnow.de
+@@||kameleoon.com/geolocation.gif$domain=welt.de
+@@||kameleoon.com/ip.gif$domain=welt.de
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
 @@||ksta.de/cre-1.0/tracking/call.js?$domain=ksta.de
 @@||ksta.de^*/api/tracking/service/ksta/templateclient.js$domain=ksta.de
