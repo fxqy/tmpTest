@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: DxczP+9KJH0X5HYjAPZAsg
-! Version: 202101271031
+! Checksum: jRPPTRmdUcPWsLmcpj4bcA
+! Version: 202101280721
 ! Title: EasyPrivacy
-! Last modified: 27 Jan 2021 10:31 UTC
+! Last modified: 28 Jan 2021 07:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10112,6 +10112,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||targetix.net^$third-party
 ||tbex.ru^$third-party
 ||tds.io^$third-party
+||theactivetag.com^$third-party
 ||tnative.ru^$third-party
 ||toptracker.ru^$third-party
 ||tpm.pw^$third-party
@@ -11318,6 +11319,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||javascriptcounter.appspot.com^
 ||jelly.mdhv.io^
 ||jerkmate.com^*/tracking-hasoffers-
+||jill.fc.yahoo.com^
 ||jobvite.com/analytics.js
 ||jotform.io/getReferrer/$third-party
 ||js-agent.newrelic.com^
@@ -11846,6 +11848,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s-microsoft.com/mscc/$~stylesheet
 ||s-vop.sundaysky.com^$third-party
 ||s.clickability.com^
+||s.clickiocdn.com^
 ||s.sniphub.com^
 ||s.srvsynd.com^
 ||s24cloud.net/log^
@@ -13300,6 +13303,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sepyra.com^$third-party
 ||service-stat.tbn.ru^
 ||sishik.ru/counter.php?
+||st.hbrd.io^
 ||stainlesssteel.ru/counter.php?
 ||stascorp.com/stat/
 ||stat.eagleplatform.com^
@@ -13321,6 +13325,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tms-st.cdn.ngenix.net^
 ||top.elec.ru^
 ||track.recreativ.ru^
+||track.spacepush.ru^
 ||tracking.gpm-rtv.ru^
 ||tracking.retailrocket.net^
 ||traktor.ru^*/counter.php?
@@ -17014,6 +17019,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||logs-qos.tf1.fr^
 ||ma-petite-recette.fr/visites
 ||marmiton.org/logpix.php
+||naturabuy.fr/xternalpixel.php?
 ||neko-san.fr/stats
 ||nouvelobs.com/scripts/stats.php?
 ||nouvelobs.com/tools/csrum.php
@@ -17816,6 +17822,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@/friendbuy.min.js$script,domain=butcherbox.com
 @@/yozons-lib/core.js$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
 @@||1001trackstats.com/api/$xmlhttprequest,domain=songstats.com
+@@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
 @@||9cdn.net^*/js/tracking/$script,domain=nine.com.au
 @@||accounts.nintendo.com/account/js/pages/$script,~third-party
 @@||ad.crwdcntrl.net^$script,domain=investopedia.com
