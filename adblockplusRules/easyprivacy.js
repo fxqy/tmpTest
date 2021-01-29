@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: jRPPTRmdUcPWsLmcpj4bcA
-! Version: 202101280721
+! Checksum: VNVFpbrtS+m/lE9vnIDshA
+! Version: 202101290621
 ! Title: EasyPrivacy
-! Last modified: 28 Jan 2021 07:21 UTC
+! Last modified: 29 Jan 2021 06:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -669,6 +669,7 @@
 /analytics-helper.
 /analytics-ingestion/*
 /analytics-ingress-
+/analytics-initial-
 /analytics-js.
 /analytics-js/*
 /analytics-min.js
@@ -7062,6 +7063,7 @@ _mongo_stats/
 ||koddi.com^$third-party
 ||kokos.click^$third-party
 ||komtrack.com^$third-party
+||konduit.me^$third-party
 ||kontagent.net^$third-party
 ||kopsil.com^$third-party
 ||kqzyfj.com^$third-party
@@ -10038,6 +10040,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cnstats.ru^$third-party
 ||cpaevent.ru^$third-party
 ||cszz.ru^$third-party
+||culturaltracking.ru^$third-party
 ||dircont3.com^$third-party
 ||directcrm.ru^$third-party
 ||e-kuzbass.ru^$third-party
@@ -16062,7 +16065,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /^https?:\/\/www\.sierra\.com\/resource\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=sierra.com
 /^https?:\/\/www\.staples\.com\/publicwww\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=staples.com
 /^https?:\/\/www\.usbank\.com\/webcontent\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=usbank.com
-||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|lendup.com|mbna.ca|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
+||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
 ||all3dp.com/kbcbqexpqvz8wrk88augy7b.js
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ebaystatic.com/rs/v/c1dlnarusayhflyyibse05hqqm2.js
@@ -16997,7 +17000,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||fsm.lapresse.ca^
 ||g.itespresso.fr^
 ||galerieslafayette.com/c/
-||geo.6play.fr^
 ||ianimes.org/img/tracker.gif
 ||iphdata.lequipe.fr^*/getInfapp.php?
 ||iphonesoft.fr/js/analytics-
@@ -17845,6 +17847,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||akamaihd.net/worldwide_analytics/$script,domain=ubi.com|ubisoft.com
 @@||akamaihd.net^*/analyticssdk.js$script,domain=ubisoft.com
 @@||akamaized.net^*/resource/assets/$xmlhttprequest,domain=funplusgame.com
+@@||amazonaws.com/production$xmlhttprequest,domain=ipa-reader.xyz
 @@||amplitude.com/libs/amplitude-$script,domain=loom.com
 @@||ampproject.org/v0/amp-geo-$script,domain=pantagraph.com|tasty.co
 @@||analytics.amplitude.com^$~third-party
@@ -18160,6 +18163,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
 @@||s.yimg.com^*/advertisement/sponsor/promo/ad.png$image,domain=news.yahoo.com
 @@||sahibinden.com/assets/analytics*.js$script
+@@||savjee.be/uploads/2020-10-27-effect-adblockers-on-google-analytics-vs-plausible/$~third-party
 @@||sbphototours.com/includes/AWStats.js$~third-party
 @@||scorecardresearch.com/beacon.js$domain=agame.com|allmusic.com|amctv.com|apl.tv|babycenter.com|bonappetit.com|calgaryherald.com|canada.com|cbc.ca|dailymail.co.uk|dailymotion.com|deviantart.com|discovery.com|doctoroz.com|edmontonjournal.com|fastcompany.com|financialpost.com|firstwefeast.com|hitfix.com|investigationdiscovery.com|landandfarm.com|last.fm|leaderpost.com|m.tmz.com|montrealgazette.com|nationalpost.com|newsday.com|ottawacitizen.com|outsideonline.com|radaronline.com|salon.com|sci2.tv|syfy.com|theprovince.com|thestar.com|thestarphoenix.com|thinkatheist.com|tlc.com|tmz.com|v3.co.uk|vancouversun.com|windsorstar.com
 @@||scorecardresearch.com/c2/plugins/streamingtag_plugin_jwplayer.js

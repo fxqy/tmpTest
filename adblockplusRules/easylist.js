@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ic2wkMSUd7Iswf/Fakw1zA
-! Version: 202101280720
+! Checksum: beaXGrIkTKrQGUSEaOrNrQ
+! Version: 202101290621
 ! Title: EasyList
-! Last modified: 28 Jan 2021 07:20 UTC
+! Last modified: 29 Jan 2021 06:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3865,6 +3865,7 @@
 /atcode-bannerize/*
 /athena/tag/?
 /atlads/*
+/atlads1/*
 /atnads/*
 /AtomikAd/*
 /atrads.
@@ -6659,7 +6660,6 @@
 /sponsorad.
 /sponsorad2.
 /sponsoradds/*
-/sponsorads.
 /sponsorads/*
 /sponsorbanners/*
 /sponsorbg/*
@@ -8321,7 +8321,6 @@ _prebid_
 /adBlockDetector/*
 /adblockdetectorwithga.
 /adblocker-leader.
-/adblocker.js
 /adBlockerTrack_
 /adblockkiller.
 /adblockpopup.
@@ -15866,6 +15865,7 @@ _popunder+$popup
 ###ng_rtcol_ad
 ###nia_ad
 ###nib-ad
+###nk_ad_top
 ###nlrightsponsorad
 ###noresults_ad_container
 ###noresultsads
@@ -17542,6 +17542,7 @@ _popunder+$popup
 ###widget_advertisement
 ###widget_thrive_ad_default-2
 ###widget_thrive_ad_default-4
+###widgetwidget_adserve
 ###widgetwidget_adserve2
 ###windowads
 ###wl-pencil-ad
@@ -18399,6 +18400,8 @@ _popunder+$popup
 ##.ad-300-blog
 ##.ad-300-dummy
 ##.ad-300-flex
+##.ad-300X250
+##.ad-300X250-body
 ##.ad-300x
 ##.ad-300x100
 ##.ad-300x200
@@ -22677,6 +22680,7 @@ _popunder+$popup
 ##.advertising_bottom
 ##.advertising_bottom_box
 ##.advertising_box_bg
+##.advertising_header_1
 ##.advertising_hibu_lef
 ##.advertising_hibu_mid
 ##.advertising_hibu_rig
@@ -25845,6 +25849,7 @@ _popunder+$popup
 ##.inlistAd
 ##.inner-ad
 ##.inner-ad-disclaimer
+##.inner-ad-section
 ##.inner-adv
 ##.inner-advert
 ##.inner-advt-banner-3
@@ -26371,6 +26376,7 @@ _popunder+$popup
 ##.mailAdElem
 ##.mailad
 ##.main-ad
+##.main-add-sec
 ##.main-ads
 ##.main-ads-line-2
 ##.main-advert
@@ -28802,6 +28808,7 @@ _popunder+$popup
 ##.storyAdvert
 ##.storyInlineAdBlock
 ##.story_AD
+##.story__top__ad
 ##.story_ad_div
 ##.story_ads_right_spl
 ##.story_ads_right_spl_budget
@@ -56795,7 +56802,7 @@ whatmobile.com.pk##div[style^="background-color:#EBEBEB;"]
 paultan.org##div[style^="height:250px; width:300px;"]
 whatmobile.com.pk##div[style^="height:610px"]
 napuzba.com##div[style^="width:336px"]
-gta3.com,gtagarage.com,gtasanandreas.net,pastebin.com##div[style^="width:728px; height:90px"]
+gta3.com,gtagarage.com,gtasanandreas.net,myanimelist.net,pastebin.com##div[style^="width:728px;"]
 ebay.com##div[title="ADVERTISEMENT"]
 xtremesystems.org##embed[width="728"]
 imgburn.com##font[face="Arial"][size="1"]
