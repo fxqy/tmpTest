@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: VNVFpbrtS+m/lE9vnIDshA
-! Version: 202101290621
+! Checksum: JrfwS3XMfKUb2P0tsKE9Og
+! Version: 202101300151
 ! Title: EasyPrivacy
-! Last modified: 29 Jan 2021 06:21 UTC
+! Last modified: 30 Jan 2021 01:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4301,6 +4301,7 @@
 /timingcg.
 /tiwik.
 /tjp_beacon.
+/tjx-tracking-
 /tmpstats.gif?
 /tms/metrics.
 /tmv11.
@@ -7366,6 +7367,7 @@ _mongo_stats/
 ||nik.io^$third-party
 ||ninjacat.io^$third-party
 ||nitropay.com^$third-party
+||nmrodam.com^$third-party
 ||noibu.com^$third-party
 ||noowho.com^$third-party
 ||nordicresearch.com^$third-party
@@ -11358,6 +11360,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||l2.io/ip.js?var=$third-party
 ||laurel.macrovision.com^
 ||laurel.rovicorp.com^
+||lciapi.ninthdecimal.com^
 ||leadpages.net^*/tracking.js
 ||leadtracking.plumvoice.com^
 ||leadvision.dotmailer.co.uk^$third-party
@@ -16048,22 +16051,22 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /^https?:\/\/tmx\.td\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=mbna.ca|td.com
 /^https?:\/\/www\.academy\.com\/webcontent\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=academy.com
 /^https?:\/\/www\.backcountry\.com\/clientlibs\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=backcountry.com
-/^https?:\/\/www\.bestbuy\.com\/resource\/{20,}/$script,xmlhttprequest,domain=bestbuy.com
+/^https?:\/\/www\.bestbuy\.com\/resource\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=bestbuy.com
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=ebay-kleinanzeigen.de
 /^https?:\/\/www\.eddiebauer\.com\/resource\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=eddiebauer.com
 /^https?:\/\/www\.finishline\.com\/contents\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=finishline.com
 /^https?:\/\/www\.halifax-online\.co\.uk\/publicwww\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=halifax-online.co.uk
 /^https?:\/\/www\.kohls\.com\/clientlibs\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=kohls.com
-/^https?:\/\/www\.kroger\.com\/content\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=kroger.com
+/^https?:\/\/www\.kroger\.com\/library\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=kroger.com
 /^https?:\/\/www\.kroger\.com\/resources\/{20,}/$script,xmlhttprequest,domain=kroger.com
 /^https?:\/\/www\.macys\.com\/clientlibs\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=macys.com
 /^https?:\/\/www\.marshalls\.com\/staticweb\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=marshalls.com
 /^https?:\/\/www\.mouser\.com\/staticweb\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=mouser.com
 /^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
-/^https?:\/\/www\.pnc\.com\/clientlibs\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=pnc.com
+/^https?:\/\/www\.pnc\.com\/contents\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=pnc.com
 /^https?:\/\/www\.publix\.com\/webcontent\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=publix.com
 /^https?:\/\/www\.sierra\.com\/resource\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=sierra.com
-/^https?:\/\/www\.staples\.com\/publicwww\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=staples.com
+/^https?:\/\/www\.staples\.com\/yuolsoiifpm\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=staples.com
 /^https?:\/\/www\.usbank\.com\/webcontent\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=usbank.com
 ||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
 ||all3dp.com/kbcbqexpqvz8wrk88augy7b.js
