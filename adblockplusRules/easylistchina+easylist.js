@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: T6ONfkEkak73cR0yMQMAZQ
-! Version: 202101300151
+! Checksum: g84UCS6GD6Nj4iZGwf12Xw
+! Version: 202101300241
 ! Title: EasyList China+EasyList
-! Last modified: 30 Jan 2021 01:51 UTC
+! Last modified: 30 Jan 2021 02:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 !
@@ -42247,6 +42247,7 @@ _popunder+$popup
 ##.article-ad-bottom
 ##.article-ad-box
 ##.article-ad-cont
+##.article-ad-horizontal
 ##.article-ad-left
 ##.article-ad-main
 ##.article-ad-placeholder
@@ -77354,6 +77355,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||motortrader.com.my/advert/$image,~third-party
 @@||msmedia.morningstar.com^*/size=*/random=*/viewid=$script,domain=morningstar.in
 @@||nationalreview.com/wp-content/themes/national-review/client/build/js/$script
+@@||netdna-ssl.com/sbly-ads/sbly-prebid-$domain=seeitlive.co
 @@||networkworld.com/www/js/ads/gpt_includes.js?
 @@||news4jax.com/gmg.static/ads/$script
 @@||nflcdn.com/static/site/$script,domain=nfl.com

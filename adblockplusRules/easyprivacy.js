@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: JrfwS3XMfKUb2P0tsKE9Og
-! Version: 202101300151
+! Checksum: RUpVUnp0wrkLJO0pCuHF5g
+! Version: 202101300241
 ! Title: EasyPrivacy
-! Last modified: 30 Jan 2021 01:51 UTC
+! Last modified: 30 Jan 2021 02:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8257,7 +8257,6 @@ _mongo_stats/
 ||urlself.com^$third-party
 ||usabilitytools.com^$third-party
 ||usabilla.com^$third-party
-||usablenet.com^$third-party
 ||usefathom.com^$third-party
 ||useinsider.com^$third-party
 ||useitbetter.com^$third-party
@@ -11064,6 +11063,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.medio.com^
 ||events.ocdn.eu^
 ||events.realgravity.com^
+||events.shareably.net^
 ||events.tubecup.org^
 ||events.whisk.com^
 ||events.yourcx.io^
@@ -17933,6 +17933,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||cohesionapps.com/preamp/$subdocument,xmlhttprequest,domain=frontier.com
 @@||collusion.com/static/analytics.js$script,~third-party
 @@||collusion.com/static/newrelic.js$script,~third-party
+@@||confiant-integrations.global.ssl.fastly.net^$script,domain=seeitlive.co
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||connect.squareup.com/payments/analytics/frame.html$subdocument
 @@||connect.squareupsandbox.com/payments/analytics/frame.html$subdocument
