@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: DyXnzioeyuaZUBAcIOQZbQ
-! Version: 202101310221
+! Checksum: uHYXCrMa/7inwL2v7DKgcA
+! Version: 202101310901
 ! Title: EasyPrivacy
-! Last modified: 31 Jan 2021 02:21 UTC
+! Last modified: 31 Jan 2021 09:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6714,7 +6714,6 @@ _mongo_stats/
 ||gear5.me^$third-party
 ||geistm.com^$third-party
 ||gemius.pl^$third-party
-||geni.us^$third-party
 ||genieesspv.jp^$third-party
 ||geo-targetly.com^$third-party
 ||geobytes.com^$third-party
@@ -11147,6 +11146,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||geckofoot.com/gfcounterimg.aspx?
 ||geckofoot.com/gfvisitormap.aspx?
 ||geni.us/snippet.js
+||geni.us/snippet.min.js
 ||geo.ertya.com^
 ||geo.gexo.com/geo.js$third-party
 ||geo.gorillanation.com^
@@ -15544,6 +15544,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thesaurus.com/track/
 ||theseforums.com/track/
 ||thesmokinggun.com^*/jsmd.js
+||thetimes.co.uk/mvt-assets/www/mvt.js
 ||theweek.com/decor/track/
 ||thinkcomputers.org/dist/thinkcomputers.min.js
 ||thinkgeek.com/js/rts.js
@@ -16053,6 +16054,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /^https?:\/\/www\.academy\.com\/webcontent\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=academy.com
 /^https?:\/\/www\.backcountry\.com\/clientlibs\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=backcountry.com
 /^https?:\/\/www\.bestbuy\.com\/resource\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=bestbuy.com
+/^https?:\/\/www\.buybuybaby\.com\/content\/[a-z0-9]{20,}$script,xmlhttprequest,domain=buybuybaby.com
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=ebay-kleinanzeigen.de
 /^https?:\/\/www\.eddiebauer\.com\/resource\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=eddiebauer.com
 /^https?:\/\/www\.finishline\.com\/contents\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=finishline.com
