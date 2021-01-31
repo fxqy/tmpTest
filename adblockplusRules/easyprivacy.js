@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: RUpVUnp0wrkLJO0pCuHF5g
-! Version: 202101300241
+! Checksum: DyXnzioeyuaZUBAcIOQZbQ
+! Version: 202101310221
 ! Title: EasyPrivacy
-! Last modified: 30 Jan 2021 02:41 UTC
+! Last modified: 31 Jan 2021 02:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2802,6 +2802,7 @@
 /logger?description=
 /logging-code.
 /logging/log-
+/logging/log.do
 /logging/pixel?
 /logging/React-
 /logging/v1/log|
@@ -6869,7 +6870,6 @@ _mongo_stats/
 ||hotjar.io^$third-party
 ||hotlog.ru^$third-party
 ||hs-analytics.net^$third-party
-||hs-scripts.com^$third-party
 ||hsadspixel.net^$third-party
 ||hscta.net^$third-party
 ||htlbid.com^$third-party
@@ -13364,6 +13364,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.zumby.io^
 ||reachandrich.antevenio.com^
 ||s3wfg.com/js/vortexloader.js
+||stats.bitban.com^
 ||stats.miarroba.info^
 ||stats.sec.telefonica.com^
 ||tag.shopping-feed.com^
@@ -18048,7 +18049,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||iwin.com/gtm.json$~third-party,xmlhttprequest
 @@||jabra.com/api/Analytics/$xmlhttprequest,domain=jabra.com
 @@||jbj.co.uk^*/analytics.js$script,~third-party
-@@||js.hs-scripts.com^$script,domain=insider-inc.com
 @@||jsrdn.com/s/cs.js$domain=distro.tv
 @@||jwpcdn.com/player/plugins/googima/*/googima.js$script,domain=ladbible.com
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kYHK1h9Ut+ZXsDgfJXM61g
-! Version: 202101300240
+! Checksum: 6BC1xTTkha6ZjFK4cPYl1g
+! Version: 202101310220
 ! Title: EasyList
-! Last modified: 30 Jan 2021 02:40 UTC
+! Last modified: 31 Jan 2021 02:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -24,7 +24,6 @@
 &ad_keyword=
 &ad_network_
 &ad_number=
-&ad_revenue=
 &ad_slot=
 &ad_sub=
 &ad_time=
@@ -21782,6 +21781,7 @@ _popunder+$popup
 ##.adside
 ##.adside-box-index
 ##.adside-box-single
+##.adside_box
 ##.adsidebar
 ##.adsidebox
 ##.adsider
@@ -22924,6 +22924,7 @@ _popunder+$popup
 ##.area_ad03
 ##.area_ad07
 ##.area_ad09
+##.area_ad2
 ##.aroundAdUnit
 ##.artAd
 ##.artAdInner
@@ -26365,6 +26366,7 @@ _popunder+$popup
 ##.m-sponsored
 ##.m4-adsbygoogle
 ##.mTopAd
+##.m_ad
 ##.m_ad1
 ##.m_ad300
 ##.m_banner_ads
@@ -31430,6 +31432,7 @@ weather.yahoo.com#@#.ad_slug_table
 huffingtonpost.ca,huffingtonpost.co.uk,huffingtonpost.in#@#.ad_spot
 bbs.newhua.com,starbuy.sk.data10.websupport.sk#@#.ad_text
 fastseeksite.com,njuskalo.hr#@#.ad_title
+kpanews.co.kr#@#.ad_top
 oxforddictionaries.com#@#.ad_trick_header
 oxforddictionaries.com#@#.ad_trick_left
 wg-gesucht.de#@#.ad_wrap
@@ -33099,6 +33102,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||batwaxwok.site^
 ||baudgassedtarot.com^
 ||bauthair.net^
+||bavftcgoapga.com^
 ||bayonetbikes.com^
 ||baysexthy.com^
 ||bb1acb0ea5ddb1fed8.com^
@@ -33600,6 +33604,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cddjdjwatndgja.com^
 ||cdn4ads.com^
 ||cdnads.com^
+||cdncontentdelivery.com^
 ||cdnmr.net^
 ||cdnvideo.mobi^
 ||cdooewrzvec.com^
@@ -53027,8 +53032,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cloudfront.net^*/sponsors/$domain=indycar.com|overwatchleague.com
 ||cnn.com/ad/
 ||cntr.lookmovie.io^
-||coincodex.com/o8po7iqs9guyte85/
-||coincodex.com^*/poposition.php?
+||coincodex.com^$subdocument,~third-party
 ||coingolive.com/assets/img/partners/
 ||collector.viki.io^
 ||constructionreviewonline.com^*banner
