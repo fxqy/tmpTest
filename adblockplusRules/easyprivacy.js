@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: OU5ejB4tlv2CrASpSXrbDw
-! Version: 202102030801
+! Checksum: +mHzQs/SL1Ef4w3A1aIxeQ
+! Version: 202102040501
 ! Title: EasyPrivacy
-! Last modified: 03 Feb 2021 08:01 UTC
+! Last modified: 04 Feb 2021 05:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4038,6 +4038,7 @@
 /stat_visits.
 /stat_vue.php?
 /stataffs/track.php?
+/statblog/pws.php?
 /statcapture.
 /StatCms/ViewCount?
 /statcollector.
@@ -4773,6 +4774,7 @@
 /trk.php?
 /trk/p.gif?
 /trk2.*/open?$image
+/trk?t=$image
 /trk_tb.
 /trk_zbo.
 /trkga.
@@ -7180,8 +7182,6 @@ _mongo_stats/
 ||marinsm.com^$third-party
 ||market2lead.com^$third-party
 ||marketizator.com^$third-party
-||marketo.com^$third-party
-||marketo.net^$third-party
 ||marketperf.com^$third-party
 ||marketshot.com^$third-party
 ||marketshot.fr^$third-party
@@ -11551,6 +11551,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mtvnservices.com/aria/projectX/
 ||mtvnservices.com/aria/uuid.html
 ||mtvnservices.com/metrics/
+||munchkin.marketo.net^
 ||murdoog.com^*/Pixel/$image
 ||museter.com/track.php?
 ||musvc2.net/e/c?
@@ -13396,6 +13397,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||top.zp.ua/counter/
 ! Vietnamese
 ||analytics.yomedia.vn^
+||f-emc.ngsp.gov.vn^
 ||fpt.shop/fa_tracking.js
 ||tracking.aita.gov.vn^
 !-----------------Individual tracking systems-----------------!
@@ -14634,6 +14636,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.cnn.com^
 ||metrics.ee.co.uk^
 ||metrics.extremetech.com^
+||metrics.slite.com^
 ||metrics.ted.com^
 ||metrics.washingtonpost.com^
 ||metro.co.uk/js/ga-
@@ -18069,11 +18072,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||live.bbc.co.uk^*/comscore.js$script,~third-party
 @@||logging.apache.org^$domain=apache.org
 @@||lowesgiftcardbonus.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
-@@||marketo.com/index.php/$script,subdocument,xmlhttprequest
-@@||marketo.com/js/forms2/$script,stylesheet
-@@||marketo.com/jsloader/*/loader.php.js$script
-@@||marketo.com/mkto/$script,stylesheet,subdocument,xmlhttprequest
-@@||marketo.com^$script,stylesheet,subdocument,domain=awscloud.com
 @@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com|ibanez.com
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
 @@||maxmind.com^*/geoip2.js$domain=boostedboards.com|donorschoose.org|elgato.com|fallout4.com|filld.com|ibanez.com|metronews.ca|mtv.com.lb|runningheroes.com|teslamotors.com
@@ -18094,7 +18092,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||mpsnare.iesnare.com/snare.js$domain=citi.com|citibank.com|enmasse.com|login.skype.com|vitacost.com
 @@||mpsnare.iesnare.com/wu/snare.js$domain=westernunion.com
 @@||msecnd.net/scripts/jsll-$script,domain=office.com|sharepoint.com|teams.microsoft.com
-@@||munchkin.marketo.net/munchkin.js
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com|greentoe.com
 @@||mxpnl.com^$domain=mixpanel.com
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
