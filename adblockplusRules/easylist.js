@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sVktTi9WdnSjLtW7PY7ztA
-! Version: 202102040500
+! Checksum: hRN+wd13fSywehnn2/rnCg
+! Version: 202102050230
 ! Title: EasyList
-! Last modified: 04 Feb 2021 05:00 UTC
+! Last modified: 05 Feb 2021 02:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7132,7 +7132,7 @@
 /webads/*
 /webads_
 /webadserver.
-/webadvert.
+/webadvert.$domain=~webadvert.ru
 /webadvert/*
 /webadvert3/*
 /webadverts/*
@@ -10487,6 +10487,7 @@ _popunder+$popup
 ###adBTF300x250
 ###adBTF300x250IC
 ###adBadges
+###adBanner
 ###adBanner1
 ###adBanner10
 ###adBanner120x600
@@ -20556,6 +20557,7 @@ _popunder+$popup
 ##.ad_v300
 ##.ad_vertisement
 ##.ad_viewtop
+##.ad_w300h450
 ##.ad_w300i
 ##.ad_w_us_a300
 ##.ad_warn
@@ -25704,6 +25706,7 @@ _popunder+$popup
 ##.html-block-ads
 ##.html-component-ad-filler
 ##.html5-ad-progress-list
+##.hw-ad--frTop
 ##.hwg-row-ad
 ##.hyad
 ##.hype_adrotate_widget
@@ -31506,6 +31509,7 @@ wg-gesucht.de#@#.adslot_blurred
 cutepdf-editor.com#@#.adtable
 absolute.com#@#.adtile
 smilelocal.com#@#.adtop
+brandexperience-group.com#@#.adv-banner
 dobro.systems#@#.adv-box
 dobro.systems#@#.adv-list
 promodj.com#@#.adv300
@@ -35297,7 +35301,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||fifteenprefixselfemployed.com^
 ||filamentrectificationsetback.com^
 ||fimpromote.club^
-||finchtechs.com^
 ||findicaterperty.site^
 ||fingahvf.top^
 ||fingerous.club^
@@ -45117,6 +45120,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||filetarget.net^$third-party
 ||filterycreasona.info^$third-party
 ||fimserve.com^$third-party
+||finchtechs.com^$third-party
 ||find-my-great-life.com^$third-party
 ||findbetterresults.com^$third-party
 ||findepended.com^$third-party
@@ -55450,7 +55454,7 @@ chat-avenue.com##.adnoyer_log
 flightglobal.com##.adp
 vice.com##.adph
 iamwire.com##.adr
-1sale.com,7billionworld.com,9jaflaver.com,achieveronline.co.za,browardpalmbeach.com,canstarblue.co.nz,chordfrenzy.com,climatechangenews.com,cryptonomist.ch,dallasobserver.com,dummies.com,energyforecastonline.co.za,eventcinemas.co.nz,flashx.tv,furaffinity.net,geo.tv,govtrack.us,gramfeed.com,houstonpress.com,iamichelin.co.uk,idiva.com,indiatimes.com,marinetraffic.com,mb.com.ph,mehrnews.com,meta-calculator.com,miaminewtimes.com,mini-ielts.com,miningprospectus.co.za,mugshots.com,myfitnesspal.com,mypaper.sg,nativeplanet.com,nbc.na,news.nom.co,nsfwyoutube.com,phoenixnewtimes.com,roadaheadonline.co.za,russia-insider.com,savevideo.me,sddt.com,servicepublication.co.za,sgcarmart.com,shipyearonline.co.za,stars-portraits.com,straitstimes.com,strawpoll.me,tass.ru,tcm.com,tech2.com,tehrantimes.com,thecatholicuniverse.com,thedailysheeple.com,thejakartapost.com,thelakewoodscoop.com,themalaysianinsider.com,thenews.com.pk,theprojectmanager.co.za,thestar.com.my,viamichelin.com,viamichelin.ie,vidstreaming.io,wallpaper.com,westword.com,y8.com,yummy.ph##.ads
+1sale.com,7billionworld.com,9jaflaver.com,achieveronline.co.za,browardpalmbeach.com,canstarblue.co.nz,chordfrenzy.com,climatechangenews.com,cryptonomist.ch,dallasobserver.com,dummies.com,energyforecastonline.co.za,eventcinemas.co.nz,flashx.tv,furaffinity.net,geo.tv,govtrack.us,gramfeed.com,houstonpress.com,iamichelin.co.uk,idiva.com,indiatimes.com,knowyourmeme.com,marinetraffic.com,mb.com.ph,mehrnews.com,meta-calculator.com,miaminewtimes.com,mini-ielts.com,miningprospectus.co.za,mugshots.com,myfitnesspal.com,mypaper.sg,nativeplanet.com,nbc.na,news.nom.co,nsfwyoutube.com,phoenixnewtimes.com,roadaheadonline.co.za,russia-insider.com,savevideo.me,sddt.com,servicepublication.co.za,sgcarmart.com,shipyearonline.co.za,stars-portraits.com,straitstimes.com,strawpoll.me,tass.ru,tcm.com,tech2.com,tehrantimes.com,thecatholicuniverse.com,thedailysheeple.com,thejakartapost.com,thelakewoodscoop.com,themalaysianinsider.com,thenews.com.pk,theprojectmanager.co.za,thestar.com.my,viamichelin.com,viamichelin.ie,vidstreaming.io,wallpaper.com,westword.com,y8.com,yummy.ph##.ads
 roblox.com,spotify.com##.ads-container
 gantdaily.com##.ads-wrapper
 giveawayoftheday.com##.ads_wrap
@@ -56753,6 +56757,7 @@ steroid.com##[href^="/out.php"]
 gerweck.net##[href^="https://affiliates.audiobooks.com/"]
 coingolive.com##[href^="https://bitpreco.com/"]
 coingolive.com##[href^="https://coinext.com.br/"]
+libtorrent.org##[href^="https://go.nordvpn.net/"]
 thehackernews.com##[href^="https://go.thn.li/"]
 headfonics.com##[href^="https://headfonics.com/linkout/"]
 imagetwist.com##[href^="https://imagetwist.com/pxt/"]
@@ -56767,6 +56772,7 @@ nwanime.tv##[href^="https://www.nutaku.net/signup/landing/"]
 ownedcore.com##[href^="https://www.ownedcore.com/forums/b.php"]
 porngames.club##[href^="https://www.porngames.club/friends/out.php"]
 bikeroar.com##[href^="https://www.roaradventures.com/"]
+upload.ee##[href^="https://www.upload.ee/click.php"]
 noypigeeks.com##[href^="https://www.vivo.com/"]
 monova.org##[onclick] > [target="_blank"]
 monova.org##[onclick] > a[class]
