@@ -6,15 +6,32 @@
 		<!-- <script type="text/javascript" src="./js/**.js"></script> -->
 	</head>
 	<body>
-
 	<p id="demo"></p>
 	<button onclick="myfun()">点我</button>
+    <hr style="background-color:#ddd;height: 1px;width:100%;border: none;"/>
+    
+    <p id="demo">
+        <textarea id="cttxt" style="resize:none;width:49%;height:40px;margin-top:5px;line-height:40px;font-size:20px;" placeholder="text"></textarea>
+        <textarea id="ctmtx" style="resize:none;width:49%;height:40px;margin-top:5px;line-height:40px;font-size:20px;" placeholder="timeText"></textarea>
+    </p>
+	<button onclick="currtm()">Current</button><button onclick="cvt2tm()" style="margin-left:5px;">>>></button><button onclick="cvtm2t()" style="margin-left:5px;"><<<</button>
+    <hr style="background-color:#ddd;height: 1px;width:100%;border: none;"/>
+    
 	<p id="demo1"></p>
     <button onclick="genMac()">genMac</button>
+    <hr style="background-color:#ddd;height: 1px;width:100%;border: none;"/>
+    
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <button onclick="genMac1()">genMac1</button>
+    <hr style="background-color:#ddd;height: 1px;width:100%;border: none;"/>
+    
 	<script>
+        var $Zstr="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 		window.onload=function(){
             myfun();
 			genMac();
+            genMac1();
             
             var arr=str2arr("qmzZPA的风格的士速递防守打高合金钢猴急≈≡≠＝﹦≒≌≤≥＜⅞¾⅔■￠▧✔￠￡￥₱₰№〒〓¿");
             console.log(arr);
@@ -48,6 +65,44 @@
 			console.log(dcpt(estr,"PasswordText111"));
 
 		}
+        function currtm(){
+            var a = document.getElementById("cttxt");
+            var b = document.getElementById("ctmtx");
+            var dt = new Date();
+            dt.setMilliseconds(0);
+            a.value=ecd2Str(dt.getTime(),$Zstr);
+            cvt2tm();
+        }
+        function cvt2tm(){
+            var a = document.getElementById("cttxt");
+            var b = document.getElementById("ctmtx");
+            var c=dcd2Num(a.value,0,$Zstr);
+            var dt=new Date();
+            dt.setTime(c);
+            dt.setMilliseconds(0);
+            b.value=dt.getFullYear()+"-"+pzero(dt.getMonth()+1)+"-"+pzero(dt.getDate())+" "+pzero(dt.getHours())+":"+pzero(dt.getMinutes())+":"+pzero(dt.getSeconds());
+        }        
+        function cvtm2t(){
+            var a = document.getElementById("cttxt");
+            var b = document.getElementById("ctmtx");
+            var reg = new RegExp("(\\d\\d\\d\\d)-(\\d\\d)-(\\d\\d) (\\d\\d):(\\d\\d):(\\d\\d)","g");
+            var rzt = reg.exec(b.value);
+            var dt=new Date();
+            dt.setFullYear(parseInt(rzt[1]));
+            dt.setMonth(parseInt(rzt[2])-1);
+            dt.setDate(parseInt(rzt[3]));
+            dt.setHours(parseInt(rzt[4]));
+            dt.setMinutes(parseInt(rzt[5]));
+            dt.setSeconds(parseInt(rzt[6]));
+            dt.setMilliseconds(0);
+            a.value=ecd2Str(dt.getTime(),$Zstr);
+        }
+        
+        function pzero(nm){
+            nm=""+nm;
+            if(nm.length<2)return "0"+nm;
+            return nm;
+        }
 		/**
 		*Encryption
 		* s string
@@ -140,8 +195,11 @@
 			return s;
 		}
 		
-		function getRdmMac(sep){
-			var adrArray = [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F" ];
+		function getRdmMac(sep,bol){
+			var arr = [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F" ];
+            if(bol){
+                arr[10]='a';arr[11]='b';arr[12]='c';arr[13]='d';arr[14]='e';arr[15]='f';
+            }
 			var adrStr = "";
 			for(var i=0;i<12;i++){
 			   var indx;
@@ -151,8 +209,8 @@
 				   var sarr=[ 0, 2, 4, 6, 8, 10, 12, 14 ];
 				   indx=sarr[parseInt(Math.random()*8)]; 
 			   }
-			   if(i>0&&i%2==0)adrStr+=sep?sep:"-";
-			   adrStr+=adrArray[indx];
+			   if(i>0&&i%2==0)adrStr+=sep;
+			   adrStr+=arr[indx];
 			}
 			return adrStr
 		}
@@ -166,14 +224,21 @@
 		
 		function genMac(){
 			var str="";
-			var str1="";
-			for(var i=0;i<20;i++){
-				str+=(i>0?"\n":"")+getRdmMac();
-				str1+="<br/>"+getRdmMac();
+			for(var i=0;i<10;i++){
+				str+="<br/>"+getRdmMac("-");
 			}
-            document.getElementById("demo1").innerHTML=str1;
-			//console.log(str);
+            document.getElementById("demo1").innerHTML=str;
+
 			
+		}
+        
+        function genMac1(){
+			var str="";
+			for(var i=0;i<10;i++){
+                str+="<br/>ifconfig wlan0 hw ether "+getRdmMac("",1);
+			}
+            document.getElementById("demo3").innerHTML="ifconfig -a<br/>ifconfig wlan0 down <br/>"+str+"<br/><br/>ifconfig wlan0 up<br/>";
+
 		}
 
 		function str2arr(str){
