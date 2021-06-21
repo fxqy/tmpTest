@@ -155,8 +155,8 @@ function initEvents(){
         _$G("qrcode").innerHTML="";
 		var qrcode = new QRCode(document.getElementById("qrcode"), {
             text: _$G("qrcode_txts").value,
-            width: 500,
-            height: 500,
+            width: 600,
+            height: 600,
             colorDark : "#000000",
             colorLight : "#ffffff",
             correctLevel : QRCode.CorrectLevel.H
