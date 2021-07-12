@@ -1,4 +1,4 @@
-﻿window.onload=function(){
+window.onload=function(){
 	initTabs();
 	initEvents();
 };
@@ -18,7 +18,7 @@ function initTabs(){
 						im.className="mtabb mtab_tit";
 						_$G("tabctt_"+im.id).style.display="block";
 					}
-				}	
+				}
 			}
 		}
 	}
@@ -192,13 +192,13 @@ function initEvents(){
                     }
                 }while(result!=null)
                 str+="\n]"
-            
+
                 txtv.value=str;
-                
+
                 return true;
             }
         });
-        
+
 	};
 }
 
