@@ -372,12 +372,12 @@ function krct(s,l){
 function ab2str(u,f) {
    var b = new Blob([u]);
    var r = new FileReader();
-    r.readAsText(b, 'utf-8');
+    r.readAsText(b, 'UTF-8');
     r.onload = function (){if(f)f.call(null,r.result)}
 }
 
 function str2ab(s,f) {
-    var b = new Blob([s],{type:'text/plain'});
+    var b = new Blob([s],{type:'text/plain,charset=UTF-8'});
     var r = new FileReader();
     r.readAsArrayBuffer(b);
     r.onload = function (){if(f)f.call(null,r.result)}
