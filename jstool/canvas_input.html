@@ -1,57 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head> 
-<meta charset="utf-8"> 
-<title>canvas input test</title> 
+<head>
+	<meta charset="UTF-8">
+	<title>canvas input test</title> 
 </head>
 <body>
+	<canvas id="my_canvas" style="position:fixed;top:0px;left:0px;border:0px solid #c3c3c3;background-color:#ddd;">
+	not support HTML5 canvas
+	</canvas>
+	<input id="my_input" type="text" style="position:fixed;width:1px;height:1px;border:0px solid #fff;padding:0px;opacity:0;"></input>
 
-<canvas id="my_canvas" style="position:fixed;top:0px;left:0px;border:0px solid #c3c3c3;background-color:#ddd;">
-not support HTML5 canvas
-</canvas>
-<input id="my_input" type="text" style="position:fixed;width:1px;height:1px;border:0px solid #fff;padding:0px;opacity:0;"></input>
+	<script>
 
-<script>
+	function on_ipt_input(event){
+		//console.log(event.data);
+		console.log(this.value);
+	}
 
-function on_ipt_input(event){
-	//console.log(event.data);
-	console.log(this.value);
-}
+	function on_canvas_mousedown(event){
+		var ipt = document.getElementById("my_input");
+		ipt.style.left = event.clientX + "px";
+		ipt.style.top = event.clientY + "px";
+		ipt.focus();
+	}
 
-function on_canvas_mousedown(event){
-	var ipt = document.getElementById("my_input");
-	ipt.style.left = event.clientX + "px";
-	ipt.style.top = event.clientY + "px";
-	ipt.focus();
-}
+	function set_canvas_size(){
+		var ww = window.innerWidth;
+		var wh = window.innerHeight;
+		var canv=document.getElementById("my_canvas");
+		canv.width = ww - 0;
+		canv.height = wh - 0;
+	}
 
-function set_canvas_size(){
-	var ww = window.innerWidth;
-	var wh = window.innerHeight;
-	var canv=document.getElementById("my_canvas");
-	canv.width = ww - 0;
-	canv.height = wh - 0;
-}
+	window.onload = function(){
+		set_canvas_size();
+		
+		var ipt=document.getElementById("my_input");
+		ipt.addEventListener("input", on_ipt_input);
+		
+		var canv=document.getElementById("my_canvas");
+		canv.addEventListener("mousedown", on_canvas_mousedown);
+		
+		var ctx=canv.getContext("2d");
+		ctx.fillStyle="#FF5500";
+		ctx.fillRect(0,0,150,75);
+	}
 
-window.onload = function(){
-	set_canvas_size();
-	
-	var ipt=document.getElementById("my_input");
-	ipt.addEventListener("input", on_ipt_input);
-	
-	var canv=document.getElementById("my_canvas");
-	canv.addEventListener("mousedown", on_canvas_mousedown);
-	
-	var ctx=canv.getContext("2d");
-	ctx.fillStyle="#FF5500";
-	ctx.fillRect(0,0,150,75);
-}
+	window.onresize = function(){
+		set_canvas_size();
+	}
 
-window.onresize = function(){
-	set_canvas_size();
-}
-
-</script>
+	</script>
 
 </body>
+
 </html>
