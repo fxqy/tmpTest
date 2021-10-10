@@ -751,7 +751,7 @@
 		/**文件导出、导入**/
 		function exportDataF(){
 			var exstr=getExpStr();
-			var b = new Blob([exstr],{type:'text/plain,charset=UTF-8'});
+			var b = new Blob([exstr],{type:'text/plain;charset=utf-8'});
 			var ta = $C("a");
 			ta.download = "D"+time2Str()+".txt";
 			ta.href = URL.createObjectURL(b);
@@ -769,7 +769,7 @@
 			tf.onchange=function(){
 				var rd = new FileReader();
 				var fl = this.files[0];
-				rd.readAsText(fl, 'UTF-8');
+				rd.readAsText(fl, 'utf-8');
 				rd.onload = function (e) {
 					importDataA(e.target.result);
 					document.body.removeChild(tf);
