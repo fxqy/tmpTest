@@ -18,7 +18,7 @@
     <hr style="background-color:#ddd;height: 1px;width:100%;border: none;"/>
     
 	<p id="demo1"></p>
-    <button onclick="genMac()">genMac</button>
+    <input id="in-genmac" type="text" style="width:20px;" onkeyup="if(this.value.length>1)this.value='';"/><button onclick="genMac()">genMac</button>
     <hr style="background-color:#ddd;height: 1px;width:100%;border: none;"/>
     
     <p id="demo2"></p>
@@ -224,8 +224,9 @@
 		
 		function genMac(){
 			var str="";
+			var spt = document.getElementById("in-genmac").value;
 			for(var i=0;i<10;i++){
-				str+="<br/>"+getRdmMac("-");
+				str+="<br/>"+getRdmMac(spt?spt:"-");
 			}
             document.getElementById("demo1").innerHTML=str;
 
