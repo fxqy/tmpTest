@@ -89,7 +89,7 @@ function initEvents(){
             fun1: function(mbdy){
                 var ecdpwd=_$Q("#ecdcrptPwd",mbdy).value;
                 var edtxt=_$G("edcpt_txt");
-				dec64("vrWlM9eR7oDBzqj-ddWXTg4qks4Bkmz3asajT-q0Gdm8zYDwTAqqaV", krct(ecdpwd),function(res){
+				dec64("vrWlMomuJA5776FPDmXYs5RqdmO9PdIEazj6yAubS65IGYX6doWPSK", krct(ecdpwd),function(res){
 					edtxt.value=res;
 				});
                 return true;
