@@ -165,6 +165,7 @@ function tipCase(option){
 		mcov.style.display="block";
 		mcov.style.width=pgw+"px";
 		mcov.style.height=pgh+"px";
+
 	}
 	_$A(mtbox,mctt);
 	_$A(mctt,document.body);
@@ -182,7 +183,11 @@ function tipCase(option){
 	var cls=function(){_$FadeOut({ele:mctt,afun:function(){if(_$Ava(mctt.parentNode))mctt.outerHTML="";}});
 	if(mcov)_$FadeOut({ele:mcov,from:70,afun:function(){if(_$Ava(mcov.parentNode))mcov.outerHTML="";}});if(option.closed)option.closed(eid);}
 	if(_$Null(option.abs))window.setTimeout(cls,option.period);
-	else{return {dom:mctt,close:cls};}
+	else{
+        if(mcov)mcov.onclick=function(){cls();};
+        return {dom:mctt,close:cls};
+    }
+
 }
 /**
 *option{

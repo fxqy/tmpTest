@@ -175,7 +175,7 @@ function initEvents(){
                 tipCase({msg:"确定"});
 				//return true;
 			},closed: function(){
-				tipCase({msg:"FROM: "+this.innerHTML,cover:1});
+				tipCase({msg:"FROM: "+this.innerHTML,cover:1,abs: 1});
 			}
 		});
 	};
