@@ -1,0 +1,20 @@
+﻿{
+	"name":"VoiceHelper",
+	"version":"1.0.0",
+	"manifest_version":2,
+	"description":"Email:mymbox@126.com",
+	"icons":{"16":"imgs/icon48.png","48":"imgs/icon48.png","128":"imgs/icon48.png"},
+	"permissions":["management","contextMenus","tabs","downloads","*://*/*","webRequest","webRequestBlocking"],
+	"browser_action":{"default_icon":"imgs/icon48.png","default_title":"VoiceHelper","default_popup":"popup.html"},
+	"options_ui":{"page": "popup.html","chrome_style": true},
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+	"background":{
+		"scripts":["js/tools.js","js/background.js"]
+	},
+	"content_scripts": [{
+		"all_frames": false,
+		"js": [ "js/tools.js", "js/content.js" ],
+		"matches": [ "*://ai.aliyun.com/nls/tts/*" ],
+		"run_at": "document_end"
+	}]
+}
