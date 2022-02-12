@@ -5,7 +5,8 @@ window.onload=function(){
 
 function testbox1(){
 	$BoxCase({
-		suffix:12,
+		suffix:11,
+		maxWidth: 360,
 		titleText:"提示",
 		content:"<p style='padding:10px;'>西北地区东部至江南等地将出现大范围雨雪天气</p>",
 		btns:["确定","忽略","取消"],
@@ -204,7 +205,7 @@ function $AlertCase(msg) {
 	$BoxCase({
 		suffix : "_alertCase",
 		headColor : "#f5f5f5",
-		maxWidth: 366,
+		maxWidth: 300,
 		titleText : "提示",
 		content : msg,
 		btns : ["确定"],
@@ -218,7 +219,7 @@ function $ConfirmCase(msg, funa, funb) {
 	$BoxCase({
 		suffix : "_confirmCase",
 		headColor : "#f5f5f5",
-		maxWidth: 466,
+		maxWidth: 320,
 		titleText : "提示",
 		content : msg,
 		btns : ["确定","取消"],
