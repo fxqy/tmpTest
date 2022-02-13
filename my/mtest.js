@@ -20,7 +20,7 @@ function testbox1(){
 }
 
 function testbox2(){
-	var txa=$Ca("textarea", {"resize":"none","width":"99%","height":"200px", border:"1px solid #fff"}, {"id":"testbox2_txa"});
+	var txa=$Ca("textarea", {"resize":"none","width":"98%","height":"200px", border:"1px solid #fff"}, {"id":"testbox2_txa"});
 	txa.value="西北地区东部至江南等地将出现大范围雨雪天气,西北地区东部至江南等地将出现大范围雨雪天气,西北地区东部至江南等地将出现大范围雨雪天气,西北地区东部至江南等地将出现大范围雨雪天气,西北地区东部至江南等地将出现大范围雨雪天气"
 	$BoxCase({
 		suffix:12,
@@ -54,7 +54,7 @@ function testtip2(){
 }
 
 function testtip3(){
-	var txa=$Ca("textarea", {"resize":"none","width":"99%","height":"200px", "border":"1px solid #555", "backgroundColor":"black","color":"#ddd"}, {"id":"testbox2_txa"});
+	var txa=$Ca("textarea", {"resize":"none","width":"98%","height":"200px", "border":"1px solid #555", "backgroundColor":"black","color":"#ddd"}, {"id":"testbox2_txa"});
 	txa.value="呵呵，我现在的神智，仅仅只是一缕残魂，封印千年，已是极限，若非心中执念尚存，或许早便是迷失在了那异魔气的侵蚀之下。银光人影笑了笑，声音之中倒是异常的洒脱，想来能够从那种侵蚀状态中脱离出来，已是让得他极为的满足。不管怎样，我都是死去千年之人，如今能够恢复神智，即便只是短暂的霎那，已是心满意足，何必再奢想什么"
     $TipCase({msg:txa,cover:1,abs: 1});
 }
@@ -461,7 +461,6 @@ function $Mcss(){
 			text-shadow: 0px 0px 1px #686868, 0px 1px 1px #ccc, 0px 2px 1px #d6d6d6, 0px 3px 1px #ddd, 0px 3px 3px #c5c5c5;
 		}
 		.cfmBox_closer {
-			background-color: #efefef;
 			display:inline-block;
 			float:right;
 			line-height:20px;
@@ -469,12 +468,12 @@ function $Mcss(){
 			text-decoration:none;
 			font-weight:bold;
 			font-size:18px;
-			color:grey;
+			color:#eee;
 			opacity:0.8;
 			text-shadow: 0px 0px 1px #686868, 0px 1px 1px #ccc, 0px 2px 1px #d6d6d6, 0px 3px 1px #ddd, 0px 3px 3px #c5c5c5;
 		}
 		.cfmBox_closer:hover {
-			color:red;
+			color:#FF4D41;
 			opacity:1;
 		}
 		.cfmBox_body{
