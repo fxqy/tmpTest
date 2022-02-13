@@ -97,7 +97,7 @@ function $BoxCase(options){
 		var bsub=$Ca("div",0,{"id":"cfmBox_sub" + options.suffix,"class":"cfmBox_sub"});
 		holder=$Ca("div",0,{"id":"cfmBox" + options.suffix,"class":"cfmBox"});
 		mboxtit=$Ca("div",0,{"id":"cfmBox_header","class":"cfmBox_header"});
-		mboxclr=$Ca("a",0,{"id":"cfmBox_closer","class":"cfmBox_closer","href":"javaScript:void(0)"},"&times;");
+		mboxclr=$Ca("a",0,{"id":"cfmBox_closer","class":"cfmBox_closer"},"&times;");
 		tittxt=$Ca("span",0,{"id":"cfmboxTit"});
 		mboxbod=$Ca("div",0,{"id":"cfmBox_body","class":"cfmBox_body"});
 		mbox_fter=$Ca("div",0,{"id":"cfmBox_footer","class":"cfmBox_footer"});
@@ -120,7 +120,7 @@ function $BoxCase(options){
 				if($Null(itm)){
 					continue;
 				}
-				var btn=$Ca("a",0,{"id":"cfmBoxbtn"+btni,"class":"btn","href":"javaScript:void(0)"},itm);
+				var btn=$Ca("a",0,{"id":"cfmBoxbtn"+btni,"class":"btn"},itm);
 				var btni = i+1;
 				if(i==0){
 					btn.className="btn btn-green";
