@@ -401,8 +401,8 @@ function $Mcss(){
 		.cfmbackLayer {
 			display:block;
 			position:fixed;
-			background:#222;
-			opacity:0.5;
+			background:#eee;
+			opacity:0.7;
 			width:100%;
 			height:100%;
 			top: 0;
@@ -434,10 +434,10 @@ function $Mcss(){
 			border-radius: 6px;
 			outline: 0;
 			border: 0px solid #999;
-			border: 0px solid rgba(0,0,0,0.3);
-			box-shadow: 0 0 2px #ddd;
+			border: 1px solid rgba(200,200,220,0.3);
 			background-clip: padding-box;
 			box-sizing: content-box;
+			box-shadow: 0 0 10px rgb(0,0,0,0.3);
 		}
 		.cfmBox_header {
 			padding:8px;
@@ -510,6 +510,7 @@ function $Mcss(){
 			border-radius:3px;
 			font-family:Microsoft Yahei,Heiti,arial,helvetica,sans-serif,SimHei;
 			max-width:800px;
+			box-shadow: 0 0 10px rgb(0,0,0,0.9);
 		}
 		.disable-select{
 			user-select: none;
