@@ -89,7 +89,7 @@ function $StopBubble(e){if ( e && e.stopPropagation ){e.stopPropagation();}else{
 **/
 function $BoxCase(options){
 	var allholder, backLayer, mboxtit, mboxclr, tittxt, mboxbod, mbox_fter
-	var holder=$G("cfmBox" + options.suffix);//debugger;
+	var holder=$G("cfmBox" + options.suffix);
 	if ($Null(holder)) {
 		allholder=$Ca("div",{"zIndex":"9999"},{"id":"cfmAllHolder" + options.suffix,"class":"cfmBox_allhd"});
 		backLayer=$Ca("div",0,{"id":"cfmbackLayer" + options.suffix,"class":"cfmbackLayer"});
