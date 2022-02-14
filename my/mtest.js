@@ -292,6 +292,7 @@ function $Mcss(){
 			border-radius: 4px;
 			box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
 			font-family:Microsoft Yahei,Heiti,arial,helvetica,sans-serif,SimHei;
+			user-select:none;
 		}
 		.btn:hover {
 			-moz-opacity:0.7;
