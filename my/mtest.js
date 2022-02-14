@@ -10,12 +10,18 @@ function testbox1(){
 		titleText:"提示",
 		content:"<p style='padding:10px;'>西北地区东部至江南等地将出现大范围雨雪天气</p>",
 		btns:["确定","忽略","取消"],
-		btn1Fun:function(){
-			alert(2222222222222222);
+		btn1Fun: function (thiz, opt,indx){
+			console.log("--->btn click");
+			console.log(thiz);console.log(opt);console.log(indx);
+			console.log("btn click<---");
 			return 1;
 		},
-		btn2Class:" btn btn-blue"
-		
+		btn2Class:" btn btn-blue",
+		closed: function (thiz,opt,indx){
+			console.log("--->closed");
+			console.log(thiz);console.log(opt);console.log(indx);
+			console.log("closed<---");
+		}
 	});
 }
 
@@ -60,7 +66,6 @@ function testtip3(){
 }
 
 /**----------------------- comm -----------------------**/
-
 function $A(a, b){(b?b:document.body).appendChild(a);}
 function $B(a, b){b.parentNode.insertBefore(a, b);}
 function $C(a){return document.createElement(a);}
@@ -101,17 +106,9 @@ function $BoxCase(options){
 		tittxt=$Ca("span",0,{"id":"cfmboxTit"});
 		mboxbod=$Ca("div",0,{"id":"cfmBox_body","class":"cfmBox_body"});
 		mbox_fter=$Ca("div",0,{"id":"cfmBox_footer","class":"cfmBox_footer"});
-		
-		$A(allholder);
-		$A(backLayer, allholder);
-		$A(holder, bsub);
-		$A(bsub, bmain);
-		$A(bmain, allholder);
-		$A(mboxtit, holder);
-		$A(mboxbod, holder);
-		$A(mbox_fter, holder);
-		$A(mboxclr, mboxtit);
-		$A(tittxt, mboxtit);
+
+		$A(allholder);$A(backLayer, allholder);	$A(holder, bsub);$A(bsub, bmain);$A(bmain, allholder);
+		$A(mboxtit, holder);$A(mboxbod, holder);$A(mbox_fter, holder);$A(mboxclr, mboxtit);$A(tittxt, mboxtit);
 		var btnHdShow = false;
 		var blen=0;
 		if(options.btns&&(blen=options.btns.length)>0){
@@ -129,25 +126,27 @@ function $BoxCase(options){
 					btn.className=options["btn"+btni+"Class"];
 				}
 				btn.mnclick=options["btn"+btni+"Fun"];
+                btn.options=options;
+				btn.indx=btni;
 				btn.onclick = function() {
 					if(this.mnclick){
-						if (this.mnclick.call(this,mboxbod,holder)) {
-							$CloseBox(options.suffix);
-							if (options.closed) {
-								options.closed(options.suffix);
+						if (this.mnclick(this,this.options,this.indx)) {
+							$CloseBox(this.options.suffix);
+							if (this.options.closed) {
+								this.options.closed(this,this.options,this.indx);
 							}
 						}
 					}else{
-						$CloseBox(options.suffix);
-						if (options.closed) {
-							options.closed(options.suffix);
+						$CloseBox(this.options.suffix);
+						if (this.options.closed) {
+							this.options.closed(this,this.options,this.indx);
 						}
 					}
 				}
 				$A(btn, mbox_fter);
 				btnHdShow = true;
 			}
-			
+
 		}
 		if (btnHdShow) {
 			mbox_fter.style.display = "block";
@@ -177,25 +176,22 @@ function $BoxCase(options){
 			mboxbod.appendChild(options.content);
 		}
 	}
-	
+	mboxclr.options=options;
 	mboxclr.onclick = function(e) {
 		$StopBubble(e);
-		$CloseBox(options.suffix);
-		if (options.closed) {
-			options.closed(options.suffix);
+		$CloseBox(this.options.suffix);
+		if (this.options.closed) {
+			this.options.closed(this,this.options,0);
 		}
-
 	}
 	mboxclr.onmousedown =function(e){
 		$StopBubble(e);
-	}			
+	}
 	if(options.headColor){mboxtit.style.backgroundColor=options.headColor;mboxclr.style.backgroundColor=options.headColor;}
 	allholder.style.display = "table-cell";
 }
-
 function $CloseBox(suffix) {
-	if ($Null(suffix))
-		suffix = "";
+	if ($Null(suffix)) suffix = "";
 	var allholder=$G("cfmAllHolder" + suffix);
 	allholder.style.display = "none";
 	allholder.outerHTML = "";
