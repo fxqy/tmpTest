@@ -75,7 +75,7 @@ function initEvents(){
 		'<select id="pri_dtp" type="text" style="width:240px;height:24px;">'+
 			'<option value="lyjs">lyjs</option>'+
 			'<option value="neo" selected>neo</option>'+
-			'<option value="tmp" selected>tmp</option>'+
+			'<option value="tmp">tmp</option>'+
 		'</select>';
         panelCaseA({ width:360,title: '私有解密', content:ctt, btn1:"确定", btn2: "取消",
             fun1: function(mbdy){
