@@ -431,10 +431,10 @@ function $Mcss(){
 			border-radius: 6px;
 			outline: 0;
 			border: 0px solid #999;
-			border: 1px solid rgba(0,0,0,0.1);
+			border: 1px solid rgba(0,0,0,0.05);
 			background-clip: padding-box;
 			box-sizing: content-box;
-			box-shadow: 0 0 10px rgb(0,0,0,0.5);
+			box-shadow: 0 0 10px rgb(0,0,0,0.4);
 		}
 		.cfmBox_header {
 			padding:8px;
