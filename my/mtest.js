@@ -114,17 +114,10 @@ function $BoxCase(options){
 		if(options.btns&&(blen=options.btns.length)>0){
 			for(var i=0;i<blen;i++){
 				var itm = options.btns[i];
-				if($Null(itm)){
-					continue;
-				}
 				var btn=$Ca("a",0,{"id":"cfmBoxbtn"+btni,"class":"btn"},itm);
 				var btni = i+1;
-				if(i==0){
-					btn.className="btn btn-green";
-				}
-				if(options["btn"+btni+"Class"]){
-					btn.className=options["btn"+btni+"Class"];
-				}
+				if(i==0)btn.className="btn btn-green";
+				if(options["btn"+btni+"Class"])btn.className=options["btn"+btni+"Class"];
 				btn.mnclick=options["btn"+btni+"Fun"];
                 btn.options=options;
 				btn.indx=btni;
@@ -148,13 +141,10 @@ function $BoxCase(options){
 			}
 
 		}
-		if (btnHdShow) {
-			mbox_fter.style.display = "block";
-		}else{
-			mbox_fter.style.display = "none";
-		}
+		if (btnHdShow)mbox_fter.style.display = "block";
+		else mbox_fter.style.display = "none";
 
-	} else {
+	}else{
 		var ahdid="cfmAllHolder" + options.suffix;
 		allholder = $G(ahdid);
 		backLayer = $G("cfmbackLayer" + options.suffix);
@@ -163,26 +153,21 @@ function $BoxCase(options){
 		tittxt = $Q(ahdid+" #cfmboxTit");
 		mboxbod = $Q(ahdid+" #cfmBox_body");
 	}
-	if (options.maxWidth) {
+	if(options.maxWidth) {
 		holder.style.maxWidth = options.maxWidth+"px";
 	}
-	if (options.titleText) {
+	if(options.titleText) {
 		tittxt.innerHTML = options.titleText;
 	}
-	if (options.content) {
-		if("string"==typeof(options.content)){
-			mboxbod.innerHTML = options.content;
-		}else{
-			mboxbod.appendChild(options.content);
-		}
+	if(options.content) {
+		if("string"==typeof(options.content))mboxbod.innerHTML = options.content;
+		else mboxbod.appendChild(options.content);
 	}
 	mboxclr.options=options;
 	mboxclr.onclick = function(e) {
 		$StopBubble(e);
 		$CloseBox(this.options.suffix);
-		if (this.options.closed) {
-			this.options.closed(this,this.options,0);
-		}
+		if (this.options.closed) this.options.closed(this,this.options,0);
 	}
 	mboxclr.onmousedown =function(e){
 		$StopBubble(e);
@@ -196,7 +181,7 @@ function $CloseBox(suffix) {
 	allholder.style.display = "none";
 	allholder.outerHTML = "";
 
-};
+}
 function $AlertCase(msg) {
 	$BoxCase({
 		suffix : "_alertCase",
@@ -431,10 +416,10 @@ function $Mcss(){
 			border-radius: 6px;
 			outline: 0;
 			border: 0px solid #999;
-			border: 1px solid rgba(0,0,0,0.05);
+			border: 1px solid rgba(255,255,255,0.5);
 			background-clip: padding-box;
 			box-sizing: content-box;
-			box-shadow: 0 0 10px rgb(0,0,0,0.4);
+			box-shadow: 0 0 13px rgb(0,0,0,0.5);
 		}
 		.cfmBox_header {
 			padding:8px;
@@ -506,7 +491,8 @@ function $Mcss(){
 			border-radius:3px;
 			font-family:Microsoft Yahei,Heiti,arial,helvetica,sans-serif,SimHei;
 			max-width:800px;
-			box-shadow: 0 0 10px rgb(0,0,0,0.9);
+			border: 1px solid rgba(170,170,170,0.7);
+			box-shadow: 0 0 13px rgb(0,0,0,0.7);
 		}
 		.disable-select{
 			user-select: none;
