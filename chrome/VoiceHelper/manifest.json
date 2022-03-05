@@ -14,7 +14,7 @@
 	"content_scripts": [{
 		"all_frames": false,
 		"js": [ "js/tools.js", "js/content.js" ],
-		"matches": [ "*://ai.aliyun.com/nls/tts/*" ],
+		"matches": [ "*://*.ximalaya.com/album/*" ],
 		"run_at": "document_end"
 	}]
 }
