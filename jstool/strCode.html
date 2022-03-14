@@ -10,11 +10,18 @@
 	<button onclick="myfun()">点我</button>
     <hr style="background-color:#ddd;height: 1px;width:100%;border: none;"/>
     
-    <p id="demo">
+    <p id="demoa">
         <textarea id="cttxt" style="resize:none;width:49%;height:40px;margin-top:5px;line-height:40px;font-size:20px;" placeholder="text"></textarea>
         <textarea id="ctmtx" style="resize:none;width:49%;height:40px;margin-top:5px;line-height:40px;font-size:20px;" placeholder="timeText"></textarea>
     </p>
-	<button onclick="currtm()">Current</button><button onclick="cvt2tm()" style="margin-left:5px;">>>></button><button onclick="cvtm2t()" style="margin-left:5px;"><<<</button>
+	<button onclick="currtm(0)">Current</button><button onclick="cvt2tm(0)" style="margin-left:5px;">>>></button><button onclick="cvtm2t(0)" style="margin-left:5px;"><<<</button>
+    <hr style="background-color:#ddd;height: 1px;width:100%;border: none;"/>
+
+    <p id="demob">
+        <textarea id="shttxt" style="resize:none;width:49%;height:40px;margin-top:5px;line-height:40px;font-size:20px;" placeholder="text"></textarea>
+        <textarea id="shttme" style="resize:none;width:49%;height:40px;margin-top:5px;line-height:40px;font-size:20px;" placeholder="timeText"></textarea>
+    </p>
+	<button onclick="currtm(1)">Short</button><button onclick="cvt2tm(1)" style="margin-left:5px;">>>></button><button onclick="cvtm2t(1)" style="margin-left:5px;"><<<</button>
     <hr style="background-color:#ddd;height: 1px;width:100%;border: none;"/>
     
 	<p id="demo1"></p>
@@ -65,26 +72,32 @@
 			console.log(dcpt(estr,"PasswordText111"));
 
 		}
-        function currtm(){
-            var a = document.getElementById("cttxt");
-            var b = document.getElementById("ctmtx");
+        function currtm(typ){
+			var aid = typ?"shttxt":"cttxt";
+			var bid = typ?"shttme":"ctmtx";
+            var a = document.getElementById(aid);
+            var b = document.getElementById(bid);
             var dt = new Date();
             dt.setMilliseconds(0);
-            a.value=ecd2Str(dt.getTime(),$Zstr);
-            cvt2tm();
+            a.value=ecd2Str(typ?parseInt(dt.getTime()/1000):dt.getTime(),$Zstr);
+            cvt2tm(typ);
         }
-        function cvt2tm(){
-            var a = document.getElementById("cttxt");
-            var b = document.getElementById("ctmtx");
+        function cvt2tm(typ){
+			var aid = typ?"shttxt":"cttxt";
+			var bid = typ?"shttme":"ctmtx";
+            var a = document.getElementById(aid);
+            var b = document.getElementById(bid);
             var c=dcd2Num(a.value,0,$Zstr);
             var dt=new Date();
-            dt.setTime(c);
+            dt.setTime(typ?c*1000:c);
             dt.setMilliseconds(0);
             b.value=dt.getFullYear()+"-"+pzero(dt.getMonth()+1)+"-"+pzero(dt.getDate())+" "+pzero(dt.getHours())+":"+pzero(dt.getMinutes())+":"+pzero(dt.getSeconds());
         }        
-        function cvtm2t(){
-            var a = document.getElementById("cttxt");
-            var b = document.getElementById("ctmtx");
+        function cvtm2t(typ){
+			var aid = typ?"shttxt":"cttxt";
+			var bid = typ?"shttme":"ctmtx";
+            var a = document.getElementById(aid);
+            var b = document.getElementById(bid);
             var reg = new RegExp("(\\d\\d\\d\\d)-(\\d\\d)-(\\d\\d) (\\d\\d):(\\d\\d):(\\d\\d)","g");
             var rzt = reg.exec(b.value);
             var dt=new Date();
@@ -95,7 +108,7 @@
             dt.setMinutes(parseInt(rzt[5]));
             dt.setSeconds(parseInt(rzt[6]));
             dt.setMilliseconds(0);
-            a.value=ecd2Str(dt.getTime(),$Zstr);
+            a.value=ecd2Str(typ?parseInt(dt.getTime()/1000):dt.getTime(),$Zstr);
         }
         
         function pzero(nm){
