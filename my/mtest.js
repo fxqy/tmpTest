@@ -423,7 +423,7 @@ function $Mcss(){
 	}
 	.cfmBox_header {
 		padding:8px;
-		background-color: #efefef;
+		background-color: #f5f5f5;
 		border-bottom: 1px solid #CDCDCD;
 		border-top-left-radius:5px;
 		border-top-right-radius:5px;
