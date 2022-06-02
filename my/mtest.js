@@ -419,7 +419,7 @@ function $Mcss(){
 		border: 1px solid rgba(255,255,255,0.5);
 		background-clip: padding-box;
 		box-sizing: content-box;
-		box-shadow: 0 0 13px rgb(0,0,0,0.5);
+		box-shadow: 0 0 5px rgb(0,0,0,0.3);
 	}
 	.cfmBox_header {
 		padding:8px;
@@ -492,7 +492,7 @@ function $Mcss(){
 		font-family:Microsoft Yahei,Heiti,arial,helvetica,sans-serif,SimHei;
 		max-width:800px;
 		border: 1px solid rgba(170,170,170,0.7);
-		box-shadow: 0 0 13px rgb(0,0,0,0.7);
+		box-shadow: 0 0 5px rgb(0,0,0,0.5);
 	}
 	.disable-select{
 		user-select: none;
