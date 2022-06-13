@@ -231,7 +231,7 @@ function $TipCase(option){
 	mctt=$Ca("div",{"position":"relative","display":"inline-block","zIndex":"99999","maxWidth":"333px","width":"100%"},{"id":"mctt"+eid});
 	mctt.onclick =function(e){$StopBubble(e);}
 	if(option.cover){
-		mcov=$Ca("div",{"zIndex":"99999","display":"block","height":"100%","backgroundColor":"#fafafa","left":0,"top":0,"opacity":0.7},
+		mcov=$Ca("div",{"zIndex":"99999","display":"block","height":"100%","backgroundColor":"#fff","left":0,"top":0,"opacity":0.8},
 			{"id":"mcov"+eid,"class":"tipcase_bkLayer"});
 		$A(mcov,allholder);
 	}
@@ -383,8 +383,8 @@ function $Mcss(){
 	.cfmbackLayer {
 		display:block;
 		position:fixed;
-		background:#eee;
-		opacity:0.7;
+		background:#fff;
+		opacity:0.8;
 		width:100%;
 		height:100%;
 		top: 0;
