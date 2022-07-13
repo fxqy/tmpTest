@@ -73,6 +73,7 @@ function $Ca(a,b,c,d){var m=$C(a);if(b){$Ext(m.style,b);};if(c){for(var k in c){
 function $G(e){return document.getElementById(e);}
 function $Q(a){return document.querySelector(a);}
 function $Qa(a){return document.querySelectorAll(a);}
+function $R(a){a.parentNode.removeChild(a);}
 function $Ava(a){return a != null && typeof(a) != 'undefined';}
 function $Null(a){return !$Ava(a);}
 function $IsInt(str){var reg = new RegExp("^[1-9][0-9]*$");return reg.test(str);}
@@ -179,7 +180,7 @@ function $CloseBox(suffix) {
 	if ($Null(suffix)) suffix = "";
 	var allholder=$G("cfmAllHolder" + suffix);
 	allholder.style.display = "none";
-	allholder.outerHTML = "";
+    $R(allholder);
 
 }
 function $AlertCase(msg) {
@@ -246,7 +247,7 @@ function $TipCase(option){
 	$A(mtbox,mctt);$A(mctt, bsub);$A(bsub,bmain);$A(bmain,allholder);$A(allholder);
 	allholder.style.display="block";
 	if($Null(option.period))option.period=1500;
-	var cls=function(){allholder.outerHTML="";if(option.closed)option.closed(eid);};
+	var cls=function(){$R(allholder);if(option.closed)option.closed(eid);};
 	if(!option.abs)window.setTimeout(cls,option.period);
 	else bmain.onclick=cls;
 }
