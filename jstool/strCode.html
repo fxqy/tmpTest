@@ -35,6 +35,7 @@
     
 	<script>
         var $Zstr="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+        var $StarSc=dcd2Num("b0fxqy",0,$Zstr);
 		window.onload=function(){
             myfun();
 			genMac();
@@ -79,7 +80,7 @@
             var b = document.getElementById(bid);
             var dt = new Date();
             dt.setMilliseconds(0);
-            a.value=ecd2Str(typ?parseInt(dt.getTime()/1000):dt.getTime(),$Zstr);
+            a.value=ecd2Str(typ?parseInt(dt.getTime()/1000+$StarSc):dt.getTime(),$Zstr);
             cvt2tm(typ);
         }
         function cvt2tm(typ){
@@ -89,7 +90,7 @@
             var b = document.getElementById(bid);
             var c=dcd2Num(a.value,0,$Zstr);
             var dt=new Date();
-            dt.setTime(typ?c*1000:c);
+            dt.setTime(typ?((c-$StarSc)*1000):c);
             dt.setMilliseconds(0);
             b.value=dt.getFullYear()+"-"+pzero(dt.getMonth()+1)+"-"+pzero(dt.getDate())+" "+pzero(dt.getHours())+":"+pzero(dt.getMinutes())+":"+pzero(dt.getSeconds());
         }        
@@ -108,7 +109,7 @@
             dt.setMinutes(parseInt(rzt[5]));
             dt.setSeconds(parseInt(rzt[6]));
             dt.setMilliseconds(0);
-            a.value=ecd2Str(typ?parseInt(dt.getTime()/1000):dt.getTime(),$Zstr);
+            a.value=ecd2Str(typ?parseInt(dt.getTime()/1000+$StarSc):dt.getTime(),$Zstr);
         }
         
         function pzero(nm){
