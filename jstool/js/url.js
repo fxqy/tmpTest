@@ -499,9 +499,9 @@ function pri_data_fun(dtp){
 function spcl_data_fun(dtp){
 	var str="";
 	if("st"==dtp){
-		str="vrWlMoWnJJWG1oX77zz87dvnPMa4zq4PPp4Y72vDDqW7BJXDG6Z9HK";
+		str="vrWlM6qUGYXMdbS7T-DBz-DNDYdqDddlBXvoa5juzqXbsY48Jraizl";
 	}else if("lt"==dtp){
-		str="vrWlM9epa2Xa79jE1oG8sAZAsYyok-I4Sd5Laov0HA54PY4eSXaOkK";
+		str="vrWlM6qUGYXMdbS7T-DBz-DNDYdqDddlBXvoa5juzqXbsY48Jraizl";
 	}else if("go"==dtp){
 		str="vrWlM6aBymXja9Vokm4R1ruRzdxqvzSmHgWivMy6D2W1TJXnTJX91G";
 	}else if("gn"==dtp){
