@@ -417,7 +417,7 @@ function $Mcss(){
 		border-radius: 6px;
 		outline: 0;
 		border: 0px solid #999;
-		border: 1px solid rgba(255,255,255,0.5);
+		border: 1px solid rgba(255,255,255,1);
 		background-clip: padding-box;
 		box-sizing: content-box;
 		box-shadow: 0 0 7px rgb(0,0,0,0.3);
