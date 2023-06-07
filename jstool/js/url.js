@@ -177,7 +177,7 @@ function initEvents(){
 	};
 	_$G("tabc_btn3").onclick=function(){
 		var txtv=_$G("tabc_txts");
-        txtv.value=sha256_digest(txtv.value);
+        txtv.value=hex_sha256(txtv.value);
 	};
 	//4
 	_$G("tabd_btn1").onclick=function(){
