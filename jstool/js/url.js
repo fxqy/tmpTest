@@ -316,7 +316,7 @@ function pfxChar(s,l,n){
 }
 
 function aesEcpt(text,pwd){
-	var shp=sha256_digest(pwd);
+	var shp=hex_sha256(pwd);
 	var key = [];
 	var iv = [];
 	for(var i=16;i<48;i++){
@@ -331,7 +331,7 @@ function aesEcpt(text,pwd){
 	return encryptedHex;
 }
 function aesDcpt(text,pwd){
-	var shp=sha256_digest(pwd);
+	var shp=hex_sha256(pwd);
 	var key = [];
 	var iv = [];
 	for(var i=16;i<48;i++){
